@@ -1,0 +1,9 @@
+main()
+{
+/#
+	if ( GetDvar( #d"clientSideEffects" ) != "1" )
+	{
+	}
+#/
+
+}

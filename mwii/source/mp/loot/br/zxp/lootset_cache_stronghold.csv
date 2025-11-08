@@ -1,0 +1,6 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/zxp/lootset_root.csv,,,,
+reqAdd,plunder,2,3,,# require plunder
+reqAdd,weapon&[4],1,,,# chance for any item of higher quality
+reqAdd,brloot_zmb_stim,1,1,100,# ZXP Stim
+reqAdd,brloot_offhand_magsnap|brloot_super_hauntedbox,1,1,100,# Forced MagSnap or Haunted Box

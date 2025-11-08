@@ -1,0 +1,6 @@
+string,string,string,string
+inherit,mp/loot/br/delta/default/lootset_root.csv,,
+chance,point,50,#     % of non-clustered points that will be populated
+chance,cluster,50,#     % of clusters that will be populated
+chance,clusterSolo,10,#     % of clusters that will become invalid after spawning one item (with dependencies)
+reqAdd,brloot_armor_plate,8,

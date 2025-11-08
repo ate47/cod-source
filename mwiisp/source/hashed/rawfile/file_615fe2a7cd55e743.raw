@@ -1,0 +1,18 @@
+///////////////////////////////////////////////////////////////////////////
+//This file is generated from the Animation Blender tool
+///////////////////////////////////////////////////////////////////////////
+% force_cs_anim_index_match
+
+laswell_montage_1d: blendspace1d( range="0,81", blend_time="0",
+coords="48,81",
+value=[desiredspeed] ) loopsync complete
+{
+	slwalk: randomloop( blendtime=".75", restart="false", norepeat="true", seed=[animtime] )
+	{
+		civ_cas_walk01_8_female02
+		civ_cas_walk02_8_female02
+		civ_cas_walk05_8_female02
+	}
+		
+		civ_cas_fastwalk01_8_female02
+}

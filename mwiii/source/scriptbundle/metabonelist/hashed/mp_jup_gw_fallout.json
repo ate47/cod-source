@@ -1,0 +1,410 @@
+{
+    "#hash_23fbb724a3a976e8": {
+        "#hash_ded947577ba0ee4a": "zombie_deathworm",
+        "#hash_667ab99889e6c59f": "scripts/aitypes/zombie_deathworm/zombie_deathworm_metabones.gsc",
+        "#metabones": [
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "plate_bottom_armor_le",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.05,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "armor"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "plate_middle_armor_le",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.05,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "armor"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "plate_top_armor_le",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.05,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "armor"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "plate_bottom_armor_ri",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.05,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "armor"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "plate_middle_armor_ri",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.05,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "armor"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "plate_top_armor_ri",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.05,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.1
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "armor"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "gill_bottom_le",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.17,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.5
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "open"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#maxangle": 150,
+                        "#tagname": "j_tail_08",
+                        "#radius": 1
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "gill_bottom_ri",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.17,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.5
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "open"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#maxangle": 150,
+                        "#tagname": "j_tail_08",
+                        "#radius": 1
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "gill_middle_le",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.17,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.5
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "open"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#maxangle": 150,
+                        "#tagname": "j_tail_10",
+                        "#radius": 1
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "gill_middle_ri",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.17,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.5
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "open"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#maxangle": 150,
+                        "#tagname": "j_tail_10",
+                        "#radius": 1
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "gill_top_le",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.17,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.5
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "open"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#maxangle": 150,
+                        "#tagname": "j_tail_12",
+                        "#radius": 1
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "gill_top_ri",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.17,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0.5
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "open"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#maxangle": 150,
+                        "#tagname": "j_tail_12",
+                        "#radius": 1
+                    }
+                ]
+            },
+            {
+                "#metadata": [
+                    {
+                        "#variant_object": {
+                            "#additionaldamagemod": 0.5
+                        },
+                        "#variant_type": "Types_Weakspot"
+                    }
+                ],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "head"
+                    }
+                ],
+                "#name": "inner_jaw",
+                "#states": [],
+                "#tags": []
+            },
+            {
+                "#metadata": [
+                    {
+                        "#variant_object": {
+                            "#additionaldamagemod": 0.5
+                        },
+                        "#variant_type": "Types_Weakspot"
+                    }
+                ],
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "head"
+                    }
+                ],
+                "#name": "beaming_head",
+                "#states": [],
+                "#tags": [
+                    {
+                        "#tagname": "j_inner_jaw",
+                        "#radius": 300
+                    }
+                ]
+            }
+        ]
+    }
+}

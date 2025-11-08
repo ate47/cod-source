@@ -1,0 +1,8 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/totallythesamebr/lootset_root.csv,,,,
+reqAdd,brloot_health_adrenaline,1,,,# Required Stim
+reqAdd,brloot_health_adrenaline,1,,,# Required Stim
+reqAdd,brloot_super_stimpistol,1,,10,# Required Stim
+reqAdd,brloot_self_revive,1,,5,# Chance of Revive
+reqAdd,brloot_redeploy_token,1,,2,# Chance of Redeploy
+reqLimit,brloot_redeploy_token,,1,,# limit # of redeploy tokens

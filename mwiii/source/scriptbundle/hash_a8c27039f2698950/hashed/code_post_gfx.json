@@ -1,0 +1,554 @@
+{
+    "#hash_912e99794d25bc3": {
+        "#factors": [
+            {
+                "#factor": "preferOptimalTTLOS",
+                "#weight": 1
+            },
+            {
+                "#factor": "avoidSameSpawn",
+                "#weight": 0.25
+            },
+            {
+                "#factor": "avoidRecentlyUsedByAnyone",
+                "#weight": 0.2
+            },
+            {
+                "#factor": "randomSpawnScore",
+                "#weight": 0.05
+            },
+            {
+                "#factor": "avoidCurrentSpawnTraps",
+                "#weight": 5
+            },
+            {
+                "#factor": "avoidShortTimeToEnemySight",
+                "#weight": 3
+            },
+            {
+                "#factor": "avoidRecentlyUsedByEnemies",
+                "#weight": 1
+            },
+            {
+                "#factor": "avoidEnemiesByDistance",
+                "#weight": 1.5
+            },
+            {
+                "#factor": "avoidLastDeathLocation",
+                "#weight": 1
+            },
+            {
+                "#factor": "avoidLastAttackerLocation",
+                "#weight": 2
+            },
+            {
+                "#factor": "avoidClosestEnemy",
+                "#weight": 3
+            },
+            {
+                "#factor": "avoidFrontlineOffsides",
+                "#weight": 2.5
+            }
+        ]
+    },
+    "#hash_9d5a870d366b594": {
+        "#factors": [
+            {
+                "#factor": "avoidEnemiesByDistance",
+                "#weight": 2
+            },
+            {
+                "#factor": "avoidEnemyInfluence",
+                "#weight": 3
+            },
+            {
+                "#factor": "preferCloseToAlly",
+                "#weight": 1
+            },
+            {
+                "#factor": "preferNearGroupedTeamMates",
+                "#weight": 0.75
+            },
+            {
+                "#factor": "avoidLastDeathLocation",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "preferNearLastTeamSpawn",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "avoidRecentlyUsedByAnyone",
+                "#weight": 0.25
+            },
+            {
+                "#factor": "randomSpawnScore",
+                "#weight": 0.1
+            },
+            {
+                "#factor": "avoidCurrentSpawnTraps",
+                "#weight": 10
+            }
+        ]
+    },
+    "#hash_3621fe12de2875a4": {
+        "#factors": [
+            {
+                "#factor": "preferOptimalTTLOS",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "avoidRecentlyUsedByEnemies",
+                "#weight": 1
+            },
+            {
+                "#factor": "avoidSameSpawn",
+                "#weight": 0.25
+            },
+            {
+                "#factor": "avoidRecentlyUsedByAnyone",
+                "#weight": 0.15
+            },
+            {
+                "#factor": "preferNearLastTeamSpawn",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "avoidLastDeathLocation",
+                "#weight": 0.2
+            },
+            {
+                "#factor": "avoidLastAttackerLocation",
+                "#weight": 0.2
+            },
+            {
+                "#factor": "randomSpawnScore",
+                "#weight": 0.1
+            },
+            {
+                "#factor": "avoidCurrentSpawnTraps",
+                "#weight": 10
+            },
+            {
+                "#factor": "avoidClosestEnemy",
+                "#weight": 1.5
+            },
+            {
+                "#factor": "avoidShortTimeToEnemySight",
+                "#weight": 1
+            },
+            {
+                "#factor": "avoidEnemiesByDistance",
+                "#weight": 3.5
+            },
+            {
+                "#factor": "preferAlliesByDistance",
+                "#weight": 0.5
+            }
+        ]
+    },
+    "#hash_41a35c269c24d266": {
+        "#factors": [
+            {
+                "#factor": "preferOptimalTTLOS",
+                "#weight": 1.5
+            },
+            {
+                "#factor": "avoidEnemiesByDistance",
+                "#weight": 1
+            },
+            {
+                "#factor": "preferAlliesByDistance",
+                "#weight": 0.2
+            },
+            {
+                "#factor": "avoidLastDeathLocation",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "avoidLastAttackerLocation",
+                "#weight": 1
+            },
+            {
+                "#factor": "randomSpawnScore",
+                "#weight": 0.1
+            },
+            {
+                "#factor": "preferNearLastTeamSpawn",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "preferDomPoints",
+                "#weight": 3
+            },
+            {
+                "#factor": "avoidFrontlineOffsides",
+                "#weight": 1.5
+            },
+            {
+                "#factor": "preferOptimalFrontlineDist",
+                "#weight": 1
+            },
+            {
+                "#factor": "avoidCurrentSpawnTraps",
+                "#weight": 15
+            },
+            {
+                "#factor": "avoidClosestEnemy",
+                "#weight": 0.5
+            }
+        ]
+    },
+    "#hash_4e31b4759b3ee20a": {
+        "#factors": [
+            {
+                "#factor": "avoidUsedByAnyoneEver",
+                "#weight": 1
+            }
+        ]
+    },
+    "#hash_507ce377c03122bd": {
+        "#factors": [
+            {
+                "#factor": "avoidShortTimeToEnemySight",
+                "#weight": 2
+            },
+            {
+                "#factor": "avoidRecentlyUsedByEnemies",
+                "#weight": 2
+            },
+            {
+                "#factor": "avoidEnemiesByDistance",
+                "#weight": 2
+            },
+            {
+                "#factor": "avoidLastDeathLocation",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "avoidLastAttackerLocation",
+                "#weight": 2
+            },
+            {
+                "#factor": "avoidSameSpawn",
+                "#weight": 1
+            },
+            {
+                "#factor": "randomSpawnScore",
+                "#weight": 0.1
+            },
+            {
+                "#factor": "avoidClosestEnemy",
+                "#weight": 3
+            },
+            {
+                "#factor": "preferOptimalTTLOS",
+                "#weight": 1
+            },
+            {
+                "#factor": "avoidCurrentSpawnTraps",
+                "#weight": 15
+            }
+        ]
+    },
+    "#hash_55fe13b5c496f1c8": {
+        "#factors": [
+            {
+                "#factor": "preferOptimalTTLOS",
+                "#weight": 1.5
+            },
+            {
+                "#factor": "avoidEnemiesByDistance",
+                "#weight": 1
+            },
+            {
+                "#factor": "preferAlliesByDistance",
+                "#weight": 1.5
+            },
+            {
+                "#factor": "avoidLastDeathLocation",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "avoidLastAttackerLocation",
+                "#weight": 1
+            },
+            {
+                "#factor": "randomSpawnScore",
+                "#weight": 0.1
+            },
+            {
+                "#factor": "preferNearLastTeamSpawn",
+                "#weight": 2
+            },
+            {
+                "#factor": "preferOptimalFrontlineDist",
+                "#weight": 1
+            },
+            {
+                "#factor": "avoidFrontlineOffsides",
+                "#weight": 1
+            },
+            {
+                "#factor": "preferNearFrontline",
+                "#weight": 0
+            },
+            {
+                "#factor": "avoidCurrentSpawnTraps",
+                "#weight": 10
+            }
+        ]
+    },
+    "#hash_5900d5a58985d58e": {
+        "#factors": [
+            {
+                "#factor": "preferOptimalTTLOS",
+                "#weight": 1
+            },
+            {
+                "#factor": "preferNearGroupedTeamMates",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "avoidSameSpawn",
+                "#weight": 0.35
+            },
+            {
+                "#factor": "avoidRecentlyUsedByAnyone",
+                "#weight": 0.25
+            },
+            {
+                "#factor": "randomSpawnScore",
+                "#weight": 0.1
+            },
+            {
+                "#factor": "avoidCurrentSpawnTraps",
+                "#weight": 5
+            }
+        ]
+    },
+    "#hash_61103551213944f6": {
+        "#factors": [
+            {
+                "#factor": "preferDomPoints",
+                "#weight": 3
+            },
+            {
+                "#factor": "preferOptimalTTLOS",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "avoidLastDeathLocation",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "avoidLastAttackerLocation",
+                "#weight": 1
+            },
+            {
+                "#factor": "avoidSameSpawn",
+                "#weight": 0.2
+            },
+            {
+                "#factor": "avoidRecentlyUsedByAnyone",
+                "#weight": 0.2
+            },
+            {
+                "#factor": "randomSpawnScore",
+                "#weight": 0.1
+            },
+            {
+                "#factor": "avoidCurrentSpawnTraps",
+                "#weight": 5
+            },
+            {
+                "#factor": "avoidEnemiesByDistance",
+                "#weight": 2
+            },
+            {
+                "#factor": "avoidClosestEnemy",
+                "#weight": 1
+            },
+            {
+                "#factor": "avoidShortTimeToEnemySight",
+                "#weight": 1.5
+            },
+            {
+                "#factor": "avoidFrontlineOffsides",
+                "#weight": 1
+            },
+            {
+                "#factor": "avoidRecentlyUsedByEnemies",
+                "#weight": 1
+            }
+        ]
+    },
+    "#hash_6974a8c2c8ac0c79": {
+        "#factors": [
+            {
+                "#factor": "preferAlliesByDistance",
+                "#weight": 1
+            },
+            {
+                "#factor": "avoidRecentlyUsedByEnemies",
+                "#weight": 1
+            },
+            {
+                "#factor": "avoidEnemiesByDistance",
+                "#weight": 2
+            },
+            {
+                "#factor": "avoidLastDeathLocation",
+                "#weight": 0.25
+            },
+            {
+                "#factor": "avoidLastAttackerLocation",
+                "#weight": 1
+            },
+            {
+                "#factor": "avoidSameSpawn",
+                "#weight": 0.25
+            },
+            {
+                "#factor": "avoidRecentlyUsedByAnyone",
+                "#weight": 0.25
+            },
+            {
+                "#factor": "randomSpawnScore",
+                "#weight": 0.01
+            },
+            {
+                "#factor": "avoidCurrentSpawnTraps",
+                "#weight": 5
+            }
+        ]
+    },
+    "#hash_700253b4a0a1ddad": {
+        "#factors": [
+            {
+                "#factor": "preferOptimalTTLOS",
+                "#weight": 1
+            },
+            {
+                "#factor": "preferNearGroupedTeamMates",
+                "#weight": 0.75
+            },
+            {
+                "#factor": "avoidRecentlyUsedByAnyone",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "avoidSameSpawn",
+                "#weight": 0.25
+            },
+            {
+                "#factor": "randomSpawnScore",
+                "#weight": 0.1
+            },
+            {
+                "#factor": "avoidEnemiesByDistance",
+                "#weight": 2
+            },
+            {
+                "#factor": "avoidCurrentSpawnTraps",
+                "#weight": 5
+            }
+        ]
+    },
+    "#hash_7d01ed4d2b7414a9": {
+        "#factors": [
+            {
+                "#factor": "preferOptimalTTLOS",
+                "#weight": 1.5
+            },
+            {
+                "#factor": "avoidEnemiesByDistance",
+                "#weight": 1
+            },
+            {
+                "#factor": "preferAlliesByDistance",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "avoidLastDeathLocation",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "avoidLastAttackerLocation",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "randomSpawnScore",
+                "#weight": 0.1
+            },
+            {
+                "#factor": "preferNearLastTeamSpawn",
+                "#weight": 2
+            },
+            {
+                "#factor": "preferDomPoints",
+                "#weight": 4
+            },
+            {
+                "#factor": "avoidFrontlineOffsides",
+                "#weight": 2
+            },
+            {
+                "#factor": "preferOptimalFrontlineDist",
+                "#weight": 1
+            },
+            {
+                "#factor": "avoidCurrentSpawnTraps",
+                "#weight": 20
+            }
+        ]
+    },
+    "#hash_7ef52a8053786ea7": {
+        "#factors": [
+            {
+                "#factor": "preferOptimalTTLOS",
+                "#weight": 1.5
+            },
+            {
+                "#factor": "avoidEnemiesByDistance",
+                "#weight": 1
+            },
+            {
+                "#factor": "preferAlliesByDistance",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "avoidLastDeathLocation",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "avoidLastAttackerLocation",
+                "#weight": 1
+            },
+            {
+                "#factor": "randomSpawnScore",
+                "#weight": 0.1
+            },
+            {
+                "#factor": "preferNearLastTeamSpawn",
+                "#weight": 1
+            },
+            {
+                "#factor": "preferOptimalFrontlineDist",
+                "#weight": 0.5
+            },
+            {
+                "#factor": "avoidFrontlineOffsides",
+                "#weight": 1.5
+            },
+            {
+                "#factor": "avoidCurrentSpawnTraps",
+                "#weight": 10
+            },
+            {
+                "#factor": "avoidClosestEnemy",
+                "#weight": 0.75
+            }
+        ]
+    }
+}

@@ -1,0 +1,106 @@
+{
+    "#respawntime": 300,
+    "#hash_8275c6699afd270f": "directorControlled",
+    "#potentialbuckets": [
+        {
+            "#smokebombinfil": false,
+            "#requiredtags": [],
+            "#hash_179611467641c036": [],
+            "#requiredalltags": false,
+            "#hash_98080a4c2759eb8f": 2,
+            "#hash_7eb3ffaa29efda6b": [
+                {
+                    "#aitype": "jup_spawner_zombie_base",
+                    "#spawnfilter": "none",
+                    "#hash_c220f624418529a9": [],
+                    "#droptoground": true,
+                    "#hash_aea2e41228e503c2": true,
+                    "#spawncount": 5,
+                    "#hash_8dec8deff66e2c69": true
+                }
+            ],
+            "#hash_acea821686a77783": "high",
+            "#faction": "zombie"
+        },
+        {
+            "#smokebombinfil": false,
+            "#requiredtags": [],
+            "#hash_179611467641c036": [],
+            "#requiredalltags": false,
+            "#hash_98080a4c2759eb8f": 2,
+            "#hash_7eb3ffaa29efda6b": [
+                {
+                    "#aitype": "jup_spawner_zombie_base",
+                    "#spawnfilter": "none",
+                    "#hash_c220f624418529a9": [],
+                    "#droptoground": true,
+                    "#hash_aea2e41228e503c2": true,
+                    "#spawncount": 3,
+                    "#hash_8dec8deff66e2c69": true
+                },
+                {
+                    "#aitype": "jup_spawner_zombie_base_armored_light",
+                    "#spawnfilter": "none",
+                    "#hash_c220f624418529a9": [],
+                    "#droptoground": true,
+                    "#hash_aea2e41228e503c2": true,
+                    "#spawncount": 2,
+                    "#hash_8dec8deff66e2c69": true
+                }
+            ],
+            "#hash_acea821686a77783": "high",
+            "#faction": "zombie"
+        },
+        {
+            "#smokebombinfil": false,
+            "#requiredtags": [],
+            "#hash_179611467641c036": [],
+            "#requiredalltags": false,
+            "#hash_98080a4c2759eb8f": 5,
+            "#hash_7eb3ffaa29efda6b": [
+                {
+                    "#aitype": "jup_spawner_zombie_base",
+                    "#spawnfilter": "none",
+                    "#hash_c220f624418529a9": [],
+                    "#droptoground": true,
+                    "#hash_aea2e41228e503c2": true,
+                    "#spawncount": 3,
+                    "#hash_8dec8deff66e2c69": true
+                },
+                {
+                    "#aitype": "jup_spawner_zombie_base_armored_light",
+                    "#spawnfilter": "none",
+                    "#hash_c220f624418529a9": [],
+                    "#droptoground": true,
+                    "#hash_aea2e41228e503c2": true,
+                    "#spawncount": 2,
+                    "#hash_8dec8deff66e2c69": true
+                },
+                {
+                    "#aitype": "jup_spawner_zombie_hellhound",
+                    "#spawnfilter": "none",
+                    "#hash_c220f624418529a9": [],
+                    "#droptoground": true,
+                    "#hash_aea2e41228e503c2": true,
+                    "#spawncount": 1,
+                    "#hash_8dec8deff66e2c69": true
+                }
+            ],
+            "#hash_acea821686a77783": "filler",
+            "#faction": "zombie"
+        }
+    ],
+    "#requiredtags": [],
+    "#hash_ba90d6264de9df9b": {
+        "#spawnparams": []
+    },
+    "#hash_605d88fdc85b673d": "directorControlled",
+    "#hash_59ff2b52bbba73fa": "always",
+    "#savestate": false,
+    "#hash_c508480ff26dab43": true,
+    "#hash_1647f937d0da0c33": {
+        "#hash_98080a4c2759eb8f": 30,
+        "#hash_15082fe4f4b3229b": 10,
+        "#hash_4bcfb20c457c2f67": true
+    }
+}

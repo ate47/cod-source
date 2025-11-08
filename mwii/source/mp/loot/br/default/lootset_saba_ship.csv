@@ -1,0 +1,6 @@
+string,string,string,string
+inherit,mp/loot/br/default/lootset_root.csv,,
+chance,point,40,#     % of non-clustered points that will be populated
+chance,cluster,40,#     % of clusters that will be populated
+chance,clusterSolo,80,#     % of clusters that will become invalid after spawning one item (with dependencies)
+reqAdd,brloot_super_oxygenmask,1,2

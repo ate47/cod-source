@@ -1,0 +1,80 @@
+{
+    "stationarystancehandlerlist": [
+        {
+            "stance": "#stand",
+            "name": "#default"
+        }
+    ],
+    "movingstancehandlerlist": [
+        {
+            "stance": "#stand",
+            "name": "#default"
+        }
+    ],
+    "positionhandlerlist": [
+        {
+            "name": "#hash_26e050bc0c121f1b"
+        }
+    ],
+    "actionlist": [
+        {
+            "name": "#zombie_auto_revive"
+        },
+        {
+            "name": "#look_for_enemy"
+        },
+        {
+            "name": "#zombie_scan_for_threats"
+        }
+    ],
+    "hash_6ef48dfa": 0.25,
+    "hash_a78526b8": "j_spineupper",
+    "hash_48aa05a1": 400,
+    "hash_1f5429aa": 200,
+    "fovbusy": 180,
+    "longrange": 3500,
+    "hash_f181b86b": "bot_tacquery_space_seeds",
+    "shortrange": 200,
+    "yawsensitivity": 2,
+    "configstringfiletype": "scriptbundle",
+    "inaccuracy": 80,
+    "hash_19019506": 0.8,
+    "pacifistwait": 1,
+    "hash_4333f343": 0.1,
+    "type": "bottacticalstate",
+    "hash_1f8a6a2": 0.5,
+    "hash_2fc77943": 1,
+    "pitchacceleration": 20,
+    "hash_b9f05fc": 0.5,
+    "hash_c850085f": 1,
+    "movingads": 1,
+    "hash_d5bf8f0d": 0.9,
+    "hash_25664dde": 1000,
+    "pitchsensitivity": 2,
+    "yawacceleration": 25,
+    "hash_b4c8298c": 0.9,
+    "vmtype": "server",
+    "lowhealthratio": 0.7,
+    "sprintdist": 300,
+    "aimtaghead": "j_head",
+    "name": "bot_tacstate_zm_laststand",
+    "hash_82aa37d8": 2000,
+    "meleechance": 0.5,
+    "headshotchance": 0.1,
+    "highlyawareradius": 256,
+    "perfectaim": 1,
+    "maxsightdist": 8192,
+    "fov": 180,
+    "adsdot": 0.8,
+    "pacifist": 0,
+    "maxrange": 8192,
+    "hash_2b02e26a": 20,
+    "hash_b392418": 0.1,
+    "hash_f58a14bd": 0.8,
+    "hash_69610dbe": 25,
+    "pathenemyfightdist": 0,
+    "hash_5eaa9e02": 1,
+    "hash_bc0b2a06": 2,
+    "accuracy": 1,
+    "hash_d1fb2f1a": 0
+}

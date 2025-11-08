@@ -1,0 +1,4565 @@
+   1	ps_exec_034_dog_attack_laststand,j_elbow_ri
+   2	on
+   3	ks_uav_mp
+   4	j_dummy_r_knee
+   5	explode_25
+   6	prone_right_lift
+   7	reb_vh_techo_highcrouch_9pt_aim_1
+   8	burst_9
+   9	1_4_8
+  10	ps_exec_gear_mvmt_whoosh_med,tag_origin
+  11	iw9_veh_stand_to_stand01_6
+  12	3_6_2
+  13	3_8_8
+  14	remote_c8
+  15	bloodfxnova
+  16	execution_049_fem
+  17	vehicle_idle
+  18	ps_exec_gore_blood_drip,j_clavicle_ri
+  19	iw9_mp_execution_072_attacker_laststand
+  20	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_z_forward, tag_eye
+  21	bolt_gas_vday
+  22	weap_target_finder_up_plr
+  23	ps_exec_gun_lmg_lower,j_wrist_le
+  24	vehicle_lean_aim
+  25	iw9_mp_execution_102_attacker_prone
+  26	iw9_mp_execution_041_attacker_stand
+  27	execution_018_fem
+  28	ps_foley_gest_thumbup_plr
+  29	100cps_wait
+  30	jlr_com_execution_000_attacker_prone_2
+  31	iw9_veh_heli_medium_seat_4_idle_combat01
+  32	ps_exec_impact_body_full,j_knee_ri
+  33	ps_exec_gear_mvmt_midlength_light,j_knee_le
+  34	iw9_mp_execution_073_attacker_prone_fem
+  35	iw9_mp_execution_003_attacker_prone_fem
+  36	medium
+  37	ps_exec_step_left,j_ankle_le
+  38	ps_exec_gear_mvmt_long_mid,j_ankle_ri
+  39	ps_exec_vo_struggle
+  40	5_4_4
+  41	iw9_player_juggernaut_scriptable_mp
+  42	iw9_mp_execution_063_attacker_prone
+  43	facial_talk_3
+  44	right_leg_health
+  45	ps_exec_katana_hit_dull_edge,tag_weapon_right
+  46	ps_exec_baton_impact_head,j_head
+  47	iw9_veh_jltv_seat_0_pain_1
+  48	weap_ar57_first_raise_chamber_plr
+  49	iw9_mp_execution_020_victim_stand
+  50	aimblend
+  51	iw9_mp_execution_015_attacker_stand
+  52	iw9_veh_suv_overland_2016_seat_1_exit_combat_run
+  53	ps_exec_grenade_bounce_soft,j_head
+  54	ps_exec_gore_heavy_splat,j_mainroot
+  55	iw9_mp_execution_031_victim_prone
+  56	iw9_overland_seat_0_pistol_scrub_neutral
+  57	closed_usable
+  58	iw9_mp_decoymine_swim_pop
+  59	ps_exec_gear_mvmt_quick_light,j_spineupper
+  60	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_hip_proc_ri
+  61	fx_playfxontag, vfx/iw9/executions/vfx_exec_trail_streak_quick.vfx, j_ankle_le
+  62	iw9_mp_execution_074_attacker_laststand
+  63	veh9_mil_lnd_jltv_turret_camo_v020
+  64	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_knee_ri
+  65	iw9_mp_execution_010_attacker_stand
+  66	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward.vfx, tag_shield_back
+  67	ps_exec_062_inarius_wings_laststand_03,j_spineupper
+  68	lasercustom_super_laser
+  69	5_2_turn_2
+  70	execution_023
+  71	ps_exec_dog_call_whistle,j_head
+  72	iw9_mp_execution_003_attacker_stand
+  73	iw9_veh_lowcrouch_idle01
+  74	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_head
+  75	body_damage_medium
+  76	ps_iw9_swmpmon_exec_choking_bubbles,j_spineupper
+  77	fx_playfxontag, vfx/iw9/killstreaks/gunship/vfx_gunship_outro_explosion.vfx, tag_joystick_2
+  78	ps_exec_mummy_front_attacker_vo,j_head
+  79	wire_ri_jnt_07
+  80	attach clip left
+  81	tag_light_belly
+  82	iw9_veh_suv_overland_2016_seat_3_entry
+  83	iw9_mp_execution_067_attacker_prone
+  84	particle_dynamics
+  85	vehicle_idle_combat_shoot_lmg
+  86	iw9_mp_deadsilence_raise
+  87	fx_playfxontag, vfx/iw9/executions/vfx_exec_099_blood_splash.vfx, j_antislide_ik
+  88	iw9_veh_jltv_seat_5_entry
+  89	bubbleslight
+  90	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_head_blood.vfx, j_spineupper
+  91	explode25
+  92	ps_exec_049_laststand_victim_02_hammer,j_head
+  93	fx_playfxontag, vfx/iw9/executions/vfx_exec_95_axe_leg_stab_squibs.vfx, tag_fx
+  94	fx_playfxontag, vfx/iw9/executions/vfx_exec_blood_splatter.vfx, j_helmet
+  95	WEAPON VIOLENCE RETICLE
+  96	jlr_com_execution_000_victim_stand_6
+  97	fx_playfxontag, vfx/iw9/executions/vfx_exec_042_sword_stab, j_clavicle_le
+  98	melee_knife_stab
+  99	no_ragdoll
+ 100	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_head
+ 101	iw9_mp_execution_052_attacker_prone
+ 102	iw9_mp_execution_039_attacker_prone
+ 103	inflate
+ 104	30
+ 105	iw9_veh_heli_medium_seat_6_idle_combat01
+ 106	ik_node
+ 107	iw9_mp_execution_119_attacker_stand
+ 108	sdr_com_exposed_crouch_twitch02@2
+ 109	iw9_mp_execution_119_attacker_laststand
+ 110	tag_tail_rotor_blade_03_blur
+ 111	exec_gear_mvmt_midlength_light,j_mainroot
+ 112	ps_exec_079_laststand_01,j_spineupper
+ 113	iw9_mp_execution_031_attacker_prone
+ 114	iw9_veh_suv_overland_2016_seat_1_idle_combat
+ 115	ascender
+ 116	3_2_6
+ 117	ps_exec_058_stand_arm_twist,j_elbow_ri
+ 118	fx_playfxontag, vfx/iw9/executions/vfx_exec_head_dismember.vfx, j_shoulder_le
+ 119	fx_stopfxontag, vfx/iw9/executions/vfx_exec_95_axe_neck_slash_prone.vfx, tag_fx
+ 120	mgl_v013
+ 121	iw9_veh_heli_medium_seat_4_death
+ 122	ps_exec_grab_pull_hatchet,j_wrist_ri
+ 123	c12_targeting_hud_close
+ 124	weap_panz3_reload_end_plr
+ 125	lbravo_2
+ 126	explode9
+ 127	ps_exec_035_dog_attack_laststand_01,tag_eye
+ 128	iw9_mp_veh_jltv_seat_3_exit_combat_run
+ 129	sniperglintxsml
+ 130	main_rotor_jnt
+ 131	tag_light_back_right
+ 132	ps_exec_033_dog_robo_laststand_head_servos,nose_jnt
+ 133	ps_exec_katana_sheathe,tag_weapon_right
+ 134	tag_bumper_back_damaged
+ 135	ps_exec_kalisticks_impact,j_spineupper
+ 136	facial_idle_4
+ 137	fx_stopfxontag, vfx/iw9/executions/vfx_exec_033_electric_bite_1.vfx, j_head_dog
+ 138	5_8_8
+ 139	ps_foley_gest_watchingyou_plr
+ 140	tag_tail_rotor_blade_02
+ 141	compassicon
+ 142	fx_playfxontag, vfx/iw9/executions/vfx_exec_hween_swamp_slash.vfx, j_shoulder_ri
+ 143	iw9_mp_execution_110_victim_prone
+ 144	vehicle_combat_switch_sides
+ 145	iw9_mp_execution_073_victim_laststand
+ 146	audio_exit
+ 147	ks_auto_drone_target_mp
+ 148	fx_stopfxontag, vfx/iw9/core/weapons/muzzleflash/pis/vfx_muz_pis_m.vfx, zom_tag_flash
+ 149	tag_wheel_spare
+ 150	reb_vh_techo_lowcrouch_9pt_aim_6
+ 151	iw9_mp_execution_000_victim_prone
+ 152	j_elbow_le
+ 153	iw9_mp_execution_002_attacker_stand
+ 154	ik_out_start_right_hand
+ 155	blinking_lights
+ 156	vehicle_transition_death
+ 157	iw9_mp_execution_037_attacker_laststand
+ 158	carepackage_trail_end
+ 159	iw9_mp_execution_113_victim_prone
+ 160	veh9_mil_lnd_jltv_turret_camo_v016
+ 161	veh9_mil_lnd_jltv_turret_camo_v009
+ 162	scripted_talking
+ 163	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp.vfx, j_proc_hip_lift_le
+ 164	jug_com_execution_002_victim_stand_mp_8
+ 165	iw9_mp_execution_101_attacker_stand
+ 166	execution_107
+ 167	execution_098
+ 168	execution_057
+ 169	look_40_headonly
+ 170	facial_happy_1
+ 171	tag_window_cockpit_right2
+ 172	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_dummy_knee_dist
+ 173	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_shouldertwist_le
+ 174	iw9_mp_execution_101_attacker_prone
+ 175	ps_iw9_dmz_infil_player3_exit,j_wrist_le
+ 176	fx_stopfxontag, vfx/iw9/executions/vfx_exec_099_headshot.vfx, zom_j_visor
+ 177	iw9_mp_decoymine_hitreac_right
+ 178	iw9_veh_suv_overland_2016_seat_0_idle
+ 179	ps_exec_gear_mvmt_throw,j_mainroot
+ 180	equip_bunkerbuster_gl
+ 181	iw9_mp_veh_jltv_seat_1_exit_combat_run
+ 182	look_23
+ 183	fx_playfxontag, vfx/iw9/executions/vfx_exec_mummy_insects_eyes, tag_eye
+ 184	ps_exec_impact_body_deep,j_spinelower
+ 185	iw9_veh_heli_medium_seat_2_exit_combat_run
+ 186	fx_stopfxontag, vfx/iw9/executions/vfx_exec_099_blood_splash.vfx, tag_sync
+ 187	talk_sm
+ 188	talk_lg
+ 189	reb_vh_techo_pass_death01
+ 190	ps_exec_089_stand_02,j_spineupper
+ 191	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_hip_ri
+ 192	iw9_mp_execution_009_attacker_laststand
+ 193	ps_exec_gore_heavy_splat,j_spineupper
+ 194	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, tag_reflector_arm_le
+ 195	iw9_mp_execution_053_attacker_stand_fem
+ 196	jug_com_execution_002_victim_stand_8
+ 197	facial_run_2
+ 198	fx_playfxontag, vfx/iw9/executions/vfx_exec_097_witch_magic_hit.vfx, j_head
+ 199	iw9_mp_execution_027_victim_prone
+ 200	iw9_mp_execution_051_attacker_prone
+ 201	veh_exit_touchdown
+ 202	sdr_com_exposed_burst_03
+ 203	iw9_mp_execution_008_victim_stand
+ 204	ps_jup_exec_knife_prone_attacker_arm_swing_a,j_wrist_ri
+ 205	scramble_sfx
+ 206	thighpad_l
+ 207	fx_playfxontag, vfx/iw9/executions/vfx_exec_blood_splatter.vfx, j_ankle_ri
+ 208	iw9_mp_execution_026_attacker_laststand
+ 209	iw9_mp_execution_028_victim_laststand
+ 210	weap_smokegrenade_pin_plr
+ 211	ps_exec_gear_mvmt_struggle,j_knee_ri
+ 212	iw9_mp_execution_110_victim_laststand
+ 213	iw9_mp_execution_016_victim_prone
+ 214	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_chest
+ 215	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y.vfx, j_helmet
+ 216	iw9_mp_execution_034_victim_prone
+ 217	v019
+ 218	embers
+ 219	iw9_mp_execution_045_attacker_prone_fem
+ 220	ps_exec_impact_body_full,j_neck
+ 221	iw9_mp_execution_116_victim_laststand
+ 222	crystalskullactive
+ 223	iw9_mp_execution_096_victim_stand
+ 224	iw9_mp_execution_068_victim_stand
+ 225	lookat_block
+ 226	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_hip_ri
+ 227	fx_playfxontag, vfx/iw9/executions/vfx_exec_knife_stab_neg_y.vfx, j_dummy_sling_clavicle
+ 228	lookatpos_default
+ 229	burst_4
+ 230	weap_suitcase_button_press_plr
+ 231	fx_playfxontag, vfx/iw8_br/gameplay/bunker/vfx_br_bunker_open, tag_origin
+ 232	fx_stopfxontag, vfx/iw9/executions/vfx_exec_077_blood_pool.vfx, tag_stowed_back3
+ 233	bluntwatchon
+ 234	fx_playfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck, j_spine4
+ 235	ik_in_end_left_hand
+ 236	ps_exec_bodyfall_swt_body,j_ankle_ri
+ 237	smokedeploy
+ 238	mgl_v017
+ 239	fx_playfxontag, vfx/iw9/core/operators/tempv/vfx_mp_tempv_eye_glow_red_2, tag_eye
+ 240	fx_playfxontag, vfx/iw8_cp/prop/vfx_cp_ascender_sparks_wm, tag_origin
+ 241	ps_exec_gear_mvmt_midlength_light,j_mainroot
+ 242	carried
+ 243	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_spine4
+ 244	ik_in_start_right_hand
+ 245	ps_exec_gear_mvmt_whoosh_med,j_elbow_ri
+ 246	weap_hybrid_toggle_on_plr
+ 247	iw9_mp_execution_096_attacker_prone
+ 248	upload_screen
+ 249	ps_exec_033_dog_robo_vo_laststand_02,nose_jnt
+ 250	ps_exec_gore_blood_drip,j_proc_spinelift
+ 251	diedown
+ 252	facial_scared_2
+ 253	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_z_forward.vfx, j_ankle_ri
+ 254	iw9_mp_execution_028_attacker_stand
+ 255	butcher_com_execution_000_attacker_stand_8
+ 256	ps_exec_zmb_vo_bite,j_head
+ 257	corewall
+ 258	ps_exec_kalisticks_impact,j_spinelower
+ 259	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_head
+ 260	iw9_mp_execution_099_attacker_stand
+ 261	seat_0_aimset
+ 262	veh9_mil_lnd_jltv_turret_camo_mgl_v001
+ 263	iw9_overland_seat_2_ar_reload
+ 264	ps_jup_exec_knife_attacker_stab_c,j_wrist_ri
+ 265	iw9_mp_execution_000_attacker_stand_fem
+ 266	ps_exec_gear_mvmt_midlength_light,j_shoulder_ri
+ 267	ps_exec_gear_mvmt_midlength_light,j_spinelower
+ 268	iw9_mp_execution_074_victim_laststand
+ 269	iw9_mp_execution_093_victim_stand
+ 270	iw9_mp_execution_061_victim_laststand
+ 271	right_upper_arm_health
+ 272	ADS SETTLE
+ 273	wire_le_jnt_07
+ 274	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, j_clavicle_le
+ 275	iw9_mp_execution_002_victim_laststand
+ 276	iw9_mp_decoymine_swim_inflate
+ 277	ps_exec_079_prone_06,j_spineupper
+ 278	fx_playfxontag, vfx/iw9/executions/vfx_exec_097_witch_magic_hit.vfx, j_elbow_le
+ 279	iw9_mp_execution_117_attacker_laststand
+ 280	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_hipholster_ri
+ 281	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx,
+ 282	execution_053
+ 283	execution_103
+ 284	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, j_neck
+ 285	fx_playfxontag, vfx/iw9/executions/vfx_exec_hanting_butcher_chestbleed_motion, j_clavicle_ri
+ 286	burning
+ 287	ghostfinderactiveimmediate
+ 288	iw9_mp_execution_061_attacker_prone
+ 289	ps_exec_gore_bone_break_snap,j_knee_ri
+ 290	j_shoulder_ri
+ 291	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_clavicle_le
+ 292	iw9_mp_execution_115_attacker_laststand
+ 293	ps_exec_katana_slash,j_wrist_le
+ 294	ps_exec_katana_slash,j_wrist_ri
+ 295	iw9_mp_execution_046_victim_stand
+ 296	hood
+ 297	rack_stand
+ 298	ps_exec_096_prone_01,j_mainroot
+ 299	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_knee_ri
+ 300	ps_exec_grenade_bounce_soft,j_wrist_le
+ 301	execution_024_fem
+ 302	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_eye_flare_constant, tag_eye
+ 303	iw9_mp_decoymine_swim_hitreac_left
+ 304	iw9_mp_execution_106_attacker_stand
+ 305	swamp_com_execution_000_attacker_stand_8
+ 306	tag_windshield_front
+ 307	iw9_mp_execution_023_attacker_stand_fem
+ 308	execution_094_fem
+ 309	iw9_mp_execution_049_attacker_prone
+ 310	sdr_com_exposed_reload01
+ 311	iw9_mp_execution_103_victim_stand
+ 312	tag_right_wing_fx
+ 313	iw9_mp_execution_099_attacker_laststand
+ 314	fx_playfxontag, vfx/iw9/executions/vfx_exec_knife_stab_playonknife, j_gun
+ 315	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_hip_proc_ri
+ 316	weedcreatureactive
+ 317	ps_foley_gest_stahp_plr
+ 318	iw9_mp_execution_086_victim_stand
+ 319	ps_exec_061_stand_gore,j_spineupper
+ 320	semi_2
+ 321	fx_stopfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, j_clavicle_le
+ 322	cheer_anims
+ 323	reb_vh_techo_stand_impact_v08
+ 324	explode_12
+ 325	iw9_mp_execution_023_victim_prone
+ 326	weap_thermal_toggle_off_plr
+ 327	1_2
+ 328	to_
+ 329	execution_012_walpha
+ 330	disabled
+ 331	fx_stopfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_hands.vfx, j_wristfronttwist1_le
+ 332	facial_cheer_3
+ 333	reactive_soul_collect_1stage
+ 334	iw9_mp_veh_jltv_seat_1_exit_combat_idle
+ 335	fx_playfxontag, vfx/iw9/executions/vfx_exec_099_blood_splash.vfx, tag_sync
+ 336	ps_exec_079_stand_05,j_spineupper
+ 337	fx_playfxontag, vfx/iw8_mp/executions/vfx_neck_blood_stab, j_neck
+ 338	fx_stopfxontag, vfx/iw9/executions/vfx_exec_trail_streak_quick.vfx, j_ball_ri
+ 339	iw9_mp_execution_075_victim_prone
+ 340	ps_wfoly_ar_reload_npc_in
+ 341	2_4_2
+ 342	ps_exec_089_prone_01,j_wrist_le
+ 343	4_2_6
+ 344	me_knife
+ 345	fx_stopfxontag, vfx/iw9/executions/vfx_exec_077_blood_pool.vfx, j_sling_clavicle
+ 346	ps_exec_katana_sheathe,j_spineupper
+ 347	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_knee_ri
+ 348	iw9_mp_execution_064_attacker_laststand
+ 349	iw9_mp_execution_114_attacker_stand
+ 350	2cps_wait
+ 351	iw9_mp_execution_115_victim_stand
+ 352	iw9_veh_stand_pain04_torso
+ 353	ps_exec_scrape_hands,j_elbow_ri
+ 354	ps_gesture_radio_call_long_plr_01
+ 355	ps_exec_scythe_swing,j_wrist_le
+ 356	weap_usp45_chamber_plr
+ 357	ps_exec_gear_mvmt_midlength_heavy,j_shoulder_le
+ 358	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, tag_eye
+ 359	fx_playfxontag, vfx/iw9/executions/vfx_exec_058_blood_pool,
+ 360	iw9_mp_execution_024_attacker_stand
+ 361	iw9_mp_execution_007_attacker_prone
+ 362	ps_exec_gear_mvmt_whoosh_med,j_mainroot
+ 363	fingers_in_end_right_hand
+ 364	iw9_mp_execution_103_victim_laststand
+ 365	ps_exec_gear_mvmt_midlength_heavy,j_knee_ri
+ 366	ps_exec_gear_mvmt_quick_light,j_wrist_ri
+ 367	strafe1
+ 368	ps_exec_gear_mvmt_brush,j_spinelower
+ 369	iw9_mp_execution_086_attacker_stand
+ 370	to_ar_ll_
+ 371	iw9_veh_jltv_seat_3_pain_1
+ 372	iw9_veh_heli_medium_seat_6_exit_combat_idle
+ 373	iw9_mp_scorpion_trophy_bank
+ 374	ps_exec_gun_drop,j_ankle_le
+ 375	ps_exec_punch_full,j_knee_ri
+ 376	iw9_mp_execution_111_attacker_prone
+ 377	ps_exec_hand_grab_body,j_spineupper
+ 378	facial_aim
+ 379	crouch_semi_1
+ 380	fx_playfxontag, vfx/iw9/executions/vfx_exec_96_victim_arm_flame.vfx, j_shoulder_le
+ 381	ps_exec_gun_hit_light,tag_weapon_right
+ 382	ps_exec_gore_blood_headshot,j_neck
+ 383	ik_fingers_l
+ 384	iw9_mp_execution_094_attacker_laststand_fem
+ 385	WEAPON PUSHBACK GUN OFFCENTER
+ 386	sdr_com_exposed_aim_2
+ 387	exec_gear_mvmt_midlength_heavy,j_spineupper
+ 388	as_scn_mp_faridah_heli_infil_lr
+ 389	execution_011
+ 390	execution_028
+ 391	execution_032
+ 392	1_8_lean
+ 393	iw9_mp_execution_004_attacker_stand_fem
+ 394	zombieragevfx
+ 395	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_splash_spawner.vfx, j_spine4
+ 396	burnend
+ 397	iw9_mp_execution_114_victim_stand
+ 398	highspeed
+ 399	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_levitate.vfx, tag_origin
+ 400	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_divine_impact2.vfx, j_proc_spinelower2
+ 401	ps_exec_gear_mvmt_complex_heavy,j_spinelower
+ 402	ps_exec_gun_pi_holster,j_wrist_le
+ 403	ps_iw9_swmpmon_exec_vo_start,j_neck
+ 404	hide_rotor
+ 405	iw9_mp_execution_097_victim_stand
+ 406	iw9_mp_execution_033_attacker_stand
+ 407	5_6_turn_6
+ 408	iw9_mp_execution_030_victim_stand
+ 409	ps_gib_fullbody,j_spinelower
+ 410	deadsilence_gesturebutton
+ 411	iw9_mp_execution_095_attacker_stand_fem
+ 412	aim_1
+ 413	ps_br_auto_ascender_detach_foley_plr
+ 414	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_metal_nonpen_med, tag_brass
+ 415	aimset_exposed_lowcrouch
+ 416	iw9_mp_execution_019_attacker_stand
+ 417	ps_exec_bodyfall_swt_feet,j_ankle_ri
+ 418	v016
+ 419	tag_main_rotor_blade_05_blur
+ 420	ps_exec_punch_quick,j_spineupper
+ 421	ps_exec_033_dog_robo_step,r_frontleg3_jnt
+ 422	iw9_veh_suv_overland_2016_seat_0_exit_combat_run
+ 423	day
+ 424	off
+ 425	ps_exec_vo_struggle,j_head
+ 426	fx_playfxontag, vfx/iw9/killstreaks/chopper/vfx_chopper_outro_player_shot_2, j_shoulder_ri
+ 427	burst_5
+ 428	ps_exec_knife_swing,j_wrist_ri
+ 429	sdr_com_animscripted_head_look_26
+ 430	1_4_4
+ 431	ps_mp_bomb_away_plr
+ 432	ps_exec_machete_spin,j_wrist_le
+ 433	ps_exec_034_dog_approach_laststand,nose_jnt
+ 434	iw9_veh_suv_overland_2016_seat_1_hide_loop
+ 435	ps_exec_gear_mvmt_whoosh_med,j_knee_le
+ 436	mgl_v016
+ 437	mgl_v001
+ 438	window_back_left_corner
+ 439	equip_molotov_pool_mp_p
+ 440	ps_exec_gear_mvmt_midlength_light
+ 441	sdr_com_exposed_crouch_aim_6
+ 442	iw9_mp_execution_118_attacker_laststand
+ 443	ps_wfoly_plr_mg_bravo50_bravo50_raise_first_01
+ 444	4_4_6
+ 445	toggle1
+ 446	ps_exec_gear_grab_pull,j_wrist_ri
+ 447	ps_exec_vo_cough
+ 448	ps_exec_gore_hack,j_spineupper
+ 449	sdr_mp_veh_lbravo_ground_r3_exit
+ 450	fx_stopfxontag, vfx/iw9/executions/vfx_exec_95_axe_neck_slash_stand.vfx, j_neck
+ 451	iw9_mp_execution_063_attacker_stand
+ 452	sdr_mp_veh_lbravo_ground_l3_exit
+ 453	facial_scared_1
+ 454	iw9_mp_execution_093_attacker_prone
+ 455	facial_idle_3
+ 456	sniperglintsml
+ 457	exec_victim_weapon_show
+ 458	ps_exec_058_prone_stomp,j_spineupper
+ 459	tag_light_front_left
+ 460	ps_exec_gear_mvmt_brush,j_ankle_le
+ 461	iw9_mp_execution_003_attacker_laststand
+ 462	ps_exec_knife_slice,j_head
+ 463	iw9_mp_execution_100_attacker_laststand
+ 464	iw9_mp_execution_115_victim_laststand
+ 465	iw9_mp_execution_025_attacker_stand
+ 466	bubblesheavy
+ 467	iw9_mp_execution_102_attacker_stand
+ 468	iw9_mp_execution_006_victim_laststand
+ 469	fx_stopfxontag, vfx/iw9/executions/vfx_exec_95_axe_neck_stab_squibs.vfx, tag_fx
+ 470	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, j_proc_hip_lift_ri
+ 471	ps_exec_062_victim_laststand_02,j_spineupper
+ 472	ps_exec_gear_mvmt_whoosh_med,j_wrist_ri
+ 473	iw9_mp_execution_069_attacker_laststand
+ 474	ps_exec_096_laststand_01,j_mainroot
+ 475	melee_execution_attacker_laststand
+ 476	reb_vh_techo_lowcrouch_9pt_aim_9
+ 477	iw9_mp_execution_027_victim_stand
+ 478	execution_014_fem
+ 479	ps_exec_scrape_quick,j_neck
+ 480	fx_playfxontag, vfx/iw9/executions/vfx_exec_079_bong_glass, j_ball_le
+ 481	ps_exec_baton_impact_body,j_spinelower
+ 482	iw9_veh_jltv_seat_1_leanout_to_seated_alternate
+ 483	veh9_mil_lnd_jltv_x_vehphys_hsk_mp
+ 484	ps_exec_gore_blood_drip,j_spineupper
+ 485	mummy_com_execution_000_victim_stand_8
+ 486	iw9_mp_execution_045_attacker_prone
+ 487	execution_102
+ 488	execution_052
+ 489	iw9_mp_execution_020_attacker_laststand
+ 490	deflate
+ 491	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_throat_slash.vfx, j_head
+ 492	look_26
+ 493	look_05
+ 494	tag_origin_animate_scripted
+ 495	ps_exec_gear_mvmt_midlength_heavy,j_mainroot
+ 496	ps_foley_gest_browwipe_plr
+ 497	iw9_mp_execution_069_attacker_stand
+ 498	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blood_splatter_posy.vfx, j_proc_stowed_chest
+ 499	iw9_mp_execution_061_victim_stand
+ 500	ps_exec_062_victim_laststand_03,j_spineupper
+ 501	zombie
+ 502	exec_gore_bone_dislocate_twist,j_neck
+ 503	iw9_mp_execution_047_attacker_laststand_fem
+ 504	execution_081_fem
+ 505	fx_stopfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_hands.vfx, j_wrist_ri
+ 506	corecenterwalldirect
+ 507	execution_004_fem
+ 508	sdr_com_exposed_burst_06
+ 509	iw9_mp_execution_017_attacker_stand_fem
+ 510	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_clavicle_le
+ 511	fx_stopfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_head
+ 512	fx_playfxontag, vfx/iw9/executions/vfx_exec_blood_splatter_posy.vfx, j_dummy_slingcenteraim
+ 513	iw9_mp_execution_115_attacker_prone
+ 514	ps_iw9_swmpmon_exec_thrashing
+ 515	sdr_mp_execution_345_victim_stand
+ 516	fx_stopfxontag, vfx/iw9/executions/vfx_exec_dog_bite_single_sm.vfx, j_elbow_le
+ 517	iw9_mp_execution_073_attacker_laststand
+ 518	reb_vh_techo_stand_impact_v03
+ 519	explode_21
+ 520	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_stab, j_spineupper
+ 521	fx_playfxontag, vfx/iw9/executions/vfx_exec_trail_streak_quick.vfx, j_ball_ri
+ 522	4_4_turn_2
+ 523	2_2
+ 524	iw9_mp_execution_062_victim_laststand
+ 525	ps_
+ 526	iw9_mp_execution_029_attacker_prone
+ 527	pickup
+ 528	WEAPON PUSHBACK VIEW
+ 529	iw9_mp_decoymine_crouch_hitreac_front
+ 530	1_8_8
+ 531	iw9_veh_stand_to_stand01_2
+ 532	ks_chopper_support_br
+ 533	tag_engine_right
+ 534	3_6_6
+ 535	ps_exec_katana_stab,j_wrist_le
+ 536	execution_058_fem
+ 537	ps_iw9_swmpmon_exec_swipe_02,j_wrist_ri
+ 538	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_head
+ 539	tag_door_back_left
+ 540	iw9_mp_execution_065_victim_laststand
+ 541	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, tag_origin
+ 542	ps_exec_scythe_stab,j_wrist_le
+ 543	execution_041_fem
+ 544	deployend
+ 545	corecenterceildirect
+ 546	ps_exec_gore_bone_dislocate_twist,j_neck
+ 547	reb_com_veh8_decho_turret_aim_2
+ 548	ps_exec_katana_pull,j_spinelower
+ 549	explode2
+ 550	fx_playfxontag, vfx/iw9/executions/vfx_exec_blood_splatter_posy.vfx, j_dummy_sling_clavicle
+ 551	pain_anims
+ 552	ps_exec_gear_grab_release,j_wrist_le
+ 553	iw9_mp_execution_090_attacker_stand_fem
+ 554	ps_exec_gear_grab_pull,j_mainroot
+ 555	iw9_mp_execution_010_attacker_laststand
+ 556	weap_ar57_end_fast_empty_plr
+ 557	1
+ 558	trophy_effects
+ 559	iw9_veh_suv_overland_2016_seat_2_pain_combat
+ 560	jlr_com_execution_000_attacker_prone_6
+ 561	ps_exec_scrape_feet,j_ankle_ri
+ 562	ps_weap_stimpistol_fire_plr_fcg
+ 563	j_dead_silence_disc_1
+ 564	ps_exec_035_dog_approach_stand,tag_eye
+ 565	head_health
+ 566	vehicles
+ 567	iw9_veh_heli_medium_seat_5_idle_to_combat
+ 568	to_ll_
+ 569	fx_playfxontag, vfx/iw9/executions/vfx_exec_mummy_insect_crawl, j_spinelower_lift
+ 570	melee_knife_stab_upper_start_plr
+ 571	exec_fire_left
+ 572	ps_mp_fusebox_lever_off_npc
+ 573	5_4_8
+ 574	weap_airdrop_raise_plr
+ 575	sdr_com_exposed_crouch_semi_02@2
+ 576	iw9_mp_veh_jltv_windowfr_scrub_up
+ 577	ps_exec_033_dog_robo_step,l_frontleg4_jnt
+ 578	ps_exec_096_prone_04,j_mainroot
+ 579	as_dx_mpi_us1_infil_intro_10
+ 580	iw9_mp_execution_066_attacker_prone
+ 581	ps_exec_gun_pi_hit,j_head
+ 582	ps_exec_061_stand_magic_build_02,j_wrist_ri
+ 583	facial_angry_1
+ 584	facial_pain_execution
+ 585	iw9_mp_execution_083_attacker_laststand
+ 586	exposed_idle_alert_v2
+ 587	iw9_mp_execution_021_victim_prone
+ 588	tendrilwall
+ 589	fx_playfxontag, vfx/iw9/executions/vfx_exec_96_skeletor_staff_fire_imp_fwd.vfx, tag_fx
+ 590	iw9_mp_execution_098_attacker_prone_fem
+ 591	veh9_mil_lnd_jltv_turret_camo_v024
+ 592	veh9_mil_lnd_jltv_turret_camo_v004
+ 593	release
+ 594	yellow::veh9_mil_air_heli_medium_vehphys_mp
+ 595	corecenterceil
+ 596	iw9_mp_decoymine_idle
+ 597	fx_playfxontag, vfx/iw9/executions/vfx_exec_starlight_hands_buildup, j_wrist_ri
+ 598	fx_playfxontag, vfx/iw9/executions/vfx_exec_starlight_hands_buildup, j_wrist_le
+ 599	vehicle_hunt_switch_sides
+ 600	5_2_turn_6
+ 601	execution_016
+ 602	tag_main_rotor_static
+ 603	ps_exec_gun_lmg_raise
+ 604	lean_additive
+ 605	ps_exec_impact_body_deep,j_knee_ri
+ 606	fx_killfxontag, vfx/iw9/executions/vfx_exec_95_axe_neck_slash.vfx, tag_fx
+ 607	jump_begin_lrg
+ 608	ps_exec_knife_slice,j_shoulder_ri
+ 609	ps_exec_katana_stab,j_spinelower
+ 610	iw9_mp_execution_000_attacker_laststand
+ 611	bodyfall large
+ 612	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_ankle_ri
+ 613	fx_playfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_arms, j_shouldertwist_le
+ 614	fx_playfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_arms, j_shouldertwist_ri
+ 615	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward, j_proc_lift_clavicle_le
+ 616	iw9_mp_veh_jltv_seat_2_death
+ 617	ps_iw9_dmz_infil_player1_intro,j_wrist_le
+ 618	WEAPON CONTROL GUN
+ 619	explode10
+ 620	explode29
+ 621	explode31
+ 622	ps_exec_033_dog_robo_step,r_foot0_jnt
+ 623	door_front_right
+ 624	jug_com_execution_001_victim_stand_8
+ 625	ps_exec_gore_medium_splat,j_knee_le
+ 626	iw9_mp_execution_085_attacker_laststand
+ 627	ps_exec_scrape_quick,j_spineupper
+ 628	ps_exec_bodyfall_swt_feet,j_ankle_le
+ 629	show_3
+ 630	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_spinelower_lift
+ 631	fx_stopfxontag, vfx/iw9/executions/vfx_exec_087_eye_glow_red_3, tag_eye
+ 632	v020
+ 633	v003
+ 634	iw9_mp_execution_057_victim_prone
+ 635	fx_playfxontag, vfx/iw9/executions/vfx_exec_95_axe_neck_slash.vfx, tag_fx
+ 636	fx_stopfxontag, vfx/iw9/executions/vfx_exec_95_axe_neck_blood_gush.vfx, j_neck
+ 637	iw9_mp_execution_101_victim_stand
+ 638	4_8_turn_2
+ 639	heartbeatsuperlight
+ 640	fx_stopfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y.vfx, j_helmet
+ 641	fx_stopfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck.vfx, j_clavicle_ri
+ 642	3_4
+ 643	ps_exec_bodyfall,j_mainroot
+ 644	weap_thermal_toggle_on_plr
+ 645	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_shouldertwist_ri
+ 646	sdr_com_animscripted_head_look_10
+ 647	sdr_com_animscripted_head_look_33
+ 648	1_2_6
+ 649	ps_exec_096_stand_01,j_mainroot
+ 650	3_4_4
+ 651	deadsilencefx
+ 652	iw9_ai_infil_blima_seat_2_getout
+ 653	mgl_v021
+ 654	iw9_mp_execution_075_attacker_laststand
+ 655	iw9_mp_execution_096_attacker_stand
+ 656	fx_stopfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck.vfx, j_neck
+ 657	2_8_4
+ 658	get_out_vehicle_combat_door_off
+ 659	turretaim_graft_node
+ 660	wpfoly_acog_hip_toggle_on
+ 661	iw9_veh_heli_medium_seat_2_exit_combat_idle
+ 662	default_headlook
+ 663	iw9_mp_haunting_soul_entity
+ 664	jltv_siren
+ 665	0_4_2
+ 666	fx_playfxontag, vfx/iw9/executions/vfx_hween_butcher_clvhit, j_clavicle_ri
+ 667	iw9_mp_execution_112_attacker_laststand
+ 668	iw9_mp_execution_089_attacker_stand
+ 669	ps_grenade_bounce_med,tag_accessory_animate
+ 670	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_neck
+ 671	iw9_mp_execution_056_victim_laststand
+ 672	down
+ 673	launch
+ 674	5_6_2
+ 675	battleragevfx
+ 676	sdr_mp_veh_lbravo_ground_l3_idle
+ 677	fx_playfxontag, vfx/iw9/executions/vfx_exec_042_sword_stab, j_proc_lift_clavicle_le
+ 678	iw9_mp_execution_008_attacker_stand
+ 679	iw9_mp_execution_008_attacker_laststand
+ 680	ps_exec_gun_pi_hit,j_wrist_ri
+ 681	iw9_mp_execution_008_attacker_prone
+ 682	iw9_mp_execution_055_victim_laststand
+ 683	ps_iw9_mp_deadsilence_raise_plr
+ 684	ps_exec_096_laststand_mus_stinger,j_mainroot
+ 685	offhand_2h_wm_briefcase_bomb_v0
+ 686	iw9_ai_infil_blima_seat_4_getout
+ 687	iw9_mp_veh_jltv_seat_3_exit_combat_idle
+ 688	al_ar_lr
+ 689	tag_tail_rotor_blade_01_blur
+ 690	iw9_mp_veh_jltv_seat_3_exit
+ 691	vfx_start
+ 692	execution_004
+ 693	execution_064
+ 694	sdr_cas_kill_exposed_burst_09
+ 695	iw9_mp_execution_109_victim_prone
+ 696	ps_mp_bomb_button_9_plr
+ 697	ps_exec_katana_stab,j_spineupper
+ 698	audio_loop
+ 699	fx_playfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck.vfx, j_clavicle_ri
+ 700	look_45
+ 701	active1
+ 702	iw9_mp_execution_017_attacker_prone_fem
+ 703	iw9_mp_execution_052_attacker_stand_fem
+ 704	fx_playfxontag, vfx/jup/executions/blood_decal_pos_y_medium, j_spine4
+ 705	iw9_mp_execution_052_attacker_laststand_fem
+ 706	al_ar_ll_
+ 707	iw9_mp_execution_066_attacker_stand_fem
+ 708	iw9_veh_suv_overland_2016_seat_3_exit_idle
+ 709	iw9_overland_seat_0_pi_reload
+ 710	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_eye_laser_3, tag_eye
+ 711	fx_playfxontag, vfx/iw9/executions/vfx_exec_blood_splatter_posy.vfx, j_sling_clavicle
+ 712	ps_exec_bodyfall_swt_body,j_mainroot
+ 713	fully_open_unusable
+ 714	iw9_mp_deadsilence_press
+ 715	iw9_veh_suv_overland_2016_seat_2_hide_to_combat
+ 716	iw9_mp_execution_095_attacker_laststand_fem
+ 717	iw9_mp_execution_019_victim_prone
+ 718	fx_playfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_arms, j_shoulder_ri
+ 719	iw9_veh_heli_medium_seat_0_death
+ 720	iw9_mp_execution_036_attacker_stand
+ 721	aim_9
+ 722	weap_rpg_drop_plr
+ 723	iw9_mp_execution_095_attacker_prone
+ 724	mi8_land_sfx
+ 725	iw9_mp_execution_074_attacker_prone
+ 726	fx_stopfxontag, vfx/iw9/executions/vfx_exec_hanting_butcher_cleaver_finisher, j_spineupper
+ 727	iw9_mp_execution_039_attacker_prone_fem
+ 728	second_missile_thruster
+ 729	iw9_overland_seat_3_ar_reload
+ 730	reb_vh_techo_bed_guy1_idle_search02
+ 731	iw9_mp_execution_052_attacker_stand
+ 732	forearmpad_l
+ 733	iw9_mp_decoymine_swim_idle
+ 734	ps_exec_crowbar_imp,j_head
+ 735	ps_exec_096_stand_mus_stinger,j_mainroot
+ 736	fx_playfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck.vfx, j_neck
+ 737	attach_clip_left
+ 738	ps_exec_087_laststand_laserend,j_head
+ 739	aim_anims
+ 740	fx_playfxontag, vfx/iw9/executions/vfx_exec_077_blood_pool, tag_origin
+ 741	danger-icon
+ 742	reb_vh_techo_stand_impact_v06
+ 743	explode_10
+ 744	iw9_mp_execution_098_attacker_prone
+ 745	iw9_veh_suv_overland_2016_seat_3_exit_combat_idle
+ 746	1_4
+ 747	ps_jup_exec_knife_prone_attacker_arm_swing_b,j_wrist_ri
+ 748	iw9_mp_execution_041_attacker_prone
+ 749	fx_stopfxontag, vfx/iw9/executions/vfx_exec_trail_streak_quick.vfx, j_ankle_le
+ 750	fx_stopfxontag, vfx/iw9/executions/vfx_exec_trail_streak_quick.vfx, j_ankle_ri
+ 751	fx_stopfxontag, vfx/iw9/executions/vfx_exec_hanting_butcher_chestbleed_motion, j_clavicle_ri
+ 752	iw9_mp_execution_002_attacker_prone_fem
+ 753	look_26_headonly
+ 754	ps_exec_gore_medium_splat,j_head
+ 755	sdr_mp_execution_345_attacker_stand
+ 756	vehicle_hide
+ 757	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_shoulder_le
+ 758	ps_exec_gear_mvmt_quick_light
+ 759	iw9_veh_heli_medium_seat_5_idle_combat01
+ 760	damagelightsound
+ 761	iw9_mp_execution_041_attacker_laststand
+ 762	reb_com_veh8_decho_turret_aim_5
+ 763	geiger
+ 764	sdr_mp_veh_blima_ground_r3_exit
+ 765	2_2_2
+ 766	jlr_com_execution_000_attacker_stand_8
+ 767	ps_exec_gear_mvmt_long_light,j_spinelower
+ 768	4_2_4
+ 769	4_8_2
+ 770	explosion
+ 771	tag_bumper_front
+ 772	ps_exec_gear_grab_pull,j_wrist_le
+ 773	fx_playfxontag, vfx/iw9/executions/vfx_exec_96_skeletor_staff_fire_build_up.vfx, tag_fx
+ 774	execution_016_fem
+ 775	vehicle_pain_idle
+ 776	ps_iw9_haunting_butcher_weap_imp
+ 777	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward.vfx, j_neck
+ 778	vh9_techo
+ 779	iw9_mp_execution_112_victim_stand
+ 780	tag_bumper_back
+ 781	motion_warp_begin
+ 782	ps_jup_exec_knife_attacker_pull_out,j_wrist_ri
+ 783	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_ankle_le
+ 784	base_melee_execution_attacker_slot
+ 785	iw9_mp_execution_012_attacker_stand
+ 786	reb_vh_techo_stand_9pt_aim_9
+ 787	ps_exec_baton_impact_body_light,j_hip_ri
+ 788	fully_opening_unusable
+ 789	ps_exec_punch_full,j_knee_le
+ 790	ps_exec_land,tag_origin
+ 791	axis
+ 792	usable
+ 793	ps_exec_gore_blood_squirt,j_spine4
+ 794	iw9_mp_execution_108_attacker_prone
+ 795	iw9_mp_execution_081_victim_laststand
+ 796	iw9_mp_execution_036_victim_prone
+ 797	ps_exec_062_victim_prone_01
+ 798	reb_vh_techo_driver_death01
+ 799	ps_exec_gun_sh_raise,j_wrist_ri
+ 800	iw9_mp_execution_094_attacker_prone_fem
+ 801	iw9_ai_veh_jltv_seat_2_getin
+ 802	iw9_mp_execution_072_victim_prone
+ 803	facial
+ 804	iw9_mp_execution_039_victim_laststand
+ 805	conceal_add
+ 806	iw9_mp_execution_065_victim_prone
+ 807	ps_exec_gear_mvmt_quick_light,j_ankle_ri
+ 808	ps_exec_gear_mvmt_midlength_light,j_elbow_le
+ 809	carriedallies
+ 810	ks_auto_drone_mp
+ 811	iw9_veh_death_stand_exposed_fallover_2
+ 812	iw9_mp_execution_022_attacker_stand
+ 813	execution_030
+ 814	execution_013
+ 815	sdr_cas_kill_exposed_burst_07
+ 816	ps_exec_061_stand_foley_01,j_wrist_ri
+ 817	weap_ameli_clipin_plr
+ 818	ps_exec_060_laststand_victim_04,j_mainroot
+ 819	iw9_mp_execution_045_victim_prone
+ 820	jump_begin_med
+ 821	fx_playfxontag, vfx/iw9/executions/vfx_exec_065_battering_ram_hit, tag_fx
+ 822	iw9_mp_execution_085_attacker_stand
+ 823	iw9_mp_execution_047_attacker_laststand
+ 824	ps_gib_dismember_arm,j_spineupper
+ 825	weap_kriss_chamber_plr
+ 826	ps_exec_097_stand_05,j_wrist_le
+ 827	iw9_veh_suv_overland_2016_seat_0_impact01_2
+ 828	5cps
+ 829	sdr_com_exposed_stand_head_only_16
+ 830	sdr_com_exposed_stand_head_only_33
+ 831	5_6_turn_4
+ 832	iw9_mp_execution_007_victim_prone
+ 833	ps_exec_bodyfall_swt_head,j_mainroot
+ 834	ps_exec_katana_pull,j_spineupper
+ 835	explode15
+ 836	iw9_mp_execution_006_attacker_stand
+ 837	aim_7
+ 838	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_ankle_ri
+ 839	j_spine4
+ 840	ps_exec_058_stand_sword_sheathe,tag_weapon_right
+ 841	talk
+ 842	iw9_mp_execution_003_victim_prone
+ 843	ps_exec_kalisticks_impact,j_wrist_le
+ 844	ps_exec_035_dog_attack_laststand_02,tag_eye
+ 845	melee_upper_push
+ 846	sdr_com_exposed_crouch_shotgun_fire03
+ 847	v006
+ 848	torso_lower_health
+ 849	ps_exec_061_stand_foley_03,j_spineupper
+ 850	ps_exec_impact_body_full,j_spine4
+ 851	sdr_com_exposed_crouch_twitch01@2
+ 852	reb_com_vh_blima_chief_idle
+ 853	ping
+ 854	execution_072_walpha
+ 855	explode_17
+ 856	ps_exec_033_dog_robo_jaw_close,jaw_jnt
+ 857	ps_exec_062_victim_stand_02,j_spineupper
+ 858	jug_execution_001_stand_2
+ 859	ps_exec_gear_mvmt_struggle,j_head
+ 860	fx_playfxontag, vfx/iw9/executions/vfx_exec_58_sword_neck_slash.vfx, j_spineupper
+ 861	0_0
+ 862	4_4
+ 863	aim
+ 864	iw9_mp_execution_031_victim_stand
+ 865	1_8_6
+ 866	watchvfxplayer
+ 867	iw9_mp_execution_002_victim_stand
+ 868	fx_playfxontag, vfx/iw9/executions/vfx_exec_58_sword_chest_slash.vfx, j_spineupper
+ 869	j_groinprotector
+ 870	ps_br_auto_ascender_attach_foley_plr
+ 871	3_8_6
+ 872	iw9_mp_execution_094_attacker_stand
+ 873	iw9_mp_execution_101_attacker_laststand
+ 874	iw9_mp_execution_019_attacker_laststand_fem
+ 875	mgl_v026
+ 876	iw9_mp_execution_087_victim_stand
+ 877	ps_exec_gore_medium_splat,j_spineupper
+ 878	iw9_veh_suv_overland_2016_seat_3_entry_nodoor
+ 879	heli_out
+ 880	ps_exec_gear_mvmt_whoosh_med,j_ankle_le
+ 881	ps_exec_060_laststand_attacker_01,j_mainroot
+ 882	4_6_2
+ 883	ps_foley_gest_neckslice_plr
+ 884	iw9_mp_execution_043_attacker_laststand
+ 885	iw9_mp_execution_019_attacker_stand_fem
+ 886	fx_playfxontag, vfx/iw9/executions/vfx_exec_58_sword_neck_slash, j_neck
+ 887	shoulderpad_r
+ 888	superpowers_aura
+ 889	iw9_veh_suv_overland_2016_seat_2_exit_idle
+ 890	ps_exec_060_stand_victim_03,j_mainroot
+ 891	ps_exec_baton_slide_gear,j_knee_ri
+ 892	ps_iw9_haunting_butcher_vox_shout,j_neck
+ 893	iw9_veh_suv_overland_2016_seat_0_idle_to_combat
+ 894	ps_exec_060_laststand_victim_02,j_mainroot
+ 895	iw9_veh_suv_overland_2016_seat_3_hide_to_combat
+ 896	add_idle
+ 897	sdr_mp_veh_blima_ground_l2_idle
+ 898	black::veh9_mil_air_heli_medium_vehphys_mp
+ 899	ps_gesture_radio_call_long_plr_02
+ 900	using_300
+ 901	ps_iw9_haunting_butcher_vox_idle,j_neck
+ 902	iw9_mp_decoymine_pop
+ 903	tag_window_back_left
+ 904	execution_0071
+ 905	empd
+ 906	5_2_4
+ 907	veh9_mil_air_heli_blima_vehphys_mp
+ 908	iw9_mp_execution_077_attacker_laststand
+ 909	strafe2
+ 910	jug_execution_002_stand_mp_8
+ 911	ps_exec_scrape_hands,j_wrist_ri
+ 912	ps_exec_033_dog_robo_vo_stand_02,nose_jnt
+ 913	ps_exec_gore_hack,j_mainroot
+ 914	iw9_ai_veh_jltv_seat_1_getin
+ 915	ps_exec_bullet_ricochet,tag_weapon_right
+ 916	impact
+ 917	crouch_semi_4
+ 918	ps_exec_gore_blood_headshot,j_head
+ 919	iw9_mp_execution_106_victim_stand
+ 920	ps_exec_gear_mvmt_whoosh_med,j_spineupper
+ 921	weap_rpg_twist_plr
+ 922	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_shoulder_le
+ 923	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_elbow_le
+ 924	sdr_com_exposed_aim_7
+ 925	fx_killfxontag, vfx/iw9/executions/vfx_exec_087_laser_ground_impact_2, tag_eye
+ 926	jug_execution_002_stand_8
+ 927	sdr_com_exposed_crouch_reload01
+ 928	weap_ar57_chamber_plr
+ 929	window_back_right
+ 930	execution_001
+ 931	execution_061
+ 932	execution_079
+ 933	execution_088
+ 934	execution_119
+ 935	anim_pose = crouch
+ 936	iw9_mp_execution_114_attacker_prone
+ 937	ps_exec_batteringram_hit,j_wrist_le
+ 938	ps_exec_gun_rattle_heavy,tag_weapon_right
+ 939	look_40
+ 940	equip_bunkerbuster_burrowed_gl_v2
+ 941	qamis
+ 942	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_hip_le
+ 943	ps_weap_knife_inspect_03
+ 944	ps_iw9_swmpmon_exec_vo_scare,j_neck
+ 945	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward.vfx, tag_shield_back
+ 946	iw9_mp_execution_000_attacker_prone_fem
+ 947	facial_angry_execution_hl_2
+ 948	ps_jup_exec_knife_victim_turn,j_spineupper
+ 949	sdr_com_exposed_stand_head_only_01
+ 950	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, j_head
+ 951	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_drip.vfx, j_shoulder_le
+ 952	sdr_com_exposed_stand_melee02
+ 953	sdr_com_exposed_twitch01
+ 954	ps_exec_kalisticks_swing,j_wrist_le
+ 955	ps_weap_frag_pin,j_wrist_ri
+ 956	ps_exec_zmb_bite_rip,j_head
+ 957	ps_exec_dog_poof_trans,jaw_jnt
+ 958	iw9_mp_execution_001_victim_stand
+ 959	ps_exec_gear_mvmt_struggle,j_knee_le
+ 960	auto_1
+ 961	equip_bunkerbuster_burrowed_gl
+ 962	v008
+ 963	semi_1
+ 964	ps_exec_gear_mvmt_struggle,j_neck
+ 965	ps_wfoly_plr_mg_bravo50_idle_01
+ 966	50
+ 967	iw9_mp_decoymine_inflate
+ 968	explode_15
+ 969	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_clavicle_ri
+ 970	footstep_right
+ 971	iw9_mp_execution_023_attacker_prone_fem
+ 972	tag_mirror_right
+ 973	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_price_shot_imp_head_pr.vfx, j_helmet
+ 974	ps_exec_scrape_quick,j_wrist_le
+ 975	iw9_mp_veh_jltv_seat_0_exit_combat_run
+ 976	0_2
+ 977	4_6
+ 978	iw9_mp_execution_065_attacker_stand_fem
+ 979	ps_exec_096_stand_04,j_mainroot
+ 980	ps_exec_mummy_mvmt_post,tag_stowed_hip_rear
+ 981	sdr_com_animscripted_head_look_01
+ 982	iw9_mp_execution_016_attacker_laststand_fem
+ 983	3_8_4
+ 984	iw9_veh_heli_medium_seat_3_exit_patrol
+ 985	fx_playfxontag, vfx/iw9/fieldupgrades/vfx_emp_blast_device, tag_accessory
+ 986	facial_cheer_2
+ 987	tag_wheel_center_front_left
+ 988	ps_exec_087_prone_laserstart,j_head
+ 989	ps_exec_slide,j_knee_ri
+ 990	ps_exec_shocker_shocked,j_spine4
+ 991	ps_exec_079_prone_01,j_spineupper
+ 992	ps_exec_060_prone_attacker_02,j_mainroot
+ 993	jug_execution_000_stand_mp_2
+ 994	bodyfall_small
+ 995	iw9_mp_execution_001_victim_prone
+ 996	fx_playfxontag, vfx/iw9/executions/vfx_exec_starlight_hands_loop, j_wrist_ri
+ 997	tag_bumper_front_damaged
+ 998	iw9_mp_veh_jltv_seat_0_exit_combat_idle
+ 999	armor_break
+1000	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_metal_thick_med, tag_brass
+1001	iw9_mp_execution_117_attacker_prone
+1002	ps_exec_079_laststand_05,j_spineupper
+1003	done
+1004	5_2_2
+1005	ps_exec_scrape_quick,j_knee_ri
+1006	ps_exec_099_wfoly_plr_pi_golf17_reload_04,j_wrist_ri
+1007	ps_exec_bodyfall_swt_body,j_shoulder_ri
+1008	ps_iw8_mp_self_revive_inject_hold
+1009	iw9_mp_veh_jltv_windowfr_scrub_neutral
+1010	ps_exec_gun_m4_hit,j_head
+1011	exec_gore_heavy_splat,j_head
+1012	iw9_mp_execution_111_victim_laststand
+1013	ps_exec_061_laststand_wings,j_spineupper
+1014	facial_pain
+1015	crouch_semi_2
+1016	ps_exec_bodyfall_swt_feet,j_mainroot
+1017	ps_exec_gear_mvmt_complex_heavy,j_mainroot
+1018	dummy_vis_hide
+1019	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp,
+1020	sdr_com_exposed_aim_1
+1021	execution_345
+1022	execution_063
+1023	execution_033
+1024	iw9_mp_execution_034_attacker_laststand
+1025	ps_exec_gear_mvmt_kick,j_ankle_ri
+1026	door_back_right
+1027	start_aim
+1028	ps_exec_punch_full,j_wrist_ri
+1029	ps_jup_exec_knife_attacker_arm_swing_d,j_wrist_ri
+1030	iw9_mp_execution_098_victim_stand_fem
+1031	fx_playfxontag, vfx/iw9/killstreaks/gunship/vfx_gunship_outro_screens.vfx, tag_notebook_big1
+1032	ps_foley_gest_ok_plr
+1033	ps_exec_impact_body_full,j_elbow_ri
+1034	iw9_mp_execution_094_attacker_stand_fem
+1035	fx_stopfxontag, vfx/iw9/executions/vfx_exec_mummy_insect_crawl, j_spinelower_lift
+1036	ps_weap_knife_inspect_01
+1037	rescue_extract
+1038	ps_exec_bodytap
+1039	fx_playfxontag, vfx/iw9/executions/vfx_exec_starlight_eyes, j_head
+1040	ps_exec_crowbar_grab,j_wrist_ri
+1041	fx_stopfxontag, vfx/iw9/executions/vfx_exec_087_head_blood, j_head
+1042	iw9_mp_execution_079_victim_prone
+1043	iw9_mp_execution_005_victim_stand
+1044	iw9_mp_execution_110_attacker_prone
+1045	tag_light_top_right
+1046	iw9_ai_infil_blima_seat_3_idle
+1047	bloodfxdoom
+1048	script_model
+1049	iw9_mp_execution_028_victim_prone
+1050	ps_iw9_emp_pullout
+1051	veh9_mil_air_heli_medium_vehphys
+1052	aim_2
+1053	iw9_mp_execution_063_attacker_laststand
+1054	iw9_mp_execution_114_attacker_laststand
+1055	ps_exec_gore_medium_splat,j_knee_ri
+1056	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash_2, j_neck
+1057	iw9_mp_execution_012_attacker_stand_walpha
+1058	fx_stopfxontag, vfx/iw9/executions/vfx_exec_58_sword_neck_slash, j_head
+1059	jugg_world
+1060	iw9_mp_execution_062_attacker_laststand
+1061	ps_exec_058_laststand_sword_wipe,tag_weapon_right
+1062	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward.vfx, j_ball_ri
+1063	ps_exec_machete_pull_shing,j_wrist_le
+1064	iw9_veh_jltv_seat_1_seated_to_leanout
+1065	iw9_veh_suv_overland_2016_seat_2_pain
+1066	ps_exec_096_laststand_03,tag_weapon_chest
+1067	ps_exec_gore_squish_long,j_mainroot
+1068	iw9_mp_execution_026_victim_prone
+1069	ps_exec_katana_slash,j_neck
+1070	explode_23
+1071	4_4_turn_4
+1072	contrail_off
+1073	2_4
+1074	looping_wave
+1075	fx_stopfxontag, vfx/iw9/executions/vfx_exec_087_eye_flare_constant, tag_eye
+1076	ps_exec_step_left
+1077	3_6_4
+1078	ps_exec_hand_grab_body,j_ankle_ri
+1079	ps_exec_096_stand_02
+1080	fx_stopfxontag, vfx/iw8_mp/executions/vfx_neck_blood_stab, j_neck
+1081	iw9_mp_execution_118_victim_stand
+1082	ps_br_foley_revive_syringe_out
+1083	iw9_mp_execution_033_attacker_stand_fem
+1084	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blood_splatter.vfx, j_helmet
+1085	explode4
+1086	WEAPON CONTROL VIEW
+1087	iw9_mp_execution_049_victim_laststand
+1088	j_dummy_l_elbow
+1089	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_flesh_chunk.vfx, j_wrist_ri
+1090	7
+1091	iw9_mp_execution_089_victim_stand
+1092	equipmtovfxview
+1093	jlr_com_execution_000_attacker_prone_8
+1094	ps_exec_058_prone_sword_in_air,tag_weapon_right
+1095	fx_playfxontag, vfx/iw9/executions/vfx_exec_blood_screen_01, j_head
+1096	iw9_ai_veh_jltv_seat_0_getin_nodoor
+1097	iw9_mp_execution_004_attacker_laststand
+1098	iw9_mp_execution_106_attacker_prone
+1099	tag_tail_rotor_blade_04_blur
+1100	iw9_mp_execution_063_victim_prone
+1101	iw9_mp_execution_030_victim_laststand
+1102	ps_exec_grab_heavy,j_wrist_ri
+1103	ps_exec_087_prone_stompfoley,j_mainroot
+1104	fx_playfxontag, vfx/iw9/executions/vfx_exec_swamp_water_splash.vfx, j_spine4
+1105	fx_stopfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee.vfx, j_hip_proc_ri
+1106	iw9_mp_execution_033_attacker_prone_fem
+1107	facial_pain_2
+1108	iw9_mp_execution_090_victim_laststand
+1109	sdr_com_exposed_crouch_semi_05@2
+1110	iw9_mp_execution_071_victim_laststand
+1111	upload
+1112	iw9_mp_execution_115_attacker_stand
+1113	execution_019_fem
+1114	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_clavicle_le
+1115	iw9_mp_execution_095_attacker_prone_fem
+1116	veh9_mil_lnd_jltv_turret_camo_v026
+1117	fx_playfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_back, j_chest
+1118	iw9_mp_execution_013_victim_prone
+1119	iw9_mp_execution_036_attacker_prone
+1120	ps_exec_062_inarius_laststand_03,j_elbow_ri
+1121	iw9_mp_execution_071_attacker_laststand
+1122	iw9_mp_execution_081_attacker_prone_fem
+1123	execution_035
+1124	execution_014
+1125	execution_069
+1126	ps_foley_gest_yawn_plr
+1127	vehicle_idle_to_combat_react_to_player
+1128	ps_exec_079_laststand_03,j_spineupper
+1129	shoot_idle_twitch_ar
+1130	iw9_mp_execution_093_attacker_stand_fem
+1131	ps_exec_061_stand_burst_body,j_spineupper
+1132	50cps
+1133	ps_exec_bullet_ricochet,j_wrist_le
+1134	tag_light_front_right
+1135	ps_iw9_dmz_infil_player2_intro,j_wrist_le
+1136	explode33
+1137	explode16
+1138	iw9_mp_execution_006_victim_prone
+1139	aim_4
+1140	ps_exec_gear_mvmt_whoosh_slow,j_knee_le
+1141	ps_exec_vo_pain
+1142	ps_exec_gore_bone_break,j_neck
+1143	laser
+1144	thighpad_r
+1145	fx_killfxontag, vfx/iw9/executions/vfx_exec_087_eye_burn, tag_eye
+1146	jlr_com_execution_000_victim_stand_8
+1147	iw9_mp_execution_067_attacker_stand
+1148	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_shoulder_ri
+1149	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_blood_pour.vfx, j_proc_spineupperlift
+1150	reb_com_vh_blima_chief2_exit
+1151	show_1
+1152	iw9_mp_decoymine_crouch_deflate
+1153	ps_iw9_drop_chute_incoming,tag_origin
+1154	v017
+1155	iw9_mp_execution_015_victim_stand
+1156	60
+1157	ps_exec_gore_blood_drip,j_mainroot
+1158	ps_exec_gun_lmg_lower,tag_weapon_right
+1159	footstep_right_large
+1160	iw9_mp_execution_010_attacker_prone
+1161	iw9_mp_execution_077_victim_laststand
+1162	facial_scared
+1163	iw9_mp_veh_jltv_seat_1_death
+1164	ps_exec_061_stand_magic_build_01,j_wrist_ri
+1165	iw9_veh_heli_medium_seat_4_exit_patrol
+1166	vehicle_combat_lean_to_idle
+1167	ps_exec_033_dog_robo_step,l_frontleg3_jnt
+1168	reb_com_veh8_decho_turret_idle
+1169	iw9_mp_execution_065_attacker_prone_fem
+1170	weap_ameli_hit_plr
+1171	ps_exec_knife_stab,j_wrist_ri
+1172	toggle0
+1173	sdr_com_exposed_gun_down
+1174	sdr_com_exposed_semi_05
+1175	iw9_mp_execution_053_attacker_stand
+1176	iw9_veh_heli_medium_seat_7_exit_combat_run
+1177	iw9_mp_execution_010_victim_stand
+1178	cyber_revive_icon
+1179	iw9_mp_execution_016_attacker_prone_fem
+1180	WEAPON CONTROL AUTO GUN
+1181	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_hip_proc_le
+1182	facial_idle_2
+1183	ks_airdrop_rope_mp
+1184	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_knee_le
+1185	ps_exec_helmet_impact,j_head
+1186	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_head_blood, j_knee_le
+1187	iw9_mp_execution_077_victim_prone
+1188	reb_vh_techo_bed_guy1_hide_loop
+1189	veh9_mil_lnd_jltv_turret_camo_mgl_v007
+1190	ps_exec_gore_heavy_splat,j_hip_ri
+1191	iw9_mp_execution_041_victim_laststand
+1192	jug_com_execution_000_victim_stand_6
+1193	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_sling_pivot
+1194	ps_exec_machete_swing_mid,j_wrist_ri
+1195	reb_vh_techo_lowcrouch_9pt_aim_8
+1196	iw9_mp_execution_005_attacker_stand_fem
+1197	iw9_mp_execution_100_attacker_stand
+1198	iw9_ai_infil_blima_seat_4_idle
+1199	ps_exec_gun_sh_raise,j_wrist_le
+1200	base_melee_execution_victim_slot
+1201	rpg_1
+1202	sdr_com_exposed_crouch_burst_06
+1203	veh9_mil_lnd_jltv_turret_camo_v018
+1204	ps_exec_gear_mvmt_kick,j_knee_ri
+1205	ps_exec_gear_mvmt_quick_light,j_ankle_le
+1206	iw9_veh_suv_overland_2016_seat_1_entry_nodoor
+1207	mvmt_step_pre
+1208	fx_playfxontag, vfx/iw9/executions/vfx_exec_065_battering_ram_hit_grnd, tag_battering_ram_offset
+1209	facial_gas_death
+1210	bodyfall_limb_small
+1211	veh9_blima_explosion
+1212	execution_101
+1213	ps_exec_gear_mvmt_kick,j_ankle_le
+1214	plunder_sfx
+1215	ps_exec_gear_mvmt_quick_heavy,j_knee_le
+1216	ps_foley_gest_thumbdown_plr
+1217	ps_foley_gest_devilhorns_plr
+1218	iw9_mp_execution_049_attacker_stand
+1219	iw9_mp_veh_jltv_seat_2_exit
+1220	ps_exec_gun_pi_draw,j_wrist_ri
+1221	look_25
+1222	iw9_mp_execution_040_attacker_prone
+1223	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash_2, j_head
+1224	ps_iw9_haunting_butcher_vox_catch,j_neck
+1225	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_ankle_le
+1226	iw9_mp_execution_032_attacker_stand
+1227	ps_exec_gore_heavy_splat
+1228	ps_mp_bomb_button_6_plr
+1229	iw9_mp_execution_074_victim_stand
+1230	look_06_headonly
+1231	sdr_mp_veh_lbravo_ground_l1_exit
+1232	ps_exec_knife_slice_metal,j_neck
+1233	iw9_mp_execution_051_victim_stand
+1234	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_spinelower
+1235	sdr_com_exposed_crouch_shoot_auto_01
+1236	holowatchonnight
+1237	ps_weap_stimpistol_plr_hit_revive
+1238	iw9_mp_execution_033_attacker_laststand_fem
+1239	execution_013_walpha
+1240	sdr_com_exposed_burst_05
+1241	ps_exec_mvmt_slide,j_ankle_le
+1242	iw9_mp_execution_062_attacker_prone
+1243	tag_body_animate
+1244	vehicle_hide_to_combat
+1245	fx_stopfxontag, vfx/iw9/executions/vfx_exec_065_battering_ram_hit_grnd.vfx, j_hip_proc_ri
+1246	fx_playfxontag, vfx/iw8_mp/level/faridah/vfx_infil_truck_dust_1.vfx, tag_origin
+1247	get_out_vehicle_combat
+1248	iw9_mp_execution_020_attacker_prone
+1249	explode
+1250	2cps
+1251	sdr_mp_veh_blima_ground_l1_exit
+1252	exhaust
+1253	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit, j_head
+1254	burst_2
+1255	iw9_mp_execution_044_victim_stand
+1256	weap_msbs_clipin_plr
+1257	veh9_jltv_mg_explosion
+1258	iw9_mp_execution_085_victim_prone
+1259	iw9_mp_execution_022_attacker_laststand
+1260	fx_playfxontag, vfx/jup/executions/blood_decal_pos_y_medium, j_head
+1261	3_2_4
+1262	iw9_mp_execution_018_attacker_prone_fem
+1263	hidewindows
+1264	objective_map
+1265	ps_exec_hand_grab_head,j_wrist_le
+1266	iw9_mp_execution_086_attacker_prone
+1267	ps_exec_gear_mvmt_midlength_light,j_ankle_le
+1268	lbravo_4
+1269	flareup
+1270	2_6_6
+1271	jlr_com_execution_000_attacker_stand_6
+1272	iw9_mp_execution_071_attacker_stand
+1273	ps_exec_gear_mvmt_quick_heavy,j_head
+1274	tag_window_cockpit_left2
+1275	iw9_mp_execution_049_attacker_laststand_fem
+1276	8
+1277	iw9_mp_execution_005_victim_laststand
+1278	ps_exec_bodyfall_swt_hands,j_head
+1279	tag_window_back_left_corner
+1280	swimbubbles
+1281	carepackage_drop
+1282	sniperglintoff
+1283	ps_exec_scythe_swing,j_wrist_ri
+1284	ps_exec_gore_bone_break_loud,j_spineupper
+1285	exec_fire
+1286	nuke_active
+1287	reb_vh_lbravo_guy1_death
+1288	ddos
+1289	boss_mummy_execution_000_2
+1290	ps_exec_gear_mvmt_midlength_heavy,j_knee_le
+1291	5_8_6
+1292	iw9_mp_execution_108_victim_prone
+1293	tag_tail_rotor_blade_04
+1294	iw9_mp_execution_004_attacker_prone
+1295	talk_anims
+1296	iw9_mp_execution_113_attacker_stand
+1297	ps_exec_knife_pull,j_wrist_ri
+1298	iw9_mp_execution_098_victim_laststand_fem
+1299	iw9_mp_execution_094_victim_stand
+1300	iw9_mp_execution_016_attacker_stand_fem
+1301	facial_death_3
+1302	cashdrop_common_world
+1303	ps_exec_079_stand_03,j_spineupper
+1304	ps_exec_089_stand_01,j_spineupper
+1305	ps_exec_gear_mvmt_quick_heavy,j_shoulder_ri
+1306	iw9_mp_execution_087_attacker_stand
+1307	veh9_mil_lnd_jltv_turret_camo_v010
+1308	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_knee_le
+1309	ps_exec_gear_mvmt_midlength_light,j_elbow_ri
+1310	ps_exec_060_stand_attacker_02,j_mainroot
+1311	execution_055
+1312	iw9_mp_execution_005_attacker_stand
+1313	fx_playfxontag, vfx/iw9/executions/vfx_exec_95_blood_splatter.vfx,
+1314	iw9_mp_execution_111_attacker_laststand
+1315	iw9_mp_execution_089_attacker_prone
+1316	police_explosion_on
+1317	ps_exec_knife_pull,j_head
+1318	ps_exec_060_laststand_attacker_02,j_mainroot
+1319	ps_exec_impact_body_deep,j_mainroot
+1320	al_ll_lr
+1321	vehicle_reload
+1322	ps_exec_impact_body_deep,j_head
+1323	refill clip
+1324	iw9_mp_execution_015_attacker_stand_fem
+1325	sdr_mp_veh_blima_ground_r2_idle
+1326	infil_lights
+1327	jlr_com_execution_000_victim_prone_2
+1328	ps_exec_katana_slash,j_head
+1329	20cps_wait
+1330	swamp_com_execution_000_attacker_stand_2
+1331	ps_exec_gear_mvmt_whoosh_med,j_spinelower
+1332	explode22
+1333	get_out_vehicle_combat_run
+1334	reb_vh_techo_bed_guy1_hide_to_combat
+1335	fx_playfxontag, vfx/iw9/executions/vfx_exec_95_axe_neck_stab_squibs.vfx, tag_fx
+1336	sdr_com_exposed_ads
+1337	damagemedium
+1338	fx_stopfxontag, vfx/iw9/executions/vfx_exec_099_blood_splash.vfx, tag_origin
+1339	iw9_mp_execution_089_attacker_laststand
+1340	iw9_mp_decoymine_deflate
+1341	ps_exec_gear_mvmt_throw,j_spineupper
+1342	ps_iw9_mp_adrenaline_use_stim
+1343	iw9_veh_heli_medium_seat_3_exit_combat_idle
+1344	vehicle_idle_hunt
+1345	ps_exec_gun_m4_hit,j_wrist_ri
+1346	brloot_scorpion_trophy
+1347	ps_exec_035_dog_approach_laststand,tag_eye
+1348	fx_stopfxontag, vfx/iw9/executions/vfx_exec_077_blood_pool, tag_origin
+1349	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp.vfx, j_wrist_ri
+1350	active
+1351	fx_playfxontag, vfx/iw9/executions/vfx_exec_blood_splatter.vfx, j_hipholster_le
+1352	explode_20
+1353	reb_vh_techo_highcrouch_9pt_aim_4
+1354	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_clavicle_le
+1355	ps_exec_gore_heavy_splat,j_spinelower
+1356	ps_br_foley_revive_syringe_inject
+1357	parts_backpack_inventory_large
+1358	iw9_mp_execution_109_victim_stand
+1359	tag_wheel_front_right
+1360	weap_usp45_lift_plr
+1361	dudunderwater
+1362	iw9_mp_execution_042_attacker_prone
+1363	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_drip_prone.vfx, tag_stowed_hip_rear
+1364	iw9_veh_suv_overland_2016_seat_2_death_combat
+1365	ps_exec_079_laststand_04,j_spineupper
+1366	sdr_com_exposed_stand_gun_down_head_look_16
+1367	gas_death
+1368	fx_playfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee, j_knee_le
+1369	ps_exec_gear_mvmt_whoosh_slow,j_wrist_ri
+1370	fx_stopfxontag, vfx/iw9/executions/vfx_exec_058_knife_pullout_2_ch.vfx, j_helmet
+1371	ps_iw9_swmpmon_swipe,j_wrist_ri
+1372	meleeblood
+1373	art_stadium_ball
+1374	iw9_mp_veh_jltv_seat_0_death
+1375	corecenterwall
+1376	iw9_mp_execution_006_attacker_prone
+1377	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_laser_ground_impact, tag_eye
+1378	explode3
+1379	vehicle_idle_to_combat_lean
+1380	reb_vh_lbravo_guy6_exit_combat_run
+1381	plantedaxis
+1382	iw9_mp_execution_120_attacker_laststand
+1383	ps_exec_gore_bone_break_snap,j_head
+1384	2_2_8
+1385	ps_exec_gear_grab_heavy,j_neck
+1386	iw9_mp_execution_119_victim_stand
+1387	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_stab, j_shoulder_ri
+1388	4_8_8
+1389	ps_exec_gore_tear,j_mainroot
+1390	bolt_gas
+1391	0
+1392	ps_exec_gun_rattle_heavy,j_wrist_le
+1393	0_2_6
+1394	0_6_4
+1395	iw9_mp_execution_004_victim_prone
+1396	ps_jup_exec_knife_prone_victim_rise,j_spineupper
+1397	ps_exec_hand_grab_body,j_spinelower
+1398	ps_exec_033_dog_robo_taser,j_head
+1399	ps_exec_bodyfall_swt_body,j_spineupper
+1400	ps_foley_gest_waitwhat
+1401	ps_exec_scrape_quick,j_ankle_le
+1402	iw9_mp_execution_008_victim_prone
+1403	super_smokeairdrop
+1404	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_spine4
+1405	iw9_mp_execution_072_attacker_stand
+1406	iw9_mp_execution_064_victim_stand
+1407	veh9_mil_lnd_jltv_turret_camo_mgl_v018
+1408	ps_exec_gear_mvmt_long_light,j_shoulder_ri
+1409	as_dx_mpi_us1_infil_intro_30
+1410	reb_vh_lbravo_guy4_exit_combat_run
+1411	reb_vh_techo_stand_9pt_aim_3
+1412	ps_exec_gun_pi_holster,j_hip_ri
+1413	ps_exec_gore_blood_squirt,j_knee_ri
+1414	ps_exec_vo_cough,j_head
+1415	facial_angry_2
+1416	ps_exec_bodytap,j_ankle_ri
+1417	iw9_mp_execution_055_attacker_stand
+1418	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_mainroot
+1419	iw9_mp_execution_005_attacker_laststand_fem
+1420	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_spinelower
+1421	ps_iw9_dmz_infil_player1_exit,j_wrist_le
+1422	lights
+1423	weap_ar57_clipin_fast_empty_plr
+1424	exposed_idle_alert_v3
+1425	iw9_mp_execution_098_victim_stand
+1426	iw9_veh_jltv_seat_4_highcrouch_2_exit_2_combat_run
+1427	veh9_mil_lnd_jltv_turret_camo_v007
+1428	veh9_mil_lnd_jltv_turret_camo_v023
+1429	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash_2, j_shoulder_ri
+1430	iw9_veh_death_stand_exposed_fallover_4
+1431	execution_020
+1432	execution_019
+1433	iw9_mp_execution_049_victim_stand
+1434	iw9_mp_execution_044_victim_laststand
+1435	aim_4pt_blend
+1436	ps_exec_060_prone_attacker_04,j_mainroot
+1437	execution_095_fem
+1438	ps_exec_098_gore,j_spinelower
+1439	shoot_single
+1440	fx_stopfxontag, vfx/iw9/executions/vfx_exec_mummy_insect_head_circle, j_head
+1441	weap_suitcase_interrupt_plr
+1442	exec_victim_weapon_hide
+1443	fx_playfxontag, vfx/iw9/executions/vfx_exec_96_skeletor_staff_fire_imp_fwd_2.vfx, tag_fx
+1444	j_disc_01
+1445	damaged
+1446	4_2_turn_2
+1447	gesture_blend_out
+1448	rotor_neutral
+1449	ps_iw9_cluster_spike_raise
+1450	finish_early
+1451	iw9_mp_execution_109_attacker_stand
+1452	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_knee_le
+1453	tendrildiedownceil
+1454	aimset_exposed_crouch
+1455	sdr_com_exposed_stand_head_only_35
+1456	facial_idle_execution_jackol_laststand
+1457	explode13
+1458	explode30
+1459	fx_stopfxontag, vfx/iw9/executions/vfx_hween_butcher_grhit, j_spineupper
+1460	iw9_mp_execution_014_victim_stand
+1461	ps_exec_baton_impact_body,j_clavicle_le
+1462	iw9_mp_execution_044_attacker_prone
+1463	iw9_mp_execution_032_attacker_laststand
+1464	iw9_veh_suv_overland_2016_seat_2_exit_combat_idle
+1465	ps_weap_frag_pin,j_wrist_le
+1466	ps_exec_060_shotgun_blast,j_wrist_ri
+1467	iw9_veh_heli_medium_seat_6_exit_combat_run
+1468	wheel_back_left
+1469	ps_exec_089_prone_03,j_wrist_le
+1470	iw9_mp_execution_071_attacker_stand_walpha
+1471	show_2
+1472	reb_vh_lbravo_copilot_idle_search01
+1473	ps_exec_gore_blood_drip,j_elbow_ri
+1474	iw9_mp_execution_118_victim_prone
+1475	weap_p226_chamber_plr
+1476	vehicle_hunt_to_idle
+1477	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward, tag_eye
+1478	ps_exec_gun_rattle_light
+1479	sdr_com_exposed_aim_5_twitch01
+1480	target_glint
+1481	ps_exec_058_stand_sword_ring_in,tag_weapon_right
+1482	1_6
+1483	fx_playfxontag, vfx/iw9/executions/vfx_exec_097_witch_magic_hit.vfx, j_knee_ri
+1484	nvg
+1485	ps_br_foley_revive_syringe_finish
+1486	butcher_com_execution_000_victim_stand_2
+1487	reactive_kill_streak_2stage
+1488	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_proc_spinelower2
+1489	1_2_lean
+1490	tag_light_top_left
+1491	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_shoulder_le
+1492	loop_end
+1493	fx_playfxontag, vfx/iw9/executions/vfx_exec_head_dismember.vfx, j_knee_ri
+1494	mtxvfxgunscreen
+1495	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_blood_pour.vfx, j_proc_spinelower2
+1496	ps_exec_gun_rattle_heavy
+1497	ps_exec_hand_grab_body,j_mainroot
+1498	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp,
+1499	oblique
+1500	execution_075_fem
+1501	ps_exec_katana_pull,j_shoulder_ri
+1502	explode7
+1503	ps_exec_gear_mvmt_long_heavy,j_hip_le
+1504	iw9_mp_execution_061_victim_prone
+1505	exposed_death_02
+1506	2_8_8
+1507	2_4_6
+1508	2_2_4
+1509	ps_exec_060_prone_victim_05,j_mainroot
+1510	4_8_4
+1511	4_2_2
+1512	iw9_mp_execution_047_attacker_prone
+1513	teleportin
+1514	4
+1515	iw9_mp_execution_093_victim_laststand
+1516	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash_2.vfx, j_neck
+1517	0_2_2
+1518	j_knee_le
+1519	iw9_mp_veh_jltv_seat_1_exit_idle
+1520	fx_stopfxontag, vfx/iw8_mp/executions/vfx_neck_blood_stab_prone, tag_weapon_right
+1521	ps_exec_step_right,j_ankle_ri
+1522	fx_playfxontag, vfx/iw9/executions/vfx_exec_058_blood_pool_2.vfx, j_spineupper
+1523	iw9_mp_execution_067_attacker_laststand
+1524	fx_playfxontag, vfx/iw9/executions/vfx_exec_079_broken_bong_weed_smoke_big, j_ball_le
+1525	iw9_mp_execution_097_victim_prone
+1526	ps_exec_087_stand_laserstart,j_head
+1527	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_spawn_bats, j_neck
+1528	ps_generic_death_execution,j_head
+1529	ps_exec_049_prone_victim_02_kick,j_head
+1530	3plight
+1531	iw9_mp_execution_025_victim_laststand
+1532	fx_playfxontag, vfx/iw9/executions/vfx_exec_58_knife_chest_blood.vfx, j_spineupper
+1533	fx_playfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck, j_proc_spinelift
+1534	facial_pain_3
+1535	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp.vfx, j_spine4
+1536	left_upper_arm_health
+1537	iw9_mp_decoymine_swim_deflate
+1538	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp.vfx, j_knee_le
+1539	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_chest
+1540	ps_exec_gear_mvmt_whoosh_med,j_wrist_le
+1541	iw9_mp_execution_075_victim_stand
+1542	iw9_mp_execution_005_attacker_prone
+1543	iw9_mp_veh_jltv_seat_3_death
+1544	facial_run
+1545	iw9_veh_suv_overland_2016_seat_3_death
+1546	ps_exec_knife_pull,j_neck
+1547	iw9_mp_execution_012_attacker_prone_walpha
+1548	iw9_mp_execution_107_victim_laststand
+1549	fx_playfxontag, vfx/iw9/executions/vfx_exec_96_skeletor_staff_fire_imp.vfx, tag_fx
+1550	resetdamagestatesounds
+1551	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blood_splatter_posy.vfx, j_sling_clavicle
+1552	ps_exec_hand_grab_head,j_spineupper
+1553	ps_exec_land,j_knee_le
+1554	move
+1555	iw9_mp_execution_034_victim_stand
+1556	execution_default
+1557	execution_015
+1558	execution_036
+1559	execution_068
+1560	sdr_mp_veh_blima_ground_r2_exit
+1561	iw9_mp_execution_069_victim_prone
+1562	ps_exec_060_prone_victim_04,j_mainroot
+1563	ps_exec_impact_body_deep,j_knee_le
+1564	aq::veh9_mil_air_heli_medium_vehphys_mp
+1565	burnout
+1566	fx_playfxontag, vfx/iw9/executions/vfx_exec_starlight_impact, j_head
+1567	iw9_ai_infil_blima_seat_1_getout
+1568	ps_exec_061_stand_foley_02,j_wrist_ri
+1569	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_drip_prone.vfx, tag_stowed_hip_rear
+1570	al_lr
+1571	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_knee_le
+1572	moving
+1573	ar_ll_lr
+1574	ps_exec_gore_tear,j_spinelower
+1575	ps_exec_baton_impact_body,tag_origin
+1576	sizzle-player-stuck
+1577	reb_vh_lbravo_pilot_idle_search01
+1578	ps_exec_gear_mvmt_long_light,j_ankle_ri
+1579	ghostfinderabsorbed
+1580	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_knee_ri
+1581	iw9_mp_execution_014_attacker_stand
+1582	sdr_com_exposed_stand_head_only_31
+1583	reactive_downgradable_kill_streak_3stage
+1584	explode17
+1585	explode34
+1586	iw9_mp_execution_012_victim_prone
+1587	ps_exec_gear_mvmt_quick_heavy,j_mainroot
+1588	ps_exec_knife_stab,j_head
+1589	melee_execution_victim_prone
+1590	ps_exec_096_stand_03,j_mainroot
+1591	mummy_com_execution_000_attacker_stand_8
+1592	iw9_veh_suv_overland_2016_seat_1_combat_to_hide
+1593	ps_exec_baton_slide_gear,j_ankle_ri
+1594	ps_exec_089_laststand_punch,j_wrist_ri
+1595	ps_exec_062_inarius_wings_stand_01,j_spineupper
+1596	fx_playfxontag, vfx/iw8_br/gameplay/bunker/vfx_br_bunker_open_puzzle, tag_origin
+1597	ps_exec_087_laststand_gorepop,j_head
+1598	sdr_com_exposed_crouch_shotgun_fire01
+1599	iw9_mp_execution_072_attacker_stand_walpha
+1600	vector_field
+1601	v015
+1602	ps_exec_gore_hack,j_knee_ri
+1603	iw9_mp_execution_073_attacker_prone
+1604	ps_exec_gore_blood_headshot,j_hipholster_le
+1605	ps_exec_gore_heavy_splat,j_neck
+1606	iw9_mp_execution_026_attacker_prone
+1607	chute_unhide
+1608	lbravo
+1609	contested_160
+1610	visible_linked
+1611	iw9_mp_execution_066_attacker_prone_fem
+1612	iw9_mp_execution_029_victim_prone
+1613	iw9_veh_heli_medium_seat_7_exit_combat_idle
+1614	vehicle_oriented_death
+1615	ps_exec_061_laststand_foley_02,j_spineupper
+1616	fx_stopfxontag, vfx/iw9/executions/vfx_exec_hanting_butcher_chestbleed_motion, j_spineupper
+1617	crouch_burst_6
+1618	iw9_mp_execution_002_attacker_stand_fem
+1619	parts_backpack_inventory_small
+1620	ps_exec_bodyfall_swt_body,j_spinelower
+1621	tendrildiedownwall
+1622	tag_main_rotor_blade_05
+1623	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_z_forward.vfx, j_helmet
+1624	ps_gib_fullbody,j_spineupper
+1625	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_shoulder_ri
+1626	iw9_mp_execution_044_attacker_stand
+1627	fx_stopfxontag, vfx/iw9/executions/vfx_exec_066_taser_chest_smk, j_spine4
+1628	ps_exec_062_victim_laststand_01
+1629	2_6_8
+1630	tag_wheel_center_back_left
+1631	ps_wfoly_plr_mg_bravo50_bravo50_raise_first_02
+1632	execution_056_fem
+1633	sdr_com_exposed_semi_03
+1634	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_eye_laser_6, tag_eye
+1635	iw9_mp_execution_031_attacker_stand
+1636	iw9_mp_execution_066_attacker_laststand_fem
+1637	ps_iw9_swmpmon_exec_water_exit,j_spineupper
+1638	ps_weap_raise_cloth_plr
+1639	fx_killfxontag, vfx/iw9/executions/vfx_exec_starlight_hands_buildup, j_wrist_le
+1640	last_bomb_sfx
+1641	boat_dropoff_sfx
+1642	iw9_mp_execution_010_victim_laststand
+1643	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_ball_ri
+1644	boss_mummy_execution_000_8
+1645	fx_playfxontag, vfx/iw9/executions/vfx_exec_066_taser_chest_smk, j_spine4
+1646	sdr_com_exposed_crouch_semi_03@2
+1647	facial_death
+1648	veh9_mil_lnd_jltv_turret_camo_mgl_v005
+1649	iw9_mp_execution_070_victim_laststand
+1650	iw9_ai_veh_jltv_seat_0_getin
+1651	iw9_mp_execution_032_victim_stand
+1652	jug_com_execution_000_victim_stand_4
+1653	ps_exec_gore_bone_dislocate_twist
+1654	iw9_mp_execution_032_victim_prone
+1655	ps_exec_bodytap,j_ankle_le
+1656	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_elbow_ri
+1657	iw9_mp_execution_088_victim_prone
+1658	ps_exec_096_stand_mus_build,j_mainroot
+1659	iw9_mp_execution_056_victim_stand
+1660	tag_wheel_front_left
+1661	ps_exec_061_prone_burst_body,j_spineupper
+1662	iw9_mp_execution_107_victim_prone
+1663	iw9_mp_execution_021_attacker_stand
+1664	ps_exec_impact_body_deep,j_neck
+1665	sdr_com_exposed_crouch_burst_04
+1666	fx_stopfxontag, vfx/iw9/executions/vfx_hween_butcher_clvdrips,
+1667	reb_vh_techo_bed_guy2_idle_search01
+1668	accessory_money_bag_large_closed_player_scr
+1669	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blood_splatter_posy.vfx, j_dummy_slingcenteraim
+1670	ps_exec_079_prone_03,j_spineupper
+1671	execution_090
+1672	execution_086
+1673	execution_043
+1674	execution_077
+1675	hm_grnd_red_exposed_idle_twitch01_ar
+1676	iw9_mp_execution_056_attacker_prone_fem
+1677	torso_upper_health
+1678	fx_stopfxontag, vfx/iw9/executions/vfx_exec_hanting_butcher_chestbleed_motion, j_neck
+1679	ps_exec_gore_blood_drip,j_spinelower
+1680	ps_exec_shocker_shocked,j_shouldertwist_ri
+1681	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_spinelower
+1682	look_06
+1683	ps_exec_gear_mvmt_long_light,j_knee_ri
+1684	windshield_back
+1685	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_hip_ri
+1686	ps_iw9_drop_chute_release
+1687	ps_exec_gun_hit_heavy,tag_weapon_right
+1688	ps_exec_gear_mvmt_midlength_light,tag_origin
+1689	fx_playfxontag, vfx/iw9/killstreaks/gunship/vfx_gunship_intro_screens.vfx, tag_notebook_big1
+1690	ps_exec_mummy_mvmt_pre,tag_stowed_hip_rear
+1691	jlr_com_execution_000_victim_prone_8
+1692	ps_exec_gun_drop,tag_weapon_right
+1693	generic_human_aim_exposed_stand
+1694	iw9_mp_execution_079_attacker_prone
+1695	ps_exec_079_stand_06,j_spineupper
+1696	hidden
+1697	explode_3
+1698	hideicon
+1699	sdr_com_exposed_nvg
+1700	tag_dash
+1701	execution_033_fem
+1702	fx_stopfxontag, vfx/iw9/executions/vfx_exec_062_blood_pour.vfx, j_spine4
+1703	iw9_mp_execution_037_attacker_stand
+1704	weap_ameli_chamber_close_plr
+1705	iw9_mp_execution_052_victim_prone
+1706	flameskullactive
+1707	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_groinprotector
+1708	ps_exec_impact_body_full,j_hip_le
+1709	get_in_vehicle_door_off
+1710	fx_playfxontag, vfx/iw9/executions/vfx_exec_head_dismember.vfx, tag_eye
+1711	iw9_mp_execution_018_victim_laststand
+1712	reb_vh_techo_highcrouch_9pt_aim_6
+1713	ll_
+1714	iw9_mp_execution_015_victim_laststand
+1715	execution_079_fem
+1716	ps_exec_gun_pi_twirl,j_wrist_ri
+1717	ps_exec_sledgehammer_impact_body,j_head
+1718	iw9_mp_execution_043_victim_stand
+1719	ps_exec_gear_mvmt_struggle,j_spinelower
+1720	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_hands.vfx, j_wristfronttwist1_le
+1721	wire_mid_jnt_07
+1722	WEAPON CONTROL POST GUN
+1723	exec_bodyfall_swt_feet,j_ankle_le
+1724	iw9_mp_execution_113_victim_stand
+1725	iw9_mp_execution_087_victim_prone
+1726	fx_playfxontag, vfx/iw9/executions/vfx_exec_swamp_water_splash.vfx, j_neck
+1727	weap_suitcase_defuse_plr
+1728	explode1
+1729	ps_exec_gear_mvmt_kick,j_mainroot
+1730	2_4_8
+1731	iw9_mp_execution_032_victim_laststand
+1732	iw9_mp_execution_087_victim_laststand
+1733	iw9_mp_execution_095_attacker_laststand
+1734	reb_vh_techo_cab2_idle_death01
+1735	fx_playfxontag, vfx/iw9/executions/vfx_exec_097_witch_portal.vfx, tag_origin
+1736	2
+1737	iw9_mp_veh_jltv_seat_1_idle
+1738	0_2_4
+1739	0_6_2
+1740	ps_exec_060_stand_attacker_01,j_mainroot
+1741	iw9_mp_execution_079_attacker_laststand
+1742	fx_playfxontag, vfx/iw8_cp/prop/vfx_cp_ascender_sparks_down.vfx, tag_accessory_right
+1743	ps_exec_grenade_bounce_hard,j_head
+1744	fx_playfxontag, vfx/iw9/core/weapons/muzzleflash/pis/vfx_muz_pis_m.vfx, zom_tag_flash
+1745	ps_exec_bodyfall_swt_head,j_head
+1746	ps_dx_br_saba_actn_mumy_lhng,j_head
+1747	aiweap_airdrop_raise_plr
+1748	exit
+1749	fx_stopfxontag, vfx/iw9/executions/vfx_exec_077_blood_pool, tag_stowed_hip_rear
+1750	reactive_match_kills_2stage
+1751	iw9_mp_execution_018_victim_prone
+1752	melee_knife_stab_lower_start_plr
+1753	reb_vh_techo_stand_9pt_aim_1
+1754	iw9_ai_infil_blima_seat_0_getout
+1755	to_lr
+1756	ps_exec_gore_heavy_splat,j_shoulder_le
+1757	window_front_right
+1758	j_elbow_ri
+1759	ps_jup_exec_vo_death,j_spineupper
+1760	iw9_mp_execution_077_attacker_prone
+1761	exposed_idle_alert_v1
+1762	iw9_mp_execution_004_attacker_prone_fem
+1763	ps_exec_katana_stab,j_clavicle_ri
+1764	pe_chopper_crate
+1765	ps_exec_kalisticks_impact,j_knee_ri
+1766	veh9_mil_lnd_jltv_turret_camo_v001
+1767	veh9_mil_lnd_jltv_turret_camo_v021
+1768	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_hip_ri
+1769	ps_exec_060_laststand_attacker_03,j_mainroot
+1770	neutral
+1771	execution_022
+1772	axis_300
+1773	weap_ameli_chamber_open_plr
+1774	sdr_com_exposed_crouch_9pt_aim_1
+1775	ps_exec_gear_mvmt_long_mid,j_mainroot
+1776	spiderbot
+1777	iw9_mp_execution_011_victim_laststand
+1778	iw9_mp_execution_016_victim_laststand
+1779	mgl_dom_flag
+1780	scared
+1781	crate_settle
+1782	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_drip.vfx, j_shouldertwist_ri
+1783	iw9_veh_suv_overland_2016_seat_1_exit_idle
+1784	iw9_mp_execution_000_attacker_laststand_fem
+1785	tag_door_back_right
+1786	j_disc_03
+1787	idle
+1788	bodyfall_large
+1789	iw9_mp_execution_007_attacker_laststand
+1790	4_2_turn_4
+1791	ps_exec_gear_mvmt_long_heavy,j_ankle_le
+1792	iw9_mp_execution_070_victim_prone
+1793	ps_exec_crowbar_grab,j_wrist_le
+1794	explode24
+1795	reactive_kill_weapon_3stage
+1796	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_drip.vfx, j_mainroot
+1797	iw9_mp_execution_094_attacker_prone
+1798	ps_exec_knife_stab,j_clavicle_le
+1799	mummy_com_execution_000_attacker_stand_2
+1800	ps_exec_079_stand_02,j_spineupper
+1801	ps_mp_bomb_button_5_plr
+1802	iw9_mp_execution_025_victim_stand
+1803	ps_exec_gear_mvmt_quick_light,j_knee_ri
+1804	ps_exec_gear_mvmt_quick_light,j_knee_le
+1805	iw9_mp_execution_102_victim_laststand
+1806	ps_exec_machete_pull_shing,j_wrist_ri
+1807	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_stab, j_clavicle_ri
+1808	v004
+1809	v025
+1810	semi_5
+1811	iw9_mp_execution_099_victim_laststand
+1812	explode_19
+1813	iw9_mp_execution_070_attacker_stand
+1814	ps_exec_gore_heavy_splat,j_head
+1815	iw9_mp_execution_104_victim_stand
+1816	gib
+1817	iw9_mp_execution_108_attacker_laststand
+1818	contested_90
+1819	1_8_4
+1820	iw9_mp_execution_093_attacker_prone_fem
+1821	ps_exec_058_prone_sword_land_lyr,j_spineupper
+1822	ps_plr_breath_scripted_inh
+1823	iw9_mp_execution_065_attacker_stand
+1824	ps_exec_096_prone_00,j_mainroot
+1825	fx_playfxontag, vfx/iw9/executions/vfx_exec_099_headshot.vfx, zom_j_visor
+1826	jug_execution_000_stand_8
+1827	ps_exec_gore_bone_dislocate_twist,j_spineupper
+1828	iw9_mp_execution_012_attacker_laststand_walpha
+1829	ps_exec_knife_stab,j_shoulder_ri
+1830	iw9_mp_execution_040_victim_prone
+1831	reb_vh_techo_bed_guy2_combat_to_hide
+1832	wpfoly_acog_ads_toggle_on
+1833	pistol_a
+1834	iw9_mp_execution_111_victim_prone
+1835	ps_exec_gear_mvmt_midlength_heavy,j_head
+1836	equip_weapon_drop
+1837	iw9_player_death_fx
+1838	cyber_revive_pillage
+1839	ps_exec_scythe_pull,j_wrist_ri
+1840	activeradial
+1841	weap_ar57_first_raise_lift_plr
+1842	iw9_mp_execution_045_victim_stand
+1843	iw9_mp_execution_017_victim_prone
+1844	ps_exec_tonfa_swish_fast,j_wrist_ri
+1845	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_head_blood, j_head
+1846	facial_animation
+1847	ps_exec_gear_mvmt_brush,j_elbow_ri
+1848	5_2_6
+1849	ps_exec_060_mx_build,j_mainroot
+1850	ps_exec_gear_mvmt_quick_light,j_wrist_le
+1851	ps_exec_gore_bone_break_loud,j_head
+1852	iw9_mp_execution_012_attacker_laststand
+1853	decal
+1854	ps_exec_gear_mvmt_long_heavy,j_knee_ri
+1855	ps_exec_hand_grab_head,j_head
+1856	fire
+1857	equip_snapshot_marker_mp
+1858	melee_contact_upper
+1859	inactive
+1860	hp_off
+1861	j_dummy_head
+1862	iw9_mp_execution_043_attacker_prone
+1863	ps_exec_bodytap,j_spinelower
+1864	fx_playfxontag, vfx/iw9/executions/vfx_exec_grenade_exp, tag_eye
+1865	fx_playfxontag, vfx/iw9/executions/vfx_exec_95_axe_neck_slash_stand.vfx, j_neck
+1866	attack_bomb
+1867	execution_003
+1868	execution_067
+1869	sdr_cas_kill_exposed_burst_13
+1870	5_8_turn_6
+1871	iw9_mp_execution_021_attacker_laststand
+1872	look_46
+1873	warning_beep
+1874	weap_ameli_clipout_plr
+1875	burst_15
+1876	ps_exec_033_dog_robo_step
+1877	WEAPON VIOLENCE GUN
+1878	dropped
+1879	ps_exec_knife_stab,j_spineupper
+1880	fx_stopfxontag, vfx/iw9/executions/vfx_exec_077_blood_pool.vfx, j_chest
+1881	ps_mp_bomb_button_4_plr
+1882	iw9_veh_suv_overland_2016_seat_3_death_combat
+1883	ps_exec_batteringram_hit,tag_weapon_right
+1884	sdr_com_exposed_stand_head_only_03
+1885	iw9_mp_execution_107_attacker_stand
+1886	ps_exec_035_dog_lunge_laststand,tag_eye
+1887	delete_corpse_delayed
+1888	ps_exec_033_dog_robo_step,l_backleg2_jnt
+1889	detach_clip_left
+1890	weap_sc2010_clipout_plr
+1891	sdr_com_exposed_twitch03
+1892	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_proc_spineupperlift
+1893	ps_exec_kalisticks_impact,j_wrist_ri
+1894	iw9_mp_veh_jltv_windowfr_scrub_pain_add
+1895	reb_vh_techo_bed_guy1_idle_search01
+1896	vehicle_reload_scrub
+1897	fx_playfxontag, vfx/iw9/executions/vfx_exec_03_stand_knee_shot, j_knee_ri
+1898	swimdebris
+1899	iw9_mp_execution_045_attacker_laststand
+1900	ps_mp_bomb_raise_2_plr
+1901	v023
+1902	fx_stopfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, j_clavicle_ri
+1903	iw9_mp_execution_020_victim_laststand
+1904	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_proc_spinelift
+1905	ps_exec_knife_impact,j_wrist_ri
+1906	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_clavicle_ri
+1907	pulse
+1908	ps_exec_bodytap,j_wrist_le
+1909	ps_exec_bodytap,j_wrist_ri
+1910	ps_exec_089_laststand_02,j_wrist_ri
+1911	vehiclemoveshake
+1912	ps_exec_baton_impact_body,j_head
+1913	5_6
+1914	ps_br_auto_ascender_detach_device_plr
+1915	ps_exec_punch_full,tag_weapon_right
+1916	1_6_4
+1917	iw9_veh_death_stand_exposed_02
+1918	jug_execution_000_stand_2
+1919	ps_exec_knife_slice,j_spineupper
+1920	ps_exec_scythe_stab,j_wrist_ri
+1921	tag_main_rotor_blade_03
+1922	ps_exec_gear_mvmt_brush,j_wrist_ri
+1923	ps_exec_bodytap,j_shoulder_ri
+1924	ps_exec_bodyfall_swt_body
+1925	iw9_mp_execution_001_attacker_prone_fem
+1926	iw9_mp_execution_049_victim_prone
+1927	ps_exec_gun_sh_lower,j_wrist_le
+1928	iw9_mp_execution_064_attacker_stand_fem
+1929	ps_assault_drone_activate_gear_01
+1930	iw9_mp_execution_022_attacker_prone
+1931	iw9_mp_execution_018_victim_stand
+1932	stage3
+1933	tag_light_cargo02
+1934	ps_exec_knife_stab,j_spinelower
+1935	iw9_mp_execution_068_attacker_laststand
+1936	iw9_mp_execution_088_attacker_prone
+1937	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_splash_spawner.vfx, j_helmet
+1938	ps_exec_baton_impact_back,j_spineupper
+1939	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blood_splatter_posy.vfx, j_dummy_sling_clavicle
+1940	reb_com_veh8_decho_turret_driveidle
+1941	iw9_mp_execution_033_attacker_laststand
+1942	exec_gear_mvmt_whoosh_slow,j_spineupper
+1943	iw9_mp_execution_120_victim_stand
+1944	fx_playfxontag, vfx/iw9/executions/vfx_exec_58_sword_neck_slash, j_shouldertwist_le
+1945	iw9_veh_suv_overland_2016_seat_2_entry_nodoor
+1946	fx_playfxontag, vfx/iw8_br/gameplay/bunker/vfx_br_bunker_open_2, tag_origin
+1947	fx_playfxontag, vfx/iw9/executions/vfx_exec_95_axe_neck_slash_prone.vfx, tag_fx
+1948	iw9_mp_execution_021_victim_stand
+1949	ps_exec_033_dog_robo_vo_laststand_03,nose_jnt
+1950	ps_exec_gear_mvmt_midlength_heavy,j_spinelower
+1951	ps_exec_gear_mvmt_whoosh_slow,j_spineupper
+1952	ps_exec_vo_pain,j_neck
+1953	iw9_mp_execution_035_victim_laststand
+1954	ps_jup_exec_knife_prone_victim_fall,j_spineupper
+1955	iw9_mp_execution_046_attacker_stand
+1956	vehicle_idle_combat
+1957	trail
+1958	execution_009
+1959	execution_045
+1960	execution_071
+1961	execution_096
+1962	execution_109
+1963	execution_111
+1964	ps_exec_gear_mvmt_quick_heavy,j_spinelower
+1965	sdr_cas_kill_exposed_burst_15
+1966	hide,tag_stowed_backpack_hide
+1967	ps_exec_062_inarius_wings_prone_01,j_spineupper
+1968	iw9_mp_execution_104_attacker_prone
+1969	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_mainroot
+1970	ps_foley_gest_kissfist_plr
+1971	iw9_mp_execution_039_victim_prone
+1972	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_spineupper
+1973	ps_exec_058_stand_sword_flourish,tag_weapon_right
+1974	fx_playfxontag, vfx/iw9/executions/vfx_exec_starlight_flash, j_wrist_le
+1975	fx_playfxontag, vfx/iw9/executions/vfx_exec_starlight_flash, j_wrist_ri
+1976	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_z_forward, j_spineupper
+1977	iw9_mp_execution_109_attacker_prone
+1978	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_proc_spinelift
+1979	iw9_mp_execution_003_victim_laststand
+1980	iw9_veh_suv_overland_2016_seat_2_idle_to_combat
+1981	explode_5
+1982	iw9_mp_execution_013_victim_stand
+1983	iw9_mp_execution_013_attacker_prone
+1984	equip_molotov_pool_mp
+1985	iw9_mp_execution_052_victim_laststand
+1986	ks_toma_strike_missile_mp
+1987	reb_vh_techo_cab1_idle_death01
+1988	veh9_jltv_turret
+1989	iw9_mp_execution_040_attacker_stand
+1990	execution_000_fem
+1991	ps_exec_impact_helmet,j_head
+1992	sdr_mp_execute_prone_01_victim
+1993	ps_exec_bodyfall,j_spinelower
+1994	ps_exec_punch_full,j_mainroot
+1995	iw9_mp_execution_115_victim_prone
+1996	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_spinelower
+1997	ps_exec_062_inarius_prone_02,j_elbow_ri
+1998	sdr_mp_execute_prone_01_attack
+1999	80
+2000	baton_jailer_execution_000_4
+2001	xmike109_projectile
+2002	iw9_veh_jltv_seat_2_pain_1
+2003	iw9_mp_execution_037_victim_stand
+2004	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward.vfx, j_helmet
+2005	facial_happy
+2006	fx_playfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee, j_hip_proc_ri
+2007	execution_039_fem
+2008	fx_playfxontag, vfx/iw9/executions/vfx_exec_95_blood_splatter.vfx, j_neck
+2009	1_2_2
+2010	ps_exec_033_dog_robo_land,j_mainroot_dog
+2011	execution_055_fem
+2012	heartbeatlight
+2013	anim_facial = angry
+2014	execution_060_charlie725
+2015	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_drip.vfx, j_shouldertwist_ri
+2016	weap_p226_clipout_plr
+2017	mgl_v009
+2018	tag_wheel_center_front_right
+2019	iw9_mp_execution_084_victim_stand
+2020	iw9_mp_execution_015_victim_prone
+2021	tag_main_rotor_blade_02
+2022	ps_exec_089_blast_tail,tag_origin
+2023	iw9_mp_execution_019_victim_laststand
+2024	iw9_mp_execution_095_attacker_stand
+2025	shoot
+2026	iw9_mp_execution_073_victim_prone
+2027	iw9_mp_execution_077_victim_stand
+2028	0_8_2
+2029	fx_stopfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, j_head
+2030	corediedownceil
+2031	5_4_turn_4
+2032	execution_017_fem
+2033	ps_jup_exec_knife_prone_victim_turn,j_spineupper
+2034	execution_065_fem
+2035	door_front_left
+2036	ps_exec_033_dog_robo_vo_prone_02,nose_jnt
+2037	veh9_mil_lnd_jltv_turret_camo_mgl_v026
+2038	pistol_stand_fire_a
+2039	iw9_veh_heli_medium_seat_3_idle_search01
+2040	bodyfall_limb_large
+2041	al_to_ar_
+2042	exec_gear_mvmt_midlength_heavy,j_knee_le
+2043	iw9_mp_execution_084_attacker_laststand
+2044	iw9_mp_execution_079_victim_prone_fem
+2045	ps_scn_streak_arm_computer_fire
+2046	marker_placed
+2047	ks_radar_drone_delivery_mp
+2048	iw9_mp_execution_093_attacker_stand
+2049	ps_exec_gear_mvmt_quick_heavy,j_ankle_le
+2050	iw9_mp_execution_065_attacker_prone
+2051	ps_exec_sledgehammer_impact_body,j_spineupper
+2052	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_chest
+2053	execution_097
+2054	execution_072
+2055	execution_083
+2056	execution_044
+2057	execution_008
+2058	execution_110
+2059	iw9_mp_execution_052_victim_stand
+2060	blima
+2061	sdr_mp_execution_345_victim_laststand
+2062	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_elbow_ri
+2063	vehicledamageshakelight
+2064	airbombvfx
+2065	melee_attack_sfx
+2066	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_elbow_ri
+2067	ps_iw9_mp_deadsilence_lower_plr
+2068	fx_playfxontag, vfx/iw9/executions/vfx_exec_95_axe_neck_blood_gush.vfx, j_neck
+2069	souleateractive
+2070	rpg_shoot_single
+2071	ps_exec_033_dog_robo_jaw_open
+2072	iw9_mp_execution_119_attacker_prone
+2073	fx_playfxontag, vfx/iw9/executions/vfx_exec_swamp_water_splashy.vfx, j_spine4
+2074	iw9_mp_execution_040_victim_stand
+2075	fx_playfxontag, vfx/iw9/executions/vfx_exec_dog_bite_continuous.vfx, tag_mouth_fx
+2076	ps_iw9_cluster_spike_throw_02
+2077	ps_exec_062_inarius_laststand_02
+2078	explode_6
+2079	ik_out_end_right_hand
+2080	ps_smoke_carepackage_short_smoke_tail
+2081	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_throat_slash.vfx, j_head
+2082	ps_exec_katana_draw,j_wrist_ri
+2083	ps_exec_gore_squish_long,tag_mouth_fx
+2084	iw9_mp_decoymine_crouch_pop
+2085	equip_trophy_explode_mp
+2086	ready
+2087	tag_window_front_right
+2088	tag_eyes
+2089	ps_exec_035_dog_attack_stand_03,tag_eye
+2090	ks_auav_mp
+2091	playerasm
+2092	v014
+2093	ps_exec_gore_bone_break_snap,j_spinelower
+2094	ps_exec_gore_bone_break_snap
+2095	ps_exec_gore_heavy_splat,j_knee_le
+2096	ps_exec_gore_heavy_splat,j_knee_ri
+2097	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_knee_le
+2098	6_6
+2099	sdr_com_animscripted_head_look_24
+2100	iw9_mp_execution_056_victim_stand_fem
+2101	1_2_8
+2102	1_4_6
+2103	ps_wfoly_ar_reload_npc_out
+2104	iw9_mp_execution_071_attacker_prone_walpha
+2105	iw9_mp_execution_041_victim_prone
+2106	ps_exec_087_stand_dropfoley,j_mainroot
+2107	ps_exec_katana_stab,j_wrist_ri
+2108	ps_exec_gore_splat_squish,j_mainroot
+2109	ps_exec_hand_grab_body,j_wrist_ri
+2110	ps_exec_hand_grab_body,j_wrist_le
+2111	ps_jup_exec_knife_attacker_arm_swing_a,j_wrist_ri
+2112	iw9_mp_execution_058_attacker_stand_fem
+2113	fx_playfxontag, vfx/iw9/executions/vfx_exec_077_blood_pool, tag_stowed_hip_rear
+2114	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_ankle_ri
+2115	tag_main_rotor_blade_04
+2116	iw9_ai_infil_blima_seat_0_idle
+2117	iw9_mp_execution_007_attacker_stand
+2118	sdr_com_exposed_crouch_aim_4
+2119	vh_blima_rappel_copilot
+2120	fx_playfxontag, vfx/iw9/executions/vfx_exec_head_dismember, j_head
+2121	sdr_com_exposed_semi_04
+2122	iw9_mp_execution_028_attacker_laststand
+2123	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_helmet
+2124	plant
+2125	0_4_8
+2126	0_8_4
+2127	to_ll_lr
+2128	fingers_in_end_left_hand
+2129	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_ankle_ri
+2130	vehicle_pain_hunt
+2131	ps_exec_baton_impact_hook,j_knee_ri
+2132	ps_exec_gore_blood_squirt,j_hip_le
+2133	wheel_front_left
+2134	melee_upper_pullout
+2135	ps_exec_gear_mvmt_long_mid,j_spineupper
+2136	iw9_mp_execution_035_victim_stand
+2137	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_shoulder_le
+2138	iw9_mp_execution_019_attacker_prone_fem
+2139	sdr_mp_veh_blima_ground_l1_idle
+2140	iw9_mp_execution_074_victim_prone
+2141	ps_exec_gear_mvmt_long_heavy,j_wrist_ri
+2142	ps_exec_062_inarius_wings_prone_02,j_spineupper
+2143	iw9_mp_execution_006_attacker_laststand
+2144	ps_exec_gear_mvmt_long_light,j_wrist_ri
+2145	corewalldirect
+2146	heartbeat
+2147	iw9_mp_execution_101_victim_prone
+2148	ps_exec_gear_grab_mid,j_wrist_le
+2149	iw9_veh_stand_pain03_torso
+2150	iw9_mp_execution_039_victim_stand_fem
+2151	iw9_mp_execution_044_attacker_laststand
+2152	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_divine_impact.vfx, j_proc_spineupperlift
+2153	reb_vh_lbravo_guy6_exit_patrol
+2154	veh9_mil_lnd_jltv_turret_camo_v019
+2155	base
+2156	ps_exec_gear_mvmt_long_light,j_mainroot
+2157	ps_exec_katana_hit_dull_edge,j_head
+2158	iw9_mp_execution_000_attacker_stand
+2159	iw9_veh_suv_overland_2016_seat_2_combat_to_hide
+2160	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_spineupper
+2161	execution_042
+2162	execution_100
+2163	wpfoly_acog_hip_toggle_off
+2164	ps_exec_087_prone_laserend,j_head
+2165	tag_origin
+2166	iw9_mp_execution_053_victim_stand
+2167	ar_lr
+2168	ps_exec_033_dog_robo_vo_laststand_01,nose_jnt
+2169	ps_jup_exec_knife_victim_bodyfall,j_spineupper
+2170	reb_vh_lbravo_guy1_exit_combat_run
+2171	vehicle_combat_change_seats
+2172	ps_exec_gear_mvmt_long_mid,j_knee_ri
+2173	jug_com_execution_000_victim_stand_mp_2
+2174	facial_idle
+2175	effects
+2176	ps_exec_gun_lmg_raise,tag_weapon_right
+2177	ps_exec_049_laststand_victim_03_kill,j_head
+2178	iw9_mp_execution_047_victim_stand
+2179	ps_exec_grenade_bounce_soft,j_wrist_ri
+2180	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_machete_pullout.vfx, j_spine4
+2181	iw9_mp_execution_017_attacker_prone
+2182	melee_start_upper
+2183	sdr_cqb_fast_death03_md_8
+2184	iw9_mp_execution_097_attacker_stand
+2185	execution_003_fem
+2186	iw9_mp_execution_105_victim_laststand
+2187	execution_045_fem
+2188	sdr_com_exposed_burst_04
+2189	fx_killfxontag, vfx/iw9/executions/vfx_exec_95_axe_neck_blood_gush.vfx, j_neck
+2190	ps_foley_gest_fistpump_plr
+2191	fx_playfxontag, vfx/iw9/executions/vfx_exec_03_stand_knee_shot, j_knee_le
+2192	weap_evo_end_plr
+2193	iw9_mp_execution_068_victim_laststand
+2194	ps_exec_gun_m4_lower,tag_weapon_right
+2195	iw9_overland_seat_0_pistol_scrub_down
+2196	reb_vh_techo_highcrouch_9pt_aim_2
+2197	iw9_mp_execution_083_attacker_stand
+2198	iw9_mp_execution_108_victim_stand
+2199	iw9_mp_execution_090_attacker_laststand_fem
+2200	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_knee_ri
+2201	sizzle-fail
+2202	iw9_mp_execution_060_victim_prone
+2203	ps_exec_gear_mvmt_midlength_light,j_wrist_ri
+2204	releasevfx
+2205	j_hip_proc_ri
+2206	ps_exec_gun_sn_raise,j_wrist_le
+2207	ps_exec_gear_mvmt_throw
+2208	burn_to_death_by_molotov
+2209	3_2_2
+2210	ps_exec_sledgehammer_grab,j_wrist_le
+2211	sdr_com_exposed_stand_gun_down_head_look_18
+2212	destroyed
+2213	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_neck
+2214	lbravo_6
+2215	iw9_mp_execution_057_attacker_laststand_fem
+2216	ps_exec_impact_body_full,j_head
+2217	2_6_4
+2218	jlr_com_execution_000_attacker_stand_4
+2219	4_2_8
+2220	ps_exec_087_laststand_laserblast,j_head
+2221	iw9_mp_execution_021_victim_laststand
+2222	reload done
+2223	vehicle_turret_aim
+2224	all_parts
+2225	settle
+2226	tag_window_right
+2227	show,tag_stowed_backpack_hide
+2228	sdr_com_exposed_stand_shotgun_fire02
+2229	ps_exec_099_zmb_roar,j_head
+2230	ps_exec_gore_blood_squirt
+2231	5_8_4
+2232	allies_160
+2233	iw9_mp_execution_120_victim_laststand
+2234	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_shoulder_ri
+2235	veh9_mil_lnd_jltv_turret_camo_mgl_v016
+2236	veh9_mil_lnd_jltv_turret_camo_mgl_v009
+2237	iw9_mp_execution_023_victim_laststand
+2238	ps_exec_gun_lmg_raise,j_wrist_ri
+2239	iw9_mp_execution_005_victim_prone
+2240	execution_064_fem
+2241	sizzle-success
+2242	iw9_mp_execution_014_attacker_laststand_fem
+2243	ps_exec_060_prone_attacker_01,j_mainroot
+2244	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_knee_le
+2245	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, j_proc_hip_lift_le
+2246	iw9_mp_execution_075_attacker_prone_fem
+2247	iw9_mp_execution_061_attacker_laststand
+2248	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_spine4
+2249	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_machete_pullout.vfx, j_spine4
+2250	facial_death_1
+2251	reb_vh_techo_lowcrouch_9pt_aim_2
+2252	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_divine_impact.vfx, j_spineupper
+2253	j_spinelower
+2254	ps_exec_gear_grab_mid,j_clavicle_le
+2255	iw9_ai_infil_blima_crew_2
+2256	reb_vh_lbravo_guy5_exit_combat_run
+2257	tag_wheel_back_right
+2258	iw9_mp_execution_097_attacker_prone
+2259	zombiebuffvfx
+2260	iw9_mp_execution_069_victim_laststand
+2261	core
+2262	ks_assault_drone_mp
+2263	sdr_mp_veh_blima_ground_r1_idle
+2264	iw9_mp_execution_065_victim_stand
+2265	ps_exec_062_inarius_stand_03,tag_weapon_right
+2266	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_spineupper
+2267	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_elbow_le
+2268	veh9_mil_lnd_jltv_turret_camo_v012
+2269	allies_90
+2270	iw9_mp_execution_029_attacker_stand
+2271	boss_butcher_execution_000_8
+2272	angry_anims
+2273	execution_026
+2274	execution_120
+2275	fx_playfxontag, vfx/iw9/executions/vfx_exec_099_blood_splash.vfx, tag_origin
+2276	iw9_mp_execution_065_attacker_laststand_fem
+2277	risk_dom_beacon
+2278	reactive_enchantment
+2279	sdr_mp_veh_lbravo_ground_r1_idle
+2280	ks_airstrike_audio_mp
+2281	fx_playfxontag, vfx/iw9/executions/vfx_exec_033_electric_bite_1.vfx, j_head_dog
+2282	tendrilceildirect
+2283	execution_001_fem
+2284	jlr_com_execution_000_victim_prone_4
+2285	exec_weapon_show
+2286	ps_exec_087_laststand_grab,j_wrist_le
+2287	ps_exec_gore_medium_splat,j_spinelower
+2288	iw9_mp_execution_055_attacker_prone
+2289	fx_playfxontag, vfx/iw9/executions/vfx_exec_blood_splatter.vfx, j_clavicle_ri
+2290	explode19
+2291	explode20
+2292	ps_exec_gear_mvmt_whoosh_slow,j_knee_ri
+2293	iw9_mp_execution_097_attacker_laststand
+2294	ps_exec_gear_mvmt_quick_light,j_elbow_le
+2295	fx_playfxontag, vfx/iw9/executions/vfx_exec_swamp_water_splashy.vfx, j_elbow_ri
+2296	iw9_mp_execution_046_attacker_laststand
+2297	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_clavicle_ri
+2298	iw9_mp_execution_000_victim_laststand
+2299	reb_vh_lbravo_guy5_exit_patrol
+2300	ps_exec_gear_mvmt_quick_heavy,j_wrist_le
+2301	tag_light_l_wing
+2302	ps_exec_knife_pull
+2303	enabled_zombie
+2304	ps_exec_mvmt_slide,j_spinelower
+2305	reb_vh_lbravo_guy2_death
+2306	iw9_mp_execution_088_victim_stand
+2307	ps_exec_gore_medium_splat
+2308	reb_vh_techo_stand_idle_combat01_fixed
+2309	20
+2310	lr
+2311	night_vision_off
+2312	ps_exec_gun_pi_lower
+2313	explode_24
+2314	ps_exec_katana_hit_dull_edge,j_wrist_ri
+2315	iw9_mp_execution_094_victim_laststand
+2316	execution_061_fem
+2317	iw9_mp_execution_073_victim_stand
+2318	iw9_mp_execution_042_victim_laststand
+2319	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_mainroot
+2320	wpfoly_acog_ads_toggle_off
+2321	vehicle_death
+2322	burnloop
+2323	risk_dom_plate
+2324	ps_exec_gore_bone_break_snap,j_neck
+2325	iw9_mp_execution_055_victim_stand
+2326	ps_exec_gore_blood_drip,j_neck
+2327	melee_execution_victim
+2328	iw9_mp_execution_067_victim_prone
+2329	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_proc_lift_clavicle_ri
+2330	iw9_veh_heli_medium_seat_1_idle_search01
+2331	jlr_com_execution_000_attacker_stand_2
+2332	ps_exec_gun_drop,j_wrist_ri
+2333	iw9_mp_execution_120_victim_prone
+2334	iw9_mp_execution_095_victim_prone
+2335	iw9_mp_execution_067_victim_laststand
+2336	fx_playfxontag, vfx/iw9/executions/vfx_exec_058_blood_pool, j_head
+2337	tag_hood
+2338	tag_window_back_right
+2339	left_lower_arm_health
+2340	ps_exec_gear_mvmt_whoosh_slow,j_head
+2341	sdr_com_exposed_ready
+2342	iw9_mp_execution_053_attacker_prone
+2343	gesture_blend_out_start
+2344	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_z_forward.vfx, j_helmet
+2345	iw9_mp_execution_064_victim_laststand
+2346	to_ar_
+2347	iw9_mp_execution_098_attacker_stand_fem
+2348	iw9_mp_execution_109_attacker_laststand
+2349	exec_laststand
+2350	5_8_2
+2351	vehicle_idle_combat_turn_to_exit
+2352	ps_exec_034_dog_struggle_stand,nose_jnt
+2353	facial_talk_2
+2354	iw9_mp_execution_039_attacker_laststand
+2355	ps_iw9_haunting_butcher_vox_shout_build,j_neck
+2356	reb_vh_techo_stand_9pt_aim_7
+2357	iw9_mp_execution_108_attacker_stand
+2358	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward.vfx, j_ankle_le
+2359	ps_foley_gest_wag_plr
+2360	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_wrist_le
+2361	neckguard
+2362	iw9_mp_decoymine_swim_hitreac_right
+2363	fx_playfxontag, vfx/iw9/executions/vfx_exec_079_broken_bong_weed_smoke, j_ball_ri
+2364	knobs
+2365	reb_com_veh8_decho_turret_death
+2366	attack
+2367	ks_cluster_spike_mp
+2368	reb_vh_lbravo_guy2_exit_patrol
+2369	veh9_mil_lnd_jltv_turret_camo_v003
+2370	ps_exec_gear_grab_release,j_mainroot
+2371	bomb
+2372	iw9_veh_jltv_seat_4_lowcrouch_6_exit_2_combat_idle
+2373	iw9_mp_execution_030_attacker_stand
+2374	jup_mp_execution_knife_01_attacker_laststand
+2375	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_neck
+2376	iw9_veh_death_stand_exposed_fallover_8
+2377	execution_024
+2378	reb_com_vh_blima_chief_exit
+2379	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_spinelower_lift
+2380	ks_nuke_multi_mp
+2381	start
+2382	iw9_mp_execution_066_victim_laststand
+2383	ps_exec_062_inarius_stand_01,j_elbow_ri
+2384	iw9_mp_execution_090_attacker_prone_fem
+2385	iw9_mp_execution_103_attacker_stand
+2386	equip_bunkerbuster_burrowed
+2387	fx_stopfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_spinelower_lift
+2388	4_2_turn_6
+2389	weap_ar57_reg_reload_end_plr
+2390	iw9_mp_execution_068_attacker_prone
+2391	fx_stopfxontag, vfx/iw9/executions/vfx_exec_knife_stab_neg_y.vfx, j_dummy_sling_clavicle
+2392	equip_gas_cloud_mp
+2393	ps_exec_gore_bone_break_snap,j_spineupper
+2394	jlr_com_execution_000_victim_prone_6
+2395	j_dummy_l_shoulder
+2396	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_drip.vfx, j_mainroot
+2397	j_dummy_r_shoulder
+2398	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_proc_lift_clavicle_ri
+2399	weap_evo_chamber_end_plr
+2400	explode26
+2401	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_ankle_le
+2402	iw9_mp_execution_069_victim_stand
+2403	fx_stopfxontag, vfx/iw9/executions/vfx_exec_099_blood_splash.vfx, j_ik_foot_root
+2404	ks_fuelstrike_mp
+2405	iw9_mp_execution_007_victim_laststand
+2406	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_levitate_ch.vfx, tag_origin
+2407	ps_exec_033_dog_robo_jaw_open,nose_jnt
+2408	ps_exec_gore_bone_dislocate_twist,j_spinelower
+2409	reb_vh_techo_stand_impact_v07
+2410	explode_11
+2411	contested_300
+2412	iw9_mp_execution_053_attacker_laststand
+2413	4_4_turn_6
+2414	aim_graft_node
+2415	iw9_mp_execution_074_attacker_stand
+2416	4_2
+2417	0_6
+2418	2_6
+2419	iw9_mp_execution_017_attacker_laststand_fem
+2420	arm
+2421	iw9_mp_execution_021_attacker_prone
+2422	ps_exec_gear_mvmt_long_mid,j_wrist_ri
+2423	sdr_com_animscripted_head_look_05
+2424	iw9_mp_execution_112_attacker_stand
+2425	iw9_mp_execution_056_attacker_prone
+2426	iw9_mp_execution_066_victim_prone
+2427	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_spinelower
+2428	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward.vfx, j_ankle_le
+2429	fingers_out_start_right_hand
+2430	equip_deployed_decoy_dummy_mp
+2431	explode6
+2432	jug_com_execution_003_victim_stand_8
+2433	4_6_4
+2434	iw9_mp_execution_107_attacker_prone
+2435	iw9_mp_execution_012_victim_laststand
+2436	iw9_mp_execution_061_attacker_prone_fem
+2437	vh_blima_rappel_pilot
+2438	iw9_mp_execution_019_attacker_prone
+2439	5
+2440	reb_vh_techo_highcrouch_idle_combat01_fixed
+2441	boss_swamp_monster_execution_000_2
+2442	fx_stopfxontag, vfx/iw9/executions/vfx_exec_starlight_hands_buildup, j_wrist_ri
+2443	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_price_shot_imp_head_pr.vfx, j_head
+2444	tag_door_front_right
+2445	iw9_mp_execution_063_victim_laststand
+2446	flyout
+2447	ps_exec_scythe_swing,j_elbow_ri
+2448	ps_exec_grab_pull
+2449	contested
+2450	fx_playfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck, j_neck
+2451	fx_playfxontag, vfx/iw9/executions/vfx_exec_knife_stab_playonknife, tag_fx
+2452	fx_playfxontag, vfx/iw9/executions/vfx_exec_mummy_insect_head_circle, j_head
+2453	iw9_mp_execution_071_victim_prone
+2454	iw9_mp_execution_047_attacker_stand_fem
+2455	weap_ar57_clipout_fast_plr
+2456	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_laser_ground_impact_2, tag_eye
+2457	facial_pain_4
+2458	explode_large_water
+2459	reb_vh_techo_stand_9pt_aim_8
+2460	weap_ameli_chamber_plr
+2461	iw9_veh_heli_medium_seat_3_idle_to_combat
+2462	ps_exec_gore_blood_headshot,j_wrist_ri
+2463	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_spine4
+2464	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, j_helmet
+2465	ps_exec_impact_helmet,j_helmet
+2466	fx_playfxontag, vfx/iw9/executions/vfx_exec_96_victim_arm_flame.vfx, j_shoulder_ri
+2467	ps_exec_vo_pain,j_knee_ri
+2468	ps_exec_gear_mvmt_struggle,j_mainroot
+2469	burn
+2470	haywire
+2471	facial_talk_md
+2472	iw9_veh_suv_overland_2016_seat_1_exit_combat_idle
+2473	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_proc_spineupperlift
+2474	ddospulse
+2475	fx_playfxontag, vfx/iw9/executions/vfx_exec_077_blood_pool.vfx, j_chest
+2476	ps_exec_gun_rattle_heavy,j_gun
+2477	ps_iw9_haunting_butcher_weap_imp,j_wrist_ri
+2478	execution_037
+2479	execution_012
+2480	iw9_mp_execution_093_attacker_laststand_fem
+2481	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blood_screen_01, j_head
+2482	ps_exec_gun_hit_heavy,j_neck
+2483	ps_iw9_emergency_airdrop_drop
+2484	iw9_mp_execution_111_attacker_stand
+2485	iw9_veh_jltv_turret_stinger_reload01
+2486	j_disc_04
+2487	ps_exec_vo_pain,j_head
+2488	tag_wheel_center_back_right
+2489	iw9_mp_execution_083_victim_stand
+2490	fx_playfxontag, vfx/iw9/executions/vfx_exec_hanting_butcher_chestbleed, j_spineupper
+2491	veh9_mil_air_heli_medium_vehphys_mp
+2492	ps_exec_049_stand_victim_02_hammer,j_head
+2493	fx_playfxontag, vfx/iw9/executions/vfx_hween_butcher_clvdrips, tag_accessory_right
+2494	iw9_mp_execution_033_victim_stand
+2495	ps_exec_gear_mvmt_throw,j_wrist_ri
+2496	ps_exec_033_dog_robo_vo_prone_01,nose_jnt
+2497	explode14
+2498	explode35
+2499	ps_jup_exec_knife_attacker_stab_d,j_wrist_ri
+2500	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_eye_glow_red_3, tag_eye
+2501	swamp_com_execution_000_victim_stand_2
+2502	tendrildirect
+2503	aim_6
+2504	sdr_com_exposed_stand_melee04
+2505	fx_playfxontag, vfx/iw9/executions/vfx_exec_hanting_butcher_cleaver_finisher, j_spineupper
+2506	aimset_exposed_stand
+2507	reb_vh_lbravo_copilot_death01
+2508	execution_026_fem
+2509	iw9_mp_execution_058_attacker_stand
+2510	cashdrop_epic
+2511	soldier_scriptable_burntbody
+2512	scope
+2513	facial_angry_execution_lilith_stand
+2514	ps_exec_bodyfall_swt_hands,j_spineupper
+2515	fingers_in_start_left_hand
+2516	reb_vh_techo_highcrouch_9pt_aim_3
+2517	ks_airstrike_marker_mp
+2518	ps_exec_gun_pi_raise,j_wrist_ri
+2519	iw9_mp_execution_065_attacker_laststand
+2520	ps_exec_kalisticks_sheathe,j_spineupper
+2521	jug_com_execution_001_attacker_stand_mp_4
+2522	fx_playfxontag, vfx/iw9/executions/vfx_exec_066_taser_lights, tag_fx
+2523	iw9_mp_execution_023_attacker_stand
+2524	iw9_veh_stand_to_stand01_4
+2525	ps_exec_060_stand_victim_01,j_mainroot
+2526	iw9_mp_execution_068_attacker_stand
+2527	ps_jup_exec_knife_victim_trip,j_spineupper
+2528	fx_playfxontag, vfx/iw9/killstreaks/chopper/vfx_chopper_outro_glass_crash, tag_origin
+2529	iw9_mp_execution_014_attacker_laststand
+2530	fx_stopfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp,
+2531	fx_killfxontag, vfx/iw9/executions/vfx_exec_063_blood_trail.vfx, j_wrist_ri
+2532	al_ll_
+2533	vehicle_turret
+2534	ps_exec_079_prone_04,j_spineupper
+2535	ps_exec_grab_pull_hatchet,j_wrist_le
+2536	sdr_com_exposed_stand_gun_down_head_look_01
+2537	iw9_mp_execution_062_victim_stand
+2538	selfrevive_rec
+2539	reb_com_veh8_decho_turret_aim_8
+2540	iw9_mp_execution_120_attacker_stand
+2541	ps_exec_089_laststand_01,j_wrist_ri
+2542	iw9_mp_execution_024_victim_stand
+2543	iw9_mp_execution_041_attacker_stand_fem
+2544	iw9_mp_execution_012_victim_stand
+2545	iw9_mp_decoymine_crouch_inflate
+2546	ps_jup_exec_knife_attacker_stab_a,j_wrist_ri
+2547	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_knee_le
+2548	ps_exec_gear_mvmt_whoosh_med,j_elbow_le
+2549	iw9_mp_execution_049_attacker_laststand
+2550	iw9_mp_decoymine_hitreac_front
+2551	iw9_mp_execution_002_attacker_laststand
+2552	fx_stopfxontag, vfx/iw9/executions/vfx_exec_087_eye_laser_6, tag_eye
+2553	ps_c12_targeting_hud_close
+2554	active_red
+2555	weap_arx_reload_out_plr
+2556	ks_toma_strike_cluster_mp
+2557	sniperglintlrg
+2558	ps_exec_knife_slice,j_wrist_ri
+2559	reinforcementflare
+2560	sdr_com_exposed_stand_shotgun_fire01
+2561	iw9_mp_execution_036_attacker_laststand
+2562	5_4_6
+2563	iw9_mp_execution_031_attacker_laststand
+2564	iw9_mp_scorpion_trophy_entity
+2565	veh9_mil_lnd_jltv_turret_camo_mgl_v017
+2566	iw9_veh_suv_overland_2016_seat_2_idle_combat
+2567	fx_playfxontag, vfx/iw9/executions/vfx_exec_blood_splatter_negy.vfx, j_helmet
+2568	iw9_mp_execution_095_victim_stand
+2569	fx_playfxontag, vfx_truck_gate_open, tag_trunk
+2570	reb_vh_techo_stand_9pt_aim_6
+2571	ps_exec_061_laststand_burst_body
+2572	weap_ar57_clipout_plr
+2573	iw9_veh_suv_overland_2016_seat_0_entry_nodoor
+2574	iw9_spotterscope_killstreak
+2575	reb_vh_techo_lowcrouch_9pt_aim_3
+2576	gundown_exposed_stand
+2577	auto_kill_1
+2578	ps_exec_bodyfall_swt_head
+2579	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward.vfx, j_head
+2580	to_ar_lr
+2581	veh9_mil_lnd_jltv_turret_camo_v002
+2582	iw9_mp_execution_016_victim_stand
+2583	execution_058
+2584	execution_025
+2585	vehicle_melee
+2586	j_dummy_r_elbow
+2587	ps_exec_bodyfall_swt_feet,j_knee_le
+2588	iw9_mp_execution_062_victim_prone
+2589	iw9_mp_execution_000_attacker_prone
+2590	ik_in_start_left_hand
+2591	vehicle_whizby_idle
+2592	iw9_veh_heli_medium_seat_7_idle_combat01
+2593	iw9_mp_execution_022_victim_laststand
+2594	fx_stopfxontag, vfx/iw9/executions/vfx_exec_061_flesh_chunk_drip.vfx, j_wrist_ri
+2595	iw9_mp_execution_118_attacker_prone
+2596	iw9_mp_execution_055_attacker_prone_fem
+2597	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_knee_le
+2598	ll_lr
+2599	iw9_mp_execution_079_attacker_stand
+2600	iw9_mp_execution_112_victim_prone
+2601	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_spinelower_lift
+2602	ps_equip_shockstick_shocked
+2603	iw9_mp_execution_001_victim_laststand
+2604	ps_exec_gear_mvmt_long_heavy,j_elbow_ri
+2605	fx_playfxontag, vfx/iw8_mp/executions/vfx_neck_blood_stab_prone, tag_weapon_right
+2606	iw9_veh_heli_medium_seat_3_idle_combat01
+2607	explode27
+2608	iw9_veh_jltv_seat_4_lowcrouch_6_exit_2_idle
+2609	ps_exec_gore_blood_squirt,j_mainroot
+2610	tendrilwalldirect
+2611	ps_exec_mvmt_slide,j_spineupper
+2612	iw9_mp_execution_071_attacker_prone
+2613	iw9_mp_execution_023_attacker_prone
+2614	ks_airstrike_mp
+2615	v010
+2616	ps_exec_060_prone_victim_02,j_mainroot
+2617	execution_002_fem
+2618	baton_jailer_execution_000_2
+2619	iw9_mp_execution_090_attacker_stand
+2620	partially_opening_unusable
+2621	fx_stopfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_ball_le
+2622	fx_playfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_death, j_spine4
+2623	iw9_mp_execution_060_attacker_stand
+2624	iw9_mp_execution_087_attacker_prone
+2625	sdr_com_animscripted_head_look_20
+2626	iw9_mp_execution_022_attacker_prone_fem
+2627	iw9_veh_heli_medium_seat_4_idle_search01
+2628	3_4_2
+2629	crouch_burst_3
+2630	iw9_veh_jltv_seat_5_highcrouch_2_exit_2_combat_run
+2631	iw9_mp_execution_016_attacker_stand
+2632	ps_exec_gear_mvmt_long_light,j_spineupper
+2633	iw9_mp_execution_034_victim_laststand
+2634	ps_exec_gore_blood_squirt,j_spineupper
+2635	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_flesh_chunk_drip.vfx, j_wrist_ri
+2636	iw9_mp_execution_035_attacker_laststand
+2637	ps_exec_gear_grab_mid,j_mainroot
+2638	iw9_mp_execution_067_victim_stand
+2639	iw9_mp_execution_046_attacker_prone
+2640	ps_exec_gun_sn_scope_click,j_wrist_le
+2641	fx_playfxontag, vfx/iw9/executions/vfx_exec_065_battering_ram_hit_grnd.vfx, j_hip_proc_ri
+2642	ps_exec_vo_pain,j_wrist_le
+2643	mvmt_step_post
+2644	ps_exec_scrape_feet,j_ankle_le
+2645	ik_fingers_out_end_left_hand
+2646	electric_blast
+2647	iw9_mp_execution_043_victim_laststand
+2648	ps_exec_katana_sheathe,j_wrist_le
+2649	ps_exec_gear_mvmt_throw,j_elbow_ri
+2650	ps_exec_scrape_quick,j_ankle_ri
+2651	iw9_mp_decoymine_crouch_hitreac_left
+2652	ps_exec_097_stand_03,j_wrist_ri
+2653	fx_playfxontag, vfx/iw9/executions/vfx_exec_blood_splatter.vfx, j_groinprotector
+2654	death_anims
+2655	fx_playfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee, j_head
+2656	ps_exec_gear_mvmt_quick_light,j_spinelower
+2657	5_6_8
+2658	fx_playfxontag, vfx/iw9/executions/vfx_exec_hanting_butcher_chestbleed_motion, j_neck
+2659	sdr_com_exposed_crouch_semi_04@2
+2660	tag_light_cargo01
+2661	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_head
+2662	ps_exec_033_dog_robo_step,l_foot0_jnt
+2663	iw9_mp_execution_069_attacker_prone
+2664	ps_exec_gear_grab_pull,j_head
+2665	fx_stopfxontag, vfx/iw9/core/operators/tempv/vfx_mp_tempv_eye_glow_red, tag_eye
+2666	ps_exec_knife_slice,j_neck
+2667	fx_playfxontag, vfx/iw9/executions/vfx_exec_blood_splatter_posy.vfx, j_proc_stowed_chest
+2668	iw9_ai_veh_jltv_seat_3_getin
+2669	zd30c_000_infil_ride_exit_ally01
+2670	weap_ar57_reg_clipin_plr
+2671	iw9_veh_heli_medium_seat_4_exit_combat_run
+2672	reactive_soul_collect
+2673	reb_vh_techo_bed_guy2_idle_search02
+2674	tag_light_r_wing
+2675	mummy_com_execution_000_victim_stand_2
+2676	execution_085
+2677	execution_095
+2678	execution_046
+2679	execution_074
+2680	execution_116
+2681	ps_exec_gear_mvmt_midlength_heavy,j_wrist_le
+2682	iw9_mp_execution_004_attacker_stand
+2683	windshield
+2684	fx_playfxontag, vfx/iw9/executions/vfx_exec_069_blood_splatter_posy_headshot, j_head
+2685	fx_playfxontag, vfx/iw9/executions/vfx_exec_hanting_butcher_redeyes, j_head
+2686	tag_wheel_back_left
+2687	fx_playfxontag, vfx/iw9/executions/vfx_exec_58_sword_neck_slash.vfx, j_neck
+2688	start_ragdoll
+2689	iw9_mp_execution_071_attacker_laststand_walpha
+2690	melee_knife_stab_lower_hit_plr
+2691	playerasm_patch_execution
+2692	as_dx_mpi_us2_infil_intro_20
+2693	iw9_mp_execution_060_attacker_stand_charlie725
+2694	iw9_mp_execution_052_attacker_laststand
+2695	helmet
+2696	sdr_mp_execution_345_victim_prone
+2697	ps_exec_033_dog_robo_stand_head_servos,nose_jnt
+2698	fx_playfxontag, vfx/iw9/executions/vfx_exec_097_witch_magic_hand.vfx, j_wrist_ri
+2699	tag_exhaust
+2700	execution_090_fem
+2701	iw9_veh_suv_overland_2016_seat_1_pain_combat
+2702	iw9_mp_execution_093_victim_prone
+2703	fx_killfxontag, vfx/iw9/executions/vfx_exec_097_witch_magic_hand.vfx, j_wrist_le
+2704	iw9_mp_execution_035_victim_prone
+2705	iw9_mp_execution_102_attacker_laststand
+2706	execution_047_fem
+2707	5cps_wait
+2708	fx_playfxontag, vfx/iw9/executions/vfx_exec_knife_stab_neg_y, j_neck
+2709	ps_exec_crowbar_imp,j_spinelower
+2710	20cps
+2711	reb_vh_techo_stand_impact_v01
+2712	reb_vh_techo_highcrouch_9pt_aim_7
+2713	sdr_com_exposed_shoot_auto_01
+2714	slow
+2715	100cps
+2716	j_hip_proc_le
+2717	viewmodel_large
+2718	iw9_mp_execution_118_attacker_stand
+2719	iw9_mp_execution_031_victim_laststand
+2720	ks_chopper_support_mp
+2721	twitch_1
+2722	vehicle_impulse_response
+2723	ps_exec_sledgehammer_grab,j_wrist_ri
+2724	mgl_v018
+2725	tag_eye
+2726	veh9_mil_lnd_jltv_x_vehphys_mp
+2727	look_03_headonly
+2728	iw9_mp_execution_022_attacker_stand_fem
+2729	fx_playfxontag, vfx/iw9/executions/vfx_exec_099_blood_splash.vfx, j_ik_foot_root
+2730	execution_066_fem
+2731	iw9_mp_execution_053_victim_prone
+2732	iw9_mp_execution_106_attacker_laststand
+2733	underwater
+2734	shell_break
+2735	fx_playfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee.vfx, j_groinprotector
+2736	visibility
+2737	hitreact
+2738	iw9_mp_execution_035_attacker_prone
+2739	3
+2740	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_eye_laser_5, tag_eye
+2741	vh9_techo_aims
+2742	tag_flash
+2743	jlr_com_execution_000_attacker_prone_4
+2744	fx_stopfxontag, vfx/iw9/executions/vfx_hween_butcher_clvhit, j_spineupper
+2745	ps_exec_087_stand_laserend,j_head
+2746	ps_exec_062_victim_stand_01,j_head
+2747	iw9_mp_execution_087_attacker_laststand
+2748	damageheavysound
+2749	target
+2750	5_2_8
+2751	weap_cbj_clipin_plr
+2752	facial_talk_1
+2753	iw9_mp_execution_023_attacker_laststand_fem
+2754	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_spear_impact.vfx, tag_origin
+2755	ps_exec_gear_mvmt_midlength_light,j_shoulder_le
+2756	iw9_mp_execution_107_attacker_laststand
+2757	ps_exec_hand_grab_head,j_elbow_ri
+2758	reb_vh_techo_stand_9pt_aim_2
+2759	iw9_veh_suv_overland_2016_seat_1_death
+2760	fx_playfxontag, vfx/iw9/executions/vfx_exec_058_knife_pullout_2_ch.vfx, j_helmet
+2761	iw9_veh_suv_overland_2016_seat_2_death
+2762	enabled
+2763	facial_angry_3
+2764	gas_death_anims
+2765	fx_playfxontag, vfx/iw9/executions/vfx_exec_hween_swamp_slash.vfx, j_spinelower
+2766	iw9_mp_execution_033_attacker_prone
+2767	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_shouldertwist_le
+2768	exposed_idle_headlook
+2769	ps_exec_shocker_03,j_wrist_ri
+2770	ps_iw9_drop_chute_pop
+2771	veh9_mil_lnd_jltv_turret_camo_v006
+2772	veh9_mil_lnd_jltv_turret_camo_v022
+2773	ps_exec_049_prone_victim_03_kill,j_head
+2774	iw9_mp_execution_058_victim_laststand
+2775	j_dummy_neck
+2776	5_2_turn_4
+2777	execution_018
+2778	execution_021
+2779	iw9_mp_execution_051_attacker_laststand
+2780	spotterscope
+2781	iw9_mp_execution_020_attacker_stand
+2782	sdr_com_exposed_crouch_9pt_aim_2
+2783	iw9_veh_suv_overland_2016_seat_3_exit_combat_run
+2784	iw9_mp_execution_098_attacker_laststand
+2785	corecenterdiedownwall
+2786	ps_exec_gun_rattle_light,j_wrist_ri
+2787	iw9_mp_execution_040_attacker_laststand
+2788	ik_fingers_in_start_left_hand
+2789	j_disc_02
+2790	iw9_mp_execution_019_victim_stand
+2791	iw9_mp_execution_025_attacker_laststand
+2792	ps_wfoly_plr_mg_bravo50_bravo50_raise_01
+2793	cashdrop_common
+2794	ks_cuav_mp
+2795	explode12
+2796	ps_exec_gear_mvmt_long_light
+2797	fx_stopfxontag, vfx/iw9/executions/vfx_exec_061_flesh_chunk.vfx, j_wrist_ri
+2798	death_usable
+2799	tendrilceil
+2800	fx_playfxontag, vfx/iw9/executions/vfx_exec_swamp_water_splashy.vfx, j_elbow_le
+2801	ps_exec_060_laststand_victim_03,j_mainroot
+2802	jlr_com_execution_000_victim_stand_4
+2803	ps_exec_gore_blood_drip,j_hip_proc_ri
+2804	jup_mp_execution_knife_01_victim_laststand
+2805	floor_fire
+2806	iw9_mp_execution_120_attacker_prone
+2807	exec_kill
+2808	iw9_mp_execution_061_attacker_stand_fem
+2809	iw9_veh_heli_medium_seat_6_idle_search01
+2810	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, tag_fx
+2811	ps_exec_079_stand_07,j_spineupper
+2812	ps_exec_gun_pi_lower,j_wrist_ri
+2813	iw9_mp_execution_083_victim_laststand
+2814	semi_3
+2815	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_z_forward, j_head
+2816	flash_glint
+2817	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_price_shot_imp_head_pr.vfx, j_head
+2818	ps_exec_machete_spin_whip,j_wrist_ri
+2819	vehicle_idle_combat_to_hunt
+2820	ps_exec_bodytap,j_hip_le
+2821	ps_exec_062_inarius_wings_laststand_02,j_spineupper
+2822	ps_mp_bomb_button_2_plr
+2823	reb_vh_techo_stand_impact_v09
+2824	explode_13
+2825	iw9_mp_execution_024_victim_prone
+2826	iw9_mp_veh_jltv_seat_2_idle
+2827	iw9_veh_suv_overland_2016_seat_1_impact01_2
+2828	0_4
+2829	sdr_com_animscripted_head_look_03
+2830	1_8_2
+2831	1_6_8
+2832	ps_foley_gest_fingerwiggle_plr
+2833	iw9_mp_execution_110_attacker_laststand
+2834	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_slide
+2835	ps_exec_impact_face,j_head
+2836	fx_stopfxontag, vfx/iw9/fieldupgrades/vfx_emp_blast_device, tag_accessory
+2837	ps_exec_gear_mvmt_midlength_heavy,j_ankle_le
+2838	3_8_2
+2839	iw9_veh_heli_medium_seat_5_exit_combat_idle
+2840	lights2
+2841	iw9_mp_execution_116_attacker_prone
+2842	gesture_blend_out_end
+2843	al_ar_
+2844	sdr_com_exposed_stand_gun_down_head_look_20
+2845	iw9_mp_execution_117_attacker_stand
+2846	fx_stopfxontag, vfx/iw9/executions/vfx_exec_starlight_hands_loop, j_wrist_ri
+2847	look_43_headonly
+2848	iw9_mp_execution_090_attacker_prone
+2849	ps_zmb_npc_breath_land_lo,j_head
+2850	vehicledamageshakeheavy
+2851	fx_stopfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee.vfx, j_groinprotector
+2852	4_6_6
+2853	idle_90
+2854	mtxvfxgunscreenoneshot
+2855	generic_human_aim_exposed_crouch
+2856	direct
+2857	weap_ar57_reg_clipout_plr
+2858	tag_engine_left
+2859	iw9_mp_execution_012_attacker_prone
+2860	ps_exec_062_inarius_laststand_01,j_ankle_le
+2861	bolt_semtex
+2862	ps_exec_gore_splat_squish
+2863	bodyfall_torso
+2864	facial_gas_death_1_male
+2865	ps_exec_gear_mvmt_long_heavy,j_spineupper
+2866	using_160
+2867	hacked
+2868	ps_exec_035_dog_lunge_stand,j_wrist_le
+2869	sdr_mp_veh_lbravo_ground_r2_exit
+2870	iw9_mp_execution_018_attacker_prone
+2871	ps_exec_gear_mvmt_brush,j_ankle_ri
+2872	ps_exec_097_prone_05,j_spinelower
+2873	smoke
+2874	fx_playfxontag, vfx/iw9/executions/vfx_exec_hween_swamp_slash.vfx, j_head
+2875	iw9_mp_execution_003_attacker_prone
+2876	ps_iw9_swmpmon_exec_swipe_01,j_wrist_ri
+2877	iw9_mp_execution_045_attacker_stand_fem
+2878	ps_iw9_ronin_exec_2_mus,j_wrist_ri
+2879	ps_exec_knife_stab,j_knee_ri
+2880	ps_exec_060_laststand_attacker_04,j_mainroot
+2881	visible
+2882	tag_wingtip_left
+2883	ps_exec_sledgehammer_impact_body,j_spinelower
+2884	iw9_veh_suv_overland_2016_seat_1_entry
+2885	discs
+2886	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_sling_pivot
+2887	iw9_mp_execution_022_victim_stand
+2888	iw9_mp_execution_112_victim_laststand
+2889	iw9_mp_execution_014_attacker_prone
+2890	sdr_com_exposed_aim_3
+2891	execution_031
+2892	execution_029
+2893	execution_010
+2894	iw9_veh_heli_medium_seat_6_exit_patrol
+2895	iw9_mp_execution_060_attacker_prone
+2896	ps_jup_exec_knife_attacker_arm_swing_b,j_wrist_ri
+2897	iw9_mp_execution_081_attacker_stand
+2898	weap_smokegrenade_fire_plr
+2899	iw9_mp_execution_105_victim_stand
+2900	ps_exec_gear_mvmt_long_light,j_ankle_le
+2901	fx_stopfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_knee_le
+2902	hide
+2903	ps_exec_gear_mvmt_complex_heavy,j_wrist_ri
+2904	fx_stopfxontag, vfx/iw9/executions/vfx_exec_077_blood_pool, j_dummy_slingcenteraim
+2905	ps_exec_gun_hit_heavy,j_mainroot
+2906	sdr_mp_execution_345_attacker_prone
+2907	ps_exec_061_laststand_magic_build,j_spineupper
+2908	ps_exec_land,j_mainroot
+2909	iw9_mp_execution_090_victim_stand
+2910	ps_exec_062_victim_prone_02,j_spineupper
+2911	sdr_com_exposed_stand_rpg_idle01
+2912	iw9_mp_execution_090_victim_prone
+2913	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med_dismb, j_head
+2914	sdr_mp_veh_blima_ground_l3_idle
+2915	ps_exec_punch_full,j_head
+2916	ps_exec_033_dog_robo_jaw_close,nose_jnt
+2917	iw9_mp_execution_037_victim_laststand
+2918	ps_exec_gear_mvmt_brush,j_spineupper
+2919	ps_exec_gear_mvmt_quick_heavy,j_wrist_ri
+2920	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_hip_proc_le
+2921	tag_light_back_left
+2922	iw9_mp_execution_099_victim_stand
+2923	ps_exec_vo_death,j_head
+2924	sdr_com_exposed_crouch_shotgun_fire02
+2925	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_groinprotector
+2926	row2_left
+2927	v011
+2928	ps_mp_bomb_button_7_plr
+2929	fx_playfxontag, vfx/iw9/core/weapons/muzzleflash/pis/vfx_muz_stim_pis_v_nt, tag_flash
+2930	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blood_splatter.vfx, j_ankle_ri
+2931	iw9_veh_heli_medium_seat_0_idle_search01
+2932	fx_stopfxontag, vfx/iw9/executions/vfx_exec_087_laser_ground_impact, tag_eye
+2933	70
+2934	facial_angry
+2935	ddosblast
+2936	fx_stopfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_death, j_spine4
+2937	jug_execution_001_stand_8
+2938	iw9_mp_execution_022_attacker_laststand_fem
+2939	4_6_turn_6
+2940	5_4
+2941	ps_exec_049_stand_victim_01_start,j_head
+2942	1_6_6
+2943	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_blood_pour.vfx, j_spine4
+2944	ps_exec_gore_bone_dislocate_twist,j_head
+2945	iw9_mp_execution_058_attacker_laststand_fem
+2946	screen_off
+2947	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_spineupper
+2948	mgl_v008
+2949	ks_crate_marker_mp
+2950	using_90
+2951	tag_tail_rotor_motion
+2952	ps_exec_katana_stab,j_knee_le
+2953	tag_main_rotor_blade_01
+2954	iw9_veh_heli_medium_seat_3_death
+2955	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward.vfx, j_clavicle_ri
+2956	trigger_gun_stow
+2957	iw9_mp_execution_060_victim_stand
+2958	facial_idle_execution_jackol_stand
+2959	ps_exec_mvmt_dirt_scuff,j_ankle_ri
+2960	vehicle_setup_rope
+2961	iw9_mp_execution_079_victim_stand
+2962	iw9_mp_decoymine_crouch_hitreac_back
+2963	ps_exec_060_prone_attacker_05,j_mainroot
+2964	parts_backpack_inventory_medium
+2965	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_neck
+2966	execution_071_walpha
+2967	iw9_mp_execution_005_attacker_prone_fem
+2968	ps_iw9_mp_adrenaline_use_stim_fly
+2969	ps_exec_gore_tear,j_spineupper
+2970	iw9_mp_veh_jltv_seat_0_idle
+2971	ps_exec_gear_mvmt_midlength_heavy,j_shoulder_ri
+2972	ps_exec_096_prone_03,j_mainroot
+2973	iw9_mp_execution_075_victim_prone_fem
+2974	iw9_mp_execution_043_attacker_stand
+2975	stage1
+2976	veh9_mil_lnd_jltv_turret_camo_mgl_v025
+2977	10cps
+2978	jug_com_execution_000_victim_stand_8
+2979	thermal_lance
+2980	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_spineupper
+2981	iw9_veh_suv_overland_2016_seat_3_idle_combat
+2982	iw9_mp_execution_053_attacker_laststand_fem
+2983	fx_playfxontag, vfx/iw9/executions/vfx_exec_dog_bite_single_sm.vfx, j_elbow_le
+2984	fx_stopfxontag, vfx/iw9/executions/vfx_exec_95_axe_leg_stab_squibs.vfx, tag_fx
+2985	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_proc_spinelower
+2986	iw9_mp_execution_075_victim_laststand
+2987	ps_exec_knife_stab_metal
+2988	ps_scn_mp_invasion_ai_rope_infil
+2989	iw9_mp_execution_106_victim_prone
+2990	iw9_mp_execution_110_victim_stand
+2991	tag_light_1
+2992	iw9_mp_execution_011_victim_prone
+2993	iw9_mp_execution_042_victim_prone
+2994	fx_stopfxontag, vfx/iw9/executions/vfx_exec_hanting_butcher_chestbleed, j_spineupper
+2995	iw9_mp_execution_037_attacker_prone
+2996	iw9_mp_execution_013_attacker_laststand_walpha
+2997	iw9_mp_veh_jltv_seat_2_exit_combat_run
+2998	execution_047
+2999	execution_094
+3000	execution_073
+3001	execution_117
+3002	ps_exec_gun_lmg_hit,j_head
+3003	iw9_mp_execution_014_victim_prone
+3004	ps_exec_079_stand_01,j_spineupper
+3005	fx_playfxontag, vfx/iw9/executions/vfx_exec_042_sword_pullout, j_proc_lift_clavicle_le
+3006	iw9_ai_veh_jltv_seat_2_getin_nodoor
+3007	fx_stopfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_arms, j_shoulder_ri
+3008	iw9_mp_execution_011_attacker_stand
+3009	dummy_vis_neutral
+3010	execution_093_fem
+3011	ps_exec_097_prone_02,j_spinelower
+3012	look_46_headonly
+3013	ps_exec_087_prone_gore,j_head
+3014	tag_fx
+3015	iw9_mp_execution_028_victim_stand
+3016	idle_300
+3017	laser_charge
+3018	reb_vh_lbravo_guy3_exit_combat_run
+3019	ps_iw9_cluster_spike_throw_01
+3020	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_hip_ri
+3021	iw9_veh_heli_medium_seat_4_idle_to_combat
+3022	explode_7
+3023	iw9_veh_death_stand_exposed_fallover02_8
+3024	iw9_mp_execution_037_victim_prone
+3025	j_dummy_chest
+3026	rack_crouch
+3027	iw9_veh_heli_medium_seat_4_exit_combat_idle
+3028	iw9_mp_execution_034_attacker_stand
+3029	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blood_splatter.vfx, j_clavicle_ri
+3030	ps_exec_gear_mvmt_long_heavy
+3031	superpowers
+3032	fx_playfxontag, vfx/iw9/executions/vfx_exec_blood_splatter_negy.vfx, j_cosmetic_4
+3033	vehicle_idle_death
+3034	ps_exec_kalisticks_impact,j_head
+3035	v001
+3036	v022
+3037	iw9_mp_execution_027_attacker_laststand
+3038	baton_jailer_execution_000_6
+3039	iw9_mp_execution_053_victim_laststand
+3040	neutralallies
+3041	execution_023_fem
+3042	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_hip_le
+3043	1_8
+3044	3_6
+3045	iw9_mp_execution_013_attacker_prone_walpha
+3046	fx_killfxontag, vfx/iw9/executions/vfx_exec_95_axe_neck_blood_gush_2.vfx, j_neck
+3047	sdr_com_animscripted_head_look_31
+3048	sdr_com_animscripted_head_look_12
+3049	sdr_com_animscripted_head_look_08
+3050	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_price_shot_imp_head_pr.vfx, j_helmet
+3051	iw9_veh_death_stand_exposed_03
+3052	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_axe_hit_standing_back, tag_fx
+3053	3_4_6
+3054	ps_exec_gun_drop
+3055	iw9_mp_execution_075_attacker_prone
+3056	ps_exec_gear_mvmt_struggle,j_spineupper
+3057	ps_exec_058_laststand_sword_slash_lyr,tag_weapon_right
+3058	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_head
+3059	ps_exec_gun_lmg_lower,j_wrist_ri
+3060	viewmodel_medium
+3061	ps_exec_079_prone_02,j_spineupper
+3062	iw9_mp_execution_017_attacker_laststand
+3063	sdr_mp_execution_345_attacker_laststand
+3064	2_8_6
+3065	ps_exec_gear_grab_release,j_wrist_ri
+3066	ps_foley_gest_salute_plr
+3067	ps_exec_058_laststand_sword_stab_lyr
+3068	iw9_mp_execution_098_victim_prone
+3069	iw9_mp_execution_108_victim_laststand
+3070	iw9_ai_veh_jltv_seat_1_getin_nodoor
+3071	fx_playfxontag, vfx/iw9/executions/vfx_exec_hween_butcher_dustimpact, j_spineupper
+3072	ps_exec_baton_impact_body,j_spineupper
+3073	water
+3074	fx_playfxontag, vfx/iw9/executions/vfx_exec_starlight_hands_loop, j_wrist_le
+3075	weap_suitcase_raise_plr
+3076	fx_stopfxontag, vfx/iw9/executions/vfx_exec_95_blood_splatter.vfx, j_neck
+3077	row1_left
+3078	footstep_left_small
+3079	bolt_molotov
+3080	idle_anims
+3081	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_hip_proc_le
+3082	5_4_turn_6
+3083	ps_exec_katana_slash,j_knee_le
+3084	fx_playfxontag, vfx/jup/executions/blood_decal_neg_y_medium, j_cosmetic_4
+3085	ps_exec_gear_mvmt_long_mid,j_ankle_le
+3086	ps_exec_gear_mvmt_brush,j_elbow_le
+3087	ps_assault_drone_activate_gear_02
+3088	iw9_mp_execution_066_victim_stand
+3089	stage2
+3090	veh9_mil_lnd_jltv_turret_camo_mgl_v020
+3091	playerobjective
+3092	iw9_veh_jltv_seat_4_entry
+3093	ps_exec_scrape_hands,j_wrist_le
+3094	iw9_mp_execution_001_attacker_laststand
+3095	ps_exec_gear_mvmt_long_heavy,j_knee_le
+3096	ps_exec_knife_slice_metal,j_wrist_ri
+3097	fx_playfxontag, vfx/iw9/executions/vfx_exec_039_knife_slash, tag_fx
+3098	zd30c_000_infil_ride_exit_ally05
+3099	iw9_mp_execution_013_attacker_laststand
+3100	ps_jup_exec_knife_attacker_arm_swing_e,j_wrist_ri
+3101	ps_exec_gun_pi_holster,j_mainroot
+3102	ps_exec_katana_swing,j_wrist_le
+3103	active_yellow
+3104	sdr_com_exposed_aim_8
+3105	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp,
+3106	ps_exec_hand_grab_head
+3107	iw9_mp_execution_018_attacker_laststand
+3108	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_elbow_ri
+3109	execution_081
+3110	execution_006
+3111	execution_070
+3112	execution_108
+3113	execution_112
+3114	iw9_mp_execution_060_attacker_prone_charlie725
+3115	ps_exec_punch_full,j_wrist_le
+3116	holowatchon
+3117	active3
+3118	iw9_mp_execution_060_attacker_laststand_charlie725
+3119	fx_stopfxontag, vfx/iw9/executions/vfx_exec_063_blood_trail.vfx, j_wrist_ri
+3120	vehicle_decho_turret_aim
+3121	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_elbow_le
+3122	alert
+3123	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_proc_spinelower2
+3124	fx_stopfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_knee_ri
+3125	veh9_suv_overland_2016
+3126	vehicle_hunt_to_combat
+3127	iw9_veh_heli_medium_seat_7_idle_search01
+3128	gesture_point
+3129	ps_exec_gore_blood_drip,j_spine4
+3130	iw9_mp_execution_018_attacker_laststand_fem
+3131	explode_4
+3132	iw9_mp_execution_104_attacker_laststand
+3133	jup_mp_execution_knife_01_attacker_prone
+3134	ps_mp_bomb_button_1_plr
+3135	iw9_mp_execution_071_victim_stand
+3136	iw9_mp_execution_072_victim_laststand
+3137	iw9_mp_veh_jltv_seat_2_exit_combat_idle
+3138	ps_exec_gear_mvmt_midlength_light,j_neck
+3139	tag_window_back_right_corner
+3140	forearmpad_r
+3141	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_spinelower
+3142	iw9_mp_execution_089_victim_prone
+3143	ps_weap_frag_pin,tag_accessory_animate
+3144	vehicle_hunt_to_combat_react_to_player
+3145	additive_helmet_anims
+3146	ps_iw9_frag_grenade_expl_trans,j_gun
+3147	v012
+3148	iw9_mp_execution_084_attacker_stand
+3149	iw9_mp_execution_098_victim_prone_fem
+3150	weap_p226_clipin_plr
+3151	ps_exec_097_prone_03,j_spinelower
+3152	ps_iw9_swmpmon_exec_water_submerge,j_spineupper
+3153	pristine
+3154	iw9_mp_execution_027_victim_laststand
+3155	6_4
+3156	shoe
+3157	al_
+3158	run
+3159	stop
+3160	sdr_com_animscripted_head_look_18
+3161	ps_exec_punch_full,j_neck
+3162	defaulticon
+3163	iw9_mp_execution_114_victim_prone
+3164	tag_main_rotor_blade_03_blur
+3165	crouch_burst_5
+3166	al_to_
+3167	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_hands.vfx, j_wrist_ri
+3168	fx_playfxontag, vfx/iw9/executions/vfx_exec_95_axe_neck_blood_gush_2.vfx, j_neck
+3169	ps_exec_gear_mvmt_brush,j_wrist_le
+3170	fx_killfxontag, vfx/iw9/executions/vfx_exec_097_witch_portal.vfx, tag_origin
+3171	ps_exec_bodyfall_swt_feet,j_head
+3172	ps_exec_gear_mvmt_whoosh_med,j_ankle_ri
+3173	fx_playfxontag, vfx/iw9/killstreaks/chopper/vfx_chopper_outro_player_shot, j_clavicle_ri
+3174	sdr_com_exposed_crouch_aim_2
+3175	4_4_2
+3176	rechamber
+3177	sdr_com_exposed_semi_02
+3178	ps_exec_mvmt_dirt_scuff,j_ankle_le
+3179	iw9_mp_execution_114_victim_laststand
+3180	ps_exec_ringblade_flourish,j_wrist_ri
+3181	0_8_6
+3182	ps_exec_gun_pi_lower,tag_weapon_right
+3183	iw9_mp_execution_103_attacker_prone
+3184	iw9_mp_execution_096_attacker_laststand
+3185	iw9_mp_execution_049_attacker_stand_fem
+3186	ps_exec_087_laststand_laserstart,j_head
+3187	ps_exec_gore_squish_short
+3188	jug_execution_004_stand_8
+3189	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_knee_ri
+3190	execution_015_fem
+3191	ps_exec_impact_body_full,j_spinelower
+3192	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward.vfx, j_helmet
+3193	iw9_mp_execution_102_victim_prone
+3194	ps_exec_049_stand_victim_03_kill,j_head
+3195	corecenterdiedownceil
+3196	ps_exec_bodyfall_swt_hands,j_wrist_ri
+3197	ps_exec_062_inarius_stand_02,j_wrist_ri
+3198	jug_com_execution_000_attacker_stand_mp_2
+3199	ps_exec_gun_lmg_raise,j_wrist_le
+3200	iw9_veh_suv_overland_2016_seat_0_pain
+3201	iw9_mp_veh_jltv_windowfr_scrub_down
+3202	ps_jup_exec_knife_attacker_stab_b,j_wrist_ri
+3203	fx_killfxontag,vfx/iw7/core/nvg/vfx_nvg_goggles_glow_on.vfx,tag_accessory
+3204	tag_stowed_hip_rear
+3205	iw9_veh_suv_overland_2016_seat_2_impact01_6
+3206	ps_exec_punch_full,j_helmet
+3207	iw9_mp_execution_053_victim_stand_fem
+3208	iw9_mp_execution_102_victim_stand
+3209	ps_exec_097_stand_04,j_wrist_le
+3210	ps_exec_katana_swing,j_wrist_ri
+3211	sdr_com_exposed_crouch_burst_05
+3212	fx_stopfxontag, vfx/iw9/executions/vfx_exec_066_taser_lights, tag_fx
+3213	iw9_mp_execution_098_attacker_stand
+3214	iw9_mp_execution_104_victim_laststand
+3215	fx_stopfxontag, vfx/iw9/executions/vfx_exec_058_blood_pool, j_head
+3216	partially_open_in_use_unusable
+3217	execution_040
+3218	execution_087
+3219	execution_093
+3220	execution_114
+3221	flyby
+3222	aim_root
+3223	iw9_mp_execution_019_attacker_laststand
+3224	ps_exec_061_prone_foley,j_spineupper
+3225	ps_jup_exec_vo_pain,j_spineupper
+3226	music_mx
+3227	finish
+3228	iw9_mp_execution_106_victim_laststand
+3229	ps_exec_face_punch_mid,j_clavicle_ri
+3230	ps_exec_gore_blood_headshot,j_spineupper
+3231	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_neck
+3232	ps_exec_gore_blood_drip,j_ankle_ri
+3233	laser_impact
+3234	corediedownwall
+3235	ps_exec_gear_mvmt_whoosh_med,j_neck
+3236	idle_160
+3237	ik_out_start_left_hand
+3238	angry
+3239	sdr_mp_veh_blima_ground_l3_exit
+3240	iw9_mp_execution_007_victim_stand
+3241	glint
+3242	cover_hunt_hunker
+3243	run_anims
+3244	ps_exec_097_stand_01,j_wrist_le
+3245	iw9_mp_execution_025_attacker_prone
+3246	iw9_veh_suv_overland_2016_seat_3_hide_loop
+3247	explode_2
+3248	iw9_mp_execution_113_attacker_prone
+3249	iw9_ai_infil_blima_seat_5_getout
+3250	ps_exec_gear_mvmt_quick_heavy,j_elbow_ri
+3251	ps_iw9_haunting_butcher_vox_throw,j_neck
+3252	ps_exec_gore_blood_headshot
+3253	fx_killfxontag, vfx/iw9/executions/vfx_exec_097_witch_magic_hand.vfx, j_wrist_ri
+3254	ps_exec_bodyfall,j_spineupper
+3255	ps_exec_gun_m4_hit,j_wrist_le
+3256	ps_exec_gun_sn_lower,tag_weapon_right
+3257	ps_exec_gore_bone_dislocate_twist,j_shoulder_ri
+3258	v009
+3259	ps_exec_bodyfall,j_wrist_ri
+3260	iw9_mp_execution_079_victim_laststand
+3261	iw9_mp_execution_016_attacker_laststand
+3262	4_8_turn_4
+3263	iw9_mp_execution_094_attacker_laststand
+3264	explode_14
+3265	fx_playfxontag, vfx/iw9/executions/vfx_exec_trail_streak_quick.vfx, j_ball_le
+3266	iw9_mp_execution_093_attacker_laststand
+3267	show
+3268	releasesfx
+3269	ghostfinderactiveweaponswitch
+3270	iw9_mp_execution_036_victim_stand
+3271	iw9_mp_execution_015_attacker_prone
+3272	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_head
+3273	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blood_splatter.vfx, j_groinprotector
+3274	butcher_com_execution_000_victim_stand_8
+3275	bubblesenter
+3276	iw9_mp_execution_056_victim_prone
+3277	fx_playfxontag, vfx/iw9/executions/vfx_exec_head_dismember.vfx, j_knee_le
+3278	trophy_bank
+3279	facial_cheer_1
+3280	ps_mp_uav_remote_putaway_short
+3281	sdr_mp_veh_lbravo_ground_r3_idle
+3282	ps_exec_gear_mvmt_whoosh_slow,j_elbow_ri
+3283	ps_exec_gear_mvmt_whoosh_slow,j_elbow_le
+3284	iw9_mp_execution_098_victim_laststand
+3285	iw9_mp_execution_100_victim_laststand
+3286	sdr_com_exposed_stand_gun_down_head_look_35
+3287	as_mus_mp_faridah_infil_bombtrack
+3288	facial_cheer
+3289	get_in_vehicle
+3290	fx_stopfxontag, vfx/iw9/executions/vfx_exec_starlight_hands_loop, j_wrist_le
+3291	iw9_mp_execution_011_attacker_laststand
+3292	neutralaxis
+3293	heartbeatheavy
+3294	iw9_veh_suv_overland_2016_seat_1_pain
+3295	fx_stopfxontag, vfx/iw9/executions/vfx_exec_087_eye_laser_1, tag_eye
+3296	iw9_mp_execution_016_attacker_prone
+3297	iw9_mp_execution_045_victim_laststand
+3298	iw9_ai_infil_blima_seat_2_idle
+3299	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_sml_stim_nt, j_shield_ri
+3300	door_back_left
+3301	window_back_left
+3302	0_2_8
+3303	j_knee_ri
+3304	iw9_mp_execution_058_attacker_prone_fem
+3305	look_00_headonly
+3306	fx_playfxontag, vfx/iw9/executions/vfx_exec_077_blood_pool.vfx, j_sling_clavicle
+3307	ps_exec_gore_bone_break_snap,j_mainroot
+3308	right_lower_arm_health
+3309	ps_exec_gear_mvmt_quick_heavy,j_spineupper
+3310	iw9_mp_execution_022_victim_prone
+3311	skydivevfx
+3312	iw9_mp_execution_029_victim_laststand
+3313	iw9_veh_suv_overland_2016_seat_0_exit_combat_idle
+3314	iw9_mp_execution_009_attacker_stand
+3315	ps_exec_096_laststand_02,j_mainroot
+3316	5_6_4
+3317	ps_exec_hand_grab_head,j_neck
+3318	ps_exec_035_dog_lunge_prone,tag_eye
+3319	strafe3
+3320	iw9_mp_execution_030_victim_prone
+3321	as_scn_mp_faridah_heli_door_open
+3322	cheer
+3323	ps_exec_punch_full,j_clavicle_le
+3324	contrails
+3325	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_clavicle_ri
+3326	ps_exec_kalisticks_impact,j_elbow_ri
+3327	equipmtovfxworld
+3328	ps_exec_gear_grab_mid,j_wrist_ri
+3329	iw9_mp_execution_047_attacker_stand
+3330	crouch_semi_3
+3331	iw9_mp_execution_085_victim_laststand
+3332	tag_light_cockpit01
+3333	iw9_mp_execution_085_attacker_prone
+3334	sdr_cas_kill_exposed_shoot_auto_01
+3335	tag_left_wing_fx
+3336	iw9_mp_execution_020_victim_prone
+3337	fx_playfxontag, vfx/iw9/executions/vfx_exec_grenade_exp, j_gun
+3338	fx_playfxontag, vfx/iw9/executions/vfx_exec_trail_streak_quick.vfx, j_ankle_ri
+3339	ps_exec_033_dog_robo_jaw_open,jaw_jnt
+3340	ps_exec_079_stand_04,j_spineupper
+3341	ps_exec_gore_blood_headshot,j_mainroot
+3342	tag_turret_fx
+3343	iw9_mp_execution_051_victim_laststand
+3344	ps_exec_096_laststand_04,j_mainroot
+3345	iw9_mp_execution_066_attacker_stand
+3346	iw9_veh_heli_medium_seat_7_exit_patrol
+3347	execution_089
+3348	execution_062
+3349	iw9_ai_infil_blima_seat_3_getout
+3350	dummy_vis
+3351	iw9_mp_execution_101_victim_laststand
+3352	ps_plr_breath_land_lo
+3353	look_43
+3354	fx_stopfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_arms, j_shoulder_le
+3355	charge_pause
+3356	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_chest
+3357	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_ball_ri
+3358	iw9_mp_execution_023_attacker_laststand
+3359	ps_exec_gun_pi_holster,j_wrist_ri
+3360	starlightactive
+3361	sdr_mp_veh_lbravo_ground_r2_idle
+3362	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_shoulder_ri
+3363	ps_exec_gore_medium_splat,j_mainroot
+3364	facial_angry_execution_hl_3
+3365	fx_playfxontag,vfx/iw7/core/nvg/vfx_nvg_goggles_glow_on.vfx,tag_accessory
+3366	sdr_com_exposed_stand_head_only_20
+3367	fx_playfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_arms, j_shoulder_le
+3368	single
+3369	melee_lower_pullout
+3370	melee_start_lower
+3371	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_helmet
+3372	aim_3
+3373	heartbeatmed
+3374	iw9_mp_execution_061_attacker_stand
+3375	sdr_com_exposed_stand_melee01
+3376	ps_jup_exec_knife_prone_victim_bodyfall,j_spineupper
+3377	melee_knife_stab_upper_hit_plr
+3378	iw9_veh_heli_medium_seat_5_exit_patrol
+3379	ps_exec_baton_slide_gear,j_wrist_ri
+3380	iw9_veh_dirt_bike_seat_1_reload_pistol
+3381	wind
+3382	ps_exec_033_dog_robo_vo_prone_03,nose_jnt
+3383	ps_foley_gest_moveon_plr
+3384	ps_exec_gun_lmg_hit
+3385	ik_fingers_in_end_left_hand
+3386	iw9_mp_execution_105_attacker_prone
+3387	fx_playfxontag, vfx/iw9/executions/vfx_exec_96_victim_head_flame.vfx, j_head
+3388	lbravo_ai_infil
+3389	jump_begin_small
+3390	v021
+3391	release_package
+3392	reb_vh_lbravo_guy2_exit_combat_run
+3393	iw9_mp_execution_000_victim_stand
+3394	iw9_mp_execution_041_attacker_laststand_fem
+3395	iw9_mp_execution_024_attacker_prone
+3396	jug_execution_001_stand_4
+3397	iw9_mp_execution_026_attacker_stand_fem
+3398	fx_stopfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee.vfx, j_hipholster_le
+3399	ps_jup_exec_knife_attacker_arm_swing_c,j_wrist_ri
+3400	iw9_mp_execution_117_victim_stand
+3401	ps_exec_bodyfall_swt_feet,tag_origin
+3402	4_6_turn_2
+3403	ads
+3404	fx_playfxontag, vfx/iw9/core/weapons/impacts/mtx/vfx_imp_fatal_bnoir.vfx, j_spineupper
+3405	1_6_2
+3406	reb_vh_techo_bed_guy1_combat_to_hide
+3407	ps_exec_gear_mvmt_whoosh_med,j_knee_ri
+3408	fx_playfxontag, vfx/iw9/executions/vfx_exec_079_broken_bong_weed_smoke, tag_fx
+3409	jug_execution_000_stand_4
+3410	mgl_v020
+3411	ps_recon_drone_activate_gear_01
+3412	fx_stopfxontag, vfx/iw9/executions/vfx_exec_062_spear_trail.vfx, tag_inhand
+3413	ps_jup_exec_knife_prone_attacker_windup,j_wrist_ri
+3414	gesture_blend_in
+3415	ps_exec_060_prone_attacker_03,j_mainroot
+3416	4_6_8
+3417	body_damage_heavy
+3418	weap_ar57_end_fast_plr
+3419	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_proc_lift_clavicle_le
+3420	10cps_wait
+3421	reload start
+3422	iw9_mp_execution_109_victim_laststand
+3423	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_helmet
+3424	exposed_aiming
+3425	ps_exec_hand_grab_body,j_neck
+3426	iw9_veh_suv_overland_2016_seat_3_pain_combat
+3427	veh9_mil_lnd_jltv_turret_camo_mgl_v021
+3428	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_ankle_ri
+3429	damageengine
+3430	iw9_mp_deadsilence_lower
+3431	partially_open_usable
+3432	death
+3433	iw9_mp_execution_107_victim_stand
+3434	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_spineupper
+3435	iw9_mp_execution_009_attacker_prone
+3436	jug_execution_001_stand_mp_4
+3437	iw9_mp_execution_105_victim_prone
+3438	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_spine4
+3439	iw9_mp_execution_089_victim_laststand
+3440	iw9_mp_execution_041_victim_stand
+3441	blima_ground
+3442	fx_playfxontag, vfx/iw9/executions/vfx_exec_blood_splatter_posy.vfx, j_head
+3443	ps_exec_034_dog_attack_prone,nose_jnt
+3444	tag_wingtip_right
+3445	body
+3446	fx_playfxontag, vfx/iw9/killstreaks/chopper/vfx_chopper_outro_player_shot, j_elbow_ri
+3447	pumpkinlanternactive
+3448	sdr_com_exposed_aim_9
+3449	ps_exec_gear_mvmt_midlength_heavy,j_elbow_le
+3450	ps_exec_gear_mvmt_brush,j_knee_le
+3451	ps_exec_gear_mvmt_brush,j_knee_ri
+3452	execution_007
+3453	execution_113
+3454	5_8_turn_2
+3455	tag_light_interior
+3456	ps_exec_gear_grab_light,j_wrist_le
+3457	ps_exec_mvmt_dirt_scuff,j_spinelower
+3458	unusable
+3459	ps_exec_gore_blood_headshot,j_groinprotector
+3460	active2
+3461	iw9_spotterscope_killstreak_thermal
+3462	ps_exec_gear_mvmt_long_light,j_knee_le
+3463	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_spine4
+3464	iw9_mp_execution_058_attacker_prone
+3465	burst_11
+3466	ps_exec_033_dog_robo_vo_stand_01,nose_jnt
+3467	ps_exec_scrape_feet,j_spineupper
+3468	fx_stopfxontag, vfx/iw9/executions/vfx_hween_butcher_clvhit, j_clavicle_ri
+3469	ps_exec_gear_mvmt_throw,j_spinelower
+3470	ps_exec_sledgehammer_impact_body,j_ankle_ri
+3471	ps_exec_060_prone_victim_03,j_mainroot
+3472	reb_vh_lbravo_pilot_death01
+3473	iw9_mp_execution_100_victim_prone
+3474	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_ball_ri
+3475	weap_ar57_clipin_fast_plr
+3476	iw9_mp_execution_084_victim_prone
+3477	iw9_veh_heli_medium_seat_2_death
+3478	fx_playfxontag, vfx/iw9/killstreaks/chopper/vfx_chopper_outro_glass, tag_origin
+3479	ghost
+3480	ps_exec_gear_mvmt_whoosh_slow,j_spinelower
+3481	iw9_veh_suv_overland_2016_seat_2_entry
+3482	v005
+3483	v026
+3484	semi_4
+3485	iw9_mp_execution_015_attacker_prone_fem
+3486	90
+3487	activedirectional
+3488	tag_door_front_left
+3489	explode_18
+3490	ps_exec_062_inarius_wings_laststand_01,j_spineupper
+3491	execution_057_fem
+3492	coredirect
+3493	3_2
+3494	stop_ragdoll
+3495	ps_iw9_mp_deadsilence_press_plr
+3496	falling
+3497	fx_playfxontag, vfx/iw8_cp/prop/vfx_cp_ascender_sparks_down.vfx, tag_accessory_left
+3498	fx_start
+3499	sdr_com_animscripted_head_look_35
+3500	sdr_com_animscripted_head_look_16
+3501	iw9_veh_suv_overland_2016_seat_1_idle_to_combat
+3502	1_2_4
+3503	iw9_mp_execution_058_victim_stand
+3504	iw9_mp_execution_070_attacker_prone
+3505	ps_exec_033_dog_robo_step,r_frontleg4_jnt
+3506	fx_stopfxontag, vfx/iw9/executions/vfx_exec_087_eye_laser_5, tag_eye
+3507	ps_exec_hand_grab_head,j_wrist_ri
+3508	iw9_mp_execution_017_victim_laststand
+3509	sdr_com_exposed_stand_gun_down_head_look_31
+3510	sdr_mp_veh_blima_ground_r1_exit
+3511	fx_playfxontag, vfx/iw9/executions/vfx_exec_96_skeletor_staff_crackle_down.vfx, j_gun
+3512	iw9_mp_execution_060_attacker_laststand
+3513	j_spineupper
+3514	music
+3515	2_8_2
+3516	motion_warp_end
+3517	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_spine4
+3518	fx_stopfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_shoulder_le
+3519	0_4_4
+3520	0_8_8
+3521	damagelight
+3522	ps_exec_punch_full,j_spineupper
+3523	ps_exec_kalisticks_impact,j_ankle_le
+3524	fx_playfxontag, vfx/iw9/executions/vfx_exec_knife_stab_playonknife.vfx, j_wrist_ri
+3525	sniperglint
+3526	iw9_mp_execution_119_victim_laststand
+3527	ps_exec_gear_mvmt_midlength_light,j_knee_ri
+3528	ps_exec_gun_sh_lower,j_wrist_ri
+3529	little_bird_explosion
+3530	5_4_turn_2
+3531	facial_angry_execution_lilith_laststand
+3532	fx_playfxontag, vfx/iw9/executions/vfx_exec_starlight_impact, j_spine4
+3533	ps_exec_land
+3534	row1_right
+3535	iw9_mp_execution_004_attacker_laststand_fem
+3536	fade
+3537	vehicle_idle_combat_shoot
+3538	iw9_mp_execution_081_victim_prone
+3539	headlook_graft_node
+3540	crouch_twitch
+3541	engine
+3542	iw9_mp_execution_100_victim_stand
+3543	iw9_mp_execution_004_victim_stand
+3544	iw9_mp_execution_039_attacker_stand
+3545	iw9_mp_execution_042_victim_stand
+3546	ks_airstrike_target_mp
+3547	crowfootactive
+3548	iw9_veh_suv_overland_2016_seat_3_pain
+3549	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_proc_spine4
+3550	ps_exec_bodyfall_swt_body,j_spine4
+3551	stop_ragdoll_anim
+3552	sdr_com_exposed_aim_4
+3553	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_splash_spawner.vfx, tag_origin
+3554	fading
+3555	execution_002
+3556	execution_066
+3557	ps_exec_061_prone_wings,j_spineupper
+3558	iw9_mp_execution_057_attacker_laststand
+3559	axis_90
+3560	weap_ar57_first_raise_end_plr
+3561	teleportout
+3562	fx_stopfxontag, vfx/iw9/executions/vfx_exec_077_blood_pool.vfx, j_cosmetic_2
+3563	ps_exec_crowbar_swing,j_wrist_ri
+3564	ps_exec_099_wfoly_plr_pi_golf17_reload_08,j_wrist_ri
+3565	iw9_veh_heli_medium_seat_2_idle_combat01
+3566	ps_exec_060_mx_stinger,j_mainroot
+3567	row2_right
+3568	iw9_mp_execution_028_attacker_prone
+3569	iw9_mp_execution_014_attacker_stand_fem
+3570	head
+3571	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_shoulder_le
+3572	iw9_mp_execution_077_attacker_stand
+3573	melee_execution_attacker_prone
+3574	ps_exec_gore_blood_drip,j_knee_ri
+3575	fx_playfxontag, vfx/iw9/executions/vfx_exec_097_witch_magic_hand.vfx, j_wrist_le
+3576	fx_stopfxontag, vfx/iw9/executions/vfx_exec_087_eye_laser_4, tag_eye
+3577	enabled_black_cell
+3578	ps_exec_gear_mvmt_midlength_light,j_head
+3579	execution_022_fem
+3580	50cps_wait
+3581	ps_exec_gear_mvmt_quick_light,j_neck
+3582	ps_exec_ringblade_out,tag_weapon_right
+3583	iw9_ai_veh_jltv_turret_getin
+3584	lowspeed
+3585	sdr_com_exposed_twitch04
+3586	ps_exec_hand_grab_body
+3587	iw9_mp_execution_058_victim_prone
+3588	fx_playfxontag, vfx/jup/executions/blood_knife_trail, j_gun
+3589	iw9_mp_execution_010_victim_prone
+3590	ps_iw9_ronin_exec_1_mus,j_wrist_ri
+3591	fx_playfxontag, vfx/iw8_cp/prop/vfx_cp_ascender_sparks.vfx, tag_accessory_right
+3592	reactive_kill
+3593	look_23_headonly
+3594	ps_exec_058_laststand_sword_stab_gore_lyr,j_spineupper
+3595	ps_iw9_dmz_infil_player2_exit,j_wrist_le
+3596	iw9_mp_execution_057_attacker_prone
+3597	ps_exec_gun_pi_hit,tag_weapon_right
+3598	fx_playfxontag, vfx/iw9/executions/vfx_exec_swamp_water_struggle.vfx, j_knee_le
+3599	default
+3600	iw9_mp_execution_086_victim_prone
+3601	fx_playfxontag, vfx/iw9/executions/vfx_exec_knife_stab_neg_y, j_clavicle_le
+3602	jug_com_execution_001_victim_stand_mp_4
+3603	fx_stopfxontag, vfx/iw9/executions/vfx_hween_butcher_clvdrips, tag_accessory_right
+3604	ps_exec_034_dog_approach_prone,nose_jnt
+3605	wingtrails
+3606	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_spinelower_lift
+3607	sdr_com_exposed_stand_gun_down_head_look_03
+3608	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_spear_impact.vfx, j_dummy_slingcenteraim
+3609	iw9_mp_execution_072_attacker_prone
+3610	lbravo_7
+3611	jup_mp_execution_knife_01
+3612	window_back_right_corner
+3613	tag_main_rotor_motion
+3614	ps_exec_gear_mvmt_quick_light,j_mainroot
+3615	ps_exec_hand_grab_body,j_knee_le
+3616	add_fire
+3617	fx_playfxontag, vfx/iw8_cp/prop/vfx_cp_ascender_sparks_down_wm, tag_origin
+3618	9
+3619	iw9_overland_seat_1_ar_reload
+3620	iw9_mp_execution_056_attacker_stand
+3621	super_laser_charge_impact
+3622	ps_exec_shocker_02,j_wrist_ri
+3623	ps_exec_shocker_shocked,j_shoulder_le
+3624	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_hip_le
+3625	sdr_com_exposed_stand_shotgun_fire03
+3626	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_mainroot
+3627	reb_vh_lbravo_guy3_death
+3628	iw9_mp_execution_070_victim_stand
+3629	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_z_forward, j_helmet
+3630	happy
+3631	equipatminefxview
+3632	reb_vh_techo_stand_9pt_aim_4
+3633	iw9_veh_heli_medium_seat_6_idle_to_combat
+3634	iw9_mp_execution_085_victim_stand
+3635	fx_playfxontag, vfx/iw9/executions/vfx_exec_042_sword_stab, j_proc_lift_clavicle_ri
+3636	iw9_veh_heli_medium_seat_2_idle_search01
+3637	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_wrist_ri
+3638	ps_exec_061_prone_gore_02,j_spineupper
+3639	tag_wick_fx
+3640	reb_vh_techo_lowcrouch_9pt_aim_1
+3641	iw9_mp_execution_105_attacker_stand
+3642	j_body
+3643	iw9_ai_infil_blima_crew_1
+3644	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_head_blood.vfx, j_spine4
+3645	weap_target_finder_down_plr
+3646	vehicle_cab_transition
+3647	ps_exec_gore_hack,j_neck
+3648	veh9_mil_lnd_jltv_turret_camo_v013
+3649	j_cosmetic_04
+3650	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_knee_le
+3651	weap_panz3_rockin_plr
+3652	execution_027
+3653	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_stab, j_neck
+3654	iw9_mp_execution_103_attacker_laststand
+3655	drop clip
+3656	j_shoulder_le
+3657	weap_ar57_clipout_fast_empty_plr
+3658	iw9_mp_execution_117_victim_prone
+3659	ps_exec_gear_mvmt_brush,tag_origin
+3660	ps_exec_087_prone_laserblast,j_head
+3661	ps_exec_sledgehammer_impact_head,j_head
+3662	ps_exec_097_prone_04,j_spinelower
+3663	iw9_mp_execution_064_attacker_prone_fem
+3664	melee_execution_attacker
+3665	ps_exec_gear_grab_heavy,j_ankle_le
+3666	iw9_mp_execution_064_attacker_prone
+3667	ps_mp_bomb_button_8_plr
+3668	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_knee_ri
+3669	explode18
+3670	explode21
+3671	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_spear_trail.vfx, tag_inhand
+3672	deleted
+3673	iw9_mp_execution_110_attacker_stand
+3674	iw9_mp_execution_041_attacker_prone_fem
+3675	ps_exec_land,j_ankle_le
+3676	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward, j_helmet
+3677	jlr_com_execution_000_victim_stand_2
+3678	iw9_mp_execution_001_attacker_laststand_fem
+3679	ps_iw9_swmpmon_exec_vo_drown,j_neck
+3680	weap_ar57_clipin_plr
+3681	ps_exec_gore_bone_break,j_head
+3682	iw9_mp_execution_066_attacker_laststand
+3683	juggernaut
+3684	lookset_exposed_idle
+3685	v002
+3686	doomchainsawactive
+3687	iw9_mp_execution_026_attacker_stand
+3688	iw9_mp_execution_047_victim_laststand
+3689	40
+3690	iw9_mp_execution_033_victim_laststand
+3691	ps_exec_035_dog_approach_prone,tag_eye
+3692	ps_exec_gear_grab_mid,j_knee_ri
+3693	iw9_mp_execution_029_victim_stand
+3694	fx_stopfxontag, vfx/iw9/executions/vfx_exec_087_eye_laser_3, tag_eye
+3695	equip_bunkerbuster_gl_v2
+3696	weap_ameli_lift_plr
+3697	jug_execution_001_stand_6
+3698	supportbox
+3699	ps_exec_punch_quick,j_head
+3700	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_divine_impact2.vfx, j_proc_spineupperlift
+3701	5_2
+3702	jup_mp_execution_knife_01_victim_prone
+3703	execution_098_fem
+3704	ps_exec_gun_hit_heavy,j_wrist_le
+3705	ps_exec_058_prone_sword_pull_gore,j_spineupper
+3706	weap_ar57_chamber_fast_empty_plr
+3707	iw9_mp_execution_053_attacker_prone_fem
+3708	facial_gas_death_2_male
+3709	iw9_mp_execution_011_victim_stand
+3710	iw9_veh_suv_overland_2016_seat_3_idle_to_combat
+3711	iw9_mp_execution_116_victim_stand
+3712	jug_execution_000_stand_6
+3713	iw9_mp_execution_086_victim_laststand
+3714	iw9_mp_execution_113_victim_laststand
+3715	ps_exec_katana_swing,j_spineupper
+3716	iw9_veh_suv_overland_2016_seat_2_idle
+3717	iw9_mp_execution_029_attacker_laststand
+3718	iw9_mp_execution_047_victim_prone
+3719	iw9_mp_execution_083_victim_prone
+3720	fx_stopfxontag, vfx/iw9/executions/vfx_exec_087_eye_laser_2, tag_eye
+3721	melee_execution_victim_laststand
+3722	boss_swamp_monster_execution_000_8
+3723	visor
+3724	iw9_mp_execution_001_attacker_stand
+3725	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_hip_ri
+3726	ps_exec_katana_sheathe,j_wrist_ri
+3727	scared_anims
+3728	iw9_mp_execution_096_victim_prone
+3729	ps_exec_bodyfall_swt_hands,j_wrist_le
+3730	ps_jup_exec_knife_attacker_windup,j_wrist_ri
+3731	iw9_mp_execution_111_victim_stand
+3732	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp.vfx, j_knee_ri
+3733	iw9_mp_execution_026_victim_laststand
+3734	fx_stopfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, tag_eye
+3735	ps_exec_035_dog_attack_prone_03,tag_eye
+3736	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_chest
+3737	ps_exec_bodytap,tag_weapon_right
+3738	superpowers_veins
+3739	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, j_clavicle_ri
+3740	ps_exec_gore_splat_squish,j_spineupper
+3741	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_hipholster_ri
+3742	ps_exec_061_laststand_gore,j_spineupper
+3743	melee_contact_lower
+3744	weap_suitcase_drop_plr
+3745	fx_playfxontag, vfx/iw9/executions/vfx_exec_hanting_butcher_chestbleed_motion, j_spineupper
+3746	veh9_heli_medium
+3747	ps_exec_bodyfall_swt_body,j_knee_ri
+3748	ps_exec_bodyfall_swt_body,j_knee_le
+3749	iw9_mp_execution_045_attacker_stand
+3750	ps_exec_096_laststand_mus_build,j_mainroot
+3751	iw9_mp_execution_090_attacker_laststand
+3752	hit_ground
+3753	sdr_com_exposed_crouch_semi_01
+3754	exec_bodyfall_swt_body,j_spinelower
+3755	reactive_movement
+3756	ps_exec_061_prone_gore_01,j_spineupper
+3757	ps_exec_096_prone_02,j_mainroot
+3758	tag_light_tail
+3759	facial_idle_execution_jackol_prone
+3760	execution_065
+3761	execution_005
+3762	execution_039
+3763	axis_160
+3764	sdr_cas_kill_exposed_burst_11
+3765	ps_exec_gear_mvmt_midlength_heavy,j_wrist_ri
+3766	5_8_turn_4
+3767	weap_ameli_reload_end_plr
+3768	ps_exec_gear_grab_mid,j_shoulder_ri
+3769	ps_exec_035_dog_attack_prone_02,tag_eye
+3770	fx_playfxontag, vfx/iw9/executions/vfx_exec_042_sword_pullout, j_proc_lift_clavicle_ri
+3771	ps_exec_089_blast_tail,j_spineupper
+3772	iw9_overland_seat_0_pistol_scrub_up
+3773	j_cosmetic_4
+3774	fx_playfxontag, vfx/iw9/executions/vfx_exec_58_knife_neck_blood.vfx, j_neck
+3775	reb_vh_lbravo_guy4_exit_patrol
+3776	burst_13
+3777	detach clip left
+3778	iw9_mp_execution_086_attacker_laststand
+3779	WEAPON VIOLENCE VIEW ORG
+3780	iw9_mp_execution_081_attacker_prone
+3781	iw9_mp_execution_039_attacker_laststand_fem
+3782	ps_exec_ringblade_unsheath,j_wrist_ri
+3783	iw9_mp_decoymine_crouch_idle
+3784	iw9_mp_execution_104_attacker_stand
+3785	ps_exec_gear_grab_heavy,j_ankle_ri
+3786	sdr_com_exposed_stand_head_only_05
+3787	j_head
+3788	fx_stopfxontag, vfx/iw9/core/operators/tempv/vfx_mp_tempv_eye_glow_red_2, tag_eye
+3789	prone_right_hit
+3790	ps_exec_katana_slash,j_shoulder_ri
+3791	oneveryone
+3792	sdr_mp_veh_blima_ground_r3_idle
+3793	swamp_com_execution_000_victim_stand_8
+3794	heli_in
+3795	always_on
+3796	aim_8
+3797	ps_exec_gun_sh_charge,j_wrist_le
+3798	hp_on
+3799	reb_vh_techo_bed_guy1_idle_search03
+3800	iw9_mp_execution_063_victim_stand
+3801	iw9_mp_execution_057_victim_laststand
+3802	iw9_veh_suv_overland_2016_seat_0_exit_idle
+3803	iw9_mp_execution_002_victim_prone
+3804	weap_arx_clipout_plr
+3805	marker_scope
+3806	iw9_mp_execution_034_attacker_prone
+3807	ps_exec_gear_mvmt_long_heavy,j_spinelower
+3808	iw9_mp_execution_056_attacker_laststand
+3809	tag_window_front_left
+3810	iw9_mp_execution_116_attacker_laststand
+3811	iw9_mp_execution_088_victim_laststand
+3812	burst_3
+3813	ps_exec_079_laststand_02,j_spineupper
+3814	ps_exec_katana_pull,j_wrist_le
+3815	fx_playfxontag, vfx/iw9/executions/vfx_exec_077_blood_pool.vfx, tag_origin
+3816	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_drip.vfx, j_shoulder_le
+3817	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_drip.vfx, j_shoulder_ri
+3818	fx_stopfxontag, vfx/iw9/executions/vfx_exec_062_blood_pour.vfx, j_proc_spinelower2
+3819	3_6_8
+3820	reb_vh_techo_bed_guy2_hide_to_combat
+3821	iw9_veh_suv_overland_2016_seat_3_impact01_4
+3822	body_damage_light
+3823	ps_mp_bomb_raise_1_plr
+3824	mgl_v007
+3825	mgl_v010
+3826	iw9_mp_execution_043_victim_prone
+3827	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_wrist_ri
+3828	sdr_com_exposed_stand_gun_down_head_look_05
+3829	ps_exec_099_zmb_bodyfall,j_wrist_ri
+3830	iw9_mp_execution_051_attacker_stand
+3831	ps_exec_gear_mvmt_whoosh_slow,j_wrist_le
+3832	fx_playfxontag, vfx/iw9/executions/vfx_exec_58_knife_neck_blood.vfx, j_spineupper
+3833	lbravo_5
+3834	ps_exec_punch_full,j_ankle_ri
+3835	explode8
+3836	navilights
+3837	ik_out_end_left_hand
+3838	4_4_8
+3839	ps_ges_lean_vehicle_seated_to_leanout_npc,tag_stowed_hip_rear
+3840	backpack
+3841	ps_exec_gore_blood_drip
+3842	ps_exec_062_inarius_prone_03,j_elbow_ri
+3843	tag_window_cockpit_left3
+3844	reb_com_veh8_decho_turret_fire
+3845	damagestatesounds
+3846	ps_exec_impact_body_full,j_ankle_ri
+3847	fx_playfxontag, vfx/iw9/executions/vfx_exec_058_blood_pool.vfx, j_neck
+3848	iw9_mp_execution_049_attacker_prone_fem
+3849	sniperglintmed
+3850	iw9_mp_execution_096_victim_laststand
+3851	ps_exec_shocker_05,j_wrist_ri
+3852	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_ball_le
+3853	ps_exec_scrape_quick,j_elbow_le
+3854	iw9_mp_execution_015_attacker_laststand_fem
+3855	5_4_2
+3856	vehicle_idle_combat_shoot_turn
+3857	tag_tail_rotor_blade_03
+3858	jug_com_execution_004_victim_stand_8
+3859	ps_exec_katana_stab,j_shoulder_le
+3860	ps_exec_gore_medium_splat,j_ankle_le
+3861	fx_playfxontag, vfx/iw9/executions/vfx_exec_077_blood_pool, j_dummy_slingcenteraim
+3862	iw9_mp_execution_064_attacker_stand
+3863	get_out_vehicle_door_off
+3864	default_talking
+3865	deploystart
+3866	fx_end
+3867	facial_death_2
+3868	reb_vh_techo_lowcrouch_9pt_aim_7
+3869	ps_exec_062_victim_stand_03,j_spineupper
+3870	model
+3871	shoot_additive
+3872	WEAPON VIOLENCE VIEW
+3873	ps_exec_gore_bone_break,j_knee_ri
+3874	veh9_mil_lnd_jltv_turret_camo_v011
+3875	fx_playfxontag, vfx/iw9/executions/vfx_exec_079_broken_bong_weed_smoke, j_helmet
+3876	iw9_mp_execution_015_attacker_laststand
+3877	ps_exec_035_dog_attack_stand_01,j_wrist_le
+3878	facial_talk_sm
+3879	ps_iw9_dmz_infil_player3_intro,j_spineupper
+3880	ps_foley_gest_chestpoint_plr
+3881	iw9_mp_execution_100_attacker_prone
+3882	execution_099
+3883	tag_window_cockpit_right3
+3884	ps_exec_bodyfall_swt_feet,j_knee_ri
+3885	rope_visibility
+3886	generic_human
+3887	sdr_mp_veh_lbravo_ground_l1_idle
+3888	iw9_veh_jltv_seat_5_lowcrouch_4_exit_2_idle
+3889	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_clavicle_ri
+3890	ps_exec_knife_stab,j_neck
+3891	fx_playfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee.vfx, j_hipholster_le
+3892	ps_exec_katana_slash,j_spineupper
+3893	ps_exec_033_dog_robo_prone_head_servos,nose_jnt
+3894	dummy_vis_show
+3895	corecenterdiedown
+3896	ps_exec_gore_heavy_splat,j_spine4
+3897	iw9_mp_execution_009_victim_prone
+3898	ps_exec_gore_blood_drip,j_shoulder_ri
+3899	ps_exec_gore_blood_drip,j_shoulder_le
+3900	explode_large
+3901	ps_exec_impact_body_full
+3902	ps_exec_gear_mvmt_long_heavy,j_ankle_ri
+3903	ps_exec_bodyfall_swt_head,j_helmet
+3904	iw9_mp_execution_017_attacker_stand
+3905	scriptables
+3906	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_hip_ri
+3907	facial_run_1
+3908	ps_exec_049_laststand_victim_01_start,j_head
+3909	ps_exec_katana_slash,j_hip_proc_ri
+3910	mtxvfxcharm
+3911	iw9_veh_suv_overland_2016_seat_1_hide_to_combat
+3912	fx_playfxontag, vfx/iw9/executions/vfx_exec_96_victim_torso_flame.vfx, j_spine4
+3913	explode23
+3914	ps_exec_gun_hit_heavy
+3915	jug_com_execution_001_victim_stand_2
+3916	iw9_mp_execution_004_victim_laststand
+3917	fx_playfxontag, vfx/iw9/executions/vfx_hween_butcher_clvhit, j_spineupper
+3918	iw9_mp_execution_081_attacker_laststand
+3919	iw9_mp_execution_036_victim_laststand
+3920	brloot_haunting_soul
+3921	weap_panz3_lift_plr
+3922	fx_playfxontag, vfx/iw9/executions/vfx_exec_dog_bite_single_sm.vfx, tag_mouth_fx
+3923	fx_playfxontag, vfx/iw9/executions/vfx_exec_042_sword_stab, j_clavicle_ri
+3924	vehicle_unusable
+3925	ps_gib_dismember_head,j_spineupper
+3926	jugghide
+3927	fx_playfxontag, vfx/iw9/executions/vfx_exec_96_skeletor_staff_crackle_up.vfx, j_gun
+3928	damagemediumsound
+3929	tag_wheel_spare_flat
+3930	gesture
+3931	iw9_mp_execution_024_victim_laststand
+3932	fx_killfxontag, vfx/iw9/executions/vfx_exec_starlight_hands_loop, j_wrist_ri
+3933	reb_vh_lbravo_guy1_exit_patrol
+3934	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward, j_head
+3935	coreceil
+3936	reb_vh_techo_stand_impact_v02
+3937	explode_22
+3938	tag_main_rotor_blade_04_blur
+3939	iw9_veh_heli_medium_seat_7_idle_to_combat
+3940	iw9_veh_jltv_seat_5_lowcrouch_4_exit_2_combat_idle
+3941	sdr_com_exposed_shoot_auto_02
+3942	iw9_mp_execution_081_victim_stand
+3943	reb_vh_lbravo_guy3_exit_patrol
+3944	brake
+3945	tag_antenna
+3946	footstep_left_large
+3947	tag_body
+3948	iw9_mp_execution_011_attacker_prone
+3949	corediedown
+3950	ps_br_auto_ascender_attach_device_plr
+3951	iw9_mp_execution_045_attacker_laststand_fem
+3952	fx_playfxontag,vfx/iw7/core/nvg/vfx_nvg_goggles_glow_off.vfx,tag_accessory
+3953	iw9_mp_execution_003_attacker_stand_fem
+3954	iw9_mp_execution_039_attacker_stand_fem
+3955	iw9_mp_execution_047_attacker_prone_fem
+3956	explode5
+3957	sniperglintxlrg
+3958	2_4_4
+3959	2_2_6
+3960	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward.vfx, j_clavicle_ri
+3961	4_8_6
+3962	fx_playfxontag, vfx/iw9/core/operators/tempv/vfx_mp_tempv_eye_glow_red, tag_eye
+3963	ps_exec_gore_blood_drip,j_hip_le
+3964	6
+3965	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_z_forward.vfx, j_ankle_ri
+3966	fx_playfxontag, vfx/iw9/core/weapons/impacts/mtx/jacko_s6/vfx_imp_mtx_jacko_fatal, j_wrist_le
+3967	fx_playfxontag, vfx/iw9/core/weapons/impacts/mtx/jacko_s6/vfx_imp_mtx_jacko_fatal, j_wrist_ri
+3968	0_6_6
+3969	ps_exec_scythe_pull,j_wrist_le
+3970	ps_exec_batteringram_drop,tag_weapon_right
+3971	reflectthermite
+3972	tendrildiedown
+3973	vehicle_pain_combat
+3974	ps_exec_impact_body_full,j_knee_le
+3975	trigger
+3976	vehicle_pain
+3977	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_proc_spinelower2
+3978	ps_exec_061_laststand_foley_01,j_wrist_ri
+3979	facial_pain_1
+3980	ps_exec_096_prone_mus_stinger,j_mainroot
+3981	fx_playfxontag, vfx/iw9/executions/vfx_exec_063_blood_trail.vfx, j_wrist_ri
+3982	flag
+3983	fast
+3984	stopped
+3985	iw9_mp_execution_042_attacker_stand
+3986	iw9_mp_decoymine_hitreac_back
+3987	ps_exec_katana_swing,tag_weapon_right
+3988	ps_exec_097_stand_02,j_wrist_ri
+3989	iw9_veh_suv_overland_2016_seat_1_death_combat
+3990	ik_fingers_r
+3991	iw9_mp_execution_060_victim_laststand
+3992	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_elbow_ri
+3993	veh9_mil_lnd_jltv_turret_camo_v005
+3994	veh9_mil_lnd_jltv_turret_camo_v025
+3995	iw9_mp_execution_117_victim_laststand
+3996	ps_exec_gore_bone_break_loud,j_spinelower
+3997	crash
+3998	sdr_mp_veh_lbravo_ground_r1_exit
+3999	iw9_mp_execution_072_attacker_prone_walpha
+4000	facial_talk_lg
+4001	iw9_veh_death_stand_exposed_fallover_6
+4002	iw9_mp_execution_084_victim_laststand
+4003	execution_034
+4004	execution_017
+4005	iw9_mp_execution_088_attacker_laststand
+4006	ps_exec_impact_body_full,j_wrist_le
+4007	iw9_mp_decoymine_crouch_hitreac_right
+4008	ps_exec_mvmt_slide,j_knee_ri
+4009	ps_exec_mvmt_slide,j_knee_le
+4010	vehicle_whizby_hunt
+4011	ps_exec_gore_bone_break_snap,j_knee_le
+4012	vehicle_combat_to_hide
+4013	iw9_veh_jltv_turret_stinger_reload02
+4014	j_dummy_stock
+4015	iw9_mp_execution_103_victim_prone
+4016	fx_stopfxontag, vfx/iw9/core/operators/tempv/vfx_mp_tempv_eye_glow_red_3, tag_eye
+4017	ps_exec_gear_mvmt_whoosh_med,j_shoulder_le
+4018	facial_angry_execution_sl
+4019	ps_exec_knife_sheathe,j_wrist_ri
+4020	iw9_mp_execution_030_attacker_laststand
+4021	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_knee_le
+4022	approach
+4023	explode28
+4024	explode32
+4025	explode11
+4026	j_mainroot
+4027	night_vision_on
+4028	tag_tail_rotor_blade_02_blur
+4029	iw9_mp_execution_057_attacker_prone_fem
+4030	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_drip.vfx, j_shoulder_ri
+4031	iw9_mp_execution_116_victim_prone
+4032	carriedaxis
+4033	ps_exec_060_stand_victim_02,j_mainroot
+4034	ps_exec_kalisticks_swing,j_wrist_ri
+4035	fingers_out_start_left_hand
+4036	fx_stopfxontag, vfx/iw9/executions/vfx_exec_mummy_insects_eyes, tag_eye
+4037	crouch_auto_1
+4038	ps_exec_034_dog_struggle_laststand,jaw_jnt
+4039	ps_exec_gun_pi_lower,j_wrist_le
+4040	v018
+4041	ps_iw9_ronin_exec_3_mus,j_wrist_ri
+4042	iw9_mp_execution_018_attacker_stand_fem
+4043	ps_exec_033_dog_robo_jump,j_mainroot_dog
+4044	lookset_default
+4045	ps_exec_gore_blood_drip,j_head
+4046	fx_stopfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_ball_ri
+4047	particle_dynamics_graft
+4048	ps_exec_impact_body_deep,j_spineupper
+4049	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_neck
+4050	facial_aim_2
+4051	iw9_mp_decoymine_swim_hitreac_front
+4052	6_2
+4053	burst_7
+4054	sdr_com_animscripted_head_look_28
+4055	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_head
+4056	1_4_2
+4057	iw9_mp_execution_027_attacker_prone
+4058	ps_exec_knife_stab_shing,j_wrist_ri
+4059	ps_exec_baton_impact_body_light,j_wrist_ri
+4060	start_swim_ges
+4061	iw9_mp_execution_112_attacker_prone
+4062	fx_playfxontag, vfx/iw9/executions/vfx_exec_head_dismember.vfx, j_shoulder_ri
+4063	fx_playfxontag, vfx/iw9/core/operators/tempv/vfx_mp_tempv_eye_glow_red_3, tag_eye
+4064	fx_playfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck, j_head
+4065	mgl_v003
+4066	iw9_mp_execution_113_attacker_laststand
+4067	ps_exec_gear_mvmt_whoosh_med
+4068	ps_exec_gear_grab_mid,j_spinelower
+4069	iw9_mp_execution_098_attacker_laststand_fem
+4070	fx_stopfxontag, vfx/iw9/executions/vfx_exec_trail_streak_quick.vfx, j_ball_le
+4071	iw9_mp_execution_008_victim_laststand
+4072	ps_exec_gore_blood_squirt,j_spinelower
+4073	sdr_com_exposed_crouch_aim_8
+4074	4_4_4
+4075	iw9_avatar_scriptable_mp
+4076	ps_exec_060_stand_attacker_03,j_mainroot
+4077	anim_end
+4078	execution_073_fem
+4079	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blood_splatter_negy.vfx, j_helmet
+4080	WEAPON CONTROL AUTO VIEW
+4081	running_lights
+4082	facial_scared_3
+4083	iw9_veh_jltv_seat_1_pain_1
+4084	facial_idle_1
+4085	happy_anims
+4086	ps_exec_knife_slice,j_wrist_le
+4087	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, tag_eye
+4088	ps_exec_097_prone_01,j_spinelower
+4089	ps_exec_034_dog_attack_stand,nose_jnt
+4090	ps_exec_gore_bone_break_loud,j_neck
+4091	fx_playfxontag, vfx/jup/executions/blood_decal_neg_z_medium, j_head
+4092	iw9_mp_execution_075_attacker_stand
+4093	ps_exec_grenade_bounce_hard,j_gun
+4094	on_main
+4095	dropped_linked
+4096	iw9_mp_execution_003_attacker_laststand_fem
+4097	ps_exec_062_inarius_wings_stand_02,j_spineupper
+4098	iw9_mp_execution_013_attacker_stand
+4099	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_eye_burn, tag_eye
+4100	ar_ll_
+4101	herodivevfx
+4102	iw9_mp_execution_006_victim_stand
+4103	ps_exec_katana_stab,j_neck
+4104	fx_playfxontag, vfx/iw9/executions/vfx_exec_042_sword_stab_prone, j_spine4
+4105	ps_exec_062_inarius_prone_01,j_ankle_ri
+4106	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_hip_le
+4107	wp_active
+4108	WEAPON PUSHBACK GUN
+4109	iw9_mp_execution_070_attacker_laststand
+4110	sdr_com_exposed_crouch_burst_03
+4111	iw9_mp_execution_046_victim_prone
+4112	veh9_mil_lnd_jltv_turret_camo_v015
+4113	tag_scope
+4114	ps_exec_scrape_feet,tag_origin
+4115	ps_exec_gore_bone_break,j_ankle_le
+4116	execution_104
+4117	facial_happy_2
+4118	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_z_forward, j_helmet
+4119	tag_tail_rotor_static
+4120	ps_exec_gun_m4_lower,j_wrist_ri
+4121	ps_exec_mvmt_slide,j_mainroot
+4122	iw9_mp_execution_005_attacker_laststand
+4123	facial_angry_execution
+4124	look_03
+4125	look_20
+4126	iw9_veh_suv_overland_2016_seat_2_exit_combat_run
+4127	sdr_mp_veh_blima_ground_l2_exit
+4128	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_spine4
+4129	talk_md
+4130	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_hip_le
+4131	iw9_mp_execution_009_victim_laststand
+4132	ps_exec_gun_m4_raise,j_wrist_ri
+4133	ps_exec_gear_mvmt_long_light,j_elbow_ri
+4134	ps_iw9_frag_grenade_expl_trans,j_wrist_le
+4135	ps_mp_uav_remote_pullout_short
+4136	hide_body
+4137	seat_0_aim
+4138	ps_exec_060_prone_victim_01,j_mainroot
+4139	iw9_mp_execution_055_attacker_laststand
+4140	iw9_mp_execution_083_attacker_prone
+4141	explode_8
+4142	jug_com_execution_001_victim_stand_6
+4143	fx_playfxontag, vfx/iw9/executions/vfx_exec_097_witch_magic_hit.vfx, j_neck
+4144	sdr_mp_veh_lbravo_ground_l2_exit
+4145	ps_exec_scrape_quick,j_spinelower
+4146	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_spine4
+4147	iw9_veh_heli_medium_seat_2_idle_to_combat
+4148	execution_052_fem
+4149	reb_vh_techo_bed_guy2_hide_loop
+4150	v007
+4151	v024
+4152	iw9_mp_execution_057_attacker_stand_fem
+4153	launch_bomb_source
+4154	lookatpos_exposed_idle
+4155	fx_stopfxontag, vfx/iw9/executions/vfx_exec_95_blood_splatter.vfx,
+4156	4_8_turn_6
+4157	vehicle_idle_to_combat
+4158	cqb_shoot_idle
+4159	explode_16
+4160	equipclaymorefxview
+4161	dud
+4162	end
+4163	iw9_veh_heli_medium_seat_2_exit_patrol
+4164	ar_
+4165	iw9_mp_execution_095_victim_laststand
+4166	iw9_veh_stand_pain01_torso
+4167	execution_053_fem
+4168	iw9_veh_death_stand_exposed_05
+4169	ik_fingers_out_start_left_hand
+4170	ps_exec_gun_sn_lower,j_wrist_le
+4171	3_4_8
+4172	weap_ar57_reload_end_plr
+4173	mgl_v025
+4174	vehicle_use
+4175	sdr_com_exposed_stand_gun_down_head_look_33
+4176	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_shoulder_le
+4177	iw9_veh_heli_medium_seat_5_exit_combat_run
+4178	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_neck
+4179	wheel_front_right
+4180	ps_exec_mummy_front_victim_fx,j_head
+4181	iw9_mp_execution_014_attacker_prone_fem
+4182	0_4_6
+4183	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_spine4
+4184	ps_exec_scrape_hands,j_elbow_le
+4185	laserhip
+4186	initial_blast
+4187	ps_wfoly_ar_reload_npc_charge
+4188	viewmodel_small
+4189	iw9_mp_execution_001_attacker_stand_fem
+4190	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward, j_proc_lift_clavicle_le
+4191	5_6_6
+4192	damageheavy
+4193	fx_playfxontag, vfx/iw9/executions/vfx_exec_069_blood_trail, j_knee_ri
+4194	fx_playfxontag, vfx/iw9/executions/vfx_exec_069_blood_trail, j_knee_le
+4195	iw9_mp_execution_030_attacker_prone
+4196	iw9_veh_stand_pain02_torso
+4197	ps_exec_scrape_quick,j_mainroot
+4198	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward.vfx, j_neck
+4199	generic_talker_allies
+4200	ps_exec_gore_hack,j_spinelower
+4201	crouch_semi_5
+4202	iw9_mp_execution_064_victim_prone
+4203	iw9_ai_infil_blima_seat_1_idle
+4204	iw9_mp_execution_055_victim_prone
+4205	ps_exec_kalisticks_sheathe,j_wrist_ri
+4206	tag_mirror_left
+4207	rescue_drop
+4208	ps_exec_grab_mid,j_wrist_le
+4209	sdr_com_exposed_aim_6
+4210	execution_000
+4211	execution_060
+4212	execution_118
+4213	get_out_vehicle
+4214	fx_stopfxontag, vfx/iw9/executions/vfx_exec_069_blood_trail, j_knee_le
+4215	fx_stopfxontag, vfx/iw9/executions/vfx_exec_069_blood_trail, j_knee_ri
+4216	dummy_tag
+4217	plantedallies
+4218	iw9_mp_execution_013_victim_laststand
+4219	ps_exec_gear_mvmt_long_heavy,j_mainroot
+4220	ps_exec_gear_mvmt_complex_heavy,j_spineupper
+4221	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blood_splatter.vfx, j_hipholster_le
+4222	look_41
+4223	ps_exec_093_pistol_spin,j_wrist_le
+4224	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_eye_laser_1, tag_eye
+4225	jup_mp_execution_knife_01_attacker_stand
+4226	iw9_mp_execution_002_attacker_laststand_fem
+4227	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_stab, j_head
+4228	ps_weap_knife_inspect_02
+4229	dropgun
+4230	iw9_mp_execution_064_attacker_laststand_fem
+4231	ps_exec_baton_impact_hook,j_ankle_le
+4232	ps_exec_089_prone_02,j_wrist_ri
+4233	fx_playfxontag, vfx/iw9/executions/vfx_exec_077_blood_pool.vfx, j_cosmetic_2
+4234	ps_exec_gore_blood_drip,j_knee_le
+4235	iw9_mp_execution_084_attacker_prone
+4236	facial_angry_execution_hl_1
+4237	camera_zoom
+4238	sdr_com_exposed_stand_head_only_18
+4239	5_6_turn_2
+4240	ps_exec_face_punch_mid,j_head
+4241	military_dogtags_iw8
+4242	locked
+4243	footstep_right_small
+4244	ps_exec_034_dog_approach_stand,nose_jnt
+4245	iw9_mp_execution_018_attacker_stand
+4246	fx_stopfxontag, vfx/iw9/executions/vfx_exec_head_dismember, j_head
+4247	sdr_com_exposed_stand_melee03
+4248	iw9_mp_execution_062_attacker_stand
+4249	fx_playfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee, j_spineupper
+4250	fx_playfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck, j_shoulder_ri
+4251	iw9_mp_execution_033_victim_prone
+4252	sdr_com_exposed_twitch02
+4253	ps_exec_035_dog_attack_stand_02,tag_eye
+4254	tag_passenger
+4255	ps_exec_gore_blood_squirt,j_clavicle_le
+4256	iw9_mp_execution_032_attacker_prone
+4257	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_shoulder_le
+4258	auto_2
+4259	ps_exec_gun_hit_light,j_wrist_ri
+4260	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_proc_hip_lift_aim_ri
+4261	iw9_veh_stand_pain05_torso
+4262	ps_exec_knife_pull,j_shoulder_ri
+4263	10
+4264	baton_jailer_execution_000_8
+4265	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, j_spinelower
+4266	iw9_mp_execution_039_victim_stand
+4267	ps_grenade_bounce_soft,tag_accessory_animate
+4268	ps_exec_062_victim_laststand_04,j_spineupper
+4269	reb_vh_techo_highcrouch_9pt_aim_9
+4270	iw9_veh_suv_overland_2016_seat_2_hide_loop
+4271	execution_005_fem
+4272	iw9_mp_execution_072_victim_stand
+4273	veh9_mil_air_cargo_plane_airdrop
+4274	ps_exec_gear_mvmt_midlength_heavy,j_ankle_ri
+4275	fx_stopfxontag, vfx/iw9/executions/vfx_exec_hween_butcher_dustimpact, j_spineupper
+4276	ps_exec_gore_blood_squirt,j_neck
+4277	mgl_v005
+4278	veh9_jltv
+4279	fx_stopfxontag, vfx/iw9/executions/vfx_exec_hanting_butcher_redeyes, j_head
+4280	iw9_ai_veh_jltv_turret_getout
+4281	ps_exec_gear_mvmt_midlength_light,j_ankle_ri
+4282	lbravo_3
+4283	iw9_mp_execution_002_attacker_prone
+4284	ps_exec_gore_blood_headshot,j_spinelower
+4285	ks_airdrop_heli_mp
+4286	tag_light_interior_01
+4287	shoulderpad_l
+4288	coreceildirect
+4289	tag_window_cockpit_left1
+4290	cashdrop_epic_world
+4291	ps_exec_gun_rattle_heavy,j_wrist_ri
+4292	ps_exec_gear_mvmt_brush
+4293	ps_exec_grenade_bounce_hard,j_wrist_le
+4294	iw9_mp_execution_001_attacker_prone
+4295	weap_rpg_raise_plr
+4296	fx_playfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee.vfx, j_hip_proc_ri
+4297	ps_exec_096_laststand_05,j_head
+4298	iw9_mp_decoymine_swim_hitreac_back
+4299	allies_300
+4300	tag_tail_rotor_blade_01
+4301	veh9_mil_lnd_jltv_turret_camo_mgl_v002
+4302	jup_mp_execution_knife_01_victim_stand
+4303	fx_playfxontag, vfx/iw9/executions/vfx_hween_butcher_clvdrips,
+4304	iw9_mp_execution_088_attacker_stand
+4305	repaired
+4306	helimedium
+4307	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_knee_ri
+4308	ps_iw9_swmpmon_exec_vo_end,j_neck
+4309	window_front_left
+4310	fx_playfxontag, vfx/iw9/executions/vfx_exec_58_sword_chest_slash.vfx, j_neck
+4311	al_to_ll_
+4312	facial_death_4
+4313	tag_window_left
+4314	damage_transition
+4315	sdr_mp_veh_lbravo_ground_l2_idle
+4316	shoot_idle
+4317	vehicle_combat_lean_shoot
+4318	ps_exec_062_victim_prone_03,j_spineupper
+4319	ps_exec_034_dog_struggle_prone,nose_jnt
+4320	iw9_mp_veh_jltv_seat_0_exit_idle
+4321	exec_gun_sh_lower,j_wrist_ri
+4322	iw9_mp_execution_105_attacker_laststand
+4323	veh9_mil_lnd_jltv_turret_camo_v008
+4324	veh9_mil_lnd_jltv_turret_camo_v017
+4325	interruptible
+4326	gun_down_stand
+4327	walk_and_run_loops
+4328	1_4_lean
+4329	execution_056
+4330	execution_106
+4331	ps_exec_punch_full,j_spine4
+4332	iw9_ai_infil_blima_seat_5_idle
+4333	tag_window_cockpit_right1
+4334	iw9_mp_execution_119_victim_prone
+4335	blank
+4336	ps_iw8_vm_mg_mobile_turret_use
+4337	ps_exec_punch_quick,j_spinelower
+4338	ps_exec_058_prone_sword_ring_in,tag_weapon_right
+4339	fx_stopfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_spine4
+4340	fingers_in_start_right_hand
+4341	juggernaut_mgl
+4342	look_01
+4343	iw9_veh_suv_overland_2016_seat_0_death
+4344	ps_exec_gear_mvmt_quick_light,j_head
+4345	facial_angry_execution_lilith_prone
+4346	footstep_left
+4347	iw9_mp_execution_099_attacker_prone
+4348	destroy
+4349	onteam
+4350	iw9_veh_heli_medium_seat_1_death
+4351	iw9_veh_suv_overland_2016_seat_3_combat_to_hide
+4352	ps_exec_062_inarius_wings_prone_03,j_spineupper
+4353	j_hip_ri
+4354	j_hip_le
+4355	ik_in_end_right_hand
+4356	jug_com_execution_001_victim_stand_4
+4357	ps_exec_gear_mvmt_quick_light,j_elbow_ri
+4358	ps_exec_060_shotgun_blast,j_wrist_le
+4359	rotors
+4360	ps_mp_bomb_button_3_plr
+4361	ps_exec_gun_lmg_hit,j_mainroot
+4362	iw9_mp_execution_024_attacker_laststand
+4363	iw9_mp_execution_046_victim_laststand
+4364	tag_main_rotor_blade_02_blur
+4365	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_clavicle_le
+4366	facial_aim_1
+4367	reb_vh_techo_highcrouch_9pt_aim_8
+4368	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward, tag_eye
+4369	explode-player-stuck
+4370	ps_exec_gear_grab_heavy,j_wrist_le
+4371	ps_exec_gear_grab_heavy,j_wrist_ri
+4372	ps_exec_gun_pi_raise,j_wrist_le
+4373	ps_gib_dismember_head,j_head
+4374	iw9_veh_suv_overland_2016_seat_1_idle
+4375	100
+4376	ps_exec_035_dog_attack_prone_01,tag_eye
+4377	ps_exec_gear_mvmt_midlength_light,j_wrist_le
+4378	burst_6
+4379	start reload
+4380	root
+4381	ps_exec_katana_pull,j_wrist_ri
+4382	exec_weapon_hide
+4383	fx_playfxontag, vfx/iw9/killstreaks/gunship/vfx_gunship_console_expl_smoke.vfx, tag_joystick_1
+4384	dom_flag
+4385	3_2_8
+4386	bolt_thermite
+4387	objective
+4388	mgl_v002
+4389	iw9_mp_execution_003_victim_stand
+4390	partially_reopen_in_use_unusable
+4391	jug_execution_003_stand_8
+4392	fx_playfxontag, vfx/iw9/executions/vfx_exec_58_sword_neck_slash, j_head
+4393	ps_exec_impact_body_full,j_mainroot
+4394	exec_gear_mvmt_midlength_light,j_spineupper
+4395	ps_exec_gore_heavy_splat,j_ankle_le
+4396	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_spinelower_lift
+4397	2_6_2
+4398	ps_exec_gun_rattle_light,tag_weapon_right
+4399	ps_exec_knife_slice_shing
+4400	0_6_8
+4401	iw9_mp_decoymine_hitreac_left
+4402	ps_exec_060_laststand_victim_01,j_mainroot
+4403	ps_exec_gear_mvmt_whoosh_slow,j_mainroot
+4404	ps_exec_punch_full,j_spinelower
+4405	reb_com_vh_blima_chief2_idle
+4406	ps_exec_099_swing,j_spinelower
+4407	charge_fail
+4408	ps_exec_096_prone_mus_build,j_mainroot
+4409	iw9_mp_execution_009_victim_stand
+4410	ps_exec_gore_bone_break,j_wrist_ri
+4411	fx_playfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck, j_chest
+4412	ps_exec_gear_mvmt_whoosh_slow,j_ankle_ri
+4413	veh9_mil_air_heli_blima_vehphys_sp
+4414	veh9_mil_lnd_jltv_turret_camo_mgl_v003
+4415	jug_com_execution_002_attacker_stand_mp_8
+4416	left_leg_health
+4417	iw9_mp_execution_024_attacker_laststand_fem
+4418	ps_exec_099_wfoly_plr_pi_golf17_reload_06,j_wrist_ri
+4419	jug_com_execution_000_victim_stand_2
+4420	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_spineupper
+4421	ps_exec_gear_mvmt_struggle
+4422	weap_hybrid_toggle_off_plr
+4423	ps_exec_gear_mvmt_midlength_heavy,j_spineupper
+4424	allies
+4425	reb_vh_techo_lowcrouch_9pt_aim_4
+4426	ps_exec_bodyfall_swt_hands,j_elbow_le
+4427	ps_exec_bodyfall_swt_hands,j_elbow_ri
+4428	ps_exec_face_punch_mid,j_wrist_ri
+4429	ps_exec_knife_slice,j_knee_ri
+4430	1_6_lean
+4431	1_lean
+4432	iw9_mp_execution_035_attacker_stand
+4433	ks_toma_strike_marker_mp
+4434	veh9_mil_lnd_jltv_turret_camo_v014
+4435	ps_exec_vo_death
+4436	ps_exec_gear_mvmt_quick_heavy,j_ankle_ri
+4437	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_eye_laser_4, tag_eye
+4438	ps_exec_zmb_bite,j_head
+4439	boss_butcher_execution_000_2
+4440	iw9_mp_execution_058_attacker_laststand
+4441	iw9_mp_execution_044_victim_prone
+4442	execution_049
+4443	execution_051
+4444	execution_105
+4445	facial_happy_3
+4446	ps_exec_gear_mvmt_brush,j_mainroot
+4447	tag_watch_fx
+4448	iw9_mp_execution_051_victim_prone
+4449	iw9_mp_execution_116_attacker_stand
+4450	ps_exec_impact_body_full,j_spineupper
+4451	look_00
+4452	look_21
+4453	iw9_mp_execution_025_victim_prone
+4454	ps_exec_087_stand_gorepop,j_head
+4455	iw9_mp_execution_104_victim_prone
+4456	iw9_mp_execution_097_victim_laststand
+4457	fx_playfxontag, vfx/jup/executions/blood_decal_pos_z_medium, j_knee_ri
+4458	j_dummy_l_knee
+4459	corecenter
+4460	tag_camera_fx
+4461	body_animate_jnt
+4462	fx_playfxontag, vfx/jup/executions/blood_decal_pos_z_medium, j_head
+4463	fx_killfxontag, vfx/iw9/killstreaks/gunship/vfx_gunship_intro_screens.vfx, tag_notebook_big1
+4464	fx_playfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_hiptwist_le
+4465	iw9_mp_execution_017_victim_stand
+4466	iw9_mp_execution_056_attacker_stand_fem
+4467	fingers_out_end_left_hand
+4468	jltv
+4469	fingers_out_end_right_hand
+4470	explode_9
+4471	ps_exec_gear_grab_heavy,j_spineupper
+4472	iw9_mp_execution_072_attacker_laststand_walpha
+4473	iw9_mp_execution_094_victim_prone
+4474	charge_begin
+4475	ps_exec_gun_pi_raise,tag_weapon_right
+4476	ps_iw9_haunting_butcher_fall_body,j_spineupper
+4477	v013
+4478	ps_exec_087_stand_kneegore,j_mainroot
+4479	disable_ragdoll_anim_root
+4480	ps_exec_062_inarius_wings_stand_03,j_spineupper
+4481	iw9_mp_execution_061_attacker_laststand_fem
+4482	pain
+4483	iw9_mp_execution_027_attacker_stand
+4484	ps_jup_exec_knife_prone_attacker_arm_swing_c,j_wrist_ri
+4485	4_6_turn_4
+4486	fx_playfxontag, vfx/iw9/executions/vfx_exec_077_blood_pool.vfx, tag_stowed_back3
+4487	ps_exec_gun_hit_heavy,j_wrist_ri
+4488	ps_cp_generic_pickup_small
+4489	crouch_burst_4
+4490	iw9_mp_execution_014_victim_laststand
+4491	ps_exec_049_prone_victim_01_start,j_head
+4492	ps_exec_033_dog_robo_taser,j_knee_ri
+4493	iw9_mp_execution_040_victim_laststand
+4494	tag_windshield_back
+4495	iw9_mp_execution_057_victim_stand
+4496	ps_iw9_swmpmon_exec_water_enter,j_spineupper
+4497	ps_exec_087_prone_stompgore,j_mainroot
+4498	ps_exec_baton_impact_body,j_knee_ri
+4499	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_knee_ri
+4500	fx_stopfxontag, vfx/iw9/executions/vfx_exec_062_blood_pour.vfx, j_proc_spineupperlift
+4501	sdr_com_exposed_semi_01
+4502	ps_exec_gun_drop,j_gun
+4503	ps_exec_062_victim_prone_04,j_spineupper
+4504	iw9_mp_execution_057_attacker_stand
+4505	fx_playfxontag, vfx/iw9/executions/vfx_exec_079_bong_glass2, j_ball_ri
+4506	iw9_mp_execution_056_attacker_laststand_fem
+4507	iw9_veh_suv_overland_2016_seat_3_idle
+4508	fx_killfxontag, vfx/iw9/executions/vfx_exec_061_blood_dissolve_splash.vfx, j_hiptwist_le
+4509	iw9_mp_execution_118_victim_laststand
+4510	butcher_com_execution_000_attacker_stand_2
+4511	ps_jup_exec_knife_prone_victim_trip,j_spineupper
+4512	ps_exec_079_prone_05,j_spineupper
+4513	fx_stopfxontag, vfx/iw9/executions/vfx_exec_knife_stab_playonknife.vfx, j_wrist_ri
+4514	weap_evo_hit_plr
+4515	iw9_mp_execution_099_victim_prone
+4516	iw9_mp_execution_073_attacker_stand
+4517	ps_exec_katana_stab,j_shoulder_ri
+4518	vehicle_turret_death
+4519	iw9_mp_execution_023_victim_stand
+4520	fx_playfxontag, vfx/iw9/executions/vfx_exec_062_divine_impact.vfx, j_spine4
+4521	start_hidden
+4522	abovewater
+4523	iw9_mp_veh_jltv_seat_3_idle
+4524	iw9_mp_execution_026_victim_stand
+4525	fx_stopfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_arms, j_shouldertwist_ri
+4526	fx_stopfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_arms, j_shouldertwist_le
+4527	ps_exec_gun_sn_raise,tag_weapon_right
+4528	tendril
+4529	look_20_headonly
+4530	corecenterdirect
+4531	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_head
+4532	sdr_com_exposed_stand_rpg_fire
+4533	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward.vfx, j_ball_ri
+4534	iw9_mp_execution_052_attacker_prone_fem
+4535	iw9_mp_execution_013_attacker_stand_walpha
+4536	fx_playfxontag, vfx/iw9/core/weapons/impacts/mtx/jacko_s6/vfx_imp_mtx_jacko_fatal.vfx, j_wrist_le
+4537	reb_vh_techo_bed_guy2_idle_search03
+4538	tag_main_rotor_blade_01_blur
+4539	execution_075
+4540	execution_041
+4541	execution_084
+4542	execution_115
+4543	iw9_veh_suv_overland_2016_seat_0_entry
+4544	reb_com_veh8_decho_turret_rechamber
+4545	gundown_graft_node
+4546	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_eye_laser_2, tag_eye
+4547	code_move
+4548	iw9_veh_heli_medium_seat_5_idle_search01
+4549	ps_exec_gear_mvmt_midlength_light,j_spineupper
+4550	bodyfx
+4551	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_hipholster_le
+4552	get_out_vehicle_combat_run_door_off
+4553	iw9_ai_veh_jltv_seat_3_getin_nodoor
+4554	iw9_mp_execution_042_attacker_laststand
+4555	fx_playfxontag, vfx/iw9/executions/vfx_hween_butcher_grhit, j_spineupper
+4556	explode_1
+4557	wheel_back_right
+4558	iw9_mp_execution_068_victim_prone
+4559	disguise
+4560	bloodfx
+4561	screen_on
+4562	al_to_lr
+4563	ps_exec_gore_blood_squirt,j_head
+4564	inner_root
+4565	iw9_veh_heli_medium_seat_3_exit_combat_run

@@ -1,0 +1,10 @@
+string,string,string,string,string
+chance,point,65,#     % of non-clustered points that will be populated,
+chance,cluster,90,#     % of clusters that will be populated,
+chance,clusterSolo,10,#     % of clusters that will become invalid after spawning one item (with dependencies),
+reqAdd,brloot_ghosthunter_ghost,1,0,100
+reqAdd,thermal,1,0,100
+rollChance,brloot_ghosthunter_ghost,90,,
+rollChance,thermal,10,,
+item,brloot_ghosthunter_ghost,100,,
+tagChance,thermal,100,,

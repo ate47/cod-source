@@ -1,0 +1,284 @@
+{
+    "#hash_7d0ab93a238d66cc": {
+        "#hash_ef63af26bd5b3bbe": {
+            "#hash_32801f05296e71d1": "vfx/jup/ob/gameplay/riftrun/s5_5/story_mission/vfx_entity_lightning_strike_impact.vfx",
+            "#hash_fef4c1427aeb4b3f": "vfx/jup/ob/gameplay/riftrun/s5_5/story_mission/vfx_entity_lightning_strike_target_marker.vfx",
+            "#hash_766b6bb25e30c44b": "vfx/jup/ob/gameplay/riftrun/s5_5/story_mission/vfx_entity_lightning_strike.vfx"
+        },
+        "#disablebrainrot": true,
+        "#hash_d03362e45f7b37e4": {
+            "#hash_e69261597a83bfc0": 75,
+            "#hash_1407b1c49c260053": 50,
+            "#hash_3c0930bfc4705ac3": 25
+        },
+        "#hash_5a24dc6495846e22": {
+            "#hash_ef63af26bd5b3bbe": {
+                "#hash_bb5766c50cade782": [
+                    {
+                        "#variant_object": {
+                            "#hash_5718407c4bbd7052": "InstantKill"
+                        },
+                        "#variant_type": "Types_InstantKillParams"
+                    }
+                ],
+                "#hash_6369b79bc4304fcf": {
+                    "#hash_b0f165e4b392440b": "Nearby",
+                    "#hash_ba92d7476ad36306": 0,
+                    "#hash_6ca3b9f14c0bf09a": 16,
+                    "#numlocations": 8,
+                    "#hash_253536622d01ef2": 300,
+                    "#numstrikes": 1,
+                    "#hash_b7744d44b88709b2": 8,
+                    "#hash_700e02b386c08562": 2
+                },
+                "#disable": false
+            },
+            "#hash_9cfdfb806b41190c": {
+                "#maxactive": 7,
+                "#hash_bc7aeac7d54db12e": 0.12,
+                "#hash_c301a11a2876b305": 7,
+                "#hash_72b6da1531fbd71d": 1,
+                "#invulnerable": false
+            },
+            "#hash_d8dc882da4891850": {
+                "#hash_60480d8fa1d4809d": false,
+                "#enabled": false,
+                "#hash_a09d213a675c2bab": 2,
+                "#hash_4db08ad08b477cfd": 12
+            },
+            "#hash_806b98b1cc6d3e4f": {
+                "#hash_43d7f127229729e1": {
+                    "#enabled": true,
+                    "#cooldown": 22
+                },
+                "#hash_e1feaafebeaf442a": "Random",
+                "#hash_c07f83a0ce7c72b9": true,
+                "#hash_2a032a8d81704ebe": {
+                    "#enabled": true
+                },
+                "#hash_184af0c1a8b292d2": {
+                    "#hash_de9f9409d3c691eb": 5,
+                    "#enabled": false,
+                    "#cooldown": 2
+                },
+                "#hash_f88e5ea025599288": true
+            }
+        },
+        "#healthstatemodels": [
+            {
+                "#modelname": "c_jup_zmb_disciple_body"
+            }
+        ],
+        "#hash_3c9964059ea30c5e": {
+            "#hash_ef63af26bd5b3bbe": {
+                "#hash_bb5766c50cade782": [
+                    {
+                        "#variant_object": {
+                            "#hash_5718407c4bbd7052": "InstantKill"
+                        },
+                        "#variant_type": "Types_InstantKillParams"
+                    }
+                ],
+                "#hash_6369b79bc4304fcf": {
+                    "#hash_b0f165e4b392440b": "PlayerProximity",
+                    "#hash_ba92d7476ad36306": 12,
+                    "#hash_6ca3b9f14c0bf09a": 6,
+                    "#numlocations": 4,
+                    "#hash_253536622d01ef2": 300,
+                    "#numstrikes": 1,
+                    "#hash_b7744d44b88709b2": 0,
+                    "#hash_700e02b386c08562": 2
+                },
+                "#disable": true
+            },
+            "#hash_9cfdfb806b41190c": {
+                "#maxactive": 0,
+                "#hash_bc7aeac7d54db12e": 0,
+                "#hash_c301a11a2876b305": 0,
+                "#hash_72b6da1531fbd71d": 1,
+                "#invulnerable": true
+            },
+            "#hash_d8dc882da4891850": {
+                "#hash_60480d8fa1d4809d": true,
+                "#enabled": true,
+                "#hash_a09d213a675c2bab": 2,
+                "#hash_4db08ad08b477cfd": 12
+            },
+            "#hash_806b98b1cc6d3e4f": {
+                "#hash_43d7f127229729e1": {
+                    "#enabled": true,
+                    "#cooldown": 12
+                },
+                "#hash_e1feaafebeaf442a": "Random",
+                "#hash_c07f83a0ce7c72b9": true,
+                "#hash_2a032a8d81704ebe": {
+                    "#enabled": true
+                },
+                "#hash_184af0c1a8b292d2": {
+                    "#hash_de9f9409d3c691eb": 5,
+                    "#enabled": false,
+                    "#cooldown": 2
+                },
+                "#hash_f88e5ea025599288": true
+            }
+        },
+        "#hash_bd43ea367f2d9067": {
+            "#hash_676d47107de72f79": 0.06,
+            "#hash_b24ef2f9dac18bfd": 0.12,
+            "#hash_5543a6f90d25f1e": 10000,
+            "#hash_b33910d3fd7718b1": [
+                {
+                    "#hash_d549f0ad66311315": 100,
+                    "#hash_a58440e784566928": "tag_origin_entity_beam_origin_phase1",
+                    "#hash_db1efa5d79424809": 2,
+                    "#hash_12033ee94f9c5579": "tag_origin_entity_beam_target_phase1",
+                    "#hash_5547a31b73b31d5b": "vfx/iw9/core/weapons/tracer/vfx_tracer_lrg_v_beam.vfx",
+                    "#hash_4b3afacf12234a5b": "vfx/jup/ob/gameplay/riftrun/s5_5/entity/vfx_bossfight_beam.vfx",
+                    "#hash_5902ec8cf43f0c51": "vfx/jup/ob/gameplay/riftrun/s5_5/entity/vfx_bossfight_beam_origin.vfx",
+                    "#hash_f592239c6e4e61a1": 1,
+                    "#hash_856dc80728272d7b": {
+                        "#up": 0,
+                        "#forward": 0,
+                        "#left": 0
+                    },
+                    "#hash_c206fe19a8e216fc": "tag_accessory_right",
+                    "#hash_d8db7225901f66f4": 4,
+                    "#hash_f004de91f9c2a1d7": 1,
+                    "#hash_5f4dde0a325d5c29": "Standard",
+                    "#hash_110116ebbf6b2591": 2,
+                    "#disable": false,
+                    "#hash_2bf0e4c391a41f48": {
+                        "#up": -125,
+                        "#forward": 275,
+                        "#left": 0
+                    }
+                },
+                {
+                    "#hash_d549f0ad66311315": 175,
+                    "#hash_a58440e784566928": "tag_origin_entity_beam_origin_phase2",
+                    "#hash_db1efa5d79424809": 0,
+                    "#hash_12033ee94f9c5579": "tag_origin_entity_beam_target_phase2",
+                    "#hash_5547a31b73b31d5b": "vfx/iw9/core/weapons/tracer/vfx_tracer_lrg_v_beam.vfx",
+                    "#hash_4b3afacf12234a5b": "vfx/jup/ob/gameplay/riftrun/s5_5/entity/vfx_bossfight_red_beam.vfx",
+                    "#hash_5902ec8cf43f0c51": "vfx/jup/ob/gameplay/riftrun/s5_5/entity/vfx_bossfight_red_beam_origin.vfx",
+                    "#hash_f592239c6e4e61a1": 3,
+                    "#hash_856dc80728272d7b": {
+                        "#up": 0,
+                        "#forward": 0,
+                        "#left": 0
+                    },
+                    "#hash_c206fe19a8e216fc": "tag_accessory_right",
+                    "#hash_d8db7225901f66f4": 2,
+                    "#hash_f004de91f9c2a1d7": 2,
+                    "#hash_5f4dde0a325d5c29": "Simultaneous",
+                    "#hash_110116ebbf6b2591": 4,
+                    "#disable": false,
+                    "#hash_2bf0e4c391a41f48": {
+                        "#up": -125,
+                        "#forward": 275,
+                        "#left": 0
+                    }
+                },
+                {
+                    "#hash_d549f0ad66311315": 280,
+                    "#hash_a58440e784566928": "tag_origin_entity_beam_origin_phase2",
+                    "#hash_db1efa5d79424809": 0,
+                    "#hash_12033ee94f9c5579": "tag_origin_entity_beam_target_phase2",
+                    "#hash_5547a31b73b31d5b": "vfx/iw9/core/weapons/tracer/vfx_tracer_lrg_v_beam.vfx",
+                    "#hash_4b3afacf12234a5b": "vfx/jup/ob/gameplay/riftrun/s5_5/entity/vfx_bossfight_red_beam.vfx",
+                    "#hash_5902ec8cf43f0c51": "vfx/jup/ob/gameplay/riftrun/s5_5/entity/vfx_bossfight_red_beam_origin.vfx",
+                    "#hash_f592239c6e4e61a1": 1,
+                    "#hash_856dc80728272d7b": {
+                        "#up": 0,
+                        "#forward": 0,
+                        "#left": 0
+                    },
+                    "#hash_c206fe19a8e216fc": "tag_accessory_right",
+                    "#hash_d8db7225901f66f4": 2,
+                    "#hash_f004de91f9c2a1d7": 1,
+                    "#hash_5f4dde0a325d5c29": "Successive",
+                    "#hash_110116ebbf6b2591": 4,
+                    "#disable": true,
+                    "#hash_2bf0e4c391a41f48": {
+                        "#up": -125,
+                        "#forward": 275,
+                        "#left": 0
+                    }
+                }
+            ],
+            "#hash_476a4b2a066d4671": 0.12
+        },
+        "#hash_1aae636c7b2bc674": {
+            "#hash_ea825821af5f56f1": 1500,
+            "#hash_9540d52e669b0713": 4500
+        },
+        "#bosshealthbar": "entity_healthbar",
+        "#hash_137aadf13edb472f": {
+            "#hash_9a854c78447931a6": 35,
+            "#hash_9ee6d8bf092e9f5f": 6,
+            "#hash_f0017ea1d841aa3b": "tag_origin_entity_orb",
+            "#orbdamage": 30,
+            "#hash_847dfca7cc99d08c": 50,
+            "#hash_8ccab14ac67a50a4": 60,
+            "#hash_b32c46fa7a4dcfd7": true,
+            "#hash_a8b1e7ba44c6b434": 50,
+            "#hash_511c2cd6c3d6e420": 5,
+            "#hash_e24f26f02c602117": 180,
+            "#hash_325ca50204f9d5e6": 40
+        },
+        "#hash_f4729d0569e460b8": {
+            "#hash_ef63af26bd5b3bbe": {
+                "#hash_bb5766c50cade782": [
+                    {
+                        "#variant_object": {
+                            "#hash_5718407c4bbd7052": "InstantKill"
+                        },
+                        "#variant_type": "Types_InstantKillParams"
+                    }
+                ],
+                "#hash_6369b79bc4304fcf": {
+                    "#hash_b0f165e4b392440b": "PlayerProximity",
+                    "#hash_ba92d7476ad36306": 22,
+                    "#hash_6ca3b9f14c0bf09a": 8,
+                    "#numlocations": 4,
+                    "#hash_253536622d01ef2": 300,
+                    "#numstrikes": 1,
+                    "#hash_b7744d44b88709b2": 0,
+                    "#hash_700e02b386c08562": 2
+                },
+                "#disable": false
+            },
+            "#hash_9cfdfb806b41190c": {
+                "#maxactive": 3,
+                "#hash_bc7aeac7d54db12e": 0.12,
+                "#hash_c301a11a2876b305": 3,
+                "#hash_72b6da1531fbd71d": 1,
+                "#invulnerable": false
+            },
+            "#hash_d8dc882da4891850": {
+                "#hash_60480d8fa1d4809d": false,
+                "#enabled": false,
+                "#hash_a09d213a675c2bab": 2,
+                "#hash_4db08ad08b477cfd": 15
+            },
+            "#hash_806b98b1cc6d3e4f": {
+                "#hash_43d7f127229729e1": {
+                    "#enabled": true,
+                    "#cooldown": 44
+                },
+                "#hash_e1feaafebeaf442a": "Random",
+                "#hash_c07f83a0ce7c72b9": true,
+                "#hash_2a032a8d81704ebe": {
+                    "#enabled": true
+                },
+                "#hash_184af0c1a8b292d2": {
+                    "#hash_de9f9409d3c691eb": 5,
+                    "#enabled": false,
+                    "#cooldown": 2
+                },
+                "#hash_f88e5ea025599288": true
+            },
+            "#hash_47968b563c144dc": "health_zombie_entity_phase_01"
+        }
+    }
+}

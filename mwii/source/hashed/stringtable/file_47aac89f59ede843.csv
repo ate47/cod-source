@@ -1,0 +1,56 @@
+string,string,string,string,string,string,string,string,string
+player128x128x8,,27030,25606,1844,275.071,227.072,98.5556,metal trim collision fix 1 IW9-544461
+player128x128x8,,27100,25712,1858,276.953,233.565,93.2181,metal trim collision fix 2 IW9-544461
+player128x128x8,,27625,26764,1936,272.216,197.369,140.872,metal trim collision fix 3 IW9-544461
+player128x128x8,,27688,26930,1936,272.216,198.769,140.872,metal trim collision fix 4 IW9-544461
+player128x128x8,,27733,27053,1936,271.738,140.233,-159.824,metal trim collision fix 5 IW9-544461
+player128x128x8,,28035,28229,1892,275.813,99.3089,-108.432,metal trim collision fix 6 IW9-544461
+player128x128x8,,28053,28355,1880,275.813,101.408,-108.431,metal trim collision fix 7 IW9-544461
+player128x128x8,,28082,28634,1843,277.583,97.9204,-100.649,metal trim collision fix 8 IW9-544461
+player128x128x8,,28088,28762,1827,277.583,97.9204,-100.649,metal trim collision fix 9 IW9-544461
+player128x128x8,,27189,28620,1869,275.813,101.406,-108.429,metal trim collision fix 10 IW9-544461
+player128x128x8,,27171,28493,1880,275.813,101.406,-108.429,metal trim collision fix 11 IW9-544461
+player128x128x8,,27152,28367,1892,275.813,99.3066,-108.43,metal trim collision fix 12 IW9-544461
+player128x128x8,,26724,26871,1938,272.582,195.08,142.288,metal trim collision fix 13 IW9-544461
+player128x128x8,,26540,26453,1920,274.12,217.971,116.982,metal trim collision fix 14 IW9-544461
+player128x128x8,,26480,26330,1912,274.12,215.571,116.982,metal trim collision fix 15 IW9-544461
+player64x64x64,,24828,24470,1622,0,0,351,stuck spot fix IW9-532857
+missile64x64x256,,27050,30120,1622,90,116,0,missile clip under bus fix IW9-588128
+missile64x64x256,,27164,29890,1622,90,116,0,missile clip under bus fix IW9-588128
+missile64x64x256,,27086,30138,1622,90,116,0,missile clip under bus fix IW9-588128
+missile64x64x256,,27198,29908,1622,90,116,0,missile clip under bus fix IW9-588128
+missile64x64x256,,27852.5,29556,1622,90,94,0,missile clip under bus fix IW9-588128
+missile64x64x256,,27872,29300,1622,90,94,0,missile clip under bus fix IW9-588128
+missile64x64x256,,27886.5,29556,1622,90,96,0,missile clip under bus fix IW9-588128
+missile64x64x256,,27914.9,29300.8,1622,90,96,0,missile clip under bus fix IW9-588128
+missile64x64x256,,27530.5,28884,1622,90,92,0,missile clip under bus fix IW9-588128
+missile64x64x256,,27494.5,28876,1622,90,92,0,missile clip under bus fix IW9-588128
+missile64x64x256,,27484.5,29132,1622,90,92,0,missile clip under bus fix IW9-588128
+missile64x64x256,,27844.5,27936,1700,90,120,0,missile clip under bus fix IW9-588128
+missile64x64x256,,27712.5,28154,1700,90,120,0,missile clip under bus fix IW9-588128
+missile64x64x256,,27742.5,28168,1700,90,120,0,missile clip under bus fix IW9-588128
+missile64x64x256,,27866.5,27944,1700,90,120,0,missile clip under bus fix IW9-588128
+player64x64x256,,28215.7,27718.3,2116,0,255,-180, Player collision fix for unintended boost onto garbage truck
+player64x64x256,,28246.6,27710,2116,0,255,-180, Player collision fix for unintended boost onto garbage truck
+player64x64x256,,28290.3,27996.4,1916,270,0,75, Player collision fix for unintended boost onto garbage truck
+player64x64x256,,28321.2,27988.2,1916,270,0,75, Player collision fix for unintended boost onto garbage truck
+player64x64x256,,28290.3,27996.4,1852,270,0,75, Player collision fix for unintended boost onto garbage truck
+player64x64x256,,28290.3,27996.4,1852,270,0,75, Player collision fix for unintended boost onto garbage truck
+player8x8x256,,28273.6,28042.3,1828,0,75,0, Player collision fix for unintended boost onto garbage truck
+player8x8x256,,28267.4,28019.1,1828,0,75,0, Player collision fix for unintended boost onto garbage truck
+player8x8x256,,28358.6,28019.5,1828,0,75,0, Player collision fix for unintended boost onto garbage truck
+player8x8x256,,28352.4,27996.4,1828,0,75,0, Player collision fix for unintended boost onto garbage truck
+player64x64x256,,26988,22876,1864,0,4.9998,0, Fix for OOB exploit near spawn on Mex side IW9-706556
+player512x512x8,,27050,22621,2098,270,0,16.3864, Fix for OOB exploit near spawn on Mex side IW9-706556
+player512x512x8,,27195,22129,2002,270,0,16.3864, Fix for OOB exploit near spawn on Mex side IW9-706556
+player8x8x256,,26278,23015,1760,0,0,0, Fix for exploit on top of tree near spawn on Mex side
+player32x32x256,,27143,29728,2147,0,90,-180, Fix for exploit on top of lamppost near spawn on American side
+player32x32x256,,26750,30250,2147,0,112,-180, Fix for exploit on top of lamppost near spawn on American side
+player32x32x256,,28074,29852,1890,0,352,0, Fix for exploit on top of lamppost near bus on American side
+shotblock256x256x8,shotblock256x256x8,25630.9,25444.1,1762,0,337,0, Fix for killstreaks penetration roof of building IW9-741536
+shotblock256x256x8,shotblock256x256x8,25614.9,25404.1,1754,0,337,0, Fix for killstreaks penetration roof of building IW9-741536
+shotblock256x256x8,shotblock256x256x8,25393.1,25543.9,1762,0,337,0, Fix for killstreaks penetration roof of building IW9-741536
+shotblock256x256x8,shotblock256x256x8,25377.1,25503.9,1754,0,337,0, Fix for killstreaks penetration roof of building IW9-741536
+shotblock256x256x8,shotblock256x256x8,25345.1,25563.9,1774,0,337,0, Fix for killstreaks penetration roof of building IW9-741536
+shotblock256x256x8,shotblock256x256x8,25329.1,25523.9,1766,0,337,0, Fix for killstreaks penetration roof of building IW9-741536
+player64x64x128,,27158,28338,1662,359.736,7.17073,-4.98314, Fix for corner of van causing players to die 

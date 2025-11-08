@@ -1,0 +1,172 @@
+  1	on
+  2	uk_yellow_component_bin_filled_01
+  3	mp_dom_spawn_axis_start
+  4	mp_arena_spawn_allies_start
+  5	mgl_v004
+  6	mgl_v013
+  7	vfx_global_birds_circling_seagulls
+  8	tag_light_back_right
+  9	vfx_moths_1
+ 10	decor_plastic_buckets_01_small_white
+ 11	vfx/iw8_mp/level/king/vfx_king_constant_motes
+ 12	vfx_mosquitos_over_water_1
+ 13	vfx_global_insect_cockroach
+ 14	disabled
+ 15	mp_dom_spawn
+ 16	highspeed
+ 17	v016
+ 18	day
+ 19	off
+ 20	mgl_v001
+ 21	scriptable_decor_plastic_buckets_01_small_white
+ 22	tag_light_front_left
+ 23	vfx_king_sunflare
+ 24	vfx/iw8_mp/level/king/vfx_king_sunflare
+ 25	1
+ 26	v020
+ 27	v003
+ 28	damagelightsound
+ 29	explosion
+ 30	tag_bumper_front
+ 31	vfx_king_fluorescent_lf
+ 32	vfx_global_falling_ivy_leaves_sml
+ 33	nav_door
+ 34	equipment_toolbox_02_orange
+ 35	mp_ctf_spawn
+ 36	v006
+ 37	onoff
+ 38	vfx/iw9/level/_global/vfx_global_falling_ivy_leaves_sml
+ 39	v008
+ 40	tag_wheel_center_front_left
+ 41	scriptable_equipment_toolbox_02_orange
+ 42	scriptable_food_cans_bottles_and_jars_can_02
+ 43	vfx/iw8_mp/level/king/vfx_king_billow_mist_a
+ 44	tag_light_front_right
+ 45	v017
+ 46	tag_bumper_guard
+ 47	tag_trunk_panel
+ 48	tag_body_animate
+ 49	explode
+ 50	mgl_v006
+ 51	ddos
+ 52	splash listener
+ 53	damagemedium
+ 54	lights
+ 55	lighting_fixtures_security_lamp_withcage_01
+ 56	4
+ 57	resetdamagestatesounds
+ 58	mp_sd_spawn_defender
+ 59	v015
+ 60	tag_wheel_center_back_left
+ 61	emissive
+ 62	vfx_king_gd_steam_a
+ 63	2
+ 64	vfx_dust_motes_med
+ 65	neutral
+ 66	v004
+ 67	vfx/iw8_mp/level/king/vfx_king_fluorescent_lf
+ 68	mp_dm_spawn
+ 69	military_target_firingrangebody_metal_01_aim_01
+ 70	mp_tdm_spawn_axis_start
+ 71	tag_wheel_center_front_right
+ 72	vfx/iw9/level/_global/vfx_global_insect_cockroach_single
+ 73	v014
+ 74	base
+ 75	tag_origin
+ 76	haywire
+ 77	tag_wheel_center_back_right
+ 78	vfx/iw9/level/_global/vfx_global_insect_cockroach
+ 79	tag_bumper_guard_damaged
+ 80	vfx/iw9/level/_global/vfx_global_birds_circling_seagulls
+ 81	vfx_global_falling_ivy_leaves
+ 82	vfx_king_billow_mist_a
+ 83	v010
+ 84	vfx/iw8_mp/gen_amb/vfx_mosquitos_over_water_1
+ 85	scriptable_lighting_fixtures_security_lamp_withcage_01
+ 86	vfx_global_insect_cockroach_single
+ 87	vfx_king_animals_rat_run_straight
+ 88	visibility
+ 89	3
+ 90	damageheavysound
+ 91	mp_tdm_spawn_allies_start
+ 92	death_usable
+ 93	floor_fire
+ 94	food_cans_bottles_and_jars_can_02
+ 95	scriptable_military_target_firingrangebody_metal_01_aim_01
+ 96	vfx/iw8_mp/level/king/vfx_king_gd_steam_a
+ 97	hide
+ 98	tag_light_back_left
+ 99	row2_left
+100	v011
+101	dst::veh9_mil_lnd_atv_vehphys_hsk_mp
+102	vfx/iw8_mp/gen_amb/vfx_dust_motes_med
+103	v001
+104	row1_left
+105	military_target_firingrangebody_metal_01_aim_02
+106	mp_dm_spawn_start
+107	
+108	v012
+109	scriptable_electronics_fire_alarm_bell_01
+110	mp_arena_spawn_axis_start
+111	v009
+112	vfx/iw9/level/mp_m_king/vfx_king_heat_mist_01
+113	vfx_king_mist_ground_01
+114	show
+115	scriptable_military_target_firingrangebody_metal_01_aim_02
+116	prefabs/createfx/mp_m_king_cfx.map
+117	mp_cyber_spawn_axis
+118	mp_cyber_spawn_allies
+119	single
+120	vfx_king_constant_motes
+121	mp_ctf_spawn_axis_start
+122	damageengine
+123	death
+124	vfx/iw8_mp/gen_amb/vfx_gnat_swarm_1
+125	mp_dom_spawn_allies_start
+126	mp_arena_spawn
+127	v005
+128	mp_ctf_spawn_allies_start
+129	damagelight
+130	row1_right
+131	engine
+132	row2_right
+133	lowspeed
+134	default
+135	vfx/iw9/level/mp_m_king/vfx_king_animals_rat_run_straight
+136	vfx_gnat_swarm_1
+137	electronics_fire_alarm_bell_01
+138	v002
+139	tag_light_front_mid
+140	vfx/iw8_mp/level/king/vfx_king_mist_ground_01
+141	vfx_king_heat_mist_01
+142	mp_tdm_spawn
+143	damagestatesounds
+144	mp_rescue_spawn_attacker
+145	vfx/iw9/level/mp_m_king/vfx_king_dust_motes_med
+146	vfx/iw8_mp/gen_amb/vfx_moths_1
+147	tag_heel_plate_right
+148	vehicle_unusable
+149	damagemediumsound
+150	atv_explosion
+151	stopped
+152	v018
+153	mp_sd_spawn_attacker
+154	atv
+155	mrap
+156	v007
+157	vehicle_use
+158	pf0_auto_mp_m_king_cfx.map
+159	damageheavy
+160	tag_heel_plate_left
+161	veh9_mil_lnd_atv_vehphys_mp
+162	mgl_v005
+163	mgl_v012
+164	vfx_king_dust_motes_med
+165	repaired
+166	damage_transition
+167	mp_rescue_spawn_defender
+168	v013
+169	vfx/iw9/level/_global/vfx_global_falling_ivy_leaves
+170	start_hidden
+171	scriptable_uk_yellow_component_bin_filled_01
+172	tag_light_top

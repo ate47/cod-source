@@ -1,0 +1,1030 @@
+{
+    "#hash_3d4a73b74b296c6": {
+        "#respawntime": 1,
+        "#hash_8275c6699afd270f": "spawnRandom",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [
+                    {
+                        "#variant_object": {
+                            "#vehiclespawntype": "airVehicle",
+                            "#spawnfilter": "custom",
+                            "#hash_c2f4c9d88a0a6125": "heli_1_occupant",
+                            "#vehicle": "veh9_mil_air_heli_medium_physics_mp"
+                        },
+                        "#variant_type": "Types_AirVehicle"
+                    }
+                ],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [
+                    {
+                        "#hash_611dc48b4757c144": [
+                            {
+                                "#requiredtags": [],
+                                "#hash_179611467641c036": [
+                                    {
+                                        "#variant_object": {
+                                            "#vehiclespawntype": "airVehicle",
+                                            "#spawnfilter": "custom",
+                                            "#hash_c2f4c9d88a0a6125": "heli_2_occupant",
+                                            "#vehicle": "veh9_mil_air_heli_medium_physics_mp"
+                                        },
+                                        "#variant_type": "Types_AirVehicle"
+                                    }
+                                ],
+                                "#requiredalltags": false,
+                                "#hash_7eb3ffaa29efda6b": [
+                                    {
+                                        "#aitype": "jup_enemy_cp_smg_tier1_rus_pmc",
+                                        "#spawnfilter": "custom",
+                                        "#hash_c220f624418529a9": [
+                                            {
+                                                "#hash_af27b6a3d3a2f6af": 2
+                                            },
+                                            {
+                                                "#hash_af27b6a3d3a2f6af": 4
+                                            }
+                                        ],
+                                        "#droptoground": true,
+                                        "#spawncount": 2,
+                                        "#hash_201bea721d206869": true,
+                                        "#hash_c2f4c9d88a0a6125": "heli_2_occupant"
+                                    },
+                                    {
+                                        "#aitype": "jup_enemy_cp_ar_tier1_rus_pmc",
+                                        "#spawnfilter": "custom",
+                                        "#hash_c220f624418529a9": [
+                                            {
+                                                "#hash_af27b6a3d3a2f6af": 6
+                                            },
+                                            {
+                                                "#hash_af27b6a3d3a2f6af": 7
+                                            }
+                                        ],
+                                        "#droptoground": true,
+                                        "#spawncount": 2,
+                                        "#hash_201bea721d206869": true,
+                                        "#hash_c2f4c9d88a0a6125": "heli_2_occupant"
+                                    },
+                                    {
+                                        "#aitype": "jup_enemy_cp_lmg_tier1_rus_pmc",
+                                        "#spawnfilter": "custom",
+                                        "#hash_c220f624418529a9": [
+                                            {
+                                                "#hash_af27b6a3d3a2f6af": 3
+                                            },
+                                            {
+                                                "#hash_af27b6a3d3a2f6af": 5
+                                            }
+                                        ],
+                                        "#droptoground": true,
+                                        "#spawncount": 2,
+                                        "#hash_201bea721d206869": true,
+                                        "#hash_c2f4c9d88a0a6125": "heli_2_occupant"
+                                    }
+                                ]
+                            }
+                        ],
+                        "#hash_ca3c460fba25f17f": [
+                            {
+                                "#variant_object": {
+                                    "#triggertype": "killedcount",
+                                    "#hash_1fa74d66e6ca4615": 2
+                                },
+                                "#variant_type": "Types_KilledCount"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#triggertype": "time",
+                                    "#hash_abb8256e227c77f3": 40
+                                },
+                                "#variant_type": "Types_Time"
+                            }
+                        ]
+                    }
+                ],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_lmg_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [
+                            {
+                                "#hash_af27b6a3d3a2f6af": 2
+                            }
+                        ],
+                        "#droptoground": true,
+                        "#spawncount": 1,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "heli_1_occupant"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_rpg_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [
+                            {
+                                "#hash_af27b6a3d3a2f6af": 5
+                            }
+                        ],
+                        "#droptoground": true,
+                        "#spawncount": 1,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "heli_1_occupant"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_ar_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [
+                            {
+                                "#hash_af27b6a3d3a2f6af": 4
+                            }
+                        ],
+                        "#droptoground": true,
+                        "#spawncount": 1,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "heli_1_occupant"
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "military"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 50
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": true,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_8ebdfda3562588c": {
+        "#respawntime": 1,
+        "#hash_8275c6699afd270f": "spawnRandom",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [
+                    {
+                        "#hash_611dc48b4757c144": [
+                            {
+                                "#requiredtags": [],
+                                "#hash_179611467641c036": [],
+                                "#requiredalltags": false,
+                                "#hash_7eb3ffaa29efda6b": [
+                                    {
+                                        "#aitype": "jup_enemy_cp_smg_tier1_rus_pmc",
+                                        "#spawnfilter": "custom",
+                                        "#hash_c220f624418529a9": [],
+                                        "#droptoground": true,
+                                        "#hash_aea2e41228e503c2": true,
+                                        "#spawncount": 2,
+                                        "#hash_8dec8deff66e2c69": true,
+                                        "#hash_201bea721d206869": true,
+                                        "#hash_c2f4c9d88a0a6125": "containment_reinforcement"
+                                    }
+                                ]
+                            }
+                        ],
+                        "#hash_ca3c460fba25f17f": [
+                            {
+                                "#variant_object": {
+                                    "#triggertype": "script"
+                                },
+                                "#variant_type": "Types_Script"
+                            }
+                        ]
+                    }
+                ],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_smg_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 4,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "heli_containment_carrier"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_ar_tier3_rus_pmc_konni_elite",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "heli_containment_operator"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_unique_rus_pmc_pilot",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "heli_containment_pilot"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_pistol_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "heli_containment_tech"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_ar_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "heli_containment_soldier"
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "military"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 50
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": true,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_d0862ddee03850a": {
+        "#respawntime": 1,
+        "#hash_8275c6699afd270f": "spawnRandom",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_ar_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 6,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "large_encounter_spawn"
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "military"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 50
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": true,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_1669561fb3b81748": {
+        "#respawntime": 1,
+        "#hash_8275c6699afd270f": "spawnRandom",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [
+                    {
+                        "#hash_611dc48b4757c144": [
+                            {
+                                "#requiredtags": [],
+                                "#hash_179611467641c036": [],
+                                "#requiredalltags": false,
+                                "#hash_7eb3ffaa29efda6b": [
+                                    {
+                                        "#aitype": "jup_enemy_cp_smg_tier1_rus_pmc",
+                                        "#spawnfilter": "custom",
+                                        "#hash_c220f624418529a9": [],
+                                        "#droptoground": true,
+                                        "#hash_aea2e41228e503c2": true,
+                                        "#spawncount": 2,
+                                        "#hash_8dec8deff66e2c69": true,
+                                        "#hash_201bea721d206869": true,
+                                        "#hash_c2f4c9d88a0a6125": "spray_zone_reinforcement"
+                                    }
+                                ]
+                            }
+                        ],
+                        "#hash_ca3c460fba25f17f": [
+                            {
+                                "#variant_object": {
+                                    "#triggertype": "script"
+                                },
+                                "#variant_type": "Types_Script"
+                            }
+                        ]
+                    }
+                ],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_ar_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "spray_zone_spawn"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_smg_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "spray_zone_spawn"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_pistol_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "spray_zone_spawn"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_unique_rus_pmc_pilot",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "spray_zone_spawn_pilot"
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "military"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 50
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": true,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_186bded97c6e1e7e": {
+        "#respawntime": 1,
+        "#hash_8275c6699afd270f": "spawnRandom",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_ar_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "reactor_entrance"
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "military"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 50
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": true,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_321b5b2a762396ce": {
+        "#respawntime": 1,
+        "#hash_8275c6699afd270f": "spawnRandom",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [
+                    {
+                        "#variant_object": {
+                            "#vehiclespawntype": "groundVehicle",
+                            "#hash_30d1d7a905182350": true,
+                            "#spawnfilter": "custom",
+                            "#hash_c2f4c9d88a0a6125": "jltv_occupant",
+                            "#vehicle": "veh_jup_jltv_physics_mp"
+                        },
+                        "#variant_type": "Types_GroundVehicle"
+                    }
+                ],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [
+                    {
+                        "#hash_611dc48b4757c144": [
+                            {
+                                "#requiredtags": [],
+                                "#hash_179611467641c036": [
+                                    {
+                                        "#variant_object": {
+                                            "#vehiclespawntype": "groundVehicle",
+                                            "#hash_30d1d7a905182350": true,
+                                            "#spawnfilter": "custom",
+                                            "#hash_c2f4c9d88a0a6125": "jltv_mg_occupant",
+                                            "#vehicle": "veh_jup_jltv_mg_physics_mp"
+                                        },
+                                        "#variant_type": "Types_GroundVehicle"
+                                    }
+                                ],
+                                "#requiredalltags": false,
+                                "#hash_7eb3ffaa29efda6b": [
+                                    {
+                                        "#aitype": "jup_enemy_cp_shotgun_tier1_rus_pmc",
+                                        "#spawnfilter": "custom",
+                                        "#hash_c220f624418529a9": [
+                                            {}
+                                        ],
+                                        "#spawncount": 1,
+                                        "#hash_201bea721d206869": true,
+                                        "#hash_c2f4c9d88a0a6125": "jltv_mg_occupant"
+                                    },
+                                    {
+                                        "#aitype": "jup_enemy_cp_lmg_tier1_rus_pmc",
+                                        "#spawnfilter": "custom",
+                                        "#hash_c220f624418529a9": [
+                                            {
+                                                "#hash_af27b6a3d3a2f6af": 1
+                                            }
+                                        ],
+                                        "#spawncount": 1,
+                                        "#hash_201bea721d206869": true,
+                                        "#hash_c2f4c9d88a0a6125": "jltv_mg_occupant"
+                                    },
+                                    {
+                                        "#aitype": "jup_enemy_cp_pistol_tier1_rus_pmc",
+                                        "#spawnfilter": "custom",
+                                        "#hash_c220f624418529a9": [
+                                            {
+                                                "#hash_af27b6a3d3a2f6af": 4
+                                            }
+                                        ],
+                                        "#spawncount": 1,
+                                        "#hash_201bea721d206869": true,
+                                        "#hash_c2f4c9d88a0a6125": "jltv_mg_occupant"
+                                    }
+                                ]
+                            }
+                        ],
+                        "#hash_ca3c460fba25f17f": [
+                            {
+                                "#variant_object": {
+                                    "#triggertype": "script"
+                                },
+                                "#variant_type": "Types_Script"
+                            }
+                        ]
+                    }
+                ],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_smg_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [
+                            {},
+                            {
+                                "#hash_af27b6a3d3a2f6af": 3
+                            }
+                        ],
+                        "#spawncount": 2,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "jltv_occupant"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_pistol_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [
+                            {
+                                "#hash_af27b6a3d3a2f6af": 1
+                            }
+                        ],
+                        "#spawncount": 1,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "jltv_occupant"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_shotgun_tier1_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [
+                            {
+                                "#hash_af27b6a3d3a2f6af": 2
+                            },
+                            {
+                                "#hash_af27b6a3d3a2f6af": 4
+                            }
+                        ],
+                        "#spawncount": 2,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "jltv_occupant"
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "military"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 50
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": true,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_3a17f0349801ea7e": {
+        "#respawntime": 1,
+        "#hash_8275c6699afd270f": "spawnRandom",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_ar_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "small_encounter_spawn"
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "military"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 50
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": true,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_3c03e8b3a7710a28": {
+        "#respawntime": 1,
+        "#hash_8275c6699afd270f": "spawnRandom",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_smg_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "solo_encounter_spawn"
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "military"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 50
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_5b62c1ab448763c0": {
+        "#respawntime": 1,
+        "#hash_8275c6699afd270f": "spawnRandom",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_ar_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 4,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "medium_encounter_spawn"
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "military"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 50
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": true,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_6b16250816f20040": {
+        "#respawntime": 1,
+        "#hash_8275c6699afd270f": "spawnRandom",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_ar_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "parking_lot_front"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_smg_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "parking_lot_front"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_shotgun_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "parking_lot_front"
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "military"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 50
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": true,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_78183f2a8441f4bf": {
+        "#respawntime": 1,
+        "#hash_8275c6699afd270f": "spawnRandom",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_ar_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "turbine_interior"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_smg_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "turbine_interior"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_shotgun_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "turbine_interior"
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "military"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 50
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": true,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_790b55646e572718": {
+        "#respawntime": 1,
+        "#hash_8275c6699afd270f": "spawnRandom",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [
+                    {
+                        "#hash_611dc48b4757c144": [
+                            {
+                                "#requiredtags": [],
+                                "#hash_179611467641c036": [],
+                                "#requiredalltags": false,
+                                "#hash_7eb3ffaa29efda6b": [
+                                    {
+                                        "#aitype": "jup_enemy_cp_smg_tier1_rus_pmc",
+                                        "#spawnfilter": "custom",
+                                        "#hash_c220f624418529a9": [],
+                                        "#droptoground": true,
+                                        "#hash_aea2e41228e503c2": true,
+                                        "#spawncount": 2,
+                                        "#hash_8dec8deff66e2c69": true,
+                                        "#hash_201bea721d206869": true,
+                                        "#hash_c2f4c9d88a0a6125": "parking_reinforcement"
+                                    }
+                                ]
+                            }
+                        ],
+                        "#hash_ca3c460fba25f17f": [
+                            {
+                                "#variant_object": {
+                                    "#triggertype": "script"
+                                },
+                                "#variant_type": "Types_Script"
+                            }
+                        ]
+                    }
+                ],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_smg_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "parking_lot_heli"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_ar_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "parking_lot_heli"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_lmg_tier1_rus_pmc",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "parking_lot_heli"
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_unique_rus_pmc_pilot",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_201bea721d206869": true,
+                        "#hash_c2f4c9d88a0a6125": "parking_lot_heli_pilot"
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "military"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 50
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": true,
+        "#hash_c508480ff26dab43": true
+    }
+}

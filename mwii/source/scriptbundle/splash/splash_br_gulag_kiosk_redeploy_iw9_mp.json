@@ -1,0 +1,34 @@
+{
+    "#description": "&SPLASHES/BR_GULAG_BOUGHT_BACK_DESC",
+    "#splashref": "#br_gulag_kiosk_redeploy",
+    "#splashparameter": {
+        "#hash_a9a0a4846b6e3eb4": "clientIdToGamertag",
+        "#paramtype": "number",
+        "#paramdestination": "description"
+    },
+    "#visibilitysettings": {},
+    "#sound": "#hash_7905b94f6a21e7ca",
+    "#shortname": "&MP_BR_INGAME/RESPAWN_SPLASH_TITLE",
+    "#type": "generic",
+    "#hash_b17cac3e3caa298a": "WZStyleGuide.wzStyleGuideElectricPositive",
+    "#colorswatch": "IW9StyleGuide.styleGuideAccentMain",
+    "#hash_773fcbe04446f5df": {},
+    "#hash_773fcce04446f812": {},
+    "#hash_ffbe9b6f3cabcd7d": {
+        "#intensity": "high",
+        "#alignment": "center",
+        "#tone": "positive",
+        "#hash_32d058d79cc0c7f3": {},
+        "#iconsettings": {
+            "#hash_76245df8ec9ceba7": {
+                "#hash_e7d195b2f195babc": 100,
+                "#hash_23b44b0401cc99de": 4000,
+                "#hash_2a7072c7be47ffb3": 5
+            }
+        },
+        "#hash_b389814f29c3dfd8": {},
+        "#hash_e89f92998ea15ce2": true
+    },
+    "#name": "&MP_BR_INGAME/RESPAWN_SPLASH_TITLE",
+    "#priority": 120
+}

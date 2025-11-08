@@ -1,0 +1,65 @@
+///////////////////////////////////////////////////////////////////////////
+//This file is generated from the Animation Blender tool
+///////////////////////////////////////////////////////////////////////////
+% force_cs_anim_index_match
+
+mkr_locomotion_handcuffed_1d: blendspace1d( range="40,170", blend_time="500",
+coords="40,60,61,90,91,135,136,170",
+value=[desiredspeed] ) loopsync
+{
+	slwalk_slow : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) 
+	{
+		mkr_cuffed_exp_slwalk01_spdscaled_slow
+		mkr_cuffed_exp_slwalk02_spdscaled_slow
+		mkr_cuffed_exp_slwalk03_spdscaled_slow
+		mkr_cuffed_exp_slwalk04_spdscaled_slow
+	}
+	slwalk_fast : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) 
+	{
+		mkr_cuffed_exp_slwalk01_spdscaled_fast
+		mkr_cuffed_exp_slwalk02_spdscaled_fast
+		mkr_cuffed_exp_slwalk03_spdscaled_fast
+		mkr_cuffed_exp_slwalk04_spdscaled_fast
+	}
+	walk_slow : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) 
+	{
+		mkr_cuffed_exp_walk01_spdscaled_slow
+		mkr_cuffed_exp_walk02_spdscaled_slow
+		mkr_cuffed_exp_walk03_spdscaled_slow
+		mkr_cuffed_exp_walk04_spdscaled_slow
+	}
+	walk_fast : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) 
+	{
+		mkr_cuffed_exp_walk01_spdscaled_fast
+		mkr_cuffed_exp_walk02_spdscaled_fast
+		mkr_cuffed_exp_walk03_spdscaled_fast
+		mkr_cuffed_exp_walk04_spdscaled_fast
+	}
+	jog_slow : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) 
+	{
+		mkr_cuffed_exp_jog01_spdscaled_slow
+		mkr_cuffed_exp_jog02_spdscaled_slow
+		mkr_cuffed_exp_jog03_spdscaled_slow
+	}
+	jog_fast : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) 
+	{
+		mkr_cuffed_exp_jog01_spdscaled_fast
+		mkr_cuffed_exp_jog02_spdscaled_fast
+		mkr_cuffed_exp_jog03_spdscaled_fast
+	}
+	run_slow : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) 
+	{
+		mkr_cuffed_exp_run01_spdscaled_slow
+		mkr_cuffed_exp_run02_spdscaled_slow
+		mkr_cuffed_exp_run03_spdscaled_slow
+	}
+	run_fast : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) 
+	{
+		mkr_cuffed_exp_run01_spdscaled_fast
+		mkr_cuffed_exp_run02_spdscaled_fast
+		mkr_cuffed_exp_run03_spdscaled_fast
+	}
+	
+}
+		
+

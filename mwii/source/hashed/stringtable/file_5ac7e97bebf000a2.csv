@@ -1,0 +1,60 @@
+string,string,string,string,string,string,string,string,string
+player512x512x8,,-82,828,416,90,0,6.23E-05,Fixes issue -IW9-733573
+clip32x32x256,,850,470,3,23.5,0,90,Fixes atrium gap where players get stuck
+clip32x32x256,,834,184,3,23.5,270,90,Fixes atrium gap where players get stuck
+clip32x32x256,,578,184,3,23.5,270,90,Fixes atrium gap where players get stuck
+clip512x512x8,,-462,-888,228,90,0,0,Fixes  bug where players can climb on ede of wall light.
+player256x256x256,,1837,2114,309,90,0,0,Fixes  players being able to use shield to jump on a wall
+player256x256x256,,1837,2050,309,90,0,0,Fixes  players being able to use shield to jump on a wall
+clip128x128x8,,257,-1114,253.5,0,0,-90,Fixes brushes set to weapon clip in play atrium
+clip512x512x8,,284,732,560,90,0,0,Fixes brushes set to weapon clip in play atrium
+clip512x512x8,,32,488,560,90,0,90,Fixes IW9-733573 issue in atrium
+clip512x1024x64,,-300,512,560,90,0,90,Fixes brushes set to weapon clip in play atrium
+clip512x512x8,,-812,800,560,90,0,0,Fixes brushes set to weapon clip in play atrium
+clip256x256x8,,-812,984,656,90,0,0,Fixes brushes set to weapon clip in play atrium
+clip32x32x128,,146,-631,80,0,0,0,Fixes broken mount in the lobby.
+clip64x64x128,,-758,279,-49,0,0,0,Fixes broken mount in the lobby.
+clip64x64x128,,-739,279,-49,0,0,0,Fixes broken mount in the lobby.
+clip64x64x128,,-758,299,-49,0,0,0,Fixes broken mount in the lobby.
+clip64x64x128,,-739,299,-49,0,0,0,Fixes broken mount in the lobby.
+clip64x64x64,,-536,1120,-28,0,0,0,Fixes mount in the elevator where players into the model
+clip32x32x32,,518,732,-2,0,0,0,Fixes mount on chair in atrium
+clip256x256x8,,4,-1116,280,0,0,90,Fixes mount in the elevator where players into the model
+clip64x64x128,,-1279,-729,72,90,0,0,Fixes removed clip on water fountain in the spaw.
+nosight128x128x8,,120,-462,86,0,0,90,Fixes removed clip on water fountain in the spaw.
+shotblock256x256x8,shotblock256x256x8,-460,2628,-52,0,0,90,Adds shotblock to water features in the parking area.
+shotblock256x256x8,shotblock256x256x8,-224,2628,-52,0,0,90,Adds shotblock to water features in the parking area.
+shotblock256x256x8,shotblock256x256x8,626,2628,-52,0,0,90,Adds shotblock to water features in the parking area.
+shotblock256x256x8,shotblock256x256x8,390,2628,-52,0,0,90,Adds shotblock to water features in the parking area.
+shotblock128x128x8,shotblock128x128x8,1052,1229,207,90,0,0,Adds shotblock to kitchen
+shotblock128x128x8,shotblock128x128x8,1052,1229,79,90,0,0,Adds shotblock to kitchen
+shotblock128x128x8,shotblock128x128x8,1052,1319,207,90,0,0,Adds shotblock to kitchen
+shotblock128x128x8,shotblock128x128x8,1052,1319,79,90,0,0,Adds shotblock to kitchen
+shotblock256x256x8,shotblock256x256x8,1012,1473,142,90,0,0,Adds shotblock to kitchen
+shotblock256x256x8,shotblock256x256x8,1012,1792,142,90,0,0,Adds shotblock to kitchen
+shotblock128x128x8,shotblock128x128x8,-754,782,220,90,0,90,Adds shotblock to kitchen
+shotblock128x128x8,shotblock128x128x8,-160,782,220,90,0,90,Adds shotblock to kitchen
+shotblock256x256x8,shotblock256x256x8,-504,782,284,90,0,90,Adds shotblock to kitchen
+shotblock256x256x8,shotblock256x256x8,-414,782,284,90,0,90,Adds shotblock to kitchen
+shotblock512x512x8,shotblock512x512x8,1008.445,280.863,60,90,0,0,Adds shotblock to the attrium area
+shotblock128x128x8,shotblock128x128x8,1453.08,1640.068,63,90,0,0,Adds shotblock to kitchen
+shotblock256x256x8,shotblock256x256x8,1008.44,816.863,118,90,0,0,Adds shotblock to attrium
+shotblock64x64x128,shotblock64x64x128,1212,944,64,0,0,0,Adds shotblock to restaurant area
+shotblock64x64x128,shotblock64x64x128,1232,944,64,0,0,0,Adds shotblock to restaurant area
+shotblock128x128x8,shotblock128x128x8,1726,-83,141,0,0,90,Adds shotblock to restaurant entrance
+missile512x512x8,,922.5,-222,526,0,270,0,Adds missile clip to fix IW9-594500
+missile512x512x8,,1184.25,-222,526,0,270,0,Adds missile clip to fix IW9-594500
+shotblock128x128x8,shotblock128x128x8,-772,-134,94,0,0,90,Fixes issue - IW9-588976
+shotblock128x128x8,shotblock128x128x8,-805,-134,94,0,0,90,Fixes issue - IW9-588976
+clip256x256x8,,-560,672,304,0,0,0,Fixes issue - IW9-663222
+shotblock256x256x8,shotblock256x256x8,1184,1320,144,0,0,90,Fixes issue - IW9-733583 - elevator doors
+shotblock256x256x8,shotblock256x256x8,1336,1320,144,0,0,90,Fixes issue - IW9-733583 - elevator doors
+player64x64x128,,272,356,148,0,0,5,Fixes issue -IW9-733567
+player64x64x128,,308,356,148,0,0,5,Fixes issue -IW9-733567
+player128x128x8,,1696,1468,236,0,180,90,Fixes issue -IIW9-733422
+player128x128x8,,1664,1468,236,0,180,90,Fixes issue -IIW9-733422
+player64x64x128,,1468,1562,176,0,0,0,Fixes issue -IIW9-733422
+player64x64x128,,-201.381,950.499,166,0,0,0,Fixes issue -IW9-733403
+shotblock256x256x8,shotblock256x256x8,-392,608,20,0,0,90,Fixes issue -IW9-714497
+shotblock256x256x8,shotblock256x256x8,-212,608,20,0,0,90,Fixes issue -IW9-714497
+clip64x64x128,,1012,-1006,76,344,0,90,Fixes issue IW9-747555

@@ -1,0 +1,24 @@
+main()
+{
+
+/#
+	if ( getdvar( #d"clientSideEffects" ) != "1" )
+	{
+	}
+#/
+
+	level._effect[ "sniper_glint" ]    = LoadFx( "vfx/misc/scope_glint.vfx" );
+
+	level._effect[ "vfx_muz_rpg_v" ]       = LoadFX( "vfx/iw8_mp/muzflash/vfx_muz_rpg_v.vfx" );
+	level._effect[ "vfx_rpg_trail_2" ]     = LoadFX( "vfx/core/smktrail/vfx_rpg_trail_2.vfx" );
+
+	level._effect[ "sniper_laser_brightx" ] = loadFX( "vfx/iw9/core/lasers/vfx_hipaimlaser_red_xbright.vfx" );
+
+	level._effect[ "stinger_trail" ]  = loadFX( "vfx/iw9/level/gunship/vfx_gunship_stingertrail.vfx" );
+
+	level._effect[ "mine_red_light" ]    = loadFX( "vfx/core/vehicles/aircraft_light_red_blink.vfx" );
+
+	level._effect[ "heli_comp_cluster_1" ] = loadFX( "vfx/iw9/cp/vfx_cp_heli_escort_comp_cluster_1.vfx" );
+	level._effect[ "heli_comp_cluster_2" ] = loadFX( "vfx/iw9/cp/vfx_cp_heli_escort_comp_cluster_2.vfx" );
+	level._effect[ "heli_comp_cluster_3" ] = loadFX( "vfx/iw9/cp/vfx_cp_heli_escort_comp_cluster_3.vfx" );
+}

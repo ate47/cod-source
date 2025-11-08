@@ -1,0 +1,57 @@
+main()
+{
+	level._effect[ "vfx_global_dust_move_slow_2_med" ] = loadfx( "vfx/iw9/level/_global/vfx_global_dust_move_slow_2_med.vfx" );
+	level._effect[ "vfx_cp_raid_elec_water_3" ] = loadfx( "vfx/iw9/cp/raid/vfx_cp_raid_elec_water_3.vfx" );
+	level._effect[ "vfx_global_falling_dust" ] = loadfx( "vfx/iw9/level/_global/vfx_global_falling_dust.vfx" );
+	level._effect[ "vfx_cp_raid_elec_water_2" ] = loadfx( "vfx/iw9/cp/raid/vfx_cp_raid_elec_water_2.vfx" );
+	level._effect[ "vfx_cp_raid_trap_gas_wall" ]                   = LoadFX( "vfx/iw9/cp/raid/vfx_cp_raid_trap_gas_wall.vfx" );
+	level._effect[ "vfx_cp_raid_cracked_wall_godray" ]             = LoadFX( "vfx/iw9/cp/raid/vfx_cp_raid_cracked_wall_godray.vfx" );
+	level._effect[ "vfx_global_electrical_sparks_drip" ]           = LoadFX( "vfx/iw9/level/_global/vfx_global_electrical_sparks_drip.vfx" );
+	level._effect[ "vfx_cp_raid_bats_fly_up" ]                     = LoadFX( "vfx/iw9/cp/raid/vfx_cp_raid_bats_fly_up.vfx" );
+	level._effect[ "vfx_cp_raid_vent_gas" ]                        = LoadFX( "vfx/iw9/cp/raid/vfx_cp_raid_vent_gas.vfx" );
+	level._effect[ "vfx_cp_raid_elec_water" ]                      = LoadFX( "vfx/iw9/cp/raid/vfx_cp_raid_elec_water.vfx" );
+	level._effect[ "vfx_cp_raid_pipe_flame_turn_off" ]             = LoadFX( "vfx/iw9/cp/raid/vfx_cp_raid_pipe_flame_turn_off.vfx" );
+	level._effect[ "vfx_cp_raid_pipe_flame" ]                      = LoadFX( "vfx/iw9/cp/raid/vfx_cp_raid_pipe_flame.vfx" );
+	level._effect[ "red_light" ]                                   = loadFX( "vfx/core/vehicles/aircraft_light_red_blink.vfx" );
+	level._effect[ "vfx_cp_raid_lensflare_bulb_red" ]              = LoadFX( "vfx/iw9/cp/raid/vfx_cp_raid_lensflare_bulb_red.vfx" );
+	level._effect[ "vfx_global_water_drips_on_water" ]             = LoadFX( "vfx/iw9/level/_global/vfx_global_water_drips_on_water.vfx" );
+	level._effect[ "vfx_global_electrical_sparks_with_collision" ] = LoadFX( "vfx/iw9/level/_global/vfx_global_electrical_sparks_with_collision.vfx" );
+	level._effect[ "vfx_global_gnat_swarm" ]                       = LoadFX( "vfx/iw9/level/_global/vfx_global_gnat_swarm.vfx" );
+	level._effect[ "vfx_global_insect_cockroach" ]                 = LoadFX( "vfx/iw9/level/_global/vfx_global_insect_cockroach.vfx" );
+	level._effect[ "vfx_global_moths_1" ]                          = LoadFX( "vfx/iw9/level/_global/vfx_global_moths_1.vfx" );
+	level._effect[ "vfx_global_pipe_steam_pressure" ]              = LoadFX( "vfx/iw9/level/_global/vfx_global_pipe_steam_pressure.vfx" );
+	level._effect[ "vfx_global_room_humidity_01" ]                 = LoadFX( "vfx/iw9/level/_global/vfx_global_room_humidity_01.vfx" );
+	level._effect[ "vfx_global_trash_flies" ]                      = LoadFX( "vfx/iw9/level/_global/vfx_global_trash_flies.vfx" );
+	level._effect[ "vfx_lensflare_boxlight_cold" ]                 = LoadFX( "vfx/iw9/lensflares/vfx_lensflare_boxlight_cold.vfx" );
+	level._effect[ "vfx_lensflare_boxlight_cold_dim" ]             = LoadFX( "vfx/iw9/lensflares/vfx_lensflare_boxlight_cold_dim.vfx" );
+	level._effect[ "vfx_lensflare_boxlight_warm" ]                 = LoadFX( "vfx/iw9/lensflares/vfx_lensflare_boxlight_warm.vfx" );
+	level._effect[ "vfx_lensflare_boxlight_warm_dim" ]             = LoadFX( "vfx/iw9/lensflares/vfx_lensflare_boxlight_warm_dim.vfx" );
+	level._effect[ "vfx_lensflare_bulb_cold" ]                     = LoadFX( "vfx/iw9/lensflares/vfx_lensflare_bulb_cold.vfx" );
+	level._effect[ "vfx_lensflare_bulb_cold_soft" ]                = LoadFX( "vfx/iw9/lensflares/vfx_lensflare_bulb_cold_soft.vfx" );
+	level._effect[ "vfx_lensflare_bulb_warm" ]                     = LoadFX( "vfx/iw9/lensflares/vfx_lensflare_bulb_warm.vfx" );
+	level._effect[ "vfx_lensflare_bulb_warm_soft" ]                = LoadFX( "vfx/iw9/lensflares/vfx_lensflare_bulb_warm_soft.vfx" );
+	level._effect[ "vfx_lensflare_fluorescent_cold" ]              = LoadFX( "vfx/iw9/lensflares/vfx_lensflare_fluorescent_cold.vfx" );
+	level._effect[ "vfx_lensflare_fluorescent_warm" ]              = LoadFX( "vfx/iw9/lensflares/vfx_lensflare_fluorescent_warm.vfx" );
+	level._effect[ "vfx_lensflare_hanging_bulb_cold" ]             = LoadFX( "vfx/iw9/lensflares/vfx_lensflare_hanging_bulb_cold.vfx" );
+	level._effect[ "vfx_lensflare_hanging_bulb_warm" ]             = LoadFX( "vfx/iw9/lensflares/vfx_lensflare_hanging_bulb_warm.vfx" );
+	level._effect[ "vfx_global_water_drips" ]                      = LoadFX( "vfx/iw9/level/_global/vfx_global_water_drips.vfx" );
+	level._effect[ "vfx_dust_motes_med" ]                          = LoadFX( "vfx/iw9/level/_global/vfx_dust_motes_med.vfx" );
+	level._effect[ "vfx_global_dust_motes_lg" ]                    = LoadFX( "vfx/iw9/level/_global/vfx_global_dust_motes_lg.vfx" );
+	level._effect[ "vfx_global_dust_motes_sml" ]                   = LoadFX( "vfx/iw9/level/_global/vfx_global_dust_motes_sml.vfx" );
+	level._effect[ "vfx_cp_raid_wall_breach_debris" ]              = LoadFX( "vfx/iw9/cp/raid/vfx_cp_raid_wall_breach_debris.vfx" );
+
+	level._effect[ "vfx_cp_raid_cracked_wall_godray" ] = LoadFX( "vfx/iw9/cp/raid/vfx_cp_raid_cracked_wall_godray.vfx" );
+	level._effect[ "vfx_cp_raid_trap_gas_wall" ]       = LoadFX( "vfx/iw9/cp/raid/vfx_cp_raid_trap_gas_wall.vfx" );
+
+	level._effect[ "test_flashlight_1st" ] = LoadFX( "vfx/iw9/cp/vfx_helmet_bright_light_player.vfx" );
+	level._effect[ "test_flashlight_3rd" ] = LoadFX( "vfx/iw9/core/flashlight/vfx_flashlight_3rd_person.vfx" );
+/#
+	if ( GetDvar( #d"clientSideEffects" ) != "1" )
+	{
+	}
+#/
+	scripts\cp\utility\cp_toxic_gas::init_gas_fx();
+	scripts\cp\utility\pipe_room_utility::initPipeRoomVFX();
+	scripts\cp\utility\cp_electric_puddles::init_electric_puddles_vfx();
+	scripts\cp\harrier_boss\cp_trap_platforms::init_platforms_VFX();
+}

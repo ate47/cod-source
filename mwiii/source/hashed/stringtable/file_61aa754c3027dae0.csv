@@ -1,0 +1,8 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/resurgence_massive/lootset_root.csv,,,,
+chance,point,70,,,
+chance,cluster,70,,,
+chance,clusterSolo,40,,,
+reqAdd,brloot_armor_plate,1,,,
+reqAdd,support&!(lethal|tactical),1,1,,
+tagBoost,support,100,,,

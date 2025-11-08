@@ -1,0 +1,26 @@
+%force_cs_anim_index_match
+
+performance_slopes: blendspace2d( rangex="-35,35", rangey="0,250", blend_time="100",
+coords="{-35,23},{-35,56},{-35,120},{-35,170},{-35,220},{-35,250},{0,23},{0,56},{0,120},{0,170},{0,220},{0,250},{35,23},{35,56},{35,120},{35,170},{35,220},{35,250}",
+edges="{0,6,7},{6,7,12},{0,1,7},{7,12,13},{1,7,8},{7,8,13},{1,2,8},{8,13,14},{2,8,9},{8,9,14},{2,3,9},{9,14,15},{3,9,10},{9,10,15},{3,4,10},{10,15,16},{4,10,11},{10,11,16},{4,5,11},{11,16,17}",
+valuex=[groundslopepitch],valuey=[desiredspeed] ) loopsync complete
+{
+	mtg_wnd_shuffle_slope_down_8
+	mtg_wnd_walk_slope_down_8
+	mtg_wnd_fast_slope_down_8
+	mtg_wnd_jog_slope_down_8
+	mtg_wnd_run_slope_down_8
+	mtg_wnd_sprint_slope_down_8
+	mtg_wnd_shuffle_slope_level_8
+	mtg_wnd_walk_slope_level_8
+	mtg_wnd_fast_slope_level_8
+	mtg_wnd_jog_slope_level_8
+	mtg_wnd_run_slope_level_8
+	mtg_wnd_sprint_slope_level_8
+	mtg_wnd_shuffle_slope_up_8
+	mtg_wnd_walk_slope_up_8
+	mtg_wnd_fast_slope_up_8
+	mtg_wnd_jog_slope_up_8
+	mtg_wnd_run_slope_up_8
+	mtg_wnd_sprint_slope_up_8
+}

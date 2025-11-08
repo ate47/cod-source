@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EULA</title>
+  <link rel="stylesheet" href="styles/reset.css"></link>
+  <link rel="stylesheet" href="styles/styles.css"></link>
+</head>
+<body>
+<main id="acceptances">
+  <!-- decline modal -->
+  <div class="modal-container hidden">
+    <div class="decline-modal " id="modal">
+      <div class="modal-header-container">
+        <p></p>
+      </div>
+      <div class="modal-copy-container">
+        <p></p>
+        <div class="modal-btn-container" id="modal-btns">
+          <!-- <button id="quit" data-btn-copy="quit"> -->
+            <!-- Decline -->
+          <!-- </button> -->
+          <button id="ok" class="active" autofocus data-btn-copy="ok">
+            <!-- Acknowledge -->
+          </button>
+        </div>
+      </div>
+
+      <div class="controller-hints">
+        <div class="control" data-controller-string="select">
+          <div class="icon" data-icon-string="select"></div>
+          <p class="copy"></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="content-left">
+    <div class="artifact-nav-wrapper">
+
+    </div>
+
+    <div class="copy-container">
+      <div class="artifact-disclaimer">
+
+      </div>
+      <div class="copyright">
+        © 2022 Activision Publishing, Inc.
+      </div>
+    </div>
+
+    <div class="controller-hints">
+      <div class="control" data-controller-string="decline">
+        <div class="icon" data-icon-string="back"></div>
+        <p class="copy"></p>
+      </div>
+      <div class="control" data-controller-string="accept">
+        <div class="icon" data-icon-string="select"></div>
+        <p class="copy"></p>
+      </div>
+      <div class="control" data-controller-string="scroll">
+        <div class="icon" data-icon-string="rightStickLeft"></div>
+        <p class="copy"></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="content-right">
+    <section id="acceptances-wrapper">
+      <div class="scroll-banner">
+        <p></p>
+        <div class="copy-container"></div>
+      </div>
+      <div class="content-container">
+
+      </div>
+    </section>
+
+    <section id="controls">
+      <button id="decline">
+        <!-- Decline -->
+      </button>
+      <button id="accept">
+        <!-- Acknowledge -->
+      </button>
+    </section>
+
+  </div>
+
+</main>
+<section id="finished">Finished EULA Flow</section>
+<script type="text/javascript" src="scripts/webkit.js"></script>
+<script type="text/javascript" src="scripts/i18n.js"></script>
+<script type="text/javascript" src="scripts/langToLocale.js"></script>
+<script type="text/javascript" src="scripts/keyboard.js"></script>
+<script type="text/javascript" src="scripts/utils/icons-xbox.js"></script>
+<script type="text/javascript" src="scripts/utils/icons-playstation.js"></script>
+<script type="text/javascript" src="scripts/utils/utils.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+string,string,string,string,string
+tagReject,nodmz,100,,
+tagReject,nodrop,100,,
+rollChance,killstreak,15,,
+rollChance,weapon,25,,
+rollChance,plate_carrier,25,,
+tagChance,weapon&4,100,,
+tagChance,killstreak&3,50,,
+tagChance,killstreak&4,50,,
+tagChance,plate_carrier,100,,
+item,brloot_weapon_ar_mike4_lege,500,,
+reqAdd,weapon&4,1,0,100
+reqAdd,plate_carrier,1,0,100
+reqAdd,killstreak,1,0,100
+reqAdd,weapon|killstreak,2,0,100
+reqAdd,,1,0,100

@@ -1,0 +1,6 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/burn/lootset_root.csv,,,,
+reqAdd,ammo,2,,,# require ammo
+reqAdd,,1,,,# chance for plunder
+reqAdd,brloot_plate_carrier_3,1,1,25,
+reqLimit,brloot_plate_carrier_3,1,1,,

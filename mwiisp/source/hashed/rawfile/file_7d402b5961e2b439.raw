@@ -1,0 +1,19 @@
+///////////////////////////////////////////////////////////////////////////
+//Animation Blender
+//These assests are used in the animation blender test level to test blending of additive animations
+//This file is generated from the Animation Blender tool
+///////////////////////////////////////////////////////////////////////////
+animblender
+{
+	toggle_0: toggle(  index=[toggle_0_value], blendcurve="ease_in_sine", blendtime="0.2", restart="false", clearifnochild="false", errorifnochild="false" ) complete
+	{
+			sdr_mp_strafe_walk_8
+			sdr_mp_strafe_run_8_160
+			sdr_mp_strafe_jog_8
+	}
+}
+crap: //a dummy node used by the asm for pre-defined slots like facial, root, etc.
+{
+}
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////

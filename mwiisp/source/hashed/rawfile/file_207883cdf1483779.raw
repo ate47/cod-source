@@ -1,0 +1,9 @@
+% force_cs_anim_index_match
+walk_look: blendspace1d( range="-1,1", blend_time="250", coords="-.5,0,.5", value=[civilian_focus] ) loopsync 
+{
+		//civ_cas_walk_phone_curious_f_3
+		civ_cas_walk_phone_curious_f_6
+		civ_cas_walk_phone_curious_f_8
+		civ_cas_walk_phone_curious_f_4
+		//civ_cas_walk_phone_curious_f_1
+}

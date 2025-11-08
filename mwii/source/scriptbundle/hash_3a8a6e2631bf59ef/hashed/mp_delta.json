@@ -1,0 +1,112 @@
+{
+    "#hash_725a754d1c0c1a78": {
+        "#sunlight": {
+            "#intensity": 0.32,
+            "#color": "1 0.945739 0.905882 1"
+        },
+        "#data": "WSunny",
+        "#exploders": [],
+        "#soundeffects": []
+    },
+    "#hash_725a774d1c0c1dde": {
+        "#sunlight": {
+            "#intensity": 0.22,
+            "#color": "1 0.945739 0.905882 1"
+        },
+        "#visionsetsuffix": "_tr_03",
+        "#data": "WPartlyCloudy",
+        "#exploders": [
+            {
+                "#name": "mood_streetlights"
+            }
+        ],
+        "#soundeffects": [
+            {
+                "#id": "delta_mood"
+            }
+        ],
+        "#configuration": "hw_mp_delta_day_tr_03_lighting"
+    },
+    "#hash_725a784d1c0c1f91": {
+        "#sunlight": {
+            "#intensity": 0.265,
+            "#color": "1 0.945739 0.905882 1"
+        },
+        "#visionsetsuffix": "_tr_02",
+        "#data": "WMainlySunny",
+        "#exploders": [
+            {
+                "#name": "mood_streetlights"
+            }
+        ],
+        "#soundeffects": [
+            {
+                "#id": "delta_mood"
+            }
+        ],
+        "#configuration": "hw_mp_delta_day_tr_02_lighting"
+    },
+    "#hash_725a794d1c0c2144": {
+        "#sunlight": {
+            "#intensity": 0.13,
+            "#color": "1 0.945739 0.905882 1"
+        },
+        "#visionsetsuffix": "_tr_05",
+        "#data": "WFog",
+        "#exploders": [
+            {
+                "#active": true,
+                "#name": "mood_streetlights"
+            }
+        ],
+        "#soundeffects": [
+            {
+                "#id": "delta_mood",
+                "#state": "fog"
+            }
+        ],
+        "#configuration": "hw_mp_delta_day_tr_05_lighting"
+    },
+    "#hash_725a7a4d1c0c22f7": {
+        "#sunlight": {
+            "#intensity": 0.18,
+            "#color": "1 0.945739 0.905882 1"
+        },
+        "#visionsetsuffix": "_tr_04",
+        "#data": "WCloudy",
+        "#exploders": [
+            {
+                "#active": true,
+                "#name": "mood_streetlights"
+            }
+        ],
+        "#soundeffects": [
+            {
+                "#id": "delta_mood",
+                "#state": "fog"
+            }
+        ],
+        "#configuration": "hw_mp_delta_day_tr_04_lighting"
+    },
+    "#hash_725a7c4d1c0c265d": {
+        "#sunlight": {
+            "#intensity": 0.08,
+            "#color": "1 0.945739 0.905882 1"
+        },
+        "#visionsetsuffix": "_tr_06",
+        "#data": "WOvercast",
+        "#exploders": [
+            {
+                "#active": true,
+                "#name": "mood_streetlights"
+            }
+        ],
+        "#soundeffects": [
+            {
+                "#id": "delta_mood",
+                "#state": "fog"
+            }
+        ],
+        "#configuration": "hw_mp_delta_day_tr_06_lighting"
+    }
+}

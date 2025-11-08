@@ -1,0 +1,95 @@
+string,string,string,string,string,string,string,string,string,string,string,string,string,string,string
+setchancecol,mp/loot/br/horizontal/lootset_root.csv,2,,# root,,# column 0 is "Item"/"chance" etc, column 1 is the name, so first weight is in column 2,,,,,,,,
+setchancecol,mp/loot/br/horizontal/lootset_global.csv,3,,# global,,,,,,,,,,
+setchancecol,mp/loot/br/horizontal/lootset_cache_base.csv,4,,# cache_base,,,,,,,,,,
+setchancecol,mp/loot/br/horizontal/lootset_cache_lege.csv,5,,# cache_lege,,,,,,,,,,
+setchancecol,mp/loot/br/horizontal/lootset_empty.csv,6,,# N/A,,,,,,,,,,
+setchancecol,mp/loot/br/horizontal/lootset_buildings.csv,7,,# buildings,,,,,,,,,,
+setchancecol,mp/loot/br/horizontal/lootset_buildings_abundant.csv,8,,# abundant,,,,,,,,,,
+setchancecol,mp/loot/br/horizontal/lootset_contract_asn.csv,9,,# contract_asn,,,,,,,,,,
+setchancecol,mp/loot/br/horizontal/lootset_contract_dom.csv,10,,# contract_dom,,,,,,,,,,
+setchancecol,mp/loot/br/horizontal/lootset_contract_scav1.csv,11,,# contract_scav1,,,,,,,,,,
+setchancecol,mp/loot/br/horizontal/lootset_contract_scav2.csv,12,,# contract_scav2,,,,,,,,,,
+setchancecol,mp/loot/br/horizontal/lootset_contract_scav3.csv,13,,# contract_scav3,,,,,,,,,,
+setchancecol,mp/loot/br/horizontal/dropzone/lootset_global.csv,3,,# global,,,,,,,,,,
+setchancecol,mp/loot/br/horizontal/dropzone/lootset_otherzone.csv,7,,# buildings,,,,,,,,,,
+setchancecol,mp/loot/br/horizontal/dropzone/lootset_globalzone.csv,7,,# buildings,,,,,,,,,,
+setchancecol,mp/loot/br/horizontal/dropzone/lootset_dropzone.csv,8,,# abundant,,,,,,,,,,
+setchancecol,mp/loot/br/horizontal/dropzone/lootset_airdrop_dropzone.csv,14,,# dropzone airdrop,,,,,,,,,,
+tagReject,delta,,100,100,100,100,100,100,100,100,100,100,100,100
+tagReject,noseason,,100,100,100,100,100,100,100,100,100,100,100,100
+Central Control,,,,,,,,,,,,,,
+chance,ammo,,300,2,2,0,300,300,15,15,2,20,20,10
+chance,lethal,,80,20,12,0,70,70,15,15,20,5,5,15
+chance,tactical,,80,20,12,0,70,70,15,15,20,5,5,15
+chance,weapon,,250,1,1,0,250,250,15,15,1,20,20,10
+chance,killstreak,,8,6,15,0,16,16,4,5,8,5,5,10
+chance,super,,16,12,20,0,32,32,8,5,16,5,15,10
+chance,revive,,8,6,15,0,16,16,4,5,8,5,5,10
+chance,gear,,8,6,15,0,16,16,4,5,8,5,5,10
+chance,health,,170,15,6,0,150,150,10,15,15,15,5,10
+chance,plunder,,60,12,2,0,60,60,10,5,2,15,15,10
+chance,tablet,,30,0,0,0,30,30,0,0,0,0,0,0
+chance,keycard,,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_equip_gasmask,,90,70,50,0,85,80,70,70,70,70,70,0
+item,brloot_equip_gasmask_durable,,10,30,50,0,15,20,30,30,30,30,30,100
+item,brloot_armor_plate,,100,100,100,0,100,100,100,100,100,100,100,100
+item,brloot_self_revive,,100,100,100,0,100,100,100,100,100,100,100,100
+item,brloot_ammo_12g,,12,12,12,0,12,12,12,12,12,12,12,12
+item,brloot_ammo_50cal,,20,20,20,0,20,20,20,20,20,20,20,20
+item,brloot_ammo_762,,32,32,32,0,32,32,32,32,32,32,32,32
+item,brloot_ammo_919,,28,28,28,0,28,28,28,28,28,28,28,28
+item,brloot_ammo_rocket,,8,8,8,0,8,8,8,8,8,8,8,8
+item,brloot_offhand_frag,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_atmine,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_claymore,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_molotov,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_semtex,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_thermite,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_throwingknife,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_c4,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_bunkerbuster,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_health_adrenaline,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_concussion,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_decoy,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_flash,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_binoculars,,5,5,5,0,5,5,5,5,5,5,5,5
+item,brloot_offhand_heartbeatsensor,,5,5,5,0,5,5,5,5,5,5,5,5
+item,brloot_offhand_snapshot,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_shockstick,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_gas,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_smoke,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_taccover,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_offhand_trophysystem,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_super_stoppingpower,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_super_munitionsbox,,3,3,3,0,3,3,3,3,3,3,3,3
+item,brloot_super_armorbox,,3,3,3,0,3,3,3,3,3,3,3,3
+item,brloot_super_deadsilence,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_super_soundveil,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_super_battlerage,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_super_emppulse,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_killstreak_clusterstrike_mgl,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_killstreak_precision_airstrike_mgl,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_killstreak_uav_mgl,,10,10,10,0,10,10,10,10,10,10,10,10
+item,brloot_killstreak_auav_mgl,,5,5,5,0,5,5,5,5,5,5,5,5
+item,brloot_killstreak_cluster_spike_mgl,,15,15,15,0,15,15,15,15,15,15,15,15
+rarity,0_weapon,,20,0,0,0,20,20,0,0,0,0,0,0
+rarity,1_weapon,,33,30,0,0,33,33,30,30,30,30,30,0
+rarity,2_weapon,,33,30,0,0,33,33,30,30,30,30,30,0
+rarity,3_weapon,,14,30,50,0,14,14,30,30,30,30,30,0
+rarity,4_weapon,,0,10,50,0,0,0,10,10,10,10,10,100
+item,brloot_plunder_cash_common_1,,50,0,0,0,15,10,0,0,0,0,0,0
+item,brloot_plunder_cash_uncommon_1,,40,30,0,0,35,40,30,30,30,30,30,0
+item,brloot_plunder_cash_uncommon_2,,10,30,0,0,40,40,30,30,30,30,30,0
+item,brloot_plunder_cash_uncommon_3,,0,25,50,0,10,5,25,25,25,25,25,0
+item,brloot_plunder_cash_rare_1,,0,15,30,0,0,5,15,15,15,15,15,50
+item,brloot_plunder_cash_rare_2,,0,0,15,0,0,0,0,0,0,0,0,30
+item,brloot_plunder_cash_epic_1,,0,0,5,0,0,0,0,0,0,0,0,20
+item,brloot_plunder_cash_epic_2,,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_plunder_cash_legendary_1,,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_assassination_tablet_mgl,,20,0,0,0,20,20,0,0,0,0,0,0
+item,brloot_domination_tablet_mgl,,20,0,0,0,20,20,0,0,0,0,0,0
+item,brloot_scavenger_tablet_mgl,,20,0,0,0,20,20,0,0,0,0,0,0
+item,brloot_timedrun_tablet_mgl,,20,0,0,0,20,20,0,0,0,0,0,0
+item,brloot_vip_tablet_mgl,,20,0,0,0,20,20,0,0,0,0,0,0
+item,brloot_underground_keycard,,0,0,0,0,0,0,0,0,0,0,0,0

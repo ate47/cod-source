@@ -1,0 +1,83 @@
+main()
+{
+	level._effect[ "vfx_grandprix_box_light_flare_track" ] = loadfx( "vfx/iw9/level/mp_grandprix/vfx_grandprix_box_light_flare_track" );
+	level._effect[ "vfx_grandprix_dust_motes_med" ]                    = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_dust_motes_med.vfx" );
+	level._effect[ "vfx_grandprix_boat_wake_01" ]                      = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_boat_wake_01.vfx" );
+	level._effect[ "vfx_grandprix_dust_motes_sml" ]                    = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_dust_motes_sml.vfx" );
+	level._effect[ "vfx_grandprix_dust_motes_lg" ]                     = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_dust_motes_lg.vfx" );
+	level._effect[ "vfx_grandprix_falling_ivy_leaves" ]                = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_falling_ivy_leaves.vfx" );
+	level._effect[ "vfx_global_birds_circling_seagulls" ]              = LoadFX( "vfx/iw9/level/_global/vfx_global_birds_circling_seagulls.vfx" );
+	level._effect[ "vfx_global_water_drips" ]                          = LoadFX( "vfx/iw9/level/_global/vfx_global_water_drips.vfx" );
+	level._effect[ "vfx_grandprix_fire_mid_wind_02" ]                  = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_fire_mid_wind_02.vfx" );
+	level._effect[ "vfx_grandprix_fire_mid_wind" ]                     = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_fire_mid_wind.vfx" );
+	level._effect[ "vfx_grandprix_sunflare" ]                          = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_sunflare.vfx" );
+	level._effect[ "vfx_global_electrical_sparks_with_collision_sml" ] = LoadFX( "vfx/iw9/level/_global/vfx_global_electrical_sparks_with_collision_sml.vfx" );
+	level._effect[ "vfx_global_electrical_sparks_with_collision" ]     = LoadFX( "vfx/iw9/level/_global/vfx_global_electrical_sparks_with_collision.vfx" );
+	level._effect[ "vfx_grandprix_atmosphere_smoke" ]                  = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_atmosphere_smoke.vfx" );
+	level._effect[ "vfx_grandprix_headlight_lensflare_outer" ]         = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_headlight_lensflare_outer.vfx" );
+	level._effect[ "vfx_grandprix_headlight_lensflare_nolight" ]       = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_headlight_lensflare_nolight.vfx" );
+	level._effect[ "vfx_grandprix_headlight_lensflare_r" ]             = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_headlight_lensflare_r.vfx" );
+	level._effect[ "vfx_grandprix_track_light_fixture_flare_int" ]     = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_track_light_fixture_flare_int.vfx" );
+	level._effect[ "vfx_grandprix_box_light_flare_sml" ]               = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_box_light_flare_sml.vfx" );
+	level._effect[ "vfx_grandprix_box_light_flare_red" ]               = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_box_light_flare_red.vfx" );
+	level._effect[ "vfx_grandprix_box_light_flare_low" ]               = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_box_light_flare_low.vfx" );
+	level._effect[ "vfx_grandprix_building_roof_plume" ]               = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_building_roof_plume.vfx" );
+	level._effect[ "vfx_grandprix_building_smoke_back" ]               = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_building_smoke_back.vfx" );
+	level._effect[ "vfx_grandprix_track_light_fixture_flare" ]         = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_track_light_fixture_flare.vfx" );
+	level._effect[ "vfx_grandprix_fluorescent_warm_lf" ]               = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_fluorescent_warm_lf.vfx" );
+	level._effect[ "vfx_grandprix_fire_drip" ]                         = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_fire_drip.vfx" );
+	level._effect[ "vfx_grandprix_wall_smoke" ]                        = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_wall_smoke.vfx" );
+	level._effect[ "vfx_grandprix_box_light_flare" ]                   = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_box_light_flare.vfx" );
+	level._effect[ "vfx_grandprix_fluorescent_lf" ]                    = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_fluorescent_lf.vfx" );
+	level._effect[ "vfx_grandprix_white_smoke" ]                       = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_white_smoke.vfx" );
+	level._effect[ "vfx_grandprix_moving_dust_low" ]                   = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_moving_dust_low.vfx" );
+	level._effect[ "vfx_grandprix_ash_screen" ]                        = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_ash_screen.vfx" );
+	level._effect[ "vfx_grandprix_building_fire_side" ]                = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_building_fire_side.vfx" );
+	level._effect[ "vfx_global_fire_ankle_wind" ]                      = LoadFX( "vfx/iw9/level/_global/vfx_global_fire_ankle_wind.vfx" );
+	level._effect[ "vfx_global_fire_knee" ]                            = LoadFX( "vfx/iw9/level/_global/vfx_global_fire_knee.vfx" );
+	level._effect[ "vfx_global_fire_knee_nosmoke" ]                    = LoadFX( "vfx/iw9/level/_global/vfx_global_fire_knee_nosmoke.vfx" );
+	level._effect[ "vfx_global_fire_toe" ]                             = LoadFX( "vfx/iw9/level/_global/vfx_global_fire_toe.vfx" );
+	level._effect[ "vfx_global_fire_toe_2" ]                           = LoadFX( "vfx/iw9/level/_global/vfx_global_fire_toe_2.vfx" );
+	level._effect[ "vfx_global_fire_ankle" ]                           = LoadFX( "vfx/iw9/level/_global/vfx_global_fire_ankle.vfx" );
+	level._effect[ "vfx_global_fire_ankle_wind" ]                      = LoadFX( "vfx/iw9/level/_global/vfx_global_fire_ankle_wind.vfx" );
+	level._effect[ "vfx_global_fire_ankle_wind_2" ]                    = LoadFX( "vfx/iw9/level/_global/vfx_global_fire_ankle_wind_2.vfx" );
+	level._effect[ "vfx_grandprix_firetruck_lights_sml" ]              = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_firetruck_lights_sml.vfx" );
+	level._effect[ "vfx_grandprix_vent_round" ]                        = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_vent_round.vfx" );
+	level._effect[ "vfx_grandprix_firetruck_lights" ]                  = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_firetruck_lights.vfx" );
+	level._effect[ "vfx_global_trash_flies" ]                          = LoadFX( "vfx/iw9/level/_global/vfx_global_trash_flies.vfx" );
+	level._effect[ "vfx_global_moths_1" ]                              = LoadFX( "vfx/iw9/level/_global/vfx_global_moths_1.vfx" );
+	level._effect[ "vfx_global_dust_linger_02" ]                       = LoadFX( "vfx/iw9/level/_global/vfx_global_dust_linger_02.vfx" );
+	level._effect[ "vfx_global_butterflies" ]                          = LoadFX( "vfx/iw9/level/_global/vfx_global_butterflies.vfx" );
+	level._effect[ "vfx_grandprix_race_car_tread" ]                    = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_race_car_tread.vfx" );
+	level._effect[ "vfx_grandprix_car_sparks_rnr" ]                    = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_car_sparks_rnr.vfx" );
+	level._effect[ "vfx_grandprix_spot_fire_med" ]                     = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_spot_fire_med.vfx" );
+	level._effect[ "vfx_grandprix_spot_fire_sml" ]                     = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_spot_fire_sml.vfx" );
+	level._effect[ "vfx_grandprix_fire_car_wheel_01" ]                 = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_fire_car_wheel_01.vfx" );
+	level._effect[ "vfx_grandprix_car_fire_02" ]                       = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_car_fire_02.vfx" );
+	level._effect[ "vfx_grandprix_car_fire_01" ]                       = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_car_fire_01.vfx" );
+	level._effect[ "vfx_global_gnat_swarm" ]                           = LoadFX( "vfx/iw9/level/_global/vfx_global_gnat_swarm.vfx" );
+	level._effect[ "vfx_global_dust_linger" ]                          = LoadFX( "vfx/iw9/level/_global/vfx_global_dust_linger.vfx" );
+	level._effect[ "vfx_grandprix_car_sparks_rnr" ]                    = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_car_sparks_rnr.vfx" );
+	level._effect[ "vfx_grandprix_building_smoke_sml" ]                = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_building_smoke_sml.vfx" );
+	level._effect[ "vfx_grandprix_building_fire_long" ]                = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_building_fire_long.vfx" );
+	level._effect[ "vfx_grandprix_building_fire_sml" ]                 = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_building_fire_sml.vfx" );
+	level._effect[ "vfx_grandprix_building_fire_periph" ]              = LoadFX( "vfx/iw9/level/mp_grandprix/vfx_grandprix_building_fire_periph.vfx" );
+
+
+
+	//---------------------VOLUMETRIC Height Fog--------------------------//
+	SetDvar( #d"r_volumetricdepth"                   , "4000" );
+	SetDvar( #d"r_fogHeightMapNoiseDt", 10 ); //Speed of fog Noise movement, larger number appears to be slower. 1 looks to repeat pattern every 1 second.
+	SetDvar( #d"r_fogHeightMapNoiseScrollDir"     , "1 0 0" );//Noise scrolling vector direction in world space
+	SetDvar( #d"r_fogHeightMapNoiseFlowmapUVScale", 0 );//broken - leave at 0
+	SetDvar( #d"r_fogHeightMapNoiseUVScale", 600 );//Size of fog chunks.  Bigger number is bigger chunks and gaps;
+	SetDvar( #d"r_fogHeightMapFade"        , 1 );//Max Density
+	SetDvar( #d"r_fogHeightMapNoiseBias"   , -0.1 );//Max Density
+	
+/#
+	if ( GetDvar( #d"clientSideEffects" ) != "1" )
+	{
+	}
+#/
+
+}

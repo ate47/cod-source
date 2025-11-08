@@ -1,0 +1,38 @@
+{
+    "#hash_40090eefaf9a29b1": {
+        "#some_float": 0.2,
+        "#some_int": 5,
+        "#some_string": "hello",
+        "#test_structs": [
+            {
+                "#some_float": 0.2,
+                "#some_string": "hello_1",
+                "#test_structs": [
+                    {
+                        "#some_float": 0.6,
+                        "#some_string": "hello_2",
+                        "#test_structs": [
+                            {
+                                "#some_float": 0.7,
+                                "#some_string": "hello_3",
+                                "#test_structs": [
+                                    {
+                                        "#some_float": 0.2,
+                                        "#some_string": "hello",
+                                        "#test_structs": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "#name": "default_name",
+        "#some_struct": {
+            "#some_float": 0.4,
+            "#some_string": "inside_some_struct",
+            "#test_structs": []
+        }
+    }
+}

@@ -1,0 +1,10 @@
+string,string,string,string
+inherit,mp/loot/br/plunder/lootset_root.csv,,
+chance,point,90,
+chance,cluster,90,
+chance,clusterSolo,10,
+reqAdd,recon&!(lethal|tactical),1,1
+reqAdd,defensive&!(lethal|tactical),1,1
+tagBoost,recon,100,
+tagBoost,defensive,100,
+reqAdd,brloot_gascan,1,

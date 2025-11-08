@@ -1,0 +1,12 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/totallythesamebr/lootset_root.csv,,,,
+chance,point,65,#     % of non-clustered points that will be populated,,
+chance,cluster,65,#     % of clusters that will be populated,,
+chance,clusterSolo,50,#     % of clusters that will become invalid after spawning one item (with dependencies),,
+reqLimit,tablet,1,,,
+reqAdd,brloot_armor_plate,1,,,# required plates
+reqAdd,brloot_health_adrenaline,2,,,# required stims
+reqAdd,brloot_self_revive,1,,33,# required chance self revive
+reqLimit,brloot_self_revive,,1,,limit self revives
+reqAdd,brloot_redeploy_token,1,,100,# required redeploy token
+reqLimit,brloot_redeploy_token,,3,,# limit # of redeploy tokens

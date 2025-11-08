@@ -1,0 +1,36 @@
+string,string,string,string,string,string,string,string,string,string
+ui_raid_number_screen_a,1,,g,i,0,0,999999999,,
+ui_raid_number_screen_b,1,,g,i,0,0,999999999,,
+ui_raid_number_screen_c,1,,g,i,0,0,999999999,,
+ui_raid_number_russian_chars_1_3,1,,g,i,0,0,999999,,
+ui_raid_number_russian_chars_4_5,1,,g,i,0,0,9999,,
+ui_chemical_1_amount,1,,g,i,-1,-1,999999,,
+ui_chemical_2_amount,1,,g,i,-1,-1,999999,,
+ui_chemical_3_amount,1,,g,i,-1,-1,999999,,
+ui_chemical_4_amount,1,,g,i,-1,-1,999999,,
+ui_chemical_1_stability,1,,g,i,0,0,99999,,
+ui_chemical_2_stability,1,,g,i,0,0,99999,,
+ui_chemical_3_stability,1,,g,i,0,0,99999,,
+ui_chemical_4_stability,1,,g,i,0,0,99999,,
+ui_rocket_thruster_stage,1,,g,i,0,0,6,,
+ui_rocket_fuel_total,1,,g,i,-1,-1,99999,,
+ui_rocket_fuel_stability,1,,g,i,0,0,9999999,,
+ui_raid_lua_render_stage,1,,g,i,0,0,10,,
+ui_raid_lava_server_state,1,,g,i,0,0,4,,
+ui_raid_lava_client_connected,1,,g,i,0,0,8,,
+ui_raid_number_retries,1,,g,i,0,0,4,,
+ui_raid_lava_authenticate_seq,1,,g,i,0,0,99999999,,
+ui_raid_lava_client_first_connected,1,,g,i,0,0,4,,
+ui_raid_swivel_amplitude,1,,g,i,0,0,5,,
+ui_raid_swivel_frequency,1,,g,i,0,0,5,,
+ui_raid_swivel_signal_type,1,,g,i,0,0,5,,
+ui_raid_swivel_temperature,1,,g,i,0,0,9,,
+zm_tum_success_center,1,,c,f,0.6,0,1,,
+zm_tum_success_width,1,,c,f,0.1,0,1,,
+zm_tum_marker_pos,1,,c,f,0,0,1,1,
+zm_tum_display,1,,c,i,0,0,3,,displays on timed use meter
+zm_tum_start_delay,1,,c,i,1000,0,10000,,begins the movement of timed use meter in ms
+zm_tum_speed_increment,1,,c,i,25,0,10000,,movement amount added per loop
+zm_tum_max_speed,1,,c,i,200,0,10000,,max speed of the marker
+cp_detonation_timer,1,,g,t,0,,,1,main timer used for trap room
+ui_trap_room,1,,g,a,0,0,3,,

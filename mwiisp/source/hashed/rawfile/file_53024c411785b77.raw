@@ -1,0 +1,26 @@
+%force_cs_anim_index_match
+
+move_strafe: loopsync blendspace2d( rangex="-180,180", rangey="30,60", blend_time="250",
+coords="{-180,60},{-135,60},{-90,60},{-45,60},{0,60},{45,60},{90,60},{135,60},{180,60},{-180,30},{-135,30},{-90,30},{-45,30},{0,30},{45,30},{90,30},{135,30},{180,30}",
+edges="{0,9,10},{0,1,10},{1,10,11},{1,2,11},{2,11,12},{2,3,12},{3,12,13},{3,4,13},{4,5,13},{5,13,14},{5,6,14},{6,14,15},{6,7,15},{7,15,16},{7,8,16},{8,16,17}",
+valuex=[strafeyaw], valuey=[desiredspeed] ) 
+{
+	boss_injured_search_strafe_walk_2
+	boss_injured_search_strafe_walk_3
+	boss_injured_search_strafe_walk_6
+	boss_injured_search_strafe_walk_9
+	boss_injured_search_strafe_walk_8
+	boss_injured_search_strafe_walk_7
+	boss_injured_search_strafe_walk_4
+	boss_injured_search_strafe_walk_1
+	boss_injured_search_strafe_walk_2b
+	boss_injured_search_strafe_shuffle_2
+	boss_injured_search_strafe_shuffle_3
+	boss_injured_search_strafe_shuffle_6
+	boss_injured_search_strafe_shuffle_9
+	boss_injured_search_strafe_shuffle_8
+	boss_injured_search_strafe_shuffle_7
+	boss_injured_search_strafe_shuffle_4
+	boss_injured_search_strafe_shuffle_1
+	boss_injured_search_strafe_shuffle_2b
+}

@@ -1,0 +1,6 @@
+string,string,string,string
+inherit,mp/loot/br/sealion/dmz/lootset_root.csv,,
+option,no_points_ground,1,
+chance,point,35,#     % of non-clustered points that will be populated
+chance,cluster,45,#     % of clusters that will be populated
+chance,clusterSolo,35,#     % of clusters that will become invalid after spawning one item (with dependencies)

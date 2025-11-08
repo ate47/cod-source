@@ -1,0 +1,485 @@
+#using script_16ea1b94f0f381b3;
+#using script_193e3e231841082f;
+#using script_3b78d23dad7ec5be;
+#using script_6c63dbe7d4c85e19;
+#using script_7edf952f8921aa6b;
+#using script_bd0d3e8f9ff5c11;
+#using scripts\asm\asm;
+#using scripts\common\ai;
+#using scripts\common\devgui;
+#using scripts\common\utility;
+#using scripts\engine\math;
+#using scripts\engine\trace;
+#using scripts\engine\utility;
+
+#namespace zombie_deathworm;
+
+// Namespace zombie_deathworm / namespace_f00b3245968fa941
+// Params 0
+// Checksum 0x0, Offset: 0x291
+// Size: 0x34
+function function_2dd162d826667677()
+{
+    self.var_544ffa1d219d6810 = undefined;
+    self.var_a60b211ca1cf2a4e = 0;
+    self.var_cadb0f258ae78683 = 400;
+    thread function_a0d80c109b9ae1a4();
+    
+    /#
+        function_c321972f4a10279a();
+    #/
+}
+
+// Namespace zombie_deathworm / namespace_f00b3245968fa941
+// Params 3
+// Checksum 0x0, Offset: 0x2cd
+// Size: 0xd9
+function startsnakebite( asmname, statename, params )
+{
+    if ( isdefined( self.var_6856f1954a5f95cb ) && gettime() - self.var_6856f1954a5f95cb < 17000 )
+    {
+        self function_3e89eb3d8e3f1811( "snakebite_fast", 1 );
+        return;
+    }
+    
+    var_de7821bc51ab43a0 = [[ self.var_8f1d8328f7a9091b ]]();
+    alive_percentage = [[ self.var_c54a21ea717fe8a5 ]]();
+    is_injured = self.health < self.maxhealth * 0.5;
+    
+    if ( var_de7821bc51ab43a0 >= 4 || var_de7821bc51ab43a0 > 1 && alive_percentage >= 1 || is_injured )
+    {
+        self function_3e89eb3d8e3f1811( "snakebite_fast", 1 );
+        return;
+    }
+    
+    self function_3e89eb3d8e3f1811( "snakebite_fast", 0 );
+}
+
+// Namespace zombie_deathworm / namespace_f00b3245968fa941
+// Params 3
+// Checksum 0x0, Offset: 0x3ae
+// Size: 0x36
+function function_82000d1cf70c611d( asmname, statename, params )
+{
+    self function_3e89eb3d8e3f1811( "in_snake_bite", 0 );
+    self.var_6856f1954a5f95cb = gettime();
+}
+
+// Namespace zombie_deathworm / namespace_f00b3245968fa941
+// Params 0, eflags: 0x4
+// Checksum 0x0, Offset: 0x3ec
+// Size: 0x49a
+function private function_ee486eaddde6fd68()
+{
+    self endon( "death" );
+    self endon( "snake_bite_end" );
+    self.var_a60b211ca1cf2a4e = 0;
+    self.var_cadb0f258ae78683 = 400;
+    self.var_3f4dee1c560fc063 = undefined;
+    is_fast = istrue( self getaiblackboarddynamic( "snakebite_fast" ) );
+    playback_rate = is_fast ? 2 : 1;
+    tracking_time = 4000;
+    alive_percentage = [[ self.var_c54a21ea717fe8a5 ]]();
+    
+    if ( alive_percentage >= 1 && self.var_f8adf1aaec88d636 >= 7 || alive_percentage >= 0.8 && self.var_f8adf1aaec88d636 >= 13 )
+    {
+        tracking_time = 6000;
+    }
+    
+    var_20624047a42925e0 = gettime() + tracking_time / playback_rate;
+    
+    while ( gettime() < var_20624047a42925e0 )
+    {
+        if ( isdefined( self.var_544ffa1d219d6810 ) )
+        {
+            if ( !function_e82696e7b59178f3( self.var_544ffa1d219d6810.origin ) )
+            {
+                target_yaw = getyawtospot( self.var_544ffa1d219d6810.origin );
+                target_yaw = clamp( target_yaw, -70, 70 );
+                target_dist = distance2d( self.origin, self.var_544ffa1d219d6810.origin );
+                target_dist = clamp( target_dist, 471, 1886 );
+                self.var_a60b211ca1cf2a4e = target_yaw;
+                self.var_cadb0f258ae78683 = target_dist;
+                self.var_3f4dee1c560fc063 = self.var_544ffa1d219d6810.origin;
+                
+                /#
+                    if ( function_2113bc484dd870c2() )
+                    {
+                        sphere( self.var_3f4dee1c560fc063, 20, ( 1, 0, 0 ) );
+                        bite_print( "<dev string:x1c>", self.var_3f4dee1c560fc063 );
+                    }
+                #/
+            }
+            else
+            {
+                /#
+                    bite_print( "<dev string:x2a>", self.var_544ffa1d219d6810.origin );
+                #/
+            }
+        }
+        
+        self function_a490fd20800374d8( self.var_a60b211ca1cf2a4e );
+        self function_12df4eebdbb4f79( self.var_cadb0f258ae78683 );
+        
+        /#
+            if ( function_2113bc484dd870c2() )
+            {
+                head_pos = self gettagorigin( "<dev string:x45>" );
+                line( self.origin, head_pos, ( 1, 0, 0 ) );
+                bite_print( "<dev string:x4f>" + distance2d( self.origin, head_pos ), head_pos );
+            }
+        #/
+        
+        waitframe();
+    }
+    
+    thread snake_bite_danger_zone();
+    
+    /#
+        bite_print( "<dev string:x65>" + self.var_cadb0f258ae78683 );
+    #/
+    
+    if ( self.var_cadb0f258ae78683 > 1000 )
+    {
+        return;
+    }
+    
+    self endon( "snake_bite_about_to_hit" );
+    
+    while ( true )
+    {
+        head_pos = self gettagorigin( "j_head" );
+        head_angles = self gettagangles( "j_head" );
+        head_forward = anglestoforward( head_angles );
+        head_up = anglestoup( head_angles );
+        forward_amount = getdvarfloat( @"hash_7174d8c71ecb56dc", 450 );
+        up_amount = getdvarfloat( @"hash_d5be4cd033c8e19c", 150 );
+        playerclip_contents = create_playerclip_contents();
+        trace = ray_trace( head_pos + head_forward * forward_amount * 0.5 + head_up * up_amount, head_pos + head_forward * forward_amount + head_up * up_amount, self, playerclip_contents );
+        trace2 = ray_trace( head_pos + head_forward * forward_amount * 0.5 - head_up * up_amount, head_pos + head_forward * forward_amount - head_up * up_amount, self, playerclip_contents );
+        trace3 = ray_trace( head_pos + head_forward * forward_amount * 0.5 - head_up * up_amount, head_pos + head_forward * forward_amount * 0.5 - head_up * up_amount * 2, self, playerclip_contents );
+        
+        /#
+            if ( function_2113bc484dd870c2() )
+            {
+                draw_trace( trace, ( 1, 0, 0 ), 1 );
+                draw_trace( trace2, ( 1, 0, 0 ), 1 );
+                draw_trace( trace3, ( 1, 0, 0 ), 1 );
+            }
+        #/
+        
+        if ( isdefined( trace ) && trace[ "hittype" ] == "hittype_world" || isdefined( trace2 ) && trace2[ "hittype" ] == "hittype_world" || isdefined( trace3 ) && trace3[ "hittype" ] == "hittype_world" )
+        {
+            self notify( "snake_bite_hit" );
+            self asmfireevent( self.asmname, "end" );
+        }
+        
+        waitframe();
+    }
+}
+
+// Namespace zombie_deathworm / namespace_f00b3245968fa941
+// Params 0, eflags: 0x4
+// Checksum 0x0, Offset: 0x88e
+// Size: 0xb0
+function private function_a0d80c109b9ae1a4()
+{
+    self endon( "death" );
+    
+    while ( true )
+    {
+        self waittill( "snake_bite_start" );
+        ent_flag_clear( "has_snake_bite_hit" );
+        thread thread_on_notify( "snake_bite_end", &function_2ec0b59b433b1f34, undefined, undefined, self );
+        self.var_544ffa1d219d6810 = self.enemy;
+        
+        /#
+            if ( function_2113bc484dd870c2() )
+            {
+                if ( isdefined( self.var_544ffa1d219d6810 ) )
+                {
+                    line( self.origin, self.var_544ffa1d219d6810.origin, ( 1, 0, 0 ) );
+                }
+                
+                bite_print( "<dev string:x92>" );
+            }
+        #/
+        
+        thread function_ee486eaddde6fd68();
+        thread function_eef6594341c62496();
+    }
+}
+
+// Namespace zombie_deathworm / namespace_f00b3245968fa941
+// Params 0, eflags: 0x4
+// Checksum 0x0, Offset: 0x946
+// Size: 0x199
+function private snake_bite_danger_zone()
+{
+    self endon( "snake_bite_hit" );
+    self endon( "snake_bite_end" );
+    self endon( "death" );
+    var_a3986c6c03221f24 = 200;
+    self.danger_players = [];
+    
+    while ( true )
+    {
+        if ( isdefined( self.var_3f4dee1c560fc063 ) )
+        {
+            players = getplayersinradiussharedfunc( self.var_3f4dee1c560fc063, var_a3986c6c03221f24 );
+            
+            /#
+                if ( function_2113bc484dd870c2() )
+                {
+                    sphere( self.var_3f4dee1c560fc063, var_a3986c6c03221f24, ( 1, 1, 0 ) );
+                    bite_print( "<dev string:xa6>", self.var_3f4dee1c560fc063 );
+                }
+            #/
+            
+            foreach ( player in players )
+            {
+                if ( !player ent_flag( "in_snake_bite_danger_zone" ) )
+                {
+                    player function_3677f2be30fdd581( "deathwormVFX", "snake_bite_danger" );
+                    thread function_cf9764313ad75400( player );
+                    player ent_flag_set( "in_snake_bite_danger_zone" );
+                }
+            }
+            
+            foreach ( danger_player in self.danger_players )
+            {
+                if ( !array_contains( players, danger_player ) )
+                {
+                    danger_player function_3677f2be30fdd581( "deathwormVFX", "off" );
+                    danger_player ent_flag_clear( "in_snake_bite_danger_zone" );
+                }
+            }
+            
+            self.danger_players = players;
+        }
+        
+        waitframe();
+    }
+}
+
+// Namespace zombie_deathworm / namespace_f00b3245968fa941
+// Params 1, eflags: 0x4
+// Checksum 0x0, Offset: 0xae7
+// Size: 0x70
+function private function_cf9764313ad75400( player )
+{
+    self endon( "death" );
+    waittill_any_3( "death", "snake_bite_hit", "snake_bite_end" );
+    currentstate = player getscriptablepartstate( "deathwormVFX", 1 );
+    
+    if ( isdefined( currentstate ) && currentstate != "swallowed" )
+    {
+        player function_3677f2be30fdd581( "deathwormVFX", "off" );
+    }
+    
+    player ent_flag_clear( "in_snake_bite_danger_zone" );
+}
+
+// Namespace zombie_deathworm / namespace_f00b3245968fa941
+// Params 0, eflags: 0x4
+// Checksum 0x0, Offset: 0xb5f
+// Size: 0x3c
+function private function_2ec0b59b433b1f34()
+{
+    ai::function_3e5ce428974325fb( "snake_bite_cooldown", getdvarint( @"hash_5b8c5fcfa978b47", 5000 ) );
+    ai::function_3e5ce428974325fb( "snake_bite_close_cooldown", getdvarint( @"hash_bf7cde3d3856076a", 2000 ) );
+}
+
+// Namespace zombie_deathworm / namespace_f00b3245968fa941
+// Params 3
+// Checksum 0x0, Offset: 0xba3
+// Size: 0x30d
+function melee_impact( var_f238c840934e431e, damage_radius, max_damage )
+{
+    if ( !isdefined( damage_radius ) )
+    {
+        damage_radius = 400;
+    }
+    
+    if ( !isdefined( max_damage ) )
+    {
+        max_damage = 420;
+    }
+    
+    head_pos = self gettagorigin( "j_head" );
+    assert( isdefined( head_pos ) );
+    var_b9f231daf3d07f7d = 60000;
+    var_ac4af4d91d50f961 = 50000;
+    targets = getplayersandaiarrayinradius( head_pos, damage_radius );
+    
+    foreach ( target in targets )
+    {
+        var_fbe2fca375ce1bbb = max_damage;
+        
+        if ( isplayer( target ) )
+        {
+            function_d26c4202b8c890da( target, head_pos );
+        }
+        else if ( isai( target ) )
+        {
+            var_fbe2fca375ce1bbb = 0;
+            
+            if ( isdefined( target.aicategory ) && !istrue( var_f238c840934e431e ) )
+            {
+                if ( target.aicategory == "normal" )
+                {
+                    var_fbe2fca375ce1bbb = target.health;
+                }
+                else if ( target.aicategory == "special" )
+                {
+                    var_fbe2fca375ce1bbb = 100000;
+                }
+                else if ( target.aicategory == "elite" )
+                {
+                    var_fbe2fca375ce1bbb = 50000;
+                }
+            }
+        }
+        
+        var_d45caa2978502280 = distance2d( head_pos, target.origin );
+        damage_percentage = max( ( damage_radius - var_d45caa2978502280 ) / damage_radius, 0 );
+        var_bb94b44258598dce = math::remap( damage_percentage, 0, 1, 10, var_fbe2fca375ce1bbb );
+        
+        if ( isalive( target ) )
+        {
+            if ( istrue( var_f238c840934e431e ) )
+            {
+                if ( istrue( self.var_fa1a1806d30a40e1 ) && self.var_f8adf1aaec88d636 > 1 && target.armorhealth > 0 )
+                {
+                    target dodamage( var_bb94b44258598dce, head_pos, self, self, "MOD_MELEE" );
+                }
+                
+                swallowed = function_bea202648c100e56( target, head_pos, var_bb94b44258598dce );
+                
+                if ( !swallowed )
+                {
+                    target dodamage( var_bb94b44258598dce, head_pos, self, self, "MOD_MELEE" );
+                }
+            }
+            else if ( isai( target ) )
+            {
+                target knockdown_ai( head_pos );
+                target dodamage( var_bb94b44258598dce, head_pos, self, self, "MOD_MELEE" );
+            }
+            else if ( isplayer( target ) )
+            {
+                target dodamage( var_bb94b44258598dce, head_pos, self, self, "MOD_MELEE" );
+            }
+        }
+        
+        /#
+            bite_print( "<dev string:xb5>" + var_bb94b44258598dce, target.origin + ( 0, 0, 70 ) );
+        #/
+    }
+    
+    self setscriptablepartstate( "audio", "snake_bite_impact" );
+    earthquake( 0.8, 0.4, head_pos, 1000 );
+    
+    /#
+        if ( function_2113bc484dd870c2() )
+        {
+            iprintlnbold( "<dev string:xc2>" );
+            bite_print( "<dev string:xd2>" + targets.size + "<dev string:xda>", head_pos );
+            sphere( head_pos, damage_radius, ( 1, 0, 0 ) );
+        }
+    #/
+}
+
+// Namespace zombie_deathworm / namespace_f00b3245968fa941
+// Params 0, eflags: 0x4
+// Checksum 0x0, Offset: 0xeb8
+// Size: 0x5f
+function private function_eef6594341c62496()
+{
+    self endon( "death" );
+    self endon( "snake_bite_start" );
+    self waittill( "snake_bite_hit" );
+    ent_flag_set( "has_snake_bite_hit" );
+    damage = 320;
+    var_de7821bc51ab43a0 = [[ self.var_8f1d8328f7a9091b ]]();
+    
+    if ( var_de7821bc51ab43a0 >= 13 )
+    {
+        damage = 600;
+    }
+    
+    melee_impact( 1, undefined, damage );
+}
+
+// Namespace zombie_deathworm / namespace_f00b3245968fa941
+// Params 2, eflags: 0x4
+// Checksum 0x0, Offset: 0xf1f
+// Size: 0x37
+function private function_d26c4202b8c890da( player, damage_point )
+{
+    player knockback_flat( player.origin - damage_point, 1600 );
+    player playrumbleonentity( "heavy_1s" );
+}
+
+/#
+
+    // Namespace zombie_deathworm / namespace_f00b3245968fa941
+    // Params 0
+    // Checksum 0x0, Offset: 0xf5e
+    // Size: 0x44, Type: dev
+    function function_c321972f4a10279a()
+    {
+        function_6e7290c8ee4f558b( "<dev string:xe6>" );
+        function_a9a864379a098ad6( "<dev string:x105>", "<dev string:x119>", &function_38699ca6e633d4e );
+        function_a9a864379a098ad6( "<dev string:x12d>", "<dev string:x141>", &function_790ff4ccb7f11b99 );
+        function_fe953f000498048f();
+    }
+
+    // Namespace zombie_deathworm / namespace_f00b3245968fa941
+    // Params 0, eflags: 0x4
+    // Checksum 0x0, Offset: 0xfaa
+    // Size: 0x46, Type: dev
+    function private function_38699ca6e633d4e()
+    {
+        worm = function_6d1fbda4b8524ef2( level.players[ 0 ].origin, undefined, "<dev string:x155>" );
+        
+        if ( !isdefined( worm ) )
+        {
+            return;
+        }
+        
+        worm function_3e89eb3d8e3f1811( "<dev string:x169>", 1 );
+    }
+
+    // Namespace zombie_deathworm / namespace_f00b3245968fa941
+    // Params 0, eflags: 0x4
+    // Checksum 0x0, Offset: 0xff8
+    // Size: 0x17, Type: dev
+    function private function_2113bc484dd870c2()
+    {
+        return getdvarint( @"hash_4c15f2ff8e7fd1bf", 0 ) > 0;
+    }
+
+    // Namespace zombie_deathworm / namespace_f00b3245968fa941
+    // Params 0, eflags: 0x4
+    // Checksum 0x0, Offset: 0x1017
+    // Size: 0x1a, Type: dev
+    function private function_790ff4ccb7f11b99()
+    {
+        function_2fb888667001fc39( "<dev string:x17a>", @"hash_4c15f2ff8e7fd1bf" );
+    }
+
+    // Namespace zombie_deathworm / namespace_f00b3245968fa941
+    // Params 2, eflags: 0x4
+    // Checksum 0x0, Offset: 0x1039
+    // Size: 0x5a, Type: dev
+    function private bite_print( text, pos )
+    {
+        if ( function_2113bc484dd870c2() )
+        {
+            pos = default_to( pos, self.origin + ( 0, 0, 70 ) );
+            print3d( pos, "<dev string:x198>" + text, ( 1, 0, 0 ) );
+        }
+    }
+
+#/

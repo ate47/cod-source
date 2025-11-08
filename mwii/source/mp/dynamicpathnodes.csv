@@ -1,0 +1,4 @@
+string,string,string,string,string,string
+//only 64 entries allowed per map,,,,,
+//format1 with parens: <mapname>, (<origin as comma separated floats>), ... ex: mp_dome_iw, ( 2650, -1900, -150 ),  ( 2650, -1900, 100 ), ( 2023, -2015, -85 ) 
+//format2 without parens: <mapname>, <origin as comma separated floats>, ... ex: mp_dome_iw, 2650, -1900, -150,  2650, -1900, 100, 2023, -2015, -85

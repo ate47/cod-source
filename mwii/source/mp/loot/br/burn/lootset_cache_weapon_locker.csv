@@ -1,0 +1,6 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/burn/lootset_root.csv,,,,
+reqAdd,weapon,1,,,# Required Weapon
+reqAdd,weapon,1,,,# Required Weapon
+reqAdd,weapon & [2],1,,50,# Chance of Weapon
+reqAdd,weapon & [4],1,,10,# Chance of Weapon

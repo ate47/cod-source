@@ -1,0 +1,547 @@
+{
+    "#hash_201132a87454168e": {
+        "#hash_6b98250a0ab0f040": "abolition_regular",
+        "#hash_26d6a48c65cf1880": "roboto_regular",
+        "#hash_f3f1b1527ea2bec9": 1.6,
+        "#hash_e2242d03b281b812": 1,
+        "#hash_a2acbf0088491e36": 4000,
+        "#hash_a261aabe45c61b72": 1800,
+        "#hash_1e7ce6b5011c5782": 100,
+        "#hash_e73610a5bb6b0cf0": 8,
+        "#hash_ef746b212792a044": 80,
+        "#hash_76cebc06e8d85820": 100,
+        "#hash_ef16045a9443161f": 1,
+        "#announcements": [
+            {
+                "#teamname": true,
+                "#label": "CODCASTER/AN_BOMB_PLANTED",
+                "#lines": 1,
+                "#areaname": true,
+                "#priority": 100,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_BOMB_PICKUP",
+                "#lines": 1,
+                "#playername": true,
+                "#priority": 30,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_DEFUSING",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "ui_bomb_interacting",
+                "#playername": true,
+                "#priority": 110,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_LAST_PLAYER_STANDING",
+                "#lines": 1,
+                "#playername": true,
+                "#priority": 40,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_HARDPOINT_NEW",
+                "#lines": 2,
+                "#priority": 100,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_HARDPOINT_AVAILABLE",
+                "#lines": 2,
+                "#priority": 100,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_HQ_NEW",
+                "#lines": 2,
+                "#priority": 100,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_HQ_AVAILABLE",
+                "#lines": 1,
+                "#priority": 100,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": true,
+                "#label": "CODCASTER/AN_HQ_CAPTURED",
+                "#lines": 1,
+                "#priority": 100,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_HQ_DESTROYED",
+                "#lines": 1,
+                "#areaname": true,
+                "#priority": 100,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_GUNFIGHT_FLAG",
+                "#lines": 1,
+                "#priority": 100,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_FIRST_BLOOD",
+                "#lines": 1,
+                "#playername": true,
+                "#priority": 75,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_MULTIKILL",
+                "#lines": 1,
+                "#playername": true,
+                "#killinfo": true,
+                "#priority": 60,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_KILLSTREAK",
+                "#lines": 1,
+                "#playername": true,
+                "#killinfo": true,
+                "#priority": 50,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_MATCH_PAUSED",
+                "#lines": 1,
+                "#priority": 200,
+                "#displaytime": 43200,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": true,
+                "#label": "CODCASTER/AN_EMP_PLANTED",
+                "#lines": 100,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_EMP_PICKUP",
+                "#lines": 1,
+                "#playername": true,
+                "#priority": 30,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_CTF_CAPTURED",
+                "#lines": 1,
+                "#playername": true,
+                "#priority": 100,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_CTF_RETURN",
+                "#lines": 1,
+                "#playername": true,
+                "#priority": 50,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_CTF_PICKUP",
+                "#lines": 1,
+                "#playername": true,
+                "#priority": 100,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_CTF_KILLCARRIER",
+                "#lines": 1,
+                "#playername": true,
+                "#priority": 50,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": true,
+                "#label": "CODCASTER/AN_SECURE_POINT",
+                "#lines": 1,
+                "#areaname": true,
+                "#priority": 100,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#label": "CODCASTER/AN_GAME_PAUSED",
+                "#lines": 1,
+                "#priority": 150,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": true,
+                "#label": "CODCASTER/AN_CONTROL_PROGRESS",
+                "#lines": 1,
+                "#areaname": true,
+                "#priority": 50,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": true,
+                "#label": "CODCASTER/AN_ALL_NORESPAWNS",
+                "#lines": 1,
+                "#priority": 100,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": true,
+                "#label": "CODCASTER/AN_SECURE_POINT_ALL",
+                "#lines": 1,
+                "#priority": 100,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            }
+        ],
+        "#hash_8583dc25f0dd65f2": 3500,
+        "#hash_afc55402631bd62e": 1.6,
+        "#hash_3e41041d34dd088d": 10,
+        "#hash_f0a82b1c9c9206b5": 4000,
+        "#hash_7b107130cf8dca3e": 4000,
+        "#hash_61faeb35e323b633": 0.5,
+        "#hash_789a9bb796db77e9": 20,
+        "#hash_b3c5013c19c5e21b": 100,
+        "#hash_154923d2bda5972e": 1.25,
+        "#hash_6eabe365c72f3bc7": 1,
+        "#hash_f15f6fee84a4d6f9": [
+            {
+                "#image": "hud_icon_equipment_bunker_buster",
+                "#createid": "eadd6e37-9a03-4e30-bfa7-b071bd40a587"
+            },
+            {
+                "#image": "hud_icon_equipment_c4",
+                "#createid": "78b91ed8-e0a2-4a73-b758-8fd1e1fc5fc7"
+            },
+            {
+                "#image": "hud_icon_equipment_at_mine",
+                "#createid": "b400327f-42fe-41f5-a39f-021af0fdc33d"
+            },
+            {
+                "#image": "hud_icon_equipment_claymore",
+                "#createid": "25493c84-f668-494f-a898-64d5bfb1596c"
+            },
+            {
+                "#image": "hud_icon_equipment_decoy",
+                "#createid": "9bedcd22-decb-491d-b24e-77a225ebf6be"
+            },
+            {
+                "#image": "hud_icon_equipment_flash",
+                "#createid": "5b5f7000-58fa-4633-b78f-0967895fb245"
+            },
+            {
+                "#image": "hud_icon_equipment_frag",
+                "#createid": "b86ce5b4-2f0b-4939-8233-1777f90da3a3"
+            },
+            {
+                "#image": "hud_icon_equipment_gas",
+                "#createid": "77276a5e-d925-4b3a-a3be-edb3cf785ced"
+            },
+            {
+                "#image": "hud_icon_equipment_gas_mask",
+                "#createid": "f32d49fc-c0fb-423f-9870-be5d448e90b8"
+            },
+            {
+                "#image": "hud_icon_equipment_geiger",
+                "#createid": "c79943d2-82be-4906-8bce-76f6ca796fc2"
+            },
+            {
+                "#image": "hud_icon_equipment_hb_sensor",
+                "#createid": "15539b7b-c859-409e-ab13-da8644dec245"
+            },
+            {
+                "#image": "hud_icon_equipment_molotov",
+                "#createid": "98116f0f-51b4-4fd2-a945-051fc549849b"
+            },
+            {
+                "#image": "hud_icon_equipment_parachute",
+                "#createid": "c1fd310a-3b5f-47d1-ac6d-f31097babcc3"
+            },
+            {
+                "#image": "hud_icon_equipment_semtex",
+                "#createid": "098b20bc-4dff-466a-8ba8-8a2ace9350c4"
+            },
+            {
+                "#image": "hud_icon_equipment_shock_stick",
+                "#createid": "cfed7a7e-dc43-4605-ba9b-697cf713c89e"
+            },
+            {
+                "#image": "hud_icon_equipment_smoke",
+                "#createid": "e848adbd-924d-48f6-a226-8ff0819a8f0d"
+            },
+            {
+                "#image": "hud_icon_equipment_snapshot",
+                "#createid": "ed94d3ec-41e6-4387-a8fb-ba8654de6255"
+            },
+            {
+                "#image": "hud_icon_equipment_stim",
+                "#createid": "3b73cb8b-fda4-48f8-bf34-b28ee139b628"
+            },
+            {
+                "#image": "hud_icon_equipment_stun",
+                "#createid": "e9292a75-47a7-40f3-8779-9fd696f5e1c9"
+            },
+            {
+                "#image": "hud_icon_equipment_thermite",
+                "#createid": "532c19a0-da06-4532-a06b-d5015fddb313"
+            },
+            {
+                "#image": "hud_icon_equipment_throwing_knife",
+                "#createid": "3c663ee0-7292-40a0-b76b-57d574acea19"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_ammo_box",
+                "#createid": "dea8a58f-d0a7-4010-85a8-1270aca66c65"
+            },
+            {
+                "#image": "hud_icon_equipment_cellphone",
+                "#createid": "6cbe72bf-a4c4-4925-920f-59b0d7bf4bf6"
+            },
+            {
+                "#image": "hud_icon_equipment_emp",
+                "#createid": "cb71df59-216f-4488-998b-60b051e06248"
+            },
+            {
+                "#image": "hud_icon_equipment_flare",
+                "#createid": "60e540a1-78e7-4f72-a78e-f08367b11f4a"
+            },
+            {
+                "#image": "hud_icon_equipment_nvg",
+                "#createid": "24f7e5f4-84ea-4ed8-b40a-cbde2680cc81"
+            },
+            {
+                "#image": "hud_icon_equipment_pop_rocket",
+                "#createid": "7ece0edb-7d4a-4e11-b1c4-75630da2c597"
+            },
+            {
+                "#image": "hud_icon_equipment_battlerage",
+                "#createid": "857a9542-4ba6-463b-b2eb-ace11c895a17"
+            },
+            {
+                "#image": "hud_icon_equipment_tac_cover",
+                "#createid": "7c75d0f3-7f19-4006-874b-e26a8cf75c81"
+            },
+            {
+                "#image": "hud_icon_equipment_bolt",
+                "#createid": "2ae4e0cf-2cc4-4f2b-89ea-7da41007d983"
+            },
+            {
+                "#image": "hud_icon_killstreak_ac130",
+                "#createid": "a734b811-bd90-48ee-815d-638bca783867"
+            },
+            {
+                "#image": "hud_icon_killstreak_apache",
+                "#createid": "b6a2068e-49b8-4fb9-b50d-d82d42e0208a"
+            },
+            {
+                "#image": "hud_icon_killstreak_assault_drone",
+                "#createid": "73464bcf-6220-44f8-aaf4-63ee5d94041f"
+            },
+            {
+                "#image": "hud_icon_killstreak_bradley",
+                "#createid": "28ac25d7-5a65-4582-8d3f-285d96d0c00e"
+            },
+            {
+                "#image": "hud_icon_killstreak_death_switch",
+                "#createid": "ea291da0-3cd4-40e9-a4c3-0ff4c1658b1b"
+            },
+            {
+                "#image": "hud_icon_killstreak_chopper_support",
+                "#createid": "d2308362-5206-4492-8276-330ec91dba04"
+            },
+            {
+                "#image": "hud_icon_killstreak_circle_peek",
+                "#createid": "890bd1e8-668b-4d80-b268-1234bafb79a2"
+            },
+            {
+                "#image": "hud_icon_killstreak_emp_drone",
+                "#createid": "a7262739-b9e9-47e6-afeb-636bb1db4a22"
+            },
+            {
+                "#image": "hud_icon_killstreak_radardrone_escort",
+                "#createid": "491fd604-1b2c-4b0c-a96e-b1ec25164619"
+            },
+            {
+                "#image": "hud_icon_killstreak_radardrone_overwatch",
+                "#createid": "aa6826cd-daed-488d-9650-4214eab41846"
+            },
+            {
+                "#image": "hud_icon_killstreak_radardrone_recon",
+                "#createid": "5f0b652e-b048-46d7-a852-cecc67fa9759"
+            },
+            {
+                "#image": "hud_icon_killstreak_scramblerdrone",
+                "#createid": "ca2a19f9-0e94-493b-874a-d7800a92c84d"
+            },
+            {
+                "#image": "hud_icon_killstreak_sentry",
+                "#createid": "16c3aeb7-acee-434e-9db2-4d730722474d"
+            },
+            {
+                "#image": "hud_icon_killstreak_tomastrike",
+                "#createid": "c4d3f203-a546-4a3c-a398-0218f4a47475"
+            },
+            {
+                "#image": "hud_icon_killstreak_turret",
+                "#createid": "16d6c628-c691-49a0-b167-a63eabb5b933"
+            },
+            {
+                "#image": "hud_icon_killstreak_wp",
+                "#createid": "2f310132-4203-4299-8ac8-3289caa0c1c4"
+            },
+            {
+                "#image": "hud_icon_equipment_tac_cover",
+                "#createid": "dcb238fd-48c7-4d5b-91f8-8f0406129e53"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade",
+                "#createid": "3b6d2ae5-8482-49ab-9cd2-b455a05f127a"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_battle_rage",
+                "#createid": "0b7b7cd4-c073-4d7e-9172-a3fb42eeeefa"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_blinding_turret",
+                "#createid": "ede6476c-d8c7-491b-b441-8aa42bcd4526"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_deadsilence",
+                "#createid": "f8a701bc-8d5a-4677-9b7d-a5d09f1866ac"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_drone_recon",
+                "#createid": "d0f55960-4638-47dd-8cff-f157349657ec"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_emp",
+                "#createid": "63f63c89-5ffd-4246-88c9-62e9bfeec947"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_inflatable_decoy",
+                "#createid": "226ae9c0-c229-44b4-bda8-7991d12df54d"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_loadout_drop",
+                "#createid": "1fcc6bdf-fe2a-4d04-b0b4-a843e0062fdf"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_smoke_airdrop",
+                "#createid": "8c15add1-56b1-4bda-bcef-f5e845140d33"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_sonar_pulse",
+                "#createid": "dcdd3ba2-c3bd-4cf5-beb8-6b95789dc677"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_sound_veil",
+                "#createid": "f0a6998f-c633-4548-840d-d89c2b185c5a"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_stim_pistol",
+                "#createid": "883f5b2f-21aa-4259-a38f-ee2b11c1b7df"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_tac_cam",
+                "#createid": "1b631133-1c50-445c-91f1-b31e01285635"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_ammo_box",
+                "#createid": "e9995123-f791-4935-9caa-8178be59d8b3"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_armor_box",
+                "#createid": "5845b450-fcea-477f-81b8-a01abbe97696"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_tac_insert",
+                "#createid": "f969c9ec-0b79-4da5-b97c-2dc03e72d7a3"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_trophy",
+                "#createid": "4dd3b8ca-3dde-4aad-afe7-0ddf80fdf64f"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_emp_drone",
+                "#createid": "edfbe5e4-1e90-4307-8b21-fc00481b0db1"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_laststand",
+                "#createid": "d9144c37-07d4-4537-b1e1-34ff1f896a51"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_stopping_power",
+                "#createid": "aea8cfbe-0653-43d9-95d5-8c8d0c993af1"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_weapon_drop",
+                "#createid": "bd01950b-447b-4f78-848b-c546b578614d"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_apr",
+                "#createid": "99114e07-8389-4771-a0d0-830d04bbd82c"
+            },
+            {
+                "#image": "icon_mode_mp_hardpoint",
+                "#createid": "97566c03-8cec-42f4-97c5-724d108af691"
+            },
+            {
+                "#image": "icon_mode_mp_control",
+                "#createid": "a9575bc3-99fb-43e2-ba13-c411d5f4fb88"
+            },
+            {
+                "#image": "icon_mode_mp_snd",
+                "#createid": "bbda7244-ded2-42f1-8ddb-1dcbe1a3b140"
+            }
+        ],
+        "#hash_8a8bccc8d47690da": 220,
+        "#hash_83de134b3d831de7": "roboto_bold",
+        "#hash_1effb063d94f97d7": 4000,
+        "#hash_ccd8240eaa1a8c6c": 90,
+        "#hash_79126f25216e2a22": 5500,
+        "#names": [
+            {
+                "#teamname": "Alpha"
+            },
+            {
+                "#teamname": "Bravo"
+            }
+        ],
+        "#hash_41dd9b8ea092d959": 80,
+        "#hash_5d105e2e3f0654f2": 6000,
+        "#hash_faf41f16e7592505": 600,
+        "#hash_e90a1809730117": -50,
+        "#hash_f18574a826fb680": 1.5,
+        "#hash_c84a4a12c54c89b9": 1.5,
+        "#hash_2aaf7dd8ac07adb9": 1.75,
+        "#hash_cf6cd2d92bb2bfce": 8000,
+        "#hash_fa2209535451e948": 0.5,
+        "#hash_5fd6afc64b27f0c1": 16,
+        "#hash_f0ce82c29d789899": "colors_base",
+        "#hash_b2b34d27657a0e27": 5000,
+        "#hash_82757c629cd9fe8f": 1
+    }
+}

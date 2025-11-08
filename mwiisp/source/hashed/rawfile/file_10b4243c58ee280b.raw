@@ -1,0 +1,131 @@
+
+% force_cs_anim_index_match
+
+	scripted
+	{
+		twr_0100_rooftop_rappel_scene_plr
+		twr_0450_floor_a_rappel_scene_plr
+	
+		sdr_com_exposed_stand_twitch01
+		twr_global_rappel_tu_8
+		twr_global_rappel_td_8
+		
+		twr_global_rappel_tu_jump_takeoff
+		twr_global_rappel_td_jump_takeoff_l
+		twr_global_rappel_td_jump_takeoff_r
+		twr_global_rappel_tu_swing_inplace_air
+		twr_global_rappel_tu_swing_exit01_plr
+		
+		twr_global_rappel_tu_exit01_plr
+	}
+		
+	rappel_idles
+	{
+		twr_global_rappel_td_idle01
+		twr_global_rappel_td_idle02
+		twr_global_rappel_td_idle03
+		
+		twr_global_rappel_tu_idle01
+		twr_global_rappel_tu_idle02
+		twr_global_rappel_tu_idle03
+	}
+	
+	rappel_turns
+	{
+		twr_global_rappel_td_inplace_turn_l
+		twr_global_rappel_td_inplace_turn_r
+		twr_global_rappel_tu_inplace_turn_l
+		twr_global_rappel_tu_inplace_turn_r
+	}
+	
+	upper_torso_twist_left : additive
+	{
+		twr_global_rappel_td_twist_l
+		twr_global_rappel_tu_twist_l
+	}
+	
+	upper_torso_twist_right : additive
+	{
+		twr_global_rappel_td_twist_r
+		twr_global_rappel_tu_twist_r
+	}	
+	
+	twr_global_rappel_td_jump_inplace_takeoff
+	twr_global_rappel_td_jump_inplace_air
+	twr_global_rappel_td_jump_inplace_land
+	
+	twr_global_rappel_tu_jump_inplace_takeoff
+	twr_global_rappel_tu_jump_inplace_air
+	twr_global_rappel_tu_jump_inplace_land
+	
+	
+
+	rappel_move_down : blendspace2d( rangex="-180,180", rangey="0,80", blend_time="100",
+coords="{-180,80},{-135,80},{-90,80},{-45,80},{0,80},{45,80},{90,80},{135,80},{180,80},{-180,25},{-135,25},{-90,25},{-45,25},{0,25},{45,25},{90,25},{135,25},{180,25},{-180,0},{-135,0},{-90,0},{-45,0},{0,0},{45,0},{90,0},{135,0},{180,0}",
+edges="{12,13,22},{13,14,22},{15,16,24},{10,11,20},{15,16,7},{15,6,7},{14,15,6},{14,5,6},{13,14,5},{13,4,5},{13,3,4},{12,13,3},{11,12,2},{10,11,1},{11,1,2},{10,20,19},{11,20,21},{11,12,21},{12,22,21},{14,22,23},{15,24,23},{14,15,23},{16,24,25},{12,2,3},{16,7,8},{10,1,0},{10,0,9},{16,8,17},{19,9,18},{10,19,9},{16,25,17},{25,17,26}",
+	valuex=[yaw], valuey=[speed] ) loopsync 1 complete
+	{
+		twr_global_rappel_td_walk_2
+		twr_global_rappel_td_walk_3
+		twr_global_rappel_td_walk_6
+		twr_global_rappel_td_walk_9
+		twr_global_rappel_td_walk_8
+		twr_global_rappel_td_walk_7
+		twr_global_rappel_td_walk_4
+		twr_global_rappel_td_walk_1
+		twr_global_rappel_td_walk_2@1
+		twr_global_rappel_td_shuffle_2
+		twr_global_rappel_td_shuffle_3
+		twr_global_rappel_td_shuffle_6
+		twr_global_rappel_td_shuffle_9
+		twr_global_rappel_td_shuffle_8
+		twr_global_rappel_td_shuffle_7
+		twr_global_rappel_td_shuffle_4
+		twr_global_rappel_td_shuffle_1
+		twr_global_rappel_td_shuffle_2@1
+		twr_global_rappel_td_inplace_2
+		twr_global_rappel_td_inplace_3
+		twr_global_rappel_td_inplace_6
+		twr_global_rappel_td_inplace_9
+		twr_global_rappel_td_inplace_8
+		twr_global_rappel_td_inplace_7
+		twr_global_rappel_td_inplace_4
+		twr_global_rappel_td_inplace_1
+		twr_global_rappel_td_inplace_2@1
+	}
+	
+	rappel_move_up : blendspace2d( rangex="-180,180", rangey="0,80", blend_time="100",
+coords="{-180,80},{-135,80},{-90,80},{-45,80},{0,80},{45,80},{90,80},{135,80},{180,80},{-180,25},{-135,25},{-90,25},{-45,25},{0,25},{45,25},{90,25},{135,25},{180,25},{-180,0},{-135,0},{-90,0},{-45,0},{0,0},{45,0},{90,0},{135,0},{180,0}",
+edges="{12,13,22},{13,14,22},{15,16,24},{10,11,20},{15,16,7},{15,6,7},{14,15,6},{14,5,6},{13,14,5},{13,4,5},{13,3,4},{12,13,3},{11,12,2},{10,11,1},{11,1,2},{10,20,19},{11,20,21},{11,12,21},{12,22,21},{14,22,23},{15,24,23},{14,15,23},{16,24,25},{12,2,3},{16,7,8},{10,1,0},{10,0,9},{16,8,17},{19,9,18},{10,19,9},{16,25,17},{25,17,26}",
+	valuex=[yaw], valuey=[speed] ) loopsync 1 complete
+	{
+		twr_global_rappel_tu_walk_2
+		twr_global_rappel_tu_walk_3
+		twr_global_rappel_tu_walk_6
+		twr_global_rappel_tu_walk_9
+		twr_global_rappel_tu_walk_8
+		twr_global_rappel_tu_walk_7
+		twr_global_rappel_tu_walk_4
+		twr_global_rappel_tu_walk_1
+		twr_global_rappel_tu_walk_2@1
+		twr_global_rappel_tu_shuffle_2
+		twr_global_rappel_tu_shuffle_3
+		twr_global_rappel_tu_shuffle_6
+		twr_global_rappel_tu_shuffle_9
+		twr_global_rappel_tu_shuffle_8
+		twr_global_rappel_tu_shuffle_7
+		twr_global_rappel_tu_shuffle_4
+		twr_global_rappel_tu_shuffle_1
+		twr_global_rappel_tu_shuffle_2@1
+		twr_global_rappel_tu_inplace_2
+		twr_global_rappel_tu_inplace_3
+		twr_global_rappel_tu_inplace_6
+		twr_global_rappel_tu_inplace_9
+		twr_global_rappel_tu_inplace_8
+		twr_global_rappel_tu_inplace_7
+		twr_global_rappel_tu_inplace_4
+		twr_global_rappel_tu_inplace_1
+		twr_global_rappel_tu_inplace_2@1
+	}
+	
+	

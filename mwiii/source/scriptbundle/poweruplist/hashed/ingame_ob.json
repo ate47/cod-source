@@ -1,0 +1,373 @@
+{
+    "#hash_2f46119ae8beb137": {
+        "#hash_3d3d503b4bc07408": true,
+        "#intro_vfx_label": "powerup_intro",
+        "#hash_d8d585d208a5d6e7": 0.3,
+        "#intro_vfx_duration": 0.2,
+        "#hash_40a95d7bb8872fa2": "Bottom",
+        "#grabbed_vfx_label": "powerup_grabbed",
+        "#hash_3a83b92e9fcd024a": 90,
+        "#hash_652fff0810f34100": [
+            {
+                "#min": 34,
+                "#max": 42,
+                "#category_label": "difficulty_easy",
+                "#player_number": 1
+            },
+            {
+                "#min": 38,
+                "#max": 46,
+                "#category_label": "difficulty_easy",
+                "#player_number": 2
+            },
+            {
+                "#min": 44,
+                "#max": 52,
+                "#category_label": "difficulty_easy",
+                "#player_number": 3
+            },
+            {
+                "#min": 50,
+                "#max": 58,
+                "#category_label": "difficulty_easy",
+                "#player_number": 4
+            },
+            {
+                "#min": 44,
+                "#max": 52,
+                "#category_label": "difficulty_normal",
+                "#player_number": 1
+            },
+            {
+                "#min": 46,
+                "#max": 54,
+                "#category_label": "difficulty_normal",
+                "#player_number": 2
+            },
+            {
+                "#min": 49,
+                "#max": 57,
+                "#category_label": "difficulty_normal",
+                "#player_number": 3
+            },
+            {
+                "#min": 52,
+                "#max": 60,
+                "#category_label": "difficulty_normal",
+                "#player_number": 4
+            },
+            {
+                "#min": 64,
+                "#max": 72,
+                "#category_label": "difficulty_hard",
+                "#player_number": 1
+            },
+            {
+                "#min": 66,
+                "#max": 74,
+                "#category_label": "difficulty_hard",
+                "#player_number": 2
+            },
+            {
+                "#min": 69,
+                "#max": 77,
+                "#category_label": "difficulty_hard",
+                "#player_number": 3
+            },
+            {
+                "#min": 72,
+                "#max": 80,
+                "#category_label": "difficulty_hard",
+                "#player_number": 4
+            },
+            {
+                "#min": 84,
+                "#max": 92,
+                "#category_label": "difficulty_darkaether",
+                "#player_number": 1
+            },
+            {
+                "#min": 86,
+                "#max": 94,
+                "#category_label": "difficulty_darkaether",
+                "#player_number": 2
+            },
+            {
+                "#min": 89,
+                "#max": 97,
+                "#category_label": "difficulty_darkaether",
+                "#player_number": 3
+            },
+            {
+                "#min": 92,
+                "#max": 100,
+                "#category_label": "difficulty_darkaether",
+                "#player_number": 4
+            }
+        ],
+        "#hash_669205d9e4532cf1": 0.3,
+        "#hash_5a95e049dbbdc1ec": "scripted_widget_power_up_zm",
+        "#hash_99a990e9f5ea961c": "Center",
+        "#scriptedwidgethudstate": "Show",
+        "#powerup_list": [
+            {
+                "#ref": "full_ammo",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_full_ammo_jup_ob"
+            },
+            {
+                "#ref": "fire_sale",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "bonus_points_team",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_bonus_points_team_jup_ob"
+            },
+            {
+                "#ref": "bonus_points_player",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "free_perk",
+                "#bundle": "powerup_free_perk_ob"
+            },
+            {
+                "#ref": "nuke",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_nuke_jup_ob"
+            },
+            {
+                "#ref": "insta_kill",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_insta_kill_jup_ob"
+            },
+            {
+                "#ref": "full_power",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "full_armor",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_full_armor_jup_ob"
+            },
+            {
+                "#ref": "double_points",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_double_points_jup_ob"
+            },
+            {
+                "#ref": "zombie_vision",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "loot_master",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "zombie_legs",
+                "#hash_cc9e5dd3893defb": true
+            }
+        ],
+        "#idle_vfx_label": "powerup_on",
+        "#drop_height_offset": 40,
+        "#hash_2ba0ca9fa5ed1fba": 4,
+        "#grabbed_vfx_duration": 0.6,
+        "#drop_event_incremental_number_per_player": 3,
+        "#hash_fde516927a257974": -150,
+        "#showsplash": true,
+        "#model_drop_delay_max": 1.5,
+        "#model_drop_delay_min": 0.1,
+        "#hash_b3bf16041ccae401": 0.3,
+        "#model_drop_delay_distance_inner": 8,
+        "#model_drop_delay_distance_outer": 160,
+        "#ammo_spacing_max": 7,
+        "#ammo_spacing_min": 4
+    },
+    "#hash_7b3e9f4f35a31077": {
+        "#hash_3d3d503b4bc07408": true,
+        "#intro_vfx_label": "powerup_intro",
+        "#hash_d8d585d208a5d6e7": 0.3,
+        "#intro_vfx_duration": 0.2,
+        "#hash_40a95d7bb8872fa2": "Bottom",
+        "#grabbed_vfx_label": "powerup_grabbed",
+        "#hash_3a83b92e9fcd024a": 90,
+        "#hash_652fff0810f34100": [
+            {
+                "#min": 34,
+                "#max": 42,
+                "#category_label": "difficulty_easy",
+                "#player_number": 1
+            },
+            {
+                "#min": 38,
+                "#max": 46,
+                "#category_label": "difficulty_easy",
+                "#player_number": 2
+            },
+            {
+                "#min": 44,
+                "#max": 52,
+                "#category_label": "difficulty_easy",
+                "#player_number": 3
+            },
+            {
+                "#min": 50,
+                "#max": 58,
+                "#category_label": "difficulty_easy",
+                "#player_number": 4
+            },
+            {
+                "#min": 44,
+                "#max": 52,
+                "#category_label": "difficulty_normal",
+                "#player_number": 1
+            },
+            {
+                "#min": 46,
+                "#max": 54,
+                "#category_label": "difficulty_normal",
+                "#player_number": 2
+            },
+            {
+                "#min": 49,
+                "#max": 57,
+                "#category_label": "difficulty_normal",
+                "#player_number": 3
+            },
+            {
+                "#min": 52,
+                "#max": 60,
+                "#category_label": "difficulty_normal",
+                "#player_number": 4
+            },
+            {
+                "#min": 64,
+                "#max": 72,
+                "#category_label": "difficulty_hard",
+                "#player_number": 1
+            },
+            {
+                "#min": 66,
+                "#max": 74,
+                "#category_label": "difficulty_hard",
+                "#player_number": 2
+            },
+            {
+                "#min": 69,
+                "#max": 77,
+                "#category_label": "difficulty_hard",
+                "#player_number": 3
+            },
+            {
+                "#min": 72,
+                "#max": 80,
+                "#category_label": "difficulty_hard",
+                "#player_number": 4
+            },
+            {
+                "#min": 84,
+                "#max": 92,
+                "#category_label": "difficulty_darkaether",
+                "#player_number": 1
+            },
+            {
+                "#min": 86,
+                "#max": 94,
+                "#category_label": "difficulty_darkaether",
+                "#player_number": 2
+            },
+            {
+                "#min": 89,
+                "#max": 97,
+                "#category_label": "difficulty_darkaether",
+                "#player_number": 3
+            },
+            {
+                "#min": 92,
+                "#max": 100,
+                "#category_label": "difficulty_darkaether",
+                "#player_number": 4
+            }
+        ],
+        "#hash_669205d9e4532cf1": 0.3,
+        "#hash_5a95e049dbbdc1ec": "scripted_widget_power_up_zm",
+        "#hash_99a990e9f5ea961c": "Center",
+        "#scriptedwidgethudstate": "Show",
+        "#powerup_list": [
+            {
+                "#ref": "full_ammo",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_full_ammo_jup_ob"
+            },
+            {
+                "#ref": "fire_sale",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "bonus_points_team",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_bonus_points_team_jup_ob"
+            },
+            {
+                "#ref": "bonus_points_player",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "free_perk",
+                "#bundle": "powerup_free_perk_ob"
+            },
+            {
+                "#ref": "nuke",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_nuke_jup_ob"
+            },
+            {
+                "#ref": "insta_kill",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_insta_kill_jup_ob"
+            },
+            {
+                "#ref": "full_power",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_full_power_jup_ob"
+            },
+            {
+                "#ref": "full_armor",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_full_armor_jup_ob"
+            },
+            {
+                "#ref": "double_points",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_double_points_jup_ob"
+            },
+            {
+                "#ref": "zombie_vision",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "loot_master",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "zombie_legs",
+                "#hash_cc9e5dd3893defb": true
+            }
+        ],
+        "#idle_vfx_label": "powerup_on",
+        "#drop_height_offset": 40,
+        "#hash_2ba0ca9fa5ed1fba": 4,
+        "#grabbed_vfx_duration": 0.6,
+        "#drop_event_incremental_number_per_player": 3,
+        "#hash_fde516927a257974": -100,
+        "#showsplash": true,
+        "#model_drop_delay_max": 1.5,
+        "#model_drop_delay_min": 0.1,
+        "#hash_b3bf16041ccae401": 0.3,
+        "#model_drop_delay_distance_inner": 8,
+        "#model_drop_delay_distance_outer": 160,
+        "#ammo_spacing_max": 7,
+        "#ammo_spacing_min": 4
+    }
+}

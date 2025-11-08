@@ -1,0 +1,273 @@
+{
+    "#hash_3b98f2939178f710": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "mp_vm_arms_kyle_iw9_convoy",
+                    "#animtree": "animtree#player",
+                    "#name": "Player 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "xcam_jup_dam_infil_shot01",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "xcam_jup_dam_infil_shot02",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "xcam_jup_dam_infil_shot03",
+                            "#cameratweenout": 2,
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "parts_wetsuit_diving_fins_rig",
+                    "#animtree": "animtree#script_model",
+                    "#name": "SwimFins",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_dam_infil_diving_fins_shot01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_dam_infil_diving_fins_shot02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_c_jup_sp_hero_ghost_nvm",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#script_model",
+                    "#name": "ghost_body",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_dam_infil_price_shot01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_dam_infil_price_shot02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_dam_infil_price_shot03@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "c_jup_head_hero_ghost_nvm",
+                    "#aligntarget": "ghost_body",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#script_model",
+                    "#hash_adbd47886f23e1a2": true,
+                    "#name": "ghost_head",
+                    "#aligntargettag": "j_spine4",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_dam_infil_price_head_shot01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_dam_infil_price_head_shot02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_dam_infil_price_head_shot03@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_c_jup_sp_hero_soap_woodland",
+                    "#animtree": "animtree#script_model",
+                    "#name": "soap_body",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_dam_infil_soap_shot01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_dam_infil_soap_shot02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "head_c_jup_sp_hero_soap_woodland",
+                    "#aligntarget": "soap_body",
+                    "#animtree": "animtree#script_model",
+                    "#hash_adbd47886f23e1a2": true,
+                    "#name": "soap_head",
+                    "#aligntargettag": "j_spine4",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_dam_infil_soap_head_shot01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_dam_infil_soap_head_shot02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "jup_dam_infil_shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "jup_dam_infil_shot_020"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "jup_dam_infil_shot_030"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ],
+        "#autostream": true
+    }
+}

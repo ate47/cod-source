@@ -1,0 +1,311 @@
+{
+    "#hash_67b3d2aefb420c": {
+        "#sharingoptions": [
+            {
+                "#variant_object": {
+                    "#hash_8fce79a777b2ac76": true,
+                    "#activitycategory": "Contract"
+                },
+                "#variant_type": "Types_ShareWithActivitiesOfSpecificCategoryType"
+            }
+        ],
+        "#playerbroadcasts": [
+            {
+                "#variant_object": {
+                    "#broadcasttype": "Music",
+                    "#uniquename": "[Optional Name you can use in script to reference this specific broadcast definition or instances of this broadcast.]",
+                    "#broadcastdata": [
+                        {
+                            "#variant_object": {
+                                "#musicdelay": 0.5,
+                                "#dynamicdata": [],
+                                "#musicreference": "ob_contract_start"
+                            },
+                            "#variant_type": "Types_Activity_MusicReferenceData"
+                        }
+                    ],
+                    "#activationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activationmoment": "ActivityBegin"
+                            },
+                            "#variant_type": "Types_ActivityBegin"
+                        }
+                    ],
+                    "#destination": [
+                        {
+                            "#variant_object": {
+                                "#broadcastdestination": "Instance"
+                            },
+                            "#variant_type": "Types_Instance"
+                        }
+                    ],
+                    "#deactivationmoment": [],
+                    "#priority": "Medium"
+                },
+                "#variant_type": "Types_Activity_Music"
+            },
+            {
+                "#variant_object": {
+                    "#broadcasttype": "Music",
+                    "#uniquename": "[Optional Name you can use in script to reference this specific broadcast definition or instances of this broadcast.]",
+                    "#broadcastdata": [
+                        {
+                            "#variant_object": {
+                                "#musicdelay": 1.5,
+                                "#dynamicdata": [],
+                                "#musicreference": "ob_contract_win"
+                            },
+                            "#variant_type": "Types_Activity_MusicReferenceData"
+                        }
+                    ],
+                    "#activationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activationmoment": "ActivitySuccess"
+                            },
+                            "#variant_type": "Types_ActivitySuccess"
+                        }
+                    ],
+                    "#destination": [
+                        {
+                            "#variant_object": {
+                                "#broadcastdestination": "Instance"
+                            },
+                            "#variant_type": "Types_Instance"
+                        }
+                    ],
+                    "#deactivationmoment": [],
+                    "#priority": "Medium"
+                },
+                "#variant_type": "Types_Activity_Music"
+            },
+            {
+                "#variant_object": {
+                    "#broadcasttype": "Music",
+                    "#uniquename": "[Optional Name you can use in script to reference this specific broadcast definition or instances of this broadcast.]",
+                    "#broadcastdata": [
+                        {
+                            "#variant_object": {
+                                "#musicdelay": 1.5,
+                                "#dynamicdata": [],
+                                "#musicreference": "ob_contract_lose"
+                            },
+                            "#variant_type": "Types_Activity_MusicReferenceData"
+                        }
+                    ],
+                    "#activationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activationmoment": "ActivityFailure"
+                            },
+                            "#variant_type": "Types_ActivityFailure"
+                        }
+                    ],
+                    "#destination": [
+                        {
+                            "#variant_object": {
+                                "#broadcastdestination": "Instance"
+                            },
+                            "#variant_type": "Types_Instance"
+                        }
+                    ],
+                    "#deactivationmoment": [],
+                    "#priority": "Medium"
+                },
+                "#variant_type": "Types_Activity_Music"
+            },
+            {
+                "#variant_object": {
+                    "#broadcasttype": "Music",
+                    "#uniquename": "[Optional Name you can use in script to reference this specific broadcast definition or instances of this broadcast.]",
+                    "#broadcastdata": [
+                        {
+                            "#variant_object": {
+                                "#dynamicdata": [],
+                                "#musicreference": "ob_contract_action_loop"
+                            },
+                            "#variant_type": "Types_Activity_MusicReferenceData"
+                        }
+                    ],
+                    "#activationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activationmoment": "ActivationName",
+                                "#activationname": "music_actionloop"
+                            },
+                            "#variant_type": "Types_ActivationName"
+                        }
+                    ],
+                    "#destination": [
+                        {
+                            "#variant_object": {
+                                "#broadcastdestination": "Instance"
+                            },
+                            "#variant_type": "Types_Instance"
+                        }
+                    ],
+                    "#deactivationmoment": [],
+                    "#hash_3994ad54a864b660": true,
+                    "#priority": "Medium"
+                },
+                "#variant_type": "Types_Activity_Music"
+            },
+            {
+                "#variant_object": {
+                    "#broadcasttype": "Music",
+                    "#uniquename": "[Optional Name you can use in script to reference this specific broadcast definition or instances of this broadcast.]",
+                    "#broadcastdata": [
+                        {
+                            "#variant_object": {
+                                "#dynamicdata": [],
+                                "#musicreference": "ob_contract_action_loop"
+                            },
+                            "#variant_type": "Types_Activity_MusicReferenceData"
+                        }
+                    ],
+                    "#activationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activationmoment": "ActivationName",
+                                "#activationname": "music_actionloop_player"
+                            },
+                            "#variant_type": "Types_ActivationName"
+                        }
+                    ],
+                    "#destination": [
+                        {
+                            "#variant_object": {
+                                "#broadcastdestination": "Individual"
+                            },
+                            "#variant_type": "Types_Individual"
+                        }
+                    ],
+                    "#deactivationmoment": [],
+                    "#priority": "Medium"
+                },
+                "#variant_type": "Types_Activity_Music"
+            }
+        ]
+    },
+    "#hash_17bf7386d279ee7d": {
+        "#sharingoptions": [
+            {
+                "#variant_object": {
+                    "#hash_8fce79a777b2ac76": true,
+                    "#activitycategory": "Objective"
+                },
+                "#variant_type": "Types_ShareWithActivitiesOfSpecificCategoryType"
+            }
+        ],
+        "#playerbroadcasts": []
+    },
+    "#hash_18301e4cd872e127": {
+        "#sharingoptions": [
+            {
+                "#variant_object": {
+                    "#hash_74af9703f56e96e": true
+                },
+                "#variant_type": "Types_ShareWithAllActivities"
+            }
+        ],
+        "#playerbroadcasts": [
+            {
+                "#variant_object": {
+                    "#broadcasttype": "StringReference",
+                    "#uniquename": "[Optional Name you can use in script to reference this specific broadcast definition or instances of this broadcast.]",
+                    "#broadcastdata": [
+                        {
+                            "#variant_object": {
+                                "#dynamicdata": [],
+                                "#stringreference": "LEAVE_WARNING_TITLE",
+                                "#stylesettings": [
+                                    {
+                                        "#variant_object": {
+                                            "#hash_9c774b4866e33235": "Title",
+                                            "#broadcaststyle": "StringMessagingUtil_Splash"
+                                        },
+                                        "#variant_type": "Types_BroadcastStyle_StringMessagingUtil_Splash"
+                                    }
+                                ]
+                            },
+                            "#variant_type": "Types_ActivityBroadcastData_StringReference"
+                        },
+                        {
+                            "#variant_object": {
+                                "#dynamicdata": [],
+                                "#stringreference": "LEAVE_WARNING_DESCRIPTION",
+                                "#stylesettings": [
+                                    {
+                                        "#variant_object": {
+                                            "#hash_9c774b4866e33235": "Description",
+                                            "#broadcaststyle": "StringMessagingUtil_Splash"
+                                        },
+                                        "#variant_type": "Types_BroadcastStyle_StringMessagingUtil_Splash"
+                                    }
+                                ]
+                            },
+                            "#variant_type": "Types_ActivityBroadcastData_StringReference"
+                        }
+                    ],
+                    "#activationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activationmoment": "ActivationName",
+                                "#activationname": "PlayerLeaveWarning"
+                            },
+                            "#variant_type": "Types_ActivationName"
+                        }
+                    ],
+                    "#destination": [
+                        {
+                            "#variant_object": {
+                                "#broadcastdestination": "Individual"
+                            },
+                            "#variant_type": "Types_Individual"
+                        }
+                    ],
+                    "#deactivationmoment": [],
+                    "#priority": "Highest"
+                },
+                "#variant_type": "Types_ActivityBroadcastType_StringReference"
+            },
+            {
+                "#variant_object": {
+                    "#broadcasttype": "Omnvar",
+                    "#uniquename": "[Optional Name you can use in script to reference this specific broadcast definition or instances of this broadcast.]",
+                    "#broadcastdata": [
+                        {
+                            "#variant_object": {
+                                "#hash_cf52064ee3abd32": true,
+                                "#dynamicdata": [],
+                                "#omnvartype": "int",
+                                "#omnvarname": "ui_br_contract_cancellation_state"
+                            },
+                            "#variant_type": "Types_Activity_OmnvarData_Int"
+                        }
+                    ],
+                    "#activationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activationmoment": "PlayerAbandon"
+                            },
+                            "#variant_type": "Types_PlayerAbandon"
+                        }
+                    ],
+                    "#destination": [],
+                    "#deactivationmoment": [
+                        {
+                            "#variant_object": {
+                                "#activationmoment": "None"
+                            },
+                            "#variant_type": "Types_None"
+                        }
+                    ],
+                    "#priority": "Medium"
+                },
+                "#variant_type": "Types_Activity_Omnvar"
+            }
+        ]
+    }
+}

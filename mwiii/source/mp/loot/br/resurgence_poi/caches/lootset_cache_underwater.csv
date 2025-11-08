@@ -1,0 +1,8 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/resurgence_poi/lootset_root.csv,,,,
+tagReject,nocache,100,,,
+reqAdd,ammo,1,,,
+reqAdd,plunder,1,1,,
+reqAdd,weapon&[3],1,1,,
+reqAdd,brloot_armor_plate,1,,,
+reqAdd,,1,1,,

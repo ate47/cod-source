@@ -1,0 +1,9 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/truckwar/lootset_root.csv,,,,
+chance,point,65,#     % of non-clustered points that will be populated,,
+chance,cluster,65,#     % of clusters that will be populated,,
+chance,clusterSolo,50,#     % of clusters that will become invalid after spawning one item (with dependencies),,
+reqLimit,tablet,2,,,
+reqAdd,weapon & [2-3],1,,,#required higher quality weapons
+reqAdd,brloot_super_munitionsbox,1,2,33,#required munitions
+reqAdd,brloot_plate_carrier_3,1,2,33,#required carriers

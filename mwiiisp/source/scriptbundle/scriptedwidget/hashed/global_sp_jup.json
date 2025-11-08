@@ -1,0 +1,626 @@
+{
+    "#hash_3918b4fba505ebe": {
+        "#rendertarget": "None",
+        "#parameters": [],
+        "#hash_679a5fd22385af82": [
+            {
+                "#variant_object": {
+                    "#property": "sound_alias_hover",
+                    "#type": "RawStringProperty"
+                },
+                "#variant_type": "Types_RawStringPropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "text_color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "text_important_color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "list_option_spacing",
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatPropertyTemplate"
+            }
+        ],
+        "#requirepath": "ui.generated.widgets.ingame.sp.scriptedwidgetdialogoption",
+        "#archetype": "scripted_widget_archetype_dialog_option",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hidehud": true,
+        "#hash_a35573938e7a51c8": 1024,
+        "#widget": "ScriptedWidgetDialogOption",
+        "#states": [
+            {
+                "#animation": "DefaultSequence",
+                "#name": "Default"
+            },
+            {
+                "#animation": "Highlighted",
+                "#name": "Highlighted"
+            },
+            {
+                "#animation": "Selected",
+                "#name": "Selected"
+            },
+            {
+                "#animation": "Hide",
+                "#name": "Hide"
+            }
+        ],
+        "#hash_1603f2740fa99ba4": "ui/generated/scriptedwidgetdialogoption",
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_13508ce06a327d91": {
+        "#rendertarget": "None",
+        "#parameters": [],
+        "#hash_679a5fd22385af82": [
+            {
+                "#variant_object": {
+                    "#property": "image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImageProperty"
+            }
+        ],
+        "#archetype": "scripted_widget_archetype_objective",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hash_a35573938e7a51c8": 1024,
+        "#hash_234a2cfa2420bba9": true,
+        "#widget": "ScriptedWidgetObjectiveDisplayContainer",
+        "#states": [
+            {
+                "#animation": "DefaultSequence",
+                "#name": "default"
+            },
+            {
+                "#animation": "ShowSideObjective",
+                "#name": "show_side_objective"
+            },
+            {
+                "#animation": "ShowCenterObjective",
+                "#name": "show_center_objective"
+            }
+        ],
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_1cd4c0654c3543a4": {
+        "#rendertarget": "None",
+        "#parameters": [],
+        "#hash_679a5fd22385af82": [],
+        "#hash_cdc57e6ce27e2422": true,
+        "#outofbounds": true,
+        "#archetype": "scripted_widget_archetype_progress_bool",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hidehud": true,
+        "#hash_a35573938e7a51c8": 1024,
+        "#widget": "ScriptedWidgetStealthDisplay",
+        "#states": [
+            {
+                "#animation": "Unaware",
+                "#name": "unaware"
+            },
+            {
+                "#animation": "Alerted",
+                "#name": "alerted"
+            },
+            {
+                "#animation": "Hunting",
+                "#name": "hunting"
+            },
+            {
+                "#animation": "Combat",
+                "#name": "combat"
+            },
+            {
+                "#animation": "Hide",
+                "#name": "hide"
+            }
+        ],
+        "#hash_dc7a89d649757a11": true,
+        "#hash_e9e4c3a134d7e312": true,
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_1ebdc8cf6b6ead3d": {
+        "#rendertarget": "None",
+        "#parameters": [],
+        "#hash_679a5fd22385af82": [],
+        "#archetype": "scripted_widget_archetype_powerup",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hash_a35573938e7a51c8": 1024,
+        "#widget": "ScriptedWidgetPowerup",
+        "#states": [
+            {
+                "#animation": "DefaultSequence",
+                "#name": "default"
+            },
+            {
+                "#animation": "Show",
+                "#name": "show"
+            },
+            {
+                "#animation": "Hide",
+                "#name": "hide"
+            }
+        ],
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_3d2d870559f1fc52": {
+        "#rendertarget": "None",
+        "#parameters": [
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "image",
+                            "#value": "overlay_sixth_sense_overlay",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    {
+                        "#variant_object": {
+                            "#property": "color",
+                            "#value": "0.921569 0.45095 0.184314 1",
+                            "#type": "ColorProperty"
+                        },
+                        "#variant_type": "Types_ColorProperty"
+                    },
+                    {
+                        "#variant_object": {
+                            "#property": "alpha",
+                            "#value": 1,
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    }
+                ],
+                "#name": "Powerup"
+            }
+        ],
+        "#hash_679a5fd22385af82": [
+            {
+                "#variant_object": {
+                    "#property": "image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImageProperty"
+            },
+            {
+                "#variant_object": {
+                    "#property": "color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorProperty"
+            },
+            {
+                "#variant_object": {
+                    "#property": "alpha",
+                    "#value": 1,
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatProperty"
+            }
+        ],
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hash_a35573938e7a51c8": 1024,
+        "#widget": "ScriptedWidgetVignette",
+        "#states": [
+            {
+                "#animation": "Default",
+                "#name": "Default"
+            },
+            {
+                "#animation": "Pulse",
+                "#name": "Pulse"
+            },
+            {
+                "#animation": "PulseAndClose",
+                "#name": "PulseAndClose"
+            }
+        ],
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_424766cf3ae8d805": {
+        "#rendertarget": "None",
+        "#parameters": [],
+        "#hash_679a5fd22385af82": [],
+        "#requirepath": "ui.generated.widgets.ingame.shared.scriptedwidgetgenerictext",
+        "#archetype": "scripted_widget_archetype_text",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hidehud": true,
+        "#hash_a35573938e7a51c8": 1024,
+        "#widget": "ScriptedWidgetGenericText",
+        "#states": [
+            {
+                "#animation": "Default"
+            },
+            {
+                "#animation": "TopLeft",
+                "#name": "TopLeft"
+            },
+            {
+                "#animation": "TopCenter",
+                "#name": "TopCenter"
+            },
+            {
+                "#animation": "TopRight",
+                "#name": "TopRight"
+            },
+            {
+                "#animation": "MiddleLeft",
+                "#name": "MiddleLeft"
+            },
+            {
+                "#animation": "MiddleCenter",
+                "#name": "MiddleCenter"
+            },
+            {
+                "#animation": "MiddleRight",
+                "#name": "MiddleRight"
+            },
+            {
+                "#animation": "BottomLeft",
+                "#name": "BottomLeft"
+            },
+            {
+                "#animation": "BottomCenter",
+                "#name": "BottomCenter"
+            },
+            {
+                "#animation": "BottomRight",
+                "#name": "BottomRight"
+            }
+        ],
+        "#hash_1603f2740fa99ba4": "ui/generated/scriptedwidgetgenerictext",
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_46e1e136c654c25f": {
+        "#rendertarget": "None",
+        "#parameters": [],
+        "#hash_679a5fd22385af82": [
+            {
+                "#variant_object": {
+                    "#property": "sound_alias_select",
+                    "#type": "RawStringProperty"
+                },
+                "#variant_type": "Types_RawStringPropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "loc_string_not_safe_for_conversation",
+                    "#type": "StringProperty"
+                },
+                "#variant_type": "Types_StringPropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "loc_string_safe_for_conversation",
+                    "#type": "StringProperty"
+                },
+                "#variant_type": "Types_StringPropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "dialog_tree_backing_image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "dialog_tree_backing_image_color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "dialog_tree_backing_decoration_image",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "dialog_tree_backing_decoration_image_mask",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            }
+        ],
+        "#requirepath": "ui.generated.widgets.ingame.sp.scriptedwidgetdialogtree",
+        "#children": [
+            {
+                "#widgets": [],
+                "#name": "Default",
+                "#omnvarsets": [
+                    {
+                        "#omnvars": [
+                            {
+                                "#variant_object": {
+                                    "#notifylui": true,
+                                    "#type": "BoolOmnvar",
+                                    "#name": "dialog_tree_send_current_selection"
+                                },
+                                "#variant_type": "Types_BoolOmnvar"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#notifylui": true,
+                                    "#type": "BoolOmnvar",
+                                    "#name": "dialog_tree_set_skippable"
+                                },
+                                "#variant_type": "Types_BoolOmnvar"
+                            }
+                        ],
+                        "#name": "Default",
+                        "#setnum": 1
+                    }
+                ]
+            }
+        ],
+        "#rendertargetheight": 1024,
+        "#hidehud": true,
+        "#hash_a35573938e7a51c8": 1024,
+        "#widget": "ScriptedWidgetDialogTree",
+        "#states": [],
+        "#hash_1603f2740fa99ba4": "ui/generated/scriptedwidgetdialogtree",
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_6adcd21dc4ea5ff6": {
+        "#rendertarget": "None",
+        "#parameters": [
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "object_data",
+                            "#type": "AssetProperty"
+                        },
+                        "#variant_type": "Types_AssetProperty"
+                    },
+                    {
+                        "#variant_object": {
+                            "#property": "image_fx",
+                            "#value": "ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    {
+                        "#variant_object": {
+                            "#property": "image_backing",
+                            "#value": "ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    {
+                        "#variant_object": {
+                            "#property": "image_icon",
+                            "#value": "ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    {
+                        "#variant_object": {
+                            "#property": "text_backing",
+                            "#value": "ui_shared_transparent",
+                            "#type": "ImageProperty"
+                        },
+                        "#variant_type": "Types_ImageProperty"
+                    },
+                    {
+                        "#variant_object": {
+                            "#property": "health_warning_threshold_percent",
+                            "#type": "FloatProperty"
+                        },
+                        "#variant_type": "Types_FloatProperty"
+                    }
+                ],
+                "#name": "Default"
+            }
+        ],
+        "#hash_679a5fd22385af82": [
+            {
+                "#variant_object": {
+                    "#property": "object_data",
+                    "#type": "AssetProperty"
+                },
+                "#variant_type": "Types_AssetPropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "image_fx",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "image_backing",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "image_icon",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "text_backing",
+                    "#type": "ImageProperty"
+                },
+                "#variant_type": "Types_ImagePropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "health_warning_threshold_percent",
+                    "#type": "FloatProperty"
+                },
+                "#variant_type": "Types_FloatPropertyTemplate"
+            }
+        ],
+        "#requirepath": "ui.generated.widgets.ingame.sp.scriptedwidgethealthbar",
+        "#outofbounds": true,
+        "#archetype": "scripted_widget_archetype_health_bar",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hash_a35573938e7a51c8": 1024,
+        "#widget": "ScriptedWidgetHealthBar",
+        "#states": [
+            {
+                "#animation": "DefaultSequence",
+                "#name": "Active"
+            },
+            {
+                "#animation": "Hidden",
+                "#name": "Hidden"
+            }
+        ],
+        "#hash_1603f2740fa99ba4": "ui/generated/scriptedwidgethealthbar",
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_6dce00092d3d124d": {
+        "#rendertarget": "None",
+        "#parameters": [],
+        "#hash_679a5fd22385af82": [
+            {
+                "#variant_object": {
+                    "#property": "countdown_text_color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "bar_fill_color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "bar_frame_color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            },
+            {
+                "#variant_object": {
+                    "#property": "bar_background_color",
+                    "#type": "ColorProperty"
+                },
+                "#variant_type": "Types_ColorPropertyTemplate"
+            }
+        ],
+        "#requirepath": "ui.generated.widgets.ingame.sp.scriptedwidgetcountdowndisplay",
+        "#archetype": "scripted_widget_archetype_progress",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hidehud": true,
+        "#hash_a35573938e7a51c8": 1024,
+        "#widget": "ScriptedWidgetCountdownDisplay",
+        "#states": [
+            {
+                "#animation": "ShowAsProgressBar",
+                "#name": "progressBar"
+            },
+            {
+                "#animation": "ShowAsTextField",
+                "#name": "textField"
+            },
+            {
+                "#animation": "ShowAsRadialProgressBar",
+                "#name": "radialProgressBar"
+            }
+        ],
+        "#hash_1603f2740fa99ba4": "ui/generated/scriptedwidgetcountdowndisplay",
+        "#hash_dc7a89d649757a11": true,
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_7dd6903e9d45f917": {
+        "#rendertarget": "None",
+        "#parameters": [],
+        "#hash_679a5fd22385af82": [],
+        "#requirepath": "ui.generated.widgets.ingame.shared.scriptedwidgetgenerictext",
+        "#archetype": "scripted_widget_archetype_text",
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hash_a35573938e7a51c8": 1024,
+        "#widget": "ScriptedWidgetGenericText",
+        "#states": [
+            {
+                "#animation": "Default"
+            },
+            {
+                "#animation": "TopLeft",
+                "#name": "TopLeft"
+            },
+            {
+                "#animation": "TopCenter",
+                "#name": "TopCenter"
+            },
+            {
+                "#animation": "TopRight",
+                "#name": "TopRight"
+            },
+            {
+                "#animation": "MiddleLeft",
+                "#name": "MiddleLeft"
+            },
+            {
+                "#animation": "MiddleCenter",
+                "#name": "MiddleCenter"
+            },
+            {
+                "#animation": "MiddleRight",
+                "#name": "MiddleRight"
+            },
+            {
+                "#animation": "BottomLeft",
+                "#name": "BottomLeft"
+            },
+            {
+                "#animation": "BottomCenter",
+                "#name": "BottomCenter"
+            },
+            {
+                "#animation": "BottomRight",
+                "#name": "BottomRight"
+            }
+        ],
+        "#hash_1603f2740fa99ba4": "ui/generated/scriptedwidgetgenerictext",
+        "#normalgameplay": true,
+        "#assets": []
+    }
+}

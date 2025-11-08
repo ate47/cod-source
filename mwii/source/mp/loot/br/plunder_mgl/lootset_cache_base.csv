@@ -1,0 +1,6 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/plunder_mgl/lootset_root.csv,,,,
+reqAdd,weapon&[3],1,,,# 1 epic+ weapon
+reqAdd,ammo,1,,,# 1 ammo
+reqAdd,plunder,1,,100,# 1 cash drop
+reqAdd,,1,,,# 1 item of any type, any rarity

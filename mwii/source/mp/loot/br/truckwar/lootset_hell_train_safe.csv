@@ -1,0 +1,22 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/truckwar/lootset_root.csv,,,,
+tagReject,nocache,100,,,
+rollChance,plunder,7,,,
+rollChance,weapon,4,,,
+rollChance,ammo,7,,,
+rollChance,health,2,,,
+rollChance,killstreak,7,,,
+rollChance,super,3,,,
+tagChance,plunder,1,,,
+tagChance,weapon,1,,,
+tagChance,ammo,1,,,
+tagChance,health,1,,,
+tagChance,killstreak,1,,,
+tagChance,super,1,,,
+reqAdd,weapon&[4],1,,,# require a tier 4 weapon
+reqAdd,ammo,1,,,# required ammo
+reqAdd,brPowerItem,1,,,# any item of epic or lege rarity
+reqAdd,brPowerItem,1,,,# chance for any item of higher quality
+reqAdd,plunder,3,3,,
+reqLimit,perkpack,1,1,,
+reqAdd,brloot_weapon_la_gromeo_epic,1,,5,

@@ -1,0 +1,17 @@
+%force_cs_anim_index_match
+
+recovery_rightSide_6: blendspace2d( rangex="-45,45", rangey="-45,45", blend_time="0",
+coords="{0,0},{45,0},{-45,0},{0,45},{0,-45},{-45,-45},{45,-45},{45,45},{-45,45}",
+edges="{0,2,4},{0,1,4},{0,2,3},{0,1,3},{1,3,7},{2,3,8},{1,4,6},{2,4,5}",
+valuex=[groundsloperoll], valuey=[groundslopepitch]) parse_cull(disable)
+{
+	sdr_com_recovery_rightSide_6_null
+	sdr_com_recovery_rightSide_6_bank_6
+	sdr_com_recovery_rightSide_6_bank_4
+	sdr_com_recovery_rightSide_6_bank_8
+	sdr_com_recovery_rightSide_6_bank_2
+	sdr_com_recovery_rightSide_6_bank_2@1
+	sdr_com_recovery_rightSide_6_bank_2@2
+	sdr_com_recovery_rightSide_6_bank_8@2
+	sdr_com_recovery_rightSide_6_bank_8@1
+}

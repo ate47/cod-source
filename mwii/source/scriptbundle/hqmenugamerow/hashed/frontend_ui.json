@@ -1,0 +1,450 @@
+{
+    "#hash_169a095ef74bacb": {
+        "#gamelogo": "icon_mw2_logo_hq_row",
+        "#hash_3157f395d3232adf": "hq_seasonal_ka_mwii",
+        "#gamemodes": [
+            {
+                "#hash_6c79abbdb334433": [],
+                "#moderef": "MW2",
+                "#modeicon": "icon_mode_mp_quickplay",
+                "#modevideo": "hq_plate_mwii_multiplayer",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_multiplayer_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_circle",
+                "#modename": "&MENU/MULTIPLAYER"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&MENU/TAG_LARGE_MAPS"
+                    },
+                    {
+                        "#text": "&MENU/TAG_LARGE_TEAMS"
+                    }
+                ],
+                "#moderef": "MASSIVE_MP",
+                "#modeicon": "icon_mode_mp_gw_invasion",
+                "#modevideo": "hq_plate_mwii_ground_war",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_ground_war_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_homeplate",
+                "#modename": "&LUA_MENU_MP/ARMSRACE"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&MENU_SP/STORY_CAPS"
+                    },
+                    {
+                        "#text": "&LUA_MENU_MP/RULES_TEAMS_SQUADS"
+                    }
+                ],
+                "#moderef": "RAID",
+                "#modeicon": "icon_mode_cp_raid",
+                "#modedesc": "&MENU/RAID_DESC",
+                "#modevideo": "hq_plate_mwii_cp_raid",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_cp_raid_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_homeplate",
+                "#modename": "&LUA_MENU/PLAYLIST_TAG_COOP_RAID"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&LUA_MENU/PLAYLIST_TAG_COOP"
+                    },
+                    {
+                        "#text": "&LUA_MENU_MP/RULES_TEAMS_SQUADS"
+                    }
+                ],
+                "#moderef": "COOP",
+                "#modeicon": "icon_mode_cp",
+                "#modevideo": "hq_plate_mwii_cp_mission",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_cp_mission_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_homeplate",
+                "#modename": "&LUA_MENU/COOP_CAPS"
+            },
+            {
+                "#hash_6c79abbdb334433": [],
+                "#moderef": "DMZ",
+                "#modeicon": "icon_mode_dmz",
+                "#modevideo": "hq_plate_wz_dmz",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_dmz_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_hexagon_rotated",
+                "#modename": "&LUA_MENU/DMZ"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&MENU_SP/STORY_CAPS"
+                    },
+                    {
+                        "#text": "&MENU/SINGLE_PLAYER"
+                    }
+                ],
+                "#moderef": "SP",
+                "#modeicon": "icon_mode_sp",
+                "#modedesc": "&MENU/CAMPAIGN_DESC_MW2",
+                "#modevideo": "hq_plate_mwii_campaign",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_campaign_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_homeplate",
+                "#modename": "&MENU/CAMPAIGN"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&MENU/CUSTOM_MATCH"
+                    }
+                ],
+                "#moderef": "PRIVATE_MATCH",
+                "#modeicon": "icon_mode_mp_custom",
+                "#modevideo": "hq_plate_mwii_private_match",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_private_match_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_circle",
+                "#modename": "&LUA_MENU/PRIVATE_MATCH_CAPS"
+            }
+        ],
+        "#gameimage": "hq_bg_mwii",
+        "#gametitle": "&LUA_MENU/MODERN_WARFARE_II",
+        "#hash_fb261053f053501d": true,
+        "#gameref": "COD22"
+    },
+    "#hash_1495ba088bcde127": {
+        "#gamelogo": "icon_mw3_logo_hq_row",
+        "#hash_3157f395d3232adf": "hq_reveal_ka",
+        "#gamemodes": [
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#animation": "EarlyAccess",
+                        "#text": "&MENU/TAG_EARLY_ACCESS"
+                    },
+                    {
+                        "#text": "&MENU_SP/STORY_CAPS"
+                    }
+                ],
+                "#moderef": "MW3_CAMPAIGN",
+                "#modeicon": "icon_mode_mw3_sp",
+                "#modevideo": "hq_plate_mwiii_campaign",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwiii_campaign_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_mwiii_sp",
+                "#modename": "&MENU/CAMPAIGN"
+            },
+            {
+                "#hash_6c79abbdb334433": [],
+                "#moderef": "VAULT",
+                "#modevideo": "hq_plate_reveal_vault",
+                "#hash_a6948e7ea34cd22c": "hq_plate_reveal_vault_layer00",
+                "#modename": "&INGAMESTORE/CORTEZ_PREORDER_VAULT_EDITION_CAPS"
+            },
+            {
+                "#hash_6c79abbdb334433": [],
+                "#moderef": "STANDARD",
+                "#modevideo": "hq_plate_reveal_standard",
+                "#hash_a6948e7ea34cd22c": "hq_plate_reveal_standard_layer00",
+                "#modename": "&INGAMESTORE/CORTEZ_PREORDER_STANDARD_EDITION_CAPS"
+            }
+        ],
+        "#hash_d0b3919dd53932b2": "SeasonalEvents.jupiterBlue",
+        "#hash_c3720967a7dd8d3c": "@#hash_9c4506bf1a93e4bd",
+        "#hash_a1b999f208e6e1b6": true,
+        "#gameimage": "hq_bg_reveal",
+        "#gametitle": "&MENU/STORE_CAT_GAME",
+        "#coloroverride": "SeasonalEvents.jupiterBlue",
+        "#gameref": "REVEAL"
+    },
+    "#hash_1df68b3626e85803": {
+        "#gamelogo": "icon_wz2_logo_hq_row",
+        "#hash_3157f395d3232adf": "hq_seasonal_ka_wz",
+        "#gamemodes": [
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&MENU/NEW"
+                    },
+                    {
+                        "#text": "&MENU/TAG_POPULAR"
+                    }
+                ],
+                "#moderef": "WZ",
+                "#modeicon": "icon_mode_br_quickplay",
+                "#modedesc": "&MENU/WZ_FEATURED_DESC",
+                "#modevideo": "hq_plate_wz_featured",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_featured_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_circle",
+                "#modename": "&LUA_MENU_MP/FEATURED"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&LUA_MENU_MP/EXTRACTION"
+                    },
+                    {
+                        "#text": "&LUA_MENU_MP/RULES_TEAMS_SQUADS"
+                    }
+                ],
+                "#moderef": "DMZ",
+                "#modeicon": "icon_mode_dmz",
+                "#modedesc": "&MENU/DMZ_DESC",
+                "#modevideo": "hq_plate_wz_dmz",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_dmz_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_hexagon_rotated",
+                "#modename": "&LUA_MENU/DMZ"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&MENU/TAG_FAST_PACED"
+                    },
+                    {
+                        "#text": "&LUA_MENU_MP/RULES_TEAMS_SQUADS"
+                    }
+                ],
+                "#moderef": "RESURGENCE",
+                "#modeicon": "icon_mode_wz_br_resurgence",
+                "#modedesc": "&MENU/WZ_RESURGENCE_DESC",
+                "#modevideo": "hq_plate_wz_resurgence",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_resurgence_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_mountain",
+                "#modename": "&LUA_MENU/RESURGENCE"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&LUA_MENU_MP/WAVE_SURVIVAL"
+                    },
+                    {
+                        "#text": "&LUA_MENU_MP/RULES_TEAMS_SQUADS"
+                    }
+                ],
+                "#moderef": "BR",
+                "#modeicon": "icon_mode_wz_br",
+                "#modedesc": "&MENU/WZ_BR_DESC",
+                "#modevideo": "hq_plate_wz_battle_royale",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_battle_royale_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_mountain",
+                "#modename": "&LUA_MENU/BR"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&LUA_MENU/PLAYLIST_TAG_COMPETITIVE"
+                    },
+                    {
+                        "#text": "&LUA_MENU_MP/RULES_TEAMS_SQUADS"
+                    }
+                ],
+                "#moderef": "WZ_RANKED",
+                "#modeicon": "icon_mode_wz_br_ranked_release",
+                "#modedesc": "&MENU/RANKED_PLAY_WZ_DESC",
+                "#modevideo": "hq_plate_wz_ranked",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_ranked_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_mountain",
+                "#modename": "&MENU/RANKEDPLAY"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&MENU/TAG_CUSTOM_MATCHES"
+                    },
+                    {
+                        "#text": "&MENU/TAG_PRIVATE_MATCHES"
+                    }
+                ],
+                "#moderef": "WZ_PRIVATE_MATCH",
+                "#modeicon": "icon_mode_wz_custom",
+                "#modedesc": "&MENU/WZ_PRIVATE_MATCH_DESC",
+                "#modevideo": "hq_plate_wz_private_match",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_private_match_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_circle",
+                "#modename": "&LUA_MENU/PRIVATE_MATCH_CAPS"
+            }
+        ],
+        "#hash_c3720967a7dd8d3c": "@#hash_cf9784d2da460681",
+        "#gameimage": "hq_bg_wz",
+        "#gametitle": "&LUA_MENU/WARZONE",
+        "#hash_fb261053f053501d": true,
+        "#gameref": "WZ2"
+    },
+    "#hash_23ccd624f978ae42": {
+        "#gamelogo": "icon_mw3_logo_hq_row",
+        "#hash_3157f395d3232adf": "hq_reveal_ka",
+        "#gamemodes": [
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#animation": "EarlyAccess",
+                        "#text": "&MENU/TAG_EARLY_ACCESS"
+                    },
+                    {
+                        "#text": "&MENU_SP/STORY_CAPS"
+                    }
+                ],
+                "#moderef": "MW3_CAMPAIGN",
+                "#modeicon": "icon_mode_mw3_sp",
+                "#modevideo": "hq_plate_mwiii_campaign",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwiii_campaign_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_mwiii_sp",
+                "#modename": "&MENU/CAMPAIGN"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&MENU/TAG_ACTION_PACKED"
+                    },
+                    {
+                        "#text": "&CHANNELS/TEAMS"
+                    }
+                ],
+                "#moderef": "MW3_MP",
+                "#modeicon": "icon_mode_mw3_mp_multiplayer",
+                "#modevideo": "hq_plate_mwiii_multiplayer_private_match",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwiii_multiplayer_private_match_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_circle",
+                "#modename": "&MENU/MULTIPLAYER"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&MENU/TAG_OPEN_WORLD"
+                    },
+                    {
+                        "#text": "&LUA_MENU_MP/RULES_TEAMS_SQUADS"
+                    }
+                ],
+                "#moderef": "MW3_ZOMBIES",
+                "#modeicon": "icon_mode_mw3_ob_wmz",
+                "#modevideo": "hq_plate_mwiii_zombies",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwiii_zombies_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_hexagon_rotated",
+                "#modename": "&CLANS/LABEL10"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&MENU/TAG_CUSTOM_MATCHES"
+                    }
+                ],
+                "#moderef": "MW3_PRIVATE_MATCH",
+                "#modeicon": "icon_mode_mw3_mp_private_match",
+                "#modevideo": "hq_plate_mwiii_multiplayer",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwiii_multiplayer_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_hexagon_rotated",
+                "#modename": "&MENU/PRIVATE_MATCH"
+            }
+        ],
+        "#hash_d0b3919dd53932b2": "SeasonalEvents.jupiterBlue",
+        "#hash_a1b999f208e6e1b6": true,
+        "#gameimage": "hq_bg_reveal",
+        "#gametitle": "&MENU/STORE_CAT_GAME",
+        "#coloroverride": "SeasonalEvents.jupiterBlue",
+        "#gameref": "MW3"
+    },
+    "#hash_23ccd724f978aff5": {
+        "#gamelogo": "icon_mw2_logo_hq_row",
+        "#hash_3157f395d3232adf": "hq_seasonal_ka_mwii",
+        "#gamemodes": [
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&MENU/TAG_ACTION_PACKED"
+                    },
+                    {
+                        "#text": "&MENU/TAG_SMALL_TEAMS"
+                    }
+                ],
+                "#moderef": "MP",
+                "#modeicon": "icon_mode_mp_quickplay",
+                "#modedesc": "&MENU/MULTIPLAYER_DESC_MW2",
+                "#modevideo": "hq_plate_mwii_multiplayer",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_multiplayer_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_circle",
+                "#modename": "&MENU/MULTIPLAYER"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&MENU/TAG_LARGE_MAPS"
+                    },
+                    {
+                        "#text": "&MENU/TAG_LARGE_TEAMS"
+                    }
+                ],
+                "#moderef": "MASSIVE_MP",
+                "#modeicon": "icon_mode_mp_gw_invasion",
+                "#modedesc": "&LUA_MENU_MP/ARMSRACE_DESC",
+                "#modevideo": "hq_plate_mwii_ground_war",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_ground_war_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_homeplate",
+                "#modename": "&LUA_MENU_MP/ARMSRACE"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&MENU_SP/STORY_CAPS"
+                    },
+                    {
+                        "#text": "&LUA_MENU_MP/RULES_TEAMS_SQUADS"
+                    }
+                ],
+                "#moderef": "RAID",
+                "#modeicon": "icon_mode_cp_raid",
+                "#modedesc": "&MENU/RAID_DESC",
+                "#modevideo": "hq_plate_mwii_cp_raid",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_cp_raid_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_homeplate",
+                "#modename": "&LUA_MENU/PLAYLIST_TAG_COOP_RAID"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&LUA_MENU_MP/COOPERATIVE"
+                    },
+                    {
+                        "#text": "&LUA_MENU_MP/RULES_TEAMS_SQUADS"
+                    }
+                ],
+                "#moderef": "COOP",
+                "#modeicon": "icon_mode_cp",
+                "#modedesc": "&MENU/COOP_DESC_MW2",
+                "#modevideo": "hq_plate_mwii_cp_mission",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_cp_mission_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_homeplate",
+                "#modename": "&LUA_MENU/COOP_CAPS"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&MENU_SP/STORY_CAPS"
+                    },
+                    {
+                        "#text": "&MENU/SINGLE_PLAYER"
+                    }
+                ],
+                "#moderef": "SP",
+                "#modeicon": "icon_mode_sp",
+                "#modedesc": "&MENU/CAMPAIGN_DESC_MW2",
+                "#modevideo": "hq_plate_mwii_campaign",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_campaign_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_homeplate",
+                "#modename": "&MENU/CAMPAIGN"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#text": "&MENU/TAG_CUSTOM_MATCHES"
+                    }
+                ],
+                "#moderef": "PRIVATE_MATCH",
+                "#modeicon": "icon_mode_mp_custom",
+                "#modedesc": "&MENU/PRIVATE_MATCH_DESC",
+                "#modevideo": "hq_plate_mwii_private_match",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_private_match_layer00",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_circle",
+                "#modename": "&LUA_MENU/PRIVATE_MATCH_CAPS"
+            }
+        ],
+        "#hash_c3720967a7dd8d3c": "@#hash_9994f11d98915dee",
+        "#gameimage": "hq_bg_mwii",
+        "#gametitle": "&LUA_MENU/MODERN_WARFARE_II",
+        "#hash_fb261053f053501d": true,
+        "#gameref": "MW2"
+    }
+}

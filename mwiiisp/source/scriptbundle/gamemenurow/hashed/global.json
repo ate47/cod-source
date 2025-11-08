@@ -1,0 +1,312 @@
+{
+    "#hash_79f274e1c8f26b6": {
+        "#displayconditions": [
+            {
+                "#isinverted": true,
+                "#condition": "IsMagmaGameMode"
+            },
+            {
+                "#isinverted": false,
+                "#condition": "IsMPPrivateMatchEnabled"
+            },
+            {
+                "#isinverted": true,
+                "#condition": "IsClosedInternalAlphaBuild"
+            }
+        ],
+        "#name": "&MENU/PRIVATE_MATCH",
+        "#buttons": [
+            {
+                "#hash_b1f6e7f37c9b34c5": "privatematch",
+                "#disableconditions": [
+                    {
+                        "#isinverted": false,
+                        "#condition": "DoesPartyContainNonPremiumPlayers"
+                    }
+                ],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "PrivateMatchMenu"
+            },
+            {
+                "#hash_b1f6e7f37c9b34c5": "createPrivateMatch",
+                "#disableconditions": [
+                    {
+                        "#isinverted": false,
+                        "#condition": "DoesPartyContainNonPremiumPlayers"
+                    }
+                ],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "CreatePrivateMatch"
+            },
+            {
+                "#hash_b1f6e7f37c9b34c5": "joinPrivateMatch",
+                "#disableconditions": [
+                    {
+                        "#isinverted": false,
+                        "#condition": "DoesPartyContainNonPremiumPlayers"
+                    }
+                ],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "JoinPrivateMatch"
+            }
+        ]
+    },
+    "#hash_7a20a4e1c912b46": {
+        "#displayconditions": [
+            {
+                "#isinverted": true,
+                "#condition": "IsClosedInternalAlphaBuild"
+            },
+            {
+                "#isinverted": true,
+                "#condition": "IsClosedInternalAlphaBuild"
+            }
+        ],
+        "#name": "&MENU/CAMPAIGN",
+        "#buttons": [
+            {
+                "#hash_b1f6e7f37c9b34c5": "campaign_resume",
+                "#disableconditions": [
+                    {
+                        "#isinverted": true,
+                        "#condition": "IsPremiumPlayer"
+                    }
+                ],
+                "#expandcategory": false,
+                "#displayconditions": [
+                    {
+                        "#isinverted": false,
+                        "#condition": "IsResumeCampaignGameAvailable"
+                    }
+                ],
+                "#buttonaction": "CampaignResume"
+            },
+            {
+                "#hash_b1f6e7f37c9b34c5": "campaign_newgame",
+                "#disableconditions": [
+                    {
+                        "#isinverted": true,
+                        "#condition": "IsPremiumPlayer"
+                    }
+                ],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "CampaignNewGame"
+            },
+            {
+                "#hash_b1f6e7f37c9b34c5": "campaign_missionselect",
+                "#disableconditions": [
+                    {
+                        "#isinverted": true,
+                        "#condition": "IsPremiumPlayer"
+                    }
+                ],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "CampaignMissionSelectMenu"
+            }
+        ]
+    },
+    "#hash_7df164e1cc4edc8": {
+        "#displayconditions": [
+            {
+                "#isinverted": true,
+                "#condition": "IsMagmaGameMode"
+            },
+            {
+                "#isinverted": true,
+                "#condition": "IsClosedInternalAlphaBuild"
+            }
+        ],
+        "#name": "&MENU/MULTIPLAYER",
+        "#buttons": [
+            {
+                "#hash_b1f6e7f37c9b34c5": "ob",
+                "#disableconditions": [],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "OBMenu"
+            },
+            {
+                "#hash_b1f6e7f37c9b34c5": "benchmark",
+                "#disableconditions": [],
+                "#expandcategory": false,
+                "#displayconditions": [
+                    {
+                        "#isinverted": true,
+                        "#condition": "IsClosedInternalAlphaBuild"
+                    }
+                ],
+                "#buttonaction": "BenchmarkMenu"
+            },
+            {
+                "#hash_b1f6e7f37c9b34c5": "trainingcourse",
+                "#disableconditions": [],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "TrainingCourse"
+            }
+        ]
+    },
+    "#hash_7e31c4e1cc8e0d1": {
+        "#displayconditions": [
+            {
+                "#isinverted": false,
+                "#condition": "IsLeaguePlayEnabled"
+            }
+        ],
+        "#name": "&PLAYLIST/LEAGUEPLAY",
+        "#buttons": [
+            {
+                "#hash_b1f6e7f37c9b34c5": "leagueplay_play",
+                "#disableconditions": [],
+                "#expandcategory": false,
+                "#displayconditions": [
+                    {
+                        "#isinverted": false,
+                        "#condition": "IsLeaguePlayEnabled"
+                    }
+                ],
+                "#buttonaction": "LeaguePlayMenu"
+            },
+            {
+                "#hash_b1f6e7f37c9b34c5": "leagueplay_career",
+                "#disableconditions": [
+                    {
+                        "#isinverted": false,
+                        "#condition": "IsLeaguePlayCareerDisabled"
+                    }
+                ],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "LeaguePlayCareer"
+            },
+            {
+                "#hash_b1f6e7f37c9b34c5": "leagueplay_top250",
+                "#disableconditions": [
+                    {
+                        "#isinverted": false,
+                        "#condition": "IsLeaguePlayTop250Disabled"
+                    }
+                ],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "LeaguePlayT250"
+            },
+            {
+                "#hash_b1f6e7f37c9b34c5": "leagueplay_cdlchannel",
+                "#disableconditions": [
+                    {
+                        "#isinverted": false,
+                        "#condition": "IsLeaguePlayCDLDisabled"
+                    }
+                ],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "LeaguePlayCDL"
+            }
+        ]
+    },
+    "#hash_13c95416e199596c": {
+        "#displayconditions": [
+            {
+                "#isinverted": false,
+                "#condition": "IsCrossLaunchJUPToIW9Enabled"
+            },
+            {
+                "#isinverted": true,
+                "#condition": "IsClosedInternalAlphaBuild"
+            }
+        ],
+        "#name": "&LUA_MENU/TEXTCHAT_GAMENAME_MW2",
+        "#buttons": [
+            {
+                "#hash_b1f6e7f37c9b34c5": "crosslaunch_iw9_mp",
+                "#disableconditions": [],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "CrossLaunch_IW9_MP"
+            },
+            {
+                "#hash_b1f6e7f37c9b34c5": "crosslaunch_iw9_sp",
+                "#disableconditions": [],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "CrossLaunch_IW9_SP"
+            }
+        ]
+    },
+    "#hash_5be6b580dc567eab": {
+        "#displayconditions": [],
+        "#name": "&LUA_MENU_MP/FEATURED",
+        "#buttons": [
+            {
+                "#categoryid": "E",
+                "#hash_b1f6e7f37c9b34c5": "quickplay",
+                "#disableconditions": [],
+                "#playlistid": 200,
+                "#expandcategory": false,
+                "#displayconditions": [
+                    {
+                        "#isinverted": false,
+                        "#condition": "IsQuickplayEnabled"
+                    }
+                ],
+                "#buttonaction": "Default"
+            },
+            {
+                "#categoryid": "H",
+                "#hash_b1f6e7f37c9b34c5": "tier1",
+                "#disableconditions": [],
+                "#playlistid": 300,
+                "#expandcategory": false,
+                "#displayconditions": [
+                    {
+                        "#isinverted": false,
+                        "#condition": "IsHardcoreEnabled"
+                    }
+                ],
+                "#buttonaction": "Default"
+            },
+            {
+                "#categoryid": "A",
+                "#disableconditions": [],
+                "#expandcategory": true,
+                "#displayconditions": [],
+                "#buttonaction": "GoToPlaylist"
+            }
+        ]
+    },
+    "#hash_6abe75bac24c9bac": {
+        "#displayconditions": [
+            {
+                "#isinverted": false,
+                "#condition": "IsDevRowEnabled"
+            },
+            {
+                "#isinverted": true,
+                "#condition": "IsClosedInternalAlphaBuild"
+            }
+        ],
+        "#name": "&LUA_MENU/DEVELOPMENT",
+        "#buttons": [
+            {
+                "#hash_b1f6e7f37c9b34c5": "playlistselect",
+                "#disableconditions": [],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "PlaylistSelect"
+            },
+            {
+                "#hash_b1f6e7f37c9b34c5": "cpprivatematch",
+                "#disableconditions": [],
+                "#expandcategory": false,
+                "#displayconditions": [],
+                "#buttonaction": "CPPrivateMatch"
+            }
+        ]
+    }
+}

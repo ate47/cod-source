@@ -1,0 +1,6 @@
+string,string,string
+inherit,mp/loot/br/default/lootset_root.csv,
+reqAdd,killstreak&[4],1
+reqAdd,[3-4],3
+reqLimit,super,1
+reqLimit,killstreak,1

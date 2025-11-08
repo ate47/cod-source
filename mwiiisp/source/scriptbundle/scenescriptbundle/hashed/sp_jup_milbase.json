@@ -1,0 +1,1876 @@
+{
+    "#hash_327060a84c6df5d9": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": "animtree#player",
+                    "#name": "Player 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#cameratweenoutvisible": false,
+                            "#cameraanimation": "jup_milbase_infil_xcam01",
+                            "#deltaanimations": [],
+                            "#cameratweeninvisible": false
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#generic_human",
+                    "#charactername": "c_jup_sp_hero_laswell_bdu",
+                    "#name": "laswell_01",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_infil_npc@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "veh9_mil_air_heli_blima",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#script_model",
+                    "#name": "Prop 2",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#disablehud": true,
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ],
+        "#autostream": true
+    },
+    "#hash_737d11494ce13c02": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": "animtree#player",
+                    "#name": "Player 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_01",
+                            "#deltaanimations": [],
+                            "#float_lerptime": 1,
+                            "#cameratweenin": 0.75
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_02",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_03",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_04",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_05",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_06",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_07",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_08",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_09",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_10",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_11",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_12",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_13",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_14",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#cameratweenoutvisible": false,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_15",
+                            "#deltaanimations": [],
+                            "#cameratweeninvisible": false
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#cameratweenoutvisible": false,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_yuri_xcam_16",
+                            "#deltaanimations": [],
+                            "#cameratweeninvisible": false
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#generic_human",
+                    "#charactername": "c_jup_sp_hero_laswell_military_nohelmet",
+                    "#name": "laswell",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#noanimwait": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#noanimwait": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_03@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#noanimwait": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_04@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#noanimwait": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_05@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#noanimwait": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_06@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#noanimwait": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_07@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#noanimwait": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_08@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#noanimwait": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_09@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#noanimwait": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_10@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#noanimwait": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_11@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#noanimwait": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_12@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#noanimwait": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_13@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#noanimwait": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_14@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#noanimwait": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_15@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#noanimwait": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_laswell_16@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#generic_human",
+                    "#charactername": "c_jup_sp_hero_yuri_urban",
+                    "#name": "yuri",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_03@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_04@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_05@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_06@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_07@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_08@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_09@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_10@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_11@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_12@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_13@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_14@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_15@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_yuri_16@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "electronics_usb_dongle_rig",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#script_model",
+                    "#name": "usb_prop",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_03@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_04@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_05@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_06@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_07@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_08@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_09@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_10@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_11@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_12@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_13@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_14@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_15@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_usb_16@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "door_wooden_office_01_rig",
+                    "#animtree": "animtree#script_model",
+                    "#name": "door_prop",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_03@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_04@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_05@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_06@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_07@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_08@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_09@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_10@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_11@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_12@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_13@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_14@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_15@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_door_16@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "c_t10_gear_cigarettes_rig",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#script_model",
+                    "#name": "cigarette_prop",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_03@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_04@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_05@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_06@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_07@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_08@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_09@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_10@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_11@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_12@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_13@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_14@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_15@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_yuri_cigarette_16@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "wpn_vm_p24_pi_golf17",
+                    "#aligntarget": "laswell",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#script_model",
+                    "#hash_adbd47886f23e1a2": true,
+                    "#name": "laswell_handgun",
+                    "#aligntargettag": "tag_weapon_right",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#disablehud": true,
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_020"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_030"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_040"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_050"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_060"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_070"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_080"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_090"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_100"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_110"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_120"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_130"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_140"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_150"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_160"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ],
+        "#autostream": true
+    },
+    "#hash_75496d33c2f3915b": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": "animtree#player",
+                    "#name": "Player 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_exfil_shot_01_xcam",
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [],
+                            "#cameratweeninvisible": false,
+                            "#cameratweenin": 0.25
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_exfil_shot_02_xcam",
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_milbase_exfil_shot_03_xcam",
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#generic_human",
+                    "#charactername": "c_jup_sp_hero_laswell_military_nohelmet",
+                    "#name": "laswell_body",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_npc_01_shot_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_npc_01_shot_02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_npc_01_shot_03@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#animtree": "animtree#generic_human",
+                    "#charactername": "c_jup_sp_hero_nikolai",
+                    "#name": "nikolai_body",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#firstframeonly": true,
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_pre_exfil_npc_02_in@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_pre_exfil_npc_02_in@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_pre_exfil_npc_02_loop@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_npc_02_shot_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_npc_02_shot_02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_npc_02_shot_03@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "veh9_mil_air_heli_blima",
+                    "#animtree": "animtree#script_model",
+                    "#name": "exfil_blima_prop",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#firstframeonly": true,
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_veh_in@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_veh_in@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_veh_loop@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_veh_shot_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_veh_shot_02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_veh_shot_03@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#disabled": true,
+                    "#xmodelname": "head_hero_nikolai_blendshape_iw9",
+                    "#aligntarget": "nikolai_body",
+                    "#animtree": "animtree#generic_human",
+                    "#name": "nikolai_head",
+                    "#aligntargettag": "j_spine4",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#firstframeonly": true,
+                            "#aligntarget": "nikolai_body",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_pre_exfil_npc_02_in@sbundle"
+                                    }
+                                }
+                            ],
+                            "#aligntargettag": "j_spine4"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "nikolai_body",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_pre_exfil_npc_02_in@sbundle"
+                                    }
+                                }
+                            ],
+                            "#aligntargettag": "j_spine4"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "nikolai_body",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_pre_exfil_npc_02_loop@sbundle"
+                                    }
+                                }
+                            ],
+                            "#aligntargettag": "j_spine4"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "nikolai_body",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_npc_02_shot_01_head@sbundle"
+                                    }
+                                }
+                            ],
+                            "#aligntargettag": "j_spine4"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "nikolai_body",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_npc_02_shot_02_head@sbundle"
+                                    }
+                                }
+                            ],
+                            "#aligntargettag": "j_spine4"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_npc_02_shot_03_head@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#generic_human",
+                    "#charactername": "c_jup_sp_hero_laswell_military_nohelmet",
+                    "#name": "Prop 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_milbase_exfil_npc_03_shot_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#aligntarget": "milbase_exfil_eyepos",
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#disablehud": true,
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_heli_exfil_firstframe"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_heli_exfil_in"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_heli_idle"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_020"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_030"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ],
+        "#autostream": true
+    }
+}

@@ -1,0 +1,140 @@
+#include scripts\common\basic_wind;
+
+main()
+{
+	//VFX For Sealion
+	
+	//level._effect[ "vfx_global_bats" ]                      	   = LoadFX( "vfx/iw9/level/_global/vfx_global_bats.vfx" );
+	level._effect[ "vfx_global_butterflies" ]                      = LoadFX( "vfx/iw9/level/_global/vfx_global_butterflies.vfx" );
+	level._effect[ "vfx_global_dragonflies" ]                      = LoadFX( "vfx/iw9/level/_global/vfx_global_dragonflies.vfx" );
+	level._effect[ "vfx_global_fireflies" ]                        = LoadFX( "vfx/iw9/level/_global/vfx_global_fireflies.vfx" );
+	level._effect[ "vfx_global_moths_1" ]                          = LoadFX( "vfx/iw9/level/_global/vfx_global_moths_1.vfx" );
+	level._effect[ "vfx_global_amb_bugs_01" ]                      = LoadFX( "vfx/iw9/level/_global/vfx_global_amb_bugs_01.vfx" );
+	level._effect[ "vfx_global_bee_swarm_sm" ]                     = LoadFX( "vfx/iw9/level/_global/vfx_global_bee_swarm_sm.vfx" );
+	level._effect[ "vfx_global_gnat_swarm" ]                       = LoadFX( "vfx/iw9/level/_global/vfx_global_gnat_swarm.vfx" );
+	level._effect[ "vfx_global_insect_cockroach" ]                 = LoadFX( "vfx/iw9/level/_global/vfx_global_insect_cockroach.vfx" );
+	level._effect[ "vfx_global_trash_flies" ]                      = LoadFX( "vfx/iw9/level/_global/vfx_global_trash_flies.vfx" );
+	level._effect[ "vfx_global_trash_circle" ]                     = LoadFX( "vfx/iw9/level/_global/vfx_global_trash_circle.vfx" );
+	level._effect[ "vfx_global_trash_drift_1  " ]                  = LoadFX( "vfx/iw9/level/_global/vfx_global_trash_drift_1.vfx" );
+	//level._effect[ "vfx_global_animals_rat_run_straight" ]         = LoadFX( "vfx/iw9/level/_global/vfx_global_animals_rat_run_straight.vfx" );
+	//level._effect[ "vfx_global_birds_circling_seagulls" ]          = LoadFX( "vfx/iw9/level/_global/vfx_global_birds_circling_seagulls.vfx" );
+	//level._effect[ "vfx_global_birds_sparrows_circling" ]          = LoadFX( "vfx/iw9/level/_global/vfx_global_birds_sparrows_circling.vfx" );
+	//level._effect[ "vfx_global_birds_in_tree" ]                    = LoadFX( "vfx/iw9/level/_global/vfx_global_birds_in_tree.vfx" );
+	//level._effect[ "vfx_global_trout" ]                            = LoadFX( "vfx/iw9/level/_global/vfx_global_trout.vfx" );
+	level._effect[ "vfx_global_burner_flame_ch" ]                  = LoadFX( "vfx/iw9/level/_global/vfx_global_burner_flame_ch.vfx" );
+	level._effect[ "vfx_global_chimney_smoke_windy_1_ch" ]         = LoadFX( "vfx/iw9/level/_global/vfx_global_chimney_smoke_windy_1_ch.vfx" );
+	level._effect[ "vfx_global_chimney_smoke_windy_3_ch" ]         = LoadFX( "vfx/iw9/level/_global/vfx_global_chimney_smoke_windy_3_ch.vfx" );
+	level._effect[ "vfx_global_electrical_sparks_directional" ]    = LoadFX( "vfx/iw9/level/_global/vfx_global_electrical_sparks_directional.vfx" );
+	level._effect[ "vfx_global_electrical_sparks_drip" ]           = LoadFX( "vfx/iw9/level/_global/vfx_global_electrical_sparks_drip.vfx" );
+	level._effect[ "vfx_global_electrical_sparks_with_collision" ] = LoadFX( "vfx/iw9/level/_global/vfx_global_electrical_sparks_with_collision.vfx" );
+	//level._effect[ "vfx_global_wave_crash_med" ]                   = LoadFX( "vfx/iw9/level/_global/vfx_global_wave_crash_med.vfx" );
+	//level._effect[ "vfx_global_wave_splash_sml" ]                  = LoadFX( "vfx/iw9/level/_global/vfx_global_wave_splash_sml.vfx" );
+	//level._effect[ "vfx_global_wave_splash_lrg" ]                  = LoadFX( "vfx/iw9/level/_global/vfx_global_wave_splash_lrg.vfx" );
+	level._effect[ "vfx_global_mist_ocean_spray_01" ]              = LoadFX( "vfx/iw9/level/_global/vfx_global_mist_ocean_spray_01.vfx" );
+	level._effect[ "vfx_global_water_drips_on_water" ]             = LoadFX( "vfx/iw9/level/_global/vfx_global_water_drips_on_water.vfx" );
+	level._effect[ "vfx_global_water_drips" ]                      = LoadFX( "vfx/iw9/level/_global/vfx_global_water_drips.vfx" );
+	//level._effect[ "vfx_global_wind_blowing_dirt" ]                = LoadFX( "vfx/iw9/level/_global/vfx_global_wind_blowing_dirt.vfx" );
+	level._effect[ "vfx_global_wind_blowing_nondirt" ]             = LoadFX( "vfx/iw9/level/_global/vfx_global_wind_blowing_nondirt.vfx" );
+	level._effect[ "vfx_global_blowing_sand_low" ]                 = LoadFX( "vfx/iw9/level/_global/vfx_global_blowing_sand_low.vfx" );
+	level._effect[ "vfx_global_dust_motes_sml" ]                   = LoadFX( "vfx/iw9/level/_global/vfx_global_dust_motes_sml.vfx" );
+	level._effect[ "vfx_dust_motes_med" ]                          = LoadFX( "vfx/iw9/level/_global/vfx_dust_motes_med.vfx" );
+	level._effect[ "vfx_global_dust_motes_lg" ]                    = LoadFX( "vfx/iw9/level/_global/vfx_global_dust_motes_lg.vfx" );
+	//level._effect[ "vfx_global_dust_linger" ]                      = LoadFX( "vfx/iw9/level/_global/vfx_global_dust_linger.vfx" );
+	//level._effect[ "vfx_global_dust_move_slow" ]                   = LoadFX( "vfx/iw9/level/_global/vfx_global_dust_move_slow.vfx" );
+	//level._effect[ "vfx_global_dust_blow" ]                        = LoadFX( "vfx/iw9/level/_global/vfx_global_dust_blow.vfx" );
+	level._effect[ "vfx_global_cave_ceiling_dust" ]                = LoadFX( "vfx/iw9/level/_global/vfx_global_cave_ceiling_dust.vfx" );
+	level._effect[ "vfx_global_falling_rocks_cliff" ]              = LoadFX( "vfx/iw9/level/_global/vfx_global_falling_rocks_cliff.vfx" );
+	level._effect[ "vfx_global_falling_dust" ]                     = LoadFX( "vfx/iw9/level/_global/vfx_global_falling_dust.vfx" );
+	level._effect[ "vfx_global_fog_oriented" ]                     = LoadFX( "vfx/iw9/level/_global/vfx_global_fog_oriented.vfx" );
+	level._effect[ "vfx_global_steaming_ground" ]                  = LoadFX( "vfx/iw9/level/_global/vfx_global_steaming_ground.vfx" );
+	level._effect[ "vfx_global_room_humidity_01" ]                 = LoadFX( "vfx/iw9/level/_global/vfx_global_room_humidity_01.vfx" );
+	level._effect[ "vfx_global_ac_vent_vapor" ]                    = LoadFX( "vfx/iw9/level/_global/vfx_global_ac_vent_vapor.vfx" );
+	level._effect[ "vfx_global_vent_med" ]                         = LoadFX( "vfx/iw9/level/_global/vfx_global_vent_med.vfx" );
+	level._effect[ "vfx_global_pipe_steam_pressure" ]              = LoadFX( "vfx/iw9/level/_global/vfx_global_pipe_steam_pressure.vfx" );
+	level._effect[ "vfx_global_distant_fog" ]                      = LoadFX( "vfx/iw9/level/_global/vfx_global_distant_fog.vfx" );
+	level._effect[ "vfx_global_falling_ivy_leaves" ]               = LoadFX( "vfx/iw9/level/_global/vfx_global_falling_ivy_leaves.vfx" );
+	level._effect[ "vfx_global_falling_pine_needles" ]             = LoadFX( "vfx/iw9/level/_global/vfx_global_falling_pine_needles.vfx" );
+	level._effect[ "vfx_global_leaves_falling_acacia_med" ]        = LoadFX( "vfx/iw9/level/_global/vfx_global_leaves_falling_acacia_med.vfx" );
+	//level._effect[ "vfx_global_leaves_falling_date_palm_med_01" ]  = LoadFX( "vfx/iw9/level/_global/vfx_global_leaves_falling_date_palm_med_01.vfx" );
+	//level._effect[ "vfx_global_leaves_falling_date_palm_sml_01" ]  = LoadFX( "vfx/iw9/level/_global/vfx_global_leaves_falling_date_palm_sml_01.vfx" );
+	//level._effect[ "vfx_global_leaves_falling_tree_oak_01" ]       = LoadFX( "vfx/iw9/level/_global/vfx_global_leaves_falling_tree_oak_01.vfx" );
+	level._effect[ "vfx_global_leaves_blowing" ]                   = LoadFX( "vfx/iw9/level/_global/vfx_global_leaves_blowing.vfx" );
+	level._effect[ "vfx_global_leaves_blowing_slow" ]              = LoadFX( "vfx/iw9/level/_global/vfx_global_leaves_blowing_slow.vfx" );
+	level._effect[ "vfx_global_glowing_light_red_01" ]             = LoadFX( "vfx/iw9/level/_global/vfx_global_glowing_light_red_01.vfx" );
+	level._effect[ "vfx_global_blinking_red_light" ]               = LoadFX( "vfx/iw9/level/_global/vfx_global_blinking_red_light.vfx" );
+
+	//New Effects For Sealion
+
+	//level._effect[ "vfx_side_wave_crash_iw9" ]                   	= LoadFX( "vfx/iw9/level/mp_sealion/vfx_side_wave_crash_iw9.vfx" );
+	level._effect[ "vfx_beach_wave_crash_iw9" ]                    = LoadFX( "vfx/iw9/level/mp_sealion/vfx_beach_wave_crash_iw9.vfx" );
+	level._effect[ "vfx_wave_splash_sml_iw9" ]                     = LoadFX( "vfx/iw9/level/mp_sealion/vfx_wave_splash_sml.vfx" );
+	level._effect[ "vfx_wave_splash_sml_dark_iw9" ]                = LoadFX( "vfx/iw9/level/mp_sealion/vfx_wave_splash_dark_sml.vfx" );
+	level._effect[ "vfx_wave_splash_lrg_iw9" ]                     = LoadFX( "vfx/iw9/level/mp_sealion/vfx_wave_splash_lrg.vfx" );
+	//level._effect[ "vfx_long_beach_wave_crash_iw9" ]              = LoadFX( "vfx/iw9/level/mp_sealion/vfx_long_beach_wave_crash_iw9.vfx" );
+	level._effect[ "vfx_long_beach_wave_crash_short_iw9" ]         = LoadFX( "vfx/iw9/level/mp_sealion/vfx_long_beach_wave_crash_short_iw9.vfx" );
+	level._effect[ "vfx_wave_crash_iw9" ]                          = LoadFX( "vfx/iw9/level/mp_sealion/vfx_wave_crash_iw9.vfx" );
+	level._effect[ "vfx_fish_group" ]                              = LoadFX( "vfx/iw9/level/mp_sealion/vfx_fish_group.vfx" );
+	level._effect[ "vfx_fish_group_sml" ]                          = LoadFX( "vfx/iw9/level/mp_sealion/vfx_fish_group_sml.vfx" );
+	level._effect[ "vfx_fish_school_01" ]                          = LoadFX( "vfx/iw9/level/mp_sealion/vfx_fish_school_01.vfx" );
+	level._effect[ "vfx_cliff_edge_dust" ]                         = LoadFX( "vfx/iw9/level/mp_sealion/vfx_cliff_edge_dust.vfx" );
+	level._effect[ "vfx_calm_water_ripples" ]                      = LoadFX( "vfx/iw9/level/mp_sealion/vfx_calm_water_ripples.vfx" );
+	level._effect[ "vfx_fountain_calm_water_ripples" ]             = LoadFX( "vfx/iw9/level/mp_sealion/vfx_fountain_calm_water_ripples.vfx" );
+	level._effect[ "vfx_sealion_falling_rocks_cliff" ]             = LoadFX( "vfx/iw9/level/mp_sealion/vfx_sealion_falling_rocks_cliff.vfx" );
+	level._effect[ "vfx_fish_jumping" ]                            = LoadFX( "vfx/iw9/level/mp_sealion/vfx_fish_jumping.vfx" );
+	level._effect[ "vfx_long_beach_wave_crash_short_subtle" ]      = LoadFX( "vfx/iw9/level/mp_sealion/vfx_long_beach_wave_crash_short_subtle.vfx" );
+	//level._effect[ "vfx_falling_drone_smoke_trail_runner_test" ]  = LoadFX( "vfx/iw9/level/mp_sealion/vfx_falling_drone_smoke_trail_runner_test.vfx" );
+	level._effect[ "vfx_leaves_falling_tree_sakura" ]              = LoadFX( "vfx/iw9/level/mp_sealion/vfx_leaves_falling_tree_sakura.vfx" );
+	level._effect[ "vfx_leaves_falling_tree_sakura_med" ]          = LoadFX( "vfx/iw9/level/mp_sealion/vfx_leaves_falling_tree_sakura_med.vfx" );
+	level._effect[ "vfx_leaves_falling_tree_sakura_sml" ]          = LoadFX( "vfx/iw9/level/mp_sealion/vfx_leaves_falling_tree_sakura_sml.vfx" );
+	level._effect[ "vfx_tunnel_fog" ]                              = LoadFX( "vfx/iw9/level/mp_sealion/vfx_tunnel_fog.vfx" );
+	level._effect[ "vfx_tunnel_fog_oriented" ]                     = LoadFX( "vfx/iw9/level/mp_sealion/vfx_tunnel_fog_oriented.vfx" );
+	level._effect[ "vfx_blinking_red_light_dim" ]                  = LoadFX( "vfx/iw9/level/mp_sealion/vfx_blinking_red_light_dim.vfx" );
+	level._effect[ "vfx_leaves_falling_date_palm_tiny" ]           = LoadFX( "vfx/iw9/level/mp_sealion/vfx_leaves_falling_date_palm_tiny.vfx" );
+	level._effect[ "vfx_wood_smoke" ]                              = LoadFX( "vfx/iw9/level/mp_sealion/vfx_wood_smoke.vfx" );
+	level._effect[ "vfx_tunnels_light_flare_cheap" ]               = LoadFX( "vfx/iw9/level/mp_sealion/vfx_tunnels_light_flare_cheap.vfx" );
+	level._effect[ "vfx_sealion_blinking_blue_light" ]             = LoadFX( "vfx/iw9/level/mp_sealion/vfx_sealion_blinking_blue_light.vfx" );
+	level._effect[ "vfx_sealion_blinking_white_light" ]            = LoadFX( "vfx/iw9/level/mp_sealion/vfx_sealion_blinking_white_light.vfx" );
+	level._effect[ "vfx_sealion_blinking_red" ]                    = LoadFX( "vfx/iw9/level/mp_sealion/vfx_sealion_blinking_red.vfx" );
+	level._effect[ "vfx_sealion_wind_blowing_dirt" ]               = LoadFX( "vfx/iw9/level/mp_sealion/vfx_sealion_wind_blowing_dirt.vfx" );
+	level._effect[ "vfx_sealion_dust_blow_cheap" ]                 = LoadFX( "vfx/iw9/level/mp_sealion/vfx_sealion_dust_blow_cheap.vfx" );
+	level._effect[ "vfx_sealion_leaves_falling_tree_oak_01" ]      = LoadFX( "vfx/iw9/level/mp_sealion/vfx_sealion_leaves_falling_tree_oak_01.vfx" );
+
+	level._effect[ "vfx_inland_fog_oriented" ] 						= LoadFX( "vfx/iw9/level/mp_sealion/vfx_inland_fog_oriented.vfx" );
+	level._effect[ "vfx_inland_fog_near" ]     						= LoadFX( "vfx/iw9/level/mp_sealion/vfx_inland_fog_near.vfx" );
+
+	//Lensflares
+
+	level._effect[ "vfx_lensflare_bulb_warm" ]         				= LoadFX( "vfx/iw9/lensflares/vfx_lensflare_bulb_warm.vfx" );
+	level._effect[ "vfx_lensflare_bulb_cold" ]         				= LoadFX( "vfx/iw9/lensflares/vfx_lensflare_bulb_cold.vfx" );
+	level._effect[ "vfx_lensflare_fluorescent_warm" ]  				= LoadFX( "vfx/iw9/lensflares/vfx_lensflare_fluorescent_warm.vfx" );
+	level._effect[ "vfx_lensflare_fluorescent_cold" ]  				= LoadFX( "vfx/iw9/lensflares/vfx_lensflare_fluorescent_cold.vfx" );
+	level._effect[ "vfx_lensflare_hanging_bulb_warm" ] 				= LoadFX( "vfx/iw9/lensflares/vfx_lensflare_hanging_bulb_warm.vfx" );
+	level._effect[ "vfx_lensflare_hanging_bulb_cold" ] 				= LoadFX( "vfx/iw9/lensflares/vfx_lensflare_hanging_bulb_cold.vfx" );
+	level._effect[ "vfx_lensflare_bulb_warm_soft" ]    				= LoadFX( "vfx/iw9/lensflares/vfx_lensflare_bulb_warm_soft.vfx" );
+	level._effect[ "vfx_lensflare_bulb_cold_soft" ]    				= LoadFX( "vfx/iw9/lensflares/vfx_lensflare_bulb_cold_soft.vfx" );
+	level._effect[ "vfx_lensflare_boxlight_warm_dim" ] 				= LoadFX( "vfx/iw9/lensflares/vfx_lensflare_boxlight_warm_dim.vfx" );
+	level._effect[ "vfx_lensflare_boxlight_cold_dim" ] 				= LoadFX( "vfx/iw9/lensflares/vfx_lensflare_boxlight_cold_dim.vfx" );
+	level._effect[ "vfx_lensflare_streetlight_warm" ]  				= LoadFX( "vfx/iw9/level/mp_sealion/vfx_lensflare_streetlight_warm.vfx" );
+	//level._effect[ "vfx_lensflare_hanging_bulb_warm_omni" ]       = LoadFX( "vfx/iw9/level/mp_sealion/vfx_lensflare_hanging_bulb_warm_omni.vfx" );
+	//level._effect[ "vfx_lensflare_hanging_bulb_cold_omni" ]       = LoadFX( "vfx/iw9/level/mp_sealion/vfx_lensflare_hanging_bulb_cold_omni.vfx" );
+
+	//WIND
+	load_wind( "southeast", 2 );
+	init_wind( "southeast", 2, true );
+	//Volumetric Particles Dvars
+
+	SetDvar( #d"r_volumetricDepth"					, 8000 );//Sets the draw distance of the volumetrics
+	SetDvar( #d"r_fogHeightMapNoiseDt"       		, 100 );//Speed of fog Noise movement, larger number is faster.
+	SetDvar( #d"r_fogHeightMapNoiseScrollDir"		, "-1 0 0" );//Noise scrolling vector direction in world space;
+	SetDvar( #d"r_fogHeightMapNoiseFlowmapUVScale"	, 0 );//broken - leave at 0
+	SetDvar( #d"r_fogHeightMapNoiseUVScale"       	, 2000 );//Size of fog chunks.  Bigger number is bigger chunks and gaps;
+	SetDvar( #d"r_fogHeightMapFade"               	, 0.145 );//Max Density
+	SetDvar( #d"r_fogHeightMapNoiseBias"			, -0.125 );// Controls noise detail
+	
+/#
+	if ( GetDvar( #d"clientSideEffects" ) != "1" )
+	{
+	}
+#/
+
+}

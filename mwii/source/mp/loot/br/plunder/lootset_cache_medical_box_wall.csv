@@ -1,0 +1,6 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/plunder/lootset_root.csv,,,,
+reqAdd,brloot_health_adrenaline,1,,,# Required Stim
+reqAdd,valuable,1,,,# Required Valuable
+reqAdd,brloot_super_stimpistol,1,,10,
+reqAdd,brloot_self_revive,1,,10,# Chance of Revive

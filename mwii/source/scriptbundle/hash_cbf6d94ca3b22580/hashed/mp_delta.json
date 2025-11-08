@@ -1,0 +1,154 @@
+{
+    "#hash_28e650c72f3e889e": {
+        "#hash_a8815c64d130615b": [
+            {
+                "#hash_e0a363adf11c8946": [
+                    {
+                        "#hash_e9635fe005f5ad03": "Signage01",
+                        "#hash_3c6f851c5c836147": [
+                            {
+                                "#adimage": "billboard_signage_01"
+                            }
+                        ]
+                    },
+                    {
+                        "#hash_e9635fe005f5ad03": "Signage02",
+                        "#hash_3c6f851c5c836147": [
+                            {
+                                "#adimage": "billboard_signage_02"
+                            }
+                        ]
+                    },
+                    {
+                        "#hash_e9635fe005f5ad03": "Signage04",
+                        "#hash_3c6f851c5c836147": [
+                            {
+                                "#adimage": "billboard_signage_04"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "#hash_e0a363adf11c8946": [
+                    {
+                        "#hash_e9635fe005f5ad03": "Signage03",
+                        "#hash_3c6f851c5c836147": [
+                            {
+                                "#adimage": "billboard_signage_03"
+                            }
+                        ]
+                    },
+                    {
+                        "#hash_e9635fe005f5ad03": "Signage04",
+                        "#hash_3c6f851c5c836147": [
+                            {
+                                "#adimage": "billboard_signage_04"
+                            }
+                        ]
+                    },
+                    {
+                        "#hash_e9635fe005f5ad03": "Signage05",
+                        "#hash_3c6f851c5c836147": [
+                            {
+                                "#adimage": "billboard_signage_05"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "#gameplayevents": {
+            "#hash_e9635fe005f5ad03": "GameplaySetup",
+            "#unifieddisplay": true,
+            "#hash_3c6f851c5c836147": [
+                {
+                    "#adimage": "billboard_gameplay_v"
+                },
+                {
+                    "#adimage": "billboard_gameplay"
+                },
+                {
+                    "#adimage": "billboard_overlay_h"
+                },
+                {
+                    "#adimage": "billboard_overlay_v"
+                }
+            ]
+        },
+        "#hash_e4c472585af18f5d": [
+            {
+                "#hash_e9635fe005f5ad03": "WSunny",
+                "#unifieddisplay": true,
+                "#hash_3c6f851c5c836147": [
+                    {
+                        "#adimage": "billboard_weather_sunny_vertical"
+                    },
+                    {
+                        "#adimage": "billboard_weather_sunny_horizontal"
+                    }
+                ]
+            },
+            {
+                "#hash_e9635fe005f5ad03": "WCloudy",
+                "#unifieddisplay": true,
+                "#hash_3c6f851c5c836147": [
+                    {
+                        "#adimage": "billboard_weather_cloudy_vertical"
+                    },
+                    {
+                        "#adimage": "billboard_weather_cloudy_horizontal"
+                    }
+                ]
+            },
+            {
+                "#hash_e9635fe005f5ad03": "WFog",
+                "#unifieddisplay": true,
+                "#hash_3c6f851c5c836147": [
+                    {
+                        "#adimage": "billboard_weather_fog_vertical"
+                    },
+                    {
+                        "#adimage": "billboard_weather_fog_horizontal"
+                    }
+                ]
+            },
+            {
+                "#hash_e9635fe005f5ad03": "WOvercast",
+                "#unifieddisplay": true,
+                "#hash_3c6f851c5c836147": [
+                    {
+                        "#adimage": "billboard_weather_overcast_vertical"
+                    },
+                    {
+                        "#adimage": "billboard_weather_overcast_horizontal"
+                    }
+                ]
+            },
+            {
+                "#hash_e9635fe005f5ad03": "WMainlySunny",
+                "#unifieddisplay": true,
+                "#hash_3c6f851c5c836147": [
+                    {
+                        "#adimage": "billboard_weather_mainlysunny_vertical"
+                    },
+                    {
+                        "#adimage": "billboard_weather_mainlysunny_horizontal"
+                    }
+                ]
+            },
+            {
+                "#hash_e9635fe005f5ad03": "WPartlyCloudy",
+                "#unifieddisplay": true,
+                "#hash_3c6f851c5c836147": [
+                    {
+                        "#adimage": "billboard_weather_partlycloudy_vertical"
+                    },
+                    {
+                        "#adimage": "billboard_weather_partlycloudy_horizontal"
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,8 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/truckwar/lootset_root.csv,,,,
+chance,point,70,#     % of non-clustered points that will be populated,,
+chance,cluster,70,#     % of clusters that will be populated,,
+chance,clusterSolo,50,#     % of clusters that will become invalid after spawning one item (with dependencies),,
+option,allowdupes,0,#no dupes,,
+reqLimit,tablet,2,,,
+reqAdd,plunder & [2],1,,,# required plunder

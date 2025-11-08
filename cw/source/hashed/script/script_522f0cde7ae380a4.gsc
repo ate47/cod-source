@@ -1,0 +1,11 @@
+#namespace namespace_b5ca279a;
+
+// Namespace namespace_b5ca279a/namespace_b5ca279a
+// Params 0
+// Checksum 0x353a988b, Offset: 0xa0
+// Size: 0x1c
+function init()
+{
+    function_cae618b4( "spawner_zombietron_zombie" );
+}
+

@@ -1,0 +1,56 @@
+////    This line is required for some reason. Need to find out why.   ////
+veh8_common_preload
+
+////    Simulation & Destruction | fxsim (fka. fxanim)    ////
+
+
+///   Global   ///
+t10_flag_ceiling_vertical_lrg_01_fxanim
+t10_flag_pole_horizontal_01_fxanim
+t10_flag_pole_horizontal_01_scale45_fxanim
+t10_furniture_table_folding_01_round_cloth_fxanim
+t10_ceiling_tile_01_wire_a_fall_fxsim
+t10_ceiling_tile_01_wire_a_hang_fxsim
+t10_ceiling_tile_01_wire_b_fall_fxsim
+t10_ceiling_tile_01_wire_b_hang_fxsim
+t10_ceiling_tile_01_wire_c_fall_fxsim
+t10_ceiling_tile_01_wire_c_hang_fxsim
+t10_plumbing_support_bracket_01_a_fall_fxsim
+t10_plumbing_support_bracket_01_a_hang_fxsim
+t10_plumbing_support_bracket_01_b_fall_fxsim
+t10_plumbing_support_bracket_01_b_hang_fxsim
+t10_furniture_patio_umbrella_01_open_fxsim
+t10_furniture_patio_umbrella_01_ripped_fall_fxsim
+t10_furniture_patio_umbrella_01_ripped_hang_fxsim
+
+
+///   mp_pillage   ///
+t10_per_pil_lighting_fixtures_chandelier_01_a_break_fxsim
+t10_per_pil_lighting_fixtures_chandelier_01_a_dangle_fxsim
+t10_per_pil_lighting_fixtures_chandelier_01_a_fall_fxsim
+t10_per_pil_lighting_fixtures_chandelier_01_b_break_fxsim
+t10_per_pil_lighting_fixtures_chandelier_01_b_dangle_fxsim
+t10_per_pil_lighting_fixtures_chandelier_01_b_fall_fxsim
+
+
+///   mp_stealth   ///
+t10_per_sth_vista_patriot_missile_01_fxsim
+t10_per_sth_vista_patriot_missile_02_fxsim
+t10_per_sth_vista_patriot_missile_03_fxsim
+t10_per_sth_signage_bunker_flags_saudi_fast_fxsim
+t10_per_sth_signage_bunker_flags_saudi_slow_fxsim
+t10_per_sth_signage_bunker_flags_usa_fast_fxsim
+t10_per_sth_signage_bunker_flags_usa_slow_fxsim
+t10_per_sth_plumbing_pipe_broken_01_hang_fxsim
+t10_per_sth_plumbing_pipe_broken_01_fall_fxsim
+
+
+///   Zombies   ///
+t10_zm_mystery_box_open_fxanim
+t10_zm_mystery_box_close_fxanim
+t10_zm_mystery_box_leaving_fxanim
+t10_zm_mystery_box_arriving_fxanim
+t10_zm_pap_activate_fxanim
+t10_zm_pap_idle_fxanim
+t10_zm_machine_crafting_fxanim
+t10_zm_machine_crafting_variant_fxanim

@@ -1,0 +1,244 @@
+{
+    "#hash_1c235eed7cc24f5": {
+        "#id": "#fortress",
+        "#dvar": "@#hash_9adec631e1eee04a",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP_BR_INGAME/FORTRESS",
+        "#icon": "%#ui_map_icon_stronghold"
+    },
+    "#hash_8f7c88672fb0b57": {
+        "#id": "#gondola",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#condition": "#hash_d38f9a3e46991b",
+        "#title": "&VEHICLES/GONDOLA",
+        "#icon": "%#hash_6bec711554c4e7df"
+    },
+    "#hash_c52b5184d15a64b": {
+        "#id": "#weaponcase",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#condition": "#hash_88e0f9dcb8da62f7",
+        "#title": "&DMZ/WEAPON_CASE",
+        "#icon": "%#hud_icon_minimap_misc_squad_loot_box"
+    },
+    "#hash_ee7f91790064918": {
+        "#id": "#zoneNeutral",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#condition": "#IsBRZonecontrolGametype",
+        "#title": "&MP_BR_INGAME/ZC_BRONZE_ZONE",
+        "#icon": "%#hud_icon_idle_t1"
+    },
+    "#hash_10f5b5e1947d6138": {
+        "#id": "#dropbag",
+        "#dvar": "@#scr_br_dropbagspawn",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP_BR_INGAME/PUBLIC_DROPBAG",
+        "#icon": "%#ui_map_icon_drop_loadout"
+    },
+    "#hash_1185beda7b1afacb": {
+        "#id": "#snowballs",
+        "#dvar": "@#scr_snowball_pile_enabled",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&BR_FERVOR/SNOWBALL_LEGEND",
+        "#icon": "%#ui_icons_elementaldamage_cold"
+    },
+    "#hash_158eb0245cb31564": {
+        "#id": "#trophyUploadStation",
+        "#dvar": "@#scr_scorpiontrophyevent",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&MP/SCORPION_TROPHY_BANK",
+        "#icon": "%#ui_map_icon_trophy_s03"
+    },
+    "#hash_189e12333b280865": {
+        "#id": "#researchvessel",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#condition": "#hash_d20dd7e59d33cdac",
+        "#title": "&MP_BR_INGAME/RESEARCH_VESSEL",
+        "#icon": "%#hash_3ca55eb3d52e65fb"
+    },
+    "#hash_244d1a5bfe81a4d3": {
+        "#id": "#zoneLocked",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#condition": "#IsBRZonecontrolGametype",
+        "#title": "&MP_BR_INGAME/ZC_LOCKED_ZONE",
+        "#icon": "%#hud_icon_objective_zclock"
+    },
+    "#hash_268deb6d8e201787": {
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&MPUI/PLAYER_PING_ICON",
+        "#icon": "%#ui_mp_br_mapmenu_ping_navigation_squadleader"
+    },
+    "#hash_268dec6d8e20193a": {
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&MP_ARM/HQ",
+        "#icon": "%#ui_mp_br_ping_icon_domination"
+    },
+    "#hash_268ded6d8e201aed": {
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&MP_ARM/HQ",
+        "#icon": "%#icon_waypoint_hq"
+    },
+    "#hash_31cff5ca4bbcb359": {
+        "#id": "#hash_f7d191fade86f28f",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#condition": "#hash_df7d3db5773fc92a",
+        "#title": "&MP_INGAME_ONLY/TAXI_BOAT",
+        "#icon": "%#hash_2ed35128d1feceed"
+    },
+    "#hash_33f9de51ade49ff7": {
+        "#id": "#tram",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#condition": "#hash_e068ddcd66d1dd2b",
+        "#title": "&MP_INGAME_ONLY/TRANSPORT_TRAM",
+        "#icon": "%#hash_23871debb2e509c9"
+    },
+    "#hash_345a02c6751ca4aa": {
+        "#id": "#Slay Ride",
+        "#dvar": "@#hash_c5d16a66e0c6b1e",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&BR_FERVOR/SLAYRIDE",
+        "#icon": "%#icon_tacmap_slayride"
+    },
+    "#hash_403be5d194d5f1c1": {
+        "#id": "#portal",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#condition": "#hash_354940ebb9f53d78",
+        "#title": "&MP_BR_INGAME/LIMBO_PORTAL",
+        "#icon": "%#jup_ui_map_icon_portal"
+    },
+    "#hash_40565fb1db30d673": {
+        "#id": "#hash_122906ead0a91918",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#condition": "#hash_354940ebb9f53d78",
+        "#title": "&MP_BR_INGAME/FLYING_SHIPMENT",
+        "#icon": "%#jup_ui_map_icon_flying_shipment"
+    },
+    "#hash_41f6a7e05ac6565d": {
+        "#id": "#zoneHigh",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#condition": "#IsBRZonecontrolGametype",
+        "#title": "&MP_BR_INGAME/ZC_SILVER_ZONE",
+        "#icon": "%#hud_icon_idle_t2"
+    },
+    "#hash_44c426cfbd9e0fcc": {
+        "#id": "#hash_eae336e9dd35fb98",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#condition": "#hash_5e1b78f0ec7eb1e4",
+        "#title": "&MP_ZXP/LOOT_ANTIVIRAL",
+        "#icon": "%#hud_icon_loot_syringe"
+    },
+    "#hash_473673ecf9cb83dd": {
+        "#id": "#blacksite",
+        "#dvar": "@#hash_70de2a00ac12b9e8",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP_BR_INGAME/BLACK_SITE",
+        "#icon": "%#ui_map_icon_blacksite_default"
+    },
+    "#hash_4aedd9392f2c1248": {
+        "#id": "#armorykiosk",
+        "#dvar": "@#scr_br_armory_kiosk",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#hash_87ce1145840d91ca": true,
+        "#title": "&MP_BR_INGAME/ARMORY_KIOSK",
+        "#icon": "%#ui_map_icon_poi_shop"
+    },
+    "#hash_4b8b28ea84840ee3": {
+        "#id": "#highstakesCrate",
+        "#dvar": "@#hash_da7fe1bcdf3005b7",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP/DOUBLEXP_CRATE_NAME",
+        "#icon": "%#ui_map_icon_drop_doublexp"
+    },
+    "#hash_4f497bf35d5b3841": {
+        "#id": "#weaponTradeStation",
+        "#dvar": "@#scr_br_armory_trader",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP_BR_INGAME/ARMORY_TRADER",
+        "#icon": "%#ui_map_icon_poi_weapontrader"
+    },
+    "#hash_4fa2e217180247f6": {
+        "#id": "#contracts",
+        "#iscontract": true,
+        "#rarity": 5,
+        "#positioncategory": "top",
+        "#hash_c114da75f31ed27b": true
+    },
+    "#hash_5c165873ad58e2a8": {
+        "#id": "#deployableBuyStation",
+        "#dvar": "@#scr_br_deployable_kiosk_enabled",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#hash_87ce1145840d91ca": true,
+        "#title": "&EQUIPMENT/DEPLOYABLE_KIOSK_MARKER",
+        "#icon": "%#ui_map_icon_portable_buystation"
+    },
+    "#hash_60bcb6184bf6c1c5": {
+        "#id": "#abandonedCache",
+        "#dvar": "@#hash_4af62e57f66d060b",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#hash_87ce1145840d91ca": true,
+        "#title": "&MP_BR_INGAME/ABANDONEDCACHE",
+        "#icon": "%#ui_map_icon_loot_cache"
+    },
+    "#hash_66379958b58caf72": {
+        "#id": "#brokenATM",
+        "#dvar": "@#hash_a6b7002b1a7fef73",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP_BR_INGAME/BROKEN_ATM",
+        "#icon": "%#ui_mp_br_mapmenu_legend_poi_broken_atm"
+    },
+    "#hash_6dab7ebfafc4031f": {
+        "#id": "#legendarycontract",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#condition": "#hash_3c5ab24298beaa9b",
+        "#title": "&MP_BR_INGAME/LEGENDARY_CONTRACT",
+        "#icon": "%#hash_27111f43a73c5d18"
+    },
+    "#hash_7269bf9bf159c5f9": {
+        "#id": "#Deck the Halls",
+        "#dvar": "@#hash_ad48f867990dee3c",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&BR_FERVOR/DECKTHEHALLS",
+        "#icon": "%#ui_mp_br_mapmenu_icon_xmas_tree_on"
+    },
+    "#hash_7e4b9d4f73e7112d": {
+        "#id": "#hash_a65b780ec2ef78d",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#condition": "#hash_354940ebb9f53d78",
+        "#title": "&MP_ZXP/LOOT_SCARE_PACKAGE",
+        "#icon": "%#hud_icon_splash_limbo_scare_package"
+    },
+    "#hash_7f019328dbd6e0ec": {
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&MPUI/PLAYER_ICON",
+        "#icon": "%#icon_minimap_player"
+    }
+}

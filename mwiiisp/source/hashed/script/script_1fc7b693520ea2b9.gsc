@@ -1,0 +1,205 @@
+#using scripts\common\utility;
+#using scripts\common\vehicle_build;
+
+#namespace namespace_ba992ffcff31c0d9;
+
+// Namespace namespace_ba992ffcff31c0d9 / namespace_e2237f64994a7cf5
+// Params 3
+// Checksum 0x0, Offset: 0xb09
+// Size: 0x2b8
+function main( model, type, classname )
+{
+    build_template( "truckbig", model, type, classname );
+    build_localinit( &init_local );
+    build_aianims( &setanims, &set_vehicle_anims, "fullsized_pickup_2014" );
+    build_unload_groups( &unload_groups );
+    build_hud( classname, 2 );
+    huskmodel = "veh9_civ_lnd_pickup_fullsized_2014_vehphys_hsk_sp";
+    
+    switch ( model )
+    {
+        case #"hash_2c732e4fbbd1b16":
+            huskmodel = "veh9_civ_lnd_pickup_fullsized_2014_tech_vehphys_hsk_sp";
+            break;
+        case #"hash_4d9c0ee6e8beac53":
+            huskmodel = "veh9_civ_lnd_pickup_fullsized_2014_tech_aq_vehphys_hsk_sp";
+            break;
+        case #"hash_424b0b2701bd8f5d":
+            huskmodel = "veh9_civ_lnd_pickup_fullsized_2014_border_patrol_vehphys_hsk_sp";
+            break;
+        case #"hash_5a1799183df8f10c":
+            huskmodel = "veh9_civ_lnd_pickup_fullsized_2014_police_vehphys_hsk_sp";
+            break;
+    }
+    
+    husktype = "veh9_pickup_fullsized_2014_physics_sp";
+    
+    switch ( classname )
+    {
+        case #"hash_5602658a0708a039":
+            husktype = "veh9_pickup_fullsized_2014_physics_sp_stolen";
+            break;
+        case #"hash_7b2ae92cc1a18ab3":
+            husktype = "veh9_pickup_fullsized_2014_physics_sp_backstabbed";
+            break;
+        case #"hash_bb829ce801a97425":
+            husktype = "veh9_pickup_fullsized_2014_physics_sp_gunship";
+            break;
+        case #"hash_6799e6ed0cded8da":
+            husktype = "veh_jup_pickup_fullsized_2014_physics_sp_gunship";
+            break;
+        case #"hash_dc1e9f5ce4344cf3":
+            husktype = "veh9_pickup_fullsized_2014_physics_sp_intercept";
+            break;
+    }
+    
+    build_husk( model, huskmodel, husktype );
+    build_dependentparts( classname, "tag_door_front_left", [ "tag_window_front_left", "tag_mirror_left" ] );
+    build_dependentparts( classname, "tag_door_front_right", [ "tag_window_front_right", "tag_mirror_right" ] );
+    function_2cf37d073c6bde84( classname, "headlight_front_left", "tag_light_front_left", "headlights" );
+    function_2cf37d073c6bde84( classname, "headlight_front_right", "tag_light_front_right", "headlights" );
+    function_2cf37d073c6bde84( classname, "taillight_back_left", "tag_light_back_left", "headlights" );
+    function_2cf37d073c6bde84( classname, "taillight_back_right", "tag_light_back_right", "headlights" );
+    function_2cf37d073c6bde84( classname, "foglight_front_left", "tag_light_front_left_2", "foglights" );
+    function_2cf37d073c6bde84( classname, "foglight_front_right", "tag_light_front_right_2", "foglights" );
+    function_2cf37d073c6bde84( classname, "brakelight_back_left", "tag_light_back_left", "brakelights" );
+    function_2cf37d073c6bde84( classname, "brakelight_back_right", "tag_light_back_right", "brakelights" );
+    function_2cf37d073c6bde84( classname, "daylight_front_left", "tag_light_front_left", "daylights" );
+    function_2cf37d073c6bde84( classname, "daylight_front_right", "tag_light_front_right", "daylights" );
+    function_2cf37d073c6bde84( classname, "daylight_back_left", "tag_light_back_left", "daylights" );
+    function_2cf37d073c6bde84( classname, "daylight_back_right", "tag_light_back_right", "daylights" );
+}
+
+#using_animtree( "vehicles" );
+
+// Namespace namespace_ba992ffcff31c0d9 / namespace_e2237f64994a7cf5
+// Params 0
+// Checksum 0x0, Offset: 0xdc9
+// Size: 0x2d
+function init_local()
+{
+    if ( utility::issp() )
+    {
+        self useanimtree( #animtree );
+    }
+    
+    self.script_badplace = 1;
+    self.vehicleanimalias = "fullsized_pickup_2014";
+}
+
+// Namespace namespace_ba992ffcff31c0d9 / namespace_e2237f64994a7cf5
+// Params 1
+// Checksum 0x0, Offset: 0xdfe
+// Size: 0x284
+function set_vehicle_anims( positions )
+{
+    positions[ 0 ].vehicle_getinanim = %iw9_veh_pickup_fullsize_2014_seat_0_entry_geo_door;
+    positions[ 0 ].vehicle_getinanim_clear = 0;
+    positions[ 1 ].vehicle_getinanim = %iw9_veh_pickup_fullsize_2014_seat_1_entry_geo_door;
+    positions[ 1 ].vehicle_getinanim_clear = 0;
+    positions[ 2 ].vehicle_getinanim = %iw9_veh_pickup_fullsize_2014_seat_2_entry_geo_door;
+    positions[ 2 ].vehicle_getinanim_clear = 0;
+    positions[ 3 ].vehicle_getinanim = %iw9_veh_pickup_fullsize_2014_seat_3_entry_geo_door;
+    positions[ 3 ].vehicle_getinanim_clear = 0;
+    positions[ 0 ].vehicle_getoutanim = %iw9_veh_pickup_fullsize_2014_seat_0_exit_idle_geo_door;
+    positions[ 0 ].vehicle_getinanim_clear = 0;
+    positions[ 1 ].vehicle_getoutanim = %iw9_veh_pickup_fullsize_2014_seat_1_exit_idle_geo_door;
+    positions[ 1 ].vehicle_getinanim_clear = 0;
+    positions[ 2 ].vehicle_getoutanim = %iw9_veh_pickup_fullsize_2014_seat_2_exit_idle_geo_door;
+    positions[ 2 ].vehicle_getinanim_clear = 0;
+    positions[ 3 ].vehicle_getoutanim = %iw9_veh_pickup_fullsize_2014_seat_3_exit_idle_geo_door;
+    positions[ 3 ].vehicle_getinanim_clear = 0;
+    positions[ 0 ].vehicle_getoutanim_combat = %iw9_veh_pickup_fullsize_2014_seat_0_exit_combat_idle_geo_door;
+    positions[ 0 ].vehicle_getinanim_clear = 0;
+    positions[ 1 ].vehicle_getoutanim_combat = %iw9_veh_pickup_fullsize_2014_seat_1_exit_combat_idle_geo_door;
+    positions[ 1 ].vehicle_getinanim_clear = 0;
+    positions[ 2 ].vehicle_getoutanim_combat = %iw9_veh_pickup_fullsize_2014_seat_2_exit_combat_idle_geo_door;
+    positions[ 2 ].vehicle_getinanim_clear = 0;
+    positions[ 3 ].vehicle_getoutanim_combat = %iw9_veh_pickup_fullsize_2014_seat_3_exit_combat_idle_geo_door;
+    positions[ 3 ].vehicle_getinanim_clear = 0;
+    positions[ 0 ].vehicle_getoutanim_combat_run = %iw9_veh_pickup_fullsize_2014_seat_0_exit_run_geo_door;
+    positions[ 0 ].vehicle_getinanim_clear = 0;
+    positions[ 1 ].vehicle_getoutanim_combat_run = %iw9_veh_pickup_fullsize_2014_seat_1_exit_run_geo_door;
+    positions[ 1 ].vehicle_getinanim_clear = 0;
+    positions[ 2 ].vehicle_getoutanim_combat_run = %iw9_veh_pickup_fullsize_2014_seat_2_exit_run_geo_door;
+    positions[ 2 ].vehicle_getinanim_clear = 0;
+    positions[ 3 ].vehicle_getoutanim_combat_run = %iw9_veh_pickup_fullsize_2014_seat_3_exit_run_geo_door;
+    positions[ 3 ].vehicle_getinanim_clear = 0;
+    return positions;
+}
+
+// Namespace namespace_ba992ffcff31c0d9 / namespace_e2237f64994a7cf5
+// Params 0
+// Checksum 0x0, Offset: 0x108b
+// Size: 0x2c9
+function setanims()
+{
+    positions = [];
+    
+    for ( i = 0; i < 7 ; i++ )
+    {
+        positions[ i ] = spawnstruct();
+    }
+    
+    positions[ 0 ].bhasgunwhileriding = 0;
+    positions[ 0 ].sittag = "TAG_SEAT_WM_0";
+    positions[ 1 ].sittag = "TAG_SEAT_WM_1";
+    positions[ 2 ].sittag = "TAG_SEAT_WM_2";
+    positions[ 3 ].sittag = "TAG_SEAT_WM_3";
+    positions[ 4 ].sittag = "TAG_SEAT_WM_4";
+    positions[ 5 ].sittag = "TAG_SEAT_WM_5";
+    positions[ 6 ].sittag = "TAG_SEAT_WM_6";
+    positions[ 0 ].canshootinvehicle = 0;
+    positions[ 1 ].canshootinvehicle = 0;
+    positions[ 2 ].canshootinvehicle = 0;
+    positions[ 3 ].canshootinvehicle = 0;
+    positions[ 4 ].canshootinvehicle = 1;
+    positions[ 5 ].canshootinvehicle = 1;
+    positions[ 6 ].canshootinvehicle = 1;
+    positions[ 4 ].deathragdoll = 1;
+    positions[ 5 ].deathragdoll = 1;
+    positions[ 6 ].deathragdoll = 1;
+    positions[ 0 ].death_impulse = 0;
+    positions[ 1 ].death_impulse = 1;
+    positions[ 2 ].death_impulse = 1;
+    positions[ 3 ].death_impulse = 1;
+    positions[ 4 ].death_impulse = 1;
+    positions[ 5 ].death_impulse = 1;
+    positions[ 6 ].death_impulse = 1;
+    positions[ 0 ].var_bcd0a0afd54c6491 = 0;
+    positions[ 1 ].var_bcd0a0afd54c6491 = 0;
+    positions[ 2 ].var_bcd0a0afd54c6491 = 0;
+    positions[ 3 ].var_bcd0a0afd54c6491 = 0;
+    positions[ 4 ].var_bcd0a0afd54c6491 = 1;
+    positions[ 5 ].var_bcd0a0afd54c6491 = 1;
+    positions[ 6 ].var_bcd0a0afd54c6491 = 1;
+    positions[ 0 ].var_70aa9eaf339ddb20 = 0;
+    positions[ 1 ].var_70aa9eaf339ddb20 = 0;
+    positions[ 2 ].var_70aa9eaf339ddb20 = 0;
+    positions[ 3 ].var_70aa9eaf339ddb20 = 0;
+    positions[ 4 ].var_70aa9eaf339ddb20 = 1;
+    positions[ 5 ].var_70aa9eaf339ddb20 = 1;
+    positions[ 6 ].var_70aa9eaf339ddb20 = 1;
+    return positions;
+}
+
+// Namespace namespace_ba992ffcff31c0d9 / namespace_e2237f64994a7cf5
+// Params 0
+// Checksum 0x0, Offset: 0x135d
+// Size: 0xa3
+function unload_groups()
+{
+    unload_groups = [];
+    
+    for ( i = 0; i < 7 ; i++ )
+    {
+        unload_groups[ "default" ][ i ] = i;
+    }
+    
+    unload_groups[ "driver" ] = [ 0 ];
+    unload_groups[ "passengers" ] = [ 1, 2, 3, 4, 5, 6 ];
+    unload_groups[ "backseats" ] = [ 2, 3 ];
+    unload_groups[ "entirecab" ] = [ 0, 1, 2, 3 ];
+    return unload_groups;
+}
+

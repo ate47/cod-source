@@ -1,0 +1,7 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/zxp/lootset_root.csv,,,,
+reqAdd,brloot_self_revive,1,0,,
+reqLimit,brloot_self_revive,1,,,
+reqAdd,brloot_super_hauntedbox,1,1,100,# Forced MagSnap or Haunted Box
+reqAdd,brloot_plunder_cash_rare_2,1,1,,
+reqAdd,brloot_killstreak_uav_bigmap,1,1,,

@@ -1,0 +1,134 @@
+string,string,string,string,string,string,string,string,string
+player64x64x64,,-4552,-12792,456,0,0,0,IW9-685408 - Player Clip to fix endless free fall near port
+player64x64x64,,-4920,-9880,624,0,315,0,IW9-691383 - Player Clip to fix rock missing collision in port
+player32x32x32,,-5176,-12124,640,0,65,0,IW9-695117 - Player Clip to fix spot between shelves where player can get stuck
+player32x32x32,,-5176,-12124,668,0,65,0,IW9-695117 - Player Clip to fix spot between shelves where player can get stuck
+player32x32x32,,-1768,-13392,920,0,355,0,IW9-691521 - Player Clip to fix a sticky spot next to a bulldozer in ruins
+player64x64x128,,-2384,-6646,1388,360,	     45,	       90,	    IW9-677987 - Castle roof stuck spot fix
+player64x64x64,,-606,-4352,1276,0,	     44,	        0,	    IW9-692208 - Player Clip blocking stuck spot at castle
+clip128x128x128,,8446,-4128,184,7.9,321.986,	   11.746,	    IW9-681821 - Rock clipped off so player cant exploit getting out of boat
+clip128x128x128,,8226,-4074,198,16.917,	328.143,	  12.7284,	    IW9-681821 - Rock clipped off so player cant exploit getting out of boat
+clip128x128x128,,8540,-6976,206,20,	309.539,	     25.3,	    IW9-681821 - Rock clipped off so player cant exploit getting out of boat
+clip128x128x128,,8594,-6990,198,357.76,	 333.36,	    31.84,	    IW9-681821 - Rock clipped off so player cant exploit getting out of boat
+player32x32x128,,-10502,2260,714,304.067,	   9.18,	    -1.48,	    IW9-688842 - whale does not have player clip
+player32x32x128,,-10520,2276,682,358,5.27,	      1.9,	    IW9-688842 - whale does not have player clip
+player32x32x128,,-10520,2244,682,358.097,	   5.27,	     1.95,	    IW9-688842 - whale does not have player clip
+player32x32x128,,-2608,-5960,1776,0,45,	        0,	    IW9-691615 -  roof stuck spot fix
+player32x32x128,,-2256,-5608,1776,0,45,	        0,	    IW9-691615 -  roof stuck spot fix
+player32x32x128,,-2728,-5136,1776,0,45,	        0,	    IW9-691615 -  roof stuck spot fix
+player32x32x128,,-3080,-5488,1776,0,45,	        0,	    IW9-691615 -  roof stuck spot fix
+player64x64x64,,-12008,3539,284,355.389,	   1.33,	   -16.95,	    IW9-695267 - Concrete beach thing stuck spot
+player32x32x128,,-2007,-4633,1430,0,315,	        0,	    IW9-698709 - stuck spot by shelf
+player32x32x128,,672,-8784,1144,3,315,	      -90,	    IW9-690978 - hiding spot under radio cart thing closed
+player32x32x128,,648,-8760,1144,3,315,	      -90,	    IW9-690978 - hiding spot under radio cart thing closed
+player32x32x128,,632,-8744,1144,3,315,	      -90,	    IW9-690978 - hiding spot under radio cart thing closed
+player32x32x128,,-2644,-4952,1432,0,4.99,	        0,	    IW9-681618 - stuck spot behind wood post fixed
+clip64x64x64,,-7956,-11608,192,0,320,0,IW9-700872 -  Clip to fix a sticky spot under a pipe in port
+clip64x64x64,,-7664,-11168,208,0,320,0,IW9-700872 -  Clip to fix a sticky spot under a pipe in port
+player64x64x64,,-7672,-11140,120,0,320,0,IW9-700872 - Player Clip to fix a sticky spot under a pipe in port
+player64x64x64,,-8428,-14416,280,6.8,45,-15,IW9-701165 - Player Clip to fix sticky spot on rock by port
+player64x64x128,,-5324,140,968,0,10,0,IW9-700726 - Player Clip to fix sticky spot in hotel bathroom
+clip128x128x256,,-14104,-3464,264,5,20,90,IW9-683757 - Clip to fix player clipping through bridge when on jet ski
+clip64x64x128,,1688,-16012,182,1.7,330,10,IW9-701472 - Clip to prevent player from getting stuck behind rock in shipwreck
+clip256x256x128,,-1982,-3224,20,12,26,0,IW9-648457 - Clip to prevent player from getting stuck on waterway wall
+clip256x256x128,,-2186,-3320,44,0,26,0,IW9-648457 - Clip to prevent player from getting stuck on waterway wall
+clip256x256x128,,-2406,-3454,44,0,26,0,IW9-648457 - Clip to prevent player from getting stuck on waterway wall
+clip256x256x128,,-2598,-3570,20,12,206,0,IW9-648457 - Clip to prevent player from getting stuck on waterway wall
+clip64x64x256,,-3166,-4044,126,359.4,20,-85.9,IW9-704357 - Clip at base of column to prevent players from swimming under clip
+clip64x64x256,,-3222,-3828,142,355.86,98,-93.75,IW9-704357  - Clip at base of column to prevent players from swimming under clip
+clip256x256x8,,-680,-2896,208,0,355,90,IW9-704656 - Clip to prevent PWC from clipping through wall and culling camera
+clip256x256x8,,-934,-2869,208,0,353,90,IW9-704656 - Clip to prevent PWC from clipping through wall and culling camera
+player32x32x128,,-10630,1340,444,90,305,-64,IW9-706567 - clip to prevent getting behind the pipes
+player32x32x128,,-10756,1318,444,90,305,-64,IW9-706567 - clip to prevent getting behind the pipes
+player32x32x128,,-10630,1340,460,90,305,-64,IW9-706567 - clip to prevent getting behind the pipes
+player32x32x128,,-10756,1318,460,90,305,-64,IW9-706567 - clip to prevent getting behind the pipes
+player64x64x128,,2789.14,-2690.52,306,306.6,97.74,-89,IW9-705030 - clip to prevent getting inside rock
+player64x64x128,,2835.67,-2605.94,310.3,307.47,146.63,-93.4,IW9-705030 - clip to prevent getting inside rock
+clip32x32x128,,-13021,-5579.5,498,9,30,94,IW9-708517 - Clip to prevent getting in a stuck spot on the bridge
+player32x32x128,,8374,8586,440,90,88,108.915,IW9-719237 - clip to prevent getting under foundation
+player32x32x128,,8430,8786,440,90,88,108.915,IW9-719237 - clip to prevent getting under foundation
+player32x32x128,,8283,8856,440,270,267,163,IW9-719237 - clip to prevent getting under foundation
+player64x64x64,,8412,8592,402,0,66,0,IW9-718914 - Clip to prevent player from crawling under ruined building 1
+player64x64x64,,-12622,-2569,658,0,52,0,IW9-718914 - Clip to prevent player from crawling under ruined building 2
+player256x256x8,,-2310,-6086,316,270,0,45,IW9-718925 - Clip to prevent player from clipping through bunker wall
+player256x256x8,,-2374,-5982,316,270,180,180,IW9-718925 - Clip to prevent player from clipping through bunker wall
+player256x256x8,,-2326,-5766,316,270,0,-30,IW9-718925 - Clip to prevent player from clipping through bunker wall
+player256x256x8,,-2202,-5630,400,270,0,-45,IW9-718925 - Clip to prevent player from clipping through bunker wall
+player128x128x128,,-4888,-4208,1328,0,345,0,IW9-721880 - Tunnel Collision
+player128x128x128,,-4920,-4328,1328,0,345,0,IW9-721880 - Tunnel Collision
+player64x64x256,,-3152,-6122,326,0,354,0,IW9-723946 - Submarine Bay Cap to prevent player from escaping map
+player128x128x256,,-3256,-6096,334,340,315,0,IW9-723946 - Submarine Bay Cap to prevent player from escaping map
+clip128x128x256,,-268.36,-10142.9,1104,270,288,86,IW9-724351 - tarp scaffold collision
+clip128x128x256,,-356.31,-10158.9,1104,270,288,86,IW9-724351 - tarp scaffold collision
+clip128x128x256,,-329.153,-9780.38,1108,90,202.107,-82,IW9-724351 - tarp scaffold collision
+clip128x128x256,,-357,-9800,1056,90,322,-52,IW9-724351 - tarp scaffold collision
+nosight256x256x8,,-1952,-4028,1168,360,225,90,IW9-725034 - under scaffold back castle collision
+nosight256x256x8,,-1952,-4028,1168,360,225,90,IW9-725034 - under scaffold back castle collision
+nosight256x256x8,,-1952,-4028,1168,360,225,90,IW9-725034 - under scaffold back castle collision
+nosight256x256x8,,-3316,-5844,1168,0,315,90,IW9-725038 - under scaffold thin
+nosight256x256x8,,-1712,-3964,1168,0,135,90,IW9-725038 - under scaffold thin
+nosight256x256x8,,-1766,-4242,1286,0,315,0,IW9-730275 - Ascender room ceiling fix
+nosight256x256x8,,-1702,-4306,1286,0,315,0,IW9-730275 - Ascender room ceiling fix
+nosight256x256x8,,-1760,-4364,1286,0,315,0,IW9-730275 - Ascender room ceiling fix
+nosight256x256x8,,-1826,-4298,1286,0,315,0,IW9-730275 - Ascender room ceiling fix
+player128x128x8,,-3242,-4904,1304,90,203.17,158.17,IW9-730980 - tunnel brace stuck spot fix
+player128x128x8,,-3442,-5104,1304,90,203.17,158.17,IW9-730980 - tunnel brace stuck spot fix
+clip128x128x8,,-3320,-4192,1332,23,322,-2,IW9-737803 - Tunnel roof has gap in collision
+clip128x128x8,,-3394,-4290,1331,23,322,-2,IW9-737803 - Tunnel roof has gap in collision
+clip128x128x8,,-3461,-4391,1332,23,322,-2,IW9-737803 - Tunnel roof has gap in collision
+clip32x32x32,,3210,-4830,1182,270,0,135,IW9-743764 - Castle Outer Wall lacking collision
+clip32x32x32,,3210,-4830,1150,270,0,135,IW9-743764 - Castle Outer Wall lacking collision
+vehicle128x128x256,,-4392,-5028,1264,0,330,-90,IW9-751823 - Atv tunnel exploit fix
+vehicle128x128x256,,-1104,-6236,404,270,247.1,67.9,IW9-751828 - Atv bunker exploit fix
+vehicle128x128x256,,-1106,-6156,404,270,0,-1.7,IW9-751828 - Atv bunker exploit fix
+clip64x64x64,,-3372,-4282,1298,0,240,0,IW9-751871 - Left castle tunnel map escape
+vehicle128x128x256,,2690,-2456,424,90,60,15,IW9-751882 - Vehicle clip to prevent ATV map escape
+vehicle128x128x256,,2690,-2456,480,90,60,15,IW9-751882 - Vehicle clip to prevent ATV map escape
+vehicle128x128x256,,2224,-2400,388,270,150,180,IW9-759616 - Vehicle Clip to prevent ATV map escape
+vehicle128x128x256,,2798.85,-3368,392,270,213.69,176.31,IW9-761022 - Tunnel stair atv Vehicle clip
+vehicle128x128x256,,2866.85,-3320,448,270,0,33,IW9-761022 - Tunnel stair atv Vehicle clip
+vehicle128x128x256,,2088.85,-3338,448,270,0,-2,IW9-761022 - Tunnel stair atv Vehicle clip
+vehicle128x128x256,,2266.85,-3246,448,270,89,-71,IW9-761022 - Tunnel stair atv Vehicle clip
+vehicle128x128x256,,3456.85,-3078,448,270,0,44,IW9-761022 - Tunnel stair atv Vehicle clip
+vehicle128x128x256,,3670.85,-3040,386,270,0,12,IW9-761022 - Tunnel stair atv Vehicle clip
+vehicle128x128x256,,-3332,-3126,396,270,182,132,IW9-761020 - Tunnel sub area atv Vehicle clip
+vehicle128x128x256,,-3508,-2950,396,270,182,132,IW9-761020 - Tunnel sub area atv Vehicle clip
+vehicle128x128x256,,-3629,-2876,398,360,285,90,IW9-761020 - Tunnel sub area atv Vehicle clip
+vehicle128x128x256,,-3889,-2940,398,0,310,90,IW9-761020 - Tunnel sub area atv Vehicle clip
+vehicle128x128x256,,-4097,-3116,398,0,325,90,IW9-761020 - Tunnel sub area atv Vehicle clip
+vehicle128x128x256,,-4245.8,-3332,398,0,320,90,IW9-761020 - Tunnel sub area atv Vehicle clip
+vehicle128x128x256,,-4393,-3516,398,360,300,90,IW9-761020 - Tunnel sub area atv Vehicle clip
+vehicle128x128x256,,-4537,-3564,398,0,315,90,IW9-761020 - Tunnel sub area atv Vehicle clip
+player64x64x128,,-4292,-4904,1200,90,330.6,-79,IW9-765396 - Stuck spot fix by table in tunnel ascender room
+vehicle128x128x256,,-672,-2774,412,270,338.55,12.44,IW9-769279 - Tunnel sub area atv Vehicle clip
+vehicle128x128x256,,-924,-2734,412,270,338.55,12.44,IW9-769279 - Tunnel sub area atv Vehicle clip
+vehicle128x128x256,,-1036,-2716,412,270,338.55,12.44,IW9-769279 - Tunnel sub area atv Vehicle clip
+vehicle128x128x256,,-1260,-2688,412,270,0,-39,IW9-769279 - Tunnel sub area atv Vehicle clip
+vehicle128x128x256,,-1440,-2556,412,270,0,-69,IW9-769279 - Tunnel sub area atv Vehicle clip
+vehicle128x128x256,,-1528,-2316,412,270,0,-69,IW9-769279 - Tunnel sub area atv Vehicle clip
+vehicle128x128x256,,-564,-2642,412,270,0,0.99,IW9-769279 - Tunnel sub area atv Vehicle clip
+vehicle128x128x256,,-352,-2754,412,270,0,0.99,IW9-769279 - Tunnel sub area atv Vehicle clip
+vehicle128x128x256,,-343,-2728,287,360,41,-8.9,IW9-769279 - Tunnel sub area atv Vehicle clip
+player64x64x128,,-4892,-6638,1192,0,326,-90,IW9-743810 - Stone lantern stuck spot
+player128x128x256,,-15544,-2222,136,0,15.99,0,IW9-767967 - Beach club pier shaky spot
+player128x128x256,,-15548,-2206,136,0,15.99,0,IW9-767967 - Beach club pier shaky spot
+player128x128x256,,-15544,-2222,62,0,15.99,0,IW9-767967 - Beach club pier shaky spot
+player128x128x256,,-15548,-2206,62,0,15.99,0,IW9-767967 - Beach club pier shaky spot
+player32x32x32,,-5960,-6272,968,0,345,0,IW9-767794 - Clip to prevent ruins stuck spot
+player32x32x32,,-5944,-6200,968,0,345,0,IW9-767794 - Clip to prevent ruins stuck spot
+vehicle128x128x256,,-1048,-2712,408,270,0,-13,IW9-770724 - Vehicle Clip to prevent ATV map escape in Tunnels
+clip64x64x128,,4012,8284,568,360,55,90,IW9-773066 - map hole fix under foundation to greenhouses POI
+vehicle128x128x256,,-3680,-5576,392,270,218,-178,IW9-773069 - Clip to prevent tunnels ATV escape
+clip64x64x64,,4232,-8200,736,15,0,0,IW9-779837 Stuck spot between residential and castle
+clip32x32x32,,3114,1860,902,0,30,0,IW9-784095 - Hiding spot behind screen in apartments
+clip32x32x32,,3110,1888,902,0,30,0,IW9-784095 - Hiding spot behind screen in apartments
+clip32x32x32,,3114,1880,932,0,30,0,IW9-784095 - Hiding spot behind screen in apartments
+shotblock8x8x256,shotblock8x8x256,4231.57,8164.88,604,6.93,56,-90,IW9-773066 - concrete rail clip
+shotblock8x8x256,shotblock8x8x256,3875.22,8091.55,606,360,326,-90,IW9-773066 - concrete rail clip
+clip64x64x128,,-8226,-3952,940,74,70,88,IW9-783376 - Clip to prevent culling while prone in port
+player32x32x128,,-2024,-3512,392,60,285,-95,IW9-783551 - Clip to prevent player from hiding in geo
+player32x32x128,,-1920,-3476,388,60,275,-103.5,IW9-783551 - Clip to prevent player from hiding in geo
+player64x64x64,,-1323,-2177,1094,0,335,0,IW9-831379 - Fix for a stuck spot
+player64x64x64,,9324,6459.75,355.75,324.149,327.24,-54.404,IW9-942089 - Fix for some bad clip on a beach rock
+player64x64x64,,9324.5,6456.5,362,345.968,319.851,3.876,IW9-942089 - Fix for some bad clip on a beach rock
+player64x64x64,,9318.5,6447.25,357.25,345.454,335.15,21.012,IW9-942089 - Fix for some bad clip on a beach rock

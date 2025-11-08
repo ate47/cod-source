@@ -1,0 +1,6 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/plunder/lootset_root.csv,,,,
+reqAdd,weapon&[1],1,,,# 1 uncommon weapon+
+reqAdd,plunder,1,,,# 1 cash drop
+reqAdd,[2],1,,,# 1 item of any type, any rarity
+reqAdd,,1,,,# 1 item of any type, any rarity

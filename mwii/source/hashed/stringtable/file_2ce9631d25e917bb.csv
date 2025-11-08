@@ -1,0 +1,105 @@
+string,string,string,string,string,string,string,string,string
+clip32x32x32,,-9072,7320,330,0,324,0,Fix for player cliping and seeing through rock
+missile64x64x64,,-9622,7038,152,0,0,0,Fix for equipment falling through floor
+missile128x128x8,,-9526,7070,208,0,0,0,Fix for equipment falling through floor
+clip32x32x32,,-8923,7775,265.5,0,325.565,0,Fix for rock collision play can clip into
+clip32x32x32,,-8941,7750.5,268.5,0,321.164,0,Fix for rock collision play can clip into
+clip32x32x32,,-8961,7730,271.5,0,310.022,0,Fix for rock collision play can clip into
+clip32x32x32,,-8985,7712,271.5,0,304.701,0,Fix for rock collision play can clip into
+clip32x32x32,,-9010,7694,270,0,307,0,Fix for rock collision play can clip into
+clip32x32x32,,-9033,7676.5,265.5,0,307,0,Fix for rock collision play can clip into
+missile64x64x128,,-8857,7416,127,0,0,0,Fix for equpment going under rock
+player128x128x128,,-7683,8616,564.5,0,315,0,fix for jumping on collision edge
+player128x128x128,,-7653,8616,692.5,0,315,0,fix for jumping on collision edge
+player128x128x128,,-7683,8616,820.5,0,315,0,fix for jumping on collision edge
+missile256x256x8,,-10056,9259.5,342.5,89.9969,292.394,-22.6085,Fix for tac camera seeing through window
+missile32x32x128,,-9282,8516,320,0,315.006,-89.9954,Fix for tacticools going through sandbags
+missile32x32x32,,-9302,8496,300,0,315.006,-89.9954,Fix for tacticools going through sandbags
+missile32x32x32,,-9386,8416,320,0,315.006,-89.9954,Fix for tacticools going through sandbags
+missile32x32x32,,-9364,8438,310,0,315.006,-89.9954,Fix for tacticools going through sandbags
+missile32x32x32,,-9342,8460,310,0,315.006,-89.9954,Fix for tacticools going through sandbags
+missile32x32x128,,-8676,9986,340,0,315,0,Fix for tacticool camera exploit in wall
+missile32x32x128,,-8676,9986,340,0,315,0,Fix for tacticool camera exploit in wall
+missile64x64x64,,-8168,9218,300,0,315,0,Fix for C4 going under geo
+missile64x64x128,,-7319.5,9466.5,257.5,0,317.331,-89.999,Fix for camera going through geo
+missile64x64x64,,-7361,9419.5,257.5,0,317.331,-89.999,Fix for camera going through geo
+missile64x64x64,,-7375,9400.5,257.5,0,341.331,-89.999,Fix for camera going through geo
+missile64x64x128,,-7366,9430,254.5,0,47.3321,-67.2356,Fix for camera going through geo
+missile64x64x128,,-7452.5,9510,304,0,47.3322,-66.0831,Fix for camera going through geo
+missile64x64x128,,-7504,9559.5,335.5,0,47.3322,-66.0831,Fix for camera going through geo
+player128x128x8,,-7690.5,10096,504,270,216.958,100.474,Fix for players getting on extended collision on wall
+player128x128x8,,-7685,10091,504,270,216.958,100.474,Fix for players getting on extended collision on wall
+player128x128x8,,-7679.5,10086,504,270,216.958,100.474,Fix for players getting on extended collision on wall
+player128x128x8,,-7674,10081,504,270,216.958,100.474,Fix for players getting on extended collision on wall
+player32x32x256,,-9375.5,8427,317.5,0,315,0,fix for stuck spot onwall by utility building
+player32x32x256,,-9375.5,8427,573.5,0,315,0,fix for stuck spot onwall by utility building
+player32x32x256,,-9375.5,8427,829.5,0,315,0,fix for stuck spot onwall by utility building
+player32x32x256,,-9585.5,7712,694.5,0,315,0,adding collision for script models
+player32x32x256,,-9574,7723.5,694.5,0,315,0,adding collision for script models
+player32x32x256,,-9585.5,7712,438.5,0,315,0,adding collision for script models
+player32x32x256,,-9574,7723.5,438.5,0,315,0,adding collision for script models
+missile64x64x64,,-10398,7894,304,350,110.999,89.9997,adding missile clip for ammo box collision
+missile64x64x128,,-10328.5,8017.5,312,90,240,0,adding missile clip for ammo box collision
+missile64x64x256,,-10326,8174,354,0.348,315,-90.0002,adding missile clip for railing
+missile64x64x256,,-10214,8286,354,0.348,315,-90.0002,adding missile clip for railing
+missile8x8x256,,-9814.5,8798,634,89.9999,135,0.683,adding missile clip for window collision on equipment
+missile8x8x256,,-9814.5,8798,626,89.9999,135,0.683,adding missile clip for window collision on equipment
+missile8x8x256,,-9814.5,8798,618,89.9999,135,0.683,adding missile clip for window collision on equipment
+missile8x8x256,,-9814.5,8798,610,89.9999,135,0.683,adding missile clip for window collision on equipment
+missile8x8x256,,-9783.5,9209.5,634,89.9999,225,0.171,adding missile clip for window collision on equipment
+missile8x8x256,,-9783.5,9209.5,626,89.9999,225,0.171,adding missile clip for window collision on equipment
+missile8x8x256,,-9783.5,9209.5,618,89.9999,225,0.171,adding missile clip for window collision on equipment
+missile8x8x256,,-9783.5,9209.5,610,89.9999,225,0.171,adding missile clip for window collision on equipment
+missile8x8x256,,-9549,9064,634,90,135,0,adding missile clip for window collision on equipment
+missile8x8x256,,-9549,9064,626,90,135,0,adding missile clip for window collision on equipment
+missile8x8x256,,-9549,9064,618,90,135,0,adding missile clip for window collision on equipment
+missile8x8x256,,-9549,9064,610,90,135,0,adding missile clip for window collision on equipment
+player64x64x128,,-9117.5,8028,244,0.164,315,0,adding clip to block player mounting umbra issue
+player32x32x256,,-9574,7723.5,182.5,0,315,0,adding collision for script models
+player64x64x256,,-7270,10064,286,0,321,0,fixing extended collision player can jump on in ruins area
+player64x64x256,,-7319.5,10104,286,0,321,0,fixing extended collision player can jump on in ruins area
+player64x64x256,,-7365,10144,286,0,316.381,0,fixing extended collision player can jump on in ruins area
+player64x64x256,,-7270,10064,534,0,321,0,fixing extended collision player can jump on in ruins area
+player64x64x256,,-7319.5,10104,534,0,321,0,fixing extended collision player can jump on in ruins area
+player64x64x256,,-7365,10144,534,0,316.381,0,fixing extended collision player can jump on in ruins area
+player64x64x256,,-7254.5,10008.5,406,0,253.898,0,fixing extended collision player can jump on in ruins area
+player64x64x256,,-7254.5,10008.5,654,0,253.898,0,fixing extended collision player can jump on in ruins area
+player128x128x8,,-9556,7769.5,372.5,0,45,90,Fixing player getting stuck in crouch position on electrical generator
+player64x64x256,,-8762,9161,304,0,28.9997,0,fixing stuck spot for playing in mid map in water canal
+player64x64x256,,-8690,9164,304,0,343,0,fixing stuck spot for playing in mid map in water canal
+player64x64x256,,-8644,9138,304,0,322,0,fixing stuck spot for playing in mid map in water canal
+player64x64x256,,-8598,9086,304,0,302.05,0,fixing stuck spot for playing in mid map in water canal
+player64x64x256,,-8574,9016,304,0,275.968,0,fixing stuck spot for playing in mid map in water canal
+player64x64x256,,-8572,8959,304,0,268.306,0,fixing stuck spot for playing in mid map in water canal
+player64x64x256,,-8560,8926,304,0,312.461,0,fixing stuck spot for playing in mid map in water canal
+player64x64x128,,-8779.41,9178.59,336,0,272.999,-90,fixing stuck spot for playing in mid map in water canal
+player64x64x128,,-8566,9032,336,0,22.9998,-90,fixing stuck spot for playing in mid map in water canal
+player64x64x256,,-8762,9161,552,0,28.9997,0,fixing stuck spot for playing in mid map in water canal
+player64x64x256,,-8690,9164,552,0,343,0,fixing stuck spot for playing in mid map in water canal
+player64x64x256,,-8644,9138,552,0,322,0,fixing stuck spot for playing in mid map in water canal
+player64x64x256,,-8598,9086,552,0,302.05,0,fixing stuck spot for playing in mid map in water canal
+player64x64x256,,-8574,9016,552,0,275.968,0,fixing stuck spot for playing in mid map in water canal
+player64x64x256,,-8572,8959,552,0,268.306,0,fixing stuck spot for playing in mid map in water canal
+player64x64x256,,-8560,8926,552,0,312.461,0,fixing stuck spot for playing in mid map in water canal
+missile128x128x8,,-9857,7900,321,0,315,33.8969,adding clip for equipment falling through stairs
+shotblock128x128x8,shotblock128x128x8,-9361,7963.5,497.5,270,135,180,adding shot block for IW9-588368
+shotblock128x128x8,shotblock128x128x8,-9297,8125.5,358.5,270,44.9999,-180,adding shot block for IW9-587483
+shotblock128x128x8,shotblock128x128x8,-9834.5,9253.5,408.5,270,44.9999,-180,adding shot block for IW9-587483
+shotblock8x8x256,shotblock8x8x256,-7776,8906,160,0,315,0,
+shotblock8x8x256,shotblock8x8x256,-7770.5,8911.5,160,0,315,0,
+shotblock8x8x256,shotblock8x8x256,-7781.5,8911.5,160,0,315,0,
+shotblock8x8x256,shotblock8x8x256,-7776,8917,160,0,315,0,
+shotblock128x128x8,shotblock128x128x8,-7606,9028,344,89.9999,225,0,
+player32x32x256,,-9437,8406,468,0,315,0,fix for exploit spot for IW9-600516
+player32x32x256,,-9437,8406,724,0,315,0,fix for exploit spot for IW9-600516
+player32x32x256,,-9437,8406,980,0,315,0,fix for exploit spot for IW9-600516
+player32x32x128,,-11127,7722,275,0,315,0,fix for jump spot allowing player to see spawns
+player32x32x128,,-11149,7700,275,0,315,0,fix for jump spot allowing player to see spawns
+player32x32x128,,-11165,7676,275,0,0,0,fix for jump spot allowing player to see spawns
+player32x32x128,,-11165,7644,275,0,0,0,fix for jump spot allowing player to see spawns
+player32x32x128,,-11149,7620,275,0,315,0,fix for jump spot allowing player to see spawns
+player32x32x128,,-11127,7598,275,0,315,0,fix for jump spot allowing player to see spawns
+player32x32x128,,-11107,7578,275,0,315,0,fix for jump spot allowing player to see spawns
+nosight256x256x8,,-10472,7912,215.5,0,15,-90.0001,fix for seeing enemy nameplates through stairs
+player32x32x32,,-7590,9936.5,293,0,317.541,0,fix for stuckspot
+player32x32x32,,-7583.32,9943.8,293,0,317.541,0,fix for stuckspot

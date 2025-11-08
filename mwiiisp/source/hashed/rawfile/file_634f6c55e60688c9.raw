@@ -1,0 +1,11 @@
+%force_cs_anim_index_match
+
+rhib_4man_seat3_aim_yaw: scrub1d( timerange="-205, 205", timevalue=[aim_yaw], alwayson="true", childindex="1" ) parse_cull(disable)
+{
+	rhib_4man_seat3_aim_pitch : blendspace1d( range="-90,90", blend_time="0", coords="-85,0,85", value=[aim_pitch] ) parse_cull(disable)
+	{
+		iw9_veh_rhib_4man_seat_3_scrub_up
+		iw9_veh_rhib_4man_seat_3_scrub_neutral
+		iw9_veh_rhib_4man_seat_3_scrub_down
+	}
+}

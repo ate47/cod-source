@@ -1,0 +1,5762 @@
+{
+    "#hash_1c8f9cbde578c9b": {
+        "#id": 91,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#enemy_player",
+                "#sharedname": "#enemy_player"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#radioactive_cache",
+                "#sharedname": "#radioactive_cache"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#medicine_cabinet",
+                "#sharedname": "#medicine_cabinet"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#pc_cache",
+                "#sharedname": "#pc_cache"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#supply_drop",
+                "#sharedname": "#supply_drop"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#supply_drop_event",
+                "#sharedname": "#supply_drop_event"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#supply_drop_airplane",
+                "#sharedname": "#supply_drop_airplane"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#weapon_locker",
+                "#sharedname": "#weapon_locker"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#duffel_bag",
+                "#sharedname": "#duffel_bag"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#cash_register",
+                "#sharedname": "#cash_register"
+            }
+        ],
+        "#name": "#iw9_loot_source",
+        "#sharedname": "#loot_source"
+    },
+    "#hash_303ff8802b58610": {
+        "#id": 33,
+        "#bitfield": [],
+        "#name": "#iw9_weapon_attachment1",
+        "#sharedname": "#weapon_attachment1"
+    },
+    "#hash_304018802b58976": {
+        "#id": 36,
+        "#bitfield": [],
+        "#name": "#iw9_weapon_attachment3",
+        "#sharedname": "#weapon_attachment3"
+    },
+    "#hash_304028802b58b29": {
+        "#id": 35,
+        "#bitfield": [],
+        "#name": "#iw9_weapon_attachment2",
+        "#sharedname": "#weapon_attachment2"
+    },
+    "#hash_304038802b58cdc": {
+        "#id": 38,
+        "#bitfield": [],
+        "#name": "#iw9_weapon_attachment5",
+        "#sharedname": "#weapon_attachment5"
+    },
+    "#hash_304048802b58e8f": {
+        "#id": 37,
+        "#bitfield": [],
+        "#name": "#iw9_weapon_attachment4",
+        "#sharedname": "#weapon_attachment4"
+    },
+    "#hash_304058802b59042": {
+        "#id": 40,
+        "#bitfield": [],
+        "#name": "#iw9_weapon_attachment7",
+        "#sharedname": "#weapon_attachment7"
+    },
+    "#hash_304068802b591f5": {
+        "#id": 39,
+        "#bitfield": [],
+        "#name": "#iw9_weapon_attachment6",
+        "#sharedname": "#weapon_attachment6"
+    },
+    "#hash_304078802b593a8": {
+        "#id": 42,
+        "#bitfield": [],
+        "#name": "#iw9_weapon_attachment9",
+        "#sharedname": "#weapon_attachment9"
+    },
+    "#hash_304088802b5955b": {
+        "#id": 41,
+        "#bitfield": [],
+        "#name": "#iw9_weapon_attachment8",
+        "#sharedname": "#weapon_attachment8"
+    },
+    "#hash_43b251539a3dad2": {
+        "#id": 0,
+        "#bitfield": [],
+        "#name": "#iw9_rejoin_is_active",
+        "#sharedname": "#hash_b212dbb46f19de20"
+    },
+    "#hash_5723449c0da4d97": {
+        "#id": 87,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#elimination",
+                "#sharedname": "#elimination"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#domination",
+                "#sharedname": "#domination"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#geiger_search",
+                "#sharedname": "#geiger_search"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#trap",
+                "#sharedname": "#trap"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#hostage",
+                "#sharedname": "#hostage"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#vehicledrive",
+                "#sharedname": "#vehicledrive"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#hunt",
+                "#sharedname": "#hunt"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#boatdrive",
+                "#sharedname": "#boatdrive"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#demolition",
+                "#sharedname": "#demolition"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#safe",
+                "#sharedname": "#safe"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#samsite",
+                "#sharedname": "#samsite"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#bomb",
+                "#sharedname": "#bomb"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#person_of_interest",
+                "#sharedname": "#person_of_interest"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#hacker_phone",
+                "#sharedname": "#hacker_phone"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#supply",
+                "#sharedname": "#supply"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#scav",
+                "#sharedname": "#scav"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#convoy_attack",
+                "#sharedname": "#convoy_attack"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#convoy_defend",
+                "#sharedname": "#convoy_defend"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#train_safe",
+                "#sharedname": "#train_safe"
+            },
+            {
+                "#bitindex": 31,
+                "#name": "#hash_52fcfafbe0f7161f",
+                "#sharedname": "#hash_52fcfafbe0f7161f"
+            },
+            {
+                "#bitindex": 32,
+                "#name": "#hash_90ee07f28c459aed",
+                "#sharedname": "#hash_90ee07f28c459aed"
+            }
+        ],
+        "#name": "#iw9_activity_type",
+        "#sharedname": "#activity_type"
+    },
+    "#hash_6ec80be6c74d4c4": {
+        "#id": 14,
+        "#bitfield": [],
+        "#name": "#iw9_kill_operator_id",
+        "#sharedname": "#hash_834ae5ef756e04aa"
+    },
+    "#hash_7db3c7ddb9cf2b7": {
+        "#id": 73,
+        "#bitfield": [],
+        "#name": "#iw9_pool_id",
+        "#sharedname": "#pool_id"
+    },
+    "#hash_8cb3ba9d62dacbe": {
+        "#id": 8,
+        "#bitfield": [],
+        "#name": "#iw9_gamemode",
+        "#sharedname": "#gamemode"
+    },
+    "#hash_9184fa3a74a21fc": {
+        "#id": 180,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_event_type",
+        "#sharedname": "#hash_f1733e44a51e82be"
+    },
+    "#hash_939ac8fee157497": {
+        "#id": 152,
+        "#bitfield": [],
+        "#name": "#iw9_no_damage_kill_chain",
+        "#sharedname": "#hash_16db99d7417ef29d"
+    },
+    "#hash_9a483680cfa902d": {
+        "#id": 70,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#brain_rot",
+                "#sharedname": "#brain_rot"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#stun",
+                "#sharedname": "#stun"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#slow",
+                "#sharedname": "#slow"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#ignite",
+                "#sharedname": "#ignite"
+            }
+        ],
+        "#name": "#iw9_zm_status_effect_bitfield",
+        "#sharedname": "#hash_c42353117753a27f"
+    },
+    "#hash_9d06b87f3da2399": {
+        "#id": 64,
+        "#bitfield": [],
+        "#name": "#iw9_zm_pap_level",
+        "#sharedname": "#hash_977ffe9d0e63e97b"
+    },
+    "#hash_a6d74c4ce41b18f": {
+        "#id": 88,
+        "#bitfield": [],
+        "#name": "#iw9_score",
+        "#sharedname": "#score"
+    },
+    "#hash_a9888b19c5a92a0": {
+        "#id": 12,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#headshot",
+                "#sharedname": "#headshot"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#victimsprinting",
+                "#sharedname": "#victimsprinting"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#ads",
+                "#sharedname": "#ads"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#hipfire",
+                "#sharedname": "#hipfire"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#longrange",
+                "#sharedname": "#longrange"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#recentweaponpickup",
+                "#sharedname": "#recentweaponpickup"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#mounted",
+                "#sharedname": "#mounted"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#crouch",
+                "#sharedname": "#crouch"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#prone",
+                "#sharedname": "#prone"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#shortrange",
+                "#sharedname": "#shortrange"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#laststand",
+                "#sharedname": "#laststand"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#victimlaststand",
+                "#sharedname": "#victimlaststand"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#recondroneexplosive",
+                "#sharedname": "#recondroneexplosive"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#quickscope",
+                "#sharedname": "#quickscope"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#weaponswap",
+                "#sharedname": "#weaponswap"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#backfire",
+                "#sharedname": "#backfire"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#melee",
+                "#sharedname": "#melee"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#execution",
+                "#sharedname": "#execution"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#lastbullet",
+                "#sharedname": "#lastbullet"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#buzzkill",
+                "#sharedname": "#buzzkill"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#1shot1kill",
+                "#sharedname": "#1shot1kill"
+            },
+            {
+                "#bitindex": 21,
+                "#name": "#enemystunned",
+                "#sharedname": "#enemystunned"
+            },
+            {
+                "#bitindex": 22,
+                "#name": "#enemyinsmoke",
+                "#sharedname": "#enemyinsmoke"
+            },
+            {
+                "#bitindex": 23,
+                "#name": "#invehicle",
+                "#sharedname": "#invehicle"
+            },
+            {
+                "#bitindex": 24,
+                "#name": "#recentreload",
+                "#sharedname": "#recentreload"
+            },
+            {
+                "#bitindex": 25,
+                "#name": "#enemywithuav",
+                "#sharedname": "#enemywithuav"
+            },
+            {
+                "#bitindex": 26,
+                "#name": "#lowhealth",
+                "#sharedname": "#lowhealth"
+            },
+            {
+                "#bitindex": 27,
+                "#name": "#usingsecondaryweapon",
+                "#sharedname": "#usingsecondaryweapon"
+            },
+            {
+                "#bitindex": 28,
+                "#name": "#equipmentimpact",
+                "#sharedname": "#equipmentimpact"
+            },
+            {
+                "#bitindex": 29,
+                "#name": "#fire",
+                "#sharedname": "#fire"
+            },
+            {
+                "#bitindex": 30,
+                "#name": "#victiminvehicle",
+                "#sharedname": "#victiminvehicle"
+            },
+            {
+                "#bitindex": 31,
+                "#name": "#backstab",
+                "#sharedname": "#backstab"
+            },
+            {
+                "#bitindex": 32,
+                "#name": "#slide",
+                "#sharedname": "#slide"
+            },
+            {
+                "#bitindex": 33,
+                "#name": "#firstblood",
+                "#sharedname": "#firstblood"
+            },
+            {
+                "#bitindex": 34,
+                "#name": "#grenadestuck",
+                "#sharedname": "#grenadestuck"
+            },
+            {
+                "#bitindex": 35,
+                "#name": "#assaulting",
+                "#sharedname": "#assaulting"
+            },
+            {
+                "#bitindex": 36,
+                "#name": "#defending",
+                "#sharedname": "#defending"
+            },
+            {
+                "#bitindex": 37,
+                "#name": "#cooking",
+                "#sharedname": "#cooking"
+            },
+            {
+                "#bitindex": 38,
+                "#name": "#comeback",
+                "#sharedname": "#comeback"
+            },
+            {
+                "#bitindex": 39,
+                "#name": "#posthumous",
+                "#sharedname": "#posthumous"
+            },
+            {
+                "#bitindex": 40,
+                "#name": "#revenge",
+                "#sharedname": "#revenge"
+            },
+            {
+                "#bitindex": 41,
+                "#name": "#verylongrange",
+                "#sharedname": "#verylongrange"
+            },
+            {
+                "#bitindex": 42,
+                "#name": "#kingslayer",
+                "#sharedname": "#kingslayer"
+            },
+            {
+                "#bitindex": 43,
+                "#name": "#vehicleexplosive",
+                "#sharedname": "#vehicleexplosive"
+            },
+            {
+                "#bitindex": 44,
+                "#name": "#avenger",
+                "#sharedname": "#avenger"
+            },
+            {
+                "#bitindex": 45,
+                "#name": "#nemesis",
+                "#sharedname": "#nemesis"
+            },
+            {
+                "#bitindex": 46,
+                "#name": "#quadfeed",
+                "#sharedname": "#quadfeed"
+            },
+            {
+                "#bitindex": 47,
+                "#name": "#crush",
+                "#sharedname": "#crush"
+            },
+            {
+                "#bitindex": 48,
+                "#name": "#killenemyteam",
+                "#sharedname": "#killenemyteam"
+            },
+            {
+                "#bitindex": 49,
+                "#name": "#defender",
+                "#sharedname": "#defender"
+            },
+            {
+                "#bitindex": 50,
+                "#name": "#holdbreath",
+                "#sharedname": "#holdbreath"
+            },
+            {
+                "#bitindex": 51,
+                "#name": "#gunbutt",
+                "#sharedname": "#gunbutt"
+            },
+            {
+                "#bitindex": 52,
+                "#name": "#swimming",
+                "#sharedname": "#swimming"
+            },
+            {
+                "#bitindex": 53,
+                "#name": "#withoutnvgs",
+                "#sharedname": "#withoutnvgs"
+            },
+            {
+                "#bitindex": 54,
+                "#name": "#choppergunner",
+                "#sharedname": "#choppergunner"
+            },
+            {
+                "#bitindex": 55,
+                "#name": "#vehiclelean",
+                "#sharedname": "#vehiclelean"
+            },
+            {
+                "#bitindex": 56,
+                "#name": "#vehiclesurf",
+                "#sharedname": "#vehiclesurf"
+            },
+            {
+                "#bitindex": 57,
+                "#name": "#infastvehicle",
+                "#sharedname": "#infastvehicle"
+            },
+            {
+                "#bitindex": 58,
+                "#name": "#ontrain",
+                "#sharedname": "#ontrain"
+            },
+            {
+                "#bitindex": 59,
+                "#name": "#wearingarmor",
+                "#sharedname": "#wearingarmor"
+            },
+            {
+                "#bitindex": 60,
+                "#name": "#fullarmor",
+                "#sharedname": "#fullarmor"
+            },
+            {
+                "#bitindex": 61,
+                "#name": "#victiminstronghold",
+                "#sharedname": "#victiminstronghold"
+            },
+            {
+                "#bitindex": 62,
+                "#name": "#victiminlockedstronghold",
+                "#sharedname": "#victiminlockedstronghold"
+            },
+            {
+                "#bitindex": 63,
+                "#name": "#thirdperson",
+                "#sharedname": "#thirdperson"
+            }
+        ],
+        "#name": "#iw9_kill_bitfield1",
+        "#sharedname": "#kill_bitfield1"
+    },
+    "#hash_a988ab19c5a9606": {
+        "#id": 153,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#foot",
+                "#sharedname": "#foot"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#neck",
+                "#sharedname": "#neck"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#torso",
+                "#sharedname": "#torso"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#onladder",
+                "#sharedname": "#onladder"
+            }
+        ],
+        "#name": "#iw9_kill_bitfield3",
+        "#sharedname": "#kill_bitfield3"
+    },
+    "#hash_a988bb19c5a97b9": {
+        "#id": 100,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#ledgehanging",
+                "#sharedname": "#ledgehanging"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#sentry_kill",
+                "#sharedname": "#sentry_kill"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#cluster_mine_kill",
+                "#sharedname": "#cluster_mine_kill"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#victim_is_gulag_jailer",
+                "#sharedname": "#victim_is_gulag_jailer"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#underwater",
+                "#sharedname": "#underwater"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#radio_pinged",
+                "#sharedname": "#radio_pinged"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#uav_tower_pinged",
+                "#sharedname": "#uav_tower_pinged"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#holding_hostage",
+                "#sharedname": "#holding_hostage"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#pinged",
+                "#sharedname": "#pinged"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#on_cargo_train",
+                "#sharedname": "#on_cargo_train"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#on_passenger_train",
+                "#sharedname": "#on_passenger_train"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#from_helicopter",
+                "#sharedname": "#from_helicopter"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#used_enemy_weapon",
+                "#sharedname": "#used_enemy_weapon"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#silenced",
+                "#sharedname": "#silenced"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#cover_kill",
+                "#sharedname": "#cover_kill"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#detected_impaired",
+                "#sharedname": "#detected_impaired"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#victim_impaired",
+                "#sharedname": "#victim_impaired"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#helicopter_explosive",
+                "#sharedname": "#helicopter_explosive"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#in_gulag",
+                "#sharedname": "#in_gulag"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#standing",
+                "#sharedname": "#standing"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#from_palfa",
+                "#sharedname": "#from_palfa"
+            },
+            {
+                "#bitindex": 21,
+                "#name": "#victim_hvt",
+                "#sharedname": "#victim_hvt"
+            },
+            {
+                "#bitindex": 22,
+                "#name": "#clean_kill",
+                "#sharedname": "#clean_kill"
+            },
+            {
+                "#bitindex": 23,
+                "#name": "#popcorn",
+                "#sharedname": "#popcorn"
+            },
+            {
+                "#bitindex": 24,
+                "#name": "#isaltmode",
+                "#sharedname": "#isaltmode"
+            },
+            {
+                "#bitindex": 25,
+                "#name": "#victim_in_radiation",
+                "#sharedname": "#victim_in_radiation"
+            },
+            {
+                "#bitindex": 26,
+                "#name": "#vehiclelean_sedan",
+                "#sharedname": "#vehiclelean_sedan"
+            },
+            {
+                "#bitindex": 27,
+                "#name": "#from_mrap",
+                "#sharedname": "#from_mrap"
+            },
+            {
+                "#bitindex": 28,
+                "#name": "#unaware",
+                "#sharedname": "#unaware"
+            },
+            {
+                "#bitindex": 29,
+                "#name": "#victim_has_dmz_bounty",
+                "#sharedname": "#victim_has_dmz_bounty"
+            },
+            {
+                "#bitindex": 30,
+                "#name": "#in_radiation",
+                "#sharedname": "#in_radiation"
+            },
+            {
+                "#bitindex": 31,
+                "#name": "#recommended_season_2",
+                "#sharedname": "#recommended_season_2"
+            },
+            {
+                "#bitindex": 32,
+                "#name": "#recommended_season_3",
+                "#sharedname": "#recommended_season_3"
+            },
+            {
+                "#bitindex": 33,
+                "#name": "#recommended_season_4",
+                "#sharedname": "#recommended_season_4"
+            },
+            {
+                "#bitindex": 34,
+                "#name": "#recommended_season_5",
+                "#sharedname": "#recommended_season_5"
+            },
+            {
+                "#bitindex": 35,
+                "#name": "#recommended_season_6",
+                "#sharedname": "#recommended_season_6"
+            },
+            {
+                "#bitindex": 36,
+                "#name": "#hash_efa8718cf03a1110",
+                "#sharedname": "#hash_efa8718cf03a1110"
+            },
+            {
+                "#bitindex": 37,
+                "#name": "#recommended_season_0",
+                "#sharedname": "#recommended_season_0"
+            },
+            {
+                "#bitindex": 38,
+                "#name": "#hash_5b4eb501eaf86d4e",
+                "#sharedname": "#hash_5b4eb501eaf86d4e"
+            },
+            {
+                "#bitindex": 39,
+                "#name": "#full_auto_kill",
+                "#sharedname": "#full_auto_kill"
+            },
+            {
+                "#bitindex": 40,
+                "#name": "#semi_auto_kill",
+                "#sharedname": "#semi_auto_kill"
+            },
+            {
+                "#bitindex": 41,
+                "#name": "#one_shot_two_kills",
+                "#sharedname": "#one_shot_two_kills"
+            },
+            {
+                "#bitindex": 42,
+                "#name": "#throwback_grenade",
+                "#sharedname": "#throwback_grenade"
+            },
+            {
+                "#bitindex": 43,
+                "#name": "#launcher_impact",
+                "#sharedname": "#launcher_impact"
+            },
+            {
+                "#bitindex": 44,
+                "#name": "#burst_kill",
+                "#sharedname": "#burst_kill"
+            },
+            {
+                "#bitindex": 45,
+                "#name": "#fully_loaded_kill",
+                "#sharedname": "#fully_loaded_kill"
+            },
+            {
+                "#bitindex": 46,
+                "#name": "#barebones_kill",
+                "#sharedname": "#barebones_kill"
+            },
+            {
+                "#bitindex": 47,
+                "#name": "#akimbo",
+                "#sharedname": "#akimbo"
+            },
+            {
+                "#bitindex": 48,
+                "#name": "#hash_c009ccb571734f3f",
+                "#sharedname": "#hash_c009ccb571734f3f"
+            },
+            {
+                "#bitindex": 49,
+                "#name": "#extreme_magnification_kill",
+                "#sharedname": "#extreme_magnification_kill"
+            },
+            {
+                "#bitindex": 50,
+                "#name": "#recommended_season_1",
+                "#sharedname": "#recommended_season_1"
+            },
+            {
+                "#bitindex": 51,
+                "#name": "#hash_fbf026161c1d9738",
+                "#sharedname": "#hash_fbf026161c1d9738"
+            },
+            {
+                "#bitindex": 52,
+                "#name": "#merc_camp_kill",
+                "#sharedname": "#merc_camp_kill"
+            },
+            {
+                "#bitindex": 53,
+                "#name": "#after_sprint_kill",
+                "#sharedname": "#after_sprint_kill"
+            },
+            {
+                "#bitindex": 54,
+                "#name": "#moving_kill",
+                "#sharedname": "#moving_kill"
+            },
+            {
+                "#bitindex": 55,
+                "#name": "#strafing_kill",
+                "#sharedname": "#strafing_kill"
+            },
+            {
+                "#bitindex": 56,
+                "#name": "#isaltmode",
+                "#sharedname": "#isaltmode"
+            },
+            {
+                "#bitindex": 57,
+                "#name": "#victim_in_radiation",
+                "#sharedname": "#victim_in_radiation"
+            },
+            {
+                "#bitindex": 58,
+                "#name": "#vehiclelean_sedan",
+                "#sharedname": "#vehiclelean_sedan"
+            },
+            {
+                "#bitindex": 59,
+                "#name": "#victim_has_dmz_bounty",
+                "#sharedname": "#victim_has_dmz_bounty"
+            },
+            {
+                "#bitindex": 60,
+                "#name": "#hash_d5f7402ac6e6fc0c",
+                "#sharedname": "#hash_d5f7402ac6e6fc0c"
+            },
+            {
+                "#bitindex": 61,
+                "#name": "#hand",
+                "#sharedname": "#hand"
+            },
+            {
+                "#bitindex": 62,
+                "#name": "#jumpkill",
+                "#sharedname": "#jumpkill"
+            },
+            {
+                "#bitindex": 63,
+                "#name": "#hash_3d20b9f56f230af1",
+                "#sharedname": "#hash_3d20b9f56f230af1"
+            }
+        ],
+        "#name": "#iw9_kill_bitfield2",
+        "#sharedname": "#kill_bitfield2"
+    },
+    "#hash_bf81c05b4bbaa2b": {
+        "#id": 197,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_bans",
+        "#sharedname": "#hash_51387ca91e455bad"
+    },
+    "#hash_c07c0fa1a5c0e47": {
+        "#id": 75,
+        "#bitfield": [],
+        "#name": "#iw9_deactivate_id",
+        "#sharedname": "#deactivate_id"
+    },
+    "#hash_c41b2a9ec3dce3f": {
+        "#id": 94,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#health",
+                "#sharedname": "#health"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#armor",
+                "#sharedname": "#armor"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#riot_shield",
+                "#sharedname": "#riot_shield"
+            }
+        ],
+        "#name": "#iw9_damage_type",
+        "#sharedname": "#damage_type"
+    },
+    "#hash_c48986dfc4b7601": {
+        "#id": 110,
+        "#bitfield": [],
+        "#name": "#iw9_wc_match_number",
+        "#sharedname": "#hash_e933ac277344cfb7"
+    },
+    "#hash_e1464c2a10ec67c": {
+        "#id": 93,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#hash_acc6dc54625d0a17",
+                "#sharedname": "#hash_acc6dc54625d0a17"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#hash_45e3c0812e75ab3e",
+                "#sharedname": "#hash_45e3c0812e75ab3e"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#hash_8b59c4002a512de",
+                "#sharedname": "#hash_8b59c4002a512de"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#hash_660db0e326cd81bd",
+                "#sharedname": "#hash_660db0e326cd81bd"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#hash_daaf4b8f296c064a",
+                "#sharedname": "#hash_daaf4b8f296c064a"
+            }
+        ],
+        "#name": "#iw9_double_xp_event",
+        "#sharedname": "#hash_e1ad0562d81a9efa"
+    },
+    "#hash_e6dd24bf666731e": {
+        "#id": 79,
+        "#bitfield": [],
+        "#name": "#iw9_cp_stars",
+        "#sharedname": "#hash_4f965de7c7e8ca6c"
+    },
+    "#hash_ee6498523b1c1f8": {
+        "#id": 89,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#buy",
+                "#sharedname": "#buy"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#sell",
+                "#sharedname": "#sell"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#upgrade",
+                "#sharedname": "#upgrade"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#trade",
+                "#sharedname": "#trade"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#remove_attachment",
+                "#sharedname": "#remove_attachment"
+            }
+        ],
+        "#name": "#iw9_buy_action",
+        "#sharedname": "#buy_action"
+    },
+    "#hash_f00792148eb2ce6": {
+        "#id": 121,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#delta_townhouse1",
+                "#sharedname": "#delta_townhouse1"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#delta_townhouse2",
+                "#sharedname": "#delta_townhouse2"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#delta_townhouse3",
+                "#sharedname": "#delta_townhouse3"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#delta_townhouse4",
+                "#sharedname": "#delta_townhouse4"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#delta_townhouse5",
+                "#sharedname": "#delta_townhouse5"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#delta_townhouse6",
+                "#sharedname": "#delta_townhouse6"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#delta_townhouse7",
+                "#sharedname": "#delta_townhouse7"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#delta_windmill",
+                "#sharedname": "#delta_windmill"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#delta_zoo",
+                "#sharedname": "#delta_zoo"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#mp_biobunker",
+                "#sharedname": "#mp_biobunker"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#biobunker_radiation",
+                "#sharedname": "#biobunker_radiation"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#biobunker_flooded",
+                "#sharedname": "#biobunker_flooded"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#biobunker_boss",
+                "#sharedname": "#biobunker_boss"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#biobunker_shop",
+                "#sharedname": "#biobunker_shop"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#biobunker_dark",
+                "#sharedname": "#biobunker_dark"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#biobunker_office",
+                "#sharedname": "#biobunker_office"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#biobunker_controlroom",
+                "#sharedname": "#biobunker_controlroom"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#biobunker_datacenter",
+                "#sharedname": "#biobunker_datacenter"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#saba_sandstorm",
+                "#sharedname": "#saba_sandstorm"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#hash_ba30c3078a84ef9e",
+                "#sharedname": "#hash_d6db5f99dc36e23e"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#hash_d8dd407c5b01efb9",
+                "#sharedname": "#hash_ac103e90b09579d9"
+            },
+            {
+                "#bitindex": 21,
+                "#name": "#hash_4ede8d480f3f9583",
+                "#sharedname": "#hash_c20e29d578f2dd23"
+            },
+            {
+                "#bitindex": 22,
+                "#name": "#jup_bigmap_lowtown",
+                "#sharedname": "#hash_e849db658d282060"
+            },
+            {
+                "#bitindex": 23,
+                "#name": "#hash_eeac14602c82e7ff",
+                "#sharedname": "#hash_61dcb0ed9637e29f"
+            },
+            {
+                "#bitindex": 24,
+                "#name": "#hash_6f30a3d13aaddc48",
+                "#sharedname": "#hash_6bdee6251f385f68"
+            },
+            {
+                "#bitindex": 25,
+                "#name": "#hash_48c2fe979b6d7307",
+                "#sharedname": "#hash_7445495e1310bda7"
+            },
+            {
+                "#bitindex": 26,
+                "#name": "#hash_a3bad96b3406656f",
+                "#sharedname": "#hash_16ea75f89db9ad0f"
+            },
+            {
+                "#bitindex": 27,
+                "#name": "#hash_709137b182c3fb0b",
+                "#sharedname": "#hash_ddbf9bfc1e66432b"
+            },
+            {
+                "#bitindex": 28,
+                "#name": "#hash_854fd3597febf716",
+                "#sharedname": "#hash_4737510de9572db6"
+            },
+            {
+                "#bitindex": 29,
+                "#name": "#hash_f0ee59a81cd69de8",
+                "#sharedname": "#hash_5e5201d9d2c75b88"
+            }
+        ],
+        "#name": "#iw9_location_bitfield2",
+        "#sharedname": "#hash_dc0d981f2d59d210"
+    },
+    "#hash_10690d354a918da3": {
+        "#id": 86,
+        "#bitfield": [],
+        "#name": "#iw9_mgl_edge_item_count",
+        "#sharedname": "#hash_81c8086c749c4bb9"
+    },
+    "#hash_108538b0929766b8": {
+        "#id": 124,
+        "#bitfield": [],
+        "#name": "#iw9_matchmaking_gametype",
+        "#sharedname": "#hash_ea6d55067346aee2"
+    },
+    "#hash_112da3ef4670dcd7": {
+        "#id": 181,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_hot_streak_cooldown_s",
+        "#sharedname": "#hash_cb5895c719e93d31"
+    },
+    "#hash_12b8e4e786cf9a0f": {
+        "#id": 120,
+        "#bitfield": [],
+        "#name": "#iw9_lobby_id",
+        "#sharedname": "#lobby_id"
+    },
+    "#hash_13524f9452cbe491": {
+        "#id": 84,
+        "#bitfield": [],
+        "#name": "#iw9_mgl_edge_item_id",
+        "#sharedname": "#hash_311cc95400ed6a7f"
+    },
+    "#hash_1492db2b6a31a7b3": {
+        "#id": 135,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#battlepass",
+                "#sharedname": "#battlepass"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#tokens",
+                "#sharedname": "#tokens"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#blackcell",
+                "#sharedname": "#blackcell"
+            }
+        ],
+        "#name": "#iw9_battlepass_revoke_flags",
+        "#sharedname": "#hash_95e575ef16bf3489"
+    },
+    "#hash_156b33d1991556af": {
+        "#id": 63,
+        "#bitfield": [],
+        "#name": "#iw9_zm_objective_type",
+        "#sharedname": "#hash_aff3ecd4d89f3b65"
+    },
+    "#hash_168a80303137307e": {
+        "#id": 77,
+        "#bitfield": [],
+        "#name": "#iw9_loot_item_type",
+        "#sharedname": "#hash_d7806c74c1d4a500"
+    },
+    "#hash_16b7426ba4aa655c": {
+        "#id": 54,
+        "#bitfield": [],
+        "#name": "#iw9_zm_damage_covenants",
+        "#sharedname": "#hash_68fd030ef1ebbc02"
+    },
+    "#hash_190288ad5cb4f6a6": {
+        "#id": 131,
+        "#bitfield": [],
+        "#name": "#iw9_autospend_enabled",
+        "#sharedname": "#hash_bd66e449a1abdd5c"
+    },
+    "#hash_19e15b1963b1fc44": {
+        "#id": 173,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_added_to_ladder",
+        "#sharedname": "#hash_490204184a5f13e"
+    },
+    "#hash_1a9a38cc92b42fa2": {
+        "#id": 101,
+        "#bitfield": [],
+        "#name": "#iw9_damage",
+        "#sharedname": "#damage"
+    },
+    "#hash_1bb21d2f01d90669": {
+        "#id": 148,
+        "#bitfield": [],
+        "#name": "#iw9_battlemap_batch_spend",
+        "#sharedname": "#hash_a21f7753c908794b"
+    },
+    "#hash_1bec71ac7e1f2010": {
+        "#id": 4,
+        "#bitfield": [],
+        "#name": "#iw9_day_override",
+        "#sharedname": "#day_override"
+    },
+    "#hash_1bfa48f48cb815c9": {
+        "#id": 133,
+        "#bitfield": [],
+        "#name": "#iw9_login_reward_version",
+        "#sharedname": "#hash_c8e2575a00f8c7cf"
+    },
+    "#hash_1c7c7bc761cc58d7": {
+        "#id": 145,
+        "#bitfield": [],
+        "#name": "#iw9_loot_id_1",
+        "#sharedname": "#hash_1e968d7574076fcd"
+    },
+    "#hash_1d20fa736e6bf190": {
+        "#id": 99,
+        "#bitfield": [],
+        "#name": "#iw9_sp_progression",
+        "#sharedname": "#hash_a671ccafa00e32e2"
+    },
+    "#hash_1d5a7039b75786c3": {
+        "#id": 83,
+        "#bitfield": [],
+        "#name": "#iw9_playlist_id",
+        "#sharedname": "#playlist_id"
+    },
+    "#hash_1d7fb75d350829b6": {
+        "#id": 61,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#pacifist",
+                "#sharedname": "#pacifist"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#all_objectives_all_locations",
+                "#sharedname": "#all_objectives_all_locations"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#no_manual_reloads",
+                "#sharedname": "#no_manual_reloads"
+            }
+        ],
+        "#name": "#iw9_zm_objective_bitfield",
+        "#sharedname": "#hash_f1da7bc4bdd97eb4"
+    },
+    "#hash_1eb1f55bf68a0fd3": {
+        "#id": 97,
+        "#bitfield": [],
+        "#name": "#iw9_cp_intel_collected",
+        "#sharedname": "#hash_b4c55b9ef89a6659"
+    },
+    "#hash_1ec067f9c0f127ae": {
+        "#id": 1,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#wallbuy_kill",
+                "#sharedname": "#wallbuy_kill"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#magicbox_kill",
+                "#sharedname": "#magicbox_kill"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#frenzied_guard_kill",
+                "#sharedname": "#frenzied_guard_kill"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#special_elite_frenzied_guard_kill",
+                "#sharedname": "#special_elite_frenzied_guard_kill"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#cryofreeze_kill",
+                "#sharedname": "#cryofreeze_kill"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#frost_blast_kill",
+                "#sharedname": "#frost_blast_kill"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#energy_mine_kill_zombie",
+                "#sharedname": "#energy_mine_kill_zombie"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#energy_mine_kill_soldier",
+                "#sharedname": "#energy_mine_kill_soldier"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#aether_shroud_kill_zombie",
+                "#sharedname": "#aether_shroud_kill_zombie"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#aether_shroud_kill_soldier",
+                "#sharedname": "#aether_shroud_kill_soldier"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#tesla_storm_kill_zombie",
+                "#sharedname": "#tesla_storm_kill_zombie"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#schematic_speedcola_kill",
+                "#sharedname": "#schematic_speedcola_kill"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#pap_kill_zombie_level_1_yellow_or_higher",
+                "#sharedname": "#pap_kill_zombie_level_1_yellow_or_higher"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#pap_kill_zombie_level_2",
+                "#sharedname": "#pap_kill_zombie_level_2"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#pap_kill_zombie_special_level_2",
+                "#sharedname": "#pap_kill_zombie_special_level_2"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#pap_kill_zombie_level_3",
+                "#sharedname": "#pap_kill_zombie_level_3"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#pap_kill_zombie_elite_level_3",
+                "#sharedname": "#pap_kill_zombie_elite_level_3"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#brainrot_kill",
+                "#sharedname": "#brainrot_kill"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#napalmburst_burning_kill",
+                "#sharedname": "#napalmburst_burning_kill"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#deadwire_execution_kill",
+                "#sharedname": "#deadwire_execution_kill"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#schematic_cryofreeze_kill",
+                "#sharedname": "#schematic_cryofreeze_kill"
+            },
+            {
+                "#bitindex": 21,
+                "#name": "#hash_778c08e12d115d1",
+                "#sharedname": "#hash_778c08e12d115d1"
+            },
+            {
+                "#bitindex": 22,
+                "#name": "#killstreak_turret_soldier_kill",
+                "#sharedname": "#killstreak_turret_soldier_kill"
+            },
+            {
+                "#bitindex": 23,
+                "#name": "#killstreak_turret_zombie_kill",
+                "#sharedname": "#killstreak_turret_zombie_kill"
+            },
+            {
+                "#bitindex": 24,
+                "#name": "#soldier_captain_kill",
+                "#sharedname": "#soldier_captain_kill"
+            },
+            {
+                "#bitindex": 25,
+                "#name": "#soldier_commander_kill",
+                "#sharedname": "#soldier_commander_kill"
+            },
+            {
+                "#bitindex": 26,
+                "#name": "#hash_4608211df0e156df",
+                "#sharedname": "#hash_4608211df0e156df"
+            },
+            {
+                "#bitindex": 27,
+                "#name": "#vehicle_kill",
+                "#sharedname": "#vehicle_kill"
+            },
+            {
+                "#bitindex": 28,
+                "#name": "#aether_sabotage_soldier_kill",
+                "#sharedname": "#aether_sabotage_soldier_kill"
+            },
+            {
+                "#bitindex": 29,
+                "#name": "#kill_four_perks",
+                "#sharedname": "#kill_four_perks"
+            },
+            {
+                "#bitindex": 30,
+                "#name": "#weapon_stash_guard_kill",
+                "#sharedname": "#weapon_stash_guard_kill"
+            },
+            {
+                "#bitindex": 31,
+                "#name": "#hash_88c1d8993471a5bf",
+                "#sharedname": "#hash_88c1d8993471a5bf"
+            },
+            {
+                "#bitindex": 32,
+                "#name": "#weapon_stash_zombie_kill",
+                "#sharedname": "#weapon_stash_zombie_kill"
+            },
+            {
+                "#bitindex": 33,
+                "#name": "#merc_camp_kill",
+                "#sharedname": "#merc_camp_kill"
+            },
+            {
+                "#bitindex": 34,
+                "#name": "#escort_zombie_kill",
+                "#sharedname": "#escort_zombie_kill"
+            },
+            {
+                "#bitindex": 35,
+                "#name": "#storm_castle_warlord_kill",
+                "#sharedname": "#storm_castle_warlord_kill"
+            },
+            {
+                "#bitindex": 36,
+                "#name": "#pap_kill",
+                "#sharedname": "#pap_kill"
+            },
+            {
+                "#bitindex": 37,
+                "#name": "#field_upgrade_kill",
+                "#sharedname": "#field_upgrade_kill"
+            },
+            {
+                "#bitindex": 38,
+                "#name": "#critical_kill",
+                "#sharedname": "#critical_kill"
+            },
+            {
+                "#bitindex": 39,
+                "#name": "#aether_storm_kill",
+                "#sharedname": "#aether_storm_kill"
+            },
+            {
+                "#bitindex": 40,
+                "#name": "#killstreak_kill",
+                "#sharedname": "#killstreak_kill"
+            },
+            {
+                "#bitindex": 41,
+                "#name": "#equipment_kill",
+                "#sharedname": "#equipment_kill"
+            },
+            {
+                "#bitindex": 42,
+                "#name": "#fire_damage",
+                "#sharedname": "#fire_damage"
+            },
+            {
+                "#bitindex": 43,
+                "#name": "#frost_damage",
+                "#sharedname": "#frost_damage"
+            },
+            {
+                "#bitindex": 44,
+                "#name": "#electric_damage",
+                "#sharedname": "#electric_damage"
+            },
+            {
+                "#bitindex": 45,
+                "#name": "#explosive_damage",
+                "#sharedname": "#explosive_damage"
+            },
+            {
+                "#bitindex": 46,
+                "#name": "#elemental_combo",
+                "#sharedname": "#elemental_combo"
+            },
+            {
+                "#bitindex": 47,
+                "#name": "#abomination_grenade_swallow",
+                "#sharedname": "#abomination_grenade_swallow"
+            },
+            {
+                "#bitindex": 48,
+                "#name": "#warlord_speedrun",
+                "#sharedname": "#warlord_speedrun"
+            },
+            {
+                "#bitindex": 49,
+                "#name": "#deathworm_solo_kill",
+                "#sharedname": "#deathworm_solo_kill"
+            },
+            {
+                "#bitindex": 50,
+                "#name": "#kill_after_field_upgrade_used",
+                "#sharedname": "#kill_after_field_upgrade_used"
+            },
+            {
+                "#bitindex": 51,
+                "#name": "#red_region_kill",
+                "#sharedname": "#red_region_kill"
+            },
+            {
+                "#bitindex": 52,
+                "#name": "#full_attachements_kill",
+                "#sharedname": "#full_attachements_kill"
+            },
+            {
+                "#bitindex": 53,
+                "#name": "#epic_or_higher_rarity",
+                "#sharedname": "#epic_or_higher_rarity"
+            },
+            {
+                "#bitindex": 54,
+                "#name": "#one_shot_three_kills",
+                "#sharedname": "#one_shot_three_kills"
+            },
+            {
+                "#bitindex": 55,
+                "#name": "#tactical_affected_kill",
+                "#sharedname": "#tactical_affected_kill"
+            },
+            {
+                "#bitindex": 56,
+                "#name": "#phd_flopper",
+                "#sharedname": "#phd_flopper"
+            },
+            {
+                "#bitindex": 57,
+                "#name": "#kills_and_exfil",
+                "#sharedname": "#kills_and_exfil"
+            },
+            {
+                "#bitindex": 58,
+                "#name": "#juggernog_equipped",
+                "#sharedname": "#juggernog_equipped"
+            },
+            {
+                "#bitindex": 59,
+                "#name": "#jackrabbit",
+                "#sharedname": "#jackrabbit"
+            },
+            {
+                "#bitindex": 60,
+                "#name": "#deadshot_daiquiri_equipped",
+                "#sharedname": "#deadshot_daiquiri_equipped"
+            },
+            {
+                "#bitindex": 61,
+                "#name": "#staminup_equipped",
+                "#sharedname": "#staminup_equipped"
+            },
+            {
+                "#bitindex": 62,
+                "#name": "#yellow_region_kill",
+                "#sharedname": "#yellow_region_kill"
+            },
+            {
+                "#bitindex": 63,
+                "#name": "#speedcola_equipped",
+                "#sharedname": "#speedcola_equipped"
+            }
+        ],
+        "#name": "#iw9_ob_zombie_kill_bitfield",
+        "#sharedname": "#hash_648b2ad7f16589f0"
+    },
+    "#hash_1f1695521678bc8c": {
+        "#id": 20,
+        "#bitfield": [],
+        "#name": "#iw9_operator_xp_id",
+        "#sharedname": "#hash_8fba2fc976d0515e"
+    },
+    "#hash_209497a65179b6e3": {
+        "#id": 142,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#new_bit0",
+                "#sharedname": "#new_bit0"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#new_bit1",
+                "#sharedname": "#new_bit1"
+            }
+        ],
+        "#name": "#iw9_game_flags_bitfield2",
+        "#sharedname": "#hash_4a7f054e87253ca1"
+    },
+    "#hash_209498a65179b896": {
+        "#id": 141,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#hash_9c7629231862591",
+                "#sharedname": "#hash_9c7629231862591"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#hash_b8a2ff18131cc733",
+                "#sharedname": "#hash_b8a2ff18131cc733"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#hash_c8e8af61d90c2b83",
+                "#sharedname": "#hash_c8e8af61d90c2b83"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#hash_d9d5bb9c14036a88",
+                "#sharedname": "#hash_d9d5bb9c14036a88"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#hash_96192c141396f9c9",
+                "#sharedname": "#hash_96192c141396f9c9"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#hash_71af694e3ed3d50e",
+                "#sharedname": "#hash_71af694e3ed3d50e"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#hash_e6e34cbbba621040",
+                "#sharedname": "#hash_e6e34cbbba621040"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#hash_58978a5c5af8c501",
+                "#sharedname": "#hash_58978a5c5af8c501"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#hash_22715811de1c2355",
+                "#sharedname": "#hash_22715811de1c2355"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#hash_c34c2acd5ddc3949",
+                "#sharedname": "#hash_c34c2acd5ddc3949"
+            }
+        ],
+        "#name": "#iw9_game_flags_bitfield1",
+        "#sharedname": "#hash_4a7f024e87253788"
+    },
+    "#hash_212c32555daf717c": {
+        "#id": 149,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#rat_boss",
+                "#sharedname": "#rat_boss"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#butcher_boss",
+                "#sharedname": "#butcher_boss"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#mummy_boss",
+                "#sharedname": "#mummy_boss"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#swamp_boss",
+                "#sharedname": "#swamp_boss"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#zombie",
+                "#sharedname": "#zombie"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#veh_jup_jltv_mg",
+                "#sharedname": "#veh_jup_jltv_mg"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#veh_jup_suv_1996",
+                "#sharedname": "#veh_jup_suv_1996"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#veh_jup_pickup_2014",
+                "#sharedname": "#veh_jup_pickup_2014"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#hash_f56b6b0fcad9f6bf",
+                "#sharedname": "#hash_f56b6b0fcad9f6bf"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#veh9_motorcycle_blood_burner_physics",
+                "#sharedname": "#veh9_motorcycle_blood_burner_physics"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#veh_jup_orav",
+                "#sharedname": "#veh_jup_orav"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#veh_jup_razorback",
+                "#sharedname": "#veh_jup_razorback"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#veh_jup_truck_tech_hmg",
+                "#sharedname": "#veh_jup_truck_tech_hmg"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#veh_jup_truck_tech_aa",
+                "#sharedname": "#veh_jup_truck_tech_aa"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#auto_killstreak",
+                "#sharedname": "#auto_killstreak"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#hash_26588836ee582767",
+                "#sharedname": "#hash_26588836ee582767"
+            }
+        ],
+        "#name": "#iw9_enemy_type_bitfield2",
+        "#sharedname": "#hash_22d8c6e760626656"
+    },
+    "#hash_2215c7d5828b0e17": {
+        "#id": 193,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_forgiveness_level",
+        "#sharedname": "#hash_28284b187b4b4c21"
+    },
+    "#hash_2311157e640d8ea9": {
+        "#id": 144,
+        "#bitfield": [],
+        "#name": "#iw9_s5_team",
+        "#sharedname": "#s5_team"
+    },
+    "#hash_2422d7c67c2860a2": {
+        "#id": 98,
+        "#bitfield": [],
+        "#name": "#iw9_product_id",
+        "#sharedname": "#product_id"
+    },
+    "#hash_24703fedbebce75a": {
+        "#id": 103,
+        "#bitfield": [],
+        "#name": "#iw9_placement",
+        "#sharedname": "#placement"
+    },
+    "#hash_247858af602bd473": {
+        "#id": 134,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#hash_8a58c8cf9ceca4a6",
+                "#sharedname": "#hash_8a58c8cf9ceca4a6"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#hash_523eb625a0f903bb",
+                "#sharedname": "#hash_523eb625a0f903bb"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#ob_exfil",
+                "#sharedname": "#ob_exfil"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#ob_armored_convoy",
+                "#sharedname": "#ob_armored_convoy"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#ob_harvester_orb",
+                "#sharedname": "#ob_harvester_orb"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#ob_gunship",
+                "#sharedname": "#ob_gunship"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#ob_merc_camp",
+                "#sharedname": "#ob_merc_camp"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#ob_merc_stronhghold",
+                "#sharedname": "#ob_merc_stronhghold"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#hash_870a7904b4b47578",
+                "#sharedname": "#hash_870a7904b4b47578"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#ob_zombie_stronghold",
+                "#sharedname": "#ob_zombie_stronghold"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#hash_48863dfe39c6c091",
+                "#sharedname": "#hash_48863dfe39c6c091"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#ob_zombie_stronghold_orange",
+                "#sharedname": "#ob_zombie_stronghold_orange"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#ob_harvester_orb_speedrun",
+                "#sharedname": "#ob_harvester_orb_speedrun"
+            }
+        ],
+        "#name": "#iw9_ob_activity_type",
+        "#sharedname": "#hash_152317d21c601575"
+    },
+    "#hash_254af05ce8264bd3": {
+        "#id": 143,
+        "#bitfield": [],
+        "#name": "#iw9_kills_since_reload",
+        "#sharedname": "#hash_365c4ef34bc9c239"
+    },
+    "#hash_27bbd2d9668c3102": {
+        "#id": 195,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_rejoin_enabled",
+        "#sharedname": "#hash_e8d0ec1cb1f306c4"
+    },
+    "#hash_28009893ffc15a6e": {
+        "#id": 119,
+        "#bitfield": [],
+        "#name": "#iw9_enemy_squads_remaining",
+        "#sharedname": "#hash_ab2e7c9b727a3d6c"
+    },
+    "#hash_284af8680eaf9595": {
+        "#id": 5,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#potg",
+                "#sharedname": "#potg"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#vote",
+                "#sharedname": "#vote"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#votedmvp",
+                "#sharedname": "#votedmvp"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#mostelims",
+                "#sharedname": "#mostelims"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#highest_elim_ratio_game",
+                "#sharedname": "#highest_elim_ratio_game"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#highest_elim_ratio_team",
+                "#sharedname": "#highest_elim_ratio_team"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#30elims",
+                "#sharedname": "#30elims"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#call_all_killstreaks",
+                "#sharedname": "#call_all_killstreaks"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#top2_elim_ratio_team",
+                "#sharedname": "#top2_elim_ratio_team"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#completed_mission_without_going_into_last_stand",
+                "#sharedname": "#completed_mission_without_going_into_last_stand"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#no_purchase_made",
+                "#sharedname": "#no_purchase_made"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#raid_hard_mode",
+                "#sharedname": "#raid_hard_mode"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#15kills",
+                "#sharedname": "#15kills"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#hash_4f5ea2cfeb163c9d",
+                "#sharedname": "#hash_4f5ea2cfeb163c9d"
+            },
+            {
+                "#bitindex": 21,
+                "#name": "#hash_de6c2ec52bf2a850",
+                "#sharedname": "#hash_de6c2ec52bf2a850"
+            }
+        ],
+        "#name": "#iw9_endgame_bitfield1",
+        "#sharedname": "#hash_8dd9828579063e7"
+    },
+    "#hash_28bee0db8a8f0aae": {
+        "#id": 15,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#two1s1k",
+                "#sharedname": "#two1s1k"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#destroystreak",
+                "#sharedname": "#destroystreak"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#shutdownstreakbeforekills",
+                "#sharedname": "#shutdownstreakbeforekills"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#killwithstreak",
+                "#sharedname": "#killwithstreak"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#destroyaerialstreak",
+                "#sharedname": "#destroyaerialstreak"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#destroy3streaks1game",
+                "#sharedname": "#destroy3streaks1game"
+            }
+        ],
+        "#name": "#iw9_killstreak_bitfield1",
+        "#sharedname": "#hash_797a1495585997f4"
+    },
+    "#hash_295e9e43e83ab41d": {
+        "#id": 52,
+        "#bitfield": [],
+        "#name": "#iw9_zm_consecutive_perks",
+        "#sharedname": "#hash_ed7bdee3da0e2547"
+    },
+    "#hash_2a8534927af270fe": {
+        "#id": 44,
+        "#bitfield": [],
+        "#name": "#iw9_weapon_loot_id",
+        "#sharedname": "#weapon_loot_id"
+    },
+    "#hash_2af270475fc55574": {
+        "#id": 157,
+        "#bitfield": [],
+        "#name": "#iw9_match_id",
+        "#sharedname": "#match_id"
+    },
+    "#hash_2b66290364b2b1c5": {
+        "#id": 177,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_on_ladder",
+        "#sharedname": "#hash_9262d5cef5a7650f"
+    },
+    "#hash_2b6e41f52635a790": {
+        "#id": 16,
+        "#bitfield": [],
+        "#name": "#iw9_match_result",
+        "#sharedname": "#match_result"
+    },
+    "#hash_2c2de8b7400525e9": {
+        "#id": 176,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_event_season",
+        "#sharedname": "#hash_23d400c5be24f34b"
+    },
+    "#hash_2d4411c63355dc4c": {
+        "#id": 182,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_at_match_end",
+        "#sharedname": "#hash_d885ae7541734272"
+    },
+    "#hash_2e980d7a13aaee81": {
+        "#id": 184,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_division_stickiness_applied",
+        "#sharedname": "#hash_a1ee0929a68c14a3"
+    },
+    "#hash_2ea2eb6c2a3c5776": {
+        "#id": 117,
+        "#bitfield": [],
+        "#name": "#iw9_team_size",
+        "#sharedname": "#team_size"
+    },
+    "#hash_2fb1db74b58af72d": {
+        "#id": 187,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_new_skill_rating",
+        "#sharedname": "#hash_4a441566225df8df"
+    },
+    "#hash_2fe45ae26d72cec9": {
+        "#id": 49,
+        "#bitfield": [],
+        "#name": "#iw9_zm_areas_unlocked",
+        "#sharedname": "#hash_f6976001d29a5d23"
+    },
+    "#hash_30c347a590a09d08": {
+        "#id": 81,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#iw9_specialty_survivor",
+                "#sharedname": "#specialty_survivor"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#iw9_specialty_extra_tactical",
+                "#sharedname": "#specialty_extra_tactical"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#iw9_specialty_overwatch",
+                "#sharedname": "#specialty_overwatch"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#iw9_specialty_focus",
+                "#sharedname": "#specialty_focus"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#iw9_specialty_overcharge_field_upgrade",
+                "#sharedname": "#specialty_overcharge_field_upgrade"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#hash_5972a86d9652886c",
+                "#sharedname": "#specialty_warhead"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#hash_1bdb5093ae1b9d4f",
+                "#sharedname": "#specialty_munitions_2"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#iw9_specialty_scavenger",
+                "#sharedname": "#specialty_scavenger"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#hash_d1d314d4af3c93e1",
+                "#sharedname": "#specialty_guerrilla"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#iw9_specialty_hardline",
+                "#sharedname": "#specialty_hardline"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#hash_33947a74206c993",
+                "#sharedname": "#specialty_huntmaster"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#iw9_specialty_tactical_recon",
+                "#sharedname": "#specialty_tactical_recon"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#iw9_specialty_hustle",
+                "#sharedname": "#specialty_hustle"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#iw9_specialty_covert_ops",
+                "#sharedname": "#specialty_covert_ops"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#iw9_specialty_grenade_expert",
+                "#sharedname": "#specialty_grenade_expert"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#iw9_specialty_eod",
+                "#sharedname": "#specialty_eod"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#iw9_specialty_restock",
+                "#sharedname": "#specialty_restock"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#iw9_speciality_tac_resist",
+                "#sharedname": "#hash_228c132d78456c6"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#iw9_speciality_surveillance",
+                "#sharedname": "#hash_b3aa7c0a8c7ed3ac"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#iw9_speciality_quick_fix",
+                "#sharedname": "#hash_b7589c37d759ad90"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#iw9_speciality_null",
+                "#sharedname": "#speciality_null"
+            },
+            {
+                "#bitindex": 21,
+                "#name": "#hash_4dbbd0409ea576b5",
+                "#sharedname": "#specialty_tac_mask"
+            },
+            {
+                "#bitindex": 22,
+                "#name": "#hash_2f1cd9d01fa68ddf",
+                "#sharedname": "#specialty_hijacked_iff_strobe"
+            },
+            {
+                "#bitindex": 23,
+                "#name": "#hash_2d4b5fd2e71a1482",
+                "#sharedname": "#specialty_high_gain_antenna"
+            },
+            {
+                "#bitindex": 24,
+                "#name": "#hash_27d15850e6ede583",
+                "#sharedname": "#specialty_tac_gloves"
+            },
+            {
+                "#bitindex": 25,
+                "#name": "#hash_b94ca8a4db2aa7fa",
+                "#sharedname": "#specialty_acoustic_sensor"
+            },
+            {
+                "#bitindex": 26,
+                "#name": "#hash_314673a5e5cb96ed",
+                "#sharedname": "#specialty_lr_detector"
+            },
+            {
+                "#bitindex": 27,
+                "#name": "#hash_36f927f5f66f8fa9",
+                "#sharedname": "#specialty_signal_jammer"
+            },
+            {
+                "#bitindex": 28,
+                "#name": "#hash_1f8a9a95ab0c365d",
+                "#sharedname": "#specialty_marksman_vest"
+            },
+            {
+                "#bitindex": 29,
+                "#name": "#hash_dcb875e77db1fb20",
+                "#sharedname": "#specialty_thermal_camo"
+            },
+            {
+                "#bitindex": 30,
+                "#name": "#hash_1de2b87d47c5f14d",
+                "#sharedname": "#specialty_elasomer_pads"
+            },
+            {
+                "#bitindex": 31,
+                "#name": "#hash_6e07dcb05ecb72b8",
+                "#sharedname": "#specialty_dex_gloves"
+            },
+            {
+                "#bitindex": 32,
+                "#name": "#hash_ab7e543812d8e359",
+                "#sharedname": "#specialty_canvas_sneakers"
+            },
+            {
+                "#bitindex": 33,
+                "#name": "#hash_53e98c622de6eb98",
+                "#sharedname": "#specialty_maritime_boots"
+            },
+            {
+                "#bitindex": 34,
+                "#name": "#hash_5990f34e622b778f",
+                "#sharedname": "#specialty_ultra_light_boots"
+            },
+            {
+                "#bitindex": 35,
+                "#name": "#hash_d772a49c5cc51f6e",
+                "#sharedname": "#specialty_extra_deadly"
+            },
+            {
+                "#bitindex": 36,
+                "#name": "#hash_b2359d75ab1cec58",
+                "#sharedname": "#specialty_blacklight_flashlight"
+            },
+            {
+                "#bitindex": 37,
+                "#name": "#hash_ae18891bde4c5553",
+                "#sharedname": "#specialty_taccom_system"
+            },
+            {
+                "#bitindex": 38,
+                "#name": "#hash_be0fdb3821d15001",
+                "#sharedname": "#specialty_bone_conduction"
+            },
+            {
+                "#bitindex": 39,
+                "#name": "#hash_5bf5410356625726",
+                "#sharedname": "#specialty_nods"
+            },
+            {
+                "#bitindex": 40,
+                "#name": "#hash_8aef0650a9b9ebd2",
+                "#sharedname": "#specialty_radio_intercept"
+            },
+            {
+                "#bitindex": 41,
+                "#name": "#hash_b85eb61c49b84615",
+                "#sharedname": "#specialty_intel_jacker"
+            },
+            {
+                "#bitindex": 42,
+                "#name": "#hash_34ac8adf27d539f",
+                "#sharedname": "#specialty_shielded_carrier"
+            },
+            {
+                "#bitindex": 43,
+                "#name": "#hash_1bb9fc6ea6b5dc90",
+                "#sharedname": "#specialty_suspension_pads"
+            },
+            {
+                "#bitindex": 44,
+                "#name": "#hash_449f3cff47ec6b69",
+                "#sharedname": "#specialty_cct_vest"
+            },
+            {
+                "#bitindex": 45,
+                "#name": "#hash_2ef2e0f0a6657d06",
+                "#sharedname": "#specialty_assault_gloves"
+            },
+            {
+                "#bitindex": 46,
+                "#name": "#hash_98a0f6c33eafef4c",
+                "#sharedname": "#specialty_silicon_gloves"
+            },
+            {
+                "#bitindex": 47,
+                "#name": "#hash_b34a4070e779021e",
+                "#sharedname": "#specialty_impact_res_gloves"
+            },
+            {
+                "#bitindex": 48,
+                "#name": "#hash_8d65e66229e4e07a",
+                "#sharedname": "#specialty_custom_gloves"
+            },
+            {
+                "#bitindex": 49,
+                "#name": "#hash_86c803e61a543ca7",
+                "#sharedname": "#specialty_tac_pads"
+            },
+            {
+                "#bitindex": 50,
+                "#name": "#hash_32c9191f03bc1b4",
+                "#sharedname": "#specialty_running_sneakers"
+            },
+            {
+                "#bitindex": 51,
+                "#name": "#hash_2e322cff4e2b330f",
+                "#sharedname": "#specialty_treadless_boots"
+            },
+            {
+                "#bitindex": 52,
+                "#name": "#hash_cbe0218762a3c3df",
+                "#sharedname": "#specialty_eod_vest"
+            },
+            {
+                "#bitindex": 53,
+                "#name": "#hash_d5f0f62e36722c34",
+                "#sharedname": "#specialty_infantry_vest"
+            },
+            {
+                "#bitindex": 54,
+                "#name": "#hash_55f1cceec935cf90",
+                "#sharedname": "#specialty_ghost_camo"
+            },
+            {
+                "#bitindex": 55,
+                "#name": "#hash_6187ee5f7e9a2088",
+                "#sharedname": "#specialty_grenadier_vest"
+            },
+            {
+                "#bitindex": 56,
+                "#name": "#hash_b8c724ba9413675",
+                "#sharedname": "#specialty_scout_vest"
+            },
+            {
+                "#bitindex": 57,
+                "#name": "#hash_70cc130bfa1c7619",
+                "#sharedname": "#specialty_overkill_vest"
+            },
+            {
+                "#bitindex": 58,
+                "#name": "#hash_f9f20f16d23a4d4f",
+                "#sharedname": "#specialty_tac_vest"
+            },
+            {
+                "#bitindex": 59,
+                "#name": "#hash_cb30b6a9530c63fb",
+                "#sharedname": "#specialty_black_market_phone"
+            },
+            {
+                "#bitindex": 60,
+                "#name": "#hash_ed20d1d98cff26da",
+                "#sharedname": "#specialty_stalker_boots"
+            },
+            {
+                "#bitindex": 61,
+                "#name": "#hash_24554fc5e384d041",
+                "#sharedname": "#specialty_marksman_gloves"
+            },
+            {
+                "#bitindex": 62,
+                "#name": "#hash_decb6185891d7a36",
+                "#sharedname": "#specialty_gunner_vest"
+            },
+            {
+                "#bitindex": 63,
+                "#name": "#hash_b7513c750bf6df5a",
+                "#sharedname": "#specialty_fast_reload"
+            }
+        ],
+        "#name": "#iw9_perk_bitfield1",
+        "#sharedname": "#hash_bd518e95df4103fe"
+    },
+    "#hash_30d2c6ec68b9c1da": {
+        "#id": 175,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_sr_penalty",
+        "#sharedname": "#hash_e643e8a9919c09d8"
+    },
+    "#hash_3107ecaa16d83b02": {
+        "#id": 143,
+        "#bitfield": [],
+        "#name": "#iw9_playlist_version",
+        "#sharedname": "#playlist_version"
+    },
+    "#hash_32184962d9c64e14": {
+        "#id": 135,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#low_threat_legendary_wep_kill",
+                "#sharedname": "#low_threat_legendary_wep_kill"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#safe_drill_attract_kill",
+                "#sharedname": "#safe_drill_attract_kill"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#redeploy_drone_zombie_kill",
+                "#sharedname": "#redeploy_drone_zombie_kill"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#hash_18df7b34eee191b4",
+                "#sharedname": "#hash_18df7b34eee191b4"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#precision_airstrike_soldier_kill",
+                "#sharedname": "#precision_airstrike_soldier_kill"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#aether_storm_orange_zombie_kill",
+                "#sharedname": "#aether_storm_orange_zombie_kill"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#hash_df69d150c53e0bf5",
+                "#sharedname": "#hash_df69d150c53e0bf5"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#contaminated_space_zombie_kill",
+                "#sharedname": "#contaminated_space_zombie_kill"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#merc_defend_soldier_kill",
+                "#sharedname": "#merc_defend_soldier_kill"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#hash_199ac5afc5013248",
+                "#sharedname": "#hash_199ac5afc5013248"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#pap_kill_general",
+                "#sharedname": "#pap_kill_general"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#wallbuy_kill_general",
+                "#sharedname": "#wallbuy_kill_general"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#magicbox_kill_general",
+                "#sharedname": "#magicbox_kill_general"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#uncommon",
+                "#sharedname": "#uncommon"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#rare",
+                "#sharedname": "#rare"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#epic",
+                "#sharedname": "#epic"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#legendary",
+                "#sharedname": "#legendary"
+            }
+        ],
+        "#name": "#iw9_ob_zombie_kill_bitfield2",
+        "#sharedname": "#hash_3e038eef2f8914a6"
+    },
+    "#hash_32ffd2956b79be01": {
+        "#id": 178,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_current_top250_placement",
+        "#sharedname": "#hash_c6e42cea4910588f"
+    },
+    "#hash_333db349f4eda281": {
+        "#id": 82,
+        "#bitfield": [],
+        "#name": "#iw9_cp_role",
+        "#sharedname": "#cp_role"
+    },
+    "#hash_345295920a02eb94": {
+        "#id": 147,
+        "#bitfield": [],
+        "#name": "#iw9_kills_since_trigger_held",
+        "#sharedname": "#hash_7e912c64fa5c6cde"
+    },
+    "#hash_34bc9b45ef4e246a": {
+        "#id": 138,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#recommended_season_0",
+                "#sharedname": "#recommended_season_0"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#recommended_season_1",
+                "#sharedname": "#recommended_season_1"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#recommended_season_2",
+                "#sharedname": "#recommended_season_2"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#recommended_season_3",
+                "#sharedname": "#recommended_season_3"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#recommended_season_4",
+                "#sharedname": "#recommended_season_4"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#recommended_season_5",
+                "#sharedname": "#recommended_season_5"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#recommended_season_6",
+                "#sharedname": "#recommended_season_6"
+            }
+        ],
+        "#name": "#iw9_assist_recommended_weapon_list",
+        "#sharedname": "#hash_2d6d28e2d2af4ddc"
+    },
+    "#hash_34e21c065a920d49": {
+        "#id": 111,
+        "#bitfield": [],
+        "#name": "#iw9_wc_match_pick",
+        "#sharedname": "#hash_4acce4615d06389b"
+    },
+    "#hash_355fc0fd3915e9b2": {
+        "#id": 50,
+        "#bitfield": [],
+        "#name": "#iw9_zm_armor_repair",
+        "#sharedname": "#hash_b44384c48a3111c0"
+    },
+    "#hash_35beca8f0b54bc77": {
+        "#id": 1,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#hash_d0f2aef4eafb7cb8",
+                "#sharedname": "#hash_d0f2aef4eafb7cb8"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#hash_60664ebd2a0f163e",
+                "#sharedname": "#hash_60664ebd2a0f163e"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#hash_f4cd7510d63d0f6a",
+                "#sharedname": "#hash_f4cd7510d63d0f6a"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#hash_f1c9e6cd47be4f27",
+                "#sharedname": "#hash_f1c9e6cd47be4f27"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#direct_line_exfil",
+                "#sharedname": "#direct_line_exfil"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#exfil_schematic",
+                "#sharedname": "#exfil_schematic"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#hash_430f0ddbaa9b1cf2",
+                "#sharedname": "#hash_430f0ddbaa9b1cf2"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#hash_85664cfd5cb98224",
+                "#sharedname": "#hash_85664cfd5cb98224"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#hash_1f37a7272aecfbe6",
+                "#sharedname": "#hash_1f37a7272aecfbe6"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#hash_f47f1141ed38094",
+                "#sharedname": "#hash_f47f1141ed38094"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#hash_d95c0afa6378870",
+                "#sharedname": "#hash_d95c0afa6378870"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#hash_9aafbe7ae04e2500",
+                "#sharedname": "#hash_9aafbe7ae04e2500"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#hash_204a269c7e66f26c",
+                "#sharedname": "#hash_204a269c7e66f26c"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#hash_1ab75fcce3b54279",
+                "#sharedname": "#hash_1ab75fcce3b54279"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#hash_e56c1fcc36b6a733",
+                "#sharedname": "#hash_e56c1fcc36b6a733"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#hash_debd36a473f74204",
+                "#sharedname": "#hash_debd36a473f74204"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#hash_2727de000a800334",
+                "#sharedname": "#hash_2727de000a800334"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#hash_3646e7f9447b7cca",
+                "#sharedname": "#hash_3646e7f9447b7cca"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#hash_3d6e5a0e94a252e2",
+                "#sharedname": "#hash_3d6e5a0e94a252e2"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#hash_f8ea41787f2487f9",
+                "#sharedname": "#hash_f8ea41787f2487f9"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#hash_ecc602c881811bb1",
+                "#sharedname": "#hash_ecc602c881811bb1"
+            },
+            {
+                "#bitindex": 21,
+                "#name": "#hash_37757eb54f3cc475",
+                "#sharedname": "#hash_37757eb54f3cc475"
+            },
+            {
+                "#bitindex": 22,
+                "#name": "#hash_44647ffb162dc04c",
+                "#sharedname": "#hash_44647ffb162dc04c"
+            },
+            {
+                "#bitindex": 23,
+                "#name": "#hash_5df2c1bc2f02616a",
+                "#sharedname": "#hash_5df2c1bc2f02616a"
+            },
+            {
+                "#bitindex": 24,
+                "#name": "#hash_9497a27d8fc155a6",
+                "#sharedname": "#hash_9497a27d8fc155a6"
+            },
+            {
+                "#bitindex": 25,
+                "#name": "#hash_b823ef263ffd4fc0",
+                "#sharedname": "#hash_b823ef263ffd4fc0"
+            },
+            {
+                "#bitindex": 26,
+                "#name": "#hash_f02f95884a581d5f",
+                "#sharedname": "#hash_f02f95884a581d5f"
+            },
+            {
+                "#bitindex": 27,
+                "#name": "#hash_dc9f33d810173aa9",
+                "#sharedname": "#hash_dc9f33d810173aa9"
+            },
+            {
+                "#bitindex": 28,
+                "#name": "#exfil_success",
+                "#sharedname": "#exfil_success"
+            },
+            {
+                "#bitindex": 29,
+                "#name": "#five_contracts_completed",
+                "#sharedname": "#five_contracts_completed"
+            },
+            {
+                "#bitindex": 30,
+                "#name": "#never_downed",
+                "#sharedname": "#never_downed"
+            },
+            {
+                "#bitindex": 31,
+                "#name": "#exfil_acquisition",
+                "#sharedname": "#exfil_acquisition"
+            },
+            {
+                "#bitindex": 32,
+                "#name": "#hash_fb53b1fe1b056baa",
+                "#sharedname": "#hash_fb53b1fe1b056baa"
+            },
+            {
+                "#bitindex": 33,
+                "#name": "#exfil_pap_legendary_weapons",
+                "#sharedname": "#exfil_pap_legendary_weapons"
+            },
+            {
+                "#bitindex": 34,
+                "#name": "#contracts_all_regions",
+                "#sharedname": "#contracts_all_regions"
+            },
+            {
+                "#bitindex": 35,
+                "#name": "#exfil_three_schematics",
+                "#sharedname": "#exfil_three_schematics"
+            },
+            {
+                "#bitindex": 36,
+                "#name": "#hash_85a88c5b64999a7",
+                "#sharedname": "#hash_85a88c5b64999a7"
+            },
+            {
+                "#bitindex": 37,
+                "#name": "#hash_da8e652e39d6b5fe",
+                "#sharedname": "#hash_da8e652e39d6b5fe"
+            },
+            {
+                "#bitindex": 38,
+                "#name": "#hash_252abcfeac8c1933",
+                "#sharedname": "#hash_252abcfeac8c1933"
+            }
+        ],
+        "#name": "#iw9_ob_exfil_bitfield",
+        "#sharedname": "#hash_8a4cf5bfff2c6109"
+    },
+    "#hash_35e102c365ddd911": {
+        "#id": 112,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#none",
+                "#sharedname": "#none"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#helmet",
+                "#sharedname": "#helmet"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#head",
+                "#sharedname": "#head"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#neck",
+                "#sharedname": "#neck"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#upper_torso",
+                "#sharedname": "#upper_torso"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#lower_torso",
+                "#sharedname": "#lower_torso"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#left_upper_arm",
+                "#sharedname": "#left_upper_arm"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#right_upper_arm",
+                "#sharedname": "#right_upper_arm"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#left_lower_arm",
+                "#sharedname": "#left_lower_arm"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#right_lower_arm",
+                "#sharedname": "#right_lower_arm"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#left_hand",
+                "#sharedname": "#left_hand"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#right_hand",
+                "#sharedname": "#right_hand"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#left_upper_leg",
+                "#sharedname": "#left_upper_leg"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#right_upper_leg",
+                "#sharedname": "#right_upper_leg"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#left_lower_leg",
+                "#sharedname": "#left_lower_leg"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#right_lower_leg",
+                "#sharedname": "#right_lower_leg"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#left_foot",
+                "#sharedname": "#left_foot"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#right_foot",
+                "#sharedname": "#right_foot"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#gun",
+                "#sharedname": "#gun"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#shield",
+                "#sharedname": "#shield"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#armor",
+                "#sharedname": "#armor"
+            },
+            {
+                "#bitindex": 21,
+                "#name": "#soft",
+                "#sharedname": "#soft"
+            }
+        ],
+        "#name": "#iw9_hit_loc",
+        "#sharedname": "#hit_loc"
+    },
+    "#hash_3641fea1438778ad": {
+        "#id": 32,
+        "#bitfield": [],
+        "#name": "#iw9_version",
+        "#sharedname": "#version"
+    },
+    "#hash_3698f8dcf8ae063a": {
+        "#id": 168,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_division",
+        "#sharedname": "#hash_182a7ae142f3b128"
+    },
+    "#hash_37a2a7a9b32e9bed": {
+        "#id": 65,
+        "#bitfield": [],
+        "#name": "#iw9_zm_perk_acquires",
+        "#sharedname": "#hash_3fa828a5b48e78cf"
+    },
+    "#hash_38ed58d584f6c10a": {
+        "#id": 103,
+        "#bitfield": [],
+        "#name": "#iw9_battlemap_sector_spend_max",
+        "#sharedname": "#hash_d51d4e6be89f5ac"
+    },
+    "#hash_3a0d8dcdcb469c7b": {
+        "#id": 85,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#use",
+                "#sharedname": "#use"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#hit",
+                "#sharedname": "#hit"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#activate",
+                "#sharedname": "#activate"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#end",
+                "#sharedname": "#end"
+            }
+        ],
+        "#name": "#iw9_loadout_item_method",
+        "#sharedname": "#hash_83a2d67994d7e295"
+    },
+    "#hash_3b0f9f311a19a812": {
+        "#id": 47,
+        "#bitfield": [],
+        "#name": "#iw9_string_ref2",
+        "#sharedname": "#string_ref2"
+    },
+    "#hash_3ceff4b116328918": {
+        "#id": 55,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#enemy_slowed",
+                "#sharedname": "#enemy_slowed"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#field_upgrade_kill",
+                "#sharedname": "#field_upgrade_kill"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#mystery_box_weapon",
+                "#sharedname": "#mystery_box_weapon"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#artifact_kill",
+                "#sharedname": "#artifact_kill"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#chest_weapon",
+                "#sharedname": "#chest_weapon"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#has_damage_perk",
+                "#sharedname": "#has_damage_perk"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#brain_rot_kill",
+                "#sharedname": "#brain_rot_kill"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#screamer_kill",
+                "#sharedname": "#screamer_kill"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#splatterfest_kill",
+                "#sharedname": "#splatterfest_kill"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#throwing_knife_kill_all_type",
+                "#sharedname": "#throwing_knife_kill_all_type"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#covenant_kill",
+                "#sharedname": "#covenant_kill"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#rapid_kill",
+                "#sharedname": "#rapid_kill"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#rapid_critical_kill",
+                "#sharedname": "#rapid_critical_kill"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#consecutive_kill",
+                "#sharedname": "#consecutive_kill"
+            }
+        ],
+        "#name": "#iw9_zm_elimination_bitfield",
+        "#sharedname": "#hash_e293440d9ede796"
+    },
+    "#hash_3d597ce46a618e3e": {
+        "#id": 66,
+        "#bitfield": [],
+        "#name": "#iw9_zm_perk_level",
+        "#sharedname": "#hash_a52086f75a5393c"
+    },
+    "#hash_3e8bf361c0a6ccae": {
+        "#id": 96,
+        "#bitfield": [],
+        "#name": "#iw9_cp_kit_rank",
+        "#sharedname": "#hash_2e01536cc1e8b800"
+    },
+    "#hash_3f1ad0fc69d6f5c3": {
+        "#id": 190,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_prematch_skill_rating",
+        "#sharedname": "#hash_8ad452506a6b189"
+    },
+    "#hash_3fb0765d063aa3a0": {
+        "#id": 92,
+        "#bitfield": [],
+        "#name": "#iw9_mgl_inbox_notification_id",
+        "#sharedname": "#hash_12cd1ab0489f78ea"
+    },
+    "#hash_3fb08d18337e0aa0": {
+        "#id": 112,
+        "#bitfield": [],
+        "#name": "#iw9_wc_game_time",
+        "#sharedname": "#hash_56593669fa6c77c6"
+    },
+    "#hash_41e2acde5e616b1d": {
+        "#id": 183,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_lobby_id",
+        "#sharedname": "#hash_e03f5709c8cd8a03"
+    },
+    "#hash_41e749fae8253be4": {
+        "#id": 171,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_is_disconnect",
+        "#sharedname": "#hash_d708505d31d66ef6"
+    },
+    "#hash_41fef54fdd33ff20": {
+        "#id": 62,
+        "#bitfield": [],
+        "#name": "#iw9_zm_objective_location",
+        "#sharedname": "#hash_f3b6b4c6ba203b9e"
+    },
+    "#hash_425af7dc85217846": {
+        "#id": 59,
+        "#bitfield": [],
+        "#name": "#iw9_zm_legendary_covenants",
+        "#sharedname": "#hash_e856576ed1c25ae0"
+    },
+    "#hash_42ec9169b93e73e9": {
+        "#id": 7,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#activatefieldupgrade",
+                "#sharedname": "#activatefieldupgrade"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#destroyfieldupgrade",
+                "#sharedname": "#destroyfieldupgrade"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#hit_target",
+                "#sharedname": "#hit_target"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#mark_target",
+                "#sharedname": "#mark_target"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#use",
+                "#sharedname": "#use"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#self_use",
+                "#sharedname": "#self_use"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#teammate_use",
+                "#sharedname": "#teammate_use"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#took_damage",
+                "#sharedname": "#took_damage"
+            }
+        ],
+        "#name": "#iw9_field_upgrade_bitfield1",
+        "#sharedname": "#hash_c50cf868c6994df3"
+    },
+    "#hash_4393f8a69c6c49e9": {
+        "#id": 48,
+        "#bitfield": [],
+        "#name": "#iw9_zm_all_areas_unlocked",
+        "#sharedname": "#hash_1cb2b4995502bc3f"
+    },
+    "#hash_439fd970d0a7463c": {
+        "#id": 139,
+        "#bitfield": [],
+        "#name": "#iw9_reputation",
+        "#sharedname": "#reputation"
+    },
+    "#hash_44ef774a4d594b3f": {
+        "#id": 2,
+        "#bitfield": [],
+        "#name": "#iw9_rejoin_lobby_id",
+        "#sharedname": "#hash_d8d873c978f56981"
+    },
+    "#hash_459965f36170e0fa": {
+        "#id": 172,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_match_id",
+        "#sharedname": "#hash_c9361150947eb728"
+    },
+    "#hash_47f5f9641661ebc3": {
+        "#id": 109,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#previously_unopened",
+                "#sharedname": "#previously_unopened"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#previously_opened",
+                "#sharedname": "#previously_opened"
+            }
+        ],
+        "#name": "#iw9_loot_cache_bitfield1",
+        "#sharedname": "#hash_f42835693a3d7da5"
+    },
+    "#hash_484bc1a49cbda7a3": {
+        "#id": 138,
+        "#bitfield": [],
+        "#name": "#iw9_faction_id",
+        "#sharedname": "#faction_id"
+    },
+    "#hash_48f97d816b43dde0": {
+        "#id": 68,
+        "#bitfield": [],
+        "#name": "#iw9_zm_perk_type",
+        "#sharedname": "#hash_ec427f0dda7af99e"
+    },
+    "#hash_49bf218be59b3fcb": {
+        "#id": 136,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#cargo_vehicle_scuttle",
+                "#sharedname": "#cargo_vehicle_scuttle"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#safe_drill_no_pause",
+                "#sharedname": "#safe_drill_no_pause"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#redeploy_drone_region",
+                "#sharedname": "#redeploy_drone_region"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#loot_harvester_orb_end",
+                "#sharedname": "#loot_harvester_orb_end"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#pickup_essence_bazaar",
+                "#sharedname": "#pickup_essence_bazaar"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#pickup_essence_shops",
+                "#sharedname": "#pickup_essence_shops"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#pickup_essence_retail",
+                "#sharedname": "#pickup_essence_retail"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#hash_5d9c736211f2d581",
+                "#sharedname": "#hash_5d9c736211f2d581"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#spore_regen_denied",
+                "#sharedname": "#spore_regen_denied"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#hash_2b9bc6c3b12fbc3e",
+                "#sharedname": "#hash_2b9bc6c3b12fbc3e"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#hash_1f16fab36a47d010",
+                "#sharedname": "#hash_1f16fab36a47d010"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#aether_extractor_destroy",
+                "#sharedname": "#aether_extractor_destroy"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#aether_extractor_pickup_container",
+                "#sharedname": "#aether_extractor_pickup_container"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#outlast_space_entered",
+                "#sharedname": "#outlast_space_entered"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#pickup_ava_tablet_from_outlast",
+                "#sharedname": "#pickup_ava_tablet_from_outlast"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#used_stronghold_key",
+                "#sharedname": "#used_stronghold_key"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#stronghold_special_intel",
+                "#sharedname": "#stronghold_special_intel"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#stronghold_safe_opened",
+                "#sharedname": "#stronghold_safe_opened"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#precision_airstrike_merc_convoy",
+                "#sharedname": "#precision_airstrike_merc_convoy"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#precision_airstrike_merc_camp",
+                "#sharedname": "#precision_airstrike_merc_camp"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#maintain_computer_health",
+                "#sharedname": "#maintain_computer_health"
+            },
+            {
+                "#bitindex": 21,
+                "#name": "#hash_b41638a3d705ba71",
+                "#sharedname": "#hash_b41638a3d705ba71"
+            },
+            {
+                "#bitindex": 22,
+                "#name": "#aether_storm_entered",
+                "#sharedname": "#aether_storm_entered"
+            },
+            {
+                "#bitindex": 23,
+                "#name": "#aether_storm_special_intel_collected",
+                "#sharedname": "#aether_storm_special_intel_collected"
+            },
+            {
+                "#bitindex": 24,
+                "#name": "#zombie_stronghold_intel_tablet_collected",
+                "#sharedname": "#zombie_stronghold_intel_tablet_collected"
+            },
+            {
+                "#bitindex": 25,
+                "#name": "#outlast_pnd_no_pause",
+                "#sharedname": "#outlast_pnd_no_pause"
+            },
+            {
+                "#bitindex": 26,
+                "#name": "#heli_destroyed",
+                "#sharedname": "#heli_destroyed"
+            },
+            {
+                "#bitindex": 27,
+                "#name": "#hash_7645a9457f5006a6",
+                "#sharedname": "#hash_7645a9457f5006a6"
+            },
+            {
+                "#bitindex": 28,
+                "#name": "#activate_uav_tower_ava",
+                "#sharedname": "#activate_uav_tower_ava"
+            },
+            {
+                "#bitindex": 29,
+                "#name": "#locate_ava",
+                "#sharedname": "#locate_ava"
+            },
+            {
+                "#bitindex": 30,
+                "#name": "#defend_ava",
+                "#sharedname": "#defend_ava"
+            },
+            {
+                "#bitindex": 31,
+                "#name": "#escape_with_ava",
+                "#sharedname": "#escape_with_ava"
+            },
+            {
+                "#bitindex": 32,
+                "#name": "#defend_escort_shepherd",
+                "#sharedname": "#defend_escort_shepherd"
+            },
+            {
+                "#bitindex": 33,
+                "#name": "#escort_vehicle_shepherd",
+                "#sharedname": "#escort_vehicle_shepherd"
+            },
+            {
+                "#bitindex": 34,
+                "#name": "#destroy_sam_shepherd",
+                "#sharedname": "#destroy_sam_shepherd"
+            },
+            {
+                "#bitindex": 35,
+                "#name": "#secure_airdrop_shepherd",
+                "#sharedname": "#secure_airdrop_shepherd"
+            },
+            {
+                "#bitindex": 36,
+                "#name": "#hash_889cc431b3eb5887",
+                "#sharedname": "#hash_889cc431b3eb5887"
+            },
+            {
+                "#bitindex": 37,
+                "#name": "#clear_stronghold_zakhaev",
+                "#sharedname": "#clear_stronghold_zakhaev"
+            },
+            {
+                "#bitindex": 38,
+                "#name": "#place_explosive_zakhaev",
+                "#sharedname": "#place_explosive_zakhaev"
+            },
+            {
+                "#bitindex": 39,
+                "#name": "#defend_scrambler_zakhaev",
+                "#sharedname": "#defend_scrambler_zakhaev"
+            },
+            {
+                "#bitindex": 40,
+                "#name": "#defeat_worm_zakhaev",
+                "#sharedname": "#defeat_worm_zakhaev"
+            },
+            {
+                "#bitindex": 41,
+                "#name": "#hash_134c0fc72934e79b",
+                "#sharedname": "#hash_134c0fc72934e79b"
+            },
+            {
+                "#bitindex": 42,
+                "#name": "#s1_rift_gate_unlock",
+                "#sharedname": "#s1_rift_gate_unlock"
+            },
+            {
+                "#bitindex": 43,
+                "#name": "#s1_rift_mission_complete",
+                "#sharedname": "#s1_rift_mission_complete"
+            },
+            {
+                "#bitindex": 44,
+                "#name": "#hash_d45ca084cb737b52",
+                "#sharedname": "#hash_d45ca084cb737b52"
+            },
+            {
+                "#bitindex": 45,
+                "#name": "#punched_deathworm",
+                "#sharedname": "#punched_deathworm"
+            },
+            {
+                "#bitindex": 46,
+                "#name": "#schematic_elementalpop_proc",
+                "#sharedname": "#schematic_elementalpop_proc"
+            }
+        ],
+        "#name": "#iw9_ob_interact_bitfield2",
+        "#sharedname": "#hash_b431eec04f47bf51"
+    },
+    "#hash_4b363a8b32243fa6": {
+        "#id": 22,
+        "#bitfield": [],
+        "#name": "#iw9_season",
+        "#sharedname": "#season"
+    },
+    "#hash_4b478a47492470b0": {
+        "#id": 72,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#mp_saba",
+                "#sharedname": "#mp_saba"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#mp_sealion",
+                "#sharedname": "#mp_sealion"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#mp_bio_lab",
+                "#sharedname": "#mp_bio_lab"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#saba_airport",
+                "#sharedname": "#saba_airport"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#saba_moderncity",
+                "#sharedname": "#saba_moderncity"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#saba_lone",
+                "#sharedname": "#saba_lone"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#saba_fishtwn",
+                "#sharedname": "#saba_fishtwn"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#saba_sira",
+                "#sharedname": "#saba_sira"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#saba_sunken",
+                "#sharedname": "#saba_sunken"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#saba_oasis",
+                "#sharedname": "#saba_oasis"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#saba_oilfield",
+                "#sharedname": "#saba_oilfield"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#saba_caves",
+                "#sharedname": "#saba_caves"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#saba_fort",
+                "#sharedname": "#saba_fort"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#saba_observatory",
+                "#sharedname": "#saba_observatory"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#saba_wartorn",
+                "#sharedname": "#saba_wartorn"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#saba_marshland",
+                "#sharedname": "#saba_marshland"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#saba_oldtwn",
+                "#sharedname": "#saba_oldtwn"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#saba_mtntwn",
+                "#sharedname": "#saba_mtntwn"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#saba_exhume",
+                "#sharedname": "#saba_exhume"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#saba_cemetery",
+                "#sharedname": "#saba_cemetery"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#saba_hydro",
+                "#sharedname": "#saba_hydro"
+            },
+            {
+                "#bitindex": 21,
+                "#name": "#sira_mall",
+                "#sharedname": "#sira_mall"
+            },
+            {
+                "#bitindex": 22,
+                "#name": "#saba_suburbs_01",
+                "#sharedname": "#saba_suburbs_01"
+            },
+            {
+                "#bitindex": 23,
+                "#name": "#saba_suburbs_02",
+                "#sharedname": "#saba_suburbs_02"
+            },
+            {
+                "#bitindex": 24,
+                "#name": "#saba_suburbs_03",
+                "#sharedname": "#saba_suburbs_03"
+            },
+            {
+                "#bitindex": 25,
+                "#name": "#saba_suburbs_04",
+                "#sharedname": "#saba_suburbs_04"
+            },
+            {
+                "#bitindex": 26,
+                "#name": "#saba_suburbs_05",
+                "#sharedname": "#saba_suburbs_05"
+            },
+            {
+                "#bitindex": 27,
+                "#name": "#saba_suburbs_06",
+                "#sharedname": "#saba_suburbs_06"
+            },
+            {
+                "#bitindex": 28,
+                "#name": "#saba_suburbs_07",
+                "#sharedname": "#saba_suburbs_07"
+            },
+            {
+                "#bitindex": 29,
+                "#name": "#saba_suburbs_08",
+                "#sharedname": "#saba_suburbs_08"
+            },
+            {
+                "#bitindex": 30,
+                "#name": "#saba_suburbs_09",
+                "#sharedname": "#saba_suburbs_09"
+            },
+            {
+                "#bitindex": 31,
+                "#name": "#saba_suburbs_10",
+                "#sharedname": "#saba_suburbs_10"
+            },
+            {
+                "#bitindex": 32,
+                "#name": "#saba_suburbs_11",
+                "#sharedname": "#saba_suburbs_11"
+            },
+            {
+                "#bitindex": 33,
+                "#name": "#saba_suburbs_12",
+                "#sharedname": "#saba_suburbs_12"
+            },
+            {
+                "#bitindex": 34,
+                "#name": "#saba_suburbs_13",
+                "#sharedname": "#saba_suburbs_13"
+            },
+            {
+                "#bitindex": 35,
+                "#name": "#saba_suburbs_14",
+                "#sharedname": "#saba_suburbs_14"
+            },
+            {
+                "#bitindex": 36,
+                "#name": "#sealion_apartments",
+                "#sharedname": "#sealion_apartments"
+            },
+            {
+                "#bitindex": 37,
+                "#name": "#sealion_beachclub",
+                "#sharedname": "#sealion_beachclub"
+            },
+            {
+                "#bitindex": 38,
+                "#name": "#sealion_castle",
+                "#sharedname": "#sealion_castle"
+            },
+            {
+                "#bitindex": 39,
+                "#name": "#sealion_coastalruins",
+                "#sharedname": "#sealion_coastalruins"
+            },
+            {
+                "#bitindex": 40,
+                "#name": "#sealion_port",
+                "#sharedname": "#sealion_port"
+            },
+            {
+                "#bitindex": 41,
+                "#name": "#sealion_culdesac",
+                "#sharedname": "#sealion_culdesac"
+            },
+            {
+                "#bitindex": 42,
+                "#name": "#sealion_powerplant",
+                "#sharedname": "#sealion_powerplant"
+            },
+            {
+                "#bitindex": 43,
+                "#name": "#sealion_residential",
+                "#sharedname": "#sealion_residential"
+            },
+            {
+                "#bitindex": 44,
+                "#name": "#sealion_shipwreck",
+                "#sharedname": "#sealion_shipwreck"
+            },
+            {
+                "#bitindex": 45,
+                "#name": "#sealion_towncenter",
+                "#sharedname": "#sealion_towncenter"
+            },
+            {
+                "#bitindex": 46,
+                "#name": "#sealion_watertreatment",
+                "#sharedname": "#sealion_watertreatment"
+            },
+            {
+                "#bitindex": 47,
+                "#name": "#sealion_waterways",
+                "#sharedname": "#sealion_waterways"
+            },
+            {
+                "#bitindex": 48,
+                "#name": "#delta_castle",
+                "#sharedname": "#delta_castle"
+            },
+            {
+                "#bitindex": 49,
+                "#name": "#delta_cemetary",
+                "#sharedname": "#delta_cemetary"
+            },
+            {
+                "#bitindex": 50,
+                "#name": "#delta_cityhall",
+                "#sharedname": "#delta_cityhall"
+            },
+            {
+                "#bitindex": 51,
+                "#name": "#delta_firestation",
+                "#sharedname": "#delta_firestation"
+            },
+            {
+                "#bitindex": 52,
+                "#name": "#delta_fleamarket",
+                "#sharedname": "#delta_fleamarket"
+            },
+            {
+                "#bitindex": 53,
+                "#name": "#delta_floatinghouses",
+                "#sharedname": "#delta_floatinghouses"
+            },
+            {
+                "#bitindex": 54,
+                "#name": "#delta_library",
+                "#sharedname": "#delta_library"
+            },
+            {
+                "#bitindex": 55,
+                "#name": "#delta_marina",
+                "#sharedname": "#delta_marina"
+            },
+            {
+                "#bitindex": 56,
+                "#name": "#delta_museum",
+                "#sharedname": "#delta_museum"
+            },
+            {
+                "#bitindex": 57,
+                "#name": "#delta_nemo",
+                "#sharedname": "#delta_nemo"
+            },
+            {
+                "#bitindex": 58,
+                "#name": "#delta_policestation",
+                "#sharedname": "#delta_policestation"
+            },
+            {
+                "#bitindex": 59,
+                "#name": "#delta_shoppingcenter",
+                "#sharedname": "#delta_shoppingcenter"
+            },
+            {
+                "#bitindex": 60,
+                "#name": "#delta_stadium",
+                "#sharedname": "#delta_stadium"
+            },
+            {
+                "#bitindex": 61,
+                "#name": "#delta_station",
+                "#sharedname": "#delta_station"
+            },
+            {
+                "#bitindex": 62,
+                "#name": "#delta_terminal",
+                "#sharedname": "#delta_terminal"
+            },
+            {
+                "#bitindex": 63,
+                "#name": "#mp_delta",
+                "#sharedname": "#mp_delta"
+            }
+        ],
+        "#name": "#iw9_location_bitfield",
+        "#sharedname": "#hash_92939ab8dccb3d82"
+    },
+    "#hash_4b9595c0544ac259": {
+        "#id": 118,
+        "#bitfield": [],
+        "#name": "#iw9_cp_kit_stars",
+        "#sharedname": "#hash_6ded7124daf81bbf"
+    },
+    "#hash_4ee1eeed49a6aa42": {
+        "#id": 57,
+        "#bitfield": [],
+        "#name": "#iw9_zm_heal_amount",
+        "#sharedname": "#hash_97379d7827cf0ef8"
+    },
+    "#hash_4f1afaf68f49795e": {
+        "#id": 132,
+        "#bitfield": [],
+        "#name": "#iw9_mgl_ftue_expertise",
+        "#sharedname": "#hash_b54cba33cb1e9080"
+    },
+    "#hash_4f2619b4ffc341b5": {
+        "#id": 95,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#suppressor",
+                "#sharedname": "#suppressor"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#thermal",
+                "#sharedname": "#thermal"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#optic_zoom_4",
+                "#sharedname": "#optic_zoom_4"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#amp",
+                "#sharedname": "#amp"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#conversionkit",
+                "#sharedname": "#conversionkit"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#underbarrel",
+                "#sharedname": "#underbarrel"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#hybrid",
+                "#sharedname": "#hybrid"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#irons",
+                "#sharedname": "#irons"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#holo",
+                "#sharedname": "#holo"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#acog",
+                "#sharedname": "#acog"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#reflex",
+                "#sharedname": "#reflex"
+            }
+        ],
+        "#name": "#iw9_weapon_attachment_flags",
+        "#sharedname": "#hash_1ce058287dc8c73b"
+    },
+    "#hash_4f33cf3de2be5fae": {
+        "#id": 166,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_match_result",
+        "#sharedname": "#hash_d555f3589ac28cc"
+    },
+    "#hash_50259b5ea7da9ac5": {
+        "#id": 136,
+        "#bitfield": [],
+        "#name": "#iw9_cohort_reward_ae_id",
+        "#sharedname": "#hash_41cf5bd1a243b91b"
+    },
+    "#hash_508ec6931118b542": {
+        "#id": 56,
+        "#bitfield": [],
+        "#name": "#iw9_zm_equipment_type",
+        "#sharedname": "#hash_35e5468a14276c28"
+    },
+    "#hash_50dc6a70c4aafd09": {
+        "#id": 2,
+        "#bitfield": [],
+        "#name": "#iw9_clan_id",
+        "#sharedname": "#clan_id"
+    },
+    "#hash_510f5870c4d6380c": {
+        "#id": 3,
+        "#bitfield": [],
+        "#name": "#iw9_clan_xp",
+        "#sharedname": "#clan_xp"
+    },
+    "#hash_521a36f0de0bc6d0": {
+        "#id": 150,
+        "#bitfield": [],
+        "#name": "#iw9_loot_sold",
+        "#sharedname": "#hash_5579154124d68ab2"
+    },
+    "#hash_52636ca2bfcacdbb": {
+        "#id": 1,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#wallbuy_purchase",
+                "#sharedname": "#wallbuy_purchase"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#magicbox_purchase",
+                "#sharedname": "#magicbox_purchase"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#pickup_ava_intel_from_frenzied_guard_special_elite",
+                "#sharedname": "#pickup_ava_intel_from_frenzied_guard_special_elite"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#pickup_item_from_crystal",
+                "#sharedname": "#pickup_item_from_crystal"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#destroy_crystal_vehicle",
+                "#sharedname": "#destroy_crystal_vehicle"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#cryofreeze_hit_hellhound",
+                "#sharedname": "#cryofreeze_hit_hellhound"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#cryofreeze_hit_zombie",
+                "#sharedname": "#cryofreeze_hit_zombie"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#hash_1f5666562594a80e",
+                "#sharedname": "#hash_1f5666562594a80e"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#frost_blast_freeze_zombie",
+                "#sharedname": "#frost_blast_freeze_zombie"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#enegry_mine_destroy_vehicle",
+                "#sharedname": "#enegry_mine_destroy_vehicle"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#shatterblast_obtain",
+                "#sharedname": "#shatterblast_obtain"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#shatterblast_destroy_armor",
+                "#sharedname": "#shatterblast_destroy_armor"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#pickup_ava_intel_by_armored_zombie",
+                "#sharedname": "#pickup_ava_intel_by_armored_zombie"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#healing_aura_heal",
+                "#sharedname": "#healing_aura_heal"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#pap_purchase_level_1",
+                "#sharedname": "#pap_purchase_level_1"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#pap_purchase_level_2",
+                "#sharedname": "#pap_purchase_level_2"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#pap_purchase_level_3",
+                "#sharedname": "#pap_purchase_level_3"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#tesla_storm_stun_soldier",
+                "#sharedname": "#tesla_storm_stun_soldier"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#deadwire_proc",
+                "#sharedname": "#deadwire_proc"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#napalmburst_proc",
+                "#sharedname": "#napalmburst_proc"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#brainrot_proc",
+                "#sharedname": "#brainrot_proc"
+            },
+            {
+                "#bitindex": 21,
+                "#name": "#schematic_juggernog_bigbounty",
+                "#sharedname": "#schematic_juggernog_bigbounty"
+            },
+            {
+                "#bitindex": 22,
+                "#name": "#bounty_hunter_complete_green",
+                "#sharedname": "#bounty_hunter_complete_green"
+            },
+            {
+                "#bitindex": 23,
+                "#name": "#bounty_hunter_complete_yellow",
+                "#sharedname": "#bounty_hunter_complete_yellow"
+            },
+            {
+                "#bitindex": 24,
+                "#name": "#bounty_hunter_complete_orange",
+                "#sharedname": "#bounty_hunter_complete_orange"
+            },
+            {
+                "#bitindex": 25,
+                "#name": "#direct_line_ping",
+                "#sharedname": "#direct_line_ping"
+            },
+            {
+                "#bitindex": 26,
+                "#name": "#direct_line_activity_complete",
+                "#sharedname": "#direct_line_activity_complete"
+            },
+            {
+                "#bitindex": 27,
+                "#name": "#hash_aa26ec8bb2fbfde9",
+                "#sharedname": "#hash_aa26ec8bb2fbfde9"
+            },
+            {
+                "#bitindex": 28,
+                "#name": "#hash_59434810fe715626",
+                "#sharedname": "#hash_59434810fe715626"
+            },
+            {
+                "#bitindex": 29,
+                "#name": "#hash_dda8dbdff1990a58",
+                "#sharedname": "#hash_dda8dbdff1990a58"
+            },
+            {
+                "#bitindex": 30,
+                "#name": "#pickup_keycard_from_convoy",
+                "#sharedname": "#pickup_keycard_from_convoy"
+            },
+            {
+                "#bitindex": 31,
+                "#name": "#vehicle_tire_repair",
+                "#sharedname": "#vehicle_tire_repair"
+            },
+            {
+                "#bitindex": 32,
+                "#name": "#hash_feb08ead2a3ba075",
+                "#sharedname": "#hash_feb08ead2a3ba075"
+            },
+            {
+                "#bitindex": 33,
+                "#name": "#aether_sabotage_completed",
+                "#sharedname": "#aether_sabotage_completed"
+            },
+            {
+                "#bitindex": 34,
+                "#name": "#pickup_gas_mask",
+                "#sharedname": "#pickup_gas_mask"
+            },
+            {
+                "#bitindex": 35,
+                "#name": "#drink_gas_station_perk",
+                "#sharedname": "#drink_gas_station_perk"
+            },
+            {
+                "#bitindex": 36,
+                "#name": "#hash_a64263d0ba0e5cbe",
+                "#sharedname": "#hash_a64263d0ba0e5cbe"
+            },
+            {
+                "#bitindex": 37,
+                "#name": "#loot_merc_camps",
+                "#sharedname": "#loot_merc_camps"
+            },
+            {
+                "#bitindex": 38,
+                "#name": "#energy_mine_stop_convoy",
+                "#sharedname": "#energy_mine_stop_convoy"
+            },
+            {
+                "#bitindex": 39,
+                "#name": "#frost_blast_freeze_mimic",
+                "#sharedname": "#frost_blast_freeze_mimic"
+            },
+            {
+                "#bitindex": 40,
+                "#name": "#deadwire_stun_special",
+                "#sharedname": "#deadwire_stun_special"
+            },
+            {
+                "#bitindex": 41,
+                "#name": "#napalmburst_special_proc",
+                "#sharedname": "#napalmburst_special_proc"
+            },
+            {
+                "#bitindex": 42,
+                "#name": "#pickup_ava_intel_from_aether_nest",
+                "#sharedname": "#pickup_ava_intel_from_aether_nest"
+            },
+            {
+                "#bitindex": 43,
+                "#name": "#pickup_ava_intel_from_soldier",
+                "#sharedname": "#pickup_ava_intel_from_soldier"
+            },
+            {
+                "#bitindex": 44,
+                "#name": "#heli_chase_destroy",
+                "#sharedname": "#heli_chase_destroy"
+            },
+            {
+                "#bitindex": 45,
+                "#name": "#hash_90ee07f28c459aed",
+                "#sharedname": "#hash_90ee07f28c459aed"
+            },
+            {
+                "#bitindex": 46,
+                "#name": "#maintain_escort_health",
+                "#sharedname": "#maintain_escort_health"
+            },
+            {
+                "#bitindex": 47,
+                "#name": "#hash_f245aa8279cf6615",
+                "#sharedname": "#hash_f245aa8279cf6615"
+            },
+            {
+                "#bitindex": 48,
+                "#name": "#perk_drank",
+                "#sharedname": "#perk_drank"
+            },
+            {
+                "#bitindex": 49,
+                "#name": "#magicbox_legendary_ww_pickup",
+                "#sharedname": "#magicbox_legendary_ww_pickup"
+            },
+            {
+                "#bitindex": 50,
+                "#name": "#befriend_hellish_companion",
+                "#sharedname": "#befriend_hellish_companion"
+            },
+            {
+                "#bitindex": 51,
+                "#name": "#loot_cache_looted",
+                "#sharedname": "#loot_cache_looted"
+            },
+            {
+                "#bitindex": 52,
+                "#name": "#schematic_quickrevive_revive",
+                "#sharedname": "#schematic_quickrevive_revive"
+            },
+            {
+                "#bitindex": 53,
+                "#name": "#flesh_chunk_sold",
+                "#sharedname": "#flesh_chunk_sold"
+            },
+            {
+                "#bitindex": 54,
+                "#name": "#hash_288723b94e2627d0",
+                "#sharedname": "#hash_288723b94e2627d0"
+            },
+            {
+                "#bitindex": 55,
+                "#name": "#hash_8d389fc73d4e1aa4",
+                "#sharedname": "#hash_8d389fc73d4e1aa4"
+            },
+            {
+                "#bitindex": 56,
+                "#name": "#crate_looted",
+                "#sharedname": "#crate_looted"
+            },
+            {
+                "#bitindex": 57,
+                "#name": "#use_acquisitions_thirty",
+                "#sharedname": "#use_acquisitions_thirty"
+            },
+            {
+                "#bitindex": 58,
+                "#name": "#enemy_damage",
+                "#sharedname": "#enemy_damage"
+            }
+        ],
+        "#name": "#iw9_ob_interact_bitfield",
+        "#sharedname": "#hash_2b9333cc10a910d9"
+    },
+    "#hash_529709346357ec84": {
+        "#id": 186,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_sr_loss_prevention_remaining",
+        "#sharedname": "#hash_47eed8ed80279dbe"
+    },
+    "#hash_52e98756b19658f5": {
+        "#id": 135,
+        "#bitfield": [],
+        "#name": "#iw9_cohort_reward_division_index",
+        "#sharedname": "#hash_5aabac247be51d83"
+    },
+    "#hash_535924d9f180b2a6": {
+        "#id": 13,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#player",
+                "#sharedname": "#player"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#killstreak",
+                "#sharedname": "#killstreak"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#agent",
+                "#sharedname": "#agent"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#aerial",
+                "#sharedname": "#aerial"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#ground",
+                "#sharedname": "#ground"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#support",
+                "#sharedname": "#support"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#vehicle",
+                "#sharedname": "#vehicle"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#equipment",
+                "#sharedname": "#equipment"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#juggernaut",
+                "#sharedname": "#juggernaut"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#riotshield",
+                "#sharedname": "#riotshield"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#suicidebomber",
+                "#sharedname": "#suicidebomber"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#elite",
+                "#sharedname": "#elite"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#soldier",
+                "#sharedname": "#soldier"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#civilian",
+                "#sharedname": "#civilian"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#combatant",
+                "#sharedname": "#combatant"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#tier1",
+                "#sharedname": "#tier1"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#tier2",
+                "#sharedname": "#tier2"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#tier3",
+                "#sharedname": "#tier3"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#veh9_jltv_mg",
+                "#sharedname": "#veh9_jltv_mg"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#armored",
+                "#sharedname": "#armored"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#elim_target",
+                "#sharedname": "#elim_target"
+            },
+            {
+                "#bitindex": 21,
+                "#name": "#boss",
+                "#sharedname": "#boss"
+            },
+            {
+                "#bitindex": 22,
+                "#name": "#juggernaut_boss",
+                "#sharedname": "#juggernaut_boss"
+            },
+            {
+                "#bitindex": 23,
+                "#name": "#chemist_boss",
+                "#sharedname": "#chemist_boss"
+            },
+            {
+                "#bitindex": 24,
+                "#name": "#chopper_boss",
+                "#sharedname": "#chopper_boss"
+            },
+            {
+                "#bitindex": 25,
+                "#name": "#reinforcement_chopper",
+                "#sharedname": "#reinforcement_chopper"
+            },
+            {
+                "#bitindex": 26,
+                "#name": "#ai_vehicle",
+                "#sharedname": "#ai_vehicle"
+            },
+            {
+                "#bitindex": 27,
+                "#name": "#enemy_vehicle",
+                "#sharedname": "#enemy_vehicle"
+            },
+            {
+                "#bitindex": 28,
+                "#name": "#atv",
+                "#sharedname": "#atv"
+            },
+            {
+                "#bitindex": 29,
+                "#name": "#light_tank",
+                "#sharedname": "#light_tank"
+            },
+            {
+                "#bitindex": 30,
+                "#name": "#little_bird",
+                "#sharedname": "#little_bird"
+            },
+            {
+                "#bitindex": 31,
+                "#name": "#veh9_acv_6x6",
+                "#sharedname": "#veh9_acv_6x6"
+            },
+            {
+                "#bitindex": 32,
+                "#name": "#veh9_apc_8x8",
+                "#sharedname": "#veh9_apc_8x8"
+            },
+            {
+                "#bitindex": 33,
+                "#name": "#veh9_blima",
+                "#sharedname": "#veh9_blima"
+            },
+            {
+                "#bitindex": 34,
+                "#name": "#veh9_chopped_pickup",
+                "#sharedname": "#veh9_chopped_pickup"
+            },
+            {
+                "#bitindex": 35,
+                "#name": "#veh9_cougar",
+                "#sharedname": "#veh9_cougar"
+            },
+            {
+                "#bitindex": 36,
+                "#name": "#veh9_hummer",
+                "#sharedname": "#veh9_hummer"
+            },
+            {
+                "#bitindex": 37,
+                "#name": "#veh9_jltv",
+                "#sharedname": "#veh9_jltv"
+            },
+            {
+                "#bitindex": 38,
+                "#name": "#veh9_mil_cargo_truck",
+                "#sharedname": "#veh9_mil_cargo_truck"
+            },
+            {
+                "#bitindex": 39,
+                "#name": "#veh9_overland_2016",
+                "#sharedname": "#veh9_overland_2016"
+            },
+            {
+                "#bitindex": 40,
+                "#name": "#veh9_palfa",
+                "#sharedname": "#veh9_palfa"
+            },
+            {
+                "#bitindex": 41,
+                "#name": "#veh9_patrol_boat",
+                "#sharedname": "#veh9_patrol_boat"
+            },
+            {
+                "#bitindex": 42,
+                "#name": "#veh9_pickup_2014",
+                "#sharedname": "#veh9_pickup_2014"
+            },
+            {
+                "#bitindex": 43,
+                "#name": "#veh9_pwc",
+                "#sharedname": "#veh9_pwc"
+            },
+            {
+                "#bitindex": 44,
+                "#name": "#veh9_rhib",
+                "#sharedname": "#veh9_rhib"
+            },
+            {
+                "#bitindex": 45,
+                "#name": "#veh9_sedan_hatchback_1985",
+                "#sharedname": "#veh9_sedan_hatchback_1985"
+            },
+            {
+                "#bitindex": 46,
+                "#name": "#veh9_suv_1996",
+                "#sharedname": "#veh9_suv_1996"
+            },
+            {
+                "#bitindex": 47,
+                "#name": "#veh9_techo_rebel_armor",
+                "#sharedname": "#veh9_techo_rebel_armor"
+            },
+            {
+                "#bitindex": 48,
+                "#name": "#veh9_utv",
+                "#sharedname": "#veh9_utv"
+            },
+            {
+                "#bitindex": 49,
+                "#name": "#wheelson_boss",
+                "#sharedname": "#wheelson_boss"
+            },
+            {
+                "#bitindex": 50,
+                "#name": "#velikan_boss",
+                "#sharedname": "#velikan_boss"
+            },
+            {
+                "#bitindex": 51,
+                "#name": "#trapper_boss",
+                "#sharedname": "#trapper_boss"
+            },
+            {
+                "#bitindex": 52,
+                "#name": "#aq",
+                "#sharedname": "#aq"
+            },
+            {
+                "#bitindex": 53,
+                "#name": "#shadow_company",
+                "#sharedname": "#shadow_company"
+            },
+            {
+                "#bitindex": 54,
+                "#name": "#cartel",
+                "#sharedname": "#cartel"
+            },
+            {
+                "#bitindex": 55,
+                "#name": "#pyro_boss",
+                "#sharedname": "#pyro_boss"
+            },
+            {
+                "#bitindex": 56,
+                "#name": "#scav_boss",
+                "#sharedname": "#scav_boss"
+            },
+            {
+                "#bitindex": 57,
+                "#name": "#train_safe_heli",
+                "#sharedname": "#train_safe_heli"
+            },
+            {
+                "#bitindex": 58,
+                "#name": "#firebug",
+                "#sharedname": "#firebug"
+            },
+            {
+                "#bitindex": 59,
+                "#name": "#sniper_boss",
+                "#sharedname": "#sniper_boss"
+            },
+            {
+                "#bitindex": 60,
+                "#name": "#rusher_boss",
+                "#sharedname": "#rusher_boss"
+            },
+            {
+                "#bitindex": 61,
+                "#name": "#getaway_boss",
+                "#sharedname": "#getaway_boss"
+            },
+            {
+                "#bitindex": 62,
+                "#name": "#russian",
+                "#sharedname": "#russian"
+            },
+            {
+                "#bitindex": 63,
+                "#name": "#rat",
+                "#sharedname": "#rat"
+            }
+        ],
+        "#name": "#iw9_enemy_type_bitfield",
+        "#sharedname": "#hash_e2f5c601b57b3960"
+    },
+    "#hash_5388fe2c18b45129": {
+        "#id": 76,
+        "#bitfield": [],
+        "#name": "#iw9_battlemap_sector_ae_id",
+        "#sharedname": "#hash_6f748739113c5b3b"
+    },
+    "#hash_5406d1f26a350e69": {
+        "#id": 9,
+        "#bitfield": [],
+        "#name": "#iw9_gametype",
+        "#sharedname": "#gametype"
+    },
+    "#hash_5531f745a513c783": {
+        "#id": 107,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#token_award",
+                "#sharedname": "#token_award"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#token_redeem",
+                "#sharedname": "#token_redeem"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#progress_reset",
+                "#sharedname": "#progress_reset"
+            }
+        ],
+        "#name": "#iw9_champions_quest_bitfield1",
+        "#sharedname": "#hash_ecf2f40148801ac5"
+    },
+    "#hash_5551541c9a72e860": {
+        "#id": 34,
+        "#bitfield": [],
+        "#name": "#iw9_weapon_attachment10",
+        "#sharedname": "#weapon_attachment10"
+    },
+    "#hash_56093fe4150e5217": {
+        "#id": 137,
+        "#bitfield": [],
+        "#name": "#iw9_in_prematch",
+        "#sharedname": "#in_prematch"
+    },
+    "#hash_5718004af0ccf99e": {
+        "#id": 6,
+        "#bitfield": [],
+        "#name": "#iw9_equipment_bitfield1",
+        "#sharedname": "#equipment_bitfield1"
+    },
+    "#hash_589ca65b9ac05038": {
+        "#id": 151,
+        "#bitfield": [],
+        "#name": "#iw9_essence_extracted",
+        "#sharedname": "#hash_c818f0081a5df0ba"
+    },
+    "#hash_5905a695d75d8f67": {
+        "#id": 125,
+        "#bitfield": [],
+        "#name": "#iw9_cp_total_stars",
+        "#sharedname": "#hash_87c3da69c8339ef5"
+    },
+    "#hash_591b12597642a68a": {
+        "#id": 148,
+        "#bitfield": [],
+        "#name": "#iw9_is_killstreak",
+        "#sharedname": "#is_killstreak"
+    },
+    "#hash_59cdd8ea75d02b38": {
+        "#id": 4,
+        "#bitfield": [],
+        "#name": "#iw9_rejoin_expiry",
+        "#sharedname": "#hash_ab984d923d5f2c96"
+    },
+    "#hash_5ac5675cc5e98904": {
+        "#id": 102,
+        "#bitfield": [],
+        "#name": "#iw9_weapon_camo",
+        "#sharedname": "#weapon_camo"
+    },
+    "#hash_5bf96d7248723a94": {
+        "#id": 46,
+        "#bitfield": [],
+        "#name": "#iw9_string_ref",
+        "#sharedname": "#string_ref"
+    },
+    "#hash_5c43f86799c86d57": {
+        "#id": 80,
+        "#bitfield": [],
+        "#name": "#iw9_cp_mission_id",
+        "#sharedname": "#hash_17746d12d7b3cc71"
+    },
+    "#hash_5c57dae92aa0e9ab": {
+        "#id": 174,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_ladder_penalty",
+        "#sharedname": "#hash_cd5d35cc3d1850e5"
+    },
+    "#hash_5cf97867814cd9cb": {
+        "#id": 106,
+        "#bitfield": [],
+        "#name": "#iw9_jailbreak_respawn_player_from_gulag",
+        "#sharedname": "#hash_14cdeb43c9c858c1"
+    },
+    "#hash_5dcfffbd94c4fbd3": {
+        "#id": 51,
+        "#bitfield": [],
+        "#name": "#iw9_zm_armor_tier",
+        "#sharedname": "#hash_5758e94da456597d"
+    },
+    "#hash_5e22f10d4257a9a9": {
+        "#id": 78,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#loot",
+                "#sharedname": "#loot"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#extract",
+                "#sharedname": "#extract"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#ground",
+                "#sharedname": "#ground"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#cache",
+                "#sharedname": "#cache"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#backpack",
+                "#sharedname": "#backpack"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#exfil",
+                "#sharedname": "#exfil"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#extract_balloon",
+                "#sharedname": "#extract_balloon"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#dead_drop",
+                "#sharedname": "#dead_drop"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#final_exfil",
+                "#sharedname": "#final_exfil"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#starting_loadout",
+                "#sharedname": "#starting_loadout"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#place",
+                "#sharedname": "#place"
+            }
+        ],
+        "#name": "#iw9_loot_method_bitfield",
+        "#sharedname": "#hash_2af1f13aa6ae3b5f"
+    },
+    "#hash_5eac89f5c8365bc6": {
+        "#id": 13,
+        "#bitfield": [],
+        "#name": "#iw9_disconnect_reason",
+        "#sharedname": "#disconnect_reason"
+    },
+    "#hash_5ee9e2557acd5e91": {
+        "#id": 185,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_sr_forgiven",
+        "#sharedname": "#hash_e3fb45bbb557dc07"
+    },
+    "#hash_61d5c5388794535f": {
+        "#id": 134,
+        "#bitfield": [],
+        "#name": "#iw9_login_reward_faketime",
+        "#sharedname": "#hash_cc65c90273faf9bd"
+    },
+    "#hash_6354003bf309cecd": {
+        "#id": 30,
+        "#bitfield": [],
+        "#name": "#iw9_user_info",
+        "#sharedname": "#user_info"
+    },
+    "#hash_636b1b084b6b7798": {
+        "#id": 128,
+        "#bitfield": [],
+        "#name": "#iw9_squadmate2",
+        "#sharedname": "#squadmate2"
+    },
+    "#hash_636b1c084b6b794b": {
+        "#id": 129,
+        "#bitfield": [],
+        "#name": "#iw9_squadmate3",
+        "#sharedname": "#squadmate3"
+    },
+    "#hash_636b1d084b6b7afe": {
+        "#id": 126,
+        "#bitfield": [],
+        "#name": "#iw9_squadmate0",
+        "#sharedname": "#squadmate0"
+    },
+    "#hash_636b1e084b6b7cb1": {
+        "#id": 127,
+        "#bitfield": [],
+        "#name": "#iw9_squadmate1",
+        "#sharedname": "#squadmate1"
+    },
+    "#hash_636b21084b6b81ca": {
+        "#id": 130,
+        "#bitfield": [],
+        "#name": "#iw9_squadmate4",
+        "#sharedname": "#squadmate4"
+    },
+    "#hash_640922b95e3429ce": {
+        "#id": 74,
+        "#bitfield": [],
+        "#name": "#iw9_activate_id",
+        "#sharedname": "#activate_id"
+    },
+    "#hash_64eb8b5fe5345392": {
+        "#id": 67,
+        "#bitfield": [],
+        "#name": "#iw9_zm_perk_total",
+        "#sharedname": "#hash_4fe8d2ddae8ff630"
+    },
+    "#hash_661a16feae2a02b0": {
+        "#id": 105,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#completed",
+                "#sharedname": "#completed"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#failed",
+                "#sharedname": "#failed"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#alive",
+                "#sharedname": "#alive"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#team1",
+                "#sharedname": "#team1"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#team2",
+                "#sharedname": "#team2"
+            }
+        ],
+        "#name": "#iw9_contract_end_bitfield1",
+        "#sharedname": "#hash_bf1744b6c07743aa"
+    },
+    "#hash_668266ad236cc97c": {
+        "#id": 45,
+        "#bitfield": [],
+        "#name": "#iw9_weapon_xp",
+        "#sharedname": "#weapon_xp"
+    },
+    "#hash_66a5714832a2fd38": {
+        "#id": 43,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#none",
+                "#sharedname": "#none"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#sniper",
+                "#sharedname": "#sniper"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#lmg",
+                "#sharedname": "#lmg"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#smg",
+                "#sharedname": "#smg"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#shotgun",
+                "#sharedname": "#shotgun"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#pistol",
+                "#sharedname": "#pistol"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#grenade",
+                "#sharedname": "#grenade"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#launcher",
+                "#sharedname": "#launcher"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#turret",
+                "#sharedname": "#turret"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#throwing_knife",
+                "#sharedname": "#throwing_knife"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#non_player",
+                "#sharedname": "#non_player"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#item",
+                "#sharedname": "#item"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#beam",
+                "#sharedname": "#beam"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#ball",
+                "#sharedname": "#ball"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#assault",
+                "#sharedname": "#assault"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#battle",
+                "#sharedname": "#battle"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#marksman",
+                "#sharedname": "#marksman"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#killstreak",
+                "#sharedname": "#killstreak"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#melee_primary",
+                "#sharedname": "#melee_primary"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#melee_secondary",
+                "#sharedname": "#melee_secondary"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#melee",
+                "#sharedname": "#melee"
+            }
+        ],
+        "#name": "#iw9_weapon_class_bitfield",
+        "#sharedname": "#hash_a0dd9c7405f2d85e"
+    },
+    "#hash_66b935eb9b44505a": {
+        "#id": 133,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#ob_cargo_delivery",
+                "#sharedname": "#ob_cargo_delivery"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#ob_weapons_stash",
+                "#sharedname": "#ob_weapons_stash"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#hash_3270ac46a0c3c2",
+                "#sharedname": "#hash_3270ac46a0c3c2"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#hash_efb269fcf9cb7113",
+                "#sharedname": "#hash_efb269fcf9cb7113"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#ob_merc_defend",
+                "#sharedname": "#ob_merc_defend"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#ob_outlast",
+                "#sharedname": "#ob_outlast"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#hash_59cc13fd09b9139c",
+                "#sharedname": "#hash_59cc13fd09b9139c"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#hash_f6e9eafe23f8a317",
+                "#sharedname": "#hash_f6e9eafe23f8a317"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#hash_10f69eb4e0309664",
+                "#sharedname": "#hash_10f69eb4e0309664"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#ob_escort",
+                "#sharedname": "#ob_escort"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#ob_summon",
+                "#sharedname": "#ob_summon"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#hash_7d1ba0b077fb7b9d",
+                "#sharedname": "#hash_7d1ba0b077fb7b9d"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#hash_f25d38f16bfe34f9",
+                "#sharedname": "#hash_f25d38f16bfe34f9"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#contract_region_green",
+                "#sharedname": "#contract_region_green"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#hash_e410c12d3edc0f1",
+                "#sharedname": "#hash_e410c12d3edc0f1"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#hash_d9fd21fa744d244e",
+                "#sharedname": "#hash_d9fd21fa744d244e"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#hash_d21fcdb5cdfb6580",
+                "#sharedname": "#hash_d21fcdb5cdfb6580"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#contract_region_yellow",
+                "#sharedname": "#contract_region_yellow"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#contract_region_red",
+                "#sharedname": "#contract_region_red"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#six_player_squad",
+                "#sharedname": "#six_player_squad"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#zero_damage_taken",
+                "#sharedname": "#zero_damage_taken"
+            },
+            {
+                "#bitindex": 21,
+                "#name": "#contract_general_speedrun",
+                "#sharedname": "#contract_general_speedrun"
+            }
+        ],
+        "#name": "#iw9_ob_contract_type",
+        "#sharedname": "#hash_8b2d3cef621fca38"
+    },
+    "#hash_6770ae7c2c2883ea": {
+        "#id": 10,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#dom_capflag",
+                "#sharedname": "#dom_capflag"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#sd_bombsuccess",
+                "#sharedname": "#sd_bombsuccess"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#sd_bombdefuse",
+                "#sharedname": "#sd_bombdefuse"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#conf_confirm",
+                "#sharedname": "#conf_confirm"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#koth_1minute",
+                "#sharedname": "#koth_1minute"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#destruction_runthroughwall",
+                "#sharedname": "#destruction_runthroughwall"
+            }
+        ],
+        "#name": "#iw9_gametype_bitfield1",
+        "#sharedname": "#hash_9ab9749553b78b2c"
+    },
+    "#hash_67e9c814e0880e2a": {
+        "#id": 113,
+        "#bitfield": [],
+        "#name": "#iw9_battlepass_xp_scalar",
+        "#sharedname": "#hash_f49dbd32adacb71c"
+    },
+    "#hash_68423314aead8769": {
+        "#id": 179,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_mark_as_seen",
+        "#sharedname": "#hash_a7d18ce85d9c77b3"
+    },
+    "#hash_6950a94a38dadbf6": {
+        "#id": 7,
+        "#bitfield": [],
+        "#name": "#iw9_zm_zombie_type",
+        "#sharedname": "#hash_190b953e19a87380"
+    },
+    "#hash_6995bb8afb21c730": {
+        "#id": 31,
+        "#bitfield": [],
+        "#name": "#iw9_value",
+        "#sharedname": "#value"
+    },
+    "#hash_6b379a99b50259f9": {
+        "#id": 108,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#bar_cabinet",
+                "#sharedname": "#bar_cabinet"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#duffel_bag",
+                "#sharedname": "#duffel_bag"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#clothes",
+                "#sharedname": "#clothes"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#computer",
+                "#sharedname": "#computer"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#dmz_dead_drop",
+                "#sharedname": "#dmz_dead_drop"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#dmz_hidden_cache",
+                "#sharedname": "#dmz_hidden_cache"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#dmz_supply_crate",
+                "#sharedname": "#dmz_supply_crate"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#dmz_supply_drop",
+                "#sharedname": "#dmz_supply_drop"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#dresser",
+                "#sharedname": "#dresser"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#first_aid_kit",
+                "#sharedname": "#first_aid_kit"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#fridge",
+                "#sharedname": "#fridge"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#locker",
+                "#sharedname": "#locker"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#loot_backpack",
+                "#sharedname": "#loot_backpack"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#mail_kiosk",
+                "#sharedname": "#mail_kiosk"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#medicine_cabinet",
+                "#sharedname": "#medicine_cabinet"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#office_cabinet",
+                "#sharedname": "#office_cabinet"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#pack",
+                "#sharedname": "#pack"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#supply_box",
+                "#sharedname": "#supply_box"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#tool_box",
+                "#sharedname": "#tool_box"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#weapon_locker",
+                "#sharedname": "#weapon_locker"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#cash_register",
+                "#sharedname": "#cash_register"
+            },
+            {
+                "#bitindex": 21,
+                "#name": "#dmz_safe",
+                "#sharedname": "#dmz_safe"
+            }
+        ],
+        "#name": "#iw9_loot_cache_type",
+        "#sharedname": "#hash_1e306cba757eda6f"
+    },
+    "#hash_6bdd0299240b7a81": {
+        "#id": 0,
+        "#bitfield": [],
+        "#name": "#iw9_battlepass_xp",
+        "#sharedname": "#battlepass_xp"
+    },
+    "#hash_6be05ff11383b24a": {
+        "#id": 1,
+        "#bitfield": [],
+        "#name": "#iw9_battlepass_xp_from_time",
+        "#sharedname": "#hash_6592a20b9b17a22c"
+    },
+    "#hash_6c21a8fee49da8bc": {
+        "#id": 231,
+        "#bitfield": [],
+        "#name": "#iw9_completed",
+        "#sharedname": "#completed"
+    },
+    "#hash_6cc9811ebd48bc1a": {
+        "#id": 90,
+        "#bitfield": [],
+        "#name": "#iw9_cash_value",
+        "#sharedname": "#cash_value"
+    },
+    "#hash_6dd6040e01d6a008": {
+        "#id": 11,
+        "#bitfield": [],
+        "#name": "#iw9_kill_amount",
+        "#sharedname": "#kill_amount"
+    },
+    "#hash_6e55f390315c1a7b": {
+        "#id": 69,
+        "#bitfield": [],
+        "#name": "#iw9_zm_round_number",
+        "#sharedname": "#hash_684443c992a07af5"
+    },
+    "#hash_6e606b8904bb28ec": {
+        "#id": 165,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_league_id",
+        "#sharedname": "#hash_5c84471bbbd6a98e"
+    },
+    "#hash_6eada201090148be": {
+        "#id": 146,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#hash_c021dddee4ab6f22",
+                "#sharedname": "#hash_c021dddee4ab6f22"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#hash_5344b6a0d3bc982e",
+                "#sharedname": "#hash_5344b6a0d3bc982e"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#hash_764f40e9993b1ffc",
+                "#sharedname": "#hash_764f40e9993b1ffc"
+            },
+            {
+                "#bitindex": 3,
+                "#name": "#hash_753f5ed59673e84b",
+                "#sharedname": "#hash_753f5ed59673e84b"
+            },
+            {
+                "#bitindex": 4,
+                "#name": "#merc_specialist_heavytactician",
+                "#sharedname": "#merc_specialist_heavytactician"
+            },
+            {
+                "#bitindex": 5,
+                "#name": "#merc_specialist_rocketeer",
+                "#sharedname": "#merc_specialist_rocketeer"
+            },
+            {
+                "#bitindex": 6,
+                "#name": "#merc_specialist_rusher",
+                "#sharedname": "#merc_specialist_rusher"
+            },
+            {
+                "#bitindex": 7,
+                "#name": "#merc_specialist_shielded",
+                "#sharedname": "#merc_specialist_shielded"
+            },
+            {
+                "#bitindex": 8,
+                "#name": "#merc_specialist_sniper",
+                "#sharedname": "#merc_specialist_sniper"
+            },
+            {
+                "#bitindex": 9,
+                "#name": "#merc_specialist_support",
+                "#sharedname": "#merc_specialist_support"
+            },
+            {
+                "#bitindex": 10,
+                "#name": "#zombie_normal",
+                "#sharedname": "#zombie_normal"
+            },
+            {
+                "#bitindex": 11,
+                "#name": "#hash_2e33fb6219268242",
+                "#sharedname": "#hash_2e33fb6219268242"
+            },
+            {
+                "#bitindex": 12,
+                "#name": "#zombie_normal_hellhound",
+                "#sharedname": "#zombie_normal_hellhound"
+            },
+            {
+                "#bitindex": 13,
+                "#name": "#hash_111eeb7c9c836183",
+                "#sharedname": "#hash_111eeb7c9c836183"
+            },
+            {
+                "#bitindex": 14,
+                "#name": "#hash_e5cc9ba2d564d960",
+                "#sharedname": "#hash_e5cc9ba2d564d960"
+            },
+            {
+                "#bitindex": 15,
+                "#name": "#hash_d92e9d5d34383289",
+                "#sharedname": "#hash_d92e9d5d34383289"
+            },
+            {
+                "#bitindex": 16,
+                "#name": "#hash_18af518f7f491249",
+                "#sharedname": "#hash_18af518f7f491249"
+            },
+            {
+                "#bitindex": 17,
+                "#name": "#hash_d08cb8b650fe3185",
+                "#sharedname": "#hash_d08cb8b650fe3185"
+            },
+            {
+                "#bitindex": 18,
+                "#name": "#merc_warlord",
+                "#sharedname": "#merc_warlord"
+            },
+            {
+                "#bitindex": 19,
+                "#name": "#merc_general",
+                "#sharedname": "#merc_general"
+            },
+            {
+                "#bitindex": 20,
+                "#name": "#zombie_general",
+                "#sharedname": "#zombie_general"
+            },
+            {
+                "#bitindex": 21,
+                "#name": "#merc_specialist",
+                "#sharedname": "#merc_specialist"
+            },
+            {
+                "#bitindex": 22,
+                "#name": "#big_bounty_target",
+                "#sharedname": "#big_bounty_target"
+            }
+        ],
+        "#name": "#iw9_jup_ob_enemy_type",
+        "#sharedname": "#hash_4a2a8345ce12358"
+    },
+    "#hash_6f39588bd84b4adf": {
+        "#id": 114,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#has_played_wz1",
+                "#sharedname": "#has_played_wz1"
+            }
+        ],
+        "#name": "#iw9_login_bitfield1",
+        "#sharedname": "#hash_5d8ccf966a985c05"
+    },
+    "#hash_71207d34bb1e69ac": {
+        "#id": 9,
+        "#bitfield": [],
+        "#name": "#iw9_value_9",
+        "#sharedname": "#value_9"
+    },
+    "#hash_71207e34bb1e6b5f": {
+        "#id": 8,
+        "#bitfield": [],
+        "#name": "#iw9_value_8",
+        "#sharedname": "#value_8"
+    },
+    "#hash_71208134bb1e7078": {
+        "#id": 5,
+        "#bitfield": [],
+        "#name": "#iw9_value_5",
+        "#sharedname": "#value_5"
+    },
+    "#hash_71208234bb1e722b": {
+        "#id": 4,
+        "#bitfield": [],
+        "#name": "#iw9_value_4",
+        "#sharedname": "#value_4"
+    },
+    "#hash_71208334bb1e73de": {
+        "#id": 7,
+        "#bitfield": [],
+        "#name": "#iw9_value_7",
+        "#sharedname": "#value_7"
+    },
+    "#hash_71208434bb1e7591": {
+        "#id": 6,
+        "#bitfield": [],
+        "#name": "#iw9_value_6",
+        "#sharedname": "#value_6"
+    },
+    "#hash_71208534bb1e7744": {
+        "#id": 1,
+        "#bitfield": [],
+        "#name": "#iw9_value_1",
+        "#sharedname": "#value_1"
+    },
+    "#hash_71208634bb1e78f7": {
+        "#id": 0,
+        "#bitfield": [],
+        "#name": "#iw9_value_0",
+        "#sharedname": "#value_0"
+    },
+    "#hash_71208734bb1e7aaa": {
+        "#id": 3,
+        "#bitfield": [],
+        "#name": "#iw9_value_3",
+        "#sharedname": "#value_3"
+    },
+    "#hash_71208834bb1e7c5d": {
+        "#id": 2,
+        "#bitfield": [],
+        "#name": "#iw9_value_2",
+        "#sharedname": "#value_2"
+    },
+    "#hash_713c565596867ba8": {
+        "#id": 3,
+        "#bitfield": [],
+        "#name": "#iw9_daily_ch_id_3",
+        "#sharedname": "#hash_733426343d7e0a2a"
+    },
+    "#hash_713c575596867d5b": {
+        "#id": 2,
+        "#bitfield": [],
+        "#name": "#iw9_daily_ch_id_2",
+        "#sharedname": "#hash_733427343d7e0bdd"
+    },
+    "#hash_713c585596867f0e": {
+        "#id": 1,
+        "#bitfield": [],
+        "#name": "#iw9_daily_ch_id_1",
+        "#sharedname": "#hash_733424343d7e06c4"
+    },
+    "#hash_713c5d559686878d": {
+        "#id": 4,
+        "#bitfield": [],
+        "#name": "#iw9_daily_ch_id_4",
+        "#sharedname": "#hash_733421343d7e01ab"
+    },
+    "#hash_71650a86339801b0": {
+        "#id": 29,
+        "#bitfield": [],
+        "#name": "#iw9_season6",
+        "#sharedname": "#season6"
+    },
+    "#hash_71650c8633980516": {
+        "#id": 27,
+        "#bitfield": [],
+        "#name": "#iw9_season4",
+        "#sharedname": "#season4"
+    },
+    "#hash_71650d86339806c9": {
+        "#id": 28,
+        "#bitfield": [],
+        "#name": "#iw9_season5",
+        "#sharedname": "#season5"
+    },
+    "#hash_71650e863398087c": {
+        "#id": 25,
+        "#bitfield": [],
+        "#name": "#iw9_season2",
+        "#sharedname": "#season2"
+    },
+    "#hash_71650f8633980a2f": {
+        "#id": 26,
+        "#bitfield": [],
+        "#name": "#iw9_season3",
+        "#sharedname": "#season3"
+    },
+    "#hash_7165108633980be2": {
+        "#id": 23,
+        "#bitfield": [],
+        "#name": "#iw9_season0",
+        "#sharedname": "#season0"
+    },
+    "#hash_7165118633980d95": {
+        "#id": 24,
+        "#bitfield": [],
+        "#name": "#iw9_season1",
+        "#sharedname": "#season1"
+    },
+    "#hash_7212d3a2c46fe54a": {
+        "#id": 77,
+        "#bitfield": [],
+        "#name": "#iw9_battlemap_sector_reward_id",
+        "#sharedname": "#hash_80e7ec43d164ba50"
+    },
+    "#hash_72cc01bf96909df6": {
+        "#id": 167,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_skill_rating",
+        "#sharedname": "#leagueplay_skill_rating"
+    },
+    "#hash_7350bd24ba4d524e": {
+        "#id": 140,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#invalid",
+                "#sharedname": "#invalid"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#set_flag",
+                "#sharedname": "#set_flag"
+            },
+            {
+                "#bitindex": 2,
+                "#name": "#clear_flag",
+                "#sharedname": "#clear_flag"
+            }
+        ],
+        "#name": "#iw9_game_flags_cmd",
+        "#sharedname": "#hash_7164db7c4d5bdb1c"
+    },
+    "#hash_762522f7c1315050": {
+        "#id": 71,
+        "#bitfield": [],
+        "#name": "#iw9_squad_event",
+        "#sharedname": "#squad_event"
+    },
+    "#hash_76e063ca5ba5828c": {
+        "#id": 93,
+        "#bitfield": [],
+        "#name": "#iw9_distance",
+        "#sharedname": "#distance"
+    },
+    "#hash_77098c2ab8c118ee": {
+        "#id": 115,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#reviver",
+                "#sharedname": "#reviver"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#revivee",
+                "#sharedname": "#revivee"
+            }
+        ],
+        "#name": "#iw9_revive_bitfield",
+        "#sharedname": "#hash_c6554ef3de205884"
+    },
+    "#hash_787137eb24c2ede1": {
+        "#id": 155,
+        "#bitfield": [],
+        "#name": "#iw9_critical_kill_chain",
+        "#sharedname": "#hash_2f109e5ad9e45eff"
+    },
+    "#hash_79412af1e92d01bb": {
+        "#id": 189,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_gametype",
+        "#sharedname": "#hash_5fba2f25f07000f5"
+    },
+    "#hash_7a9597690d358103": {
+        "#id": 188,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_new_skill_division",
+        "#sharedname": "#hash_915e4c5b62ff6919"
+    },
+    "#hash_7aa7d5082b1e4dcb": {
+        "#id": 76,
+        "#bitfield": [],
+        "#name": "#iw9_loot_id",
+        "#sharedname": "#loot_id"
+    },
+    "#hash_7b28c97faad36f2c": {
+        "#id": 192,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_placement",
+        "#sharedname": "#hash_334ca6ff472c2d06"
+    },
+    "#hash_7cde43669769f609": {
+        "#id": 18,
+        "#bitfield": [],
+        "#name": "#iw9_operator_id",
+        "#sharedname": "#operator_id"
+    },
+    "#hash_7d1131669795310c": {
+        "#id": 19,
+        "#bitfield": [],
+        "#name": "#iw9_operator_xp",
+        "#sharedname": "#operator_xp"
+    },
+    "#hash_7d2a619b65943ed0": {
+        "#id": 116,
+        "#bitfield": [],
+        "#name": "#iw9_exgm_warlord_id",
+        "#sharedname": "#hash_37ac48cb5a8cddea"
+    },
+    "#hash_7d333b83d9ae1fc1": {
+        "#id": 196,
+        "#bitfield": [],
+        "#name": "#iw9_leagueplay_match_sr_version",
+        "#sharedname": "#hash_9a5ce95c690217e7"
+    },
+    "#hash_7d75cf474255de64": {
+        "#id": 104,
+        "#bitfield": [
+            {
+                "#bitindex": 0,
+                "#name": "#win",
+                "#sharedname": "#win"
+            },
+            {
+                "#bitindex": 1,
+                "#name": "#loss",
+                "#sharedname": "#loss"
+            }
+        ],
+        "#name": "#iw9_gulag_end_bitfield1",
+        "#sharedname": "#hash_2614881933cc996e"
+    },
+    "#hash_7e8a3f074646e70c": {
+        "#id": 53,
+        "#bitfield": [],
+        "#name": "#iw9_zm_covenant_type",
+        "#sharedname": "#hash_381cd4d095d5096"
+    }
+}

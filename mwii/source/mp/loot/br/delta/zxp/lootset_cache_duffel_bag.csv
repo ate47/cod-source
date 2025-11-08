@@ -1,0 +1,6 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/delta/zxp/lootset_root.csv,,,,
+reqAdd,super&[0-1],1,,50,# chance for super
+reqAdd,weapon,1,,,
+reqAdd,brloot_zmb_stim,1,1,50,# ZXP Stim
+reqAdd,brloot_offhand_magsnap|brloot_super_hauntedbox,1,1,50,# Increase Odds MagSnap or Haunted Box

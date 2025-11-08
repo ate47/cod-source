@@ -1,0 +1,591 @@
+{
+    "#hash_22bbae093483b02a": {
+        "#classreference": "weapon_melee2",
+        "#hash_b0ae127b7ec2cc64": true,
+        "#weaponindex": 2,
+        "#hash_a3d83bb30fd0549c": "weapon_preview_small",
+        "#hash_3974f58db0ab0fe5": [],
+        "#hash_98928b4f8b31479f": "melee",
+        "#classimage": "icon_weapon_me_soscar_knife",
+        "#previewscene": "weapon_preview_small",
+        "#weaponslot": 2,
+        "#weaponname": "&LUA_MENU/WEAPTYPE_SINGLE_MELEE",
+        "#hash_8ec4aa2a82dfa7d2": "bundle_preview_small",
+        "#hasvariants": true,
+        "#hash_2a43a8f6c62bd5d4": "&LUA_MENU/WEAPTYPE_MELEES",
+        "#hash_733b5518b3dac01": true
+    },
+    "#hash_285b8a75d48f0fa4": {
+        "#classreference": "weapon_lmg",
+        "#hash_b0ae127b7ec2cc64": true,
+        "#image": "cp_wepbuild_lmg_icon",
+        "#weaponindex": 3,
+        "#hash_a3d83bb30fd0549c": "loadout_showcase_preview_large",
+        "#hash_3974f58db0ab0fe5": [
+            {
+                "#category": "OPTIC"
+            },
+            {
+                "#category": "MUZZLE"
+            },
+            {
+                "#category": "FRONTPIECE"
+            },
+            {
+                "#category": "UNDERMOUNT"
+            },
+            {
+                "#category": "MAGAZINE"
+            },
+            {
+                "#category": "REARGRIP"
+            },
+            {
+                "#category": "BACKPIECE"
+            },
+            {
+                "#category": "EXTRA"
+            },
+            {
+                "#category": "GUNPERK"
+            },
+            {
+                "#category": "COMB"
+            },
+            {
+                "#category": "UNIQUE"
+            },
+            {
+                "#category": "CONVERSIONKIT"
+            }
+        ],
+        "#hash_98928b4f8b31479f": "lmg",
+        "#hash_807531dc9afcec58": true,
+        "#classimage": "icon_weapon_lm_kilo121",
+        "#hash_c713f8b2b1509025": true,
+        "#previewscene": "weapon_preview_large",
+        "#weaponslot": 1,
+        "#weaponname": "&LUA_MENU/WEAPTYPE_SINGLE_LMG",
+        "#hash_8ec4aa2a82dfa7d2": "bundle_preview",
+        "#hasvariants": true,
+        "#hash_2a43a8f6c62bd5d4": "&LUA_MENU/WEAPTYPE_LMG",
+        "#hash_733b5518b3dac01": true
+    },
+    "#hash_2ca16cf9dce9f467": {
+        "#classreference": "weapon_projectile",
+        "#hash_b0ae127b7ec2cc64": true,
+        "#weaponindex": 1,
+        "#hash_a3d83bb30fd0549c": "weapon_preview_large",
+        "#hash_3974f58db0ab0fe5": [],
+        "#hash_98928b4f8b31479f": "projectile",
+        "#classimage": "icon_weapon_la_rpapa7",
+        "#previewscene": "weapon_preview_large",
+        "#weaponslot": 2,
+        "#weaponname": "&LUA_MENU/WEAPTYPE_SINGLE_LAUNCHER",
+        "#hash_8ec4aa2a82dfa7d2": "bundle_preview_large",
+        "#hash_2a43a8f6c62bd5d4": "&LUA_MENU/WEAPTYPE_LAUNCHERS",
+        "#hash_733b5518b3dac01": true
+    },
+    "#hash_54decbaa23d42f8f": {
+        "#classreference": "weapon_assault",
+        "#hash_b0ae127b7ec2cc64": true,
+        "#image": "cp_wepbuild_ar_icon",
+        "#hash_a3d83bb30fd0549c": "loadout_showcase_preview",
+        "#hash_3974f58db0ab0fe5": [
+            {
+                "#category": "OPTIC"
+            },
+            {
+                "#category": "MUZZLE"
+            },
+            {
+                "#category": "FRONTPIECE"
+            },
+            {
+                "#category": "UNDERMOUNT"
+            },
+            {
+                "#category": "MAGAZINE"
+            },
+            {
+                "#category": "REARGRIP"
+            },
+            {
+                "#category": "BACKPIECE"
+            },
+            {
+                "#category": "EXTRA"
+            },
+            {
+                "#category": "GUNPERK"
+            },
+            {
+                "#category": "COMB"
+            },
+            {
+                "#category": "UNIQUE"
+            },
+            {
+                "#category": "CONVERSIONKIT"
+            }
+        ],
+        "#hash_98928b4f8b31479f": "assault",
+        "#hash_807531dc9afcec58": true,
+        "#classimage": "icon_weapon_ar_mike4",
+        "#hash_c713f8b2b1509025": true,
+        "#previewscene": "weapon_preview",
+        "#weaponslot": 1,
+        "#weaponname": "&LUA_MENU/WEAPTYPE_SINGLE_AR",
+        "#hash_8ec4aa2a82dfa7d2": "bundle_preview",
+        "#hasvariants": true,
+        "#hash_2a43a8f6c62bd5d4": "&LUA_MENU/WEAPTYPE_AR",
+        "#hash_733b5518b3dac01": true
+    },
+    "#hash_60acd8bf1f57cb4d": {
+        "#classreference": "weapon_active_armory",
+        "#hash_b0ae127b7ec2cc64": true,
+        "#hash_a3d83bb30fd0549c": "loadout_showcase_preview",
+        "#hash_3974f58db0ab0fe5": [],
+        "#hash_807531dc9afcec58": true,
+        "#hash_c713f8b2b1509025": true,
+        "#previewscene": "weapon_preview",
+        "#weaponslot": 1,
+        "#weaponname": "&LOADOUT/WEAPTYPE_SINGLE_AA",
+        "#hash_8ec4aa2a82dfa7d2": "bundle_preview",
+        "#hash_2a43a8f6c62bd5d4": "&LOADOUT/WEAPTYPE_AA",
+        "#hash_733b5518b3dac01": true
+    },
+    "#hash_63b23f75add8b833": {
+        "#classreference": "weapon_dmr",
+        "#hash_b0ae127b7ec2cc64": true,
+        "#image": "cp_wepbuild_sr_icon",
+        "#weaponindex": 5,
+        "#hash_a3d83bb30fd0549c": "loadout_showcase_preview",
+        "#hash_3974f58db0ab0fe5": [
+            {
+                "#category": "OPTIC"
+            },
+            {
+                "#category": "GUARDTHREE"
+            },
+            {
+                "#category": "MUZZLE"
+            },
+            {
+                "#category": "FRONTPIECE"
+            },
+            {
+                "#category": "UNDERMOUNT"
+            },
+            {
+                "#category": "MAGAZINE"
+            },
+            {
+                "#category": "REARGRIP"
+            },
+            {
+                "#category": "BACKPIECE"
+            },
+            {
+                "#category": "EXTRA"
+            },
+            {
+                "#category": "GUNPERK"
+            },
+            {
+                "#category": "CABLE"
+            },
+            {
+                "#category": "ARMS"
+            },
+            {
+                "#category": "BOLT"
+            },
+            {
+                "#category": "BOLTACTION"
+            },
+            {
+                "#category": "COMB"
+            },
+            {
+                "#category": "GUARD"
+            },
+            {
+                "#category": "LEVER"
+            },
+            {
+                "#category": "REARGRIPTWO"
+            },
+            {
+                "#category": "UNIQUE"
+            },
+            {
+                "#category": "BOLTS"
+            },
+            {
+                "#category": "WIRES"
+            },
+            {
+                "#category": "BACKPIECETWO"
+            },
+            {
+                "#category": "CONVERSIONKIT"
+            }
+        ],
+        "#hash_98928b4f8b31479f": "sniper",
+        "#hash_807531dc9afcec58": true,
+        "#classimage": "icon_weapon_sn_mike14",
+        "#hash_c713f8b2b1509025": true,
+        "#previewscene": "weapon_preview",
+        "#weaponslot": 1,
+        "#weaponname": "&LUA_MENU/WEAPTYPE_SINGLE_DMR",
+        "#hash_8ec4aa2a82dfa7d2": "bundle_preview",
+        "#hasvariants": true,
+        "#hash_2a43a8f6c62bd5d4": "&LUA_MENU/WEAPTYPE_DMR",
+        "#hash_733b5518b3dac01": true
+    },
+    "#hash_65b5a975f7835a51": {
+        "#classreference": "weapon_smg",
+        "#hash_b0ae127b7ec2cc64": true,
+        "#image": "cp_wepbuild_smg_icon",
+        "#weaponindex": 2,
+        "#hash_a3d83bb30fd0549c": "loadout_showcase_preview",
+        "#hash_3974f58db0ab0fe5": [
+            {
+                "#category": "OPTIC"
+            },
+            {
+                "#category": "MUZZLE"
+            },
+            {
+                "#category": "FRONTPIECE"
+            },
+            {
+                "#category": "UNDERMOUNT"
+            },
+            {
+                "#category": "MAGAZINE"
+            },
+            {
+                "#category": "REARGRIP"
+            },
+            {
+                "#category": "BACKPIECE"
+            },
+            {
+                "#category": "EXTRA"
+            },
+            {
+                "#category": "GUNPERK"
+            },
+            {
+                "#category": "RAIL"
+            },
+            {
+                "#category": "COMB"
+            },
+            {
+                "#category": "UNIQUE"
+            },
+            {
+                "#category": "CONVERSIONKIT"
+            }
+        ],
+        "#hash_98928b4f8b31479f": "smg",
+        "#hash_807531dc9afcec58": true,
+        "#classimage": "icon_weapon_sm_mpapa5",
+        "#hash_c713f8b2b1509025": true,
+        "#previewscene": "weapon_preview",
+        "#weaponslot": 1,
+        "#weaponname": "&LUA_MENU/WEAPTYPE_SINGLE_SMG",
+        "#hash_8ec4aa2a82dfa7d2": "bundle_preview",
+        "#hasvariants": true,
+        "#hash_2a43a8f6c62bd5d4": "&LUA_MENU/WEAPTYPE_SMG",
+        "#hash_733b5518b3dac01": true
+    },
+    "#hash_67475d8f445687fa": {
+        "#classreference": "weapon_battle",
+        "#hash_b0ae127b7ec2cc64": true,
+        "#image": "cp_wepbuild_ar_icon",
+        "#weaponindex": 1,
+        "#hash_a3d83bb30fd0549c": "loadout_showcase_preview",
+        "#hash_3974f58db0ab0fe5": [
+            {
+                "#category": "OPTIC"
+            },
+            {
+                "#category": "MUZZLE"
+            },
+            {
+                "#category": "FRONTPIECE"
+            },
+            {
+                "#category": "UNDERMOUNT"
+            },
+            {
+                "#category": "MAGAZINE"
+            },
+            {
+                "#category": "REARGRIP"
+            },
+            {
+                "#category": "BACKPIECE"
+            },
+            {
+                "#category": "EXTRA"
+            },
+            {
+                "#category": "GUNPERK"
+            },
+            {
+                "#category": "COMB"
+            },
+            {
+                "#category": "UNIQUE"
+            },
+            {
+                "#category": "CONVERSIONKIT"
+            }
+        ],
+        "#hash_98928b4f8b31479f": "battle",
+        "#hash_807531dc9afcec58": true,
+        "#classimage": "icon_weapon_ar_mike4",
+        "#hash_c713f8b2b1509025": true,
+        "#previewscene": "weapon_preview",
+        "#weaponslot": 1,
+        "#weaponname": "&LUA_MENU/WEAPTYPE_SINGLE_BR",
+        "#hash_8ec4aa2a82dfa7d2": "bundle_preview",
+        "#hasvariants": true,
+        "#hash_2a43a8f6c62bd5d4": "&LUA_MENU/WEAPTYPE_BR",
+        "#hash_733b5518b3dac01": true
+    },
+    "#hash_6951511422967947": {
+        "#classreference": "weapon_pistol",
+        "#hash_b0ae127b7ec2cc64": true,
+        "#image": "cp_wepbuild_secondaries_icon",
+        "#hash_a3d83bb30fd0549c": "loadout_showcase_preview_small",
+        "#hash_3974f58db0ab0fe5": [
+            {
+                "#category": "OPTIC"
+            },
+            {
+                "#category": "MUZZLE"
+            },
+            {
+                "#category": "FRONTPIECE"
+            },
+            {
+                "#category": "UNDERMOUNT"
+            },
+            {
+                "#category": "MAGAZINE"
+            },
+            {
+                "#category": "REARGRIP"
+            },
+            {
+                "#category": "BACKPIECE"
+            },
+            {
+                "#category": "EXTRAPSTL"
+            },
+            {
+                "#category": "TRIGGER"
+            },
+            {
+                "#category": "GUNPERK"
+            },
+            {
+                "#category": "LOADER"
+            },
+            {
+                "#category": "UNIQUE"
+            },
+            {
+                "#category": "CONVERSIONKIT"
+            },
+            {
+                "#category": "EXTRA"
+            }
+        ],
+        "#hash_98928b4f8b31479f": "pistol",
+        "#hash_807531dc9afcec58": true,
+        "#classimage": "icon_weapon_pi_golf21",
+        "#hash_c713f8b2b1509025": true,
+        "#previewscene": "weapon_preview_small",
+        "#weaponslot": 2,
+        "#weaponname": "&LUA_MENU/WEAPTYPE_SINGLE_HANDGUN",
+        "#hash_8ec4aa2a82dfa7d2": "bundle_preview_small",
+        "#hasvariants": true,
+        "#hash_2a43a8f6c62bd5d4": "&LUA_MENU/WEAPTYPE_HANDGUNS",
+        "#hash_733b5518b3dac01": true
+    },
+    "#hash_70832d5307fb127a": {
+        "#classreference": "weapon_shotgun",
+        "#hash_b0ae127b7ec2cc64": true,
+        "#image": "cp_wepbuild_shotgun_icon",
+        "#weaponindex": 4,
+        "#hash_a3d83bb30fd0549c": "loadout_showcase_preview",
+        "#hash_3974f58db0ab0fe5": [
+            {
+                "#category": "OPTIC"
+            },
+            {
+                "#category": "TRIGGERTWO"
+            },
+            {
+                "#category": "REARGRIPTWO"
+            },
+            {
+                "#category": "MUZZLE"
+            },
+            {
+                "#category": "FRONTPIECE"
+            },
+            {
+                "#category": "UNDERMOUNT"
+            },
+            {
+                "#category": "MAGAZINE"
+            },
+            {
+                "#category": "REARGRIP"
+            },
+            {
+                "#category": "BACKPIECE"
+            },
+            {
+                "#category": "EXTRA"
+            },
+            {
+                "#category": "GUNPERK"
+            },
+            {
+                "#category": "PUMP"
+            },
+            {
+                "#category": "PUMPGRIP"
+            },
+            {
+                "#category": "UNIQUE"
+            },
+            {
+                "#category": "GUARD"
+            },
+            {
+                "#category": "GUARDTWO"
+            },
+            {
+                "#category": "BOLT"
+            },
+            {
+                "#category": "COMB"
+            },
+            {
+                "#category": "REARGRIPTHREE"
+            },
+            {
+                "#category": "CONVERSIONKIT"
+            }
+        ],
+        "#hash_98928b4f8b31479f": "shotgun",
+        "#hash_807531dc9afcec58": true,
+        "#classimage": "icon_weapon_sh_dpapa12",
+        "#hash_c713f8b2b1509025": true,
+        "#previewscene": "weapon_preview",
+        "#weaponslot": 1,
+        "#weaponname": "&LUA_MENU/WEAPTYPE_SINGLE_SHOTGUN",
+        "#hash_8ec4aa2a82dfa7d2": "bundle_preview",
+        "#hasvariants": true,
+        "#hash_2a43a8f6c62bd5d4": "&LUA_MENU/WEAPTYPE_SHOTGUN",
+        "#hash_733b5518b3dac01": true
+    },
+    "#hash_78a0743adf2a161c": {
+        "#classreference": "weapon_melee",
+        "#hash_b0ae127b7ec2cc64": true,
+        "#weaponindex": 7,
+        "#hash_a3d83bb30fd0549c": "weapon_preview_riot",
+        "#hash_3974f58db0ab0fe5": [],
+        "#hash_98928b4f8b31479f": "melee",
+        "#classimage": "icon_weapon_me_soscar_knife",
+        "#hash_c713f8b2b1509025": true,
+        "#previewscene": "weapon_preview_riot",
+        "#weaponslot": 1,
+        "#weaponname": "&LUA_MENU/WEAPTYPE_SINGLE_MELEE",
+        "#hash_8ec4aa2a82dfa7d2": "bundle_preview_riot",
+        "#hasvariants": true,
+        "#hash_2a43a8f6c62bd5d4": "&LUA_MENU/WEAPTYPE_MELEES",
+        "#hash_733b5518b3dac01": true
+    },
+    "#hash_7b0a40fdf371450b": {
+        "#classreference": "weapon_sniper",
+        "#hash_b0ae127b7ec2cc64": true,
+        "#image": "cp_wepbuild_sr_icon",
+        "#weaponindex": 6,
+        "#hash_a3d83bb30fd0549c": "loadout_showcase_preview_large",
+        "#hash_3974f58db0ab0fe5": [
+            {
+                "#category": "OPTIC"
+            },
+            {
+                "#category": "CARRYHANDLE"
+            },
+            {
+                "#category": "MUZZLE"
+            },
+            {
+                "#category": "FRONTPIECE"
+            },
+            {
+                "#category": "UNDERMOUNT"
+            },
+            {
+                "#category": "MAGAZINE"
+            },
+            {
+                "#category": "REARGRIP"
+            },
+            {
+                "#category": "BACKPIECE"
+            },
+            {
+                "#category": "EXTRA"
+            },
+            {
+                "#category": "GUNPERK"
+            },
+            {
+                "#category": "BOLT"
+            },
+            {
+                "#category": "BOLTACTION"
+            },
+            {
+                "#category": "COMB"
+            },
+            {
+                "#category": "GUARD"
+            },
+            {
+                "#category": "REARGRIPTWO"
+            },
+            {
+                "#category": "GUARDTHREE"
+            },
+            {
+                "#category": "UNIQUE"
+            }
+        ],
+        "#hash_98928b4f8b31479f": "sniper",
+        "#hash_807531dc9afcec58": true,
+        "#classimage": "icon_weapon_sn_alpha50",
+        "#hash_c713f8b2b1509025": true,
+        "#previewscene": "weapon_preview_large",
+        "#weaponslot": 1,
+        "#weaponname": "&LUA_MENU/WEAPTYPE_SINGLE_SNIPER",
+        "#hash_8ec4aa2a82dfa7d2": "bundle_preview_large",
+        "#hasvariants": true,
+        "#hash_2a43a8f6c62bd5d4": "&LUA_MENU/WEAPTYPE_SNIPER",
+        "#hash_733b5518b3dac01": true
+    }
+}

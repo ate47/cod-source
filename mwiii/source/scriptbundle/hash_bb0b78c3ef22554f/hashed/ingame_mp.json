@@ -1,0 +1,358 @@
+{
+    "#hash_ec4456614b2f574": {
+        "#hash_b97a4f96e35d62fc": 450,
+        "#headiconmaxdistance": 3500,
+        "#hash_dda4d45d11713be": false,
+        "#hash_6ad8008df08f66a8": 14,
+        "#hash_c11f84610a177815": 1.55,
+        "#disablebind": true,
+        "#hash_495b2246709c1ebd": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_drain_camera.vfx",
+        "#disablebrainrot": true,
+        "#hash_15ca0d607bd0f65d": 1000,
+        "#hash_1edd3815011a08bd": true,
+        "#hash_80680f186a663a85": 20,
+        "#hash_f561f27619209f1c": true,
+        "#healthstatemodels": [
+            {
+                "#modelname": "c_jup_zmb_disciple_body_s3_rr"
+            },
+            {
+                "#modelname": "c_jup_zmb_disciple_exposed_1_s3_rr"
+            },
+            {
+                "#modelname": "c_jup_zmb_disciple_exposed_2_s3_rr"
+            }
+        ],
+        "#hash_6f2acd144e3c3fca": false,
+        "#hash_efbd87396988298c": 1,
+        "#hash_6a5b8f242f11c38": 8,
+        "#sweepcooldown": 8,
+        "#hash_23c1773c98bbea52": 23,
+        "#hash_119f8409b2099b1c": false,
+        "#hash_ba2601967ec76fdc": 10,
+        "#hash_7e21c2fc64b1a2da": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_zai_aether_disciple_weak_point_hand.vfx",
+        "#enableheadicon": true,
+        "#hash_e881202df9147e0f": 0.01,
+        "#hash_735914b3360cf610": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_zai_aether_disciple_weak_point_hand_impact.vfx",
+        "#bosshealthbar": "rr_disciple_healthbar_s3",
+        "#overridespawnaitypearray": [
+            {
+                "#hash_1d92b5675b8f9bd": 3,
+                "#overridespawnaitype": "jup_spawner_zombie_mangler_s3_rr",
+                "#hash_aed5f72cc5d12c0e": true,
+                "#hash_68d9b038985f1aa5": 1
+            },
+            {
+                "#hash_1d92b5675b8f9bd": 3,
+                "#overridespawnaitype": "jup_spawner_zombie_mimic_s3_rr",
+                "#hash_aed5f72cc5d12c0e": true,
+                "#hash_68d9b038985f1aa5": 1
+            }
+        ],
+        "#hash_e82fcf3a743fc4f8": 7,
+        "#hash_6dafdc9373f06676": 13,
+        "#hash_1de95697972bd8c7": 0.01,
+        "#hash_c164f56da4c8b950": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_zai_aether_disciple_blood_beam.vfx",
+        "#sweepmovespeed": 8,
+        "#hash_c8bcab8c1ce580a4": 8,
+        "#hash_64673f9cba520069": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_zai_aether_disciple_drain_kill.vfx",
+        "#hash_c366369faa4886e5": true,
+        "#hash_49e28583f4085c3": true,
+        "#hash_11513ec3b3dded73": true,
+        "#hash_5f17af25ee7aca56": 0.55,
+        "#hash_11dc5994234c3df6": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_aether_disciple_bind_trail.vfx",
+        "#hash_5704bf989f7424ad": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_zai_aether_disciple_weak_point_impact.vfx",
+        "#hash_1a818e0dcbfc15b2": 800
+    },
+    "#hash_fa0f59b2ebe1b6c": {
+        "#hash_b97a4f96e35d62fc": 300,
+        "#headiconmaxdistance": 1000,
+        "#hash_dda4d45d11713be": false,
+        "#hash_6ad8008df08f66a8": 10,
+        "#hash_c11f84610a177815": 2.5,
+        "#disablebind": false,
+        "#hash_495b2246709c1ebd": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_drain_camera.vfx",
+        "#disablebrainrot": false,
+        "#hash_15ca0d607bd0f65d": 20,
+        "#hash_1edd3815011a08bd": false,
+        "#hash_80680f186a663a85": 5,
+        "#hash_f561f27619209f1c": true,
+        "#healthstatemodels": [
+            {
+                "#modelname": "c_jup_zmb_disciple_body"
+            },
+            {
+                "#modelname": "c_jup_zmb_disciple_exposed_1"
+            },
+            {
+                "#modelname": "c_jup_zmb_disciple_exposed_2"
+            }
+        ],
+        "#hash_6f2acd144e3c3fca": false,
+        "#hash_efbd87396988298c": 1,
+        "#hash_6a5b8f242f11c38": 1,
+        "#sweepcooldown": 8,
+        "#hash_23c1773c98bbea52": 10,
+        "#hash_119f8409b2099b1c": false,
+        "#hash_ba2601967ec76fdc": 10,
+        "#hash_7e21c2fc64b1a2da": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_weak_point_hand.vfx",
+        "#enableheadicon": false,
+        "#hash_e881202df9147e0f": 0.0125,
+        "#hash_735914b3360cf610": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_weak_point_hand_impact.vfx",
+        "#bosshealthbar": "",
+        "#hash_e82fcf3a743fc4f8": 2,
+        "#hash_6dafdc9373f06676": 5,
+        "#hash_1de95697972bd8c7": 0.1,
+        "#hash_c164f56da4c8b950": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_beam_test.vfx",
+        "#sweepmovespeed": 8,
+        "#hash_c8bcab8c1ce580a4": 3,
+        "#hash_64673f9cba520069": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_drain_kill.vfx",
+        "#hash_c366369faa4886e5": false,
+        "#hash_49e28583f4085c3": false,
+        "#hash_11513ec3b3dded73": false,
+        "#hash_5f17af25ee7aca56": 0.9,
+        "#hash_11dc5994234c3df6": "vfx/jup/ob/gameplay/zm_ai/vfx_soo_bind_trail.vfx",
+        "#hash_5704bf989f7424ad": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_weak_point_impact.vfx",
+        "#hash_1a818e0dcbfc15b2": 800
+    },
+    "#hash_180eb66935c779b9": {
+        "#hash_b97a4f96e35d62fc": 450,
+        "#headiconmaxdistance": 3500,
+        "#hash_dda4d45d11713be": false,
+        "#hash_6ad8008df08f66a8": 14,
+        "#hash_c11f84610a177815": 1.5,
+        "#disablebind": true,
+        "#hash_495b2246709c1ebd": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_drain_camera.vfx",
+        "#disablebrainrot": true,
+        "#hash_15ca0d607bd0f65d": 1000,
+        "#hash_1edd3815011a08bd": true,
+        "#hash_80680f186a663a85": 20,
+        "#hash_f561f27619209f1c": true,
+        "#healthstatemodels": [
+            {
+                "#modelname": "c_jup_zmb_disciple_body_s3_rr"
+            },
+            {
+                "#modelname": "c_jup_zmb_disciple_exposed_1_s3_rr"
+            },
+            {
+                "#modelname": "c_jup_zmb_disciple_exposed_2_s3_rr"
+            }
+        ],
+        "#hash_6f2acd144e3c3fca": false,
+        "#hash_efbd87396988298c": 1,
+        "#hash_6a5b8f242f11c38": 7,
+        "#sweepcooldown": 8,
+        "#hash_23c1773c98bbea52": 19,
+        "#hash_119f8409b2099b1c": false,
+        "#hash_ba2601967ec76fdc": 10,
+        "#hash_7e21c2fc64b1a2da": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_zai_aether_disciple_weak_point_hand.vfx",
+        "#enableheadicon": true,
+        "#hash_e881202df9147e0f": 0.01,
+        "#hash_735914b3360cf610": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_zai_aether_disciple_weak_point_hand_impact.vfx",
+        "#bosshealthbar": "rr_disciple_healthbar_s3_quest",
+        "#overridespawnaitypearray": [
+            {
+                "#hash_1d92b5675b8f9bd": 1,
+                "#overridespawnaitype": "jup_spawner_zombie_mimic_s3_rr_quest",
+                "#hash_aed5f72cc5d12c0e": false,
+                "#hash_68d9b038985f1aa5": 1
+            },
+            {
+                "#hash_1d92b5675b8f9bd": 1,
+                "#overridespawnaitype": "jup_spawner_zombie_mangler_s3_rr_quest",
+                "#hash_aed5f72cc5d12c0e": false,
+                "#hash_68d9b038985f1aa5": 1
+            }
+        ],
+        "#hash_e82fcf3a743fc4f8": 7,
+        "#hash_6dafdc9373f06676": 10,
+        "#hash_1de95697972bd8c7": 0.01,
+        "#hash_c164f56da4c8b950": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_zai_aether_disciple_blood_beam.vfx",
+        "#sweepmovespeed": 8,
+        "#hash_c8bcab8c1ce580a4": 8,
+        "#hash_64673f9cba520069": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_zai_aether_disciple_drain_kill.vfx",
+        "#hash_c366369faa4886e5": true,
+        "#hash_49e28583f4085c3": true,
+        "#hash_11513ec3b3dded73": true,
+        "#hash_5f17af25ee7aca56": 0.5,
+        "#hash_11dc5994234c3df6": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_aether_disciple_bind_trail.vfx",
+        "#hash_5704bf989f7424ad": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_zai_aether_disciple_weak_point_impact.vfx",
+        "#hash_1a818e0dcbfc15b2": 800
+    },
+    "#hash_44cffb504db75b31": {
+        "#hash_b97a4f96e35d62fc": 500,
+        "#headiconmaxdistance": 1000,
+        "#hash_dda4d45d11713be": false,
+        "#hash_6ad8008df08f66a8": 10,
+        "#hash_c11f84610a177815": 2.5,
+        "#disablebind": false,
+        "#hash_495b2246709c1ebd": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_drain_camera.vfx",
+        "#disablebrainrot": false,
+        "#hash_15ca0d607bd0f65d": 20,
+        "#hash_1edd3815011a08bd": false,
+        "#hash_80680f186a663a85": 10,
+        "#hash_f561f27619209f1c": false,
+        "#healthstatemodels": [
+            {
+                "#modelname": "c_jup_zmb_disciple_body_hvt"
+            },
+            {
+                "#modelname": "c_jup_zmb_disciple_exposed_1_hvt"
+            },
+            {
+                "#modelname": "c_jup_zmb_disciple_exposed_2_hvt"
+            }
+        ],
+        "#hash_6f2acd144e3c3fca": false,
+        "#hash_efbd87396988298c": 1,
+        "#hash_6a5b8f242f11c38": 1,
+        "#sweepcooldown": 1,
+        "#hash_23c1773c98bbea52": 5,
+        "#hash_119f8409b2099b1c": false,
+        "#hash_ba2601967ec76fdc": 10,
+        "#hash_7e21c2fc64b1a2da": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_weak_point_hand.vfx",
+        "#enableheadicon": false,
+        "#hash_e881202df9147e0f": 0.0125,
+        "#hash_735914b3360cf610": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_weak_point_hand_impact.vfx",
+        "#bosshealthbar": "",
+        "#hash_e82fcf3a743fc4f8": 2,
+        "#hash_6dafdc9373f06676": 5,
+        "#hash_1de95697972bd8c7": 0.01,
+        "#hash_c164f56da4c8b950": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_beam_test.vfx",
+        "#sweepmovespeed": 8,
+        "#hash_c8bcab8c1ce580a4": 6,
+        "#hash_64673f9cba520069": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_drain_kill.vfx",
+        "#hash_c366369faa4886e5": false,
+        "#hash_49e28583f4085c3": false,
+        "#hash_11513ec3b3dded73": false,
+        "#hash_5f17af25ee7aca56": 0.9,
+        "#hash_11dc5994234c3df6": "vfx/jup/ob/gameplay/zm_ai/vfx_soo_bind_trail.vfx",
+        "#hash_5704bf989f7424ad": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_weak_point_impact.vfx",
+        "#hash_1a818e0dcbfc15b2": 600
+    },
+    "#hash_4d35df0e4e14c140": {
+        "#hash_b97a4f96e35d62fc": 500,
+        "#headiconmaxdistance": 1000,
+        "#hash_dda4d45d11713be": false,
+        "#hash_6ad8008df08f66a8": 6,
+        "#hash_c11f84610a177815": 2.5,
+        "#disablebind": false,
+        "#hash_495b2246709c1ebd": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_drain_camera.vfx",
+        "#disablebrainrot": false,
+        "#hash_15ca0d607bd0f65d": 1000,
+        "#hash_1edd3815011a08bd": false,
+        "#hash_80680f186a663a85": 15,
+        "#hash_f561f27619209f1c": false,
+        "#healthstatemodels": [
+            {
+                "#modelname": "c_jup_zmb_disciple_body_hvt"
+            },
+            {
+                "#modelname": "c_jup_zmb_disciple_exposed_1_hvt"
+            },
+            {
+                "#modelname": "c_jup_zmb_disciple_exposed_2_hvt"
+            }
+        ],
+        "#hash_6f2acd144e3c3fca": false,
+        "#hash_efbd87396988298c": 1,
+        "#hash_6a5b8f242f11c38": 1,
+        "#sweepcooldown": 1,
+        "#hash_23c1773c98bbea52": 5,
+        "#hash_119f8409b2099b1c": false,
+        "#hash_ba2601967ec76fdc": 10,
+        "#hash_7e21c2fc64b1a2da": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_weak_point_hand.vfx",
+        "#enableheadicon": false,
+        "#hash_e881202df9147e0f": 0.0125,
+        "#hash_735914b3360cf610": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_weak_point_hand_impact.vfx",
+        "#bosshealthbar": "",
+        "#overridespawnaitypearray": [
+            {
+                "#hash_1d92b5675b8f9bd": 0,
+                "#overridespawnaitype": "jup_spawner_zombie_base_armored_heavy",
+                "#hash_aed5f72cc5d12c0e": false,
+                "#hash_68d9b038985f1aa5": 5
+            }
+        ],
+        "#hash_e82fcf3a743fc4f8": 2,
+        "#hash_6dafdc9373f06676": 5,
+        "#hash_1de95697972bd8c7": 0.01,
+        "#hash_c164f56da4c8b950": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_beam_test.vfx",
+        "#sweepmovespeed": 8,
+        "#hash_c8bcab8c1ce580a4": 5,
+        "#hash_64673f9cba520069": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_drain_kill.vfx",
+        "#hash_c366369faa4886e5": false,
+        "#hash_49e28583f4085c3": false,
+        "#hash_11513ec3b3dded73": false,
+        "#hash_5f17af25ee7aca56": 0.9,
+        "#hash_11dc5994234c3df6": "vfx/jup/ob/gameplay/zm_ai/vfx_soo_bind_trail.vfx",
+        "#hash_5704bf989f7424ad": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_weak_point_impact.vfx",
+        "#hash_1a818e0dcbfc15b2": 600
+    },
+    "#hash_7a57d0795ef2e351": {
+        "#hash_b97a4f96e35d62fc": 470,
+        "#headiconmaxdistance": 3500,
+        "#hash_dda4d45d11713be": false,
+        "#hash_6ad8008df08f66a8": 14,
+        "#hash_c11f84610a177815": 1.75,
+        "#disablebind": true,
+        "#hash_495b2246709c1ebd": "vfx/jup/ob/gameplay/zm_ai/vfx_zai_soo_drain_camera.vfx",
+        "#disablebrainrot": true,
+        "#hash_15ca0d607bd0f65d": 500,
+        "#hash_1edd3815011a08bd": true,
+        "#hash_80680f186a663a85": 40,
+        "#hash_f561f27619209f1c": true,
+        "#healthstatemodels": [
+            {
+                "#modelname": "c_jup_zmb_disciple_body_s3_rr"
+            },
+            {
+                "#modelname": "c_jup_zmb_disciple_exposed_1_s3_rr"
+            },
+            {
+                "#modelname": "c_jup_zmb_disciple_exposed_2_s3_rr"
+            }
+        ],
+        "#hash_6f2acd144e3c3fca": false,
+        "#hash_efbd87396988298c": 1,
+        "#hash_6a5b8f242f11c38": 7,
+        "#sweepcooldown": 8,
+        "#hash_23c1773c98bbea52": 21,
+        "#hash_119f8409b2099b1c": false,
+        "#hash_ba2601967ec76fdc": 10,
+        "#hash_7e21c2fc64b1a2da": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_zai_aether_disciple_weak_point_hand.vfx",
+        "#enableheadicon": true,
+        "#hash_e881202df9147e0f": 0.0125,
+        "#hash_735914b3360cf610": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_zai_aether_disciple_weak_point_hand_impact.vfx",
+        "#bosshealthbar": "",
+        "#overridespawnaitypearray": [
+            {
+                "#hash_1d92b5675b8f9bd": 1,
+                "#overridespawnaitype": "jup_spawner_zombie_abom_s3_rr_unlock",
+                "#hash_aed5f72cc5d12c0e": false,
+                "#hash_68d9b038985f1aa5": 1
+            },
+            {
+                "#hash_1d92b5675b8f9bd": 6,
+                "#overridespawnaitype": "jup_spawner_zombie_hellhound_s3_rr_unlock",
+                "#hash_aed5f72cc5d12c0e": true,
+                "#hash_68d9b038985f1aa5": 3
+            }
+        ],
+        "#hash_e82fcf3a743fc4f8": 4,
+        "#hash_6dafdc9373f06676": 11,
+        "#hash_1de95697972bd8c7": 0.013,
+        "#hash_c164f56da4c8b950": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_zai_aether_disciple_blood_beam.vfx",
+        "#sweepmovespeed": 8,
+        "#hash_c8bcab8c1ce580a4": 10,
+        "#hash_64673f9cba520069": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_zai_aether_disciple_drain_kill.vfx",
+        "#hash_c366369faa4886e5": true,
+        "#hash_49e28583f4085c3": true,
+        "#hash_11513ec3b3dded73": true,
+        "#hash_5f17af25ee7aca56": 0.7,
+        "#hash_11dc5994234c3df6": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_aether_disciple_bind_trail.vfx",
+        "#hash_5704bf989f7424ad": "vfx/jup/ob/gameplay/riftrun/s3_5/zm_ai/vfx_zai_aether_disciple_weak_point_impact.vfx",
+        "#hash_1a818e0dcbfc15b2": 800
+    }
+}

@@ -1,0 +1,17 @@
+%force_cs_anim_index_match
+	
+wtr_start:blendspace1d( range="-180,180", blend_time="100",
+coords="-180,-135,-90-45,0,45,90,135,180",
+value=[strafeyaw] ) nonloopsync
+{
+	sdr_wtr_fast_start_2
+	sdr_wtr_fast_start_3
+	sdr_wtr_fast_start_6
+	sdr_wtr_fast_start_9
+	sdr_wtr_fast_start_8
+	sdr_wtr_fast_start_7
+	sdr_wtr_fast_start_4
+	sdr_wtr_fast_start_1
+	sdr_wtr_fast_start_2@1
+}
+ 

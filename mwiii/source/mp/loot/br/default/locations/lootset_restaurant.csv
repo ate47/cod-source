@@ -1,0 +1,8 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/default/lootset_root.csv,,,,
+chance,point,80,,,
+chance,cluster,80,,,
+chance,clusterSolo,45,,,
+reqAdd,plunder & [2],1,,,
+reqAdd,support&!(lethal|tactical),1,,,
+tagBoost,support,100,,,

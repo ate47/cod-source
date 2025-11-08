@@ -1,0 +1,7 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/burn/lootset_root.csv,,,,
+chance,point,70,#     % of non-clustered points that will be populated,,
+chance,cluster,70,#     % of clusters that will be populated,,
+chance,clusterSolo,30,#     % of clusters that will become invalid after spawning one item (with dependencies),,
+reqAdd,weapon & [2-3],2,,,# required higher quality weapons
+reqAdd,brloot_super_tacticalcamera,1,,45,# required tactical camera

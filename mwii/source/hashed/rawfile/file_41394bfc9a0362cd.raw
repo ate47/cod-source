@@ -1,0 +1,8 @@
+%force_cs_anim_index_match
+
+move_loop_raised: blendspace1d( range="-1,1", blend_time="500",coords="-1,0,1", value=[civilian_focus] ) loopsync 
+{
+	bmr_com_run_arm_raised_loop01
+	bmr_com_run_arm_raised_loop02
+	bmr_com_run_arm_raised_loop03
+}

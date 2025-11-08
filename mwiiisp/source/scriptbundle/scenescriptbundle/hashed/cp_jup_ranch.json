@@ -1,0 +1,226 @@
+{
+    "#hash_13a764b4d288f72": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": "animtree#player",
+                    "#name": "Player 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_fdbf9e3bd86923cf": true,
+                            "#hash_169ec6c28c4aae8a": 0,
+                            "#cameraanimation": "jup_ranch_1000_igc_outro_scene_xcam",
+                            "#hash_88317c7614e6553c": 0,
+                            "#hash_1f406d98a26a7085": 0,
+                            "#deltaanimations": [],
+                            "#hash_52c388f739467cb0": 0,
+                            "#float_lerptime": 1,
+                            "#cameratweenin": 0.75
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#animtree": "animtree#generic_human",
+                    "#charactername": "c_jup_sp_hero_farah_nvm",
+                    "#name": "Prop 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ranch_1000_igc_outro_scene_farah@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#animtree": "animtree#generic_human",
+                    "#charactername": "c_jup_sp_hero_alex",
+                    "#name": "Prop 2",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ranch_1000_igc_outro_scene_alex@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "veh_jup_mil_lnd_jltv_turret_x_vehphys_mp",
+                    "#animtree": "animtree#vehicles",
+                    "#name": "jltv",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ranch_1000_igc_outro_scene_jltv@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_2dab22899d81937c": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": "animtree#player",
+                    "#name": "camera_01",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_ranch_infil_xcam",
+                            "#cameratweenout": 1,
+                            "#deltaanimations": [],
+                            "#cameratweeninvisible": false
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#generic_human",
+                    "#charactername": "c_jup_sp_hero_farah_nvm",
+                    "#name": "farah_01",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ranch_infil_npc@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ],
+        "#autostream": true
+    },
+    "#hash_708517151408b936": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": "animtree#player",
+                    "#name": "camera_01",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#cameraanimation": "jup_ranch_exfil_xcam",
+                            "#deltaanimations": [],
+                            "#aligntargettag": "tag_seat_enter_0"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "veh9_civ_lnd_dirt_bike_farrah_hack",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#script_model",
+                    "#name": "bike_01",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ranch_exfil_veh@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_c_jup_sp_hero_farah_nvm",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#generic_human",
+                    "#name": "farah_01",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ranch_exfil_npc@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ],
+        "#autostream": true
+    }
+}

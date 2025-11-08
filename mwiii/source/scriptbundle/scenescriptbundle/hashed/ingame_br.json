@@ -1,0 +1,2515 @@
+{
+    "#hash_52b26b933d49cd84": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_usmc_ar",
+                    "#removeweapon": true,
+                    "#hash_8e16e8d6f4501d72": "fullbody_usmc_ar_br_infil",
+                    "#aligntarget": "scripted_node",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#hash_9cadc424d1421646": true,
+                    "#name": "Player 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_plyr1@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_plyr1@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh030_plyr1@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_plyr1@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_plyr1@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_plyr1@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_usmc_ar",
+                    "#hash_8e16e8d6f4501d72": "fullbody_usmc_ar_br_infil",
+                    "#aligntarget": "scripted_node",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#hash_9cadc424d1421646": true,
+                    "#name": "Player 2",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_plyr2@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_plyr2@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh030_plyr2@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_plyr2@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#removeweapon": true,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_plyr2@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#removeweapon": true,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_plyr2@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_usmc_ar",
+                    "#removeweapon": true,
+                    "#hash_8e16e8d6f4501d72": "fullbody_usmc_ar_br_infil",
+                    "#aligntarget": "scripted_node",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#hash_9cadc424d1421646": true,
+                    "#name": "Player 3",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_plyr3@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_plyr3@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh030_plyr3@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_plyr3@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_plyr3@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_plyr3@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_usmc_ar",
+                    "#hash_8e16e8d6f4501d72": "fullbody_usmc_ar_br_infil",
+                    "#aligntarget": "scripted_node",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#hash_9cadc424d1421646": true,
+                    "#name": "Player 4",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_plyr4@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_plyr4@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh030_plyr4@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_plyr4@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#removeweapon": true,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_plyr4@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#removeweapon": true,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_plyr4@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_usmc_ar",
+                    "#removeweapon": true,
+                    "#hash_8e16e8d6f4501d72": "fullbody_usmc_ar_br_infil",
+                    "#aligntarget": "scripted_node",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#hash_9cadc424d1421646": true,
+                    "#name": "Player 5",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_plyr5@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_plyr5@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh030_plyr5@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_plyr5@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_plyr5@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_plyr5@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_usmc_ar",
+                    "#removeweapon": true,
+                    "#hash_8e16e8d6f4501d72": "fullbody_usmc_ar_br_infil",
+                    "#aligntarget": "scripted_node",
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#hash_9cadc424d1421646": true,
+                    "#name": "Player 6",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_plyr6@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_plyr6@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh030_plyr6@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_plyr6@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_plyr6@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_plyr6@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_usmc_ar",
+                    "#removeweapon": true,
+                    "#hash_8e16e8d6f4501d72": "fullbody_usmc_ar_br_infil",
+                    "#aligntarget": "scripted_node",
+                    "#isfemale": true,
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#hash_9cadc424d1421646": true,
+                    "#name": "Player 1 Female",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_plyr1_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_plyr1_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh030_plyr1_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_plyr1_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_plyr1_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_plyr1_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_usmc_ar",
+                    "#hash_8e16e8d6f4501d72": "fullbody_usmc_ar_br_infil",
+                    "#aligntarget": "scripted_node",
+                    "#isfemale": true,
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#hash_9cadc424d1421646": true,
+                    "#name": "Player 2 Female",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_plyr2_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_plyr2_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh030_plyr2_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_plyr2_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#removeweapon": true,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_plyr2_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#removeweapon": true,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_plyr2_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_usmc_ar",
+                    "#removeweapon": true,
+                    "#hash_8e16e8d6f4501d72": "fullbody_usmc_ar_br_infil",
+                    "#aligntarget": "scripted_node",
+                    "#isfemale": true,
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#hash_9cadc424d1421646": true,
+                    "#name": "Player 3 Female",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_plyr3_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_plyr3_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh030_plyr3_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_plyr3_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_plyr3_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_plyr3_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_usmc_ar",
+                    "#hash_8e16e8d6f4501d72": "fullbody_usmc_ar_br_infil",
+                    "#aligntarget": "scripted_node",
+                    "#isfemale": true,
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#hash_9cadc424d1421646": true,
+                    "#name": "Player 4 Female",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_plyr4_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_plyr4_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh030_plyr4_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_plyr4_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#removeweapon": true,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_plyr4_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#removeweapon": true,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_plyr4_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_usmc_ar",
+                    "#removeweapon": true,
+                    "#hash_8e16e8d6f4501d72": "fullbody_usmc_ar_br_infil",
+                    "#aligntarget": "scripted_node",
+                    "#isfemale": true,
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#hash_9cadc424d1421646": true,
+                    "#name": "Player 5 Female",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_plyr5_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_plyr5_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh030_plyr5_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_plyr5_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_plyr5_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_plyr5_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_usmc_ar",
+                    "#removeweapon": true,
+                    "#hash_8e16e8d6f4501d72": "fullbody_usmc_ar_br_infil",
+                    "#aligntarget": "scripted_node",
+                    "#isfemale": true,
+                    "#animtree": {
+                        "name": "player",
+                        "id": 0
+                    },
+                    "#hash_9cadc424d1421646": true,
+                    "#name": "Player 6 Female",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_plyr6_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_plyr6_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh030_plyr6_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_plyr6_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_plyr6_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "scripted_node",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_plyr6_female@sbundle"
+                                    }
+                                }
+                            ],
+                            "#xcamthirdperson": true,
+                            "#weaponswitch": false,
+                            "#weaponuse": "Keep"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xcompositemodelname": "veh9_mil_air_cargo_plane_skyhook",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#firstframe": true,
+                    "#name": "Airplane",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_veh9_mil_air_gunship_skyhook@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_veh9_mil_air_gunship_skyhook@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh030_veh9_mil_air_gunship_skyhook@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_veh9_mil_air_gunship_skyhook@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_veh9_mil_air_gunship_skyhook@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "military_skyhook_exfil",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#firstframe": true,
+                    "#name": "Skyhook Balloon",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_military_skyhook@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_military_skyhook@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh030_military_skyhook@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_military_skyhook@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_military_skyhook@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "misc_vm_operator_harness_01_exfil",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#firstframe": true,
+                    "#name": "Harness 01",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_harness1@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_harness1@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_harness1@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_harness1@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_harness1@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "misc_vm_operator_harness_01_exfil",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#firstframe": true,
+                    "#name": "Harness 02",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_harness2@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_harness2@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_harness2@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_harness2@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "misc_vm_operator_harness_01_exfil",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#firstframe": true,
+                    "#name": "Harness 03",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_harness3@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_harness3@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_harness3@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_harness3@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "misc_vm_operator_harness_01_exfil",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#firstframe": true,
+                    "#name": "Harness 04",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_harness4@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_harness4@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_harness4@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_harness4@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "misc_vm_operator_harness_01_exfil",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#firstframe": true,
+                    "#name": "Harness 05",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_harness5@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_harness5@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_harness5@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_harness5@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "misc_vm_operator_harness_01_exfil",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#firstframe": true,
+                    "#name": "Harness 06",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_harness6@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_harness6@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_harness6@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_harness6@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "misc_vm_rope_prop",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#firstframe": true,
+                    "#name": "Rope 01",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh010_rope1@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_rope1@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_rope1@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_rope1@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_rope1@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "misc_vm_rope_prop",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#firstframe": true,
+                    "#name": "Rope 02",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_rope2@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_rope2@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_rope2@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_rope2@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "misc_vm_rope_prop",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#firstframe": true,
+                    "#name": "Rope 03",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_rope3@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_rope3@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_rope3@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_rope3@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "misc_vm_rope_prop",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#firstframe": true,
+                    "#name": "Rope 04",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_rope4@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_rope4@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_rope4@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_rope4@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "misc_vm_rope_prop",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#firstframe": true,
+                    "#name": "Rope 05",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_rope5@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_rope5@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_rope5@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_rope5@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "misc_vm_rope_prop",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#firstframe": true,
+                    "#name": "Rope 06",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh020_rope6@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh040_rope6@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh050_rope6@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_exfil_a_sh060_rope6@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#name": "XCam 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "wz_br_jup_exfil_a_sh010_xcam",
+                            "#deltaanimations": [],
+                            "#xcamthirdperson": true
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "wz_br_jup_exfil_a_sh020_xcam",
+                            "#deltaanimations": [],
+                            "#xcamthirdperson": true
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "wz_br_jup_exfil_a_sh030_xcam",
+                            "#deltaanimations": [],
+                            "#xcamthirdperson": true
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "wz_br_jup_exfil_a_sh040_xcam",
+                            "#deltaanimations": [],
+                            "#xcamthirdperson": true
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "wz_br_jup_exfil_a_sh050_xcam",
+                            "#deltaanimations": [],
+                            "#xcamthirdperson": true
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "wz_br_jup_exfil_a_sh060_xcam",
+                            "#deltaanimations": [],
+                            "#xcamthirdperson": true
+                        }
+                    ]
+                },
+                "#variant_type": "Types_XCam"
+            }
+        ],
+        "#hash_b9717bd2a5317a1c": "ScriptModelPlayAnimDeltaMotionFromPos",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_020"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_030"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_040"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_050"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_060"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ],
+        "#autostream": true
+    }
+}

@@ -1,0 +1,81 @@
+main()
+{
+	level._effect[ "vfx_davos_players_cold_breath" ] = loadfx( "vfx/iw9/level/mp_davos/vfx_davos_players_cold_breath.vfx" );
+
+	
+	
+/#
+	if ( GetDvar( #d"clientSideEffects" ) != "1" )
+	{
+	}
+#/
+
+	//volumetric particles
+	level._effect[ "vfx_davos_vp" ] = LoadFX( "vfx/iw9/level/mp_davos/vfx_davos_vp.vfx" );
+	level._effect[ "vfx_davos_vp" ] = LoadFX( "vfx/iw9/level/mp_davos/vfx_davos_vp_sml.vfx" );
+	
+	
+}
+// Volumetric particles set up
+fx_pools_fog()
+{
+	//---------------------VOLUMETRICS PARTICLES DVARS-----------------------//
+	/*
+	SetDvar( #d"r_volumetricParticlesBBoxPos"               , "-900 -850 115" );//xyz min
+	SetDvar( #d"r_volumetricParticlesBBoxSize"              , "1100 900" );//Max X-minY, Max Y-minY
+	SetDvar( #d"r_volumetricParticlesBlendDistance"         , 70 );//Distance over which particle decay will fade out to 0
+	SetDvar( #d"r_volumetricParticlesBlendStart"            , 100 );//Height at which particle density starts to fade
+	SetDvar( #d"r_volumetricParticlesColor"                 , "1 1 1" );//Fog Color
+	SetDvar( #d"r_volumetricParticlesDensityCutoff"         , 0.00005 );//When particle density falls below this value particle is eliminated
+	SetDvar( #d"r_volumetricParticlesDensityScaler"         , 0.25 );//Global Opacity Scale
+	SetDvar( #d"r_volumetricParticlesDiffusionRate"         , 1 );//How quickly the particles diffuse in the xy plane
+	SetDvar( #d"r_volumetricParticlesDiffusionRateHeight"   , 1 );//How quickly the particles diffuse in the z axis
+	SetDvar( #d"r_volumetricParticlesDiffusionStartStrength", 0.15 );//How quickly the particles diffuse and how far they diffuse before equilibrium
+	SetDvar( #d"r_volumetricParticlesDistortNoiseDt"        , 0 );//How fast to the scroll the distortion noise over time
+	SetDvar( #d"r_volumetricParticlesDistortNoiseUVScale"   , 30 );//Distort Noise is tiled over the whole world, this scales tile size
+	SetDvar( #d"r_volumetricParticlesFixedDecay"            , 0 );//Flat Decay applied each frame
+	SetDvar( #d"r_volumetricParticlesMergeOverlap"          , 300 );//Particles need to overlap this much to merge into larger particle
+	SetDvar( #d"r_volumetricParticlesModuloDecay"           , 0.94 );//Percentage Decay of current density, applied each frame
+	SetDvar( #d"r_volumetricParticlesNoiseDt"               , 10 );//How fast to scroll noise over time
+	SetDvar( #d"r_volumetricParticlesNoiseBias"             , "0.035" );//bias
+	SetDvar( #d"r_volumetricParticlesNoiseScrollDir"        , "-1 0 0" );//Noise Direction Vector
+	SetDvar( #d"r_volumetricParticlesNoiseUVScale"          , 263 );//Scales tile size
+	SetDvar( #d"r_volumetricParticlesRemapMax"              , 0.5 );//Max Density
+	SetDvar( #d"r_volumetricParticlesRemapMin"              , 0 );//Min Density that will render
+	SetDvar( #d"r_volumetricParticlesVectorFieldDt"         , -0.8 );//Multiplies the strength of the vector field in the xy plane (red/green channels of vector texture controls particle velocity)
+	SetDvar( #d"r_volumetricParticlesVectorFieldHeightDt"   , 1 );//Multiplies the strength of the vector field in the z plane (blue channel of vector texture controls upward particle velocity);
+	SetDvar( #d"r__volumetricParticlesVectorFieldAmplitude" , 1 );//Amplitude of the vector field variation
+	*/
+}
+
+fx_spa_fog()
+{
+	/*
+	//---------------------VOLUMETRICS PARTICLES DVARS-----------------------//
+	
+	SetDvar( #d"r_volumetricParticlesBBoxPos"               , "-1600 -1204 100" );//xyz min
+	SetDvar( #d"r_volumetricParticlesBBoxSize"              , "500 500" );//Max X-minY, Max Y-minY
+	SetDvar( #d"r_volumetricParticlesBlendDistance"         , 300 );//Distance over which particle decay will fade out to 0
+	SetDvar( #d"r_volumetricParticlesBlendStart"            , 100 );//Height at which particle density starts to fade
+	SetDvar( #d"r_volumetricParticlesColor"                 , "1 1 1" );//Fog Color
+	SetDvar( #d"r_volumetricParticlesDensityCutoff"         , 0.00005 );//When particle density falls below this value particle is eliminated
+	SetDvar( #d"r_volumetricParticlesDensityScaler"         , 0.35 );//Global Opacity Scale
+	SetDvar( #d"r_volumetricParticlesDiffusionRate"         , 1 );//How quickly the particles diffuse in the xy plane
+	SetDvar( #d"r_volumetricParticlesDiffusionRateHeight"   , 1 );//How quickly the particles diffuse in the z axis
+	SetDvar( #d"r_volumetricParticlesDiffusionStartStrength", 0.15 );//How quickly the particles diffuse and how far they diffuse before equilibrium
+	SetDvar( #d"r_volumetricParticlesDistortNoiseDt"        , 0 );//How fast to the scroll the distortion noise over time
+	SetDvar( #d"r_volumetricParticlesDistortNoiseUVScale"   , 30 );//Distort Noise is tiled over the whole world, this scales tile size
+	SetDvar( #d"r_volumetricParticlesFixedDecay"            , 0 );//Flat Decay applied each frame
+	SetDvar( #d"r_volumetricParticlesMergeOverlap"          , 300 );//Particles need to overlap this much to merge into larger particle
+	SetDvar( #d"r_volumetricParticlesModuloDecay"           , 0.94 );//Percentage Decay of current density, applied each frame
+	SetDvar( #d"r_volumetricParticlesNoiseDt"               , 10 );//How fast to scroll noise over time
+	SetDvar( #d"r_volumetricParticlesNoiseBias"             , "0.035" );//bias
+	SetDvar( #d"r_volumetricParticlesNoiseScrollDir"        , "-1 0 0" );//Noise Direction Vector
+	SetDvar( #d"r_volumetricParticlesNoiseUVScale"          , 263 );//Scales tile size
+	SetDvar( #d"r_volumetricParticlesRemapMax"              , 0.5 );//Max Density
+	SetDvar( #d"r_volumetricParticlesRemapMin"              , 0 );//Min Density that will render
+	SetDvar( #d"r_volumetricParticlesVectorFieldDt"         , -0.8 );//Multiplies the strength of the vector field in the xy plane (red/green channels of vector texture controls particle velocity)
+	SetDvar( #d"r_volumetricParticlesVectorFieldHeightDt"   , 1 );//Multiplies the strength of the vector field in the z plane (blue channel of vector texture controls upward particle velocity);
+	SetDvar( #d"r__volumetricParticlesVectorFieldAmplitude" , 1 );//Amplitude of the vector field variation;*/
+	
+}

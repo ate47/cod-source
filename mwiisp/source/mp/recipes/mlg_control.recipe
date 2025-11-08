@@ -1,0 +1,332 @@
+gametype = control
+cwlRulesEnabled = 1
+commonOption.teamCount = 2
+commonOption.teamSize = 0
+commonOption.squadSize = 4
+commonOption.timeLimit = 90
+commonOption.scoreLimit = 200
+commonOption.roundLimit = 0
+commonOption.winLimit = 3
+commonOption.roundSwitch = 1
+commonOption.matchStartTime = 30
+commonOption.roundStartTime = 10
+commonOption.postGameExfil = 0
+commonOption.postGameExfilWeapon = none
+commonOption.exfilActiveTimer = 20
+commonOption.exfilExtractTimer = 20
+commonOption.exfilRespawn = 0
+commonOption.exfilShowLocation = 0
+commonOption.disableSpawnCamera = 1
+commonOption.cdltuning = 1
+
+commonOption.allowKillstreaks = 1
+commonOption.roundRetainStreaks = 1
+commonOption.roundRetainStreakProg = 1
+commonOption.deathRetainStreaks = 1
+commonOption.allowPerks = 1
+commonOption.allowSupers = 1
+commonOption.superFastChargeRate = 1
+commonOption.superPointsMod = 1
+commonOption.enableMinimap = 1
+commonOption.radarHideShots = 0
+commonOption.compassHideEnemy = 1
+commonOption.compassHidePings = 0
+commonOption.forceRespawn = 1
+commonOption.showKillcam = 0
+commonOption.killcamType = 1
+commonOption.spectateModeAllowed = 1
+commonOption.healthRegen = 5.000000
+commonOption.maxHealth = 100.000000
+commonOption.respawnDelay = 3.50000
+commonOption.suicideSpawnDelay = 1.00000
+commonOption.pointsPerKill = 1
+commonOption.pointsPerDeath = 0
+commonOption.pointsHeadshotBonus = 0
+commonOption.dogTags = 0
+commonOption.inputSwapEnabled = 0
+commonOption.codcasterEnabled = 1
+commonOption.codcasterOptionVisible = 1
+commonOption.interactiveMapDisabled = 0
+commonOption.dynamicMapElementsDisabled = 1
+commonOption.friendlyFire = 1
+commonOption.ffPunishLimit = -1
+commonOption.spectate3rdAllowed = 0
+commonOption.teamAssignmentAllowed = 1
+commonOption.tacticalMode = 0
+commonOption.equipmentMSProtect = 0.000000
+commonOption.magCount = 3
+commonOption.infilSkip = 1
+commonOption.disableMount = 1
+commonOption.disableBattleChatter = 1
+commonOption.disableAnnouncer = 0
+commonOption.killstreakDelay = 10
+
+commonOption.lastStand = 0
+commonOption.lastStandHealth = 40
+commonOption.lastStandReviveHealth = 50
+commonOption.lastStandTimer = 0.00000
+commonOption.lastStandReviveTimer = 2.00000
+commonOption.lastStandSuicideTimer = 1
+commonOption.teamReviveHealth = 30
+commonOption.teamReviveTime = 5.0000
+commonOption.teamReviveTimeout = 0.00000
+
+commonOption.localeID = 0
+commonOption.numLives = 1
+
+domData.flagCaptureTime = 45
+domData.flagsRequiredToScore = 2
+domData.pointsPerFlag = 1
+domData.flagNeutralization = 0
+domData.numFlagsScoreOnKill = 0
+domData.objScalar = 4.000000
+
+siegeData.preCapPoints = 1
+
+captureData.captureDecay = 0
+captureData.captureType = 1
+
+kothData.pauseTime = 1
+
+controlData.numTeamLives = 30
+controlData.extraTimeOnSegmentCapture = 0
+controlData.disableMajorityCapProgress = 1
+controlData.suicideTeamKillLowersLives = 1
+controlData.captureExtraTime = 60
+controlData.useSegments = 1
+controlData.overtimeDefenders = 2
+controlData.segmentCaptureExtraTime = 20
+controlData.numCaptureSegments = 3;
+
+//LOADOUT RESTRICTIONS
+//Assault Rifles
+commonOption.weaponRestricted.iw9_ar_mcbravo = 1					//Chimera
+
+//Light Machine Guns (LMG)
+commonOption.weaponClassRestricted.weapon_lmg = 1
+
+//Shotguns
+commonOption.weaponClassRestricted.weapon_shotgun = 1
+
+//Marksman Rifles
+commonOption.weaponClassRestricted.weapon_dmr = 1
+
+//Launchers
+commonOption.weaponClassRestricted.weapon_projectile = 1
+
+//Melee
+commonOption.weaponRestricted.iw9_me_riotshield = 1					//Riot Shield
+
+//Tacticals
+commonOption.equipmentRestricted.equip_binoculars = 1				//Spotter Scope
+commonOption.equipmentRestricted.equip_snapshot_grenade = 1			//Snapshot Grenade
+commonOption.equipmentRestricted.equip_hb_sensor = 1				//Heartbeat Sensor
+commonOption.equipmentRestricted.equip_adrenaline = 1				//Medical Syringe
+commonOption.equipmentRestricted.equip_decoy = 1					//Decoy Grenade
+commonOption.equipmentRestricted.equip_gas_grenade = 1				//Tear Gas
+commonOption.equipmentRestricted.equip_shockstick = 1				//Shock Stick
+
+//Lethals
+commonOption.equipmentRestricted.equip_claymore = 1					//Claymore
+commonOption.equipmentRestricted.equip_molotov = 1					//Molotov Cocktail
+commonOption.equipmentRestricted.equip_c4 = 1						//C4
+commonOption.equipmentRestricted.equip_bunkerbuster = 1				//Drill Charge
+commonOption.equipmentRestricted.equip_throwing_knife = 1			//Throwing Knife
+commonOption.equipmentRestricted.equip_at_mine = 1					//Proximity Mine
+commonOption.equipmentRestricted.equip_thermite = 1					//Thermite
+
+//Base Perks
+commonOption.perkRestricted.specialty_munitions_2 = 1				//Overkill
+commonOption.perkRestricted.specialty_huntmaster = 1				//Tracker
+
+//Bonus Perks
+commonOption.perkRestricted.specialty_restock = 1					//Resupply
+commonOption.perkRestricted.specialty_quick_fix = 1					//Quick Fix
+
+//Ultimate Perks
+commonOption.perkRestricted.specialty_surveillance = 1				//High Alert
+commonOption.perkRestricted.specialty_guerrilla = 1					//Ghost
+commonOption.perkRestricted.specialty_hardline = 1					//Hardline
+commonOption.perkRestricted.specialty_overcharge_field_upgrade = 1	//Overclock
+commonOption.perkRestricted.specialty_survivor = 1					//Survivor
+commonOption.perkRestricted.specialty_overwatch = 1					//Bird's-Eye
+
+//Field Upgrades
+commonOption.superRestricted.super_tac_cover = 1					//Deployable Cover
+commonOption.superRestricted.super_tac_insert = 1					//Tactical Insertion
+commonOption.superRestricted.super_sonar_pulse = 1					//Portable Radar
+commonOption.superRestricted.super_battlerage = 1					//Battle Rage
+commonOption.superRestricted.super_sound_veil = 1					//Suppression Mine
+commonOption.superRestricted.super_loadout_drop = 1					//Loadout Drop
+commonOption.superRestricted.super_tac_camera = 1					//Tactical Camera
+commonOption.superRestricted.super_smoke_airdrop = 1				//Smoke Air Drop
+commonOption.superRestricted.super_deployed_decoy = 1				//Inflatable Decoy
+commonOption.superRestricted.super_recon_drone = 1					//Recon Drone
+commonOption.superRestricted.super_emp_pulse = 1					//DDOS
+commonOption.superRestricted.super_suppression_rounds = 1			//Anti-Armor Rounds
+
+//Killstreaks
+commonOption.killstreakRestricted.uav = 1							//UAV
+commonOption.killstreakRestricted.assault_drone = 1					//Bomb Drone
+commonOption.killstreakRestricted.scrambler_drone_guard = 1			//Counter UAV
+commonOption.killstreakRestricted.cluster_spike = 1					//Cluster Mine
+commonOption.killstreakRestricted.airdrop = 1						//Care Package
+commonOption.killstreakRestricted.toma_strike = 1					//Mortar Strike
+commonOption.killstreakRestricted.sentry_gun = 1					//Sentry Gun
+commonOption.killstreakRestricted.hover_jet = 1						//VTOL Jet
+commonOption.killstreakRestricted.airdrop_escort = 1				//Overwatch Helo
+commonOption.killstreakRestricted.pac_sentry = 1					//Wheelson
+commonOption.killstreakRestricted.auto_drone = 1					//Stealth Bomber
+commonOption.killstreakRestricted.chopper_gunner = 1				//Chopper Gunner
+commonOption.killstreakRestricted.airdrop_multiple = 1				//Emergency Airdrop
+commonOption.killstreakRestricted.gunship = 1						//Gunship
+commonOption.killstreakRestricted.directional_uav = 1				//Advanced UAV
+commonOption.killstreakRestricted.juggernaut = 1					//Juggernaut
+commonOption.killstreakRestricted.nuke = 1							//Tactical Nuke
+
+//Attachments
+//Underbarrrel Shotgun
+commonOption.attachmentRestricted.ub_sh01 = 1	
+//Grenade Launcher
+commonOption.attachmentRestricted.ub_gl01 = 1						
+commonOption.attachmentRestricted.ub_gl01_p01 = 1
+commonOption.attachmentRestricted.ub_gl_akilo = 1
+commonOption.attachmentRestricted.ub_gl_scharlie = 1
+commonOption.attachmentRestricted.ub_glmini01 = 1
+//Akimbo
+commonOption.attachmentRestricted.akimbo_golf17 = 1					
+commonOption.attachmentRestricted.akimbo_golf18 = 1
+commonOption.attachmentRestricted.akimbo_papa220 = 1
+commonOption.attachmentRestricted.akimbo_swhiskey = 1
+commonOption.attachmentRestricted.iw9_akimbo_decho = 1
+//Flashlight
+commonOption.attachmentRestricted.flashlight_box01 = 1
+commonOption.attachmentRestricted.flashlight_box02 = 1
+commonOption.attachmentRestricted.flashlight_custom01 = 1
+commonOption.attachmentRestricted.flashlight_cyl01 = 1
+commonOption.attachmentRestricted.flashlight_cyl02 = 1
+commonOption.attachmentRestricted.flashlight_pstl01 = 1
+commonOption.attachmentRestricted.flashlight_pstl02 = 1
+//Silencer
+commonOption.attachmentRestricted.silencer02_br = 1
+commonOption.attachmentRestricted.silencer02_sm = 1
+commonOption.attachmentRestricted.silencer03_ar = 1
+commonOption.attachmentRestricted.silencer03_ar_p01 = 1
+commonOption.attachmentRestricted.silencer03_sn = 1
+commonOption.attachmentRestricted.silencer04_pi = 1
+commonOption.attachmentRestricted.silencer2_charlie725 = 1
+commonOption.attachmentRestricted.silencer_50cal = 1
+commonOption.attachmentRestricted.silencer02_sn = 1
+commonOption.attachmentRestricted.silencer05_sn = 1
+commonOption.attachmentRestricted.silencer01_ar = 1
+commonOption.attachmentRestricted.silencer07_sm = 1
+commonOption.attachmentRestricted.silencer01_br = 1
+commonOption.attachmentRestricted.silencer02_pi = 1
+commonOption.attachmentRestricted.silencer04_sn = 1
+commonOption.attachmentRestricted.silencer07_ar = 1
+commonOption.attachmentRestricted.silencer1_uzulu = 1
+commonOption.attachmentRestricted.silencer02_ar = 1
+commonOption.attachmentRestricted.silencer07_br = 1
+commonOption.attachmentRestricted.silencer_decho = 1
+commonOption.attachmentRestricted.silencer06_sm = 1
+commonOption.attachmentRestricted.silencer01_pi = 1
+commonOption.attachmentRestricted.silencer04_ar = 1
+commonOption.attachmentRestricted.silencer05_sm = 1
+commonOption.attachmentRestricted.silencer06_br = 1
+commonOption.attachmentRestricted.silencer01_sn = 1
+commonOption.attachmentRestricted.silencer03_sm = 1
+commonOption.attachmentRestricted.silencer08_ar = 1
+commonOption.attachmentRestricted.silencer01_sm = 1
+commonOption.attachmentRestricted.silencer03_br = 1
+commonOption.attachmentRestricted.silencer06_ar = 1
+commonOption.attachmentRestricted.silencer1_charlie725 = 1
+commonOption.attachmentRestricted.silencer03_pi = 1
+commonOption.attachmentRestricted.silencer04_br = 1
+commonOption.attachmentRestricted.silencer04_sm = 1
+commonOption.attachmentRestricted.silencer05_ar = 1
+commonOption.attachmentRestricted.silencer1_victor = 1
+commonOption.attachmentRestricted.silencer2_uzulu = 1
+commonOption.attachmentRestricted.silencer3_charlie725 = 1
+commonOption.attachmentRestricted.silencer05_br = 1
+commonOption.attachmentRestricted.silencer01_dm = 1
+commonOption.attachmentRestricted.silencer02_dm = 1
+commonOption.attachmentRestricted.silencer02_dm_p01 = 1
+commonOption.attachmentRestricted.silencer03_dm = 1
+commonOption.attachmentRestricted.silencer04_dm = 1
+commonOption.attachmentRestricted.silencer05_dm = 1
+commonOption.attachmentRestricted.silencer06_dm = 1
+//Thermal Scopes
+commonOption.attachmentRestricted.hybridtherm01 = 1
+commonOption.attachmentRestricted.hybridtherm02 = 1
+commonOption.attachmentRestricted.hybridtherm02_le = 1
+commonOption.attachmentRestricted.holotherm01 = 1
+commonOption.attachmentRestricted.fourxtherm01 = 1
+commonOption.attachmentRestricted.fourxtherm02 = 1
+commonOption.attachmentRestricted.fourxtherm03 = 1
+commonOption.attachmentRestricted.fourxtherm04 = 1
+commonOption.attachmentRestricted.arscope_therm01 = 1
+commonOption.attachmentRestricted.arscope_therm01_p01 = 1
+commonOption.attachmentRestricted.dmscope_therm01 = 1
+commonOption.attachmentRestricted.snscope_therm01 = 1
+commonOption.attachmentRestricted.snscope_vz01 = 1
+commonOption.attachmentRestricted.hybridtherm02_le = 1
+//Night Vision Scopes
+commonOption.attachmentRestricted.arscope_nvg = 1
+commonOption.attachmentRestricted.arscope_nvgvz01 = 1
+//Ammos
+//Incendiary
+commonOption.attachmentRestricted.ammo_556n_db = 1
+commonOption.attachmentRestricted.ammo_762s_db = 1
+commonOption.attachmentRestricted.ammo_308w_db = 1
+commonOption.attachmentRestricted.ammo_65c_db = 1
+commonOption.attachmentRestricted.ammo_762n_db = 1
+commonOption.attachmentRestricted.ammo_50b_db = 1
+commonOption.attachmentRestricted.ammo_300nm_db = 1
+commonOption.attachmentRestricted.ammo_300wm_db = 1
+commonOption.attachmentRestricted.ammo_338nm_db = 1
+commonOption.attachmentRestricted.ammo_45gvt_db = 1
+//Frangible
+commonOption.attachmentRestricted.ammo_545s_fr = 1
+commonOption.attachmentRestricted.ammo_556n_fr = 1
+commonOption.attachmentRestricted.ammo_762s_fr = 1
+commonOption.attachmentRestricted.ammo_308w_fr = 1
+commonOption.attachmentRestricted.ammo_458s_fr = 1
+commonOption.attachmentRestricted.ammo_50p_fr = 1
+commonOption.attachmentRestricted.ammo_65c_fr = 1
+commonOption.attachmentRestricted.ammo_762n_fr = 1
+commonOption.attachmentRestricted.ammo_500sw_fr = 1
+commonOption.attachmentRestricted.ammo_4x30_fr = 1
+commonOption.attachmentRestricted.ammo_5x28_fr = 1
+commonOption.attachmentRestricted.ammo_9p_fr = 1
+commonOption.attachmentRestricted.ammo_50b_fr = 1
+commonOption.attachmentRestricted.ammo_45acp_fr = 1
+commonOption.attachmentRestricted.ammo_9m_fr = 1
+commonOption.attachmentRestricted.ammo_9s_fr = 1
+commonOption.attachmentRestricted.ammo_300nm_fr = 1
+commonOption.attachmentRestricted.ammo_300wm_fr = 1
+commonOption.attachmentRestricted.ammo_338nm_fr = 1
+commonOption.attachmentRestricted.ammo_45gvt_fr = 1
+//Hollow Point
+commonOption.attachmentRestricted.ammo_545s_hp = 1
+commonOption.attachmentRestricted.ammo_556n_hp = 1
+commonOption.attachmentRestricted.ammo_762s_hp = 1
+commonOption.attachmentRestricted.ammo_308w_hp = 1
+commonOption.attachmentRestricted.ammo_458s_hp = 1
+commonOption.attachmentRestricted.ammo_50p_hp = 1
+commonOption.attachmentRestricted.ammo_65c_hp = 1
+commonOption.attachmentRestricted.ammo_762n_hp = 1
+commonOption.attachmentRestricted.ammo_500sw_hp = 1
+commonOption.attachmentRestricted.ammo_4x30_hp = 1
+commonOption.attachmentRestricted.ammo_5x28_hp = 1
+commonOption.attachmentRestricted.ammo_9p_hp = 1
+commonOption.attachmentRestricted.ammo_45acp_hp = 1
+commonOption.attachmentRestricted.ammo_9m_hp = 1
+commonOption.attachmentRestricted.ammo_9s_hp = 1
+commonOption.attachmentRestricted.ammo_300nm_hp = 1
+commonOption.attachmentRestricted.ammo_300wm_hp = 1
+commonOption.attachmentRestricted.ammo_338nm_hp = 1
+commonOption.attachmentRestricted.ammo_45gvt_hp = 1
+//Explosive
+commonOption.attachmentRestricted.ammo_50b_he = 1
+//Snakeshot
+commonOption.attachmentRestricted.ammo_500sw_ss = 1

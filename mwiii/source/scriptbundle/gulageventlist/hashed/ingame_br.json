@@ -1,0 +1,56 @@
+{
+    "#hash_5fd5b1bae7783aa6": {
+        "#chance": 0.35,
+        "#hash_5e04763eeef0c6de": [
+            {
+                "#maxcircleindex": 7,
+                "#mincircleindex": 0,
+                "#gulagevent": "gulag_event_locked_and_loaded",
+                "#weight": 28,
+                "#maxtimes": -1
+            },
+            {
+                "#maxcircleindex": 7,
+                "#mincircleindex": 0,
+                "#gulagevent": "gualg_event_cash_overflow",
+                "#weight": 28,
+                "#maxtimes": -1
+            },
+            {
+                "#maxcircleindex": 4,
+                "#mincircleindex": 0,
+                "#gulagevent": "gulag_event_go_again",
+                "#weight": 16,
+                "#maxtimes": -1
+            },
+            {
+                "#maxcircleindex": 3,
+                "#mincircleindex": 0,
+                "#gulagevent": "gulag_event_juggernaut",
+                "#weight": 0,
+                "#maxtimes": 1
+            },
+            {
+                "#maxcircleindex": 3,
+                "#mincircleindex": 0,
+                "#gulagevent": "gulag_event_rocket_arena",
+                "#weight": 0,
+                "#maxtimes": -1
+            },
+            {
+                "#maxcircleindex": 7,
+                "#mincircleindex": 0,
+                "#gulagevent": "gulag_event_no_equipment",
+                "#weight": 0,
+                "#maxtimes": -1
+            },
+            {
+                "#maxcircleindex": 4,
+                "#mincircleindex": 0,
+                "#gulagevent": "gulag_event_ladder_escape",
+                "#weight": 28,
+                "#maxtimes": -1
+            }
+        ]
+    }
+}

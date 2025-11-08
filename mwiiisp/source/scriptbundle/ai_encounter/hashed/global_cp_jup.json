@@ -1,0 +1,778 @@
+{
+    "#hash_22981aa41e604ff": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_smg_tier1_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_pistol_tier1_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "cartel"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 300
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_54082c1bb7b8569": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_shotgun_tier1_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_shotgun_tier3_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "cartel"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_f9200d130b8bc4f": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 300
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_16daa55e95c66589": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [
+                    {
+                        "#hash_611dc48b4757c144": [
+                            {
+                                "#requiredtags": [],
+                                "#hash_179611467641c036": [],
+                                "#requiredalltags": false,
+                                "#hash_7eb3ffaa29efda6b": [
+                                    {
+                                        "#aitype": "jup_enemy_cp_lmg_tier3_rus_pmc",
+                                        "#spawnfilter": "none",
+                                        "#hash_c220f624418529a9": [],
+                                        "#droptoground": true,
+                                        "#hash_aea2e41228e503c2": true,
+                                        "#spawncount": 2,
+                                        "#hash_8dec8deff66e2c69": true
+                                    },
+                                    {
+                                        "#aitype": "jup_enemy_cp_lmg_tier1_rus_pmc",
+                                        "#spawnfilter": "none",
+                                        "#hash_c220f624418529a9": [],
+                                        "#droptoground": true,
+                                        "#hash_aea2e41228e503c2": true,
+                                        "#spawncount": 2,
+                                        "#hash_8dec8deff66e2c69": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "#hash_ca3c460fba25f17f": [
+                            {
+                                "#variant_object": {
+                                    "#triggertype": "aicount",
+                                    "#hash_38cbde64d731f788": 1
+                                },
+                                "#variant_type": "Types_AICount"
+                            }
+                        ]
+                    }
+                ],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_lmg_tier1_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_lmg_tier3_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "cartel"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 300
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_19ecb5ff5ff96d23": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_lmg_tier1_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_lmg_tier3_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "cartel"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 300
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_20455c7b76d7c633": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [
+                    {
+                        "#hash_611dc48b4757c144": [
+                            {
+                                "#requiredtags": [],
+                                "#hash_179611467641c036": [],
+                                "#requiredalltags": false,
+                                "#hash_7eb3ffaa29efda6b": [
+                                    {
+                                        "#aitype": "jup_enemy_cp_shotgun_tier3_rus_pmc",
+                                        "#spawnfilter": "none",
+                                        "#hash_c220f624418529a9": [],
+                                        "#droptoground": true,
+                                        "#hash_aea2e41228e503c2": true,
+                                        "#spawncount": 3,
+                                        "#hash_8dec8deff66e2c69": true
+                                    },
+                                    {
+                                        "#aitype": "jup_enemy_cp_riotshield_tier3_rus_pmc",
+                                        "#spawnfilter": "none",
+                                        "#hash_c220f624418529a9": [],
+                                        "#droptoground": true,
+                                        "#hash_aea2e41228e503c2": true,
+                                        "#spawncount": 1,
+                                        "#hash_8dec8deff66e2c69": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "#hash_ca3c460fba25f17f": [
+                            {
+                                "#variant_object": {
+                                    "#triggertype": "aicount",
+                                    "#hash_38cbde64d731f788": 1
+                                },
+                                "#variant_type": "Types_AICount"
+                            }
+                        ]
+                    }
+                ],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_shotgun_tier1_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 4,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "cartel"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_f9200d130b8bc4f": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 300
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_2d2f232ff282914e": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [
+                    {
+                        "#hash_611dc48b4757c144": [
+                            {
+                                "#requiredtags": [],
+                                "#hash_179611467641c036": [],
+                                "#requiredalltags": false,
+                                "#hash_7eb3ffaa29efda6b": [
+                                    {
+                                        "#aitype": "jup_enemy_cp_sniper_tier3_rus_pmc",
+                                        "#spawnfilter": "none",
+                                        "#hash_c220f624418529a9": [],
+                                        "#droptoground": true,
+                                        "#hash_aea2e41228e503c2": true,
+                                        "#spawncount": 2,
+                                        "#hash_8dec8deff66e2c69": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "#hash_ca3c460fba25f17f": [
+                            {
+                                "#variant_object": {
+                                    "#triggertype": "aicount",
+                                    "#hash_38cbde64d731f788": 1
+                                },
+                                "#variant_type": "Types_AICount"
+                            }
+                        ]
+                    }
+                ],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_sniper_tier1_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "cartel"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 300
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_394bd0f38bd14e41": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [
+                    {
+                        "#hash_611dc48b4757c144": [
+                            {
+                                "#requiredtags": [],
+                                "#hash_179611467641c036": [
+                                    {
+                                        "#variant_object": {
+                                            "#vehiclespawntype": "airVehicle",
+                                            "#spawnfilter": "none",
+                                            "#vehicle": "veh_jup_mil_air_heli_blima_physics_anim_infil_cp"
+                                        },
+                                        "#variant_type": "Types_AirVehicle"
+                                    }
+                                ],
+                                "#requiredalltags": false,
+                                "#hash_7eb3ffaa29efda6b": [
+                                    {
+                                        "#aitype": "jup_enemy_cp_ar_tier1_rus_pmc",
+                                        "#spawnfilter": "none",
+                                        "#hash_c220f624418529a9": [],
+                                        "#droptoground": true,
+                                        "#hash_aea2e41228e503c2": true,
+                                        "#spawncount": 6,
+                                        "#hash_8dec8deff66e2c69": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "#hash_ca3c460fba25f17f": [
+                            {
+                                "#variant_object": {
+                                    "#triggertype": "aicount",
+                                    "#hash_38cbde64d731f788": 3
+                                },
+                                "#variant_type": "Types_AICount"
+                            }
+                        ]
+                    }
+                ],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_ar_tier1_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 6,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_sniper_tier1_rus_pmc",
+                        "#spawnfilter": "longRangeArms",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "medium",
+                "#faction": "axis"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_f9200d130b8bc4f": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 300
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_3b03097df89d806b": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_ar_tier1_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_ar_tier3_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "cartel"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": []
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_4e7fd6ba220b909c": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_sniper_tier1_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_sniper_tier3_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "cartel"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_f9200d130b8bc4f": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 300
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_52a73a1cc0eb8c35": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [
+                    {
+                        "#hash_611dc48b4757c144": [
+                            {
+                                "#requiredtags": [],
+                                "#hash_179611467641c036": [],
+                                "#requiredalltags": false,
+                                "#hash_7eb3ffaa29efda6b": [
+                                    {
+                                        "#aitype": "jup_enemy_cp_smg_tier3_rus_pmc",
+                                        "#spawnfilter": "none",
+                                        "#hash_c220f624418529a9": [],
+                                        "#droptoground": true,
+                                        "#hash_aea2e41228e503c2": true,
+                                        "#spawncount": 2,
+                                        "#hash_8dec8deff66e2c69": true
+                                    },
+                                    {
+                                        "#aitype": "jup_enemy_cp_pistol_tier3_rus_pmc",
+                                        "#spawnfilter": "none",
+                                        "#hash_c220f624418529a9": [],
+                                        "#droptoground": true,
+                                        "#hash_aea2e41228e503c2": true,
+                                        "#spawncount": 2,
+                                        "#hash_8dec8deff66e2c69": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "#hash_ca3c460fba25f17f": [
+                            {
+                                "#variant_object": {
+                                    "#triggertype": "aicount",
+                                    "#hash_38cbde64d731f788": 2
+                                },
+                                "#variant_type": "Types_AICount"
+                            }
+                        ]
+                    }
+                ],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_smg_tier3_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_pistol_tier3_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "cartel"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 300
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true
+    },
+    "#hash_55d637c9c591ead1": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_df8364f7a7e35119": [
+                    {
+                        "#hash_611dc48b4757c144": [
+                            {
+                                "#requiredtags": [],
+                                "#hash_179611467641c036": [],
+                                "#requiredalltags": false,
+                                "#hash_7eb3ffaa29efda6b": [
+                                    {
+                                        "#aitype": "jup_enemy_cp_ar_tier3_rus_pmc",
+                                        "#spawnfilter": "none",
+                                        "#hash_c220f624418529a9": [],
+                                        "#droptoground": true,
+                                        "#hash_aea2e41228e503c2": true,
+                                        "#spawncount": 2,
+                                        "#hash_8dec8deff66e2c69": true
+                                    },
+                                    {
+                                        "#aitype": "jup_enemy_cp_smg_tier3_rus_pmc",
+                                        "#spawnfilter": "none",
+                                        "#hash_c220f624418529a9": [],
+                                        "#droptoground": true,
+                                        "#hash_aea2e41228e503c2": true,
+                                        "#spawncount": 1,
+                                        "#hash_8dec8deff66e2c69": true
+                                    }
+                                ]
+                            }
+                        ],
+                        "#hash_ca3c460fba25f17f": [
+                            {
+                                "#variant_object": {
+                                    "#triggertype": "aicount",
+                                    "#hash_38cbde64d731f788": 2
+                                },
+                                "#variant_type": "Types_AICount"
+                            }
+                        ]
+                    }
+                ],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_enemy_cp_smg_tier1_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_enemy_cp_ar_tier1_rus_pmc",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "cartel"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": []
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true
+    }
+}

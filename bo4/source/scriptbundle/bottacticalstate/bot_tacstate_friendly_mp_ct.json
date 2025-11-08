@@ -1,0 +1,126 @@
+{
+    "positionhandlerlist": [
+        {
+            "querylist": [
+                {
+                    "name": "bot_tacquery_trigger"
+                }
+            ],
+            "name": "#revive_player",
+            "center": "#revive_target"
+        },
+        {
+            "querylist": [
+                {
+                    "name": "bot_tacquery_trigger"
+                }
+            ],
+            "name": "#gameobject_interact",
+            "center": "#gameobject_interact"
+        },
+        {
+            "querylist": [
+                {
+                    "name": "bot_tacquery_nearest_cover_see_enemy"
+                },
+                {
+                    "name": "bot_tacquery_nearest_see_enemy"
+                }
+            ],
+            "name": "#in_combat",
+            "center": "#goal"
+        },
+        {
+            "querylist": [
+                {
+                    "name": "bot_tacquery_nearest_cover"
+                },
+                {
+                    "name": "bot_tacquery_nearest_point"
+                }
+            ],
+            "name": "#hash_c0bcf7fa0d58e5",
+            "center": "#goal"
+        },
+        {
+            "name": "#default",
+            "center": "#goal"
+        }
+    ],
+    "actionlist": [
+        {
+            "name": "#hash_78881ac649c38041"
+        },
+        {
+            "name": "#use_gameobject"
+        },
+        {
+            "name": "#melee_glass"
+        },
+        {
+            "name": "#melee_enemy"
+        },
+        {
+            "name": "#reload_weapon"
+        },
+        {
+            "name": "#switch_to_weapon"
+        },
+        {
+            "name": "#look_for_enemy"
+        },
+        {
+            "name": "#scan_for_threats"
+        }
+    ],
+    "hash_6ef48dfa": 0.25,
+    "hash_a78526b8": "j_spineupper",
+    "hash_48aa05a1": 400,
+    "hash_1f5429aa": 200,
+    "fovbusy": 110,
+    "longrange": 1750,
+    "hash_f181b86b": "bot_tacquery_space_seeds",
+    "shortrange": 1000,
+    "yawsensitivity": 1,
+    "configstringfiletype": "scriptbundle",
+    "inaccuracy": 80,
+    "hash_19019506": 0.76,
+    "pacifistwait": 1,
+    "hash_4333f343": 0.1,
+    "type": "bottacticalstate",
+    "hash_1f8a6a2": 1,
+    "hash_2fc77943": 1.1,
+    "pitchacceleration": 10,
+    "hash_b9f05fc": 0.5,
+    "hash_c850085f": 1,
+    "movingads": 0,
+    "hash_d5bf8f0d": 0.85,
+    "hash_25664dde": 1000,
+    "pitchsensitivity": 1,
+    "yawacceleration": 20,
+    "hash_b4c8298c": 0.95,
+    "vmtype": "server",
+    "lowhealthratio": 0.7,
+    "sprintdist": 300,
+    "aimtaghead": "j_head",
+    "name": "bot_tacstate_friendly_mp_ct",
+    "hash_82aa37d8": 4500,
+    "meleechance": 0.5,
+    "headshotchance": 0.1,
+    "highlyawareradius": 128,
+    "perfectaim": 1,
+    "maxsightdist": 8192,
+    "fov": 179,
+    "adsdot": 0.85,
+    "pacifist": 0,
+    "maxrange": 2500,
+    "hash_2b02e26a": 15,
+    "hash_b392418": 0.1,
+    "hash_f58a14bd": 0.8,
+    "hash_69610dbe": 25,
+    "pathenemyfightdist": 0,
+    "hash_5eaa9e02": 1,
+    "hash_bc0b2a06": 1.1,
+    "accuracy": 1,
+    "hash_d1fb2f1a": 0
+}

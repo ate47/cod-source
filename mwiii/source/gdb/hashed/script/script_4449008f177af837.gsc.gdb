@@ -1,0 +1,44 @@
+NAME script_4449008f177af837
+VERSION 0
+CHECKSUM 0x73f2f116
+######################################################
+####################  DEV BLOCKS  ####################
+######################################################
+# namespace_15a6b98dc3353454::evaluatesyncedmelee@c6
+DEVBLOCK 0x8bd
+# namespace_15a6b98dc3353454::evaluatesyncedmelee@d8
+DEVBLOCK 0x8cf
+# namespace_15a6b98dc3353454::melee_calcsyncdirection@23
+DEVBLOCK 0xc65
+# namespace_15a6b98dc3353454::melee_calcsyncdirection@40
+DEVBLOCK 0xc82
+# namespace_15a6b98dc3353454::melee_waitfordroppedweapon@2c
+DEVBLOCK 0xd3b
+# namespace_15a6b98dc3353454::chooseanim_syncmelee@1a
+DEVBLOCK 0xeca
+# namespace_15a6b98dc3353454::melee_decide_winner@b
+DEVBLOCK 0xf02
+# namespace_15a6b98dc3353454::melee_decide_winner@1d
+DEVBLOCK 0xf14
+# namespace_15a6b98dc3353454::melee_decide_winner@3b
+DEVBLOCK 0xf32
+# namespace_15a6b98dc3353454::melee_decide_winner@5b
+DEVBLOCK 0xf52
+# namespace_15a6b98dc3353454::melee_decide_winner@9b
+DEVBLOCK 0xf92
+# namespace_15a6b98dc3353454::melee_decide_winner@d5
+DEVBLOCK 0xfcc
+# namespace_15a6b98dc3353454::playmeleeanim_synced@4c
+DEVBLOCK 0x10e3
+# namespace_15a6b98dc3353454::playmeleeanim_synced@5e
+DEVBLOCK 0x10f5
+# namespace_15a6b98dc3353454::playmeleeanim_synced_survive@2c
+DEVBLOCK 0x133b
+# namespace_15a6b98dc3353454::playmeleeanim_synced_cleanup@1a
+DEVBLOCK 0x13b0
+# namespace_15a6b98dc3353454::playmeleeanim_synced_victim@56
+DEVBLOCK 0x14e4
+# namespace_15a6b98dc3353454::melee_droppedweaponrestore@1
+DEVBLOCK 0x1cfd
+# namespace_15a6b98dc3353454::melee_droppedweaponrestore@c
+DEVBLOCK 0x1d08

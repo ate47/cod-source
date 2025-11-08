@@ -1,0 +1,5842 @@
+   1	shuffle8l
+   2	lookset_default
+   3	slopes_rightside_4
+   4	ps_exec_rvn_pr_01
+   5	pass__cover_crouch_exposed_abort
+   6	leg_b
+   7	conceal_crouch_stand_drop_rpg
+   8	stand_strafe_stop
+   9	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, j_spinelower
+  10	jog_jump_up_drop_90l
+  11	ps_sdr_com_melee_takedown01_defwins_attacker_6_03
+  12	scramble_intensity_pass
+  13	additive_adjustments
+  14	aim
+  15	shuffle_foot_r_forward_2_to_4
+  16	start reload
+  17	call_reinforcements_cover_left_stand_loop
+  18	should_assess_passthrough
+  19	ps_iw9_weap_knife_inspect_04b
+  20	bubblesenter
+  21	melee_smack_lose_victim
+  22	askForCoverFire
+  23	pain_cover_right_crouch_lean_anim
+  24	angry_enemy_anims
+  25	fast_ads
+  26	aim_4_knob
+  27	move_blendspace
+  28	ps_exec_hand_grab_body,j_mainroot
+  29	cover_crouch_lmg
+  30	rifle_aim_4
+  31	active_to_door
+  32	stairs_casual_gun_walk_down_exit
+  33	ps_wfoly_ar_reload_npc_in
+  34	ps_eqp_armor_plates_insert_plr
+  35	exposed_crouch_revive_belly_final
+  36	slopes_back_8
+  37	conceal_stand_exposed_drop_rpg
+  38	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_knee_ri
+  39	iw9_sm_alpha57
+  40	rightfoot_strafe_7_slice_1
+  41	smg_aim_5_cmbtrdy_calm
+  42	pain_cover_right_crouch_expa_anim
+  43	checking_it_out
+  44	8shuffle
+  45	cover_right_b_to_a
+  46	landing_lift
+  47	lookat_spec_exposed
+  48	shoot_lean_jug_settle_half
+  49	weap_mike4_reload_empty_magout_plr
+  50	jog_mantle_down_lg_90l
+  51	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_head_blood, j_knee_le
+  52	facial_animation
+  53	ragdoll_gun_unstow
+  54	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_proc_spinelower2
+  55	live_ragdoll_stop
+  56	td_sdr_com_melee_takedown01_defwins_attacker_8_03,surface
+  57	aimset_rpg
+  58	vehicle_idle_combat_turn_to_exit
+  59	fast_mantle_over_up_md
+  60	t10_rec_coslo723
+  61	cover_right_to_cover_left_door_shuffle
+  62	larm_md_b
+  63	ps_wfoly_plr_pi_golf17_inspect_02
+  64	long_death_shoot_crawl
+  65	stand_run_strafe_loop_to_stand_run_loop
+  66	drop_rpg_pistol
+  67	pass_cover_crouch_check_cover_multi
+  68	cover_right_crouch_aim
+  69	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_axe_hit_prone.vfx, j_head
+  70	walk_mantle_up_lg_90r
+  71	remote_reviving
+  72	ps_exec_redtail_pr_04
+  73	pain_cover_crouch_anim
+  74	support
+  75	react_newenemy_4
+  76	ik_out_start_right_hand
+  77	ground_turret_pain_front
+  78	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp,
+  79	mg_shoot_idle
+  80	ladder_aim_raise
+  81	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_knee_le
+  82	cqbleft
+  83	9fast_from_strafe_4
+  84	melee_attacker_passthrough
+  85	td_sdr_com_melee_takedown01_defwins_early_attacker_6_02,cloth
+  86	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_neck
+  87	shortrun
+  88	left_doorless_dual_active
+  89	weap_m4_reload_gl_chamber_plr
+  90	enter_combat_anim
+  91	look
+  92	ps_exec_gear_mvmt_complex_heavy,j_spineupper
+  93	pain_shocked_exposed_stand_recover
+  94	walk_feet_apart_4_to_8
+  95	look_23
+  96	look_43
+  97	right_6
+  98	walk_turn_casual
+  99	pain_cover_left_crouch_arrival
+ 100	lookat_eye_node
+ 101	stop_2
+ 102	patrol_wall_lean_loop
+ 103	t10_muzzles_mixmuzzle_ar_coslo
+ 104	ps_exec_bodyfall_swt_body,j_mainroot
+ 105	face_goal_end
+ 106	8walk_from_strafe_4
+ 107	GoalCheckCleanup
+ 108	4_crouch
+ 109	camo_a_15
+ 110	camo_a_06
+ 111	camo_a_08
+ 112	t10_pgrip_pi_p13
+ 113	vehicle_idle_combat_passthrough
+ 114	ps_hm_grnd_melee02_attacker_wins_att_02
+ 115	left_dual_active
+ 116	sit_cellphone_react
+ 117	go_and_check
+ 118	jog_mantle_up_sm
+ 119	patrol_custom_react_pass_2
+ 120	t10_reflex03_west
+ 121	patrol_idle_curious_fl
+ 122	ps_wpn_coslo723_reload_empty_mag_hit_02
+ 123	slopes_stomach_2
+ 124	fast_mantle_down_md_90l
+ 125	cover_left_crouch_b_to_a
+ 126	exposed_idle_react_newenemy_close
+ 127	walk_foot_l_forward_8_to_2
+ 128	1fast_from_strafe_6
+ 129	call_reinforcements
+ 130	walk_feet_apart_6_to_8
+ 131	to_exposed_idle
+ 132	ready
+ 133	right9fast
+ 134	pass_grenade_use_override_pos_cover_crouch
+ 135	run_should_arrive_cover_right_lean
+ 136	inner_root
+ 137	cover_left_lean_exit
+ 138	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y.vfx, j_helmet
+ 139	rightfoot_strafe_7_fast_7
+ 140	patrol_sitting_laptop_death
+ 141	shuffle2l
+ 142	shuffle4r
+ 143	shuffle6l
+ 144	trans_to_cover_right
+ 145	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_head
+ 146	cover_right_crouch_blindfire
+ 147	cover_left_exposed_drop_rpg_b
+ 148	pain_cover_left_crouch
+ 149	ps_exec_gore_bone_break_snap
+ 150	left6
+ 151	cover_left_stand_to_cover_stand
+ 152	9right
+ 153	stand_to_hide
+ 154	rightfoot_strafe_8_slice_6
+ 155	2run
+ 156	walk_step_over_90l
+ 157	2lwalk_from_strafe_4
+ 158	1right
+ 159	cover_right_lean_arrival
+ 160	stop anim
+ 161	alert_move_to_alert_move_fl_check
+ 162	melee_interact
+ 163	curious_move_passthrough
+ 164	nvg
+ 165	lkp
+ 166	yes
+ 167	sync
+ 168	exit4walk
+ 169	ps_iw9_weap_knife_inspect_01c
+ 170	pain_exp_stand_lg
+ 171	hide_to_look_high
+ 172	cover_stand_full_exposed_drop_rpg
+ 173	ps_exec_impact_face,j_head
+ 174	visor_lower
+ 175	ps_exec_hand_grab_head,j_wrist_le
+ 176	ps_exec_hand_grab_head,j_wrist_ri
+ 177	exposed_crouch_crawl_left
+ 178	ps_exec_gore_blood_squirt,j_neck
+ 179	get_out_vehicle_passthrough
+ 180	run_should_arrive_exposed_crouch
+ 181	ps_exec_redtail_stnd_01
+ 182	exec_bodyfall_swt_feet,j_ankle_le
+ 183	6_crouch
+ 184	td_sdr_com_melee_takedown01_defwins_attacker_8_05,surface
+ 185	shoot_lean_sg
+ 186	minigun_spinup
+ 187	caps/interactions/cap_use_armor_plate_solo
+ 188	call_reinforcements_cover_right_crouch_finish
+ 189	throw_long
+ 190	long_death_final_grenade
+ 191	cover_stand_turret
+ 192	Enter_Done
+ 193	melee_death
+ 194	fast_forward_up_l
+ 195	slopes_back_6
+ 196	shoot
+ 197	stickToNode
+ 198	rightfoot_strafe_7_slice_7
+ 199	exposed_crouch_revive_crawl_l_final
+ 200	death_cover_stand
+ 201	ps_bodyfall_torso
+ 202	ps_wfoly_plr_ar_akilo47_raise_01
+ 203	ps_sdr_com_melee_takedown01_defwins_defender_8_03
+ 204	t10_bar_ar_p01
+ 205	ps_exec_gear_mvmt_whoosh_slow,j_mainroot
+ 206	left4sprint
+ 207	cover_right_hide_to_a
+ 208	exposed_stand_crawl_shoot
+ 209	head_lg_4
+ 210	head_lg_l
+ 211	cover_crouch_interactable
+ 212	cover_left_crouch_over_lean_to_hide
+ 213	iw9_la_mike32
+ 214	custom_patrol_earlyout_passthrough
+ 215	prone_start
+ 216	execution_attacker_prone
+ 217	Being_Revived
+ 218	being_revived
+ 219	ps_wfoly_plr_pi_golf17_inspect_04
+ 220	ik_in_start_right_foot
+ 221	6walk
+ 222	enabled
+ 223	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_clavicle_ri
+ 224	drop_shield
+ 225	shoot_additives_lmg_crouch
+ 226	fast_right
+ 227	full_exposed_to_hide
+ 228	fx_playfxontag, vfx_vm_sp_undershoulder_stab, j_shoulder_ri
+ 229	cover_right_exposed_drop_rpg_a
+ 230	vehicle_pain_combat_passthrough
+ 231	fx_playfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_back, j_chest
+ 232	t10_fastmag02_ar
+ 233	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_chest
+ 234	gundown_cqb
+ 235	run_turn
+ 236	sprint_hard_lean_bwd
+ 237	sprint9r
+ 238	sprint9l
+ 239	sprint3l
+ 240	sprint7r
+ 241	start_gundown
+ 242	alert_idle_curious_fl
+ 243	ps_exec_gear_grab_light,j_wrist_le
+ 244	walk_feet_apart_4_to_6
+ 245	ps_wfoly_plr_pi_papa220_akimbo_l_inspect_05
+ 246	look_45
+ 247	look_01
+ 248	ps_sdr_com_melee_takedown02_defwins_early_defender_8_02
+ 249	right1jog
+ 250	conceal_stand_look_to_hide
+ 251	pain_cover_right_crouch_expa
+ 252	react_earlyout_fl_grenadeflee
+ 253	death_standing_cover_left
+ 254	stop_8
+ 255	4left
+ 256	cover_left_crouch_hide_to_a
+ 257	small_close_2r
+ 258	patrol_arrival_fl
+ 259	cover_crouch_turret
+ 260	bubbleslight
+ 261	exposed_front_b
+ 262	mvmt_swim_right_post
+ 263	ps_melee_takedown_knife_stab_impact_throat
+ 264	dying_crawl_flipover
+ 265	run_should_arrive_cover_left
+ 266	coveringFire
+ 267	patrol_stairs_up
+ 268	slopes_stomach_4
+ 269	explosive_prone_r
+ 270	conceal_crouch_aim_to_hide
+ 271	laser
+ 272	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash_2, j_neck
+ 273	rarm_lg_b
+ 274	gravity on
+ 275	walk_step_over
+ 276	walk_feet_apart_6_to_2
+ 277	ps_exec_bodyfall,j_spineupper
+ 278	wap_iv_start
+ 279	ps_exec_bodyfall_swt_feet,j_ankle_ri
+ 280	ps_exec_gear_mvmt_throw,j_spineupper
+ 281	left4fast
+ 282	ps_exec_gear_mvmt_long_heavy
+ 283	melee_att_win_abort_recover
+ 284	pain_cover_crouch_exposed_right
+ 285	End_Early
+ 286	conceal_stand_grenade
+ 287	mp_exfil_blima_pullup_crew_getin
+ 288	death_exp_crouch
+ 289	patrol_radio_loop
+ 290	exit3walk
+ 291	shuffle1r
+ 292	shuffle3r
+ 293	shuffle9l
+ 294	rifle_aim_5_active_combat
+ 295	aim_anims
+ 296	slopes_rightside_7
+ 297	ik_in_start_left_foot
+ 298	weap_shotattach_clipin_plr
+ 299	right8jog
+ 300	rightfoot_strafe_8_slice_8_l
+ 301	correcive_offset
+ 302	left1
+ 303	right2sprint
+ 304	pass_cover_stand_multi
+ 305	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward, tag_eye
+ 306	vehicle_idle_combat_to_hunt
+ 307	fast_feet_apart_6_to_2
+ 308	shuffle_left_to_cover_left_stand
+ 309	conceal_crouch_peek
+ 310	ps_sdr_com_melee_takedown01_attackerwins_attacker_6_02
+ 311	neck_l
+ 312	cover_right_crouch_aim_to_hide
+ 313	ps_vm_sp_takedown_knife_crouch_right_02_bodyfall
+ 314	stop
+ 315	med_close_6
+ 316	pain_cover_right_stand_expb
+ 317	reverse
+ 318	GoalCheckDelay
+ 319	ps_iw9_weap_knife_inspect_04a
+ 320	alert_move_to_alert_move_fl
+ 321	cover_stand_high_turret
+ 322	ps_wfoly_ar_reload_npc_out
+ 323	pass_crouch_cover_left_exposed_abort
+ 324	hit_4_lower
+ 325	ps_mp_execution_animal_002_dog_attack2
+ 326	fx_playfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck, j_head
+ 327	stumbling_pain_wander
+ 328	td_sdr_com_melee_takedown01_defwins_attacker_4_04,surface
+ 329	primary_investigator
+ 330	hide_to_a
+ 331	t10_bar_velocity_ar_coslo
+ 332	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_z_forward, tag_eye
+ 333	right1walk
+ 334	alert_move_arrival_pass
+ 335	6right
+ 336	ladder_raise_weapon
+ 337	unhide_vest
+ 338	ps_exec_gear_grab_pull,j_mainroot
+ 339	larm_alt
+ 340	cover_right_lean_idle
+ 341	smg_aim_5_high
+ 342	ps_bodyfall_limb_small,j_wrist_le
+ 343	cm_rumble_heavy
+ 344	ps_vm_sp_takedown_knife_left_03_mvmt
+ 345	to_cover_crouch
+ 346	ps_wfoly_plr_pi_papa220_reload_empty_fast_xmaglrg_08
+ 347	gun_down_crouch
+ 348	patrol_drinking_intro
+ 349	stairs_run_down_exit
+ 350	shoot_semi
+ 351	ps_exec_gear_mvmt_midlength_light,j_knee_ri
+ 352	patrol_stairs_up_fl_blendspace
+ 353	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_ball_ri
+ 354	cover_left_crouch_stand_to_hide
+ 355	happy
+ 356	fast_vault_over_md_90l
+ 357	force_lookaround
+ 358	cover_stand_blindfire
+ 359	cover_stand_to_cover_right_crouch
+ 360	ps_wfoly_plr_pi_golf17_inspect_10
+ 361	reachedPrimary
+ 362	ps_vm_sp_takedown_knife_crouch_right_01_mvmt
+ 363	vehicle_death_passthrough
+ 364	Use Armor Plate
+ 365	fast_feet_together_6_to_4
+ 366	pain_shocked_cover_stand_recover
+ 367	lowerbody_lg_4
+ 368	bodyfall_limb_large
+ 369	left6shuffle
+ 370	cover_stand_peek
+ 371	lleg_alt
+ 372	ps_bodyfall_head
+ 373	t10_zm_coslo723_pack
+ 374	2rsprint_exitfull
+ 375	generic_human_strafe_start_cornerchek_test
+ 376	ps_exec_redtail_pr_03
+ 377	cover_crouch_arrival
+ 378	vehicle_pain_hunt_passthrough
+ 379	ps_exec_scrape_quick,j_neck
+ 380	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_stab_eye_right.vfx, tag_eye
+ 381	fx_playfxontag, vfx/iw9/executions/vfx_exec_097_witch_magic_hit.vfx, j_elbow_le
+ 382	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_stab_ballistic_neck.vfx, j_head
+ 383	9left
+ 384	exec_bodyfall_swt_body,j_spinelower
+ 385	fx_playfxontag, vfx/iw9/executions/vfx_exec_grenade_exp, tag_eye
+ 386	right6
+ 387	iw9_sh_charlie725
+ 388	sprint2l
+ 389	sprint2r
+ 390	sprint4l
+ 391	ground_turret_pain_right
+ 392	iw9_br_msecho
+ 393	iw9_sh_semi
+ 394	exit6sprint
+ 395	look_20
+ 396	walk_vault_over_sm_90r
+ 397	walk_vault_over_sm_90l
+ 398	cover_right_crouch_should_expose
+ 399	train_stand_r
+ 400	fast_forward_down_r
+ 401	ps_wfoly_plr_pi_papa220_reload_06
+ 402	ps_exec_gear_mvmt_long_light,j_knee_ri
+ 403	fx_killfxontag, vfx/iw8_mp/executions/vfx_exec_raven_scratch_reversez.vfx, j_head
+ 404	call_reinforcements_cover_right_stand_loop
+ 405	flashlight_on
+ 406	stop_1
+ 407	weap_m4_first_raise_plr
+ 408	ps_eqp_armor_plates_insert_raise_plr
+ 409	idle
+ 410	setGoalPosLKP
+ 411	rocketlauncher_aim_5
+ 412	execution_default_east
+ 413	leftfoot_strafe_7_slice_9
+ 414	pain_burning_exposed_crouch
+ 415	cover_left_b_to_a
+ 416	ps_exec_gear_mvmt_throw,j_spinelower
+ 417	cover_stand_reload
+ 418	aimset_exposed_crouch_aim_down
+ 419	pain_cover_left_arrival
+ 420	pass_cover_crouch_shuffle
+ 421	traverse_warp_over_arrival
+ 422	ps_hm_grnd_melee02_attacker_wins_att_01
+ 423	jog_vault_over_md_90l
+ 424	cautious_clear_slice
+ 425	ps_vm_sp_takedown_pistol_left_02_bodyfall
+ 426	ps_exec_face_punch_mid,j_head
+ 427	melee_sldr_vs_zom_att_lose_instant_kill
+ 428	run_hard_lean_left
+ 429	ps_exec_gear_mvmt_long_light
+ 430	cover_crouch
+ 431	pain_cover_crouch_type_pass
+ 432	ps_exec_knife_stab,j_clavicle_le
+ 433	grenade_calculate_override_pos_cover_crouch
+ 434	exposed_lkp
+ 435	ps_exec_gore_medium_splat,j_knee_ri
+ 436	vortex
+ 437	bodyfalllarge
+ 438	weap_shotattach_lift_plr
+ 439	a_to_hide
+ 440	right8rfast
+ 441	conceal_crouch_blindfire
+ 442	exec_kill
+ 443	cover_crouch_reload
+ 444	fast_left
+ 445	rightfoot_strafe_7_fast_4
+ 446	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit_blood_prone.vfx, j_head
+ 447	coverme_center_crouch_4
+ 448	cover_right_crouch_reload
+ 449	pain_burning_cover_left_crouch
+ 450	td_sdr_com_melee_takedown01_attackerwins_defender_6_03,surface
+ 451	left8jog
+ 452	6a
+ 453	10
+ 454	shoot_settle_pstl_full
+ 455	fx_playfxontag, vfx_vm_sp_chest_stab_ri_01, j_clavicle_ri
+ 456	ps_vm_sp_takedown_knife_crouch_left_02_wpn
+ 457	fx_stopfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y.vfx, j_helmet
+ 458	pain_shocked_exposed_crouch_recover
+ 459	anim_facial = idle
+ 460	fx_playfxontag, vfx_vm_sp_chest_stab_01, j_clavicle_le
+ 461	rleg_lower_r
+ 462	ps_wfoly_plr_pi_papa220_reload_empty_05
+ 463	Allow Primary To Move
+ 464	patrol_move_arrival_pass_fl
+ 465	ps_gib_dismember_head,j_head
+ 466	4_r
+ 467	exposed_crouch_revive_crawl_back
+ 468	cap_use_armor_plate_solo
+ 469	sniper_aim_5_active_combat
+ 470	fast_mantle_down_xlg_90r
+ 471	lowerbody_r_md_4
+ 472	coverme_center_stand_2
+ 473	t10_snprscope_dm_west
+ 474	alert_investigate_exit
+ 475	exposed_stand_revive_crawl_l1
+ 476	secondary_pickup
+ 477	2rshuffle_exitfull
+ 478	exposed_stand_to_noncombat_stand_idle
+ 479	right7fast
+ 480	ps_wfoly_lm_reload_npc_in
+ 481	blackhole
+ 482	coveringFireCleanup
+ 483	ps_sdr_com_melee_takedown01_defwins_attacker_2_01
+ 484	aimset_cautious_strafe
+ 485	rightfoot_strafe_9_fast_3
+ 486	r_look_left_look_right
+ 487	military_point7
+ 488	demeanor_change_move_react_passthrough
+ 489	Cover Right Lean
+ 490	aimset_coverstand
+ 491	arrived
+ 492	curious_exit
+ 493	ragdollsloperecovery_rightside_1
+ 494	alert_stairs_down_fl_blendspace
+ 495	5
+ 496	walk4
+ 497	leftfoot_strafe_9_slice_6
+ 498	lowerbody_l_lg_8
+ 499	8_crouch
+ 500	slopes_leftside_9
+ 501	slopes_leftside_7
+ 502	cover_left_crouch_grenade
+ 503	cover_prone_turret_dismount
+ 504	active_right
+ 505	aimset_covercrouchstand
+ 506	deathmachine_spinup
+ 507	jog_mantle_up_sm_90l
+ 508	gun drop
+ 509	td_sdr_com_melee_takedown01_defwins_early_defender_2_02,cloth
+ 510	iw9_dm_pgolf1
+ 511	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_clavicle_ri
+ 512	cover_crouch_grenade
+ 513	evt_gala_civ_idle_5_steps_01
+ 514	soldier_lmg
+ 515	ps_mp_execution_animal_000_dog_prone_04
+ 516	alert_idle_lookaround_fl
+ 517	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_spineupper
+ 518	t10_bar_mixbarrel_ar_coslo
+ 519	jog_hard_lean_bwd
+ 520	pain_burning_cover_crouch
+ 521	jog9r
+ 522	gun_down_stand_lmg
+ 523	ps_exec_gear_grab_mid,j_wrist_le
+ 524	patrol_smoking_end
+ 525	alert_react_fl
+ 526	pain_cover_stand
+ 527	warp_up_apex
+ 528	t10_bar_range_ar
+ 529	leftfoot_strafe_8_slice_7
+ 530	alert_stairs_down_fl
+ 531	ps_exec_sledgehammer_impact_body,j_spinelower
+ 532	nogravity
+ 533	ps_vm_sp_takedown_knife_front_03_wpn
+ 534	right7sprint
+ 535	8lrun
+ 536	evt_gala_civ_idle_4_foley_02
+ 537	checkin_it_out_dialog
+ 538	grenade_calculate_override_pos_exposed_prone
+ 539	execution_024
+ 540	execution_031
+ 541	execution_006
+ 542	execution_019
+ 543	execution_071
+ 544	execution_080
+ 545	patrol_hes_here_passthrough
+ 546	mtxdeath
+ 547	combat_early_out
+ 548	ps_exec_impact_body_full,j_wrist_le
+ 549	ps_exec_gun_rattle_heavy,tag_weapon_right
+ 550	shocked_on
+ 551	shuffle_feet_together_4_to_2
+ 552	ragdollsloperecovery_back_9
+ 553	ps_wfoly_plr_pi_papa220_akimbo_l_empty_inspect_05
+ 554	ps_vm_sp_takedown_pistol_front_01_wpn
+ 555	forward_1
+ 556	linear
+ 557	ps_exec_dirt_scuff
+ 558	cover_right_grenade
+ 559	ps_exec_impact_body_deep,j_head
+ 560	everyone_else
+ 561	coverme_right_stand2
+ 562	choose_long_death
+ 563	ps_sdr_com_melee_takedown01_attackerwins_early_defender_4_03
+ 564	t10_stocks_hipfiremove_ar_coslo
+ 565	fx_playfxontag, vfx/iw9/executions/vfx_exec_097_witch_magic_hit.vfx, j_head
+ 566	alert_move_passthrough
+ 567	comehere_2
+ 568	r_look_right_look_left
+ 569	run_should_arrive_custom
+ 570	ps_sdr_com_melee_takedown01_attackerwins_early_defender_6_03
+ 571	stand_strafe_trans_earlyout
+ 572	2lshuffle
+ 573	walk_jump_over_drop_90l
+ 574	to_shuffle
+ 575	anim_facial = scared
+ 576	all_clear
+ 577	small_close_6
+ 578	small_close_8
+ 579	ps_exec_gear_mvmt_quick_light,j_knee_le
+ 580	vehicle_hunt_to_combat_react_to_player
+ 581	ik_fingers_in_end_left_hand
+ 582	cover_left_crouch_peek
+ 583	ps_wfoly_plr_pi_papa220_reload_fast_xmag_03
+ 584	ps_bodyfall_limb_small
+ 585	ps_exec_impact_body_deep,j_spineupper
+ 586	ps_sdr_com_melee_takedown01_defwins_early_defender_6_02
+ 587	pain_cover_left_crouch_lean
+ 588	backcrawl
+ 589	run_should_arrive_cover_right
+ 590	pass_cover_stand_moverequested
+ 591	sdr_com_pi_arrival_weapon_offset
+ 592	footstep_left_large
+ 593	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_spineupper
+ 594	lleg_upper_f
+ 595	move_crouch_should_arrive_exposed_crouch
+ 596	fast6r
+ 597	fast6l
+ 598	patrol_sitting_pistolclean
+ 599	react_earlyout_passthrough
+ 600	ps_exec_gear_mvmt_whoosh_med,j_knee_ri
+ 601	fx_stopfxontag, vfx/iw8_mp/executions/vfx_neck_blood_stab, j_neck
+ 602	leftfoot_strafe_9_fast_1
+ 603	rarm_upper_f
+ 604	cover_right_lean_to_hide
+ 605	exit4jog
+ 606	exposed_stand_revive_crawl_r
+ 607	t10_mag_pi_p13
+ 608	casual_point4
+ 609	patrol_to_alert_passthrough
+ 610	running_forward_6
+ 611	alert_move_fl_to_alert_move
+ 612	active_left
+ 613	death_shocked
+ 614	alert_idle_to_combat
+ 615	slopes_crouch_world_ref
+ 616	death_pain_large_lower_leg
+ 617	l_look_left_gun_right
+ 618	use_armor_plate_solo
+ 619	shuffle_hard_lean_bwd
+ 620	ps_wfoly_plr_pi_golf17_raise_first_04
+ 621	patrol_move_test_fast
+ 622	cover_right_cr_to_exp_cr_earlyout
+ 623	ps_exec_gore_bone_break,j_wrist_ri
+ 624	hit_7_midbody
+ 625	legs_lg_l
+ 626	run1r
+ 627	weapon_offset
+ 628	ps_exec_097_prone_05,j_spinelower
+ 629	ps_exec_gore_bone_break_loud,j_head
+ 630	ps_melee_takedown_knife_stab_release_short
+ 631	alert_move_react
+ 632	pain_shocked_in_cover
+ 633	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_knee_ri
+ 634	hit_3_head
+ 635	right9walk
+ 636	lean_9
+ 637	lean_7
+ 638	exposed_left
+ 639	ps_weap_fist_inspect_04
+ 640	ps_wpn_usugar9_reload_empty_click_plr
+ 641	ps_vm_sp_takedown_pistol_front_02_wpn
+ 642	9shuffle_exitfull
+ 643	example
+ 644	shocked_on_paped
+ 645	fast_foot_r_forward_2_to_4
+ 646	grenade
+ 647	ps_sdr_com_melee_takedown02_defwins_defender_8_03
+ 648	stl_patrol_move_pass
+ 649	ps_exec_impact_body_deep,j_neck
+ 650	conceal_crouch
+ 651	iw9_sm_mpapax
+ 652	cover_stand_hide_to_exposed
+ 653	patrol_idle_to_combat
+ 654	beckon8
+ 655	direct_point_8_2
+ 656	direct_point_4_8
+ 657	direct_point_2_6
+ 658	shoot_single
+ 659	to_cover_stand
+ 660	camo_b_06
+ 661	right1run
+ 662	td_sdr_com_melee_takedown01_attackerwins_early_defender_4_04,surface
+ 663	enter
+ 664	moving
+ 665	iw9_sh_pump
+ 666	setWatchersToIdle
+ 667	callReinforcements
+ 668	jog_mantle_up_md_90l
+ 669	stairs_walk_down_loop
+ 670	Single Guy Reached LKP
+ 671	2jog_exitfull
+ 672	anim_gunhand = right
+ 673	pain_cover_crouch_torso_to_cover_crouch
+ 674	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_knee_ri
+ 675	aimset_coverstandaimhigh
+ 676	patrol_idle_fl_trans_react_pass_fixup
+ 677	ai_revival
+ 678	gravity
+ 679	cover_right_exposed_b
+ 680	td_sdr_com_melee_takedown01_attackerwins_defender_8_01,cloth
+ 681	pain_lmg_prone
+ 682	locomotion_slopes
+ 683	curious_move_react
+ 684	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_throat_slash.vfx, j_head
+ 685	left4run
+ 686	pain_popup_f
+ 687	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_helmet
+ 688	6fast_from_strafe_4
+ 689	pain_cover_left_default
+ 690	conceal_stand_blindfire
+ 691	weap_fist_only_first_raise_plr
+ 692	cover_right_crouch_over_lean_to_hide
+ 693	fx_stopfxontag, vfx/iw9/executions/vfx_exec_099_blood_splash.vfx, tag_origin
+ 694	stairs_casual_gun_walk_down_arrival
+ 695	fingers_out_start_left_hand
+ 696	vehicle_idle_hunt_to_whizby_hunt_passthrough
+ 697	fx_stopfxontag, vfx/iw9/executions/vfx_exec_58_sword_neck_slash, j_head
+ 698	additional_positions
+ 699	ai_ground_turret_aim_pitch
+ 700	aimset_cautious_slice_left
+ 701	mp_exfil_blima_pullup_crew_entry
+ 702	being_revived_exit
+ 703	live_ragdoll_recover_slopes_back_9
+ 704	hold_your_fire
+ 705	shuffle7l
+ 706	shuffle7r
+ 707	shuffle1l
+ 708	Event Handler Passthrough
+ 709	conceal_crouch_arrival
+ 710	soldier_vs_zombie_synced_melee_attack
+ 711	td_sdr_com_melee_takedown03_defwins_attacker_8_02,surface
+ 712	alert_stationary_turn_fl
+ 713	td_sdr_com_melee_takedown01_defwins_early_attacker_6_04,surface
+ 714	ps_sdr_com_melee_takedown01_defwins_attacker_6_02
+ 715	use_armor_plate
+ 716	2sprint
+ 717	pain_burning_prone_left_arm
+ 718	soldier_pistol
+ 719	med
+ 720	cover_stand_high_lmg
+ 721	lookatpos_default
+ 722	WEAPON PUSHBACK VIEW
+ 723	ReachedIdle
+ 724	run1
+ 725	throw_default
+ 726	patrol_go_there
+ 727	weap_msbs_clipin_plr
+ 728	anim_facial = angry
+ 729	patrol_rail_lean_react
+ 730	alert_idle_curious
+ 731	bodyfall_head
+ 732	exposed_crouch_to_prone
+ 733	abort
+ 734	rifle_aim_5
+ 735	stairs_casual_gun_walk_up_exit
+ 736	left3fast
+ 737	iw9_lm_foxtrot
+ 738	fx_playfxontag, vfx/iw9/executions/vfx_exec_head_dismember, j_head
+ 739	slopes_back_9
+ 740	add_fire
+ 741	weap_shotattach_end_plr
+ 742	cover_stand_to_exposed_idle
+ 743	WEAPON CONTROL AUTO STOCK
+ 744	explosive_f
+ 745	right
+ 746	cover_right_crouch_a_to_b
+ 747	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward.vfx, j_helmet
+ 748	ps_exec_gear_mvmt_long_mid,j_ankle_ri
+ 749	cover_stand_lmg_to_pistol_exposed
+ 750	td_sdr_com_melee_takedown02_attackerwins_defender_8_03,surface
+ 751	weap_ar_idle_2_plr
+ 752	ps_melee_takedown_knife_stab_impact
+ 753	cautious_clear_gunswitch
+ 754	patrol_rail_look_over_end
+ 755	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_spine4
+ 756	iw9_sm_papa90_sp
+ 757	patrol_staring_death
+ 758	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp.vfx, j_knee_le
+ 759	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp.vfx, j_knee_ri
+ 760	ps_wfoly_plr_pi_golf17_inspect_03
+ 761	ps_exec_gore_heavy_splat,j_hip_ri
+ 762	death_balcony_rail
+ 763	long_death_grenade_pass
+ 764	cap_call_reinforcements
+ 765	lowerbody_lg_6
+ 766	ps_sdr_com_melee_takedown01_attackerwins_defender_6_04
+ 767	sdr_mortar_exit
+ 768	iw9_pi_golf17
+ 769	callACeaseFire
+ 770	ps_vm_sp_takedown_knife_crouch_right_02_wpn
+ 771	pain_shocked_exposed_prone
+ 772	pain_cover_left_crouch_to_cover_left_crouch_expb_anim
+ 773	cover_left_crouch_lean_idle
+ 774	pain_cover_left_stand_expa_anim
+ 775	gun_down_interior
+ 776	generic_human_move_slopes
+ 777	custom_patrol_earlyout_passthrough_fl
+ 778	leader_acknowledge
+ 779	pain_cover_left_end
+ 780	right4
+ 781	3left
+ 782	ps_br_vehicle_enter_quad_back
+ 783	vehicle_hunt_switch_sides
+ 784	sprint6r
+ 785	sprint4r
+ 786	sprint8l
+ 787	overlean
+ 788	aim_4pt_blend
+ 789	anim_pose = crouch
+ 790	blank
+ 791	revival_helper_stim
+ 792	iw9_ar_mcbravo
+ 793	stand
+ 794	look_06
+ 795	train_stand_b
+ 796	fast_forward_down_l
+ 797	right_7
+ 798	right8l
+ 799	long_death_final
+ 800	ps_exec_087_stand_gorepop,j_head
+ 801	talk_md
+ 802	stop_3
+ 803	curious_turn
+ 804	arrive_at_vehicle
+ 805	pain_shocked_cover_right_stand
+ 806	gesture_blend_out
+ 807	vehicle_reload
+ 808	patrol_humming_react
+ 809	high
+ 810	pass_conceal_stand_blindfire
+ 811	ps_exec_sledgehammer_impact_body,j_ankle_ri
+ 812	6jog_exitfull
+ 813	t10_underbarrel_focus_ar_coslo
+ 814	camo_a_09
+ 815	ps_hm_grnd_melee02_attacker_wins_att_03
+ 816	gesture_point
+ 817	t10_akimbo_usugar9
+ 818	doorindex
+ 819	slopes_stomach_3
+ 820	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_metal_nonpen_med, tag_brass
+ 821	off_high
+ 822	ps_exec_gore_medium_splat,j_knee_le
+ 823	grenade_calculate_override_pos_conceal_stand
+ 824	cover_left_crouch_lean_exit
+ 825	recover
+ 826	7left
+ 827	cover_right_crouch_lean_arrival
+ 828	rebel
+ 829	torso_lower_b
+ 830	torso_lower_l
+ 831	alert_move_react_passthrough_fl
+ 832	fx_stopfxontag, vfx/iw9/executions/vfx_exec_065_battering_ram_hit_grnd.vfx, j_hip_proc_ri
+ 833	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_hip_proc_le
+ 834	secondary_look
+ 835	pain_flashed_exposed_prone
+ 836	iw9_ar_falpha
+ 837	cover_left_crouch_reload
+ 838	left8lshuffle
+ 839	rightfoot_strafe_7_fast_6
+ 840	ps_sdr_com_melee_takedown01_defwins_attacker_8_04
+ 841	weap_arx_clipout_plr
+ 842	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_z_forward, j_head
+ 843	iw8_lm_dblmg
+ 844	hide_to_stand
+ 845	leftfoot_strafe_7_fast_2
+ 846	ps_exec_bodytap,j_wrist_ri
+ 847	ps_sdr_com_melee_takedown01_attackerwins_early_attacker_6_03
+ 848	pain_burning_prone
+ 849	pass_from_cover_crouch
+ 850	t10_fastmag_ar
+ 851	fast_jump_across_90l
+ 852	death_balcony_norail
+ 853	back_9
+ 854	back_7
+ 855	cautious_wide_slice_strafe_exit
+ 856	shuffle_foot_r_forward_8_to_6
+ 857	fast3l
+ 858	helmet_visor_up_price_instant
+ 859	8rrun_exitfull
+ 860	leftfoot_strafe_8_slice_8_l
+ 861	hit_4_head
+ 862	ps_wfoly_plr_pi_golf17_reload_07
+ 863	torso_upper_l
+ 864	torso_upper_b
+ 865	l_look_right_look_left
+ 866	walk_foot_r_forward_2_to_4
+ 867	ps_sdr_com_melee_takedown01_attackerwins_early_attacker_2_01
+ 868	leftfoot_strafe_9_fast_4
+ 869	ps_sdr_com_melee_takedown01_defwins_early_defender_2_01
+ 870	ground_turret_pain
+ 871	iw9_ar_kilo53
+ 872	weap_target_finder_up_plr
+ 873	face enemy
+ 874	lleg_lg_f
+ 875	underwater
+ 876	coverme_right_stand
+ 877	fast_mantle_up_sm_90l
+ 878	live_ragdoll_recover_slopes_leftside_3
+ 879	ps_exec_shocker_shocked,j_spine4
+ 880	left8sprint
+ 881	casual_point1
+ 882	reload checkpoint
+ 883	weap_m4_fast_gl_magout_plr
+ 884	alert_investigate_idle
+ 885	evt_gala_civ_idle_1_steps_01
+ 886	dying_back_quit
+ 887	reload done
+ 888	3fast
+ 889	reload
+ 890	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_machete_hit_prone, j_neck
+ 891	ps_wfoly_plr_pi_golf17_drop_01
+ 892	right_doorless_solo_active
+ 893	pain_stunned_loop
+ 894	walk_feet_together_4_to_2
+ 895	investigator_1
+ 896	stim_detach
+ 897	weap_1911_reload_magout_plr
+ 898	shuffle_foot_l_forward_8_to_4
+ 899	ps_exec_impact_body_full,j_knee_ri
+ 900	traverse_warp_across_arrival
+ 901	med_2r
+ 902	patrol_move_fl_to_alert_move_fl
+ 903	animscripted
+ 904	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward, j_proc_lift_clavicle_le
+ 905	ps_vm_sp_takedown_pistol_back_01_bodyfall_a
+ 906	head_md_r
+ 907	demeanor_change_react_passthrough
+ 908	run6r
+ 909	run8r
+ 910	warp_arrival_start
+ 911	conceal_crouch_exit
+ 912	explosive_crouch_r
+ 913	ps_exec_baton_impact_back
+ 914	call_reinforcements_cover_crouch_start
+ 915	strafe_walk_to_run
+ 916	ps_vm_sp_takedown_knife_back_01_bodyfall
+ 917	right8lrun
+ 918	jog_mantle_down_md_90r
+ 919	lean_2
+ 920	ps_weap_fist_inspect_01
+ 921	molotov_r
+ 922	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_spineupper
+ 923	td_sdr_com_melee_takedown02_defwins_early_attacker_8_04,surface
+ 924	user_armor_plate_done
+ 925	lleg_lower_b
+ 926	ps_exec_gore_blood_squirt,j_spine4
+ 927	focused
+ 928	td_sdr_com_melee_takedown01_attackerwins_early_defender_8_02,cloth
+ 929	melee_att_win_victim_abort_pass
+ 930	scripted_to_exposed
+ 931	ps_vm_sp_takedown_knife_crouch_back_02_bodyfall_a
+ 932	cover_right_crouch_lean_idle
+ 933	cap_door_breach
+ 934	pain_lmg_or_turret_stand
+ 935	ps_exec_gore_blood_headshot,j_neck
+ 936	WEAPON PUSHBACK GUN OFFCENTER
+ 937	rarm_lower_b
+ 938	iw9_sm_mpapa7
+ 939	shoot_settle_rpg_half
+ 940	pass_cover_left_shuffle
+ 941	shoot_lean_jug
+ 942	cm_fx
+ 943	exposed_prone_reload
+ 944	pass_left
+ 945	react_earlyout_fl_combat
+ 946	ps_wfoly_plr_pi_papa220_reload_empty_fast_xmag_06
+ 947	melee_charge_state
+ 948	pain_cover_crouch
+ 949	ps_exec_punch_quick,j_spinelower
+ 950	lean_additive
+ 951	patrol_wall_lean_intro
+ 952	cover_right_exit
+ 953	generic_human_aim_exposed_prone
+ 954	patrol_idle_flashlight_trans_to_noflash
+ 955	activeside
+ 956	pain_shocked_cover_right_crouch_recover
+ 957	head_r
+ 958	larm_lower_f
+ 959	camo_b_03
+ 960	3right
+ 961	ps_wfoly_plr_pi_papa220_akimbo_r_empty_inspect_03
+ 962	human
+ 963	combat_move_to_alert_move
+ 964	run_forward_down_l
+ 965	aim_cornercrr_lean
+ 966	ps_exec_gear_mvmt_midlength_light,tag_origin
+ 967	investigator_look
+ 968	9jog_exitfull
+ 969	2lrun_exitfull
+ 970	ragdollsloperecovery_stomach_7
+ 971	death_moving
+ 972	hold_fire_cleanup
+ 973	mediumjog
+ 974	look_loop_high
+ 975	jog1
+ 976	avoid_back
+ 977	prone_to_crouch
+ 978	call_reinforcements_cover_right_stand_finish
+ 979	7jog
+ 980	melee_start_lower
+ 981	death_player_melee
+ 982	4_belly
+ 983	cover_left_hide_to_lean
+ 984	generic_human_stairs_down
+ 985	right9jog
+ 986	ps_exec_gore_bone_break,j_head
+ 987	swimdebris
+ 988	live_ragdoll_recover_slopes_back_2
+ 989	exit4shuffle
+ 990	td_sdr_com_melee_takedown01_attackerwins_defender_6_02,cloth
+ 991	ps_exec_punch_quick,j_spineupper
+ 992	ps_exec_gore_blood_drip,j_elbow_ri
+ 993	ps_exec_knife_pull,j_shoulder_ri
+ 994	pass_grenade_use_override_pos_cover_right_throw
+ 995	80
+ 996	2r
+ 997	exposed_hes_here
+ 998	live_ragdoll_recover_slopes_rightside_7
+ 999	alert_move_pass
+1000	cover_crouch_exposed_right_drop_rpg
+1001	9walk_exitfull
+1002	accel_to_move
+1003	death_generic
+1004	vehicle_oriented_death
+1005	sdr_mortar_enter
+1006	right8fast
+1007	weap_usp45_lift_plr
+1008	execution_animal_004
+1009	mediumshuffle
+1010	ik_out_end_left_foot
+1011	move_walk_and_talk
+1012	rightfoot_strafe_9_fast_8
+1013	ps_exec_helmet_impact
+1014	vehicle_idle_combat_to_shoot_lmg_passthrough
+1015	fast_mantle_down_sm_90l
+1016	military_point8
+1017	traverse_warp_down_arrival
+1018	fx_playfxontag, vfx/iw8_mp/executions/vfx_neck_blood_stab, j_neck
+1019	shuffle7
+1020	stl_react_passthrough
+1021	pullout_rifle
+1022	pain_popup_recover
+1023	ragdollsloperecovery_rightside_8
+1024	exit6jog
+1025	2
+1026	custom_pose_exposed
+1027	cover_right_crouch_a_to_hide
+1028	shuffle_left_to_cover_left_crouch
+1029	call_reinforcements_loop
+1030	iw9_ar_augolf
+1031	ps_wfoly_plr_pi_papa220_raise_first_02
+1032	train_crouch_f
+1033	scared_enemy_anims
+1034	exposed_throw_grenade
+1035	fast_foot_l_forward_2_to_8
+1036	peek_high
+1037	stand_to_ready
+1038	ps_vm_sp_takedown_knife_crouch_back_02_mvmt
+1039	ps_vm_sp_takedown_pistol_left_02_wpn
+1040	td_sdr_com_melee_takedown01_defwins_attacker_6_01,cloth
+1041	call_reinforcements_cover_right_crouch_start
+1042	ps_dmz_pyro_boss_molotov_right_arm_dance_02
+1043	ik_in_end_right_foot
+1044	1walk_exitfull
+1045	cover_crouch_exposed_right
+1046	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_chest_stab.vfx, j_head
+1047	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_shoulder_le
+1048	right8sprint
+1049	off_mid
+1050	4fast
+1051	ps_vm_sp_takedown_enemy_gurgle_lrg,j_head
+1052	stl_alert_move_pass
+1053	fast
+1054	jog8r
+1055	jog2r
+1056	ps_vm_sp_takedown_knife_back_02_wpn
+1057	emergency_backup
+1058	aimblend
+1059	whizby3
+1060	Timing Bypass
+1061	pushed_8
+1062	jog_mantle_up_lg_90l
+1063	cover_right_crouch_final
+1064	fast_step_over
+1065	bodyfallsmall
+1066	jog_step_over_90l
+1067	ps_exec_gear_grab_release,j_mainroot
+1068	ps_exec_gear_mvmt_struggle,j_mainroot
+1069	ground_idle
+1070	pass_cover_stand_exposed_abort
+1071	ps_exec_gear_mvmt_midlength_light,j_elbow_ri
+1072	stim_attach_right
+1073	bodyfall_limb_small
+1074	backup_investigator
+1075	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_knee_ri
+1076	execution_001
+1077	execution_010
+1078	execution_038
+1079	execution_041
+1080	execution_054
+1081	execution_065
+1082	execution_092
+1083	torso_lg_f
+1084	pain_cover_left_crouch_lean_anim
+1085	fx_playfxontag, vfx/iw9/executions/vfx_exec_058_blood_pool.vfx, tag_origin
+1086	lean
+1087	larm
+1088	ps_exec_gear_grab_mid,j_shoulder_ri
+1089	stairs_run_up_blendspace
+1090	cautious_clear_slice_to_opp_end
+1091	td_sdr_com_melee_takedown01_attackerwins_early_defender_6_04,surface
+1092	active6
+1093	ragdollsloperecovery_back_2
+1094	ps_wfoly_plr_pi_papa220_akimbo_l_empty_inspect_02
+1095	pistol rechamber
+1096	death_crouching_cover_right
+1097	live_ragdoll_can_recover
+1098	6_back
+1099	ps_exec_gore_blood_drip,j_ankle_ri
+1100	ps_hm_grnd_melee02_defender_wins_att_03
+1101	7run_exitfull
+1102	vehicle_idle_to_combat_react_to_player
+1103	forward_8
+1104	ik_fingers_in_start_left_hand
+1105	fast_feet_apart_4_to_8
+1106	run_should_arrive_cover_left_lean
+1107	ps_iw9_ledgehang_gear_mantle_over
+1108	right8rjog
+1109	shuffle_left_to_cover_stand
+1110	r_gun_left_look_right
+1111	l_gun_left_look_right
+1112	8fast_exitfull
+1113	run_should_arrive_cover_left_crouch
+1114	fx_playfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_arms, j_shoulder_le
+1115	td_sdr_com_melee_takedown01_defwins_attacker_6_06,surface
+1116	exposed_crouch_revive_back_final
+1117	7run
+1118	weap_1911_fast_end_plr
+1119	patrol_drinking_death
+1120	jup_execution_first_person_002
+1121	fx_stopfxontag, vfx/iw9/executions/vfx_exec_head_dismember, j_head
+1122	detach_clip_left
+1123	patrol_react_lookaround_fl
+1124	Want to cover change
+1125	blackhole_pulled_off
+1126	fx_playfxontag, vfx/iw9/executions/vfx_exec_blood_splatter.vfx, j_helmet
+1127	pass_from_exposed_prone
+1128	patrol_rail_look_over_react
+1129	death_generic_anim
+1130	exposed_stand_to_crouch
+1131	fx_playfxontag, vfx/iw9/executions/vfx_exec_knife_stab_playonknife, j_gun
+1132	ps_hm_grnd_melee02_defender_wins_def_03
+1133	lkpanimtype
+1134	burn_vfx_pain_start_leg_l
+1135	finish early
+1136	waitForLKPAnimFinished
+1137	pain_cover_crouch_exposed_right_trans
+1138	6fast_exitfull
+1139	weap_m4_reload_gl_lift_plr
+1140	patrol_scratching_death
+1141	patrol_sitting_cellphone_react
+1142	exposed_crouch_revive_belly
+1143	vehicle_idle_death
+1144	custom_arrival_change_asm
+1145	cover_crouch_hide_to_lean
+1146	walk_mantle_up_sm_90r
+1147	3run
+1148	WarpFacePath
+1149	jog_mantle_over_down_lg_90l
+1150	ps_exec_crowbar_imp,j_spinelower
+1151	8r
+1152	6l
+1153	60
+1154	2l
+1155	20
+1156	cover_prone_lmg_to_pistol_exposed
+1157	weap_p226_chamber_plr
+1158	live_ragdoll_recover_slopes_rightside_3
+1159	fx_stopfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee.vfx, j_hipholster_le
+1160	he_was_just_here_dialog
+1161	8x8
+1162	rarm
+1163	weapon_drop
+1164	execution_animal_000
+1165	ps_exec_gun_drop
+1166	finished
+1167	rightfoot_strafe_9_fast_6
+1168	military_point2
+1169	stairs_walk_up_arrival
+1170	shuffle3
+1171	reveal_out
+1172	exposed_idle_react_newenemy
+1173	walk_jump_across
+1174	death_cover_right_crouch
+1175	ragdollsloperecovery_rightside_4
+1176	generic_human_strafe_start
+1177	8rfast_exitfull
+1178	walk1
+1179	leftfoot_strafe_9_slice_3
+1180	melee_sldr_vs_zom_att_lose_abort_pass
+1181	face_enemy
+1182	slopes_leftside_2
+1183	burn_vfx_pain_start_arm_r
+1184	ps_wfoly_pi_reload_npc_charge
+1185	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_head_blood, j_head
+1186	train_crouch_b
+1187	cover_stand_high_lmg_reload
+1188	pass_from_cover_conceal
+1189	fast_foot_l_forward_2_to_4
+1190	mantle_vestheavy_plr_32over
+1191	weap_mike4_reload_fast_magout_plr
+1192	td_sdr_com_melee_takedown03_attackerwins_early_attacker_8_01,cloth
+1193	ai_iw9_move_pstl_locomotion
+1194	door
+1195	pain_popup_stand
+1196	ps_mp_execution_animal_000_dog_prone_01
+1197	ps_exec_katana_stab,j_shoulder_le
+1198	t10_lasers_strelok_ar_coslo
+1199	patrol_cellphone_loop
+1200	td_sdr_com_melee_takedown01_attackerwins_early_attacker_2_03,cloth
+1201	tag_investigator_1
+1202	sit_pistol_clean_react
+1203	exit1walk
+1204	pain_flashed
+1205	jog6l
+1206	run_should_arrive_cover_crouch
+1207	exit4sprint
+1208	whizby7
+1209	ps_exec_bullet_ricochet,tag_weapon_right
+1210	generic_human_stairs_up
+1211	2rfast_from_strafe_6
+1212	leftfoot_strafe_8_slice_2
+1213	secondary
+1214	cover_right_lean_shoot_single
+1215	angle deltas
+1216	patrol_stretching_react
+1217	td_sdr_com_melee_takedown03_defwins_early_defender_8_01,cloth
+1218	execution_050
+1219	execution_045
+1220	execution_074
+1221	execution_061
+1222	execution_014
+1223	execution_021
+1224	execution_098
+1225	execution_085
+1226	torso_lg_b
+1227	torso_lg_l
+1228	lleg
+1229	exposed_crouch_crawl_back_final
+1230	alert_react_to_alert_idle
+1231	exposed_stand_revive_r
+1232	jog_step_over
+1233	vehicle_idle_passthrough
+1234	ps_exec_knife_stab,j_neck
+1235	lookatpos_animscripted_default
+1236	execution_victim_stand
+1237	fx_stopfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_arms, j_shoulder_ri
+1238	ragdollsloperecovery_back_6
+1239	ps_exec_gear_mvmt_quick_light,j_head
+1240	helmet_visor_down
+1241	iw9_lm_slima
+1242	4fast_from_strafe_6
+1243	alert_react_aim
+1244	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_stab, j_head
+1245	fast8
+1246	stumble
+1247	forward_4
+1248	alert_arrival
+1249	cover_stand_high_turret_dismount
+1250	optics
+1251	walk3l
+1252	alert_react_lookaround_passthrough
+1253	td_sdr_com_melee_takedown02_defwins_defender_8_02,cloth
+1254	visor_raise
+1255	conceal_crouch_hide_to_lean
+1256	pain_cover_left_stand_expb_to_hide
+1257	Dual Breach Sync
+1258	aim_4
+1259	traverse_warp_over
+1260	alert_react_passthrough_fl
+1261	hp_on
+1262	pain_cover_left_stand_expa
+1263	2rjog_exitfull
+1264	ps_vm_sp_takedown_knife_crouch_left_01_wpn
+1265	stand_suppress
+1266	left7jog
+1267	right9run
+1268	patrol_move_slow
+1269	combat_lookaround_passthrough
+1270	9walk_from_strafe_6
+1271	vehicle_idle_combat_to_lean_passthrough
+1272	2d
+1273	6b
+1274	4l
+1275	4b
+1276	generic_human_cqb_gesture
+1277	curious
+1278	pain_popup_crouch
+1279	exit1shuffle
+1280	fx_playfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_death, j_spine4
+1281	live_ragdoll_recover_slopes_rightside_9
+1282	ps_wfoly_plr_pi_papa220_reload_empty_08
+1283	ps_exec_scrape_quick,j_wrist_le
+1284	ps_exec_gear_mvmt_midlength_light,j_wrist_ri
+1285	rleg
+1286	root
+1287	alert_stairs_up_fl
+1288	turret_aim_3
+1289	always_on_in_death
+1290	rifle_aim_5_interior_intro
+1291	left3sprint
+1292	cap_coverfire
+1293	helmet_visor_down_instant
+1294	curious_arrival
+1295	1shuffle_exitfull
+1296	ps_exec_gore_medium_splat,j_spineupper
+1297	ps_exec_gear_mvmt_midlength_light,j_mainroot
+1298	military_point4
+1299	iw9_sm_victor
+1300	generic_human_strafe_reverse
+1301	ps_exec_gear_mvmt_midlength_light
+1302	hold_position_dialog
+1303	cover_start_to_exp_earlyout
+1304	call_reinforcements_cover_left_stand_finish
+1305	cp_blima_idle
+1306	fx_playfxontag, vfx/iw9/executions/vfx_exec_065_battering_ram_hit_grnd.vfx, j_hip_proc_ri
+1307	6
+1308	walk7
+1309	gundown
+1310	leftfoot_strafe_9_slice_9
+1311	rleg_upper_r
+1312	add_idle
+1313	shoot_settle_sg_half
+1314	cover_right_crouch_b_to_a
+1315	run_forward_up_r
+1316	1walk
+1317	sdr_plant_bomb
+1318	pain_flashed_exposed_stand
+1319	pain_exp_crouch_to_exp_crouch
+1320	td_sdr_com_melee_takedown01_attackerwins_early_defender_6_01,cloth
+1321	cover_right_lean_exit
+1322	alert_investigate_move
+1323	3walk_from_strafe_4
+1324	walk_mantle_down_md_90r
+1325	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp.vfx, j_spine4
+1326	casual_killer_passthrough
+1327	pass_cover_crouch_blindfire
+1328	weap_1911_fast_magout_plr
+1329	off_low
+1330	Reached LKP Random
+1331	vehicle_turret_death
+1332	stairs_casual_gun_walk_up_loop
+1333	default_talking
+1334	cover_left_crouch_exit_to_move_crouch
+1335	call_reinforcements_cover_right_crouch_loop
+1336	1left
+1337	walk_mantle_down_lg_90l
+1338	7walk_exitfull
+1339	pushed_4
+1340	cover_left_look_to_hide
+1341	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, j_helmet
+1342	vortexispulled
+1343	custom_idle
+1344	alert_move_react_aim
+1345	to_cover_right
+1346	weap_mike4_reload_empty_magin_plr
+1347	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_proc_spine4
+1348	alert_investigate_turn
+1349	ht_off
+1350	trans
+1351	pain_burning_exposed_stand
+1352	execution_058
+1353	execution_027
+1354	execution_029
+1355	execution_036
+1356	execution_005
+1357	patrol_move_react
+1358	fingers_in_start_right_hand
+1359	pass_cover_left_crouch_move_shuffle
+1360	a_to_b
+1361	exposed_stand_revive_l
+1362	cover_trans
+1363	stand_run_reload
+1364	phase_marker_50
+1365	fx_killfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throat.vfx, j_neck
+1366	fx_stopfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_arms, j_shoulder_le
+1367	assess
+1368	being_revived_loop
+1369	Final_Sync
+1370	exposed_crouch_crawl_belly
+1371	fast2
+1372	fast_feet_apart_4_to_6
+1373	walk1l
+1374	smtobj_pain_pass
+1375	dying_crawl_done
+1376	live_ragdoll_recover_slopes_stomach_3
+1377	pass_exposed_stand_idle_to_cover
+1378	cellphone
+1379	hide_to_look
+1380	left3jog
+1381	t10_bar_pi_p13
+1382	hide,j_pin
+1383	cqb_stand_loop
+1384	evt_gala_civ_idle_4_steps_03
+1385	rocketlauncher_aim_5_active_combat
+1386	ai_iw9_move_locomotion_prone_start
+1387	cover_right_crouch_over_look
+1388	zombie_combat_react_passthrough
+1389	hit_9_lower
+1390	warmachine_shoot
+1391	in
+1392	90
+1393	6c
+1394	4c
+1395	2e
+1396	ps_vm_sp_takedown_knife_front_04_wpn_b
+1397	2walk
+1398	warp_exit_end
+1399	heartbeatsuperlight
+1400	pass_cover_right_crouch_multi
+1401	shuffle_feet_apart_6_to_8
+1402	live_ragdoll_recover_slopes_rightside_8
+1403	alert_move_to_patrol_move
+1404	ps_wfoly_plr_pi_papa220_reload_empty_07
+1405	cover_left_peek
+1406	alert_react_lookaround
+1407	ps_vm_sp_takedown_knife_front_03_bodyfall
+1408	smartobject_finished
+1409	pass_grenade_use_override_pos_cover_right
+1410	6_l
+1411	fast_mantle_down_md
+1412	fast_mantle_down_72
+1413	lowerbody_r_md_2
+1414	stairs_run_up_exit
+1415	3sprint
+1416	turret_aim_2
+1417	generic_human_aim_crouch_lmg
+1418	cautious_wide_slice_start_end
+1419	ps_exec_087_stand_dropfoley,j_mainroot
+1420	crawl_long_death
+1421	fx_playfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee, j_knee_le
+1422	9jog
+1423	t10_mag_ar_p01
+1424	2_crouch
+1425	cover_stand_final
+1426	fx_playfxontag, vfx/iw9/executions/vfx_exec_058_blood_pool.vfx, j_spineupper
+1427	left8rsprint
+1428	cqb_hunt_exit
+1429	cover_crouch_to_shuffle_l
+1430	cover_stand_lmg_dismount
+1431	pain_shocked_cover_right_stand_recover
+1432	conceal_crouch_hide_to_aim
+1433	weap_mike4_reload_fast_magin_plr
+1434	7
+1435	walk6
+1436	leftfoot_strafe_9_slice_8
+1437	fx_stopfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_shoulder_le
+1438	pain_cover_left_lean_anim
+1439	ps_exec_gun_rattle_heavy,j_wrist_ri
+1440	right_stand
+1441	aim_9pt_blend
+1442	Waiting_For_Reviver
+1443	fast_jump_across
+1444	ps_exec_step_right,j_ankle_ri
+1445	conceal_crouch_look_to_hide
+1446	caps\interactions\cap_door_breach
+1447	left8rfast
+1448	exposed_grenade
+1449	jog_mantle_up_sm_90r
+1450	walk_mantle_up_md_90r
+1451	exit3jog
+1452	Cover Stand LMG
+1453	ps_exec_bodyfall_swt_hands,j_wrist_ri
+1454	l_look_right
+1455	3fast_from_strafe_6
+1456	td_sdr_com_melee_takedown01_defwins_attacker_2_02,cloth
+1457	jog9l
+1458	jog3l
+1459	cover_left_to_exp_earlyout
+1460	ps_exec_gore_heavy_splat,j_shoulder_le
+1461	jog_hard_lean_left
+1462	l_gun_right_gun_left
+1463	traverse_warp_up_arrival
+1464	exposed_scramble_exit
+1465	iw9_ar_kilo53_sp
+1466	leftfoot_strafe_8_slice_9
+1467	right_solo_active
+1468	t10_extclip02_ar
+1469	throw_short
+1470	fast_mantle_over_up_md_90r
+1471	iw9_player_scriptable_sp
+1472	ps_vm_sp_takedown_pistol_right_01_mvmt
+1473	iw9_lm_dblmgjailer
+1474	caps/interactions/cap_coverfire_volunteer
+1475	patrol_move_react_passthrough
+1476	2shuffle_exitfull
+1477	Finished Using Armor Plate
+1478	pain_flashed_cover_stand
+1479	ps_wfoly_plr_pi_papa220_reload_empty_fast_06
+1480	execution_059
+1481	execution_037
+1482	execution_028
+1483	execution_026
+1484	execution_004
+1485	traverse_warp_external
+1486	ps_exec_gear_mvmt_brush,j_mainroot
+1487	weap_m4_reload_gl_magin_plr
+1488	cover_left_exposed_b
+1489	cover_stand_lmg_deploy
+1490	td_sdr_com_melee_takedown01_defwins_early_defender_8_02,cloth
+1491	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_stab, j_neck
+1492	2rshuffle
+1493	ps_vm_sp_takedown_pistol_back_01_wpn
+1494	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_chest_stab.vfx, j_spine4
+1495	right6run
+1496	locomotion_leans
+1497	Cover Crouch LMG
+1498	cigarette_detach_right
+1499	exposed_crouch_crawl_right_final
+1500	fast3
+1501	vehicle_combat_change_seats
+1502	cover_right_crouch_hide_to_over_look
+1503	WEAPON VIOLENCE GUN
+1504	patrol_radio_intro
+1505	ai_iw9_move_locomotion_slopes
+1506	walk8l
+1507	walk4l
+1508	walk2b
+1509	shoot_additives_lmg_prone
+1510	cover_left_cr_to_exp_cr_earlyout
+1511	check_critical_window
+1512	attach_left
+1513	live_ragdoll_recover_slopes_stomach_2
+1514	ps_sdr_com_melee_takedown01_attackerwins_early_defender_4_01
+1515	pain_lmg_or_turret_crouch
+1516	aimset_exposed_crouch
+1517	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_hip_ri
+1518	aim_cornercrl_lean
+1519	death_ground_turret
+1520	comehere_4
+1521	parachute_land_pass
+1522	ps_exec_bodyfall_swt_head,j_mainroot
+1523	ps_exec_gore_medium_splat,j_spinelower
+1524	fingers_out_end_left_hand
+1525	left7shuffle
+1526	ps_vm_sp_takedown_knife_left_03_bodyfall
+1527	hp_on_pos
+1528	alert_arrival_fl
+1529	t10_lasers_mixlaser2_ar_coslo
+1530	evt_gala_civ_idle_4_steps_02
+1531	walk_jump_over_drop_90r
+1532	ps_exec_punch_full,j_head
+1533	t10_acog_fourx02_west
+1534	weap_shotattach_chamber_plr
+1535	exposed_grenade_short
+1536	move_crouch_to_cover_right_crouch_arrival
+1537	ps_exec_gear_mvmt_long_heavy,j_spinelower
+1538	ps_wfoly_plr_pi_papa220_reload_fast_xmag_01
+1539	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit_blood_prone.vfx, j_head
+1540	cover_left_crouch_hide_over_peek
+1541	ps_exec_gore_squish_long,j_mainroot
+1542	rightfoot_strafe_8_fast_7
+1543	exposed_crouch_revive_crawl_l
+1544	exposed_crouch_revive_crawl_r
+1545	execution
+1546	patrol_move_putaway_flashlight_check
+1547	interactions/use_armor_plate_solo
+1548	8lfast_exitfull
+1549	pain_shocked_cover_crouch_recover
+1550	cautious_clear_quick_enter_end
+1551	fx_playfxontag, vfx/iw9/executions/vfx_exec_097_witch_magic_hit.vfx, j_knee_ri
+1552	ps_exec_knife_swing,j_wrist_ri
+1553	support_to_door
+1554	trans_to_cover_left
+1555	fast8l
+1556	molotov_crouch_f
+1557	jog_mantle_over_down_md_90l
+1558	pain_flashed_cover_right_stand
+1559	exit6fast
+1560	leftfoot_strafe_9_fast_3
+1561	pain_add
+1562	pain_run
+1563	ps_wfoly_plr_pi_papa220_inspect_01
+1564	curious_move_pass
+1565	patrol_custom_end
+1566	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_head
+1567	shoot_lean_sniper_settle_full
+1568	Death Passthrough
+1569	fx_stopfxontag, vfx/iw9/executions/vfx_exec_066_taser_chest_smk, j_spine4
+1570	crouch_shuffle_left
+1571	pass_grenade_use_override_pos_exposed_prone
+1572	leftfoot_strafe_8_fast_6
+1573	ps_melee_takedown_knife_stab_release_long
+1574	ragdollsloperecovery_leftside_9
+1575	patrol_react_aim
+1576	conceal_stand
+1577	Exposed Prone
+1578	MotionWarpNoteStart
+1579	fx_stopfxontag, vfx/iw9/executions/vfx_exec_058_blood_pool.vfx, tag_origin
+1580	ik_fingers_out_end_left_hand
+1581	hit_7_head
+1582	ps_wfoly_plr_pi_golf17_raise_first_02
+1583	ps_exec_grab_pull
+1584	death_melee_ragdoll_delayed
+1585	ground_turret_mount
+1586	pain_lmg_prone_default
+1587	t10_bar_range_ar_coslo
+1588	ps_wpn_coslo723_reload_selectsemi_off_plr
+1589	call_reinforcements_start
+1590	_aim_5
+1591	legs_lg_b
+1592	exit2fast
+1593	t10_bar_mixbarrel_ar
+1594	evt_gala_civ_idle_2_steps_01
+1595	cover_left_exit
+1596	fx_playfxontag, vfx/iw9/executions/vfx_exec_066_taser_chest_smk, j_spine4
+1597	long_death_mercy
+1598	ps_jup_exec_cp_swing
+1599	ladder_aim_drop
+1600	ps_iw9_raise_first_knife_plr
+1601	ps_dmz_pyro_boss_molotov_left_leg_dance_01
+1602	ps_exec_bodyfall_swt_body,j_shoulder_ri
+1603	blackhole_pulled
+1604	ps_exec_baton_impact_body
+1605	weapon_offset_custom_strafe
+1606	fast_mantle_over_down_md_90r
+1607	Cover Left
+1608	weap_hybrid_toggle_off_plr
+1609	conceal_stand_look
+1610	melee_contact_upper
+1611	shockstickvfx
+1612	decidedyingcrawl
+1613	rightfoot_strafe_9_slice_6
+1614	left_2
+1615	stand_strafe_arrival
+1616	ps_exec_scrape_quick,j_mainroot
+1617	iw9_lm_kilo21
+1618	fast_foot_r_forward_2_to_6
+1619	long_death_grenade
+1620	cover_left_crouch_blindfire
+1621	curious_to_alert_passthrough
+1622	shuffle_hard_lean_left
+1623	face_enemy_end
+1624	weapon_offset_strafe
+1625	changingcover
+1626	cover_left_crouch_to_shuffle
+1627	cover_right_stand_to_cover_left_stand
+1628	right6sprint
+1629	ps_wfoly_plr_pi_papa220_akimbo_r_inspect_02
+1630	left8walk
+1631	clear_lkp_two_members
+1632	conceal_crouch_hide_to_stand
+1633	patrol_exit_fl
+1634	ground_turret_dismount
+1635	patrol_smoking_intro
+1636	foostep_left_small
+1637	left8lwalk
+1638	start_aim
+1639	direct_point_8_4
+1640	direct_point_2_4
+1641	direct_point_6_2
+1642	small_2r
+1643	num_members
+1644	pain_cover_right_stand_anim_to_cover_right_stand
+1645	ps_wfoly_plr_pi_papa220_reload_fast_05
+1646	talk_enemy_anims
+1647	ps_wfoly_plr_pi_fidget_small
+1648	contact
+1649	ps_wfoly_plr_pi_papa220_raise_01
+1650	cover_right_reload
+1651	patrol_humming_end
+1652	exposed_stand_revive_shoot_final
+1653	idle_1
+1654	patrol_wall_lean_end
+1655	2rfast_exitfull
+1656	jog_jump_over_drop_90r
+1657	ps_dmz_pyro_boss_molotov_right_leg_dance_02
+1658	cover_right_crouch_hide_to_a
+1659	attach clip left
+1660	ps_exec_knife_stab,j_spineupper
+1661	ps_sdr_com_melee_takedown03_attackerwins_attacker_8_02
+1662	exposed_crouch_crawl_right
+1663	coverme_center_crouch
+1664	fx_stopfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_knee_ri
+1665	hp_o
+1666	fast_jump_over_drop_90l
+1667	shoot_additives_rifle_right_crouch
+1668	4jog
+1669	2ljog_exitfull
+1670	weap_m4_fast_gl_magin_plr
+1671	ps_exec_katana_pull,j_spineupper
+1672	alert_examine_arrival
+1673	being_revived_intro
+1674	cover_right_b_to_hide
+1675	jog8
+1676	6fast_from_strafe_6
+1677	gun_down_crouch_rpg
+1678	ps_exec_vo_pain
+1679	ps_wfoly_plr_pi_papa220_reload_empty_xmag_02
+1680	ScriptNotify
+1681	jog_vault_over_lg
+1682	fast_mantle_up_lg_90r
+1683	trans_exposed_crouch_to_cover_left
+1684	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_spinelower
+1685	query_key
+1686	strafe_exit
+1687	melee_upper_push
+1688	ps_exec_kalisticks_impact,j_head
+1689	weap_mike4_reload_empty_chamber_plr
+1690	coverme_center_crouch_2
+1691	pass_run_should_arrive_cover_right_crouch
+1692	right3sprint
+1693	on
+1694	8c
+1695	2c
+1696	can_recover
+1697	support_arrived
+1698	rleg_lower_f
+1699	ps_wpn_coslo723_reload_end_plr
+1700	lean_to_hide
+1701	longshuffle
+1702	cover_left_crouch_lean
+1703	fx_playfxontag, vfx/iw9/executions/vfx_exec_knife_stab_neg_y, j_clavicle_le
+1704	fast_mantle_down_xlg_90l
+1705	td_sdr_com_melee_takedown03_defwins_early_attacker_8_03,surface
+1706	right8lwalk
+1707	td_sdr_com_melee_takedown01_attackerwins_early_attacker_2_02,cloth
+1708	hide_vest
+1709	execution_animal_003
+1710	weap_1911_first_raise_plr
+1711	ps_exec_gore_bone_break_snap,j_neck
+1712	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_spineupper
+1713	pistol_aim_5_active_combat
+1714	ps_sdr_com_melee_takedown01_attackerwins_attacker_2_03
+1715	ps_vm_sp_takedown_pistol_front_01_bodyfall
+1716	hit_6_head
+1717	sprint_hard_lean_left
+1718	trans_to_conceal_crouch
+1719	ps_exec_gore_blood_squirt,j_spineupper
+1720	smartobject_intro
+1721	weap_m4_ads_to_gl_plr
+1722	anim_pose = feet_apart
+1723	2rrun_exitfull
+1724	concussion_rifle_shoot
+1725	vehicle_idle_to_whizby_idle_passthrough
+1726	8x10
+1727	iw9_dm_sbeta
+1728	shuffle4
+1729	pass_run_code_move
+1730	iw9_br_soscar14
+1731	death_prone_default
+1732	ragdollsloperecovery_rightside_7
+1733	aimset_cornercrl_lean
+1734	default_headlook
+1735	iw9_dm_xmike2010
+1736	bodyfall_small
+1737	slopes_leftside_1
+1738	pain_popup_recover_b
+1739	pain_popup_recover_l
+1740	6walk_from_strafe_6
+1741	alert_idle_to_patrol_idle
+1742	walk_vault_over_md_90l
+1743	walk_vault_over_md_90r
+1744	pain_cover_left_stand_expb_anim
+1745	td_sdr_com_melee_takedown01_defwins_early_defender_4_02,cloth
+1746	right6walk
+1747	feet_together
+1748	iw9_sm_beta
+1749	skydivevfx
+1750	walk_foot_l_forward_2_to_8
+1751	walk_foot_l_forward_2_to_6
+1752	gun_2_chest
+1753	live_ragdoll_landed
+1754	pass_change_move_type
+1755	launch
+1756	force_lookaround_cleanup
+1757	iw9_sh_mbravo
+1758	trans_exposed_crouch_to_cover_right
+1759	ps_mp_execution_animal_000_dog_prone_02
+1760	larm_lg_b
+1761	movingToDyingGuy
+1762	ps_exec_gear_mvmt_quick_light,j_wrist_le
+1763	7fast_exitfull
+1764	cover_stand_lmg
+1765	t10_stocks_flinch_ar_coslo
+1766	aim_cornerstndr_lean
+1767	ps_exec_hyena_laugh
+1768	ps_exec_baton_impact_body_light,j_hip_ri
+1769	ps_weap_golf17_fire_plr_fcg
+1770	cover_right_switchweapon
+1771	ps_exec_vo_cough,j_head
+1772	jog_hard_lean_fwd
+1773	walk_feet_together_6_to_8
+1774	smg_aim_5_active_combat
+1775	whizby4
+1776	8lrun_exitfull
+1777	run_should_arrive_exposed_moving
+1778	cautious_shallow_corner_check
+1779	ps_vm_sp_takedown_knife_front_04_mvmt
+1780	cover_prone_lmg
+1781	leftfoot_strafe_8_slice_1
+1782	door_open
+1783	4walk_exitfull
+1784	knobs
+1785	lmg_pickup
+1786	footstep_left_small_vfxonly
+1787	fx_playfxontag, vfx/iw9/core/weapons/impacts/mtx/jacko_s6/vfx_imp_mtx_jacko_fatal.vfx, j_wrist_le
+1788	interruptible
+1789	detach
+1790	annihilate
+1791	execution_086
+1792	execution_088
+1793	execution_066
+1794	execution_046
+1795	execution_077
+1796	execution_079
+1797	execution_057
+1798	execution_013
+1799	cover_crouch_wildfire
+1800	exit6walk
+1801	land
+1802	cover_left_crouch_blindfire_passthrough
+1803	reveal_in
+1804	iw9_la_rpapa7
+1805	phase_marker_75
+1806	vehicle_whizby_idle
+1807	ragdollsloperecovery_back_1
+1808	patrol_idle_randomizer
+1809	run_n_gun_soft_right
+1810	forward_7
+1811	walk2l
+1812	walk6l
+1813	left1run
+1814	right3jog
+1815	8rwalk
+1816	custom_patrol_react_passthrough
+1817	live_ragdoll_recover_slopes_stomach_8
+1818	fast_vault_over_sm_90l
+1819	right_door_arrival
+1820	conceal_crouch_hide_to_look
+1821	Conceal Stand
+1822	ground_turret_pain_back
+1823	left3run
+1824	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_knee_le
+1825	footstep_right_small
+1826	ps_exec_gore_blood_squirt,j_mainroot
+1827	aim_7
+1828	vehicle_pain_idle_passthrough
+1829	cover_left_arrival
+1830	shortwalk
+1831	8rrun
+1832	exposed_assess
+1833	pass_cover_right_crouch_shuffle
+1834	right_arm
+1835	pain_shocked_cover_stand
+1836	custom_arrival
+1837	pass_from_exposed_idle_2
+1838	cover_right_arrival
+1839	calculate_traverse_type
+1840	rocketlauncher
+1841	react_earlyout_fl_grenadeavoid
+1842	leftfoot_strafe_7_fast_3
+1843	rightfoot_strafe_8_fast_1
+1844	pain_lg
+1845	exposed_stand_crawl_left_final
+1846	avoid_right
+1847	AI On Standby
+1848	back_6
+1849	back_8
+1850	ps_vm_sp_takedown_pistol_right_02_mvmt
+1851	lleg_upper_b
+1852	fast4l
+1853	ps_exec_058_prone_sword_pull_gore,j_spineupper
+1854	molotov_crouch_l
+1855	molotov_crouch_r
+1856	loop_end
+1857	ps_wfoly_plr_pi_golf17_reload_06
+1858	active_arrived
+1859	evt_gala_civ_idle_2_foley_01
+1860	rarm_upper_b
+1861	evt_gala_civ_idle_3_foley_02
+1862	spplayerscriptabledef
+1863	fx_playfxontag, vfx/iw9/executions/vfx_exec_58_sword_neck_slash, j_head
+1864	curious_react_aim
+1865	patrol_idle_curious
+1866	death_train_crouching
+1867	ps_exec_impact_body_full,j_head
+1868	pain_cover_right_crouch_expb_anim
+1869	live_ragdoll_recover_slopes_leftside_2
+1870	ragdollsloperecovery_leftside_1
+1871	pass_cover_right_moverequested
+1872	blade_show
+1873	2sprint_exitfull
+1874	patrol_react_end
+1875	corrective_offset
+1876	running_forward_8
+1877	anim_pose = prone
+1878	death_cover
+1879	vehicle_idle_combat_to_hide_passthrough
+1880	pain_cover_right_lean_anim
+1881	grenade_calculate_override_pos_cover_stand
+1882	td_sdr_com_melee_takedown01_defwins_attacker_2_04,surface
+1883	pass_grenade_use_override_pos_cover_right_crouch
+1884	ps_exec_bodyfall_swt_head,j_head
+1885	left_leg
+1886	7walk_from_strafe_6
+1887	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, tag_eye
+1888	death_blackhole
+1889	ps_exec_scrape_quick,j_elbow_le
+1890	pass_l_foot_down
+1891	run3l
+1892	run3r
+1893	ps_sdr_com_melee_takedown02_attackerwins_early_defender_8_03
+1894	death
+1895	speed_max
+1896	td_sdr_com_melee_takedown01_defwins_early_attacker_8_03,cloth
+1897	Moving_To_Dying_Guy
+1898	stumble_run
+1899	lean_3
+1900	cp_last_known_position
+1901	alert_idle_fl_trans_react_pass_fixup
+1902	4right
+1903	iw9_sm_papa90
+1904	exit3shuffle
+1905	weap_m4_reload_gl_magout_plr
+1906	conceal_stand_arrival
+1907	pain_cover_right_stand_expa_to_hide
+1908	execution_attacker
+1909	mp_exfil_blima_pullup_crew_getin_r_1
+1910	sdr_com_custom_pose_cover_crouch
+1911	cover_left_crouch_to_cover_right_crouch
+1912	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_hip_le
+1913	fast_vault_over_md
+1914	end_double_jump
+1915	ps_wfoly_plr_pi_papa220_akimbo_r_inspect_08
+1916	ik_fingers_l
+1917	right_left
+1918	crouch_back
+1919	cover_right_crouch_hide_to_look
+1920	larm_upper_f
+1921	move_in_dialog
+1922	warp_up_end
+1923	minigun_shoot_idle
+1924	beckon4
+1925	ps_wfoly_plr_pi_papa220_reload_empty_fast_xmag_07
+1926	direct_point_6_8
+1927	direct_point_4_2
+1928	trans_to_cover_right_crouch
+1929	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_elbow_ri
+1930	crouch_world_ref_slopes
+1931	scared
+1932	camo_b_02
+1933	camo_b_11
+1934	jog_vault_over_lg_90l
+1935	jog_vault_over_lg_90r
+1936	ps_wfoly_plr_pi_papa220_akimbo_r_empty_inspect_02
+1937	jog_jump_over_drop_90l
+1938	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward.vfx, tag_shield_back
+1939	ps_vm_sp_takedown_enemy_pain_muffled,j_head
+1940	fx_stopfxontag, vfx/iw9/executions/vfx_exec_087_head_blood, j_head
+1941	cover_passthrough
+1942	left2run
+1943	death_standing_cover_right
+1944	pass_r_strafe_to_run
+1945	1shuffle
+1946	pistol_pickup
+1947	ragdollsloperecovery_stomach_6
+1948	pain_exposed_crouch_arrival
+1949	patrol_react_to_patrol_idle_end
+1950	warmachine_shoot_idle
+1951	sdr_com_custom_pose_cover_left_stand
+1952	pain_popup_b
+1953	slopes_locomotion
+1954	j_ball_le
+1955	j_ball_ri
+1956	cover_lmg_arrival_pass
+1957	cover_right_look
+1958	r_look_right_gun_left
+1959	iw9_ar_schotel
+1960	walk_mantle_up_sm
+1961	9walk
+1962	SetGoalPos_Primary
+1963	8jog_exitfull
+1964	pain_cover_left_stand_torso_to_cover_left_stand
+1965	td_sdr_com_melee_takedown01_defwins_defender_4_01,cloth
+1966	vehicle_reload_scrub
+1967	ai_iw9_move_locomotion
+1968	live_ragdoll_recover_slopes_back_3
+1969	patrol_radio_end
+1970	aim_to_hide
+1971	9walk_from_strafe_4
+1972	ps_cp_generic_pickup_stash_small
+1973	8l
+1974	40
+1975	7shuffle_exitfull
+1976	ps_exec_gore_blood_drip,j_mainroot
+1977	ps_exec_gore_blood_headshot,j_hipholster_le
+1978	ps_vm_sp_takedown_knife_front_04_wpn_a
+1979	r_look_left
+1980	cautious_corner_stepout
+1981	leader_stop
+1982	shoot_single_sniper
+1983	stairs_run_down_loop
+1984	ps_exec_gun_hit_heavy,j_wrist_le
+1985	ps_wpn_coslo723_reload_empty_mag_out_plr
+1986	cover_left_stand_to_shuffle_pass
+1987	coverme_center_stand
+1988	ps_jup_exec_cp_stab
+1989	weap_hybrid_flip_scope_on_plr
+1990	hit_6_lower
+1991	rocketlauncher_aim_5_cmbtrdy_calm
+1992	patrol_radio_react
+1993	exposed_stand_revive_belly
+1994	leanover
+1995	slopes_exposed_crouch
+1996	rightfoot_strafe_9_fast_2
+1997	fast_mantle_down_sm_90r
+1998	iw9_lm_dblmg_mp
+1999	military_point6
+2000	wildfire
+2001	footstep_right_small_vfxonly
+2002	on_user_removed
+2003	beckon
+2004	4
+2005	leftfoot_strafe_9_slice_7
+2006	grenade_calculate_override_pos_cover_left_crouch
+2007	slopes_leftside_8
+2008	slopes_leftside_6
+2009	rleg_upper_l
+2010	burn_vfx_pain_start_arm_l
+2011	vehicle_pain_combat
+2012	ps_exec_shocker_shocked,j_shoulder_le
+2013	iw9_dm_scromeo
+2014	strafe_aim_change_finish
+2015	exposed_casual_gun_exit
+2016	fire_settle_full
+2017	down
+2018	Cover Left Crouch
+2019	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_z_forward, j_helmet
+2020	3walk_from_strafe_6
+2021	ps_mp_execution_animal_000_dog_prone_05
+2022	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_shoulder_ri
+2023	4_back
+2024	exposed_prone_to_crouch
+2025	long_death_grenade_pull
+2026	ps_exec_hand_grab_head,j_head
+2027	exposed_crouch_grenade
+2028	pass_move_crouch_should_arrive
+2029	alert_move_fl_to_combat_move_end
+2030	stairs_walk_down_exit
+2031	t10_mags_extclip3_ar_coslo
+2032	jog8l
+2033	soldier_scriptable_base
+2034	heartbeat
+2035	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_elbow_ri
+2036	pass_right
+2037	gun_down_stand_rpg
+2038	cover_right_crouch_exposed_drop_rpg_a
+2039	pushed_2
+2040	shoot_single_rpg
+2041	leftfoot_strafe_8_slice_6
+2042	end_jump
+2043	cover_right_crouch_wildfire
+2044	suppressed
+2045	attack
+2046	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward.vfx, tag_shield_back
+2047	conceal_stand_peek
+2048	right4jog
+2049	ps_wfoly_plr_pi_papa220_reload_empty_fast_01
+2050	pain_cover_left_stand_anim_to_cover_left_stand
+2051	shortjog
+2052	execution_007
+2053	execution_018
+2054	execution_025
+2055	execution_030
+2056	execution_070
+2057	execution_081
+2058	cover_crouch_hide_to_right
+2059	cover_crouch_switchweapons
+2060	cover_left_exposed_a
+2061	ps_sdr_com_melee_takedown02_defwins_early_attacker_8_01
+2062	8fast_from_strafe_6
+2063	max_speed
+2064	grenade_calculate_override_pos_cover_right
+2065	ragdollsloperecovery_back_8
+2066	death_train_standing
+2067	pain_burning_cover_right_stand
+2068	ps_wfoly_plr_pi_papa220_akimbo_l_empty_inspect_04
+2069	cover_right_stand_final
+2070	exec_victim_weapon_hide
+2071	pass_cover_crouch_moverequested
+2072	cover_right_crouch_switchweapon
+2073	small_6
+2074	small_8
+2075	left8lrun
+2076	fast4
+2077	cover_right_crouch_hide_to_over_lean
+2078	ps_exec_gun_hit_heavy,tag_weapon_right
+2079	walk1r
+2080	walk3r
+2081	walk9l
+2082	exposed_stand_crawl_shoot_final
+2083	ps_exec_gear_mvmt_long_light,j_ankle_le
+2084	shoot_additives_rifle_left
+2085	cover_crouch_exit_to_move_crouch
+2086	shoot_lean_shield_settle_half
+2087	live_ragdoll_recover_slopes_stomach_1
+2088	stealth_idle
+2089	mediumrun
+2090	dialog
+2091	warp_exit_start
+2092	patrol_arrival
+2093	patrol_to_custom_arrival_pass
+2094	td_sdr_com_melee_takedown01_defwins_defender_6_01,cloth
+2095	fx_playfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_arms, j_shoulder_ri
+2096	grenade cower
+2097	pass_change_move_type_combat
+2098	cover_left_crouch_exposed_right
+2099	pass_run_should_arrive_cover_right
+2100	sdr_com_pi_alert_rotate
+2101	cautious_clear_start_end
+2102	6jog
+2103	hit_1_midbody
+2104	evt_gala_civ_idle_4_steps_01
+2105	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_stab_ballistic_neck.vfx, j_head
+2106	ai_freefall
+2107	ps_exec_gear_mvmt_quick_heavy,j_wrist_le
+2108	left_door_arrival
+2109	walk_mantle_up_sm_90l
+2110	ps_vm_sp_takedown_knife_crouch_back_01_bodyfall
+2111	ps_exec_gun_hit_light,j_wrist_ri
+2112	ps_sdr_com_melee_takedown01_attackerwins_attacker_4_03
+2113	shuffle2b
+2114	slopes_rightside_2
+2115	right8run
+2116	exposed_right
+2117	pain_cover_stand_default
+2118	patrol_smoking_react
+2119	ledge
+2120	left4
+2121	rightfoot_strafe_8_slice_4
+2122	cover_left_crouch_over_look
+2123	full exposed
+2124	cover_stand_full_exposed
+2125	left8fast
+2126	reviving_intro
+2127	exposed_crouch_crawl_belly_final
+2128	ps_exec_bodyfall,j_mainroot
+2129	run
+2130	swap
+2131	ps_iw9_raise_knife_plr
+2132	jog_mantle_over_up_md_90r
+2133	ps_iw9_weap_knife_inspect_01a
+2134	ps_iw9_weap_knife_inspect_02b
+2135	cover_stand_turret_deploy_pass
+2136	ps_sdr_com_melee_takedown01_defwins_early_defender_4_01
+2137	patrol_custom_intro
+2138	pistol_aim_5_cmbtrdy_calm
+2139	pain_shocked_exposed_prone_recover
+2140	left6sprint
+2141	pain_cover_right_end
+2142	cover_crouch_lmg_pass
+2143	death_crouching
+2144	exposed_crouch_turn_pass
+2145	cautious_clear_finish
+2146	ps_exec_gun_rattle_heavy
+2147	patrol_custom_init_pass
+2148	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp,
+2149	conceal_stand_full_exposed
+2150	fingers_out_start_right_hand
+2151	iw9_sn_mromeo
+2152	cover_crouch_aim_to_hide
+2153	ps_exec_impact_body_full,j_mainroot
+2154	get_in_vehicle
+2155	iw9_ar_scharlie
+2156	2lwalk_exitfull
+2157	left2sprint
+2158	stand_run_strafe_loop
+2159	2rwalk_from_strafe_4
+2160	rightfoot_strafe_7_slice_9
+2161	fx_playfxontag, vfx/iw9/executions/vfx_exec_058_blood_pool.vfx, j_neck
+2162	cover_right_crouch_right_to_hide
+2163	exit1jog
+2164	Early_Revived_Success
+2165	early_revived_success
+2166	head_lg_8
+2167	head_lg_6
+2168	hide_to_full_exposed
+2169	ps_exec_gore_bone_break_loud,j_neck
+2170	fx_playfxontag, vfx/iw9/executions/vfx_exec_058_blood_pool,
+2171	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_helmet
+2172	aimset_covercrouch
+2173	melee_upper_pullout
+2174	pain_exp_crouch_face_player
+2175	death_anims
+2176	animscripted_default_headlook
+2177	conceal_stand_exposed
+2178	ps_exec_hand_grab_body,j_neck
+2179	patrol_humming_intro
+2180	door_knob
+2181	HasArrived
+2182	exposed_prone_arrival
+2183	melee_att_lose_victim
+2184	exposed_crouch_arrival
+2185	door_idle
+2186	cover_right_crouch_exit_to_move_crouch
+2187	hit_8_midbody
+2188	iw9_pi_golf18
+2189	4walk_from_strafe_6
+2190	shoot_single_lmg
+2191	react_newenemy_2
+2192	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_shoulder_le
+2193	pistol
+2194	anim_facial = death
+2195	right3
+2196	run_stance_check_arrive_cover_right_crouch
+2197	sprint3r
+2198	ps_exec_gear_mvmt_quick_heavy,j_spinelower
+2199	overlook
+2200	Cover Crouch
+2201	exit2shuffle
+2202	ps_exec_gore_bone_break_snap,j_knee_le
+2203	death_prone
+2204	trans_to_combat
+2205	ps_wfoly_plr_pi_papa220_akimbo_l_inspect_07
+2206	look_25
+2207	6shuffle
+2208	cover_prone_lmg_arrival
+2209	ps_wfoly_plr_pi_papa220_reload_03
+2210	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_chest
+2211	9sprint
+2212	ps_exec_087_prone_gore,j_head
+2213	td_sdr_com_melee_takedown01_attackerwins_early_defender_2_03,surface
+2214	stairs_walk_up_exit
+2215	leftfoot_strafe_7_slice_2
+2216	patrol_staring_end
+2217	shoot_additives_lmg_left_crouch
+2218	td_sdr_com_melee_takedown02_attackerwins_early_defender_8_01,cloth
+2219	machine_learning_test
+2220	exposed_front_r
+2221	hide_to_lean
+2222	strafe
+2223	operate_turret
+2224	WEAPON CONTROL GUN
+2225	shuffle_foot_l_forward_2_to_4
+2226	pain_cover_crouch_default_internal
+2227	slopes_stomach_8
+2228	t10_gripvert02
+2229	explosive_prone_b
+2230	patrol_react_passthrough
+2231	iw9_pi_decho
+2232	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med_dismb, j_head
+2233	custom_pose_exposed_crouch
+2234	turn_to_face_dying_guy
+2235	melee_att_win
+2236	ik_out_start_left_foot
+2237	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_shoulder_ri
+2238	ps_exec_gun_lmg_hit,j_mainroot
+2239	exit1fast
+2240	conceal_crouch_stand
+2241	ps_sdr_com_melee_takedown01_attackerwins_attacker_4_02
+2242	shuffle3l
+2243	ps_exec_gore_medium_splat
+2244	slopes_rightside_3
+2245	pass_grenade_use_override_pos_exposed_crouch
+2246	ladder_up
+2247	patrol
+2248	ps_exec_gore_heavy_splat,j_neck
+2249	get_in_vehicle_door_off
+2250	alert_stairs_down_blendspace
+2251	pain_cover_left_crouch_lean_anim_to_cover_left_crouch_lean
+2252	fast_feet_apart_6_to_8
+2253	run_hard_lean_bwd
+2254	td_sdr_com_melee_takedown03_defwins_attacker_8_01,cloth
+2255	td_sdr_com_melee_takedown01_defwins_early_attacker_8_01,cloth
+2256	neck_f
+2257	ps_exec_bodyfall_swt_feet,tag_origin
+2258	iw9_ar_akilo
+2259	conceal_stand_to_exp_earlyout
+2260	patrol_curious_rereact_passthrough_fl
+2261	alert_idle_to_combat_end
+2262	fast_feet_together_4_to_2
+2263	ps_exec_punch_full,j_neck
+2264	ps_exec_punch_full,tag_weapon_right
+2265	melee_att_lose
+2266	heartbeatlight
+2267	conceal_crouch_to_exposed_idle
+2268	clear_knob
+2269	pain_cover_right_crouch_expa_to_hide
+2270	head_hero_price_newrig_bald
+2271	2rjog
+2272	ps_exec_gear_mvmt_long_light,j_spineupper
+2273	t10_underbarrel_mixunder2_ar_coslo
+2274	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_axe_hit_prone, j_spine4
+2275	pain_generic
+2276	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blood_splatter.vfx, j_helmet
+2277	run_move_crouch_should_arrive_cover_right_crouch
+2278	pain_popup_prone
+2279	ps_exec_gore_bone_break_snap,j_head
+2280	ps_exec_gore_blood_squirt,j_spinelower
+2281	rocketlauncher_aim_5_cmbtrdy_tense
+2282	WEAPON CONTROL VIEW
+2283	slopes_back_1
+2284	patrol_stairs_up_fl
+2285	walk_turn_casual_gun
+2286	mediumwalk
+2287	r_gun_right
+2288	conceal_stand_to_exposed_idle
+2289	cover_left_crouch_lean_to_hide
+2290	short
+2291	rightfoot_strafe_7_slice_8
+2292	ps_exec_mvmt_dirt_scuff,j_ankle_ri
+2293	8fast
+2294	look_to_hide
+2295	explosive_l
+2296	rifle
+2297	warp_iv_end
+2298	cover_right_hide_to_b
+2299	ps_exec_gore_squish_short
+2300	ps_exec_gear_mvmt_quick_heavy,j_spineupper
+2301	cover_crouch_blindfire
+2302	exit
+2303	walk_forward_up_r
+2304	gundown_cqb_interior
+2305	weap_ar_idle_4_03_plr
+2306	no_re_enter
+2307	bodyfall small
+2308	pain_cover_crouch_exposed_left_anim
+2309	pass_scripted_pose_selector
+2310	long_death_death
+2311	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throat.vfx, j_neck
+2312	td_sdr_com_melee_takedown01_attackerwins_attacker_4_01,cloth
+2313	fixer_foley
+2314	fast_mantle_over_down_lg
+2315	exposed_crouch_revive_l
+2316	ps_vm_sp_takedown_knife_right_03_bodyfall
+2317	aimset_covercrouch_lean
+2318	crouch_suppress
+2319	walk_vault_over_sm
+2320	cover_left_crouch_to_exposed_crouch
+2321	lowerbody_lg_8
+2322	long_death_mercy_transition
+2323	weap_m4_to_gl_plr
+2324	ps_vm_sp_takedown_knife_left_02_bodyfall
+2325	walk_hard_lean_bwd
+2326	ps_exec_knife_stab,j_knee_ri
+2327	selectfire
+2328	ps_exec_gore_heavy_splat,j_mainroot
+2329	"none"
+2330	ps_exec_knife_slice,j_knee_ri
+2331	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_raven_scratch_reversez.vfx, j_head
+2332	pass_change_move_type_idle
+2333	cover_crouch_hide_to_stand
+2334	cloak
+2335	pain_burning_transition
+2336	cover_right_exposed_drop_rpg_b
+2337	right2
+2338	miss
+2339	exposed_crouch_revive_crawl_belly
+2340	sprint8r
+2341	ai_iw9_move_locomotion_leans
+2342	ps_wfoly_plr_pi_papa220_akimbo_l_inspect_06
+2343	grenade_cower_start
+2344	ps_wfoly_plr_pi_papa220_reload_02
+2345	pain_cover_right_crouch_expb
+2346	right_1
+2347	alert
+2348	cover_stand
+2349	door_touch
+2350	leftfoot_strafe_7_slice_3
+2351	melee_knife_stab_lower_plr
+2352	camo_a_01
+2353	hit_2_lower
+2354	jog_vault_over_md_90r
+2355	shuffle_abort
+2356	weap_evo_chamber_end_plr
+2357	jog_mantle_up_md
+2358	pass_from_exposed_crouch
+2359	ps_exec_gun_hit_heavy
+2360	ps_vm_sp_takedown_knife_crouch_back_01_wpn_a
+2361	mvmt_swim_right_pre
+2362	slopes_stomach_9
+2363	flashbang
+2364	walk_forward_down
+2365	casual_gun
+2366	flashlight_off
+2367	patrol_move
+2368	getdown
+2369	cover_stand_high_lmg_deploy_pass
+2370	slopes
+2371	cautious_wide_slice_start
+2372	disable_ragdoll_anim_root
+2373	slopes_rightside_8
+2374	ps_exec_rvn_pr_03
+2375	ps_exec_bodyfall_swt_hands,j_spineupper
+2376	rightfoot_strafe_8_slice_2
+2377	ps_sdr_com_melee_takedown01_defwins_attacker_6_05
+2378	ps_exec_gear_mvmt_struggle,j_head
+2379	alert_move_react_fl
+2380	all
+2381	cover_right_crouch_grenade_throw
+2382	coverme_right_crouch
+2383	pain_unaware_assess
+2384	run2
+2385	ps_iw9_weap_knife_inspect_06b
+2386	iw9_la_gromeo
+2387	pain_exp_stand_md
+2388	gut_r
+2389	weap_1911_reload_end_plr
+2390	left1walk
+2391	door_enter
+2392	fx_playfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck, j_spine4
+2393	mp_exfil_blima_pullup_crew_entry_l
+2394	ps_exec_gear_mvmt_struggle,j_spinelower
+2395	area_is_clear_dialog
+2396	cover_right_crouch_lean_shoot_single
+2397	mantle_vestheavy_npc_40_over
+2398	exposed_moving_arrival
+2399	rifle_aim_2
+2400	cover_crouch_to_cover_left_crouch
+2401	flipover
+2402	exposed_stand_revive_l_final
+2403	cover_right_a_to_hide
+2404	ps_exec_087_prone_stompgore,j_mainroot
+2405	pain_popup_transition
+2406	slopes_exposed
+2407	ps_vm_sp_takedown_knife_crouch_back_01_mvmt
+2408	cover_right_wildfire
+2409	generic_graft_node
+2410	rightfoot_strafe_7_slice_3
+2411	prone_single_shoot
+2412	ps_exec_scrape_hands,j_elbow_le
+2413	exposed_stand_revive_shoot
+2414	cover_left_crouch_a_to_hide
+2415	weap_mike4_reload_empty_end_plr
+2416	cover_prone_lmg_reload
+2417	anim_pose = foot_l_forward
+2418	head_lg_f
+2419	iw9_sn_alpha50
+2420	exposed_casual_gun_arrival
+2421	shoot_settle_rpg_full
+2422	exposed_crouch_drop_rpg
+2423	fx_playfxontag, vfx/iw9/executions/vfx_exec_069_blood_trail, j_knee_ri
+2424	fx_playfxontag, vfx/iw9/executions/vfx_exec_069_blood_trail, j_knee_le
+2425	ps_exec_knife_pull,j_wrist_ri
+2426	6run_exitfull
+2427	ADS SETTLE
+2428	exposed_crouch_throw_grenade
+2429	pull_cord_trans
+2430	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_spine4
+2431	t10_muzzles_comp_ar_coslo
+2432	exposed_stand_crawl_right_final
+2433	ps_exec_gun_hit_light,tag_weapon_right
+2434	cover_left_to_exposed_idle
+2435	ps_exec_gear_mvmt_quick_heavy,j_shoulder_ri
+2436	exposed_crouch_idle_slopes
+2437	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_knee_ri
+2438	right9
+2439	akimbo
+2440	sprint7l
+2441	exposed_exit_pass
+2442	walk_hard_lean_right
+2443	parachute_freefall
+2444	ps_sdr_com_melee_takedown01_attackerwins_early_defender_8_01
+2445	drop clip
+2446	7fast_from_strafe_4
+2447	ps_wfoly_plr_pi_papa220_akimbo_l_inspect_01
+2448	look_41
+2449	look_05
+2450	freefall
+2451	cover_prone_turret_deploy
+2452	right_8
+2453	alert_turn_fl
+2454	stop_4
+2455	exposed_crouch_reload
+2456	td_sdr_com_melee_takedown03_attackerwins_defender_8_03,surface
+2457	dropgun
+2458	melee_smack_win_abort_return
+2459	cover_right_look_to_hide
+2460	fx_playfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_arms, j_shouldertwist_ri
+2461	cover_stand_turret_deploy
+2462	leftfoot_strafe_7_slice_4
+2463	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward, j_proc_lift_clavicle_le
+2464	exposed_back_final
+2465	iw9_lm_ahotel
+2466	ps_hm_grnd_melee02_attacker_wins_att_04
+2467	get_out_vehicle_combat_run_door_off_passthrough
+2468	vehicle_idle_hunt_to_combat_passthrough
+2469	mvmt_swim_left_pre
+2470	prone_to_stand
+2471	4shuffle_exitfull
+2472	right_doorless_dual_support
+2473	death_train
+2474	walk_forward_down_r
+2475	ps_exec_gear_mvmt_quick_light,j_elbow_ri
+2476	walk_foot_l_forward_8_to_4
+2477	cover_stand_exit
+2478	1fast_from_strafe_4
+2479	cover_stand_high_lmg_to_pistol_exposed
+2480	cover_stand_to_shuffle_r_pass
+2481	8run_exitfull
+2482	pain_cover_crouch_default
+2483	aimset_cornerstndl_lean
+2484	t10_ammo_556n
+2485	fx_playfxontag, vfx/iw9/executions/vfx_exec_03_stand_knee_shot, j_knee_ri
+2486	fx_stopfxontag, vfx/iw9/executions/vfx_exec_dog_bite_single_sm.vfx, j_elbow_le
+2487	ps_vm_sp_takedown_knife_crouch_left_01_mvmt
+2488	Cover Stand
+2489	rightfoot_strafe_7_fast_1
+2490	generic_human_aim_strafe
+2491	shuffle_feet_together_6_to_8
+2492	pain_wander_done
+2493	long_death_mercy_death
+2494	fingers_in_start_left_hand
+2495	ps_exec_hyena_rand
+2496	l_gun_left
+2497	specialty_glintxsml
+2498	rightfoot_strafe_8_fast_6
+2499	stairs_casual_gun_walk_up_arrival
+2500	sdr_com_custom_pose_cover_right_stand
+2501	random
+2502	weap_thermal_toggle_off_plr
+2503	ps_vm_sp_takedown_pistol_left_01_bodyfall
+2504	pain_exp_stand_face_player
+2505	ps_vm_sp_takedown_enemy_gurgle_sm,j_head
+2506	ps_vm_sp_takedown_knife_crouch_right_01_bodyfall
+2507	lowerbody_r_lg_6
+2508	lowerbody_r_lg_8
+2509	alert_move_fl_to_move_fl_check
+2510	pain_flashed_cover_crouch
+2511	Primary Waiting for Backups
+2512	stl_alert_idle_pass
+2513	parachute_deploy
+2514	burn_to_death_by_molotov
+2515	hit_1_lower
+2516	pass_cover_left_not_in_cover
+2517	td_sdr_com_melee_takedown02_defwins_attacker_8_04,surface
+2518	leftfoot_strafe_9_fast_2
+2519	c12_targeting_hud_close
+2520	WEAPON CONTROL POST GUN
+2521	cover_right_crouch_stand_to_hide
+2522	alert_idle_fl_to_patrol_idle_fl
+2523	exit4run
+2524	patrol_cellphone_end
+2525	pistol_aim_5_cmbtrdy_tense
+2526	heartbeatheavy
+2527	8rshuffle
+2528	all_hold
+2529	molotov_prone
+2530	leftfoot_strafe_8_fast_7
+2531	leftfoot_strafe_8_fast_9
+2532	exposed_exit
+2533	rebel_lmg
+2534	start_jump
+2535	patrol_move_react_aim_fl
+2536	ragdollsloperecovery_leftside_8
+2537	lleg_md_f
+2538	rleg_lg_r
+2539	face node
+2540	phase_marker_
+2541	shuffle_feet_apart_4_to_6
+2542	blindfire
+2543	shoot_additives_rifle_crouch
+2544	call_reinforcements_cover_stand_start
+2545	openness
+2546	avoid_left
+2547	walk_feet_together_4_to_8
+2548	ps_wfoly_plr_pi_golf17_raise_first_03
+2549	t10_lasers_focuslaser_ar_coslo
+2550	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_ankle_ri
+2551	stumbling_pain_death
+2552	lowerbody_l_md_8
+2553	death_exp_stand
+2554	med_2l
+2555	td_sdr_com_melee_takedown02_defwins_early_defender_8_01,cloth
+2556	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_mainroot
+2557	head_md_2
+2558	head_md_l
+2559	run8l
+2560	cover_crouch_lean
+2561	caps/interactions/cap_sdr_flashbang
+2562	ps_exec_scrape_hands,j_wrist_le
+2563	stumble_jog
+2564	not_in_revive
+2565	patrol_idle_fl_trans_react_pass
+2566	get_out_vehicle_door_off
+2567	ps_vm_sp_takedown_enemy_pain_sm,j_head
+2568	ik_in_end_left_foot
+2569	pain_flashed_cover_left_crouch
+2570	rightfoot_strafe_9_slice_7
+2571	left_3
+2572	left8l
+2573	8lwalk
+2574	ps_exec_gear_mvmt_midlength_heavy,j_spineupper
+2575	6shuffle_exitfull
+2576	td_sdr_com_melee_takedown01_attackerwins_defender_6_05,surface
+2577	patrol_stretching_death
+2578	alert_investigate_stairs_up
+2579	ps_exec_baton_impact_body_light
+2580	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_head_blood.vfx, j_spine4
+2581	cover_crouch_stand_drop_rpg
+2582	ease_in_cubic
+2583	ps_wfoly_plr_pi_papa220_akimbo_r_inspect_03
+2584	exposed_left_final
+2585	scripted_talking
+2586	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_hip_ri
+2587	8left
+2588	Ready to move
+2589	ps_exec_katana_hit_dull_edge,j_head
+2590	neutral
+2591	midbody_lg_6
+2592	death_moving_explosive
+2593	fx_stopfxontag, vfx/iw9/executions/vfx_exec_069_blood_trail, j_knee_ri
+2594	fx_stopfxontag, vfx/iw9/executions/vfx_exec_069_blood_trail, j_knee_le
+2595	midbody_md_4
+2596	ps_exec_bodyfall_swt_feet,j_knee_ri
+2597	jog_jump_across_90r
+2598	ps_wfoly_plr_pi_papa220_reload_fast_04
+2599	larm_lower_r
+2600	shuffle_right_to_cover_stand
+2601	cover_left_crouch_blindfire_over
+2602	custom_arrival_end
+2603	combat_move_react_passthrough
+2604	cover_left_lean_to_hide
+2605	parachute_pass
+2606	stand_to_crouch
+2607	med_8
+2608	pistol_to_rpg
+2609	anim_pose = crawl
+2610	7jog_exitfull
+2611	pass_from_cover_stand
+2612	ps_exec_bodyfall_swt_head,j_helmet
+2613	right2run
+2614	ps_exec_gore_bone_break_snap,j_spineupper
+2615	pass_grenade_use_override_pos_cover_crouch_left
+2616	6walk_exitfull
+2617	pain_cover_right_stand_expb_to_hide
+2618	ps_exec_bodyfall
+2619	alert_react_passthrough
+2620	grenade_calculate_override_pos_cover_left
+2621	vehicle_pain_flashed
+2622	jog9
+2623	aim_6_knob
+2624	get_out_vehicle_combat_run
+2625	aim_knob_8
+2626	aim_knob_6
+2627	ps_wfoly_plr_pi_papa220_reload_empty_xmag_03
+2628	fx_playfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee, j_spineupper
+2629	jog_vault_over_sm
+2630	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_clavicle_le
+2631	trans_stand_to_cover_right_crouch
+2632	rarm_md_f
+2633	Revive_Dying_Guy
+2634	death_crouching_default
+2635	get_out_vehicle_combat
+2636	cover_crouch_lmg_reload
+2637	cautious_clear_abort
+2638	shuffle9r
+2639	fast_foot_r_forward_8_to_6
+2640	Remote_Revive
+2641	slopes_rightside_9
+2642	ps_exec_rvn_pr_02
+2643	Backups Reached LKP
+2644	alert_idle_to_alert_idle_fl
+2645	shoot_lean_shield_settle_full
+2646	dyingGuyBeingRevived
+2647	rightfoot_strafe_8_slice_3
+2648	execution_victim_prone
+2649	sdr_com_custom_pose_cover_stand
+2650	8rjog_exitfull
+2651	4sprint_exitfull
+2652	run_stance_check_arrive_cover_crouch
+2653	hit_8_lower
+2654	cqb
+2655	jog_hard_lean_right
+2656	pain_on_back
+2657	alert_react_lookaround_fl
+2658	run3
+2659	right2fast
+2660	pain_shocked_transition
+2661	l_gun_right
+2662	pain_cover_stand_to_cover_stand
+2663	7walk
+2664	stand_run_n_gun
+2665	move_walk_loop
+2666	ps_cp_generic_pickup_small
+2667	fast_jump_over_drop
+2668	curious_combat_passthrough
+2669	leader_orders_split
+2670	ps_exec_redtail_stnd_04
+2671	b_to_a
+2672	cautious_corner_stepout_end
+2673	ps_exec_bodytap,j_shoulder_ri
+2674	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_axe_hit_prone, j_spine4
+2675	8rsprint
+2676	jog_mantle_down_sm_90r
+2677	rightfoot_strafe_7_slice_2
+2678	ps_vm_sp_takedown_pistol_left_01_mvmt
+2679	get_out_vehicle_combat_run_passthrough
+2680	exit1run
+2681	sniper_glint
+2682	WEAPON CONTROL AUTO GUN
+2683	ps_generic_gesture_equip
+2684	footstep_left_small
+2685	cm_ragdoll
+2686	ps_exec_scrape_quick,j_ankle_le
+2687	ps_exec_097_prone_01,j_spinelower
+2688	patrol_early_out_passthrough
+2689	iw9_pi_stimpistol
+2690	trans_stand_to_cover_left_crouch
+2691	patrol_scratching_intro
+2692	fx_playfxontag, vfx/iw9/executions/vfx_exec_58_knife_chest_blood.vfx, j_spineupper
+2693	exposed_arrival
+2694	fast_vault_over_md_90r
+2695	gundown_exposed_crouch
+2696	grenade_calculate_override_pos_conceal_crouch
+2697	ps_wfoly_plr_pi_golf17_inspect_01
+2698	crawling_pain_to_back
+2699	Fire
+2700	fire
+2701	shoot_settle_lmg_half
+2702	patrol_move_pullout_flashlight_check
+2703	ps_exec_gun_drop,j_ankle_le
+2704	weap_hybrid_flip_scope_lift_plr
+2705	ps_exec_gear_mvmt_whoosh_med,j_wrist_ri
+2706	exposed_right_final
+2707	cautious_clear_opp_quick_enter
+2708	patrol_smoking_death
+2709	right7shuffle
+2710	melee_attack_decider
+2711	death_cover_default
+2712	ps_exec_gear_mvmt_midlength_heavy,j_spinelower
+2713	patrol_scratching_loop
+2714	weap_m4_reload_end_plr
+2715	deathmachine_shoot_idle
+2716	cover_right_crouch_grenade
+2717	extras_out
+2718	right8
+2719	3shuffle
+2720	cover_stand_look
+2721	traverse_drop
+2722	right7run
+2723	pain_shocked_cover_right_crouch
+2724	cautious_wide_slice_end
+2725	cover_left_stand
+2726	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, j_neck
+2727	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_z_forward, j_helmet
+2728	right7walk
+2729	left1fast
+2730	pass_run_should_arrival_conceal_stand
+2731	death_cover_right_stand
+2732	cover_left_crouch_right_to_hide
+2733	ps_hm_grnd_melee02_attacker_wins_def_01
+2734	cover_left_crouch_aim
+2735	fast_step_over_90l
+2736	look_40
+2737	train_stand_l
+2738	right_9
+2739	Exposed Moving
+2740	stumbling_pain_collapse
+2741	cover_left_crouch_hide_to_right
+2742	detach clip left
+2743	aimset_rpg_crouch
+2744	ps_exec_gear_mvmt_whoosh_med,j_neck
+2745	leader_idle
+2746	provideCoverFire
+2747	melee_smack_lose
+2748	alert_stairs_down
+2749	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_knee_le
+2750	pass_zero_arrival
+2751	cover_crouch_lmg_dismount_passthrough
+2752	WEAPON VIOLENCE VIEW ANGLES
+2753	weap_m4_fast_gl_chamber_plr
+2754	pain_cover_left
+2755	hide_to_left
+2756	shoot_lean_pstl
+2757	single
+2758	custom_patrol_lookaround_passthrough
+2759	jog_mantle_up_lg
+2760	rleg_alt
+2761	run_forward_down
+2762	right6fast
+2763	iw9_pi_papa220
+2764	ps_exec_knife_impact
+2765	ps_wpn_coslo723_reload_empty_mag_hit_01
+2766	slopes_stomach_1
+2767	cover_right_to_exp_earlyout
+2768	reviving
+2769	alert_exit_fl
+2770	rifle_aim_5_cmbtrdy_calm
+2771	talk
+2772	melee_att_lose_abort_recover
+2773	pass_exposed_crouch_idle_to_cover
+2774	torso_lower_r
+2775	blackhole_pulled_on
+2776	pain_on_back_default
+2777	ease_inout_quad
+2778	lean_additive_settle_checkpoint
+2779	ps_exec_gear_mvmt_struggle,j_neck
+2780	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_spinelower
+2781	fast_foot_r_forward_8_to_4
+2782	sdr_com_pi_cmbt_idle_weapon_offset
+2783	ps_exec_rvn_pr_04
+2784	cover_left_exposed_drop_rpg_a
+2785	exposed_crouch_scramble_exit
+2786	right8rsprint
+2787	left9
+2788	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp.vfx, j_wrist_ri
+2789	rightfoot_strafe_8_slice_1
+2790	patrol_react_lookaround_passthrough
+2791	grenade_safe
+2792	fire_into_air
+2793	run_hard_lean_fwd
+2794	left_crouch
+2795	t10_muzzles_suppressor_pi_usugar9
+2796	ps_vm_sp_takedown_pistol_front_01_mvmt
+2797	neck_b
+2798	rebel_pistol
+2799	death_enemy_anims
+2800	stop_ragdoll
+2801	sit_pistol_clean
+2802	td_sdr_com_melee_takedown02_defwins_early_attacker_8_02,cloth
+2803	fast_feet_together_4_to_8
+2804	fast_feet_together_4_to_6
+2805	ps_iw9_weap_knife_inspect_06a
+2806	ps_iw9_weap_knife_inspect_01d
+2807	Exposed
+2808	exposed
+2809	cover_right_crouch_left_to_hide
+2810	cover_right_stand_to_cover_stand
+2811	pass_run_should_arrive_conceal_crouch
+2812	2right
+2813	weap_1911_empty_fast_magout_plr
+2814	Reviving_Guy
+2815	reviving_guy
+2816	vehicle_impulse_response
+2817	pain_cover_left_crouch_torso_to_cover_left_crouch
+2818	cover_crouch_aim
+2819	ps_exec_redtail_stnd_02
+2820	run_n_gun_soft_left
+2821	wrist_com_raise
+2822	sdr_com_custom_pose_exposed
+2823	pass_run_should_arrive_cover_left_crouch
+2824	cover_right_crouch_stand
+2825	pass_grenade_use_override_pos_exposed_idle
+2826	get_out_vehicle_combat_door_off
+2827	alert_curious_rereact_passthrough_fl
+2828	jog_mantle_down_sm_90l
+2829	sit_laptop_death
+2830	rightfoot_strafe_7_slice_4
+2831	ps_bodyfall_limb_small,j_elbow_ri
+2832	ps_sdr_com_melee_takedown01_attackerwins_defender_8_02
+2833	fire_revive_pistol
+2834	explosive_b
+2835	grenade_avoid
+2836	right3shuffle
+2837	right4fast
+2838	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_z_forward.vfx, j_helmet
+2839	med_close_2r
+2840	ps_wfoly_ar_reload_npc_charge
+2841	ps_melee_takedown_body_grab
+2842	ps_exec_katana_slash,j_knee_le
+2843	legs_md_r
+2844	legs_md_l
+2845	walk_forward_up_l
+2846	right8lsprint
+2847	patrol_custom_default_react_setup
+2848	cqbright
+2849	move_slopes
+2850	pass_stop_run_n_gun
+2851	weap_cbj_clipin_plr
+2852	pass_conceal_crouch_moverequested
+2853	patrol_react
+2854	ps_wfoly_plr_pi_golf17_inspect_07
+2855	fast_mantle_over_down_md
+2856	min_speed
+2857	iw9_lm_dblmg2
+2858	exposed_crouch_revive_r
+2859	cover_left_crouch_to_shuffle_pass
+2860	right8ljog
+2861	gundown_strafe
+2862	fast_feet_together_6_to_2
+2863	smartobject_outro
+2864	lowerbody_lg_2
+2865	ik_out_start_right_foot
+2866	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_wrist_ri
+2867	patrol_move_fl_to_alert_move_fl_check
+2868	walk_hard_lean_fwd
+2869	pull_fast_blackhole
+2870	ps_vm_sp_takedown_enemy_pain_sm
+2871	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_head
+2872	cover_right_crouch_lean
+2873	directional_orient
+2874	ai_slopes_world_ref_adjustment
+2875	ps_wfoly_sh_reload_npc_loop
+2876	td_sdr_com_melee_takedown01_attackerwins_early_defender_2_04,surface
+2877	exposed_crouch_react_newenemy
+2878	sprint6l
+2879	get_out_vehicle
+2880	weap_mike4_reload_fast_lift_plr
+2881	pmt_nre_fast
+2882	death_explosive
+2883	fx_playfxontag, vfx/iw9/executions/vfx_exec_099_blood_splash.vfx, tag_origin
+2884	ps_hm_grnd_melee02_attacker_wins_def_03
+2885	gesture_blend_start
+2886	7shuffle
+2887	patrol_turn
+2888	ps_wfoly_plr_pi_papa220_akimbo_l_inspect_02
+2889	look_46
+2890	none
+2891	right8r
+2892	traverse_warp_down
+2893	pass_from_cover_left
+2894	cover_right_crouch_exposed_left
+2895	ps_wpn_coslo723_reload_selectsemi_on_plr
+2896	t10_hammer_p13_usugar9
+2897	stop_7
+2898	pain_cover_left_crouch_expa_anim
+2899	td_sdr_com_melee_takedown01_defwins_attacker_6_04,surface
+2900	custom_corrective
+2901	arrived_to_cover_exposed
+2902	caps/interactions/cap_coverfire
+2903	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_spineupper
+2904	exposed_idle_aim_down
+2905	2ljog
+2906	leftfoot_strafe_7_slice_7
+2907	cover_left_crouch_hide_to_b
+2908	dettach_clip_left
+2909	longfast
+2910	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_knee_ri
+2911	ps_exec_rvn_stnd_03
+2912	right2jog
+2913	cover_crouch_peek
+2914	exec_weapon_show
+2915	jog_jump_over_drop
+2916	weap_m4_ads_from_gl_plr
+2917	run_stance_check_arrive_cover_left_crouch
+2918	patrol_move_fl_trans_react_pass
+2919	td_sdr_com_melee_takedown01_attackerwins_early_attacker_8_01,cloth
+2920	on_user_added
+2921	8sprint_exitfull
+2922	slopes_stomach_7
+2923	dive_forward
+2924	reload checkpoint resume
+2925	1run
+2926	8rjog
+2927	ps_exec_crowbar_imp,j_head
+2928	pass_cover_right_shuffle
+2929	shuffle_right_to_cover_right_crouch
+2930	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_stab_eye_right.vfx, tag_eye
+2931	rightfoot_strafe_7_fast_2
+2932	shuffle_feet_together_6_to_2
+2933	hit_4_midbody
+2934	ps_wfoly_plr_pi_papa220_reload_fast_xmag_04
+2935	vehicle_hunt_to_idle
+2936	death_cover_left_stand
+2937	rightfoot_strafe_8_fast_2
+2938	ps_sdr_com_melee_takedown01_attackerwins_early_attacker_6_01
+2939	exposed_stand_revive_crawl_belly_final
+2940	cover_stance_trans
+2941	shoot_additives_lmg_right
+2942	pass_run_should_arrive_cover_left
+2943	patrol_radio_death
+2944	cover_right_crouch_hide_to_right
+2945	crouch_to_stand
+2946	lowerbody_r_lg_2
+2947	patrol_move_react_fl
+2948	fast9r
+2949	fast7r
+2950	alert_move_fl
+2951	cover_lean_pistol_idle
+2952	evt_gala_civ_idle_5_foley_01
+2953	ps_sdr_com_melee_takedown01_defwins_attacker_4_03
+2954	fx_playfxontag, vfx/iw9/executions/vfx_exec_58_sword_chest_slash.vfx, j_spineupper
+2955	face motion
+2956	live_ragdoll_test
+2957	torso_upper_r
+2958	evt_gala_civ_idle_2_foley_02
+2959	walk_foot_r_forward_2_to_6
+2960	leftfoot_strafe_9_fast_6
+2961	forward
+2962	aimset_coverstand_turret_lmg
+2963	8walk_exitfull
+2964	shoot_lean_jug_settle_full
+2965	WarpIV
+2966	exposed_stand_crawl_back
+2967	evt_gala_civ_idle_3_foley_01
+2968	walk_forward_up
+2969	ps_vm_sp_takedown_pistol_right_02_wpn
+2970	vehicle_idle_to_combat_lean
+2971	live_ragdoll_recover_slopes_leftside_1
+2972	conceal_stand_wildfire
+2973	casual_point7
+2974	lleg_md_l
+2975	cap_exit
+2976	shuffle_feet_apart_4_to_2
+2977	ps_sdr_com_melee_takedown03_attackerwins_early_defender_8_03
+2978	cover_stand_look_to_hide
+2979	visor
+2980	patrol_idle_start_passthrough
+2981	path_has_door
+2982	stumbling_pain_pick_wander_type
+2983	ps_exec_impact_body_full,j_knee_le
+2984	ps_c12_targeting_hud_close
+2985	ps_exec_bodyfall_swt_body,j_spineupper
+2986	ps_exec_baton_impact_hook,j_knee_ri
+2987	2rwalk
+2988	breachtype
+2989	vehicle_pain
+2990	ps_vm_sp_takedown_knife_crouch_right_01_wpn
+2991	ps_exec_gear_mvmt_brush,j_elbow_ri
+2992	head_md_f
+2993	manglercannonvfx
+2994	cover_blindfire
+2995	run2r
+2996	motion_warp_begin
+2997	long_death_shoot_pass
+2998	iw9_sh_mike10141_sp
+2999	cap_ai_revival
+3000	death_crouching_cover_exp
+3001	lean_4
+3002	patrol_react_lookaround_passthrough_fl
+3003	additive_adjustment_anims
+3004	ps_weap_fist_inspect_03
+3005	rightfoot_strafe_9_slice_3
+3006	left_9
+3007	left8r
+3008	lleg_lower_r
+3009	noncombat_stand_idle_twitch
+3010	vault_over
+3011	suppress
+3012	cover_left_crouch_to_stand
+3013	cover_crouch_to_shuffle_r_pass
+3014	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_spineupper
+3015	cover_right_crouch_hide_to_lean
+3016	rarm_lower_r
+3017	iw9_sm_mpapa5
+3018	shoot_lean_lmg
+3019	hide_to_exposed
+3020	sniper_aim_5
+3021	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_machete_hit_prone, j_neck
+3022	right8walk
+3023	midbody_lg_2
+3024	exposed_stand_revive_belly_final
+3025	beckon7
+3026	2lshuffle_exitfull
+3027	WEAPON PUSHBACK GUN 
+3028	t10_grips_sprintout2_ar_coslo
+3029	stl_patrol_idle_pass
+3030	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_clavicle_le
+3031	head_f
+3032	camo_b_05
+3033	alert_move_to_combat_move
+3034	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit_blood_prone.vfx, j_spine4
+3035	patrol_move_to_alert_move
+3036	warp_down_end
+3037	right_crouch_default
+3038	patrol_stairs_down_fl_blendspace
+3039	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_hip_ri
+3040	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_neck
+3041	shoot_full
+3042	Change Cover
+3043	2lrun
+3044	td_sdr_com_melee_takedown01_attackerwins_early_attacker_6_02,cloth
+3045	ragdollsloperecovery_stomach_9
+3046	1fast
+3047	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_spinelower_lift
+3048	cover_right_exposed_a
+3049	ps_exec_katana_slash,j_hip_proc_ri
+3050	exposed_idle_pushed_pass
+3051	ik_in_end_right_hand
+3052	jog3
+3053	patrol_rail_lean_loop
+3054	cover_prone_lmg_dismount
+3055	exposed_to_hide
+3056	rarm_md_l
+3057	ps_sdr_com_melee_takedown01_defwins_early_attacker_6_01
+3058	anim_gunhand = left
+3059	iw9_la_rpapa7_sp
+3060	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit_blood_prone.vfx, j_helmet
+3061	slopes_rightside_1
+3062	conceal_stand_full_exposed_to_hide
+3063	td_sdr_com_melee_takedown01_attackerwins_defender_4_03,cloth
+3064	patrol_sitting_pistolclean_react
+3065	casual_purpose
+3066	default_molotov
+3067	left3
+3068	rightfoot_strafe_8_slice_9
+3069	cover_left_crouch_over_lean
+3070	fast_feet_apart_6_to_4
+3071	td_sdr_com_melee_takedown01_attackerwins_early_attacker_4_01,cloth
+3072	Cover Left Lean
+3073	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward, tag_eye
+3074	ps_sdr_com_melee_takedown01_attackerwins_attacker_6_04
+3075	avoid_forward_jump
+3076	9shuffle
+3077	shuffle_left_to_cover_crouch
+3078	pain_cover_crouch_exposed_left
+3079	out
+3080	jog
+3081	med_close_4
+3082	td_sdr_com_melee_takedown01_attackerwins_early_defender_6_02,surface
+3083	exposed_stand_to_prone
+3084	ps_iw9_weap_knife_inspect_02a
+3085	cover_right
+3086	cover_stand_high_lmg_deploy
+3087	weap_p226_clipout_plr
+3088	interactions/ai_revival
+3089	exit2sprint
+3090	coverme_left_stand
+3091	2lsprint
+3092	weap_mike4_reload_empty_fast_end_plr
+3093	script_use_turret
+3094	pain_run_end_pass
+3095	combat_run
+3096	fx_killfxontag, vfx/iw9/executions/vfx_exec_097_witch_portal.vfx, tag_origin
+3097	unsync
+3098	armor_plate
+3099	walk_jump_across_90r
+3100	ps_exec_gun_drop,j_wrist_ri
+3101	left_stand
+3102	slopes_back_3
+3103	grenade_return_throw
+3104	8rfast
+3105	min_seconds_in_state
+3106	weap_hybrid_flip_scope_off_plr
+3107	t10_underbarrel_sway_ar_coslo
+3108	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_spawn_bats, j_neck
+3109	legs_md_f
+3110	fx_stopfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee.vfx, j_hip_proc_ri
+3111	psa_mp_parachute_land
+3112	patrol_sitting_laptop
+3113	sit_sleeping
+3114	strafes
+3115	melee_att_lose_victim_abort_pass
+3116	ps_wfoly_plr_pi_golf17_inspect_09
+3117	walk_mantle_down_lg
+3118	walk_mantle_down_md
+3119	fast_feet_together_6_to_8
+3120	left_doorless_solo_active
+3121	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_wrist_le
+3122	2rsprint
+3123	ps_exec_redtail_pr_01
+3124	cover_right_hide_to_lean
+3125	ps_exec_gear_mvmt_whoosh_med,j_spineupper
+3126	cautious_clear_start
+3127	ps_exec_knife_stab_metal
+3128	walk_hard_lean_left
+3129	weap_1911_empty_fast_lift_plr
+3130	cover_right_crouch_to_cover_stand
+3131	shoot_lean_sniper
+3132	Move_Into_Position
+3133	Backup Investigators
+3134	alert_react
+3135	vehicle_pain_flashed_passthrough
+3136	weap_mike4_reload_magin_plr
+3137	ps_vm_sp_takedown_knife_right_01_wpn
+3138	vehicle_idle_hunt_passthrough
+3139	long
+3140	loop
+3141	start
+3142	START
+3143	Start
+3144	standing
+3145	ps_exec_punch_full,j_wrist_ri
+3146	look_loop
+3147	ps_bodyfall_limb_large,j_ankle_ri
+3148	fast_step_over_90r
+3149	look_26
+3150	train_stand_f
+3151	coverme_left_crouch
+3152	live_ragdoll_on_ground
+3153	cover_right_to_exposed_idle
+3154	ps_wfoly_plr_pi_papa220_reload_04
+3155	ps_vm_sp_takedown_knife_right_01_bodyfall
+3156	right_3
+3157	alert_react_end
+3158	talk_lg
+3159	jog_mantle_over_down_lg
+3160	jog_mantle_over_down_md
+3161	iw9_lm_dblmg
+3162	td_sdr_com_melee_takedown01_attackerwins_defender_2_02,surface
+3163	ps_exec_gear_mvmt_long_light,j_elbow_ri
+3164	cover_crouch_to_exposed_idle
+3165	hide
+3166	ps_exec_bullet_ricochet,j_wrist_le
+3167	ps_vm_sp_takedown_knife_front_04_bodyfall_a
+3168	ps_exec_rvn_stnd_05
+3169	pain_cover_right_stand
+3170	camo_a_03
+3171	exposed_prone_exit
+3172	kick
+3173	exposed_crouch_revive_shoot_final
+3174	being_remote_revived
+3175	Being_Remote_Revived
+3176	last_known_position
+3177	exposed_casual_arrival
+3178	fx_playfxontag, vfx/iw9/executions/vfx_exec_097_witch_magic_hit.vfx, j_neck
+3179	heartbeatmed
+3180	blendspace_anims
+3181	l_gun_right_look_left
+3182	patrol_move_arrival_pass
+3183	shoot_lean_sniper_settle_half
+3184	t10_gripvert01
+3185	pass_cover_left_stand_multi
+3186	ps_exec_grab_release
+3187	torso_lower_f
+3188	abort_asm_state
+3189	td_sdr_com_melee_takedown01_attackerwins_attacker_6_01,cloth
+3190	rightfoot_strafe_7_fast_8
+3191	t10_lasers_hipaccuracy_ar_coslo
+3192	cover_left_stand_to_crouch
+3193	shuffle2r
+3194	hide_loop
+3195	patrol_humming_loop
+3196	patrol_rail_lean_intro
+3197	cover_right_crouch_b_to_hide
+3198	vfx_start_super
+3199	ik_finger_pose_l
+3200	live_ragdoll_start_physics
+3201	left2
+3202	arrival_side_pass
+3203	ps_sdr_com_melee_takedown01_attackerwins_attacker_6_05
+3204	add_whizby
+3205	strafe_stop_passthrough
+3206	he_is_gone_dialog
+3207	pain_exp_crouch_aim_transition
+3208	off
+3209	smg
+3210	death_ragdoll_delayed
+3211	iw9_sm_aviktor
+3212	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_shouldertwist_ri
+3213	parachute_land
+3214	pain_cover_right_stand_expa
+3215	shuffle_foot_r_forward_2_to_8
+3216	jog_mantle_over_up_md_90l
+3217	ps_exec_sledgehammer_impact_body,j_head
+3218	react_earlyout_fl_melee
+3219	gut_l
+3220	t10_bar_highcal_ar_coslo
+3221	sniper_aim_5_cmbtrdy_tense
+3222	death_exit
+3223	ps_exec_gore_medium_splat,j_head
+3224	cover_right_crouch_to_shuffle_pass
+3225	ps_mp_execution_animal_002_dog_attack1
+3226	move_crouch_to_cover_crouch_arrival
+3227	rifle_aim_8
+3228	grenade_exposed
+3229	hide_to_b
+3230	combat_to_alert
+3231	fx_stopfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck.vfx, j_neck
+3232	alert_examine_arrival_fl
+3233	6_belly
+3234	ps_exec_bodyfall_swt_body
+3235	slopes_back_2
+3236	phone_detach_right
+3237	td_sdr_com_melee_takedown03_attackerwins_early_defender_8_01,surface
+3238	crouch_head
+3239	2rwalk_from_strafe_6
+3240	right4shuffle
+3241	patrol_idle_fl_to_combat
+3242	lookback_right
+3243	vehicle_setup_rope
+3244	ps_wfoly_plr_pi_papa220_reload_empty_fast_xmaglrg_07
+3245	cover_crouch_stand
+3246	ps_exec_gear_mvmt_brush
+3247	WEAPON CONTROL AUTO VIEW
+3248	reload start
+3249	world_ref_slopes
+3250	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_clavicle_ri
+3251	head_lg_r
+3252	dying_crawl_quit
+3253	fast_mantle_down_lg_90l
+3254	stairs_run_down_arrival
+3255	fx_playfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck, j_proc_spinelift
+3256	larm_md_l
+3257	left3shuffle
+3258	ps_wfoly_plr_pi_golf17_inspect_08
+3259	feet_apart
+3260	walk_mantle_down_sm
+3261	ps_exec_gore_bone_dislocate_twist
+3262	walk_vault_over_md
+3263	Server
+3264	live_ragdoll_in_air
+3265	alert_idle_fl_to_combat
+3266	gas_death_anims
+3267	jog_vault_over_sm_90r
+3268	shortshuffle
+3269	pain_exp_crouch
+3270	4walk_from_strafe_4
+3271	electricanime
+3272	proc_node
+3273	ps_exec_bodyfall_swt_body,j_knee_le
+3274	ps_exec_bodyfall_swt_body,j_knee_ri
+3275	interactions/call_reinforcements
+3276	4run_exitfull
+3277	cover_left
+3278	right1
+3279	ps_exec_035_dog_attack_stand_01,j_wrist_le
+3280	cover_left_crouch_lean_arrival
+3281	shoot_single_sg
+3282	move
+3283	exposed_idle_react
+3284	sprint1r
+3285	right7jog
+3286	right_dual_support
+3287	walk_feet_apart_4_to_2
+3288	run_move_crouch_should_arrive_cover_left_crouch
+3289	ps_wfoly_plr_pi_papa220_reload_05
+3290	melee_attack_sfx
+3291	vortex_death_crawl
+3292	right_2
+3293	trans_to_cover_left_crouch
+3294	8lwalk_exitfull
+3295	talk_sm
+3296	ps_exec_089_stand_02,j_spineupper
+3297	iw9_sm_mpapa7_sp
+3298	gesture_blend_end
+3299	t10_holo01_west
+3300	2left
+3301	finish_early
+3302	CalcStartOrigin
+3303	ps_exec_rvn_stnd_04
+3304	grenade_dive_backward
+3305	casual_killer_to_exposed_idle
+3306	exposed_front_f
+3307	generic_human_aim_exposed_stand
+3308	hold_position
+3309	run_forward_up
+3310	cover_long_death
+3311	cover_crouch_final
+3312	shuffle_foot_l_forward_2_to_6
+3313	pain_cover_left_stand
+3314	td_sdr_com_melee_takedown01_defwins_attacker_8_02,cloth
+3315	pull_slow_blackhole
+3316	ps_vm_sp_takedown_knife_crouch_back_01_wpn_b
+3317	zm_pack
+3318	custom_pose_cover_left
+3319	explosive_prone_l
+3320	dying_guy
+3321	Dying_Guy
+3322	rarm_lg_f
+3323	1jog
+3324	fx_stopfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_head
+3325	curious_end_passthrough
+3326	ps_wpn_usugar9_reload_empty_end_plr
+3327	pain_exp_prone
+3328	fx_playfxontag, vfx/iw9/executions/vfx_exec_03_stand_knee_shot, j_knee_le
+3329	ps_exec_gun_lmg_hit
+3330	ik_in_start_left_hand_character
+3331	rightfoot_strafe_7_fast_9
+3332	stairs_run_down_blendspace
+3333	pain_cover_left_lean
+3334	leftfoot_strafe_7_fast_4
+3335	pmt_nre_slow
+3336	hide_to_right
+3337	smartobject_death
+3338	ps_exec_gore_heavy_splat,j_head
+3339	weap_thermal_toggle_on_plr
+3340	start_double_jump
+3341	alert_stairs_up_blendspace
+3342	shuffle_foot_r_forward_8_to_4
+3343	landing
+3344	alert_move_arrival_pass_fl
+3345	fast1r
+3346	fast1l
+3347	ai_slopes_crouch_world_ref_adjustment
+3348	leftfoot_strafe_8_slice_8_r
+3349	cover_left_crouch_final
+3350	ps_wfoly_plr_pi_golf17_reload_05
+3351	run_exited_vehicle_passthrough
+3352	cover_prone_lmg_deploy
+3353	walk_foot_r_forward_2_to_8
+3354	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_neck
+3355	patrol_drinking_react
+3356	patrol_exit
+3357	gesture_blend_in
+3358	pass_exposed_weaponswitch
+3359	SetGoalPos_LKP_Random
+3360	shuffle_right_to_cover_crouch
+3361	stand_to_prone
+3362	pain_cover_stand_anim
+3363	avoid_forward
+3364	leftfoot_strafe_8_fast_1
+3365	pain_flashed_cover_left_stand
+3366	casual_point3
+3367	ragdollsloperecovery_leftside_2
+3368	exit6run
+3369	ps_exec_kalisticks_impact,j_ankle_le
+3370	Conceal Crouch
+3371	traverseemergencyexit
+3372	shuffle_foot_l_forward_8_to_6
+3373	smartobject_pain
+3374	lowerbody_l_md_2
+3375	patrol_idle_to_alert_idle
+3376	cp_use_mobile_turret
+3377	head_md_b
+3378	explosive_crouch_b
+3379	vehicle_combat_switch_sides
+3380	ps_exec_scrape_hands,j_wrist_ri
+3381	ps_sdr_com_melee_takedown01_attackerwins_defender_4_01
+3382	pass_run_interrupt
+3383	begin_firing
+3384	ps_exec_gear_mvmt_long_heavy,j_knee_le
+3385	jog_mantle_down_md_90l
+3386	ps_generic_death_execution
+3387	ps_exec_baton_impact_back,j_spineupper
+3388	molotov_b
+3389	molotov_l
+3390	ps_sdr_com_melee_takedown01_defwins_defender_2_01
+3391	exit6shuffle
+3392	ps_exec_hand_grab_body,j_spineupper
+3393	weap_ar_idle_1_plr
+3394	sdr_mortar_launch
+3395	fx_stopfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_arms, j_shouldertwist_ri
+3396	lleg_lower_l
+3397	crouch_to_prone
+3398	sdr_com_pi_cover_left_rotate
+3399	stand_to_shuffle_r_complete
+3400	bottle_attach_right
+3401	fast_vault_over_sm
+3402	cap_exit_long_death
+3403	ps_wfoly_plr_pi_papa220_akimbo_r_inspect_05
+3404	cover_right_crouch_to_cover_left_crouch_door_shuffle
+3405	ps_exec_kalisticks_impact,j_knee_ri
+3406	noclip
+3407	caller
+3408	rarm_lower_l
+3409	weap_mike4_reload_lift_plr
+3410	RestOfThem
+3411	iw9_lm_mkilo3
+3412	traverse_warp_across
+3413	2run_exitfull
+3414	cover_left_crouch_left_to_hide
+3415	hang_grab_left
+3416	iw9_la_kgolf
+3417	beckon3
+3418	ps_wfoly_plr_pi_papa220_reload_empty_fast_xmag_04
+3419	cover_right_stand_to_shuffle_pass
+3420	cover_left_crouch_hide_to_over_lean
+3421	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit_blood_prone.vfx, j_helmet
+3422	head_b
+3423	sniper_aim_5_cmbtrdy_calm
+3424	camo_b_01
+3425	hide,j_ring
+3426	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_head
+3427	finish
+3428	ps_wfoly_plr_pi_papa220_akimbo_r_empty_inspect_01
+3429	exposed_crouch_crawl_shoot
+3430	ps_exec_097_prone_04,j_spinelower
+3431	in_vehicle_passthrough
+3432	med_6
+3433	run_forward_down_r
+3434	cover_left_lean_shoot_single
+3435	cover_crouch_turret_dismount
+3436	hold
+3437	patrol_move_mid
+3438	cover_right_hide_to_shuffle_pass
+3439	4run
+3440	cover_stand_wildfire
+3441	ik_foot_antislide
+3442	traverse_warp_external_arrival
+3443	stumbling_pain_collapse_death
+3444	shuffle_hard_lean_right
+3445	pain_shocked_cover_left_crouch
+3446	jog7
+3447	caps/interactions/cap_ai_revival
+3448	changeCover
+3449	sit_sleeping_death
+3450	stand_shuffle_right
+3451	motion_warp_target_path
+3452	walk_mantle_up_lg
+3453	walk_mantle_up_md
+3454	exposed_crouch_revive_r_final
+3455	8rshuffle_exitfull
+3456	ps_vm_sp_takedown_enemy_pain_med,j_head
+3457	jog_mantle_down_lg
+3458	jog_mantle_down_md
+3459	spawn_boss
+3460	pain_cover_stand_full_exp
+3461	fast_foot_r_forward_8_to_2
+3462	left8run
+3463	rightfoot_strafe_8_slice_8_r
+3464	j_nvg
+3465	cover_left_crouch
+3466	ps_vm_sp_takedown_pistol_right_01_wpn
+3467	left7
+3468	left9jog
+3469	cheer_anims
+3470	rightfoot_strafe_8_slice_7
+3471	fire_if_loaded
+3472	everyone_else_dialog
+3473	neck_r
+3474	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_hip_le
+3475	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_hip_ri
+3476	ads
+3477	med_close_8
+3478	ps_iw9_weap_knife_inspect_03b
+3479	ps_iw9_weap_knife_inspect_01b
+3480	ps_exec_baton_impact_head
+3481	agreeToCoverFire
+3482	alert_investigate_move_pass
+3483	lost_target
+3484	td_sdr_com_melee_takedown03_defwins_early_attacker_8_04,surface
+3485	patrol_move_react_passthrough_fl
+3486	9run
+3487	pass_cover_stand_shuffle
+3488	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_z_forward.vfx, j_helmet
+3489	8jog
+3490	pass_stairs_up
+3491	walk_jump_across_90l
+3492	patrol_sitting_laptop_react
+3493	exposed_stand_revive_crawl_back_final
+3494	slopes_back_7
+3495	weap_hybrid_toggle_on_plr
+3496	rightfoot_strafe_7_slice_6
+3497	ps_exec_mvmt_dirt_scuff,j_ankle_le
+3498	fx_playfxontag, vfx/iw9/executions/vfx_exec_097_witch_portal.vfx, tag_origin
+3499	cover_prone_lmg_dismount_passthrough
+3500	cover_left_crouch_arrival
+3501	ps_sdr_com_melee_takedown01_defwins_defender_8_02
+3502	hide_to_over_lean
+3503	Single Guy End
+3504	ps_sdr_com_melee_takedown03_defwins_defender_8_02
+3505	explosive_r
+3506	ps_exec_scrape_quick,j_ankle_ri
+3507	med_close_2l
+3508	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_machete_pullout, j_neck
+3509	legs_md_b
+3510	ps_exec_035_dog_lunge_stand,j_wrist_le
+3511	exit2jog
+3512	ps_wfoly_plr_pi_golf17_inspect_05
+3513	pain_cover_right_crouch_lean_anim_to_cover_right_crouch_lean
+3514	vehicle_idle_combat_shoot
+3515	deathmachine_spindown
+3516	ps_exec_knife_slice,j_neck
+3517	warp_down_start
+3518	left8rshuffle
+3519	cautious_clear_ready_to_slice_end
+3520	cover_right_crouch_to_cover_crouch
+3521	ps_exec_gore_splat_squish,j_spineupper
+3522	live_ragdoll_blend_to_physics
+3523	ps_wfoly_plr_pi_golf17_raise_01
+3524	curious_rereact_passthrough
+3525	pain_enemy_anims
+3526	ps_exec_vo_pain,j_knee_ri
+3527	WEAPON CONTROL RECHAMBER
+3528	crouch_default
+3529	shoot_lean_rpg
+3530	ps_exec_gore_bone_break,j_ankle_le
+3531	td_sdr_com_melee_takedown01_attackerwins_defender_4_02,surface
+3532	td_sdr_com_melee_takedown02_defwins_early_attacker_8_03,surface
+3533	fx_stopfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_spine4
+3534	aim_root
+3535	cover_left_crouch_hide_to_over_look
+3536	cover_crouch_lmg_to_pistol_exposed
+3537	ps_wfoly_plr_pi_papa220_akimbo_l_inspect_04
+3538	look_00
+3539	attach_right
+3540	custom_pose_cover_right
+3541	cover_left_stand_to_shuffle
+3542	pain_cover_right_stand_to_cover_right_stand_expb_anim
+3543	td_sdr_com_melee_takedown01_defwins_early_attacker_4_01,cloth
+3544	ps_gib_dismember_arm,j_spineupper
+3545	stop_9
+3546	clearGoal
+3547	aimset_exposed_stand_aim_down
+3548	live_ragdoll_end
+3549	1run_exitfull
+3550	leftfoot_strafe_7_slice_1
+3551	cover_stand_hide_to_full_exposed
+3552	sit_sleeping_react
+3553	conceal_crouch_to_exp_earlyout
+3554	aimset_coverprone_lmg
+3555	ps_exec_rvn_stnd_01
+3556	iw9_dm_la700
+3557	pain_cover_left_crouch_expb_to_hide
+3558	ps_exec_ballistic_knife_fire
+3559	ps_exec_gun_drop,tag_weapon_right
+3560	fast_forward_up
+3561	leader_hold_fire
+3562	t10_muzzles_suppressor_ar_coslo
+3563	left8rwalk
+3564	fingers_out_end_right_hand
+3565	td_sdr_com_melee_takedown01_attackerwins_early_defender_8_04,surface
+3566	ps_exec_scrape_quick,j_spineupper
+3567	left6run
+3568	Leader Reached LKP
+3569	cover_left_hide_to_look
+3570	traversal_transition
+3571	ai_lkp
+3572	ps_wpn_usugar9_reload_empty_release_plr
+3573	pain_burning_prone_right_arm
+3574	get_in_vehicle_door_off_passthrough
+3575	gesture
+3576	crouch_shuffle_right
+3577	melee_attack
+3578	up
+3579	8a
+3580	50
+3581	sniper
+3582	td_sdr_com_melee_takedown01_defwins_early_attacker_6_05,surface
+3583	pain_burning_cover_left_stand
+3584	cover_left_crouch_switchweapon
+3585	Reached Cover
+3586	live_ragdoll_recover_slopes_rightside_2
+3587	to_cover_left
+3588	cover_stand_hide_to_look
+3589	ps_wfoly_plr_pi_papa220_reload_empty_01
+3590	ps_exec_punch_quick,j_head
+3591	pain_cover_stand_arrival
+3592	exposed_prone_move_pass
+3593	AI On Standby End
+3594	coverme_center_stand_8
+3595	coverme_center_stand_6
+3596	ps_sdr_com_melee_takedown02_attackerwins_defender_8_04
+3597	left1shuffle
+3598	right8rshuffle
+3599	execution_animal_001
+3600	smg_aim_5_cmbtrdy_tense
+3601	ps_exec_058_stand_arm_twist,j_elbow_ri
+3602	cover_crouch_turret_deploy
+3603	ps_exec_gore_bone_break_loud
+3604	exit3sprint
+3605	move_crouch_loop
+3606	2rrun
+3607	rightfoot_strafe_9_fast_7
+3608	arrive_at_vehicle_passthrough
+3609	military_point3
+3610	stand_strafe_start
+3611	ps_wpn_usugar9_reload_empty_mag_in_plr
+3612	8x12
+3613	weap_mike4_reload_empty_fast_chamber_plr
+3614	shuffle2
+3615	ps_melee_takedown_knife_slash_impact
+3616	patrol_sitting_cellphone_death
+3617	ai_iw9_move_locomotion_prone
+3618	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_spine4
+3619	rleg_md_f
+3620	t10_mags_extclip_ar_coslo
+3621	lookat_unblock
+3622	A
+3623	a
+3624	leftfoot_strafe_9_slice_2
+3625	charging
+3626	lowerbody_l_lg_2
+3627	hit_2_head
+3628	avoid_right_jump
+3629	MotionWarpNoteEnd
+3630	slopes_leftside_3
+3631	curious_investigate_lookaround_end_pass
+3632	cover_right_crouch_lean_to_hide
+3633	pain_popup_recover_r
+3634	6walk_from_strafe_4
+3635	cover_left_hide_to_b
+3636	swimbubbles
+3637	weap_arx_reload_out_plr
+3638	exposed_stand_revive_crawl_l_final
+3639	td_sdr_com_melee_takedown02_attackerwins_defender_8_02,surface
+3640	aimset_exposed_prone
+3641	weap_usp45_chamber_plr
+3642	ps_bodyfall_head,j_head
+3643	ps_exec_gear_mvmt_quick_light,j_wrist_ri
+3644	right8rwalk
+3645	ps_vm_sp_takedown_pistol_back_02_mvmt
+3646	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_chest
+3647	cheer
+3648	patrol_react_fl
+3649	walk_mantle_down_sm_90l
+3650	7sprint
+3651	jog1r
+3652	jog7r
+3653	headlook
+3654	t10_bar_velocity_ar
+3655	iw9_ar_golf3
+3656	whizby6
+3657	door_open_alert_fl
+3658	melee_contact_lower
+3659	cover_crouch_lmg_deploy
+3660	leftfoot_strafe_8_slice_3
+3661	left_doorless
+3662	WEAPON PUSHBACK GUN
+3663	alert_move_fl_trans_react_pass_fixup
+3664	cqbreload
+3665	cover_right_crouch_to_shuffle
+3666	weap_1911_fast_magin_plr
+3667	gothere_stand
+3668	jog_mantle_down_xlg_90r
+3669	ps_vm_sp_takedown_knife_right_01_mvmt
+3670	nvg_off
+3671	ps_vm_sp_takedown_pistol_right_02_bodyfall
+3672	crawling_pain_to_belly
+3673	patrol_stairs_down_fl
+3674	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_elbow_ri
+3675	execution_084
+3676	execution_044
+3677	execution_099
+3678	execution_097
+3679	execution_015
+3680	execution_051
+3681	execution_020
+3682	execution_060
+3683	execution_075
+3684	vehicle_melee
+3685	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_dummy_knee_dist
+3686	pistol_holster
+3687	ps_exec_gear_mvmt_long_heavy,j_mainroot
+3688	ps_sdr_com_melee_takedown02_attackerwins_attacker_8_02
+3689	waitForReviver
+3690	interactions/door_check
+3691	ik_in_start_left_hand
+3692	patrol_custom_death
+3693	ps_dmz_pyro_boss_molotov_left_arm_dance_02
+3694	right1sprint
+3695	ragdollsloperecovery_back_7
+3696	cover_left_look
+3697	stand_strafe_reverse
+3698	fast_mantle_down_xlg
+3699	cautious_corner_pass
+3700	fast9
+3701	cover_left_crouch_hide_to_look
+3702	cover_right_crouch_hide_to_stand
+3703	bodyfall_large
+3704	alert_investigate_arrival_exposed
+3705	coverfire
+3706	live_ragdoll_recover_slopes_stomach_4
+3707	right4walk
+3708	ps_wpn_coslo723_reload_empty_up_plr
+3709	fx_playfxontag, vfx/iw9/executions/vfx_exec_087_head_blood.vfx, j_spineupper
+3710	custom_pose
+3711	patrol_move_to_cqb_move
+3712	ps_exec_katana_slash,j_shoulder_ri
+3713	td_sdr_com_melee_takedown01_defwins_early_attacker_2_03,surface
+3714	cover_left_reload
+3715	aim_5
+3716	Joiner_Should_Support
+3717	pain_cover_right
+3718	aimset_exposed_stand
+3719	td_sdr_com_melee_takedown01_attackerwins_early_defender_4_02,cloth
+3720	exposed_crouch_revive_crawl_r_final
+3721	noncombat_stand_idle
+3722	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_chest
+3723	anim_pose = back
+3724	pain_cover_right_stand_expa_anim
+3725	shuffle4l
+3726	run_should_arrive_cover_left_crouch_lean
+3727	pain_burning_prone_right_leg
+3728	evt_gala_civ_idle_1_foley_01
+3729	ik_finger_pose_r
+3730	left8
+3731	weap_p226_clipin_plr
+3732	1jog_exitfull
+3733	2lwalk_from_strafe_6
+3734	death_cover_crouch
+3735	long_death_mercy_final
+3736	slopes_world_ref
+3737	you
+3738	alert_idle
+3739	soldier_start
+3740	pass_from_conceal_stand
+3741	ps_iw9_weap_knife_inspect_03a
+3742	gut_b
+3743	execution_02
+3744	patrol_react_lookaround
+3745	pain_shocked_cover_crouch
+3746	pain_cover_stand_full_exp_anim
+3747	reviving_loop
+3748	td_sdr_com_melee_takedown01_defwins_early_attacker_4_03,surface
+3749	sit_laptop
+3750	ps_exec_hand_grab_body,j_wrist_ri
+3751	ps_exec_hand_grab_body,j_wrist_le
+3752	ik_out_end_right_foot
+3753	ps_exec_redtail_stnd_03
+3754	ps_exec_katana_stab,j_knee_le
+3755	cover_crouch_exit
+3756	combat_passthrough
+3757	ps_jup_exec_cp_pull
+3758	ps_jup_exec_cp_bodyfall
+3759	ps_exec_gear_grab_mid,j_mainroot
+3760	longwalk
+3761	fast_forward_up_r
+3762	t10_lasers_mixlaser_ar_coslo
+3763	slopes_back_4
+3764	defender
+3765	cover_crouch_turret_reload
+3766	get_out_vehicle_combat_door_off_passthrough
+3767	shrug
+3768	SetGoalPos_LKP
+3769	8lshuffle
+3770	stim_attach_left
+3771	get_out_vehicle_from_combat_passthrough
+3772	ps_sdr_com_melee_takedown03_defwins_defender_8_01
+3773	bodyfall_torso
+3774	ps_exec_gear_mvmt_long_heavy,j_spineupper
+3775	longrun
+3776	ps_vm_sp_takedown_knife_crouch_back_02_wpn
+3777	head_lg_2
+3778	cover_right_blindfire_passthrough
+3779	melee_charge
+3780	pain_cover_crouch_exposed_right_anim
+3781	pass_grenade_use_override_pos_left_crouch
+3782	fast_mantle_down_lg_90r
+3783	ps_vm_sp_takedown_pistol_left_01_wpn
+3784	exit2run
+3785	left9walk
+3786	ai_head_look
+3787	phase_max_start
+3788	aimset_cornerstndr_lean
+3789	shoot_additives_rifle_prone
+3790	pass_cover_left_moverequested
+3791	call_reinforcements_cover_stand_loop
+3792	ps_exec_knife_stab,j_spinelower
+3793	larm_md_f
+3794	usingarmorplate
+3795	ps_wfoly_plr_pi_golf17_inspect_06
+3796	talk_anims
+3797	pain_cover_left_crouch_anim
+3798	ps_exec_gun_m4_hit,j_head
+3799	weap_ar_idle_4_02_plr
+3800	grenade_calculate_override_pos_cover_right_crouch
+3801	ps_sdr_com_melee_takedown01_attackerwins_defender_6_01
+3802	jog_vault_over_sm_90l
+3803	pistol_putaway
+3804	left6fast
+3805	exposed_stand_crawl_left
+3806	cover_crouch_left_to_hide
+3807	move_crouch_to_cover_left_crouch_arrival
+3808	foot_l_forward
+3809	cover_right_hide_to_look
+3810	cover_crouch_exposed_left
+3811	patrol_react_end_fl
+3812	react_newenemy_8
+3813	cover_stand_switchweapon
+3814	left9shuffle
+3815	alert_investigate_stairs_pass
+3816	td_sdr_com_melee_takedown01_defwins_attacker_2_05,surface
+3817	mvmt_step_pre
+3818	quickcheck
+3819	Cover Right
+3820	hit_2_midbody
+3821	vfx_start
+3822	patrol_move_passthrough
+3823	ps_exec_katana_stab,j_spineupper
+3824	6left
+3825	ps_hm_grnd_melee02_attacker_wins_def_02
+3826	4shuffle
+3827	7fast_from_strafe_6
+3828	ps_wfoly_plr_pi_papa220_akimbo_l_inspect_03
+3829	look_03
+3830	gundown_cqb_strafe
+3831	vehicle_idle_combat_shoot_turn_passthrough
+3832	look_to_hide_high
+3833	stop_6
+3834	cm_death
+3835	camo_c_15
+3836	pain_cover_crouch_arrival
+3837	pain_cover_stand_default_internal
+3838	leftfoot_strafe_7_slice_6
+3839	small_close_2l
+3840	live_ragdoll_follow_anim_root
+3841	pass_from_cover_left_crouch
+3842	angry
+3843	pain_cover_left_stand_anim
+3844	ps_exec_rvn_stnd_02
+3845	pain_cover_right_default
+3846	right_to_hide
+3847	patrol_wall_lean_death
+3848	melee_sldr_vs_zom_attack_decider
+3849	additives
+3850	pass_move_crouch_cover_exit_code_move
+3851	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_proc_spinelift
+3852	exposed_front_l
+3853	cover_left_crouch_look_to_hide
+3854	right6shuffle
+3855	exit1sprint
+3856	shuffle_foot_l_forward_2_to_8
+3857	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit_blood_prone.vfx, j_spine4
+3858	exited_vehicle_passthrough
+3859	patrol_rail_lean_death
+3860	slopes_stomach_6
+3861	ps_exec_knife_stab,j_head
+3862	sdr_com_custom_pose_cover_right_crouch
+3863	explosive_prone_f
+3864	ps_exec_gear_mvmt_quick_light,j_elbow_le
+3865	rarm_lg_l
+3866	rarm_lg_r
+3867	weap_sc2010_clipout_plr
+3868	walk_foot_l_forward_8_to_6
+3869	traversal_transition_cleanup
+3870	shuffle_left_to_cover_right_crouch
+3871	ps_exec_kalisticks_impact,j_wrist_le
+3872	react
+3873	ps_exec_impact_helmet,j_head
+3874	vehicle_idle_hunt
+3875	exposed_crouch_crawl_back
+3876	rightfoot_strafe_7_fast_3
+3877	pain_cover_right_crouch_expb_to_hide
+3878	cautious_clear_quick_enter
+3879	ps_vm_sp_takedown_knife_back_02_bodyfall
+3880	2f
+3881	4r
+3882	6r
+3883	mg
+3884	call_reinforcements_cover_crouch_finish
+3885	helmet_visor_down_price_instant
+3886	2jog
+3887	curious_stairs_down
+3888	ps_exec_gun_m4_lower,tag_weapon_right
+3889	fx_stopfxontag, vfx/iw9/equipment/vfx_shockstick_ontag_death, j_spine4
+3890	enemy_combatant
+3891	iw9_sh_mike1014
+3892	td_sdr_com_melee_takedown01_defwins_attacker_4_01,cloth
+3893	patrol_cellphone_death
+3894	viewmodel_large
+3895	turret_aim_1
+3896	pain_lmg_stand_default
+3897	curious_react_lookaround_passthrough
+3898	cover_stand_lmg_dismount_passthrough
+3899	hit_3_midbody
+3900	execution_animal_006
+3901	conceal_stand_exposed_to_hide
+3902	ps_exec_knife_slice,j_spineupper
+3903	exposed_crouch_to_stand
+3904	gas_death
+3905	shuffle9
+3906	ik_in_start_right_hand
+3907	pain_lmg_stand
+3908	exposed_crouch_weaponswitch
+3909	minigun_shoot_burst
+3910	ps_vm_sp_takedown_pistol_right_01_bodyfall
+3911	0
+3912	walk9
+3913	ps_exec_vo_cough
+3914	td_sdr_com_melee_takedown03_attackerwins_early_defender_8_02,surface
+3915	rleg_upper_b
+3916	ps_exec_punch_full,j_spineupper
+3917	fingers_in_end_left_hand
+3918	shocked_lightning_chain
+3919	pass_traverse_code_move
+3920	fast_mantle_over_down_lg_90l
+3921	fast_mantle_over_down_lg_90r
+3922	t10_ammo_45acp
+3923	cover_crouch_aim_drop_rpg
+3924	smtobj_death_pass
+3925	longjog
+3926	cover_right_crouch_hide_to_over_look_fast
+3927	combat_react
+3928	remote_reviver
+3929	ps_exec_kalisticks_impact,j_spinelower
+3930	ps_exec_gear_mvmt_long_mid,j_spineupper
+3931	ps_jup_exec_cp_vox_death
+3932	dive
+3933	alert_turn
+3934	walk_mantle_down_md_90l
+3935	ps_exec_scrape_quick,j_knee_ri
+3936	grenade_throw_short
+3937	grenade_drop
+3938	ps_bodyfall_limb_small,j_ankle_le
+3939	iw9_ar_mike4
+3940	vortex_pull_crawl
+3941	alert_idle_fl_to_alert_idle
+3942	jog2l
+3943	jog2b
+3944	jog4r
+3945	exposed_stand_revive_crawl_belly
+3946	whizby1
+3947	set_bseq_phase
+3948	walk_mantle_down_lg_90r
+3949	left4walk
+3950	ps_wfoly_plr_pi_papa220_raise_quick_01
+3951	pushed_6
+3952	shoot_idle
+3953	ps_exec_gore_blood_headshot,j_head
+3954	8sprint
+3955	minigun_spindown
+3956	intro
+3957	rarm_alt
+3958	gundown_exposed_stand_rpg
+3959	2fast
+3960	suppressor
+3961	warp_up_start_new
+3962	body
+3963	weap_ar_idle_4_01_plr
+3964	ps_exec_gear_mvmt_long_light,j_mainroot
+3965	ps_wfoly_plr_pi_papa220_reload_empty_fast_05
+3966	cover_right_crouch_exposed_a
+3967	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_spineupper
+3968	execution_090
+3969	execution_003
+3970	execution_034
+3971	execution_043
+3972	execution_069
+3973	mount_turret
+3974	2lsprint_exitfull
+3975	pass_grenade_use_override_pos_cover_left
+3976	t10_underbarrel_recoil_ar_coslo
+3977	ps_exec_impact_body_deep,j_knee_ri
+3978	fx_playfxontag, vfx/iw9/executions/vfx_exec_starlight_impact, j_head
+3979	start_ragdoll
+3980	conceal_crouch_stand_to_hide
+3981	phase_marker_25
+3982	cover_left_lean
+3983	ps_vm_sp_takedown_knife_front_03_mvmt
+3984	right3walk
+3985	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_knee_ri
+3986	ps_vm_sp_takedown_knife_left_02_wpn
+3987	cover_crouch_stand_to_hide
+3988	ps_vm_sp_takedown_knife_right_03_wpn
+3989	left_right
+3990	pass_crouch_cover_exposed_abort
+3991	pass_exposed_crouch_weaponswitch
+3992	slwalk
+3993	patrol_stairs_down
+3994	walk9r
+3995	right3run
+3996	off_casual_gun
+3997	cover_right_crouch_exit
+3998	ps_vm_sp_takedown_pistol_back_02_bodyfall
+3999	pain_cover_right_lean
+4000	ps_sdr_com_melee_takedown03_attackerwins_early_attacker_8_02
+4001	right4sprint
+4002	t10_selectsemi
+4003	avoid_left_jump
+4004	head_alt
+4005	caps/interactions/cap_sdr_breach
+4006	aim_2
+4007	jup_execution_first_person_000
+4008	accel_to_move_target
+4009	vfx_burn_med_low
+4010	ps_wpn_usugar9_reload_empty_mag_out_plr
+4011	ps_sdr_com_melee_takedown01_defwins_early_attacker_8_02
+4012	right9shuffle
+4013	gun_down_cqb
+4014	vehicle_dodge
+4015	left2walk
+4016	start_reload
+4017	door_open_patrol
+4018	combat_react_passthrough
+4019	ps_exec_087_stand_kneegore,j_mainroot
+4020	shuffle_feet_together_6_to_4
+4021	ps_exec_impact_body_full,j_neck
+4022	alert_move_fl_to_patrol_move_fl
+4023	ps_wfoly_plr_pi_papa220_reload_fast_xmag_02
+4024	smg_aim_5
+4025	vehicle_arrived_passthrough
+4026	investigate_look
+4027	pass_run_should_arrive
+4028	alert_move_react_passthrough
+4029	t10_oic
+4030	release_everyone
+4031	ps_exec_bodytap,j_hip_le
+4032	rightfoot_strafe_8_fast_4
+4033	earlyRevivedSuccess
+4034	td_sdr_com_melee_takedown01_attackerwins_defender_2_03,surface
+4035	revive_long_death
+4036	aimset_cornercrr_lean
+4037	lowerbody_r_lg_4
+4038	rereact_passthrough
+4039	fast_jump_across_90r
+4040	dying_guy_dies
+4041	patrol_rail_look_over_loop
+4042	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_mainroot
+4043	fast9l
+4044	fast3r
+4045	vehicle_death
+4046	vehicle_idle_combat_to_hunt_passthrough
+4047	7sprint_exitfull
+4048	stand_strafe_aim_change
+4049	torso_upper_f
+4050	3fast_exitfull
+4051	smtobj_react_pass
+4052	waitForCoverFire
+4053	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, j_ankle_ri
+4054	ps_exec_gore_bone_dislocate_twist,j_neck
+4055	rleg_lg_f
+4056	pass_run_turn_code_move
+4057	cover_left_crouch_wildfire
+4058	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_helmet
+4059	t10_muzzles_brake_ar_coslo
+4060	pain_cover_left_crouch_expa_to_hide
+4061	cover_right_crouch
+4062	stand_run_loop
+4063	pass_is_cover_crouch
+4064	alert_react_lookaround_passthrough_fl
+4065	backward
+4066	happy_anims
+4067	patrol_move_fl
+4068	pain_lmg_stand_high
+4069	walk_foot_r_forward_8_to_2
+4070	patrol_stairs_pass
+4071	ps_exec_gear_mvmt_brush,j_elbow_le
+4072	onUserTerminate
+4073	cautious_clear_react
+4074	weap_m4_fast_gl_end_plr
+4075	cover_left_crouch_stand
+4076	weap_evo_hit_plr
+4077	explosive_crouch_l
+4078	code_move_2_temp
+4079	patrol_humming_death
+4080	patrol_cellphone_react
+4081	ps_mp_execution_animal_dog_approach
+4082	cover_crouch_look_to_hide
+4083	patrol_move_putaway_flashlight
+4084	leader
+4085	lean_6
+4086	lean_8
+4087	headlook_graft_node
+4088	burn_vfx_pain_start_head
+4089	react_earlyout_passthrough_fl
+4090	cover_peek
+4091	rightfoot_strafe_9_slice_1
+4092	cover_left_crouch_to_cover_stand
+4093	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_spine4
+4094	inactive
+4095	lleg_lower_f
+4096	ps_exec_face_punch_mid,j_wrist_ri
+4097	ps_exec_gear_mvmt_whoosh_slow,j_spineupper
+4098	jog_jump_up_drop
+4099	pass_cover_right_crouch_moverequested
+4100	clear_lkp
+4101	td_sdr_com_melee_takedown01_attackerwins_early_defender_8_03,surface
+4102	cautious
+4103	conceal_add
+4104	traverse_warp_up
+4105	rarm_lower_f
+4106	hit_7_lower
+4107	right4run
+4108	beckon9
+4109	End Fire
+4110	midbody_md_6
+4111	midbody_md_8
+4112	run_hard_lean_right
+4113	anim_pose = feet_together
+4114	ps_wfoly_plr_pi_papa220_reload_fast_06
+4115	patrol_stationary_turn
+4116	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_clavicle_ri
+4117	larm_lower_b
+4118	larm_lower_l
+4119	camo_b_09
+4120	td_sdr_com_melee_takedown03_defwins_early_defender_8_02,cloth
+4121	fast_forward_down
+4122	move_prone_stop
+4123	fx_stopfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_spinelower_lift
+4124	patrol_custom_loop
+4125	ps_dmz_pyro_boss_molotov_right_leg_dance_01
+4126	cover_right_crouch_hide_to_b
+4127	ps_exec_gear_mvmt_midlength_heavy
+4128	mediumfast
+4129	cover_stand_exposed
+4130	left2jog
+4131	9sprint_exitfull
+4132	ps_wfoly_pi_reload_npc_in
+4133	rifle_aim_5_interior
+4134	stairs_walk_down_arrival
+4135	ps_exec_katana_slash,j_head
+4136	sdr_com_custom_pose_exposed_crouch
+4137	parachute_prepare_for_landing
+4138	strafe_aim_change_codemove
+4139	react_earlyout_pass_alert_fl
+4140	grenade_throw
+4141	user
+4142	6run
+4143	cover_right_lean
+4144	death_standing
+4145	ps_wfoly_plr_pi_papa220_reload_empty_xmag_01
+4146	4walk
+4147	move_complete_lkp
+4148	walk
+4149	vehicle_idle_combat_shoot_passthrough
+4150	ps_sdr_com_melee_takedown01_defwins_early_attacker_6_03
+4151	jog_mantle_down_72
+4152	weap_evo_end_plr
+4153	live_ragdoll_recover_slopes_back_8
+4154	split_up_dialog
+4155	patrol_stretching_loop
+4156	3jog
+4157	coverme_center_crouch_8
+4158	cautious_clear_slice_idle
+4159	l_gun_left_gun_right
+4160	reachedLKP
+4161	2g
+4162	4a
+4163	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_proc_spinelift
+4164	fx_playfxontag, vfx/iw9/executions/vfx_exec_097_witch_magic_hit.vfx, j_wristfronttwist1_le
+4165	weap_mike4_drop_quick_plr
+4166	call_reinforcements_cover_crouch_loop
+4167	weap_mike4_raise_first_plr
+4168	live_ragdoll_recover_slopes_rightside_4
+4169	spread
+4170	rleg_lower_l
+4171	radio
+4172	cover_stand_exposed_drop_rpg
+4173	dying_back_crawl
+4174	pass_grenade_use_override_pos_conceal_stand
+4175	4_l
+4176	100
+4177	6_r
+4178	falling
+4179	ps_wpn_coslo723_reload_empty_mag_in_plr
+4180	execution_animal_007
+4181	1sprint
+4182	patrol_move_speed_switch
+4183	r_gun_right_gun_left
+4184	warp_up_start
+4185	vehicle_turret
+4186	right9sprint
+4187	ps_exec_gore_bone_dislocate_twist,j_spineupper
+4188	weap_mike4_reload_empty_fast_magin_plr
+4189	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_dog_bite_arm.vfx, tag_wrist_attach_le
+4190	8run
+4191	shuffle8
+4192	pain_anims
+4193	cover_crouch_to_shuffle_r
+4194	trans_to_conceal_stand
+4195	rleg_md_l
+4196	rleg_md_r
+4197	casual
+4198	1
+4199	walk8
+4200	lowerbody_l_lg_4
+4201	fx_playfxontag, vfx/iw9/core/weapons/impacts/mtx/jacko_s6/vfx_imp_mtx_jacko_fatal, j_wrist_le
+4202	execution_victim
+4203	ps_exec_gun_rattle_heavy,j_wrist_le
+4204	phase_marker_50_start
+4205	pain_popup_recover_f
+4206	ps_exec_scrape_feet,j_ankle_le
+4207	ps_exec_scrape_feet,j_ankle_ri
+4208	move_graft_node
+4209	vehicle_oriented_death_passthrough
+4210	ps_vm_sp_takedown_pistol_front_02_mvmt
+4211	ps_wfoly_plr_pi_papa220_raise_first_01
+4212	exposed_crouch_turn
+4213	fx_playfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck, j_neck
+4214	walk_mantle_up_md_90l
+4215	strafe_blendspace_additional_assets
+4216	ps_dmz_pyro_boss_molotov_right_arm_dance_01
+4217	react_earlyout_fl_grenadereturn
+4218	larm_lg_f
+4219	3fast_from_strafe_4
+4220	shoot_additives_rifle_left_crouch
+4221	run_should_arrive_cover_crouch_lmg
+4222	cover_right_crouch_lean_exit
+4223	stand_zero_arrival
+4224	ps_exec_hand_grab_head,j_elbow_ri
+4225	melee_charge_to_ready
+4226	ps_exec_gear_grab_pull,j_head
+4227	8lshuffle_exitfull
+4228	t10_ironsdefault_coslo723
+4229	jog1l
+4230	jog3r
+4231	walk_feet_together_6_to_2
+4232	3jog_exitfull
+4233	fx_playfxontag, vfx/iw9/executions/vfx_exec_dog_bite_single_sm.vfx, j_elbow_le
+4234	patrol_idle_trans_to_flashlight
+4235	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_hip_proc_ri
+4236	smartobject_intro_end
+4237	sit_laptop_react
+4238	ps_exec_gear_mvmt_quick_light,j_ankle_ri
+4239	ps_wfoly_plr_pi_papa220_reload_empty_fast_04
+4240	cover_crouch_lmg_dismount
+4241	pass_cover_right_lean_moverequested
+4242	execution_042
+4243	execution_068
+4244	execution_002
+4245	execution_035
+4246	execution_091
+4247	jog_jump_across_slide_90r
+4248	left
+4249	face_goal
+4250	code_move
+4251	ai_weapon_aim
+4252	exposed_stand_infantry_reaction
+4253	shuffle_feet_together_4_to_8
+4254	shuffle_feet_together_4_to_6
+4255	abombitevfx
+4256	ps_wfoly_plr_pi_papa220_akimbo_l_empty_inspect_01
+4257	t10_stocks_mixstock2_ar_coslo
+4258	ps_exec_097_prone_02,j_spinelower
+4259	ps_vm_sp_takedown_knife_left_02_mvmt
+4260	fast1
+4261	ps_exec_vo_pain,j_head
+4262	pain_cover_right_crouch_to_cover_right_crouch_expa_anim
+4263	torso_alt
+4264	cover_stand_to_cover_left_crouch
+4265	run_should_arrive_cover_right_crouch
+4266	walk2r
+4267	walk4r
+4268	7right
+4269	fx_playfxontag, vfx_vm_sp_stab_neck_back_ri_01, j_neck
+4270	num_backup_members
+4271	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp.vfx, j_hip_ri
+4272	run_should_arrive_cover_prone_lmg
+4273	model_swap
+4274	exit2walk
+4275	comehere_8
+4276	comehere_6
+4277	ps_exec_gear_mvmt_throw,j_wrist_ri
+4278	is_standing
+4279	left4jog
+4280	aim_3
+4281	jup_execution_first_person_001
+4282	left8lsprint
+4283	dying_back_shoot
+4284	exposed_casual_exit
+4285	cover_crouch_lmg_arrival
+4286	conceal_crouch_grenade
+4287	pain_cover_right_crouch_lean
+4288	aim_enemy_anims
+4289	melee_knife_stab
+4290	3sprint_exitfull
+4291	patrol_scratching_react
+4292	fx_playfxontag, vfx/iw9/executions/vfx_exec_01_knife_pullout_neck.vfx, j_neck
+4293	ps_exec_vo_death,j_head
+4294	sdr_com_melee_takedown01_defwins_defender_8_01,cloth
+4295	fx_playfxontag, vfx/iw9/executions/vfx_exec_knife_stab_neg_y, j_neck
+4296	ps_sdr_com_melee_takedown01_attackerwins_early_defender_2_02
+4297	curious_to_patrol_passthrough
+4298	td_sdr_com_melee_takedown01_defwins_early_attacker_2_02,surface
+4299	ps_wfoly_plr_pi_papa220_reload_fast_xmag_05
+4300	conceal_crouch_reload
+4301	active
+4302	leftfoot_strafe_7_fast_1
+4303	ps_wfoly_plr_ar_akilo47_drop_01
+4304	ps_exec_097_prone_03,j_spinelower
+4305	get_out_vehicle_combat_passthrough
+4306	hold_fire
+4307	rightfoot_strafe_8_fast_3
+4308	pain_md
+4309	move_complete_initial
+4310	lookat_block
+4311	exposed_prone_to_stand
+4312	cover_left_crouch_hide_to_stand
+4313	shortsprint
+4314	pain_burning_prone_left_leg
+4315	sdr_com_custom_weapon_offset
+4316	setupPositionsNearLKP
+4317	pmt_nre_mid
+4318	fx_playfxontag, vfx/iw9/core/weapons/impacts/mtx/vfx_imp_fatal_bnoir.vfx, j_spineupper
+4319	8rsprint_exitfull
+4320	fast2r
+4321	molotov_crouch_b
+4322	ps_sdr_com_melee_takedown01_defwins_attacker_4_02
+4323	ps_exec_gore_splat_squish,j_mainroot
+4324	fx_playfxontag, vfx/iw9/executions/vfx_exec_head_dismember.vfx, j_shoulder_le
+4325	slopes_add
+4326	leftfoot_strafe_9_fast_7
+4327	t10_reddot02_west
+4328	weap_mike4_reload_empty_fast_lift_plr
+4329	ps_exec_hatchet_hack_loud
+4330	ps_exec_gear_mvmt_midlength_light,j_ankle_ri
+4331	pass_walk_cover_exit_code_move
+4332	dive_backward
+4333	exposed_stand_revive_back_final
+4334	crouch
+4335	ps_bodyfall_limb_small,j_knee_ri
+4336	ps_exec_gear_mvmt_midlength_heavy,j_head
+4337	casual_point6
+4338	anim_pose = stand
+4339	cigarette_light_right
+4340	pass_cover_left_crouch_moverequested
+4341	r_gun_right_look_left
+4342	evt_gala_civ_idle_1_steps_02
+4343	alert_stairs_up_fl_blendspace
+4344	running_forward_4
+4345	ps_exec_vo_pain,j_wrist_le
+4346	melee_no_recovery
+4347	hide_to_over_look_fast
+4348	cover_right_peek
+4349	ps_exec_gore_blood_drip,j_proc_spinelift
+4350	Gotcha
+4351	2lfast_exitfull
+4352	interactions/ai_lkp
+4353	ps_exec_gore_splat_squish
+4354	td_sdr_com_melee_takedown03_attackerwins_defender_8_01,cloth
+4355	fx_playfxontag, vfx/iw9/executions/vfx_exec_058_blood_pool_2.vfx, j_spineupper
+4356	2lfast_from_strafe_4
+4357	patrol_idle_fl
+4358	melee_smack_win_victim
+4359	conceal_crouch_aim_drop_rpg
+4360	alert_move_to_patrol_move_check
+4361	cover_right_blindfire
+4362	shoot_additives_lmg_right_crouch
+4363	ps_vm_sp_takedown_pistol_back_01_bodyfall_b
+4364	left_to_hide
+4365	stairs_run_up_arrival
+4366	cautious_clear_hipflip
+4367	rightfoot_strafe_8_fast_8_r
+4368	run7r
+4369	run9l
+4370	exposed_back
+4371	deathmachine_shoot_burst
+4372	walk_mantle_down_xlg_90l
+4373	hang_grab_right
+4374	ps_sdr_com_melee_takedown01_attackerwins_defender_4_04
+4375	patrol_move_blend
+4376	cautious_strafe_loop
+4377	shortfast
+4378	ps_weap_fist_inspect_02
+4379	rightfoot_strafe_9_slice_2
+4380	left_8
+4381	blend_out
+4382	shuffle_right_to_cover_right_stand
+4383	fast_foot_r_forward_2_to_8
+4384	long_death_idle_pass
+4385	aimset_covercrouch_lmg
+4386	smartobject_logic_done
+4387	ps_sdr_com_melee_takedown02_defwins_defender_8_01
+4388	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward.vfx, j_head
+4389	shoot_additive
+4390	long_death_intro
+4391	custom_pose_cover_left_crouch
+4392	facial
+4393	alert_pistol
+4394	8ljog
+4395	volunteerToCoverFire
+4396	exposed_crouch_aim_down
+4397	torso_md_f
+4398	shoot_settle_sg_full
+4399	beckon6
+4400	direct_point_2_8
+4401	cover_stand_arrival
+4402	ps_exec_gear_mvmt_long_mid,j_mainroot
+4403	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_mainroot
+4404	gundown_exposed_crouch_rpg
+4405	pass_conceal_crouch_exposed_abort
+4406	fx_playfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee.vfx, j_hipholster_le
+4407	ps_wfoly_plr_pi_papa220_akimbo_r_empty_inspect_04
+4408	patrol_stairs_fl_pass
+4409	iw9_sm_apapa
+4410	pass_cover_right_move_shuffle
+4411	ps_exec_gore_heavy_splat,j_spine4
+4412	ik_out_start_left_hand
+4413	4jog_exitfull
+4414	cover_crouch_right_to_hide
+4415	Backups Done with Final Move
+4416	cover_left_lean_arrival
+4417	head
+4418	ps_vm_sp_takedown_knife_back_01_mvmt
+4419	ragdollsloperecovery_stomach_8
+4420	acknowledge
+4421	exposed_front
+4422	cover_crouch_lean_to_hide
+4423	jog2
+4424	6sprint_exitfull
+4425	exposed_stand_crawl_right
+4426	cover_stand_high_lmg_dismount
+4427	call_reinforcements_cover_left_crouch_finish
+4428	left9fast
+4429	jog_vault_over_md
+4430	custom_patrol_react_passthrough_fl
+4431	ps_wfoly_plr_pi_fidget_large
+4432	advance
+4433	get_in_vehicle_passthrough
+4434	cover_left_a_to_b
+4435	pain_cover_left_crouch_anim_to_cover_left_crouch
+4436	jog_mantle_down_sm
+4437	2lfast
+4438	8ljog_exitfull
+4439	ps_exec_gear_mvmt_whoosh_slow,j_spinelower
+4440	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_axe_hit_prone.vfx, j_helmet
+4441	shuffle8r
+4442	shuffle6r
+4443	slopes_rightside_6
+4444	jog_jump_across
+4445	t10_bar_highcal2_ar_coslo
+4446	facial_override
+4447	leans
+4448	pain_can_end
+4449	cigarette_attach_right
+4450	fx_playfxontag, vfx/iw9/executions/vfx_exec_blood_splatter.vfx, j_hipholster_le
+4451	exposed_idle_dodge
+4452	jog_jump_up_drop_90r
+4453	walk_step_over_90r
+4454	ps_sdr_com_melee_takedown01_attackerwins_attacker_6_03
+4455	ps_exec_gore_heavy_splat,j_spinelower
+4456	cover_left_blindfire
+4457	footstep_right_large
+4458	not_run_pass
+4459	2shuffle
+4460	shuffle_foot_r_forward_2_to_6
+4461	brake
+4462	ascender
+4463	ps_vm_sp_takedown_knife_crouch_left_02_bodyfall
+4464	motion_warp_face_path
+4465	run_n_gun_hard_left
+4466	alert_move_fl_to_alert_move_check
+4467	left8lfast
+4468	mp_exfil_blima_pullup_crew_entry_r
+4469	cover_right_crouch_hide_over_peek
+4470	right3fast
+4471	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_head
+4472	t10_mags_fastreload_ar_coslo
+4473	rifle_aim_6
+4474	cqb_hunt_lookaround_pass
+4475	ps_exec_knife_stab,j_shoulder_ri
+4476	cover_crouch_to_shuffle_l_pass
+4477	cover_left_stand_final
+4478	noncombat
+4479	coverme_left_stand1
+4480	exposed_idle_pushed
+4481	EarlyExit
+4482	hide_to_over_look
+4483	cover_stand_turret_dismount
+4484	cover_prone_turret
+4485	ps_exec_scrape_hands,j_elbow_ri
+4486	aimset_cautious_slice_right
+4487	pain_stunned_enter
+4488	stairs_run_up_loop
+4489	execution_attacker_stand
+4490	pass_grenade_use_override_pos_conceal_crouch
+4491	pain_cover_left_crouch_expb_anim
+4492	head_lg_b
+4493	jog_mantle_down_lg_90r
+4494	exec_victim_weapon_show
+4495	cover_left_lean_idle
+4496	lookat_spec_exposed_aim
+4497	cm_rumble_light
+4498	ps_exec_gear_mvmt_midlength_heavy,j_knee_le
+4499	ps_exec_gear_mvmt_midlength_heavy,j_knee_ri
+4500	load_shell
+4501	grenade_calculate_override_pos_cover_right_throw
+4502	larm_md_r
+4503	cover_right_stand
+4504	ps_vm_sp_takedown_knife_crouch_right_02_mvmt
+4505	exit3fast
+4506	stairs_casual_gun_walk_down_loop
+4507	Cover Prone
+4508	weap_ar_idle_3_plr
+4509	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_clavicle_le
+4510	blade_hide
+4511	walk_mantle_up_lg_90l
+4512	6_strafe_exit
+4513	shoot_single_jug
+4514	patrol_move_fl_trans_react_pass_fixup
+4515	purple_shock
+4516	t10_mags_extclip2_ar_coslo
+4517	ps_exec_redtail_pr_02
+4518	ps_exec_bodyfall_swt_hands,j_elbow_ri
+4519	ps_exec_bodyfall_swt_hands,j_elbow_le
+4520	conceal_stand_full_exposed_drop_rpg
+4521	death_moving_default
+4522	cover_right_crouch_look
+4523	react_newenemy_6
+4524	exposed_crouch_infantry_reaction
+4525	patrol_move_fast
+4526	cover_stand_lmg_reload
+4527	ps_wpn_coslo723_reload_empty_end_plr
+4528	right7
+4529	9fast_from_strafe_6
+4530	cautious_wide_slice_idle
+4531	Cover Right Crouch Lean
+4532	sprint_hard_lean_fwd
+4533	sprint1l
+4534	rifle_aim_5_high
+4535	pass_cover_right_crouch_move_shuffle
+4536	ps_exec_gore_blood_drip,j_spinelower
+4537	l_look_left_look_right
+4538	aimset_coverstandhigh_turret_lmg
+4539	look_21
+4540	nvg_on
+4541	vortex_death
+4542	right_4
+4543	ps_exec_hatchet_hack
+4544	shuffle
+4545	ladder_down
+4546	helmet_visor_up_rook_instant
+4547	pistol_rechamber
+4548	operate_turret_aim
+4549	td_sdr_com_melee_takedown03_defwins_early_attacker_8_02,cloth
+4550	warp_down_drop
+4551	leftfoot_strafe_7_slice_8
+4552	8walk_from_strafe_6
+4553	vehicle_hunt_to_combat
+4554	ps_vm_sp_takedown_knife_front_04_bodyfall_b
+4555	camo_a_04
+4556	combat_lookaround_passthrough_fl
+4557	jog_mantle_over_up_md
+4558	custom_patrol_lookaround_passthrough_fl
+4559	corner
+4560	pass_from_cover_right
+4561	exposed_crouch_exit_to_crouch
+4562	left7walk
+4563	shocked_off
+4564	fast_mantle_down_md_90r
+4565	walk_forward_down_l
+4566	warp_iv_start
+4567	melee_smack_win_abort_passthrough
+4568	walk_feet_apart_6_to_4
+4569	trans_exposed_crouch_to_conceal_stand
+4570	ps_exec_kalisticks_impact,j_wrist_ri
+4571	ps_exec_gore_blood_squirt,j_clavicle_le
+4572	weap_m4_from_gl_plr
+4573	ps_exec_bodyfall_swt_feet,j_ankle_le
+4574	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_shoulder_le
+4575	attach_clip_left
+4576	get_out_vehicle_door_off_passthrough
+4577	exposed_long_death
+4578	td_sdr_com_melee_takedown01_defwins_early_attacker_2_01,cloth
+4579	ps_wpn_usugar9_reload_empty_raise_plr
+4580	td_sdr_com_melee_takedown02_defwins_attacker_8_02,cloth
+4581	ps_exec_gun_rattle_light
+4582	ps_wfoly_plr_pi_papa220_reload_empty_02
+4583	pass_r_foot_down
+4584	aimset_prone
+4585	cover_left_crouch_look
+4586	fast_mantle_down_sm
+4587	exposed_stand_crawl_belly
+4588	ragdoll_gun_stow
+4589	exposed_container_dodge
+4590	exposed_stand_revive_crawl_l2
+4591	ps_exec_gun_hit_heavy,j_wrist_ri
+4592	ps_vm_sp_takedown_pistol_front_02_bodyfall
+4593	conceal_crouch_look
+4594	9run_exitfull
+4595	conceal_crouch_aim
+4596	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_spinelower_lift
+4597	l_look_left
+4598	cover_stand_high_turret_deploy
+4599	ps_exec_gore_blood_headshot,j_spinelower
+4600	OnArrival
+4601	viewmodel_medium
+4602	shuffle1
+4603	rifle_aim_5_cmbtrdy_tense
+4604	ps_exec_bodyfall_swt_feet,j_head
+4605	charge_to_ready
+4606	stand_shuffle_left
+4607	patrol_react_to_patrol_idle
+4608	ragdollsloperecovery_rightside_2
+4609	B
+4610	8
+4611	walk3
+4612	slopes_leftside_4
+4613	3shuffle_exitfull
+4614	mvmt_step_post
+4615	vehicle_pain_idle
+4616	exposed_crouch_crawl_shoot_final
+4617	call_reinforcements_cover_stand_finish
+4618	curious_move_arrival_pass
+4619	run_forward_up_l
+4620	train_crouch_l
+4621	weap_m4_reload_gl_end_plr
+4622	fast_foot_l_forward_2_to_6
+4623	pass_from_cover_right_crouch
+4624	pain_cover_right_crouch_arrival
+4625	ps_sdr_com_melee_takedown01_defwins_defender_6_02
+4626	evt_gala_civ_idle_5_steps_02
+4627	td_sdr_com_melee_takedown01_attackerwins_attacker_8_01,cloth
+4628	vehicle_idle_combat_shoot_turn
+4629	ps_sdr_com_melee_takedown01_defwins_defender_4_02
+4630	second_guy
+4631	face current
+4632	cover_left_wildfire
+4633	coverme_right_stand21
+4634	combat
+4635	Cover Left Crouch Lean
+4636	6sprint
+4637	td_sdr_com_melee_takedown01_attackerwins_defender_4_05,cloth
+4638	stand_run_loop_out_pass
+4639	shoot_lean_shield
+4640	pass_conceal_crouch_blindfire
+4641	iw9_dm_mike24
+4642	2rfast_from_strafe_4
+4643	exposed_crouch_exit_pass
+4644	leftfoot_strafe_8_slice_4
+4645	alert_react_to_alert_idle_end
+4646	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_proc_spinelower
+4647	long_death_idle
+4648	Final_Sync_Standby
+4649	drinking
+4650	pain_cover_right_crouch_anim
+4651	moveIntoPosition
+4652	ps_exec_sledgehammer_impact_body,j_spineupper
+4653	evt_gala_civ_idle_4_foley_01
+4654	angry_anims
+4655	dismount_turret
+4656	ps_exec_gore_blood_drip,j_spineupper
+4657	execution_072
+4658	execution_052
+4659	execution_032
+4660	execution_016
+4661	execution_083
+4662	execution_063
+4663	execution_049
+4664	execution_023
+4665	execution_009
+4666	live_ragdoll_blend_to_anim
+4667	useArmorPlate
+4668	cautious_clear_slice_end
+4669	ps_exec_gun_lmg_hit,j_head
+4670	tag_accessory_right
+4671	ps_sdr_com_melee_takedown02_attackerwins_attacker_8_01
+4672	melee_att_win_abort_pass
+4673	8fast_from_strafe_4
+4674	shoot_additives_rifle
+4675	ragdollsloperecovery_back_4
+4676	run_should_arrive_exposed
+4677	right_crouch_head
+4678	td_sdr_com_melee_takedown01_attackerwins_early_defender_2_01,cloth
+4679	small_4
+4680	bodyfall large
+4681	t10_underbarrel_mixunder_ar_coslo
+4682	fast6
+4683	traverse_align
+4684	forward_2
+4685	fast_feet_apart_4_to_2
+4686	walk7r
+4687	walk7l
+4688	wax_light_fx_on
+4689	weap_kriss_chamber_plr
+4690	strafe_blendspace_addon
+4691	exposed_crouch_exit
+4692	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_hipholster_le
+4693	coverme_right_stand1
+4694	exposed_reload
+4695	live_ragdoll_recover_slopes_stomach_7
+4696	weap_mike4_reload_fast_end_plr
+4697	get_out_vehicle_combat_run_door_off
+4698	r_look_left_gun_right
+4699	ground_turret_dismount_begin
+4700	ps_exec_gore_blood_drip,j_knee_le
+4701	notetrack_handler
+4702	conceal_stand_reload
+4703	dying_crawl_death
+4704	pass_from_exposed_idle
+4705	melee_start_upper
+4706	beingRemoteRevived
+4707	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_axe_hit_prone.vfx, j_helmet
+4708	gun_down_strafe_lmg
+4709	get_out_vehicle_idle_passthrough
+4710	aim_8
+4711	patrol_smoking_loop
+4712	ik_in_end_left_hand_character
+4713	sdr_com_pi_strafe_weapon_offset
+4714	cover_right_crouch_blindfire_over
+4715	caps/interactions/cap_call_reinforcements
+4716	pass_stairs_walk
+4717	pain_cover_right_crouch_anim_to_cover_right_crouch
+4718	burn_vfx_pain_start_leg_r
+4719	t10_grips_quickdraw_ar_coslo
+4720	4sprint
+4721	ps_exec_gear_mvmt_quick_heavy,j_wrist_ri
+4722	t10_zm_usugar9
+4723	iw9_sh_mviktor
+4724	ps_exec_punch_full,j_mainroot
+4725	door_open_alert
+4726	mvmt_swim_left_post
+4727	patrol_move_react_aim
+4728	pain_stand
+4729	ps_exec_gore_hack,j_knee_ri
+4730	pain_prone_default
+4731	mag_eject
+4732	patrol_drinking_end
+4733	td_sdr_com_melee_takedown02_attackerwins_early_defender_8_02,surface
+4734	2a
+4735	no
+4736	30
+4737	70
+4738	left9run
+4739	shuffle_feet_apart_6_to_2
+4740	melee_att_lose_abort_pass
+4741	live_ragdoll_recover_slopes_rightside_6
+4742	leftfoot_strafe_8_fast_8_l
+4743	leftfoot_strafe_8_fast_8_r
+4744	8rwalk_exitfull
+4745	cover_left_crouch_to_cover_crouch
+4746	sit_cellphone
+4747	melee_sldr_vs_zom_att_lose
+4748	pistol_aim_5
+4749	vortex_pull_out
+4750	death_crouching_cover_left
+4751	conceal_crouch_lean
+4752	ps_exec_gear_mvmt_midlength_heavy,j_ankle_le
+4753	execution_animal_005
+4754	start_swim_ges
+4755	Backups Reached Primary
+4756	foot_r_forward
+4757	alert_stairs_pass
+4758	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_shoulder_le
+4759	alert_react_end_fl
+4760	rightfoot_strafe_9_fast_9
+4761	traverse_warp_arrival
+4762	military_point9
+4763	shuffle6
+4764	ik_out_end_left_hand
+4765	revival
+4766	ps_exec_gear_mvmt_quick_heavy,j_head
+4767	ragdollsloperecovery_rightside_9
+4768	ps_exec_gun_drop,j_gun
+4769	rleg_md_b
+4770	3
+4771	lowerbody_l_lg_6
+4772	pain_cover_left_crouch_expb
+4773	frantic
+4774	iw9_ar_akilo74
+4775	alert_move_react_aim_fl
+4776	cover_crouch_hide_to_aim
+4777	t10_reddot01_west
+4778	phone_attach_right
+4779	call_reinforcements_cover_left_crouch_loop
+4780	lookat_procedural_node
+4781	ps_wfoly_plr_pi_papa220_raise_first_03
+4782	weap_mike4_reload_magout_plr
+4783	traverse_warp_arrival_pass
+4784	walk_foot_l_forward_2_to_4
+4785	fx_playfxontag, vfx/iw9/executions/vfx_exec_starlight_impact, j_spine4
+4786	cover_stand_lmg_arrival
+4787	variant_pose_blend
+4788	ps_exec_bodyfall_swt_hands,j_wrist_le
+4789	td_sdr_com_melee_takedown01_attackerwins_defender_8_03,surface
+4790	r_look_right
+4791	right8shuffle
+4792	hide_to_over_peek
+4793	abort_passthrough
+4794	9fast
+4795	larm_lg_r
+4796	mp_parachute_land
+4797	left2fast
+4798	pain_prone
+4799	pistol_rotate
+4800	call_reinforcements_finish
+4801	Cover Prone LMG
+4802	cover_left_crouch_exposed_drop_rpg_a
+4803	cover_stand_to_shuffle_r
+4804	gesture_graft_node
+4805	exposed_crouch_revive_back
+4806	pass_cover_left_crouch_lean_moverequested
+4807	whizby2
+4808	MotionWarpDownRelease
+4809	weap_1911_empty_fast_chamber_plr
+4810	ps_exec_knife_pull,j_neck
+4811	ps_exec_gear_mvmt_quick_light,j_spineupper
+4812	cover_right_crouch_to_exposed_crouch
+4813	patrol_react_aim_fl
+4814	live_ragdoll_recover
+4815	fast_mantle_over_up_md_90l
+4816	right8lshuffle
+4817	long_death_shoot
+4818	caps/interactions/cap_sdr_kick
+4819	alert_stairs_up
+4820	jog_mantle_down_xlg_90l
+4821	Bailout_Processor
+4822	cover_right_crouch_exposed_b
+4823	run_move_crouch_should_arrive_cover_crouch
+4824	execution_039
+4825	execution_064
+4826	execution_093
+4827	execution_011
+4828	execution_055
+4829	execution_000
+4830	execution_040
+4831	cover_left_crouch_to_cover_right_crouch_door_shuffle
+4832	pain_shocked_cover_left_stand
+4833	curious_idle
+4834	whizby
+4835	generic_human
+4836	t10_stocks_mixstock_ar_coslo
+4837	ps_exec_impact_body_full,j_spineupper
+4838	cover_left_crouch_aim_to_hide
+4839	b_to_hide
+4840	cornercheck_shallow_fast
+4841	ragdollsloperecovery_back_3
+4842	exposed_front_final
+4843	ps_exec_gear_mvmt_midlength_heavy,j_mainroot
+4844	rail_look_over
+4845	ps_wfoly_plr_pi_papa220_akimbo_l_empty_inspect_03
+4846	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_spine4
+4847	ps_hm_grnd_melee02_defender_wins_att_02
+4848	forward_9
+4849	run_enemy_anims
+4850	cover_left_crouch_a_to_b
+4851	iw9_lm_rkilo
+4852	8walk
+4853	walk6r
+4854	walk8r
+4855	exposed_stand_revive_crawl_r_final
+4856	anim_facial = pain
+4857	fast_vault_over_sm_90r
+4858	sit_pistol_clean_death
+4859	Primary Investigator
+4860	ai_parachuting
+4861	weap_1911_empty_lift_plr
+4862	hit_3_lower
+4863	ground_turret_operate
+4864	camo_g_15
+4865	patrol_rail_look_over_intro
+4866	plr_gest_point
+4867	aim_1
+4868	exposed_crouch_revive_l_final
+4869	ps_exec_gore_blood_headshot
+4870	ps_hm_grnd_melee02_defender_wins_def_02
+4871	aimset_strafe
+4872	warp_down_release
+4873	right_leg
+4874	motion_warp_traversals
+4875	exposed_prone_throw_grenade
+4876	t10_mags_fastreload2_ar_coslo
+4877	cover_crouch_hide_to_left
+4878	pain_cover_left_stand_to_cover_left_stand_expa_anim
+4879	cover_left_crouch_exposed_a
+4880	warp_across_start
+4881	leftfoot_strafe_7_fast_8
+4882	leftfoot_strafe_7_fast_6
+4883	8shuffle_exitfull
+4884	normal
+4885	cover_right_a_to_b
+4886	mediumsprint
+4887	show
+4888	patrol_idle
+4889	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_dog_bite_arm.vfx, tag_wrist_attach_le
+4890	exposed_crouch_revive_shoot
+4891	call_reinforcements_cover_left_stand_start
+4892	back_3
+4893	shuffle_foot_r_forward_8_to_2
+4894	OnEnter
+4895	fast7l
+4896	call_reinforcements_cover_left_crouch_start
+4897	fx_playfxontag, vfx/iw9/executions/vfx_exec_head_dismember.vfx, j_knee_ri
+4898	fx_playfxontag, vfx/iw9/executions/vfx_exec_head_dismember.vfx, j_knee_le
+4899	ps_wfoly_plr_pi_golf17_reload_03
+4900	cautious_wide_slice_start_pass
+4901	vehicle_idle_to_combat_passthrough
+4902	vehicle_hide
+4903	ps_exec_bodyfall_swt_body,j_ankle_ri
+4904	variant_pose
+4905	leftfoot_strafe_9_fast_8
+4906	ps_exec_gear_mvmt_quick_light
+4907	ps_exec_slide
+4908	move_prone_start
+4909	melee_stand_to_ready
+4910	run_should_arrive_exposed_prone
+4911	default_long_death
+4912	t10_reflex01_west
+4913	pass_cover_right_stand_multi
+4914	lleg_lg_b
+4915	live_ragdoll_recover_slopes_leftside_7
+4916	live_ragdoll_recover_slopes_leftside_9
+4917	leftfoot_strafe_8_fast_3
+4918	motion_warp_end
+4919	ragdollsloperecovery_leftside_4
+4920	rechamber
+4921	rleg_lg_l
+4922	lleg_md_b
+4923	weap_mike4_reload_empty_lift_plr
+4924	shuffle_feet_apart_4_to_8
+4925	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_spine4
+4926	gesture_blend_out_start
+4927	walk_feet_together_4_to_6
+4928	ps_vm_sp_takedown_knife_back_02_mvmt
+4929	lowerbody_l_md_4
+4930	ps_exec_punch_full,j_spinelower
+4931	idle_anims
+4932	conceal_stand_hide_to_look
+4933	walk_foot_r_forward_8_to_4
+4934	door_check
+4935	exposed_stand_crawl_belly_final
+4936	head_md_6
+4937	head_md_8
+4938	ps_exec_gore_blood_squirt
+4939	run6l
+4940	run2l
+4941	exposed_stand_turn
+4942	left8rjog
+4943	pass_from_assess
+4944	cover_right_crouch_arrival
+4945	2lwalk
+4946	blend_in
+4947	body_hero_price_urban_beanie
+4948	ps_exec_gear_mvmt_long_heavy,j_knee_ri
+4949	exposed_stand
+4950	run_should_arrive_cover_stand_lmg
+4951	return_pitch
+4952	rightfoot_strafe_9_slice_9
+4953	conceal_stand_switchweapon
+4954	left_7
+4955	stairs_walk_up_loop
+4956	fx_playfxontag, vfx/iw9/executions/vfx_exec_58_sword_neck_slash, j_shouldertwist_le
+4957	cover_stand_to_cover_crouch
+4958	r_gun_left
+4959	alert_react_aim_fl
+4960	ps_sdr_com_melee_takedown03_defwins_early_attacker_8_01
+4961	stand_zero_arrival_earlyout
+4962	wrist_com_lower
+4963	ps_wfoly_plr_pi_papa220_akimbo_r_inspect_07
+4964	ps_vm_sp_takedown_knife_right_03_mvmt
+4965	exposed_slopes
+4966	ps_exec_hand_grab_head
+4967	exposed_stand_revive_crawl_back
+4968	midbody_lg_8
+4969	coverme_left_crouch1
+4970	shuffle_right_to_cover_left_crouch
+4971	beckon1
+4972	ps_wfoly_plr_pi_papa220_reload_empty_fast_xmag_02
+4973	alert_idle_fl_trans_react_pass
+4974	pain_exposed_arrival
+4975	weap_1911_reload_lift_plr
+4976	setupMeetupPositions
+4977	weap_1911_empty_magout_plr
+4978	head_l
+4979	ps_exec_impact_body_deep,j_spinelower
+4980	lookset_animscripted_default
+4981	alert_idle_fl_to_combat_end
+4982	cover_left_crouch_hide_to_left
+4983	r_gun_left_gun_right
+4984	ps_exec_gore_blood_drip,j_shoulder_le
+4985	med_4
+4986	Cover Me
+4987	ps_exec_impact_body_full
+4988	pass_cover_left_move_shuffle
+4989	melee_att_lose_victim_abort_recover
+4990	death_cover_left_crouch
+4991	right8rrun
+4992	fx_stopfxontag, vfx/iw9/executions/vfx_exec_058_blood_pool.vfx, j_spineupper
+4993	cover_left_b_to_hide
+4994	ragdollsloperecovery_stomach_3
+4995	2walk_exitfull
+4996	investigate_alert_move_passthrough
+4997	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, j_head
+4998	pass_move_crouch_should_arrive_type_calc
+4999	gundown_interior
+5000	not_in_vehicle_passthrough
+5001	helmet_visor_up
+5002	aim_knob_2
+5003	exposed_weaponswitch
+5004	react_earlyout_pass_patrol_fl
+5005	WEAPON VIOLENCE RETICLE
+5006	hold_fire_dialog
+5007	PathHasInvalidDoorCondition
+5008	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_clavicle_ri
+5009	1fast_exitfull
+5010	patrol_rail_look_over_death
+5011	rarm_md_b
+5012	aimset_coverprone_turret_lmg
+5013	alert_exit
+5014	left7run
+5015	melee_smack_win
+5016	live_ragdoll_recover_slopes_back_6
+5017	cqb_hunt_lookaround
+5018	smartobject_exit
+5019	coverme_center_crouch_6
+5020	death_balcony
+5021	right2shuffle
+5022	ik_node
+5023	weap_m4_fast_gl_lift_plr
+5024	fx_playfxontag, vfx/iw9/executions/vfx_exec_head_dismember.vfx, tag_eye
+5025	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward, j_head
+5026	peek
+5027	shuffle_feet_apart_6_to_4
+5028	iw9_lm_ngolf7
+5029	rleg_lower_b
+5030	react_lookaround_abort
+5031	ps_wfoly_plr_pi_papa220_reload_empty_03
+5032	ps_exec_grab_mid
+5033	drop_rpg
+5034	aim_graft_node
+5035	patrol_sitting_sleeping_react
+5036	fast_mantle_down_lg
+5037	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_chest_stab.vfx, j_spine4
+5038	lowerbody_r_md_8
+5039	lowerbody_r_md_6
+5040	coverme_center_stand_4
+5041	Combat_Bailout
+5042	ik_fingers_out_start_left_hand
+5043	ps_exec_gear_mvmt_throw
+5044	vehicle_hunt_switch_sides_passthrough
+5045	pain_lmg_stand_high_default
+5046	zombie_combat_react
+5047	patrol_stretching_intro
+5048	death_crouching_cover_exp_anim
+5049	ps_sdr_com_melee_takedown01_defwins_attacker_2_03
+5050	Custom
+5051	rightfoot_strafe_9_fast_1
+5052	pass_grenade_use_override_pos_cover_stand
+5053	military_point1
+5054	pain_cover_crouch_exposed_left_trans
+5055	anim_pose = foot_r_forward
+5056	cover_crouch_exposed_left_drop_rpg
+5057	ps_wpn_coslo723_reload_empty_release_plr
+5058	vehicle_combat_lean_to_idle
+5059	conceal_stand_exit
+5060	Cover Crouch Window
+5061	ragdollsloperecovery_rightside_3
+5062	aimset_generic
+5063	9
+5064	walk2
+5065	leftfoot_strafe_9_slice_4
+5066	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash_2.vfx, j_neck
+5067	iw9_la_juliet
+5068	t10_grips_sprintout_ar_coslo
+5069	Can_Remote_Revive
+5070	long_death_grenade_death
+5071	pass_stairs_down
+5072	ps_exec_gore_bone_break_snap,j_mainroot
+5073	td_sdr_com_melee_takedown01_defwins_attacker_4_05,surface
+5074	cover_right_stand_to_shuffle
+5075	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_metal_thick_med, tag_brass
+5076	ps_exec_helmet_impact,j_head
+5077	conceal_crouch_wildfire
+5078	weap_gp25_lift_plr
+5079	cover_left_crouch_hide_to_over_look_fast
+5080	aimset_coverstandhigh
+5081	warp_up_end_new
+5082	ps_mp_execution_animal_000_dog_prone_06
+5083	larm_lg_l
+5084	cover_left_crouch_exposed_left
+5085	ps_vm_sp_takedown_knife_back_01_wpn
+5086	phase_marker_any
+5087	jog_jump_across_slide
+5088	9fast_exitfull
+5089	dying_crawl
+5090	Cover Right Crouch
+5091	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_axe_hit_prone.vfx, j_head
+5092	walk_mantle_down_sm_90r
+5093	reviving_exit
+5094	cautious_wide_slice_exit
+5095	ps_exec_gun_pi_hit,j_head
+5096	cover_stand_to_shuffle_l
+5097	remoteRevive
+5098	jog7l
+5099	walk_feet_together_6_to_4
+5100	trans_exposed_crouch_to_cover_stand
+5101	ps_exec_katana_stab,j_neck
+5102	cover_right_crouch_exposed_drop_rpg_b
+5103	grenade_calculate_override_pos_exposed_crouch
+5104	exposed_stand_revive_back
+5105	ps_exec_grenade_bounce_soft,j_head
+5106	hit_6_midbody
+5107	iw9_dm_mike14
+5108	grenade_calculate_override_pos_exposed_idle
+5109	ps_exec_gear_mvmt_complex_heavy,j_mainroot
+5110	attach
+5111	melee_knife_stab_upper_plr
+5112	ps_wfoly_plr_pi_papa220_reload_empty_fast_02
+5113	iw9_ar_mcharlie
+5114	cover_stand_to_shuffle_l_pass
+5115	exposed_idle
+5116	execution_073
+5117	execution_062
+5118	execution_053
+5119	execution_048
+5120	execution_033
+5121	execution_022
+5122	execution_017
+5123	execution_082
+5124	execution_008
+5125	jog_jump_across_slide_90l
+5126	iw9_sn_limax
+5127	weap_1911_empty_fast_magin_plr
+5128	ps_exec_knife_slice,j_shoulder_ri
+5129	curious_stairs_pass
+5130	phase_marker_00
+5131	right1fast
+5132	patrol_stairs_up_blendspace
+5133	ps_exec_sledgehammer_impact_head,j_head
+5134	fast_down
+5135	left8ljog
+5136	fast7
+5137	forward_3
+5138	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_baton_hit.vfx, tag_reflector_arm_le
+5139	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_spineupper
+5140	exposed_crouch_revive_crawl_belly_final
+5141	live_ragdoll_recover_slopes_stomach_6
+5142	exposed_stand_revive_r_final
+5143	ps_vm_sp_takedown_knife_left_03_wpn
+5144	patrol_custom_death_pass
+5145	cover_left_to_cover_right_door_shuffle
+5146	curious_stairs_up
+5147	tag_accessory_left
+5148	weap_mike4_reload_end_plr
+5149	pain_crouch
+5150	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_knee_ri
+5151	cover_left_crouch_hide_to_aim
+5152	all_come_to_stop
+5153	fast_mantle_up_sm
+5154	aim_9
+5155	td_sdr_com_melee_takedown01_defwins_defender_2_02,cloth
+5156	curious_stationary_turn
+5157	fx_stopfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_proc_spineupperlift
+5158	pain_cover_left_stand_expb
+5159	left6jog
+5160	rifle_high
+5161	melee_stop
+5162	ps_exec_gear_mvmt_brush,j_spineupper
+5163	jog_mantle_down_xlg
+5164	cover_right_crouch_over_lean
+5165	small_close_4
+5166	ps_exec_mvmt_slide,j_spinelower
+5167	smartobject_logic
+5168	cover_crouch_hide_to_look
+5169	idle_enemy_anims
+5170	6fast
+5171	jog_mantle_over_down_lg_90r
+5172	8b
+5173	2b
+5174	ps_exec_gore_heavy_splat,j_knee_le
+5175	ps_exec_gore_bone_dislocate_twist,j_spinelower
+5176	pain
+5177	vehicle_idle_to_combat
+5178	patrol_sitting_cellphone
+5179	live_ragdoll_recover_slopes_rightside_1
+5180	sprint
+5181	ps_exec_gore_bone_break
+5182	2lllfast_from_strafe_6
+5183	ps_exec_gear_mvmt_midlength_light,j_wrist_le
+5184	custom_pose_cover_stand
+5185	ps_wfoly_pi_reload_npc_out
+5186	ps_exec_058_prone_sword_land_lyr,j_spineupper
+5187	pain_cover_right_lean_anim_to_cover_right_lean
+5188	grenade_calculate_override_pos_cover_crouch_left
+5189	pain_cover_right_stand_expb_anim
+5190	alert_stairs_fl_pass
+5191	fx_playfxontag, vfx_vm_sp_throat_stab, j_neck
+5192	curious_react
+5193	execution_animal_002
+5194	ik_in_end_left_hand
+5195	I'll cover you
+5196	ps_sdr_com_melee_takedown01_attackerwins_attacker_2_02
+5197	rightfoot_strafe_9_fast_4
+5198	alert_move
+5199	pass_casual_stairs
+5200	8right
+5201	melee_att_win_victim_abort_recover
+5202	patrol_react_passthrough_fl
+5203	8x20
+5204	t10_grips_quickdraw2_ar_coslo
+5205	alert_move_fl_trans_react_pass
+5206	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_chest_stab.vfx, j_head
+5207	left_dual_support
+5208	ragdollsloperecovery_rightside_6
+5209	f
+5210	leftfoot_strafe_9_slice_1
+5211	rleg_upper_f
+5212	pain_cover_left_crouch_expa
+5213	cover_left_hide_to_a
+5214	cover_left_switchweapon
+5215	ps_melee_takedown_knife_attack_swing
+5216	ps_wfoly_plr_pi_papa220_raise_first_04
+5217	train_crouch_r
+5218	run_n_gun_hard_right
+5219	exit3run
+5220	vehicle_melee_passthrough
+5221	viewmodel_small
+5222	ps_exec_gear_mvmt_whoosh_med,j_mainroot
+5223	ps_exec_058_prone_stomp,j_spineupper
+5224	ps_mp_execution_animal_000_dog_prone_03
+5225	long_death_mercy_pass
+5226	traverse_stepover_tripwire
+5227	hit_1_head
+5228	cap_exit_long_death_death
+5229	cover_left_stand_to_cover_right_stand
+5230	shoot_single_pstl
+5231	run_should_arrive_cover_stand
+5232	cover_left_crouch_exposed_drop_rpg_b
+5233	patrol_idle_end_passthrough
+5234	pass_conceal_stand_exposed_abort
+5235	jog6r
+5236	jog4l
+5237	jetpack_boost
+5238	abovewater
+5239	dying_back_idle
+5240	pass_cover_crouch_left_var
+5241	whizby5
+5242	mp_exfil_blima_pullup_crew_getin_l_1
+5243	gundown_exposed_stand
+5244	ps_bodyfall_torso,j_head
+5245	jog_mantle_up_lg_90r
+5246	ps_exec_gear_mvmt_quick_heavy
+5247	sdr_com_exposed_stand_rpg_fire
+5248	hp_off
+5249	stl_move_react_passthrough
+5250	jog_step_over_90r
+5251	weap_target_finder_down_plr
+5252	pain_cover_left_lean_anim_to_cover_left_lean
+5253	warp_down_end_new
+5254	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_elbow_le
+5255	stop_ragdoll_anim
+5256	left9sprint
+5257	t10_zm_coslo723
+5258	right_dual_active
+5259	ps_exec_gear_mvmt_midlength_light,j_elbow_le
+5260	cap_arrival
+5261	ps_exec_scrape_feet,tag_origin
+5262	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash_2, j_shoulder_ri
+5263	ps_exec_gun_rattle_heavy,j_gun
+5264	execution_012
+5265	execution_047
+5266	execution_056
+5267	execution_067
+5268	execution_076
+5269	execution_078
+5270	execution_087
+5271	execution_089
+5272	execution_094
+5273	left8shuffle
+5274	torso_lg_r
+5275	cover_right_crouch_look_to_hide
+5276	vehicle_whizby_hunt
+5277	right6jog
+5278	ps_dmz_pyro_boss_molotov_left_arm_dance_01
+5279	cover_stand_exposed_to_hide
+5280	active4
+5281	td_sdr_com_melee_takedown01_defwins_early_attacker_4_04,surface
+5282	conceal_crouch_switchweapons
+5283	cover_left_blindfire_passthrough
+5284	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_spine4
+5285	over_look
+5286	4fast_from_strafe_4
+5287	dive_fwd_getup
+5288	ps_hm_grnd_melee02_defender_wins_att_01
+5289	forward_6
+5290	ps_exec_gore_heavy_splat
+5291	pain_cover_stand_full_exp_trans
+5292	face current angles
+5293	t10_reflex02_west
+5294	cover_crouch_to_exp_earlyout
+5295	live_ragdoll_recover_slopes_stomach_9
+5296	patrol_move_type_switch
+5297	pain_cover_stand_torso_to_cover_stand
+5298	weap_1911_reload_magin_plr
+5299	run_anims
+5300	parachute_weapon_pullout
+5301	pmt_update_switch
+5302	2rfast
+5303	ik_out_end_right_hand
+5304	traverse_end
+5305	melee_lower_pullout
+5306	fast_mantle_up_md
+5307	fast_mantle_up_lg
+5308	right1shuffle
+5309	8lsprint_exitfull
+5310	aim_6
+5311	ps_exec_gear_mvmt_quick_heavy,j_mainroot
+5312	cover_left_crouch_grenade_throw
+5313	patrol_custom_end_pass
+5314	ps_exec_gore_bone_break,j_neck
+5315	t10_pgrip_ar_p01
+5316	patrol_drinking_loop
+5317	ps_hm_grnd_melee02_defender_wins_def_01
+5318	td_sdr_com_melee_takedown01_attackerwins_defender_2_01,cloth
+5319	player_fx
+5320	left1sprint
+5321	aim_cornerstndl_lean
+5322	ps_exec_gore_blood_drip,j_head
+5323	pain_cover_right_stand_to_cover_right_stand_expa_anim
+5324	where_is_he_dialog
+5325	pull
+5326	warp_down_start_new
+5327	weap_mike4_drop_plr
+5328	patrol_idle_fl_to_alert_idle_fl
+5329	pain_additive
+5330	default
+5331	patrol_staring_react
+5332	end
+5333	END
+5334	End
+5335	move_prone_loop
+5336	pain_cover_left_stand_expa_to_hide
+5337	back_1
+5338	cover_stand_grenade
+5339	custom_arrival_pass
+5340	iw9_ar_fecho
+5341	clear_lkp_one_member
+5342	Wait For Cease Fire
+5343	shredder
+5344	ps_vm_sp_takedown_pistol_left_02_mvmt
+5345	ps_wfoly_plr_pi_golf17_reload_01
+5346	pain_exp_stand_aim_transition
+5347	trans_to_cover_crouch
+5348	cover_right_crouch_exposed_right
+5349	pain_burning_cover_stand
+5350	decideshoot
+5351	vehicle_idle
+5352	door_open_patrol_fl
+5353	2rwalk_exitfull
+5354	ps_exec_gore_hack
+5355	iw9_dm_sa700
+5356	curious_move_react_passthrough
+5357	decideflipover
+5358	lleg_lg_l
+5359	lleg_lg_r
+5360	fast_mantle_up_sm_90r
+5361	ps_exec_gear_mvmt_long_light,j_spinelower
+5362	casual_point9
+5363	ragdollsloperecovery_leftside_6
+5364	lleg_md_r
+5365	rleg_lg_b
+5366	ps_exec_hand_grab_body,j_knee_le
+5367	patrol_turn_fl
+5368	generic_human_aim_exposed_crouch
+5369	exposed_crouch
+5370	exposed_stand_turn_pass
+5371	helmet_visor_up_instant
+5372	rpg_to_pistol
+5373	ps_wfoly_plr_pi_golf17_raise_first_01
+5374	shuffle_foot_l_forward_8_to_2
+5375	lowerbody_l_md_6
+5376	vehicle_pain_hunt
+5377	scared_anims
+5378	iw9_ar_mike16
+5379	fire_lean
+5380	walk_foot_r_forward_8_to_6
+5381	cover_left_crouch_exit
+5382	cautious_clear_ready
+5383	head_md_4
+5384	fingers_in_end_right_hand
+5385	evt_gala_civ_idle_2_steps_02
+5386	run4r
+5387	run4l
+5388	cautious_clear_react_pass
+5389	squad_centroid
+5390	explosive_crouch_f
+5391	ps_dmz_pyro_boss_molotov_left_leg_dance_02
+5392	anim_movement = run
+5393	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_chest
+5394	vehicle_reload_passthrough
+5395	pain_cover_right_arrival
+5396	stand_to_shuffle_l_complete
+5397	t10_ironsdefault_usugar9
+5398	patrol_move_pullout_flashlight
+5399	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_neg_y, j_spineupper
+5400	torso
+5401	Reached LKP
+5402	alert_stationary_turn
+5403	molotov_f
+5404	left_1
+5405	aimset_covercrouch_turret_lmg
+5406	t10_grips_mixgrip_ar_coslo
+5407	ground_turret_pain_left
+5408	t10_extclip_ar
+5409	stand_run_loop_pass
+5410	aimset_covercrouch_aim
+5411	accel_to_move_temp
+5412	stand_strafe_zero_arrival
+5413	right2walk
+5414	bodyfall
+5415	patrol_sitting_sleeping
+5416	ps_wfoly_plr_pi_papa220_akimbo_r_inspect_01
+5417	custom_pose_cover_right_crouch
+5418	is_crouching
+5419	interactions/coverfire
+5420	7fast
+5421	fx_playfxontag, vfx/iw9/executions/vfx_exec_body_fall_imp, j_proc_spineupperlift
+5422	trans_to_cover_stand
+5423	midbody_lg_4
+5424	td_sdr_com_melee_takedown02_attackerwins_defender_8_01,cloth
+5425	midbody_md_2
+5426	pain_lmg_or_turret_prone
+5427	left3walk
+5428	jog_jump_across_90l
+5429	t10_rec_usugar9
+5430	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blood_splatter.vfx, j_hipholster_le
+5431	ps_mp_execution_animal_002_dog_bark_dist
+5432	shoot_additives_rifle_right
+5433	ps_exec_gear_mvmt_throw,j_mainroot
+5434	ps_wfoly_plr_pi_papa220_reload_fast_02
+5435	fx_playfxontag, vfx/iw8/weap/_impact/flesh/vfx_imp_flesh_fatal_head_med_dismb.vfx, j_head
+5436	Wait For Lost Target
+5437	pain_cover_left_crouch_to_cover_left_crouch_expa_anim
+5438	bottle_detach_right
+5439	investigator_move
+5440	hat_hero_price_beanie
+5441	pass_stairs_casual_gun_walk
+5442	fire_single
+5443	ps_exec_scrape_feet,j_spineupper
+5444	__end__
+5445	hit_8_head
+5446	ps_wpn_coslo723_reload_empty_pull_plr
+5447	cp_blima_getin
+5448	grenade_dive_forward
+5449	vehicle_idle_combat_shoot_lmg
+5450	grenade_right
+5451	stumble_sprint
+5452	ragdollsloperecovery_stomach_1
+5453	breach
+5454	1sprint_exitfull
+5455	patrol_sitting_pistolclean_death
+5456	always_on
+5457	patrol_move_test_slow
+5458	aim_knob_4
+5459	ps_wfoly_plr_pi_papa220_reload_empty_xmag_05
+5460	exposed_prone
+5461	rarm_md_r
+5462	shoot_settle_pstl_half
+5463	to_exposed_crouch
+5464	patrol_scratching_end
+5465	live_ragdoll_recover_slopes_back_4
+5466	walk_jump_over_drop
+5467	pass_cover_left_crouch_shuffle
+5468	charge
+5469	ps_exec_gore_bone_break_snap,j_spinelower
+5470	t10_bar_highcal_ar
+5471	ps_exec_katana_slash,j_neck
+5472	t10_mags_fastreload3_ar_coslo
+5473	fx_stopfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_x_forward.vfx, j_helmet
+5474	8lfast
+5475	cover_right_crouch_hide_to_aim
+5476	iw9_sm_uzulu
+5477	ps_exec_vo_struggle,j_head
+5478	concussion_rifle_shoot_idle
+5479	back_4
+5480	show_full_magazine
+5481	lleg_upper_r
+5482	fast2l
+5483	prone
+5484	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_shoulder_le
+5485	ps_wfoly_plr_pi_golf17_reload_04
+5486	l_look_right_gun_left
+5487	left7sprint
+5488	jog_mantle_over_down_md_90r
+5489	run_should_arrive_cover_right_crouch_lean
+5490	rarm_upper_r
+5491	weap_1911_empty_magin_plr
+5492	vortex_pull
+5493	face enemy or motion
+5494	live_ragdoll_recover_slopes_leftside_4
+5495	casual_point2
+5496	ragdollsloperecovery_leftside_3
+5497	ps_exec_gun_rattle_light,tag_weapon_right
+5498	weap_mike4_reload_empty_fast_magout_plr
+5499	cover_left_grenade
+5500	pain_flashed_exposed_crouch
+5501	investigator_2
+5502	left_solo_active
+5503	patrol_medlg_rxn_pass_fl
+5504	ps_exec_grenade_bounce_hard,j_head
+5505	Exposed Crouch
+5506	left_arm
+5507	7walk_from_strafe_4
+5508	strafe_slwalk_to_run
+5509	dying_back_crawl_done
+5510	ps_exec_gear_mvmt_midlength_heavy,j_shoulder_le
+5511	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_neck
+5512	left7fast
+5513	ps_sdr_com_melee_takedown01_attackerwins_attacker_8_02
+5514	fx_playfxontag, vfx/iw9/executions/vfx_exec_08_shotgun_knee.vfx, j_hip_proc_ri
+5515	run7l
+5516	t10_stocks_adsmove_ar_coslo
+5517	cover_crouch_look
+5518	walk_mantle_down_xlg_90r
+5519	ShouldExitEarly
+5520	conceal_crouch_lean_to_hide
+5521	pain_shocked_exposed_crouch
+5522	patrol_stairs_down_blendspace
+5523	left_doorless_dual_support
+5524	speed_min
+5525	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_med, j_knee_le
+5526	lean_1
+5527	t10_bar_highcal2_ar
+5528	reachedLKPRandom
+5529	left_4
+5530	exposed_crouch_shoot_single
+5531	pain_burning_cover_right_crouch
+5532	cover_left_hide_to_shuffle_pass
+5533	patrol_staring_loop
+5534	curious_move_react_aim
+5535	fast_foot_l_forward_8_to_6
+5536	vortex_pull_in
+5537	ps_vm_sp_takedown_knife_crouch_back_02_bodyfall_b
+5538	ps_wfoly_plr_pi_papa220_akimbo_r_inspect_04
+5539	cover_right_crouch_hide_to_left
+5540	ps_exec_vo_death
+5541	conceal_stand_hide_to_full_exposed
+5542	jup_execution_first_person_farah_001
+5543	pain_flashed_cover_right_crouch
+5544	torso_md_b
+5545	torso_md_l
+5546	ps_wfoly_lm_reload_npc_out
+5547	anim_pose = "crouch"
+5548	weap_1911_fast_lift_plr
+5549	beckon2
+5550	left4shuffle
+5551	ps_exec_gear_mvmt_quick_heavy,j_knee_le
+5552	ps_wfoly_plr_pi_papa220_reload_empty_fast_xmag_05
+5553	direct_point_6_4
+5554	t10_stock_ar_p01
+5555	small_2l
+5556	shoot_single_shield
+5557	alert_idle_fl
+5558	fx_playfxontag, vfx/iw9/executions/vfx_exec_58_knife_neck_blood.vfx, j_neck
+5559	remount
+5560	ps_vm_sp_takedown_knife_crouch_left_02_mvmt
+5561	ps_exec_gun_rattle_light,j_wrist_ri
+5562	cover_left_crouch_hide_to_lean
+5563	aimset_coverstand_lmg
+5564	call_reinforcements_loop_end
+5565	melee
+5566	ps_exec_gore_heavy_splat,j_spineupper
+5567	jog_mantle_up_md_90r
+5568	left1jog
+5569	sdr_com_custom_pose_cover_left_crouch
+5570	threat
+5571	traverse_external
+5572	pain_special
+5573	pain_cover_crouch_to_cover_crouch
+5574	pain_cover_right_crouch_to_cover_right_crouch_expb_anim
+5575	ragdollsloperecovery_stomach_4
+5576	pain_lmg_or_turret_stand_high
+5577	3run_exitfull
+5578	vehicle_idle_combat_shoot_to_combat_passthrough
+5579	melee_att_win_victim
+5580	jog6
+5581	pain_popup_l
+5582	pain_popup_r
+5583	right_doorless_dual_active
+5584	shield_bash
+5585	warp_arrival_end
+5586	ps_wfoly_plr_pi_papa220_reload_empty_xmag_08
+5587	ps_wpn_coslo723_reload_empty_start_plr
+5588	td_sdr_com_melee_takedown02_defwins_attacker_8_03,surface
+5589	ps_exec_gear_mvmt_midlength_light,j_neck
+5590	anim_movement = stop
+5591	patrol_custom_react_pass
+5592	cover_right_stand_to_crouch
+5593	wind
+5594	cease_fire
+5595	hide,j_spoon
+5596	exposed_crouch_revive_crawl_back_final
+5597	patrol_curious_to_combat
+5598	live_ragdoll_recover_slopes_back_1
+5599	pain_flashed_transition
+5600	ps_iw9_melee_attack_fists_raise
+5601	ps_vm_sp_takedown_pistol_back_01_mvmt
+5602	secondary_move
+5603	cover_left_crouch_exposed_b
+5604	cover_stand_full_exposed_to_hide
+5605	pass_stand_cover_exposed_abort
+5606	ps_sdr_com_melee_takedown01_defwins_early_attacker_4_02
+5607	rightfoot_strafe_8_fast_9
+5608	pass_cover_left_lean_moverequested
+5609	patrol_sitting_sleeping_death
+5610	fast_mantle_up_md_90r
+5611	investigate_lookaround
+5612	ps_sdr_com_melee_takedown02_attackerwins_early_attacker_8_01
+5613	lleg_upper_l
+5614	smartobject_attempt_pass
+5615	fx_playfxontag, vfx/iw9/executions/vfx_exec_blunt_object_hit_y_forward, j_head
+5616	fast4r
+5617	arms_flailing
+5618	cover_left_crouch_lean_shoot_single
+5619	cautious_clear_slice_to_opposite
+5620	ai_freefalling
+5621	gesture_blend_out_end
+5622	ps_exec_bodyfall_swt_body,j_spinelower
+5623	td_sdr_com_melee_takedown01_attackerwins_attacker_2_01,cloth
+5624	rarm_upper_l
+5625	pistol_aim_5_high
+5626	ps_exec_gear_mvmt_struggle,j_spineupper
+5627	ps_exec_gore_blood_drip,j_neck
+5628	zonly_physics
+5629	ps_gib_fullbody,j_spineupper
+5630	exposed_stand_revive_crawl_l
+5631	cover_left_a_to_hide
+5632	leftfoot_strafe_8_fast_4
+5633	gestures
+5634	casual_point8
+5635	ragdollsloperecovery_leftside_7
+5636	ai_iw9_strafe
+5637	t10_zm_usugar9_pack
+5638	running_forward_2
+5639	shoot_settle_lmg_full
+5640	secondary_putaway
+5641	shuffle_hard_lean_fwd
+5642	exposed_stand_crawl_back_final
+5643	fx_playfxontag, vfx/iw9/core/weapons/impacts/vfx_imp_flesh_fatal_head_med, tag_eye
+5644	ps_exec_impact_body_full,j_spinelower
+5645	ps_exec_step_left,j_ankle_le
+5646	pass_cover_stand_blindfire
+5647	weap_1911_empty_chamber_plr
+5648	legs_lg_r
+5649	evt_gala_civ_idle_2_steps_03
+5650	rightfoot_strafe_8_fast_8_l
+5651	run9r
+5652	td_sdr_com_melee_takedown01_defwins_early_defender_6_01,cloth
+5653	hit_9_head
+5654	custom_exit
+5655	1walk_from_strafe_6
+5656	bubblesheavy
+5657	Primary Ready To Move Alone
+5658	shoot_additives_lmg_left
+5659	decidebackcrawl
+5660	ps_exec_punch_full,j_knee_le
+5661	rightfoot_strafe_9_slice_4
+5662	helmet_visor_up_ivan_instant
+5663	fx_off
+5664	patrol_rail_lean_end
+5665	fast_foot_l_forward_8_to_2
+5666	soldier
+5667	weap_mike4_raise_plr
+5668	footstep
+5669	start_blend
+5670	ik_fingers_r
+5671	patrol_stretching_end
+5672	3walk_exitfull
+5673	onEventReceived
+5674	long_death_shoot_idle
+5675	larm_upper_r
+5676	exit4fast
+5677	patrol_cellphone_intro
+5678	patrol_wall_lean_react
+5679	cautious_clear_ready_to_slice
+5680	pass_conceal_stand_moverequested
+5681	ps_wfoly_plr_pi_papa220_reload_empty_fast_xmag_01
+5682	first_guy
+5683	direct_point_2_2
+5684	direct_point_4_4
+5685	direct_point_8_6
+5686	direct_point_8_8
+5687	aimset_coverstandhigh_lmg
+5688	over_lean_to_hide
+5689	patrol_move_test_med
+5690	ps_exec_katana_stab,j_spinelower
+5691	fx_playfxontag, vfx/iw9/executions/vfx_exec_bullet_med_imp_pos_y, j_spinelower
+5692	grenade_left
+5693	pain_cover_left_stand_to_cover_left_stand_expb_anim
+5694	vehicle_combat_to_hide
+5695	ps_exec_gear_mvmt_midlength_light,j_spineupper
+5696	2fast_exitfull
+5697	td_sdr_com_melee_takedown03_attackerwins_attacker_8_01,cloth
+5698	cautious_wide_slice
+5699	sit_cellphone_death
+5700	fast_jump_over_drop_90r
+5701	grenade dive
+5702	ps_exec_gore_medium_splat,j_mainroot
+5703	pain_shocked_cover_left_crouch_recover
+5704	fx_playfxontag, vfx/iw9/executions/vfx_exec_04_sword_slash, j_knee_le
+5705	ragdoll_recovery_slopes
+5706	avoid_back_jump
+5707	fire_settle_half
+5708	ps_exec_gore_blood_drip,j_spine4
+5709	patrol_custom_react
+5710	burn_vfx_death_start
+5711	pain_shocked_cover_left_stand_recover
+5712	call_reinforcements_cover_right_stand_start
+5713	aim_knob_5
+5714	Cover_Fire
+5715	patrol_staring_intro
+5716	stumbling_pain_transition
+5717	alignToNode
+5718	cap_custom_arrival
+5719	weap_gp25_chamber_plr
+5720	pain_shocked_exposed_stand
+5721	vehicle_hide_to_combat
+5722	pain_lmg_crouch_default
+5723	move_crouch_exposed_crouch_arrival
+5724	pain_cover_right_stand_anim
+5725	scope
+5726	CalcAdditionalPos
+5727	proximitysensor_blink
+5728	pass_run_should_arrive_type_calc
+5729	left6walk
+5730	pain_run_default
+5731	leftfoot_strafe_7_fast_7
+5732	leftfoot_strafe_7_fast_9
+5733	8lsprint
+5734	pass_stand_cover_left_exposed_abort
+5735	fast_mantle_up_md_90l
+5736	cover_right_crouch_to_cover_left_crouch
+5737	ik_terrain
+5738	back_2
+5739	sdr_patrol_walk_1d
+5740	longsprint
+5741	parachuting
+5742	fast8r
+5743	weapon_offset_add
+5744	pass_cover_right_blindfire
+5745	fast_ready
+5746	gesture_knob
+5747	ps_wfoly_plr_pi_golf17_reload_02
+5748	Reached Primary
+5749	fx_playfxontag, vfx/iw9/executions/vfx_exec_head_dismember.vfx, j_shoulder_ri
+5750	leftfoot_strafe_9_fast_9
+5751	smoking
+5752	alert_investigate_stairs_down
+5753	exposed_crouch_crawl_left_final
+5754	live_ragdoll_recover_slopes_leftside_6
+5755	live_ragdoll_recover_slopes_leftside_8
+5756	leftfoot_strafe_8_fast_2
+5757	ps_exec_gore_blood_drip
+5758	pass_stairs
+5759	td_sdr_com_melee_takedown03_defwins_defender_8_03,cloth
+5760	ps_sdr_com_melee_takedown03_attackerwins_defender_8_02
+5761	alert_investigate_arrival
+5762	sprint_hard_lean_right
+5763	melee_attack_return
+5764	custom_pose_cover_crouch
+5765	legs_lg_f
+5766	run1l
+5767	left8rrun
+5768	walk_mantle_down_xlg
+5769	cover_right_crouch_to_stand
+5770	4fast_exitfull
+5771	shoot_additives_lmg
+5772	1walk_from_strafe_4
+5773	fast_mantle_over_down_md_90l
+5774	cover_crouch_to_cover_right_crouch
+5775	mp_parachute_open
+5776	ps_exec_punch_full,j_knee_ri
+5777	primary
+5778	rightfoot_strafe_9_slice_8
+5779	left_6
+5780	setStationary
+5781	setstationary
+5782	iw9_ar_akilo105
+5783	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_mainroot
+5784	exposed_idle_slopes
+5785	curious_move
+5786	fast_foot_l_forward_8_to_4
+5787	exposed_crouch_slopes
+5788	conceal_stand_hide_to_exposed
+5789	pain_lmg_crouch
+5790	WEAPON VIOLENCE VIEW
+5791	ps_wfoly_plr_pi_papa220_akimbo_r_inspect_06
+5792	can_be_revived
+5793	hide_to_aim
+5794	ps_exec_gear_mvmt_quick_heavy,j_ankle_le
+5795	alert_move_fl_to_combat_move
+5796	larm_upper_l
+5797	larm_upper_b
+5798	gun_down_stand
+5799	dying_back_crawl_death
+5800	torso_md_r
+5801	vehicle_idle_combat
+5802	cover_left_crouch_b_to_hide
+5803	grenade_cower_loop
+5804	ps_iw9_weap_knife_inspect_05
+5805	direct_point_4_6
+5806	direct_point_6_6
+5807	Call Reinforcements
+5808	right8lfast
+5809	ps_exec_hyena_attack
+5810	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_throat_slash.vfx, j_head
+5811	ps_wfoly_plr_pi_papa220_reload_fast_01
+5812	onUserInit
+5813	patrol_stationary_turn_fl
+5814	pass_cover_right_crouch_lean_moverequested
+5815	drop_clip
+5816	hit_9_midbody
+5817	smartobject_react
+5818	right_doorless
+5819	WEAPON VIOLENCE VIEW ORG
+5820	ht_on
+5821	ps_wpn_coslo723_reload_empty_grab_plr
+5822	fire_spray
+5823	flinch
+5824	dive_fwd
+5825	ps_vm_sp_takedown_knife_crouch_left_01_bodyfall
+5826	warp_across_end
+5827	ragdollsloperecovery_stomach_2
+5828	phase_blend_out
+5829	3walk
+5830	jog4
+5831	weapon_offset_custom
+5832	fx_playfxontag, vfx/iw9/executions/vfx_exec_knee_fall_imp, j_ankle_le
+5833	patrol_move_to_alert_move_check
+5834	ps_wfoly_plr_pi_papa220_reload_empty_xmag_06
+5835	exposed_lkp_end
+5836	fast_mantle_up_lg_90l
+5837	pass_cover_left_crouch_multi
+5838	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_machete_pullout, j_neck
+5839	pain_cover_right_crouch
+5840	left2shuffle
+5841	live_ragdoll_recover_slopes_back_7
+5842	ps_exec_gore_blood_squirt,j_head

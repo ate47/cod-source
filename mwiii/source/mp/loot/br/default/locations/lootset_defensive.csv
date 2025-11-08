@@ -1,0 +1,7 @@
+string,string,string,string
+inherit,mp/loot/br/default/lootset_root.csv,,
+chance,point,85,
+chance,cluster,85,
+chance,clusterSolo,10,
+reqAdd,defensive&!(lethal|tactical),1,1
+tagBoost,defensive,150,

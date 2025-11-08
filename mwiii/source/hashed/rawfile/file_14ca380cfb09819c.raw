@@ -1,0 +1,78 @@
+//Idle
+#idle
+
+body
+{
+	
+}
+
+#animscripted
+
+locomotion : loopsync
+{
+	//Locomotion
+	move_loops
+	{
+		#move_loop
+	}
+}
+
+#spawn
+
+#move_strafe
+
+//Float Move
+#float_move
+
+//React
+#react
+
+//Deaths
+#death
+
+//Traversals
+#traversal
+
+//Beam Attack
+#beam_attack
+
+//Pain
+#pain
+
+//Bind
+#bind
+
+//Summon
+#summon
+
+//Stun
+#stun
+
+//Teleport
+#teleport
+
+//Lightning Strike
+#lightning_strike
+
+aim_graft_node : additive unnormalized graft
+{
+}
+
+server_ragdoll : public server_ragdoll( xanim_server_ragdoll_root_origin = [xanim_server_ragdoll_root_origin],
+										xanim_server_ragdoll_root_angles = [xanim_server_ragdoll_root_angles])
+{
+}
+
+ragdoll : public clientauth overlay ragdoll (ragdoll_handle=[entity_ragdoll_handle])
+{
+}
+
+ragdoll_recovery
+{
+    #ragdoll_recovery
+}
+
+live_ragdoll_knockdown
+{
+    #live_ragdoll
+}

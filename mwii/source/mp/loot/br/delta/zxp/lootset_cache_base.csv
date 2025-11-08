@@ -1,0 +1,11 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/delta/zxp/lootset_root.csv,,,,
+tagReject,nocache,100,,,
+reqAdd,ammo,1,,,# required ammo
+reqAdd,plunder,1,1,,
+reqAdd,weapon,1,1,,# require a weapon
+reqLimit,brloot_armor_plate,1,1,,# limit plates
+reqLimit,ammo,1,1,,
+reqLimit,gear,1,1,,
+reqAdd,brloot_zmb_stim,1,1,50,# ZXP Stim
+reqAdd,brloot_offhand_magsnap|brloot_super_hauntedbox,1,1,50,# Increase Odds of MagSnap or Haunted Box

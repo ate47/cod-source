@@ -1,0 +1,6 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/plunder/lootset_root.csv,,,,
+reqAdd,weapon&[3],1,,,# 1 weapon of type epic
+reqAdd,plunder&[3],1,,,# 1 plunder
+reqAdd,[2],1,,,# 1 item of any type rare +
+reqAdd,[4],1,,,# 1 item of any type legendary

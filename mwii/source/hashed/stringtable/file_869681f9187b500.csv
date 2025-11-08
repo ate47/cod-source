@@ -1,0 +1,215 @@
+string,string,string,string,string,string,string,string,string
+player256x256x128,,-3528,-23840,4064,0,30,0,add comment here
+player256x256x128,,-3592,-23680,4064,0,30,0,add comment here
+player256x256x128,,-3304,-23712,4064,0,30,0,add comment here
+player256x256x128,,-3712,-22632,4128,0,0,0,IW9-941329: added 2 player_clip to cut off access to underneath building
+player256x256x128,,-3712,-22456,4128,0,0,0,IW9-941329: added 2 player_clip to cut off access to underneath building
+clip32x32x128,,20624,-55440,1000,0,0,0,Fix for:https://dev.activision.com/jira/browse/IW9-677819 Remove season 2.5
+clip32x32x32,,20624,-55416,1056,0,0,0,Fix for:https://dev.activision.com/jira/browse/IW9-677819 Remove season 2.5
+clip128x128x8,,10494,20700,420,0,0,-90,player clip inside MC marina building IW9-681424
+player32x32x128,,-26688,-9980,1528,308.261,233.394,3.374,Fixed IW9-682480
+clip256x256x8,,8850,-28223,1107.5,0,85.099,90,Clip fix dogtown stairs IW9-673897
+nosight512x2048x64,,-60328.164,-16756.877,287,0,18.903,0,Nosight fix ai shooting players through Lone ship floor IW9-685800 Part 1
+nosight512x2048x64,,-59843.832,-16590.941,287,0,18.903,0,Nosight fix ai shooting players through Lone ship floor IW9-685800 Part 2
+nosight512x2048x64,,-59664.488,-18694.34,287,0,18.903,0,Nosight fix ai shooting players through Lone ship floor IW9-685800 Part 3
+nosight512x2048x64,,-59180.223,-18528.42,287,0,18.903,0,Nosight fix ai shooting players through Lone ship floor IW9-685800 Part 4
+nosight512x1024x64,,-59166.77,-20147.457,387,0,18.903,0,Nosight fix ai shooting players through Lone ship floor IW9-685800 Part 5
+nosight512x1024x64,,-58682.371,-19981.525,387,0,18.903,0,Nosight fix ai shooting players through Lone ship floor IW9-685800 Part 6
+clip128x128x128,,28395.199,-33102.602,423,360,109.8,-90,Fix for players getting off ATV and being trapped in bathroom stall in regional
+clip128x128x256,,28610.184,-33019.641,423,360,109.8,-90,Fix for players getting off ATV and being trapped in bathroom stall in regional
+clip128x128x128,,28682,-33032,359,0,109.8,0,Fix for players getting off ATV and being trapped in bathroom stall in regional
+vehicle256x256x128,,41310,-34458.102,145.2,300.948,15.748,-4.134,Fix for jet ski getting stuck on runway debris
+vehicle256x256x128,,41256,-34205.102,136.2,300.948,15.748,-4.134,Fix for jet ski getting stuck on runway debris
+vehicle256x256x128,,41202.988,-33960.117,127.2,300.948,15.748,-4.134,Fix for jet ski getting stuck on runway debris
+vehicle256x256x256,,41154.5,-33775.602,-17.154,22.273,339.612,-4.05,Fix for jet ski getting stuck on runway debris
+vehicle256x256x256,,41232.492,-33552.605,-27.154,22.273,339.612,-4.05,Fix for jet ski getting stuck on runway debris
+clip64x64x128,,-2076,-44258,181,270,0,-34.0004,Fix for firestation in fishtown lacking collision at bottom concrete part 1 IW9-715275
+clip64x64x128,,-2040,-44282,181,270,0,-34.0004,Fix for firestation in fishtown lacking collision at bottom concrete part 2 IW9-715275
+clip64x64x256,,-2046,-44238,181,270,0,55.9996,Fix for firestation in fishtown lacking collision at bottom concrete part 3 IW9-715275
+clip64x64x256,,-2188,-44449,181,270,0,55.9996,Fix for firestation in fishtown lacking collision at bottom concrete part 4 IW9-715275
+clip64x64x256,,-2329,-44659,181,270,0,55.9996,Fix for firestation in fishtown lacking collision at bottom concrete part 5 IW9-715275
+clip64x64x256,,-2471,-44870,181,270,0,55.9996,Fix for firestation in fishtown lacking collision at bottom concrete part 6 IW9-715275
+clip64x64x256,,-2614,-45082,181,270,0,55.9996,Fix for firestation in fishtown lacking collision at bottom concrete part 7 IW9-715275
+clip64x64x256,,-2756,-45293,181,270,0,55.9996,Fix for firestation in fishtown lacking collision at bottom concrete part 8 IW9-715275
+clip64x64x256,,-2841,-45419,181,270,0,55.9996,Fix for firestation in fishtown lacking collision at bottom concrete part 9 IW9-715275
+clip128x128x128,,13896,-8276,1920,0,345,0, Fix for replaced rock with non-collide on part 1 IW9-661378 
+clip128x128x128,,14060,-8288,1892,0,0,-15, Fix for replaced rock with non-collide on part 2 IW9-661378 
+clip32x32x32,,28184,-22720,776,0,20,0, Fix for AC unit IW9-558473
+player128x128x256,,-20808,27376,-524,0,35,0,Fixed IW9-759613
+clip128x128x8,,-60480,38270,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,38452,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,38558,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,38740,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,38846,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,39028,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,39422,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,39604,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60298,39920,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60116,39920,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60010,39920,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-59828,39920,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,45950,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,46132,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,46238,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,46420,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,46526,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,46708,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,47102,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,47284,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60298,47600,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60116,47600,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60010,47600,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-59828,47600,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,53630,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,53812,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,53918,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,54100,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,54206,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,54388,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,54782,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,54964,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60298,55280,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60116,55280,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60010,55280,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-59828,55280,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,60926,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,61108,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,61214,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,61396,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,61502,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,61684,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,62078,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60480,62260,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60298,62576,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60116,62576,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-60010,62576,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-59828,62576,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,53630,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,53812,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,53918,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,54100,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,54206,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,54388,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,54782,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,54964,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45298,55280,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45116,55280,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45010,55280,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-44828,55280,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,60926,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,61108,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,61214,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,61396,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,61502,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,61684,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,62078,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45480,62260,-11040,270,0,-180, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45298,62576,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45116,62576,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-45010,62576,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip128x128x8,,-44828,62576,-11040,270,0,-90, Fix for missing player collision on gates in gulag 
+clip64x64x128,,-20753.699,27088.1,-523,60,285,90, Fixed IW9-757609
+clip64x64x128,,-20742.301,27045.801,-511.25,90,189.495,-5.506, Fixed IW9-757609
+player8x8x256,,-60164,37192,-10984,270,0,-180, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59308,37192,-10984,270,0,-180, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59048,37188,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59048,37604,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59048,38204,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60448,38204,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60448,39264,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60448,39644,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60216,39904,-10984,270,0,0, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59764,39904,-10984,270,0,0, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60164,44872,-10984,270,0,-180, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59308,44872,-10984,270,0,-180, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59048,44868,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59048,45284,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59048,45884,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60448,45884,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60448,46944,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60448,47324,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60216,47584,-10984,270,0,0, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59764,47584,-10984,270,0,0, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60164,52552,-10984,270,0,-180, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59308,52552,-10984,270,0,-180, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59048,52548,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59048,52964,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59048,53564,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60448,53564,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60448,54624,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60448,55004,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60216,55264,-10984,270,0,0, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59764,55264,-10984,270,0,0, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60164,59848,-10984,270,0,-180, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59308,59848,-10984,270,0,-180, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59048,59844,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59048,60260,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59048,60860,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60448,60860,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60448,61920,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60448,62300,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-60216,62560,-10984,270,0,0, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-59764,62560,-10984,270,0,0, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-45164,59848,-10984,270,0,-180, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-44308,59848,-10984,270,0,-180, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-44048,59844,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-44048,60260,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-44048,60860,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-45448,60860,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-45448,61920,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-45448,62300,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-45216,62560,-10984,270,0,0, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-44764,62560,-10984,270,0,0, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-45164,52552,-10984,270,0,-180, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-44308,52552,-10984,270,0,-180, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-44048,52548,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-44048,52964,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-44048,53564,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-45448,53564,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-45448,54624,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-45448,55004,-10984,270,0,-90, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-45216,55264,-10984,270,0,0, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player8x8x256,,-44764,55264,-10984,270,0,0, Fix for missing collision on pipes in gulag that cause culling IW9-773420
+player128x128x256,,-34290,17830,-416,358.699,357.508,32.8754,Fix for lack of player collision via rocks IW9-775393
+player32x32x128,,-36744,-38664,776,3.72933,338.303,-86.7144,Fix for lack of player collision via rocks IW9-779878
+player32x32x128,,21552,-3114,162,6.15791,318.58,-74.4026,Fix for marshlands dirt pile collision IW9-783270
+player32x32x256,,-37122,-8758,1102,270,271,70.0008,Fix for rock collision missing for IW9-809542 part 1
+player32x32x256,,-37130,-8776,1102,270,271,70.0008,Fix for rock collision missing for IW9-809542 part 1
+player32x32x128,,114,43646,84,18,335,0,Fixed IW9-759118 - Locker at the entrance to bio bunker lacks proper collision causing culling to appear
+player64x64x64,,22620,21564,-62,0,0,45,Fixed IW9-816788 - There is a shelf in hallway leading down to mp_biobunker entrance lacks Player collision
+clip128x128x128,,500,26396,484,352,30,-4,https://dev.activision.com/jira/browse/IW9-818622
+clip128x128x128,,444,26488,472,2,19,-4,https://dev.activision.com/jira/browse/IW9-818622
+clip256x256x8,,4,26518,566,10,42,-12,https://dev.activision.com/jira/browse/IW9-825713
+clip256x256x8,,171,26333,566,10,42,10,https://dev.activision.com/jira/browse/IW9-825713
+player64x64x256,,35914,5630,802,270,0,-107,Fixing up cliff that lacks player collision https://dev.activision.com/jira/browse/IW9-817130
+clip512x1024x64,,36424,5648,1052,0,7.99849,0,Fixing up terrain patch cliffside lacking player collision IW9-850794
+player128x128x8,,28065,33937,885,333.5,33.6294,0.987371,corrugated metal on MC dunes IW9-850738
+player128x128x8,,27995,34047,881,333.5,33.6293,-5.01263,corrugated metal on MC dunes IW9-850738
+player256x256x128,,26246,39482,1358,330.988,358.059,6.31675,terrain rock north MC dunes IW9-850513
+player64x64x128,,26293,39343,1480,330.988,330.988,-77.3139,terrain rock north MC dunes IW9-850513
+player128x128x8,,18744,29196,452,310.944,1.05893,9.17579,MC dunes gas station awning IW9-851146
+player256x256x8,,18749,28914,454,319.295,14.3043,-15.3674,MC dunes gas station awning IW9-851146
+player512x512x8,,18145,29573,327,23.1634,0.347276,177.562,MC dunes gas station awning IW9-851146
+player64x64x128,,18054,29502,343,270,0,-90,MC dunes gas station awning IW9-851146
+player32x32x256,,18598,29811,256,1.73237,359.982,-83.8867,sand terrain against MC gas station IW9-851270
+player128x128x8,,-20214,-51612,242,0,0,-90,Fix for Sunken GW wall lacking collision IW9-866074
+player32x32x32,,16892,38432,258,0,0,0,Fix for small dune model lacking player collision IW9-853630 Pt 1
+player32x32x32,,16892,38452,256,0,0,-24,Fix for small dune model lacking player collision IW9-853630 Pt 2
+player32x32x32,,16862,38476,262,26,0,0,Fix for small dune model lacking player collision IW9-853630 Pt 3
+player128x128x8,,-50149.398,14420.9,720.001,360,219.999,90,Fixed IW9-881038 metal doors lacking player collision
+vehicle256x256x256,,-11588,6096,64,0,325,0,Fixed IW9-900466 mesh missing vehicle collision
+shotblock32x32x128,shotblock32x32x128,14852,21364,646,0,0,0,Fixed IW9-900474 mesh missing equipment and bullet collision Pt 1 of 3
+shotblock32x32x128,shotblock32x32x128,14998,21642,623,270,0,45,Fixed IW9-900474 mesh missing equipment and bullet collision Pt 2 of 3
+shotblock32x32x128,shotblock32x32x128,14856,21367,623,270,0,-90,Fixed IW9-900474 mesh missing equipment and bullet collision Pt 3 of 3
+clip128x128x8,,-5720,-17208,4424,0,255,90,Fixed for missing collision https://dev.activision.com/jira/browse/IW9-928356 Pt 1 of 2
+clip128x128x8,,-5744,-17328,4424,0,264,90,Fixed for missing collision https://dev.activision.com/jira/browse/IW9-928356 Pt 2 of 2
+clip256x256x128,,9974,35408,104,348,24.998,-2,Fixed map hole in Live jira: IW9-933824
+player64x64x128,,-45320,-18696,200,360,19,0,Missing crate collision in Lone IW9-969082
+clip512x2048x64,,55685,-9757.25,1366,85.012,91.367,69.221,Hole in the oob geo IW9-982048
+clip512x2048x64,,54931.742,-7917.954,1592.748,79.6,102.393,80.161,Hole in the oob geo IW9-982048
+clip512x2048x64,,54178.676,-6090.437,1950.56,77.077,104.343,82.071,Hole in the oob geo IW9-982048
+clip512x2048x64,,56367.5,-11394,808,53.087,109.719,87.056,Hole in the oob geo IW9-982048
+clip512x2048x64,,54586.648,-4583.19,2361.81,75.049,67.257,-61.849,Hole in the oob geo IW9-982048
+shotblock64x64x128,,16888,28910,251,55,90,-89.999,Fixed IW9-935252 stairs missing equipment and bullet collision
+clip256x256x8,,-2448,-12400,3304,0,0,0,Fix for IW9-985567 player boosting through geo in tunnels
+clip256x256x8,,-1244,-13112,3284,0,330,15,Fix for IW9-984798 player boosting through geo in tunnels

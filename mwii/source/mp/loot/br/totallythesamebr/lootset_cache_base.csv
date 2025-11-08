@@ -1,0 +1,15 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/totallythesamebr/lootset_root.csv,,,,
+tagReject,nocache,100,,,
+reqAdd,ammo,1,,,# required ammo
+reqAdd,plunder,1,1,,
+reqAdd,weapon,1,1,,# require a weapon
+reqAdd,,1,,,# any item
+reqAdd,,1,,50,# chance for any item of any quality
+reqLimit,brloot_armor_plate,1,1,,# limit plates
+reqLimit,ammo,1,1,,
+reqLimit,gear,1,1,,
+reqAdd,brloot_redeploy_token,1,,5,# required redeploy token
+reqLimit,brloot_redeploy_token,,10,,# limit # of redeploy tokens
+reqAdd,brloot_ammo_rocket,1,,25,# required rocket ammo
+reqLimit,brloot_ammo_rocket,1,1,,# limit rocket ammo

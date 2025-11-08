@@ -1,0 +1,4 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/truckwar/lootset_root.csv,,,,
+reqAdd,plunder,2,3,,# require plunder
+reqAdd,weapon&[4],1,,,# chance for any item of higher quality

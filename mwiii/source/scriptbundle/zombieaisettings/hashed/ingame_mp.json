@@ -1,0 +1,1075 @@
+{
+    "#hash_bbf206e4e3aef5": {
+        "#hash_fef5d84db3c8e7f7": "%#hash_ec4456614b2f574",
+        "#hash_204e8fd8424a6542": false,
+        "#hash_289be7ed6a138df8": false,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120
+            },
+            {
+                "#movetype": "sprint",
+                "#speedthreshold": 170
+            }
+        ],
+        "#enablespreading": false,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 300,
+        "#hash_c1410214e7e4f2d3": true,
+        "#hash_e2b91916dda5f27f": [],
+        "#hash_f42bfa0e947d5b2b": false,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "boss",
+        "#healthscriptbundle": "health_zombie_disciple_s3_rr",
+        "#hash_333751673b2281dc": 65,
+        "#elementalweakness": [
+            {
+                "#elementtype": "electrical"
+            }
+        ],
+        "#hash_23731ac359988186": false,
+        "#hash_7410c30336739540": true,
+        "#meleeknockbackstrength": 0,
+        "#hash_878a9f80b05effb": 1,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_disciple",
+        "#hash_f6fe19952d45625e": true,
+        "#biterange": 64,
+        "#meleedamage": 30,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": false,
+        "#minwanderradius": 60,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": false,
+        "#meleerange": 64,
+        "#hash_a98faeef4a48e76": 1,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_95c9272f2a9d75f": {
+        "#hash_204e8fd8424a6542": true,
+        "#hash_289be7ed6a138df8": false,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "wander_shuffle",
+                "#speedthreshold": 30
+            },
+            {
+                "#movetype": "wander",
+                "#speedthreshold": 48
+            },
+            {
+                "#movetype": "investigate",
+                "#speedthreshold": 50
+            },
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "wander_agitated",
+                "#speedthreshold": 65
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120
+            },
+            {
+                "#movetype": "sprint",
+                "#speedthreshold": 170
+            },
+            {
+                "#movetype": "super_sprint",
+                "#speedthreshold": 256
+            }
+        ],
+        "#hash_ffe6545012b26f": true,
+        "#turnanimsenabled": true,
+        "#enablespreading": true,
+        "#hash_6fddf68ea9876757": 90,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 400,
+        "#enablemelee": true,
+        "#hash_e2b91916dda5f27f": [
+            {
+                "#modelname": "jup_zm_gore_chunk_01"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_02"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_03"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_04"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_05"
+            }
+        ],
+        "#hash_f42bfa0e947d5b2b": false,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "normal",
+        "#hash_d0ede1e06e380f47": 85,
+        "#healthscriptbundle": "health_zombie_base",
+        "#hash_333751673b2281dc": 65,
+        "#elementalweakness": [],
+        "#hash_23731ac359988186": true,
+        "#hash_7410c30336739540": true,
+        "#usewanderscripted": true,
+        "#meleeknockbackstrength": 0,
+        "#hash_878a9f80b05effb": 1,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_base",
+        "#hash_f6fe19952d45625e": true,
+        "#biterange": 64,
+        "#meleedamage": 30,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": true,
+        "#minwanderradius": 100,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": false,
+        "#meleerange": 64,
+        "#hash_a98faeef4a48e76": 7.5,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_139c9de8f7710b5a": {
+        "#hash_fef5d84db3c8e7f7": "%#hash_7a57d0795ef2e351",
+        "#hash_204e8fd8424a6542": false,
+        "#hash_289be7ed6a138df8": false,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120
+            },
+            {
+                "#movetype": "sprint",
+                "#speedthreshold": 170
+            }
+        ],
+        "#enablespreading": false,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 300,
+        "#hash_c1410214e7e4f2d3": true,
+        "#hash_e2b91916dda5f27f": [],
+        "#hash_f42bfa0e947d5b2b": false,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "boss",
+        "#healthscriptbundle": "health_zombie_disciple_s3_rr_unlock",
+        "#hash_333751673b2281dc": 65,
+        "#elementalweakness": [
+            {
+                "#elementtype": "electrical"
+            }
+        ],
+        "#hash_23731ac359988186": false,
+        "#hash_7410c30336739540": true,
+        "#meleeknockbackstrength": 0,
+        "#hash_878a9f80b05effb": 1,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_disciple",
+        "#hash_f6fe19952d45625e": true,
+        "#biterange": 64,
+        "#meleedamage": 30,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": false,
+        "#minwanderradius": 60,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": false,
+        "#meleerange": 64,
+        "#hash_a98faeef4a48e76": 1,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_1806972c256d77a1": {
+        "#hash_fef5d84db3c8e7f7": "%#hash_fa0f59b2ebe1b6c",
+        "#hash_204e8fd8424a6542": false,
+        "#hash_289be7ed6a138df8": false,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120
+            },
+            {
+                "#movetype": "sprint",
+                "#speedthreshold": 170
+            }
+        ],
+        "#enablespreading": false,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 300,
+        "#hash_c1410214e7e4f2d3": true,
+        "#hash_e2b91916dda5f27f": [],
+        "#hash_f42bfa0e947d5b2b": false,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "special",
+        "#healthscriptbundle": "health_zombie_disciple",
+        "#hash_333751673b2281dc": 65,
+        "#elementalweakness": [
+            {
+                "#elementtype": "electrical"
+            }
+        ],
+        "#hash_23731ac359988186": false,
+        "#hash_7410c30336739540": true,
+        "#meleeknockbackstrength": 0,
+        "#hash_878a9f80b05effb": 1,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_disciple",
+        "#hash_f6fe19952d45625e": true,
+        "#biterange": 64,
+        "#meleedamage": 30,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": false,
+        "#minwanderradius": 60,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": false,
+        "#meleerange": 64,
+        "#hash_a98faeef4a48e76": 1,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_23b03901a1561df6": {
+        "#hash_204e8fd8424a6542": true,
+        "#hash_289be7ed6a138df8": false,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "wander_shuffle",
+                "#speedthreshold": 30
+            },
+            {
+                "#movetype": "wander",
+                "#speedthreshold": 48
+            },
+            {
+                "#movetype": "investigate",
+                "#speedthreshold": 50
+            },
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "wander_agitated",
+                "#speedthreshold": 65
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120
+            },
+            {
+                "#movetype": "sprint",
+                "#speedthreshold": 170
+            },
+            {
+                "#movetype": "super_sprint",
+                "#speedthreshold": 256
+            }
+        ],
+        "#hash_ffe6545012b26f": true,
+        "#turnanimsenabled": true,
+        "#enablespreading": true,
+        "#hash_6fddf68ea9876757": 90,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 400,
+        "#enablemelee": true,
+        "#hash_e2b91916dda5f27f": [
+            {
+                "#modelname": "jup_zm_gore_chunk_01"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_02"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_03"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_04"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_05"
+            }
+        ],
+        "#hash_f42bfa0e947d5b2b": false,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "normal",
+        "#hash_d0ede1e06e380f47": 85,
+        "#healthscriptbundle": "health_zombie_base",
+        "#hash_333751673b2281dc": 65,
+        "#elementalweakness": [],
+        "#hash_23731ac359988186": true,
+        "#hash_7410c30336739540": true,
+        "#usewanderscripted": true,
+        "#meleeknockbackstrength": 0,
+        "#hash_878a9f80b05effb": 1,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_base_armored_zombie",
+        "#hash_f6fe19952d45625e": true,
+        "#biterange": 64,
+        "#meleedamage": 30,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": true,
+        "#minwanderradius": 100,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": false,
+        "#meleerange": 64,
+        "#hash_a98faeef4a48e76": 7.5,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_2426a8a039ca9cab": {
+        "#hash_fef5d84db3c8e7f7": "%#hash_2f64035486506c38",
+        "#hash_204e8fd8424a6542": false,
+        "#hash_289be7ed6a138df8": true,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120,
+                "#hash_73e6922977cd2c06": 120
+            }
+        ],
+        "#hash_ffe6545012b26f": true,
+        "#enablespreading": true,
+        "#hash_6fddf68ea9876757": 90,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 300,
+        "#hash_c1410214e7e4f2d3": true,
+        "#enablemelee": true,
+        "#hash_e2b91916dda5f27f": [],
+        "#hash_f42bfa0e947d5b2b": false,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "elite",
+        "#hash_d0ede1e06e380f47": 85,
+        "#healthscriptbundle": "health_zombie_mimic_s3_rr",
+        "#hash_333751673b2281dc": 65,
+        "#elementalweakness": [
+            {
+                "#elementtype": "toxic"
+            }
+        ],
+        "#hash_23731ac359988186": false,
+        "#hash_7410c30336739540": true,
+        "#meleeknockbackstrength": 0,
+        "#hash_878a9f80b05effb": 0.4,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_mimic",
+        "#hash_f6fe19952d45625e": true,
+        "#biterange": 64,
+        "#meleedamage": 50,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": true,
+        "#minwanderradius": 60,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": false,
+        "#meleerange": 80,
+        "#hash_a98faeef4a48e76": 7,
+        "#tetherrange": 4000,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_2898b8fd3cea1d9f": {
+        "#hash_fef5d84db3c8e7f7": "%#hash_22a8b196da6c7f2d",
+        "#hash_204e8fd8424a6542": false,
+        "#hash_289be7ed6a138df8": true,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120
+            },
+            {
+                "#movetype": "sprint",
+                "#speedthreshold": 170
+            }
+        ],
+        "#enablespreading": true,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 300,
+        "#hash_c1410214e7e4f2d3": true,
+        "#enablemelee": true,
+        "#hash_e2b91916dda5f27f": [],
+        "#hash_f42bfa0e947d5b2b": true,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "elite",
+        "#healthscriptbundle": "health_zombie_mangler_hvt",
+        "#hash_333751673b2281dc": 50,
+        "#elementalweakness": [
+            {
+                "#elementtype": "fire"
+            }
+        ],
+        "#hash_23731ac359988186": false,
+        "#hash_7410c30336739540": true,
+        "#meleeknockbackstrength": 1000,
+        "#hash_878a9f80b05effb": 0.4,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_mangler",
+        "#hash_f6fe19952d45625e": false,
+        "#biterange": 64,
+        "#meleedamage": 30,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": true,
+        "#minwanderradius": 60,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": true,
+        "#meleerange": 80,
+        "#hash_a98faeef4a48e76": 10.8,
+        "#tetherrange": 4000,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_2a379490cadbd1a7": {
+        "#hash_fef5d84db3c8e7f7": "%#hash_19af52bb8b6e435",
+        "#hash_204e8fd8424a6542": false,
+        "#hash_289be7ed6a138df8": true,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120,
+                "#hash_73e6922977cd2c06": 120
+            }
+        ],
+        "#hash_ffe6545012b26f": true,
+        "#enablespreading": true,
+        "#hash_6fddf68ea9876757": 90,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 300,
+        "#hash_c1410214e7e4f2d3": true,
+        "#enablemelee": true,
+        "#hash_e2b91916dda5f27f": [],
+        "#hash_f42bfa0e947d5b2b": false,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "special",
+        "#hash_d0ede1e06e380f47": 85,
+        "#healthscriptbundle": "health_zombie_mimic",
+        "#hash_333751673b2281dc": 65,
+        "#elementalweakness": [
+            {
+                "#elementtype": "toxic"
+            }
+        ],
+        "#hash_23731ac359988186": false,
+        "#hash_7410c30336739540": true,
+        "#meleeknockbackstrength": 0,
+        "#hash_878a9f80b05effb": 0.4,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_mimic",
+        "#hash_f6fe19952d45625e": true,
+        "#biterange": 64,
+        "#meleedamage": 30,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": true,
+        "#minwanderradius": 60,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": false,
+        "#meleerange": 80,
+        "#hash_a98faeef4a48e76": 10.8,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_35f131687291d4dc": {
+        "#hash_fef5d84db3c8e7f7": "%#hash_44cffb504db75b31",
+        "#hash_204e8fd8424a6542": false,
+        "#hash_289be7ed6a138df8": false,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120
+            },
+            {
+                "#movetype": "sprint",
+                "#speedthreshold": 170
+            }
+        ],
+        "#enablespreading": false,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 300,
+        "#hash_c1410214e7e4f2d3": true,
+        "#hash_e2b91916dda5f27f": [],
+        "#hash_f42bfa0e947d5b2b": false,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "elite",
+        "#healthscriptbundle": "health_zombie_disciple_hvt",
+        "#hash_333751673b2281dc": 65,
+        "#elementalweakness": [
+            {
+                "#elementtype": "electrical"
+            }
+        ],
+        "#hash_23731ac359988186": false,
+        "#hash_7410c30336739540": true,
+        "#meleeknockbackstrength": 0,
+        "#hash_878a9f80b05effb": 1,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_disciple",
+        "#hash_f6fe19952d45625e": true,
+        "#biterange": 64,
+        "#meleedamage": 30,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": false,
+        "#minwanderradius": 60,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": false,
+        "#meleerange": 64,
+        "#hash_a98faeef4a48e76": 1,
+        "#tetherrange": 4000,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_398e02c620221202": {
+        "#hash_fef5d84db3c8e7f7": "%#hash_2f64035486506c38",
+        "#hash_204e8fd8424a6542": false,
+        "#hash_289be7ed6a138df8": true,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120,
+                "#hash_73e6922977cd2c06": 120
+            }
+        ],
+        "#hash_ffe6545012b26f": true,
+        "#enablespreading": true,
+        "#hash_6fddf68ea9876757": 90,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 300,
+        "#hash_c1410214e7e4f2d3": true,
+        "#enablemelee": true,
+        "#hash_e2b91916dda5f27f": [],
+        "#hash_f42bfa0e947d5b2b": false,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "elite",
+        "#hash_d0ede1e06e380f47": 85,
+        "#healthscriptbundle": "health_zombie_mimic_hvt",
+        "#hash_333751673b2281dc": 65,
+        "#elementalweakness": [
+            {
+                "#elementtype": "toxic"
+            }
+        ],
+        "#hash_23731ac359988186": false,
+        "#hash_7410c30336739540": true,
+        "#meleeknockbackstrength": 0,
+        "#hash_878a9f80b05effb": 0.4,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_mimic",
+        "#hash_f6fe19952d45625e": true,
+        "#biterange": 64,
+        "#meleedamage": 50,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": true,
+        "#minwanderradius": 60,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": false,
+        "#meleerange": 80,
+        "#hash_a98faeef4a48e76": 7,
+        "#tetherrange": 4000,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_3e521096d75aad99": {
+        "#hash_fef5d84db3c8e7f7": "%#hash_4d35df0e4e14c140",
+        "#hash_204e8fd8424a6542": false,
+        "#hash_289be7ed6a138df8": false,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120
+            },
+            {
+                "#movetype": "sprint",
+                "#speedthreshold": 170
+            }
+        ],
+        "#enablespreading": false,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 300,
+        "#hash_c1410214e7e4f2d3": true,
+        "#hash_e2b91916dda5f27f": [],
+        "#hash_f42bfa0e947d5b2b": false,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "elite",
+        "#healthscriptbundle": "health_zombie_disciple_hvt",
+        "#hash_333751673b2281dc": 65,
+        "#elementalweakness": [
+            {
+                "#elementtype": "electrical"
+            }
+        ],
+        "#hash_23731ac359988186": false,
+        "#hash_7410c30336739540": true,
+        "#meleeknockbackstrength": 0,
+        "#hash_878a9f80b05effb": 1,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_disciple",
+        "#hash_f6fe19952d45625e": true,
+        "#biterange": 64,
+        "#meleedamage": 30,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": false,
+        "#minwanderradius": 60,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": false,
+        "#meleerange": 64,
+        "#hash_a98faeef4a48e76": 1,
+        "#tetherrange": 1792,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_4e3c2f4746701278": {
+        "#hash_fef5d84db3c8e7f7": "%#hash_180eb66935c779b9",
+        "#hash_204e8fd8424a6542": false,
+        "#hash_289be7ed6a138df8": false,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120
+            },
+            {
+                "#movetype": "sprint",
+                "#speedthreshold": 170
+            }
+        ],
+        "#enablespreading": false,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 300,
+        "#hash_c1410214e7e4f2d3": true,
+        "#hash_e2b91916dda5f27f": [],
+        "#hash_f42bfa0e947d5b2b": false,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "boss",
+        "#healthscriptbundle": "health_zombie_disciple_s3_rr_quest",
+        "#hash_333751673b2281dc": 65,
+        "#elementalweakness": [
+            {
+                "#elementtype": "electrical"
+            }
+        ],
+        "#hash_23731ac359988186": false,
+        "#hash_7410c30336739540": true,
+        "#meleeknockbackstrength": 0,
+        "#hash_878a9f80b05effb": 1,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_disciple",
+        "#hash_f6fe19952d45625e": true,
+        "#biterange": 64,
+        "#meleedamage": 30,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": false,
+        "#minwanderradius": 60,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": false,
+        "#meleerange": 64,
+        "#hash_a98faeef4a48e76": 1,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_53d1c1b6b7839b8d": {
+        "#hash_fef5d84db3c8e7f7": "%#hash_139b2e08bbbf2ed7",
+        "#hash_204e8fd8424a6542": false,
+        "#hash_289be7ed6a138df8": true,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "wander",
+                "#speedthreshold": 30
+            },
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120
+            },
+            {
+                "#movetype": "sprint",
+                "#speedthreshold": 170
+            },
+            {
+                "#movetype": "super_sprint",
+                "#speedthreshold": 256
+            }
+        ],
+        "#turnanimsenabled": true,
+        "#enablespreading": true,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 300,
+        "#enablemelee": true,
+        "#hash_e2b91916dda5f27f": [],
+        "#hash_f42bfa0e947d5b2b": false,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "normal",
+        "#hash_d0ede1e06e380f47": 67.5,
+        "#healthscriptbundle": "health_zombie_hellhound",
+        "#hash_333751673b2281dc": 65,
+        "#elementalweakness": [
+            {
+                "#elementtype": "cold"
+            }
+        ],
+        "#hash_23731ac359988186": false,
+        "#hash_7410c30336739540": true,
+        "#meleeknockbackstrength": 0,
+        "#hash_878a9f80b05effb": 1,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_hellhound",
+        "#hash_f6fe19952d45625e": true,
+        "#biterange": 64,
+        "#meleedamage": 20,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": true,
+        "#minwanderradius": 60,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": false,
+        "#meleerange": 65,
+        "#hash_a98faeef4a48e76": 16.25,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_5601a8c7e047967e": {
+        "#hash_fef5d84db3c8e7f7": "%#hash_22c9937d2ac1e11",
+        "#hash_204e8fd8424a6542": false,
+        "#hash_289be7ed6a138df8": true,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120
+            },
+            {
+                "#movetype": "sprint",
+                "#speedthreshold": 170
+            }
+        ],
+        "#enablespreading": true,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 300,
+        "#hash_c1410214e7e4f2d3": true,
+        "#enablemelee": true,
+        "#hash_e2b91916dda5f27f": [],
+        "#hash_f42bfa0e947d5b2b": true,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "elite",
+        "#healthscriptbundle": "health_zombie_mangler_s3_rr",
+        "#hash_333751673b2281dc": 50,
+        "#elementalweakness": [
+            {
+                "#elementtype": "fire"
+            }
+        ],
+        "#hash_23731ac359988186": false,
+        "#hash_7410c30336739540": true,
+        "#meleeknockbackstrength": 1000,
+        "#hash_878a9f80b05effb": 0.4,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_mangler",
+        "#hash_f6fe19952d45625e": false,
+        "#biterange": 64,
+        "#meleedamage": 50,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": true,
+        "#minwanderradius": 60,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": true,
+        "#meleerange": 80,
+        "#hash_a98faeef4a48e76": 7,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_5770c7fb7a90d346": {
+        "#hash_fef5d84db3c8e7f7": "%#hash_145cd937dd3872bc",
+        "#hash_204e8fd8424a6542": false,
+        "#hash_289be7ed6a138df8": true,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120
+            },
+            {
+                "#movetype": "sprint",
+                "#speedthreshold": 170
+            }
+        ],
+        "#enablespreading": true,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 300,
+        "#hash_c1410214e7e4f2d3": true,
+        "#enablemelee": true,
+        "#hash_e2b91916dda5f27f": [],
+        "#hash_f42bfa0e947d5b2b": true,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "special",
+        "#healthscriptbundle": "health_zombie_mangler",
+        "#hash_333751673b2281dc": 50,
+        "#elementalweakness": [
+            {
+                "#elementtype": "fire"
+            }
+        ],
+        "#hash_23731ac359988186": false,
+        "#hash_7410c30336739540": true,
+        "#meleeknockbackstrength": 1000,
+        "#hash_878a9f80b05effb": 0.4,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_mangler",
+        "#hash_f6fe19952d45625e": false,
+        "#biterange": 64,
+        "#meleedamage": 30,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": true,
+        "#minwanderradius": 60,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": true,
+        "#meleerange": 80,
+        "#hash_a98faeef4a48e76": 10.8,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_7741ccb5b8043b93": {
+        "#hash_204e8fd8424a6542": true,
+        "#hash_289be7ed6a138df8": false,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "wander_shuffle",
+                "#speedthreshold": 30
+            },
+            {
+                "#movetype": "wander",
+                "#speedthreshold": 48
+            },
+            {
+                "#movetype": "investigate",
+                "#speedthreshold": 50
+            },
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "wander_agitated",
+                "#speedthreshold": 65
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120
+            },
+            {
+                "#movetype": "sprint",
+                "#speedthreshold": 170
+            },
+            {
+                "#movetype": "super_sprint",
+                "#speedthreshold": 256
+            }
+        ],
+        "#hash_ffe6545012b26f": true,
+        "#turnanimsenabled": true,
+        "#enablespreading": true,
+        "#hash_6fddf68ea9876757": 90,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 2000,
+        "#enablemelee": true,
+        "#hash_e2b91916dda5f27f": [
+            {
+                "#modelname": "jup_zm_gore_chunk_01"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_02"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_03"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_04"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_05"
+            }
+        ],
+        "#hash_f42bfa0e947d5b2b": false,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "normal",
+        "#hash_d0ede1e06e380f47": 85,
+        "#healthscriptbundle": "health_zombie_base",
+        "#hash_333751673b2281dc": 65,
+        "#elementalweakness": [],
+        "#hash_23731ac359988186": true,
+        "#hash_7410c30336739540": true,
+        "#usewanderscripted": true,
+        "#meleeknockbackstrength": 0,
+        "#hash_878a9f80b05effb": 1,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_base",
+        "#hash_f6fe19952d45625e": true,
+        "#biterange": 64,
+        "#meleedamage": 30,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": true,
+        "#minwanderradius": 1000,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": false,
+        "#meleerange": 64,
+        "#hash_a98faeef4a48e76": 7.5,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    },
+    "#hash_7d1a2e4e24a0fd78": {
+        "#hash_fef5d84db3c8e7f7": "%#hash_6086107a9c31983e",
+        "#hash_204e8fd8424a6542": false,
+        "#hash_289be7ed6a138df8": false,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 150,
+                "#hash_73e6922977cd2c06": 220
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 240,
+                "#hash_73e6922977cd2c06": 400
+            },
+            {
+                "#movetype": "sprint",
+                "#speedthreshold": 300,
+                "#hash_73e6922977cd2c06": 400
+            }
+        ],
+        "#turnanimsenabled": true,
+        "#enablespreading": true,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 1200,
+        "#hash_c1410214e7e4f2d3": true,
+        "#enablemelee": true,
+        "#hash_e2b91916dda5f27f": [],
+        "#hash_f42bfa0e947d5b2b": false,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "elite",
+        "#hash_d0ede1e06e380f47": 80,
+        "#healthscriptbundle": "health_zombie_abom_mega",
+        "#hash_333751673b2281dc": 65,
+        "#elementalweakness": [
+            {
+                "#elementtype": "fire"
+            },
+            {
+                "#elementtype": "toxic"
+            }
+        ],
+        "#hash_23731ac359988186": false,
+        "#hash_7410c30336739540": true,
+        "#meleeknockbackstrength": 0,
+        "#hash_878a9f80b05effb": 1,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_abom_mega",
+        "#hash_f6fe19952d45625e": true,
+        "#biterange": 64,
+        "#meleedamage": 40,
+        "#hash_e39c9bda85ea5d4e": false,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": false,
+        "#minwanderradius": 500,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": false,
+        "#meleerange": 180,
+        "#hash_a98faeef4a48e76": 8.2,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    }
+}

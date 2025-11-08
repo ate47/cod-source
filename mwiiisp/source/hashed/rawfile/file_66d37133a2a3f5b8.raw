@@ -1,0 +1,20 @@
+%force_cs_anim_index_match
+
+jup_civ_pnc_stairs_down : blendspace1d( range="0,220", blend_time="300", coords="52,153,220", value=[desiredspeed] ) loopsync parse_cull(disable)
+{
+	jup_civ_cas_stairs_down_walk : randomloop( blendtime=".3", restart="false", norepeat="true", seed=[animtime] )
+	{
+		jup_civ_cas_stairs_walk_down_01
+		jup_civ_cas_stairs_walk_down_02
+	}
+	jup_civ_cas_stairs_down_jog : randomloop( blendtime=".3", restart="false", norepeat="true", seed=[animtime] )
+	{
+		jup_civ_cas_stairs_jog_down_01
+		jup_civ_cas_stairs_jog_down_02
+	}
+	jup_civ_pnc_stairs_down_run : randomloop( blendtime=".3", restart="false", norepeat="true", seed=[animtime] )
+	{
+		jup_civ_cas_stairs_run_down_01
+		jup_civ_cas_stairs_run_down_02
+	}
+}

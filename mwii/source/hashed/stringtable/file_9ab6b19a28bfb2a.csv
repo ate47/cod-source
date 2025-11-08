@@ -1,0 +1,20 @@
+string,string,string,string,string,string,string,string,string
+clip32x32x32,,162,1399,-170,0,314,0, Fix for missing player collision on boat
+clip32x32x32,,175,1378,-170,0,288.901,0, Fix for missing player collision on boat
+clip32x32x32,,149,1378,-170,0,339.858,0, Fix for missing player collision on boat
+clip32x32x32,,162,1399,-184,0,314,0, Fix for missing player collision on boat
+clip32x32x32,,175,1378,-184,0,288.901,0, Fix for missing player collision on boat
+clip32x32x32,,149,1378,-184,0,339.858,0, Fix for missing player collision on boat
+item64x64x256,,-136,1408,-168,0,0,-90, Fix for missing equipment collision behind door along canal IW9-894527
+missile64x64x256,,-136,1408,-168,0,0,-90, Fix for missing equipment collision behind door along canal IW9-894527
+item8x8x256,,918,1410,0,0,0,0, Fix for missing equipment collision on building near fence
+item8x8x256,,926,1410,0,0,0,0, Fix for missing equipment collision on building near fence
+missile8x8x256,,918,1410,0,0,0,0, Fix for missing equipment collision on building near fence
+missile8x8x256,,926,1410,0,0,0,0, Fix for missing equipment collision on building near fence
+item64x64x64,,-448,-421,101,0,0,0, Fix for missing equipment collision on door near spawn IW9-861955
+missile64x64x64,,-448,-421,101,0,0,0, Fix for missing equipment collision on door near spawn IW9-861955
+clip256x256x256,,352,-816,-392,0,0,0, Fix for missing player collision along canal wall passed OOB IW9-901334
+clip256x256x256,,352,-1072,-392,0,0,0, Fix for missing player collision along canal wall passed OOB IW9-901334
+clip256x256x256,,-224,-1178,-392,0,0,0, Fix for missing player collision along canal wall passed OOB IW9-901334
+player8x8x256,,622,308,122,0,0,0, Fix for pixel walk on tree IW9-901401
+player512x512x8,,-1576,-456,216,270,0,-90, IW9-908589

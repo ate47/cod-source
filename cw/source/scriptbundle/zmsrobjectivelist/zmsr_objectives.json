@@ -1,0 +1,93 @@
+{
+    "#hash_be78e8da": [
+        {
+            "#hash_e014f23a": [
+                {
+                    "variantname": "#defend_alt"
+                },
+                {
+                    "variantname": "#defend_prime"
+                }
+            ],
+            "objectivename": "#defend"
+        },
+        {
+            "#hash_e014f23a": [
+                {
+                    "variantname": "#holdout_alt"
+                },
+                {
+                    "variantname": "#holdout_prime"
+                }
+            ],
+            "objectivename": "#holdout"
+        },
+        {
+            "#hash_e014f23a": [
+                {
+                    "variantname": "#hunt_mechz"
+                },
+                {
+                    "variantname": "#hunt_raz"
+                },
+                {
+                    "variantname": "#hunt_steiner"
+                },
+                {
+                    "variantname": "#hunt_mimic"
+                },
+                {
+                    "variantname": "#hunt_abom"
+                }
+            ],
+            "objectivename": "#hunt"
+        },
+        {
+            "#hash_e014f23a": [
+                {
+                    "variantname": "#payload_noteleport"
+                },
+                {
+                    "variantname": "#payload_teleport"
+                }
+            ],
+            "objectivename": "#payload"
+        },
+        {
+            "#hash_e014f23a": [
+                {
+                    "variantname": "#retrieval_alt"
+                },
+                {
+                    "variantname": "#retrieval_prime"
+                }
+            ],
+            "objectivename": "#retrieval"
+        },
+        {
+            "objectivename": "#secure"
+        },
+        {
+            "objectivename": "#transport"
+        }
+    ],
+    "#hash_f9b18059": [
+        {
+            "objectivename": "#exfil"
+        },
+        {
+            "#hash_e014f23a": [
+                {
+                    "variantname": "#reveal"
+                },
+                {
+                    "variantname": "#mq4"
+                }
+            ],
+            "objectivename": "#ee"
+        }
+    ],
+    "configstringfiletype": "scriptbundle",
+    "type": "zmsrobjectivelist",
+    "name": "zmsr_objectives"
+}

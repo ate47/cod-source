@@ -1,0 +1,45 @@
+{
+    "#hash_6128e3d7d6cfc3f8": {
+        "#sharingsettings": {
+            "#hash_18bdca8536682038": {
+                "#variant_object": {
+                    "#sharingtype": "ShareWithActivitiesOfSpecificCategoryType",
+                    "#activitycategory": "Contract"
+                },
+                "#variant_type": "Types_ShareWithActivitiesOfSpecificCategoryType"
+            }
+        },
+        "#activityrewardcaches": [
+            {
+                "#hash_c92e69a2dca65df1": "contract_reward_rift_behavior",
+                "#spawnlocationoptions": {
+                    "#rewardspawnlocation": {
+                        "#variant_object": {
+                            "#rewardspawnlocationtype": "UseGameModeSetting"
+                        },
+                        "#variant_type": "Types_RewardSpawnLocation_UseGameModeSetting"
+                    }
+                },
+                "#spawnoptions": {
+                    "#spawnactivitymoment": {
+                        "#variant_object": {
+                            "#activitymoment": "ActivationName",
+                            "#activationname": "spawn_contract_reward_rift"
+                        },
+                        "#variant_type": "Types_ActivityMoment_ActivationName"
+                    }
+                },
+                "#rewardcacheassetname": "reward_rift_default",
+                "#rewardgroupoptions": {
+                    "#rewardgroupselection": {
+                        "#variant_object": {
+                            "#rewardgrouptype": "ActivityParticipants"
+                        },
+                        "#variant_type": "Types_RewardGroup_ActivityParticipants"
+                    },
+                    "#perplayerloot": true
+                }
+            }
+        ]
+    }
+}

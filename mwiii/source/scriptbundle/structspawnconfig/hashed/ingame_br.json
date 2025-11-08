@@ -1,0 +1,6092 @@
+{
+    "#hash_8bf1b3953f7d6e": {
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#script_struct": "atv",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 81
+            },
+            {
+                "#spawn_number": 58
+            },
+            {
+                "#spawn_number": 1
+            },
+            {
+                "#spawn_number": 46
+            },
+            {
+                "#spawn_number": 54
+            },
+            {
+                "#spawn_number": 1
+            }
+        ]
+    },
+    "#hash_f7488b3a6ebda2": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#spawn_all": true,
+        "#script_struct": "buy_station"
+    },
+    "#hash_f84d1b2564d573": {
+        "#debug_color": "0.0422217 0.239216 0.213733 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_jltv",
+        "#hash_e79b6f0d46e45758": 0,
+        "#script_struct": "veh9_jltv",
+        "#hash_473fbf10b632a192": 0
+    },
+    "#hash_24deae6f4e22b96": {
+        "#debug_color": "0.701961 0.683803 0.561563 1",
+        "#debug_icon": "hud_icon_vehicle_mil_cargo_truck",
+        "#script_struct": "veh9_mil_cargo_truck",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_militaryBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_academy"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_subBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_array"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_silo"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_rural"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "militaryBasePoi",
+                "#hash_af067ae8c152b0da": 5000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 3
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 1500
+            }
+        ]
+    },
+    "#hash_3161190cad113a2": {
+        "#debug_color": "0.737789 0.760784 0.369955 1",
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_minimap_vehicle_hummer",
+        "#hash_e79b6f0d46e45758": 4,
+        "#script_struct": "veh9_hummer",
+        "#hash_473fbf10b632a192": 2
+    },
+    "#hash_37ae2ffeb1ab5da": {
+        "#debug_color": "0.0465095 0.272526 0.847059 1",
+        "#debug_icon": "ui_map_icon_ammo_cache",
+        "#spawn_all": true,
+        "#script_struct": "ammorestock"
+    },
+    "#hash_389c36a1bcaf5e6": {
+        "#debug_color": "0.108415 0.797162 0.921569 1",
+        "#hash_d63bff823de6d46a": 2000,
+        "#debug_icon": "hud_icon_minimap_vehicle_pwc",
+        "#script_struct": "veh9_pwc",
+        "#hash_473fbf10b632a192": 5
+    },
+    "#hash_4c3fa6522be8143": {
+        "#debug_color": "0.565179 0.512413 0.960784 1",
+        "#debug_icon": "ui_map_icon_obj_gas_refuel",
+        "#spawn_all": true,
+        "#script_struct": "gas_station"
+    },
+    "#hash_5ff64e2feaf6c0c": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#debug_color": "0.0870069 0.133532 0.482353 1",
+        "#hash_d63bff823de6d46a": 6000,
+        "#debug_icon": "hud_icon_minimap_vehicle_rhib",
+        "#hash_e79b6f0d46e45758": 6,
+        "#script_struct": "veh9_rhib",
+        "#hash_473fbf10b632a192": 6
+    },
+    "#hash_68189f5c62a186f": {
+        "#debug_color": "0.701961 0.683803 0.561563 1",
+        "#debug_icon": "hud_icon_vehicle_mil_cargo_truck",
+        "#script_struct": "veh9_mil_cargo_truck",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 6
+            }
+        ]
+    },
+    "#hash_68c8e5c95c174db": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#spawn_all": true,
+        "#script_struct": "buy_station"
+    },
+    "#hash_6f1fb05c595afd8": {
+        "#debug_color": "0.486275 0.211673 0.211673 1",
+        "#spawn_all": true,
+        "#script_struct": "veh9_motorcycle_blood_burner",
+        "#hash_473fbf10b632a192": 0
+    },
+    "#hash_7804c41846a7d8c": {
+        "#debug_color": "0.114565 0.45716 0.584314 1",
+        "#debug_icon": "hud_icon_loot_wrench",
+        "#spawn_all": true,
+        "#script_struct": "staged_blueprint"
+    },
+    "#hash_8747223ec1937fe": {
+        "#hash_ef46c86624a75b00": 60000,
+        "#debug_color": "0.321569 0.588235 0.803922 1",
+        "#hash_d63bff823de6d46a": 20000,
+        "#debug_icon": "hud_icon_minimap_vehicle_palfa",
+        "#hash_e79b6f0d46e45758": 3,
+        "#script_struct": "veh9_palfa",
+        "#hash_473fbf10b632a192": 3
+    },
+    "#hash_8b25db443989731": {
+        "#debug_color": "0.189899 0.768627 0.680079 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_polaris",
+        "#script_struct": "veh_jup_polaris_utv",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 11
+            },
+            {
+                "#spawn_number": 3
+            },
+            {
+                "#spawn_number": 5
+            },
+            {
+                "#spawn_number": 13
+            }
+        ]
+    },
+    "#hash_92ace4b60bbbed0": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 30
+            },
+            {
+                "#spawn_number": 14
+            },
+            {
+                "#spawn_number": 32
+            },
+            {
+                "#spawn_number": 50
+            },
+            {
+                "#spawn_number": 38
+            },
+            {
+                "#spawn_number": 42
+            }
+        ]
+    },
+    "#hash_92acf4b60bbc083": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 22
+            },
+            {
+                "#spawn_number": 24
+            },
+            {
+                "#spawn_number": 16
+            },
+            {
+                "#spawn_number": 43
+            },
+            {
+                "#spawn_number": 42
+            },
+            {
+                "#spawn_number": 45
+            }
+        ]
+    },
+    "#hash_92ad04b60bbc236": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 29
+            },
+            {
+                "#spawn_number": 21
+            },
+            {
+                "#spawn_number": 30
+            },
+            {
+                "#spawn_number": 36
+            },
+            {
+                "#spawn_number": 38
+            },
+            {
+                "#spawn_number": 43
+            }
+        ]
+    },
+    "#hash_96e2498cc1db4fb": {
+        "#debug_color": "0.0870069 0.133532 0.482353 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_rhib",
+        "#script_struct": "veh9_rhib",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 2
+            }
+        ]
+    },
+    "#hash_9d14dd16aad9863": {
+        "#debug_color": "0.618463 0.854902 0.311788 1",
+        "#debug_icon": "ui_map_icon_poi_weapontrader",
+        "#spawn_all": true,
+        "#script_struct": "armory_trader"
+    },
+    "#hash_aacaf34f0fdccd7": {
+        "#debug_color": "0.701961 0.683803 0.561563 1",
+        "#hash_d63bff823de6d46a": 9000,
+        "#debug_icon": "hud_icon_vehicle_mil_cargo_truck",
+        "#spawn_all": true,
+        "#hash_e79b6f0d46e45758": 8,
+        "#script_struct": "veh9_mil_cargo_truck",
+        "#hash_473fbf10b632a192": 8
+    },
+    "#hash_b3b3ede6e19b05f": {
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_minimap_vehicle_sedan_hatchback_1985",
+        "#spawn_all": true,
+        "#script_struct": "veh9_sedan_hatchback_1985",
+        "#hash_473fbf10b632a192": 8
+    },
+    "#hash_b53e99788db94d1": {
+        "#debug_color": "0.0465095 0.272526 0.847059 1",
+        "#debug_icon": "ui_map_icon_ammo_cache",
+        "#script_struct": "ammorestock",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_power"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_industrial"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "popovpower",
+                "#hash_af067ae8c152b0da": 12000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 5
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 7800
+            }
+        ]
+    },
+    "#hash_c0919d963affdf8": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#hash_ef46c86624a75b00": 35000,
+        "#debug_color": "0.446601 0.564096 0.862745 1",
+        "#hash_d63bff823de6d46a": 10000,
+        "#debug_icon": "hud_icon_vehicle_acv_6x6",
+        "#hash_e79b6f0d46e45758": 6,
+        "#script_struct": "veh9_acv_6x6",
+        "#hash_473fbf10b632a192": 6
+    },
+    "#hash_d4f3310b892c73f": {
+        "#debug_color": "0.701961 0.683803 0.561563 1",
+        "#debug_icon": "hud_icon_vehicle_mil_cargo_truck",
+        "#script_struct": "veh9_mil_cargo_truck",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 13
+            },
+            {
+                "#spawn_number": 12
+            },
+            {
+                "#spawn_number": 10
+            },
+            {
+                "#spawn_number": 4
+            },
+            {
+                "#spawn_number": 5
+            }
+        ]
+    },
+    "#hash_dabb87cde10a64a": {
+        "#hash_d63bff823de6d46a": 2000,
+        "#debug_icon": "hud_icon_minimap_vehicle_suv_1996",
+        "#script_struct": "veh9_suv_1996",
+        "#hash_473fbf10b632a192": 4
+    },
+    "#hash_dd64af33c1b6526": {
+        "#debug_color": "0.666667 0.277119 0.277119 1",
+        "#debug_icon": "hud_icon_vehicle_tac_rover",
+        "#spawn_all": true,
+        "#script_struct": "tac_rover"
+    },
+    "#hash_ff7cbd4790bbf08": {
+        "#debug_color": "0.737789 0.760784 0.369955 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_hummer",
+        "#script_struct": "veh9_hummer",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 9
+            },
+            {
+                "#spawn_number": 2
+            }
+        ]
+    },
+    "#hash_100a28f73f472732": {
+        "#debug_color": "0.0422217 0.239216 0.213733 1",
+        "#hash_d63bff823de6d46a": 6000,
+        "#debug_icon": "hud_icon_minimap_vehicle_jltv",
+        "#spawn_all": true,
+        "#script_struct": "veh9_jltv",
+        "#hash_473fbf10b632a192": 8
+    },
+    "#hash_103877df52586f2b": {
+        "#debug_color": "0.564721 0.92549 0.493599 1",
+        "#hash_d63bff823de6d46a": 8000,
+        "#debug_icon": "hud_icon_vehicle_suv_overland_2016",
+        "#script_struct": "veh9_overland_2016"
+    },
+    "#hash_126a550dd12caaa9": {
+        "#debug_color": "0.243137 0.243137 0.243137 1",
+        "#hash_d63bff823de6d46a": 4000,
+        "#debug_icon": "hud_icon_minimap_vehicle_armored_patrol",
+        "#hash_e79b6f0d46e45758": 3,
+        "#script_struct": "veh9_patrol_boat",
+        "#hash_473fbf10b632a192": 1
+    },
+    "#hash_12a33aa2187ce833": {
+        "#debug_color": "0.0465095 0.272526 0.847059 1",
+        "#debug_icon": "ui_map_icon_ammo_cache",
+        "#script_struct": "ammorestock",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 13
+            },
+            {
+                "#spawn_number": 17
+            },
+            {
+                "#spawn_number": 15
+            },
+            {
+                "#spawn_number": 43
+            },
+            {
+                "#spawn_number": 47
+            },
+            {
+                "#spawn_number": 25
+            },
+            {
+                "#spawn_number": 20
+            },
+            {
+                "#spawn_number": 35
+            },
+            {
+                "#spawn_number": 23
+            }
+        ]
+    },
+    "#hash_135f3393a55b3843": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#hash_d63bff823de6d46a": 7500,
+        "#debug_icon": "hud_icon_fieldupgrade_drone_recon",
+        "#hash_e79b6f0d46e45758": 5,
+        "#script_struct": "drone_parts",
+        "#hash_473fbf10b632a192": 5
+    },
+    "#hash_13668639c5a7104f": {
+        "#debug_color": "0.114565 0.45716 0.584314 1",
+        "#debug_icon": "hud_icon_loot_wrench",
+        "#spawn_all": true,
+        "#script_struct": "staged_items_foggy"
+    },
+    "#hash_1396a71a101329f3": {
+        "#debug_color": "0.446601 0.564096 0.862745 1",
+        "#debug_icon": "hud_icon_vehicle_acv_6x6",
+        "#script_struct": "veh9_acv_6x6",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 8
+            },
+            {
+                "#spawn_number": 15
+            }
+        ]
+    },
+    "#hash_1435a804cfc39886": {
+        "#debug_color": "0.619608 0.854902 0.313726 1",
+        "#debug_icon": "ui_map_icon_poi_weapontrader",
+        "#spawn_all": true,
+        "#script_struct": "armory_trader"
+    },
+    "#hash_1478c99822021c7f": {
+        "#hash_ef46c86624a75b00": 50000,
+        "#debug_color": "1 0 0.713726 1",
+        "#hash_d63bff823de6d46a": 35000,
+        "#debug_icon": "hud_icon_minimap_vehicle_razorback",
+        "#hash_e79b6f0d46e45758": 2,
+        "#script_struct": "veh_jup_razorback",
+        "#hash_473fbf10b632a192": 2
+    },
+    "#hash_152e59c3d085c8a5": {
+        "#hash_ef46c86624a75b00": 35000,
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#hash_d63bff823de6d46a": 2500,
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#hash_e79b6f0d46e45758": 9,
+        "#script_struct": "atv",
+        "#hash_473fbf10b632a192": 9
+    },
+    "#hash_156a09b786f9dcb8": {
+        "#debug_color": "0.701961 0.683803 0.561563 1",
+        "#debug_icon": "hud_icon_vehicle_mil_cargo_truck",
+        "#script_struct": "veh9_mil_cargo_truck",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 22
+            },
+            {
+                "#spawn_number": 12
+            },
+            {
+                "#spawn_number": 24
+            }
+        ]
+    },
+    "#hash_161934954a824a79": {
+        "#debug_color": "0.618463 0.854902 0.311788 1",
+        "#debug_icon": "jup_ui_br_biometric_scanner_keycard_blank",
+        "#spawn_all": true,
+        "#script_struct": "biometric_scan"
+    },
+    "#hash_162126a8e44dd463": {
+        "#debug_color": "0.189899 0.768627 0.680079 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_polaris",
+        "#script_struct": "veh_jup_polaris_utv",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 20
+            },
+            {
+                "#spawn_number": 17
+            },
+            {
+                "#spawn_number": 16
+            }
+        ]
+    },
+    "#hash_166e79ee35f1cd5e": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#hash_d63bff823de6d46a": 8000,
+        "#debug_icon": "hud_icon_minimap_vehicle_utv",
+        "#hash_e79b6f0d46e45758": 9,
+        "#script_struct": "veh9_utv",
+        "#hash_473fbf10b632a192": 9
+    },
+    "#hash_1722f0c92d0c2b26": {
+        "#debug_color": "0.701961 0.683803 0.561563 1",
+        "#debug_icon": "hud_icon_vehicle_mil_cargo_truck",
+        "#script_struct": "veh9_mil_cargo_truck",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_power"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_industrial"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_outpost"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "powerPoi",
+                "#hash_af067ae8c152b0da": 5000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 3
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 1500
+            }
+        ]
+    },
+    "#hash_198bfce5f09967e9": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 1
+            },
+            {
+                "#spawn_number": 3
+            },
+            {
+                "#spawn_number": 4
+            },
+            {
+                "#spawn_number": 5
+            },
+            {
+                "#spawn_number": 6
+            },
+            {
+                "#spawn_number": 18
+            },
+            {
+                "#spawn_number": 19
+            },
+            {
+                "#spawn_number": 22
+            },
+            {
+                "#spawn_number": 32
+            },
+            {
+                "#spawn_number": 33
+            },
+            {
+                "#spawn_number": 45
+            },
+            {
+                "#spawn_number": 46
+            },
+            {
+                "#spawn_number": 53
+            },
+            {
+                "#spawn_number": 66
+            },
+            {
+                "#spawn_number": 67
+            },
+            {
+                "#spawn_number": 72
+            },
+            {
+                "#spawn_number": 76
+            },
+            {
+                "#spawn_number": 78
+            }
+        ]
+    },
+    "#hash_1a1e854f3a834502": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 65
+            },
+            {
+                "#spawn_number": 57
+            },
+            {
+                "#spawn_number": 59
+            }
+        ]
+    },
+    "#hash_1a88f69c0b2b65bf": {
+        "#debug_color": "0.0465095 0.272526 0.847059 1",
+        "#debug_icon": "ui_map_icon_ammo_cache",
+        "#script_struct": "ammorestock",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 7
+            }
+        ]
+    },
+    "#hash_1ad74814a54f147f": {
+        "#debug_color": "0.243137 0.243137 0.243137 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_armored_patrol",
+        "#hash_e79b6f0d46e45758": 0,
+        "#script_struct": "veh9_patrol_boat",
+        "#hash_473fbf10b632a192": 0,
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 9
+            },
+            {
+                "#spawn_number": 4
+            },
+            {
+                "#spawn_number": 2
+            }
+        ]
+    },
+    "#hash_1b23b8a8535b44f6": {
+        "#hash_ef46c86624a75b00": 25000,
+        "#hash_d63bff823de6d46a": 3500,
+        "#debug_icon": "hud_icon_minimap_vehicle_utv",
+        "#hash_e79b6f0d46e45758": 18,
+        "#script_struct": "veh9_utv",
+        "#hash_473fbf10b632a192": 18
+    },
+    "#hash_1b50fc712036bf7e": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#debug_color": "0.446601 0.564096 0.862745 1",
+        "#hash_d63bff823de6d46a": 10000,
+        "#debug_icon": "hud_icon_vehicle_acv_6x6",
+        "#hash_e79b6f0d46e45758": 6,
+        "#script_struct": "veh9_acv_6x6",
+        "#hash_473fbf10b632a192": 6
+    },
+    "#hash_1c03ad2cf1445ea2": {
+        "#hash_ef46c86624a75b00": 15000,
+        "#debug_color": "0.0870069 0.133532 0.482353 1",
+        "#hash_d63bff823de6d46a": 6000,
+        "#debug_icon": "hud_icon_minimap_vehicle_rhib",
+        "#hash_e79b6f0d46e45758": 4,
+        "#script_struct": "veh9_rhib",
+        "#hash_473fbf10b632a192": 4
+    },
+    "#hash_1c2c5c297b30e630": {
+        "#hash_d63bff823de6d46a": 9000,
+        "#debug_icon": "hud_icon_minimap_vehicle_suv_1996",
+        "#script_struct": "veh9_suv_1996",
+        "#hash_473fbf10b632a192": 4
+    },
+    "#hash_1c5f6984edbbb839": {
+        "#debug_color": "0.189899 0.768627 0.680079 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_polaris",
+        "#script_struct": "veh_jup_polaris_utv",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 14
+            },
+            {
+                "#spawn_number": 16
+            },
+            {
+                "#spawn_number": 17
+            },
+            {
+                "#spawn_number": 20
+            }
+        ]
+    },
+    "#hash_1cc2ae9f7b4b050b": {
+        "#debug_color": "0.114565 0.45716 0.584314 1",
+        "#debug_icon": "hud_icon_loot_wrench",
+        "#spawn_all": true,
+        "#script_struct": "staged_items_sunset"
+    },
+    "#hash_1d400781c7eb7b5e": {
+        "#debug_color": "0.737789 0.760784 0.369955 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_hummer",
+        "#script_struct": "veh9_hummer"
+    },
+    "#hash_1d4ac37baa32a728": {
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#script_struct": "atv",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 94
+            },
+            {
+                "#spawn_number": 71
+            },
+            {
+                "#spawn_number": 84
+            },
+            {
+                "#spawn_number": 63
+            },
+            {
+                "#spawn_number": 25
+            },
+            {
+                "#spawn_number": 48
+            }
+        ]
+    },
+    "#hash_1eb7bfed5c3a92ba": {
+        "#debug_color": "0.0459754 0.180392 0.163012 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_jltv_mg",
+        "#script_struct": "veh9_jltv_mg",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 10
+            },
+            {
+                "#spawn_number": 17
+            },
+            {
+                "#spawn_number": 7
+            },
+            {
+                "#spawn_number": 9
+            },
+            {
+                "#spawn_number": 11
+            },
+            {
+                "#spawn_number": 6
+            },
+            {
+                "#spawn_number": 16
+            },
+            {
+                "#spawn_number": 3
+            },
+            {
+                "#spawn_number": 6
+            }
+        ]
+    },
+    "#hash_1fb265760b27065f": {
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#hash_48b973d2a7eb9e64": [
+            {
+                "#spawn_weight": 1,
+                "#spawn_count": 8
+            }
+        ],
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#script_struct": "atv",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_power\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_industrial\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_outpost\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "powerPoi",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 8
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 1000
+            }
+        ]
+    },
+    "#hash_1fc20c4135ed94b6": {
+        "#debug_color": "0.565179 0.512413 0.960784 1",
+        "#debug_icon": "ui_map_icon_obj_gas_refuel",
+        "#spawn_all": true,
+        "#script_struct": "gas_station_marine"
+    },
+    "#hash_1fde47e6a00aa3fd": {
+        "#debug_color": "0.701961 0.683803 0.561563 1",
+        "#debug_icon": "hud_icon_vehicle_mil_cargo_truck",
+        "#script_struct": "veh9_mil_cargo_truck",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_riverside"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_communityCenter"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_suburbs"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_soukNuri"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_apartments"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_university"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_estates"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "suburbsPoi",
+                "#hash_af067ae8c152b0da": 5000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 3
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 1500
+            }
+        ]
+    },
+    "#hash_210655a1062017cc": {
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#spawn_all": true,
+        "#script_struct": "atv"
+    },
+    "#hash_22f1da58204f839b": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 1
+            },
+            {
+                "#spawn_number": 5
+            },
+            {
+                "#spawn_number": 3
+            }
+        ]
+    },
+    "#hash_232ba06ad2568887": {
+        "#hash_ef46c86624a75b00": 60000,
+        "#debug_color": "1 0 0.713726 1",
+        "#hash_d63bff823de6d46a": 8000,
+        "#debug_icon": "hud_icon_minimap_vehicle_razorback",
+        "#hash_e79b6f0d46e45758": 8,
+        "#script_struct": "veh_jup_razorback",
+        "#hash_473fbf10b632a192": 8
+    },
+    "#hash_24325eb72fbc5a46": {
+        "#hash_ef46c86624a75b00": 30000,
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#hash_d63bff823de6d46a": 18000,
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#hash_e79b6f0d46e45758": 20,
+        "#script_struct": "redeploy_drone",
+        "#hash_473fbf10b632a192": 20
+    },
+    "#hash_245cb2814f679f6b": {
+        "#debug_color": "0.112505 0.486275 0.270802 1",
+        "#debug_icon": "hud_icon_vehicle_orav",
+        "#hash_e79b6f0d46e45758": 10,
+        "#script_struct": "veh_jup_orav",
+        "#hash_473fbf10b632a192": 10
+    },
+    "#hash_247c71b816d13af4": {
+        "#debug_color": "0.0870069 0.133532 0.482353 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_rhib",
+        "#script_struct": "veh9_rhib",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 21
+            },
+            {
+                "#spawn_number": 26
+            },
+            {
+                "#spawn_number": 19
+            }
+        ]
+    },
+    "#hash_25e1660018fc45d4": {
+        "#debug_color": "0.114565 0.45716 0.584314 1",
+        "#debug_icon": "hud_icon_loot_wrench",
+        "#hash_8cd1c028ce4287b8": true,
+        "#hash_e79b6f0d46e45758": 10,
+        "#script_struct": "staged_blueprint",
+        "#hash_473fbf10b632a192": 9,
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 2
+            }
+        ]
+    },
+    "#hash_263173df211364ee": {
+        "#debug_color": "0.447059 0.564706 0.862745 1",
+        "#hash_295277097b7b81ea": 1,
+        "#debug_icon": "hud_icon_vehicle_acv_6x6",
+        "#script_struct": "veh9_acv_6x6",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_militaryBase\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_academy\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_subBase\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_array\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_silo\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_rural\n"
+                    },
+                    {
+                        "#poi_name": ""
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "militaryBasePoi",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_rural\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_farms\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_village\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_bazaar\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_ranch\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "ruralPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_city\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_parkway\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_riverside\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_seaside\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_shoppingCenter\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_communityCenter\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "cityPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_suburbs\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_soukNuri\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_apartments\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_university\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_estates\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "suburbsPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_manor\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_island\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "manorPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_lowTown\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_oldTown\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_bathhouse\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_seatown\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_palace\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "oldTownPoi\n",
+                "#hash_af067ae8c152b0da": 4000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 6
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 2500
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_power\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_industrial\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "powerPoi",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            }
+        ],
+        "#hash_48d9abd529d9d920": 1
+    },
+    "#hash_2649033f23b3aaf5": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 4
+            },
+            {
+                "#spawn_number": 12
+            },
+            {
+                "#spawn_number": 33
+            },
+            {
+                "#spawn_number": 63
+            },
+            {
+                "#spawn_number": 73
+            },
+            {
+                "#spawn_number": 105
+            },
+            {
+                "#spawn_number": 121
+            },
+            {
+                "#spawn_number": 137
+            },
+            {
+                "#spawn_number": 147
+            },
+            {
+                "#spawn_number": 131
+            },
+            {
+                "#spawn_number": 157
+            },
+            {
+                "#spawn_number": 149
+            },
+            {
+                "#spawn_number": 139
+            },
+            {
+                "#spawn_number": 125
+            },
+            {
+                "#spawn_number": 118
+            },
+            {
+                "#spawn_number": 115
+            },
+            {
+                "#spawn_number": 113
+            },
+            {
+                "#spawn_number": 91
+            },
+            {
+                "#spawn_number": 66
+            },
+            {
+                "#spawn_number": 58
+            },
+            {
+                "#spawn_number": 20
+            },
+            {
+                "#spawn_number": 6
+            },
+            {
+                "#spawn_number": 36
+            },
+            {
+                "#spawn_number": 110
+            },
+            {
+                "#spawn_number": 92
+            },
+            {
+                "#spawn_number": 75
+            },
+            {
+                "#spawn_number": 47
+            },
+            {
+                "#spawn_number": 32
+            },
+            {
+                "#spawn_number": 14
+            },
+            {
+                "#spawn_number": 8
+            },
+            {
+                "#spawn_number": 23
+            },
+            {
+                "#spawn_number": 40
+            },
+            {
+                "#spawn_number": 62
+            },
+            {
+                "#spawn_number": 28
+            },
+            {
+                "#spawn_number": 21
+            }
+        ]
+    },
+    "#hash_26fc2813b41bccc7": {
+        "#debug_color": "0.0870069 0.133532 0.482353 1",
+        "#hash_d63bff823de6d46a": 8000,
+        "#debug_icon": "hud_icon_minimap_vehicle_rhib",
+        "#hash_e79b6f0d46e45758": 12,
+        "#script_struct": "veh9_rhib"
+    },
+    "#hash_27ff47d01f2e9605": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#debug_color": "0.737789 0.760784 0.369955 1",
+        "#hash_d63bff823de6d46a": 6500,
+        "#hash_817374b52a0f5265": "hard",
+        "#debug_icon": "hud_icon_minimap_vehicle_hummer",
+        "#hash_e79b6f0d46e45758": 6,
+        "#hash_272018d23eeea527": [
+            {
+                "#spawn_number": 3
+            }
+        ],
+        "#hash_cc9ebd1c994451db": "hard",
+        "#script_struct": "veh9_hummer",
+        "#hash_473fbf10b632a192": 6
+    },
+    "#hash_281c5431387effd6": {
+        "#debug_color": "0.114565 0.45716 0.584314 1",
+        "#debug_icon": "hud_icon_loot_wrench",
+        "#spawn_all": true,
+        "#script_struct": "staged_weapons_foggy"
+    },
+    "#hash_281e77edc72eb7b0": {
+        "#debug_color": "0.114565 0.45716 0.584314 1",
+        "#debug_icon": "hud_icon_loot_wrench",
+        "#spawn_all": true,
+        "#script_struct": "staged_weapons_sunset"
+    },
+    "#hash_28449dce52d6ee2e": {
+        "#debug_color": "0.0465095 0.272526 0.847059 1",
+        "#debug_icon": "ui_map_icon_ammo_cache",
+        "#script_struct": "ammorestock",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 1
+            },
+            {
+                "#spawn_number": 2
+            },
+            {
+                "#spawn_number": 3
+            },
+            {
+                "#spawn_number": 4
+            },
+            {
+                "#spawn_number": 5
+            }
+        ]
+    },
+    "#hash_2a7ff8d3c07a935c": {
+        "#debug_color": "0.619608 0.854902 0.313726 1",
+        "#debug_icon": "ui_map_icon_poi_weapontrader",
+        "#script_struct": "armory_trader",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 8
+            }
+        ]
+    },
+    "#hash_2af00c3715c45145": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#debug_color": "0.0870069 0.133532 0.482353 1",
+        "#hash_d63bff823de6d46a": 6000,
+        "#debug_icon": "hud_icon_minimap_vehicle_rhib",
+        "#hash_e79b6f0d46e45758": 3,
+        "#script_struct": "veh9_rhib",
+        "#hash_473fbf10b632a192": 3
+    },
+    "#hash_2b583f30bc47a630": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 4
+            },
+            {
+                "#spawn_number": 6
+            },
+            {
+                "#spawn_number": 8
+            },
+            {
+                "#spawn_number": 12
+            },
+            {
+                "#spawn_number": 14
+            },
+            {
+                "#spawn_number": 20
+            },
+            {
+                "#spawn_number": 21
+            },
+            {
+                "#spawn_number": 23
+            },
+            {
+                "#spawn_number": 28
+            },
+            {
+                "#spawn_number": 32
+            },
+            {
+                "#spawn_number": 33
+            },
+            {
+                "#spawn_number": 36
+            },
+            {
+                "#spawn_number": 40
+            },
+            {
+                "#spawn_number": 47
+            },
+            {
+                "#spawn_number": 58
+            },
+            {
+                "#spawn_number": 62
+            },
+            {
+                "#spawn_number": 63
+            },
+            {
+                "#spawn_number": 66
+            },
+            {
+                "#spawn_number": 73
+            },
+            {
+                "#spawn_number": 75
+            },
+            {
+                "#spawn_number": 91
+            },
+            {
+                "#spawn_number": 92
+            },
+            {
+                "#spawn_number": 105
+            },
+            {
+                "#spawn_number": 110
+            },
+            {
+                "#spawn_number": 113
+            },
+            {
+                "#spawn_number": 115
+            },
+            {
+                "#spawn_number": 118
+            },
+            {
+                "#spawn_number": 121
+            },
+            {
+                "#spawn_number": 124
+            },
+            {
+                "#spawn_number": 125
+            },
+            {
+                "#spawn_number": 131
+            },
+            {
+                "#spawn_number": 137
+            },
+            {
+                "#spawn_number": 139
+            },
+            {
+                "#spawn_number": 141
+            },
+            {
+                "#spawn_number": 147
+            },
+            {
+                "#spawn_number": 149
+            },
+            {
+                "#spawn_number": 152
+            },
+            {
+                "#spawn_number": 157
+            }
+        ]
+    },
+    "#hash_2b584030bc47a7e3": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 2
+            },
+            {
+                "#spawn_number": 3
+            },
+            {
+                "#spawn_number": 4
+            },
+            {
+                "#spawn_number": 13
+            },
+            {
+                "#spawn_number": 16
+            },
+            {
+                "#spawn_number": 24
+            },
+            {
+                "#spawn_number": 25
+            },
+            {
+                "#spawn_number": 26
+            },
+            {
+                "#spawn_number": 27
+            },
+            {
+                "#spawn_number": 29
+            },
+            {
+                "#spawn_number": 38
+            },
+            {
+                "#spawn_number": 39
+            },
+            {
+                "#spawn_number": 41
+            },
+            {
+                "#spawn_number": 47
+            },
+            {
+                "#spawn_number": 52
+            },
+            {
+                "#spawn_number": 56
+            },
+            {
+                "#spawn_number": 61
+            },
+            {
+                "#spawn_number": 80
+            },
+            {
+                "#spawn_number": 83
+            },
+            {
+                "#spawn_number": 86
+            },
+            {
+                "#spawn_number": 103
+            },
+            {
+                "#spawn_number": 104
+            },
+            {
+                "#spawn_number": 110
+            },
+            {
+                "#spawn_number": 111
+            },
+            {
+                "#spawn_number": 112
+            },
+            {
+                "#spawn_number": 118
+            },
+            {
+                "#spawn_number": 124
+            },
+            {
+                "#spawn_number": 125
+            },
+            {
+                "#spawn_number": 130
+            },
+            {
+                "#spawn_number": 134
+            },
+            {
+                "#spawn_number": 140
+            },
+            {
+                "#spawn_number": 152
+            },
+            {
+                "#spawn_number": 154
+            },
+            {
+                "#spawn_number": 157
+            },
+            {
+                "#spawn_number": 160
+            }
+        ]
+    },
+    "#hash_2b584230bc47ab49": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 18
+            },
+            {
+                "#spawn_number": 7
+            },
+            {
+                "#spawn_number": 9
+            },
+            {
+                "#spawn_number": 11
+            },
+            {
+                "#spawn_number": 15
+            },
+            {
+                "#spawn_number": 19
+            },
+            {
+                "#spawn_number": 25
+            },
+            {
+                "#spawn_number": 32
+            },
+            {
+                "#spawn_number": 36
+            },
+            {
+                "#spawn_number": 42
+            },
+            {
+                "#spawn_number": 45
+            },
+            {
+                "#spawn_number": 33
+            },
+            {
+                "#spawn_number": 49
+            },
+            {
+                "#spawn_number": 65
+            },
+            {
+                "#spawn_number": 71
+            },
+            {
+                "#spawn_number": 78
+            },
+            {
+                "#spawn_number": 83
+            },
+            {
+                "#spawn_number": 87
+            },
+            {
+                "#spawn_number": 96
+            },
+            {
+                "#spawn_number": 100
+            },
+            {
+                "#spawn_number": 101
+            },
+            {
+                "#spawn_number": 108
+            },
+            {
+                "#spawn_number": 114
+            },
+            {
+                "#spawn_number": 116
+            },
+            {
+                "#spawn_number": 119
+            },
+            {
+                "#spawn_number": 128
+            },
+            {
+                "#spawn_number": 131
+            },
+            {
+                "#spawn_number": 132
+            },
+            {
+                "#spawn_number": 133
+            },
+            {
+                "#spawn_number": 135
+            },
+            {
+                "#spawn_number": 139
+            },
+            {
+                "#spawn_number": 140
+            },
+            {
+                "#spawn_number": 151
+            },
+            {
+                "#spawn_number": 154
+            },
+            {
+                "#spawn_number": 158
+            }
+        ]
+    },
+    "#hash_2b584530bc47b062": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 18
+            },
+            {
+                "#spawn_number": 7
+            },
+            {
+                "#spawn_number": 9
+            },
+            {
+                "#spawn_number": 11
+            },
+            {
+                "#spawn_number": 15
+            },
+            {
+                "#spawn_number": 19
+            },
+            {
+                "#spawn_number": 25
+            },
+            {
+                "#spawn_number": 32
+            },
+            {
+                "#spawn_number": 36
+            },
+            {
+                "#spawn_number": 42
+            },
+            {
+                "#spawn_number": 45
+            },
+            {
+                "#spawn_number": 33
+            },
+            {
+                "#spawn_number": 49
+            },
+            {
+                "#spawn_number": 65
+            },
+            {
+                "#spawn_number": 71
+            },
+            {
+                "#spawn_number": 78
+            },
+            {
+                "#spawn_number": 83
+            },
+            {
+                "#spawn_number": 87
+            },
+            {
+                "#spawn_number": 96
+            },
+            {
+                "#spawn_number": 100
+            },
+            {
+                "#spawn_number": 101
+            },
+            {
+                "#spawn_number": 108
+            },
+            {
+                "#spawn_number": 114
+            },
+            {
+                "#spawn_number": 116
+            },
+            {
+                "#spawn_number": 119
+            },
+            {
+                "#spawn_number": 128
+            },
+            {
+                "#spawn_number": 131
+            },
+            {
+                "#spawn_number": 132
+            },
+            {
+                "#spawn_number": 133
+            },
+            {
+                "#spawn_number": 135
+            },
+            {
+                "#spawn_number": 139
+            },
+            {
+                "#spawn_number": 140
+            },
+            {
+                "#spawn_number": 151
+            },
+            {
+                "#spawn_number": 154
+            },
+            {
+                "#spawn_number": 158
+            }
+        ]
+    },
+    "#hash_2ba7606855ffd28b": {
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#script_struct": "atv",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 62
+            },
+            {
+                "#spawn_number": 18
+            },
+            {
+                "#spawn_number": 8
+            },
+            {
+                "#spawn_number": 31
+            },
+            {
+                "#spawn_number": 14
+            },
+            {
+                "#spawn_number": 20
+            },
+            {
+                "#spawn_number": 10
+            },
+            {
+                "#spawn_number": 73
+            },
+            {
+                "#spawn_number": 60
+            },
+            {
+                "#spawn_number": 82
+            },
+            {
+                "#spawn_number": 42
+            },
+            {
+                "#spawn_number": 34
+            },
+            {
+                "#spawn_number": 42
+            },
+            {
+                "#spawn_number": 77
+            },
+            {
+                "#spawn_number": 96
+            },
+            {
+                "#spawn_number": 19
+            }
+        ]
+    },
+    "#hash_2c728b4269d1e09d": {
+        "#hash_ef46c86624a75b00": 30000,
+        "#debug_color": "0.108415 0.797162 0.921569 1",
+        "#hash_d63bff823de6d46a": 7000,
+        "#debug_icon": "hud_icon_minimap_vehicle_pwc",
+        "#hash_e79b6f0d46e45758": 4,
+        "#script_struct": "veh9_pwc",
+        "#hash_473fbf10b632a192": 4
+    },
+    "#hash_2d3a6c89d866aa00": {
+        "#debug_icon": "hud_icon_minimap_vehicle_utv",
+        "#script_struct": "veh9_utv",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 50
+            },
+            {
+                "#spawn_number": 76
+            },
+            {
+                "#spawn_number": 32
+            },
+            {
+                "#spawn_number": 88
+            },
+            {
+                "#spawn_number": 79
+            },
+            {
+                "#spawn_number": 17
+            },
+            {
+                "#spawn_number": 2
+            },
+            {
+                "#spawn_number": 15
+            },
+            {
+                "#spawn_number": 44
+            },
+            {
+                "#spawn_number": 33
+            },
+            {
+                "#spawn_number": 40
+            }
+        ]
+    },
+    "#hash_2d792201bb1f7ad3": {
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#hash_48b973d2a7eb9e64": [
+            {
+                "#spawn_weight": 1,
+                "#spawn_count": 6
+            }
+        ],
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#script_struct": "atv",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_militaryBase\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_academy\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_subBase\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_array\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_silo\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_rural\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "militaryBasePoi",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 6
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 1000
+            }
+        ]
+    },
+    "#hash_2d7b08a1622d3499": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_militaryBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_academy"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_subBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_array"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_silo"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_rural"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "orlovmilitarybase",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 3
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 8000
+            }
+        ]
+    },
+    "#hash_2d986bf319bb523f": {
+        "#debug_icon": "hud_icon_minimap_vehicle_utv",
+        "#script_struct": "veh9_utv",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 38
+            },
+            {
+                "#spawn_number": 87
+            },
+            {
+                "#spawn_number": 53
+            },
+            {
+                "#spawn_number": 16
+            }
+        ]
+    },
+    "#hash_2e112e97fb93ec2c": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 21
+            },
+            {
+                "#spawn_number": 22
+            },
+            {
+                "#spawn_number": 24
+            },
+            {
+                "#spawn_number": 29
+            },
+            {
+                "#spawn_number": 30
+            },
+            {
+                "#spawn_number": 32
+            },
+            {
+                "#spawn_number": 42
+            },
+            {
+                "#spawn_number": 43
+            },
+            {
+                "#spawn_number": 45
+            },
+            {
+                "#spawn_number": 49
+            }
+        ]
+    },
+    "#hash_2e18992590ce3b44": {
+        "#debug_color": "0.446601 0.564096 0.862745 1",
+        "#debug_icon": "hud_icon_vehicle_acv_6x6",
+        "#script_struct": "veh9_acv_6x6",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 13
+            },
+            {
+                "#spawn_number": 7
+            },
+            {
+                "#spawn_number": 19
+            }
+        ]
+    },
+    "#hash_2efebf733301505d": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#spawn_all": true,
+        "#script_struct": "redeploy_drone"
+    },
+    "#hash_2f0cc5a11df260e4": {
+        "#debug_icon": "hud_icon_minimap_vehicle_utv",
+        "#script_struct": "veh9_utv",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 44
+            },
+            {
+                "#spawn_number": 39
+            },
+            {
+                "#spawn_number": 31
+            },
+            {
+                "#spawn_number": 8
+            },
+            {
+                "#spawn_number": 90
+            },
+            {
+                "#spawn_number": 90
+            }
+        ]
+    },
+    "#hash_2f1fa7a6161c8a41": {
+        "#debug_color": "0.291508 0.0837415 0.388235 1",
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_vehicle_little_bird",
+        "#hash_e79b6f0d46e45758": 2,
+        "#script_struct": "little_bird",
+        "#hash_473fbf10b632a192": 1
+    },
+    "#hash_2fe9bb90ca940a59": {
+        "#debug_color": "0.619608 0.854902 0.313726 1",
+        "#debug_icon": "ui_map_icon_poi_weapontrader",
+        "#script_struct": "armory_trader",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 3
+            },
+            {
+                "#spawn_number": 8
+            },
+            {
+                "#spawn_number": 4
+            },
+            {
+                "#spawn_number": 7
+            },
+            {
+                "#spawn_number": 11
+            },
+            {
+                "#spawn_number": 1
+            },
+            {
+                "#spawn_number": 5
+            },
+            {
+                "#spawn_number": 2
+            },
+            {
+                "#spawn_number": 6
+            },
+            {
+                "#spawn_number": 9
+            },
+            {
+                "#spawn_number": 10
+            }
+        ]
+    },
+    "#hash_30e21cbc70bb88f8": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 124
+            }
+        ]
+    },
+    "#hash_310529737cae2852": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#hash_295277097b7b81ea": 3,
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#hash_e79b6f0d46e45758": 30,
+        "#script_struct": "redeploy_drone",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_resort"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_blocks"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_shops"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "resortpoi"
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_outpost"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_power"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_industrial"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "powerpoi"
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_seaport"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_condos"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "marinapoi"
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_cargo"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "cargopoi"
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_militaryBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_academy"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_subBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_array"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_silo"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "militarybasepoi"
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_rural"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_farms"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_village"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_bazaar"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "farmpoi"
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_city"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_seaside"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_university"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_shoppingCenter"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "citypoi"
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_suburbs"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_estates"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_soukNuri"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_parkway"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_operaHouse"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_apartments"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_communityCenter"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "suburbspoi"
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_manor"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_ranch"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_island"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "manorpoi"
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_lowTown"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "lowtownpoi"
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_oldTown"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_bathhouse"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_seatown"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_palace"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "oldtownpoi"
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_estates"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "estatespoi"
+            }
+        ],
+        "#hash_48d9abd529d9d920": 2,
+        "#hash_473fbf10b632a192": 30
+    },
+    "#hash_316884643893d0ef": {
+        "#debug_color": "0.0422217 0.239216 0.213733 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_jltv",
+        "#script_struct": "veh9_jltv",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 9
+            },
+            {
+                "#spawn_number": 33
+            },
+            {
+                "#spawn_number": 32
+            },
+            {
+                "#spawn_number": 60
+            },
+            {
+                "#spawn_number": 15
+            },
+            {
+                "#spawn_number": 73
+            },
+            {
+                "#spawn_number": 65
+            },
+            {
+                "#spawn_number": 37
+            },
+            {
+                "#spawn_number": 67
+            },
+            {
+                "#spawn_number": 83
+            },
+            {
+                "#spawn_number": 56
+            },
+            {
+                "#spawn_number": 62
+            }
+        ]
+    },
+    "#hash_321d91946f8b1c3d": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#spawn_all": true,
+        "#script_struct": "buy_station"
+    },
+    "#hash_3439094434c004ab": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 111
+            },
+            {
+                "#spawn_number": 76
+            },
+            {
+                "#spawn_number": 97
+            }
+        ]
+    },
+    "#hash_34764514f244cee6": {
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#hash_d63bff823de6d46a": 2000,
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#spawn_all": true,
+        "#script_struct": "atv",
+        "#hash_473fbf10b632a192": 8
+    },
+    "#hash_348714740ea8f9fa": {
+        "#debug_color": "0.619608 0.854902 0.313726 1",
+        "#debug_icon": "ui_map_icon_poi_weapontrader",
+        "#script_struct": "armory_trader",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 3
+            }
+        ]
+    },
+    "#hash_3504c84ee5187396": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 21
+            },
+            {
+                "#spawn_number": 47
+            },
+            {
+                "#spawn_number": 83
+            },
+            {
+                "#spawn_number": 96
+            },
+            {
+                "#spawn_number": 110
+            },
+            {
+                "#spawn_number": 34
+            },
+            {
+                "#spawn_number": 52
+            },
+            {
+                "#spawn_number": 64
+            },
+            {
+                "#spawn_number": 90
+            },
+            {
+                "#spawn_number": 114
+            },
+            {
+                "#spawn_number": 98
+            },
+            {
+                "#spawn_number": 78
+            },
+            {
+                "#spawn_number": 50
+            },
+            {
+                "#spawn_number": 51
+            }
+        ]
+    },
+    "#hash_356fba23253373f1": {
+        "#debug_color": "0.905882 0.846509 0.184726 1",
+        "#hash_295277097b7b81ea": 1,
+        "#script_struct": "uav_tower",
+        "#hash_48d9abd529d9d920": 1
+    },
+    "#hash_367690f8e4e544d3": {
+        "#debug_color": "0.549004 0 0.666667 1",
+        "#hash_d63bff823de6d46a": 5000,
+        "#hash_e79b6f0d46e45758": 3,
+        "#hash_d0e74a43bfc6fd16": [
+            {
+                "#spawn_weight": 1,
+                "#spawn_count": 3
+            }
+        ],
+        "#script_struct": "redeploy_drone",
+        "#hash_473fbf10b632a192": 3,
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 1
+            },
+            {
+                "#spawn_number": 3
+            },
+            {
+                "#spawn_number": 5
+            },
+            {
+                "#spawn_number": 7
+            }
+        ]
+    },
+    "#hash_381cc9c4de473ef4": {
+        "#debug_color": "0.0465095 0.272526 0.847059 1",
+        "#debug_icon": "ui_map_icon_ammo_cache",
+        "#script_struct": "ammorestock"
+    },
+    "#hash_381d30f04227b619": {
+        "#debug_color": "0.0465095 0.272526 0.847059 1",
+        "#debug_icon": "ui_map_icon_ammo_cache",
+        "#script_struct": "ammorestock",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_militaryBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_academy"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_subBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_array"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_silo"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "orlovmilitarybase",
+                "#hash_af067ae8c152b0da": 12000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 5
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 7800
+            }
+        ]
+    },
+    "#hash_3844f81d1be0103a": {
+        "#debug_color": "0.290196 0.0823529 0.388235 1",
+        "#hash_295277097b7b81ea": 1,
+        "#debug_icon": "hud_icon_vehicle_little_bird",
+        "#script_struct": "little_bird",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_militaryBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_academy"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_subBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_array"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_silo"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_rural"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "militaryBasePoi",
+                "#hash_af067ae8c152b0da": 20000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 1
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 7500
+            }
+        ],
+        "#hash_48d9abd529d9d920": 0
+    },
+    "#hash_3941b9b70262f078": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#hash_295277097b7b81ea": 12,
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_militaryBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_academy"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_subBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_array"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_silo"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "orlovmilitarybase",
+                "#hash_af067ae8c152b0da": 15000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 12
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 6000
+            }
+        ],
+        "#hash_48d9abd529d9d920": 12
+    },
+    "#hash_3a1644423e07f853": {
+        "#debug_icon": "hud_icon_minimap_vehicle_utv",
+        "#script_struct": "veh9_utv",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 11
+            },
+            {
+                "#spawn_number": 23
+            },
+            {
+                "#spawn_number": 43
+            },
+            {
+                "#spawn_number": 48
+            },
+            {
+                "#spawn_number": 65
+            }
+        ]
+    },
+    "#hash_3a64c8fdb4989cf8": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 47
+            },
+            {
+                "#spawn_number": 32
+            },
+            {
+                "#spawn_number": 34
+            },
+            {
+                "#spawn_number": 49
+            },
+            {
+                "#spawn_number": 83
+            },
+            {
+                "#spawn_number": 75
+            },
+            {
+                "#spawn_number": 103
+            },
+            {
+                "#spawn_number": 96
+            },
+            {
+                "#spawn_number": 74
+            },
+            {
+                "#spawn_number": 78
+            },
+            {
+                "#spawn_number": 113
+            },
+            {
+                "#spawn_number": 66
+            },
+            {
+                "#spawn_number": 51
+            },
+            {
+                "#spawn_number": 28
+            }
+        ]
+    },
+    "#hash_3a64cafdb498a05e": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 110
+            },
+            {
+                "#spawn_number": 38
+            },
+            {
+                "#spawn_number": 75
+            },
+            {
+                "#spawn_number": 74
+            },
+            {
+                "#spawn_number": 103
+            },
+            {
+                "#spawn_number": 98
+            },
+            {
+                "#spawn_number": 113
+            },
+            {
+                "#spawn_number": 27
+            },
+            {
+                "#spawn_number": 23
+            },
+            {
+                "#spawn_number": 40
+            },
+            {
+                "#spawn_number": 31
+            },
+            {
+                "#spawn_number": 62
+            },
+            {
+                "#spawn_number": 42
+            },
+            {
+                "#spawn_number": 66
+            }
+        ]
+    },
+    "#hash_3a64cbfdb498a211": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 47
+            },
+            {
+                "#spawn_number": 32
+            },
+            {
+                "#spawn_number": 23
+            },
+            {
+                "#spawn_number": 52
+            },
+            {
+                "#spawn_number": 83
+            },
+            {
+                "#spawn_number": 110
+            },
+            {
+                "#spawn_number": 114
+            },
+            {
+                "#spawn_number": 64
+            },
+            {
+                "#spawn_number": 37
+            },
+            {
+                "#spawn_number": 28
+            },
+            {
+                "#spawn_number": 61
+            },
+            {
+                "#spawn_number": 39
+            },
+            {
+                "#spawn_number": 92
+            },
+            {
+                "#spawn_number": 84
+            }
+        ]
+    },
+    "#hash_3b68b79fd6787d8b": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#hash_295277097b7b81ea": 12,
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_suburbs"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_estates"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_riverside"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_soukNori"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_operaHouse"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_apartments"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_communityCenter"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_university"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "zaravansuburbs",
+                "#hash_af067ae8c152b0da": 15000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 12
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 6000
+            }
+        ],
+        "#hash_48d9abd529d9d920": 12
+    },
+    "#hash_3b6c27a961ec62c4": {
+        "#debug_color": "0.701961 0.683803 0.561563 1",
+        "#debug_icon": "hud_icon_vehicle_mil_cargo_truck",
+        "#script_struct": "veh9_mil_cargo_truck",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 10
+            },
+            {
+                "#spawn_number": 24
+            },
+            {
+                "#spawn_number": 6
+            }
+        ]
+    },
+    "#hash_3ba28665165c5baf": {
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#script_struct": "atv",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 90
+            },
+            {
+                "#spawn_number": 56
+            },
+            {
+                "#spawn_number": 18
+            },
+            {
+                "#spawn_number": 11
+            },
+            {
+                "#spawn_number": 34
+            },
+            {
+                "#spawn_number": 20
+            },
+            {
+                "#spawn_number": 60
+            },
+            {
+                "#spawn_number": 73
+            }
+        ]
+    },
+    "#hash_3c1f76f0983fb9dd": {
+        "#debug_color": "0.291508 0.0837415 0.388235 1",
+        "#hash_d63bff823de6d46a": 4000,
+        "#debug_icon": "hud_icon_vehicle_little_bird",
+        "#hash_e79b6f0d46e45758": 2,
+        "#script_struct": "little_bird",
+        "#hash_473fbf10b632a192": 1
+    },
+    "#hash_3c43adebe78f17c0": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 8
+            },
+            {
+                "#spawn_number": 15
+            },
+            {
+                "#spawn_number": 16
+            },
+            {
+                "#spawn_number": 38
+            },
+            {
+                "#spawn_number": 40
+            },
+            {
+                "#spawn_number": 34
+            },
+            {
+                "#spawn_number": 64
+            },
+            {
+                "#spawn_number": 60
+            },
+            {
+                "#spawn_number": 70
+            },
+            {
+                "#spawn_number": 61
+            }
+        ]
+    },
+    "#hash_3c43aeebe78f1973": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 13
+            },
+            {
+                "#spawn_number": 20
+            },
+            {
+                "#spawn_number": 21
+            },
+            {
+                "#spawn_number": 42
+            },
+            {
+                "#spawn_number": 47
+            },
+            {
+                "#spawn_number": 68
+            },
+            {
+                "#spawn_number": 57
+            },
+            {
+                "#spawn_number": 70
+            },
+            {
+                "#spawn_number": 66
+            },
+            {
+                "#spawn_number": 49
+            }
+        ]
+    },
+    "#hash_3c43afebe78f1b26": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 11
+            },
+            {
+                "#spawn_number": 7
+            },
+            {
+                "#spawn_number": 10
+            },
+            {
+                "#spawn_number": 36
+            },
+            {
+                "#spawn_number": 52
+            },
+            {
+                "#spawn_number": 56
+            },
+            {
+                "#spawn_number": 74
+            },
+            {
+                "#spawn_number": 71
+            },
+            {
+                "#spawn_number": 48
+            },
+            {
+                "#spawn_number": 41
+            }
+        ]
+    },
+    "#hash_3c8d0416522de3e4": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 86
+            },
+            {
+                "#spawn_number": 89
+            },
+            {
+                "#spawn_number": 37
+            }
+        ]
+    },
+    "#hash_3c8d0516522de597": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 9
+            },
+            {
+                "#spawn_number": 112
+            },
+            {
+                "#spawn_number": 50
+            }
+        ]
+    },
+    "#hash_3c8d0616522de74a": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 45
+            },
+            {
+                "#spawn_number": 104
+            },
+            {
+                "#spawn_number": 103
+            }
+        ]
+    },
+    "#hash_3d3febc1f855a8e5": {
+        "#debug_color": "0.0465095 0.272526 0.847059 1",
+        "#debug_icon": "ui_map_icon_ammo_cache",
+        "#script_struct": "ammorestock",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 13
+            },
+            {
+                "#spawn_number": 2
+            },
+            {
+                "#spawn_number": 9
+            },
+            {
+                "#spawn_number": 10
+            },
+            {
+                "#spawn_number": 11
+            }
+        ]
+    },
+    "#hash_3ec12d6790d24974": {
+        "#debug_color": "0.108415 0.797162 0.921569 1",
+        "#hash_d63bff823de6d46a": 7000,
+        "#debug_icon": "hud_icon_minimap_vehicle_pwc",
+        "#spawn_all": true,
+        "#script_struct": "veh9_pwc",
+        "#hash_473fbf10b632a192": 5
+    },
+    "#hash_3f4077c56182e3fe": {
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#script_struct": "atv",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 34
+            },
+            {
+                "#spawn_number": 52
+            },
+            {
+                "#spawn_number": 53
+            },
+            {
+                "#spawn_number": 72
+            },
+            {
+                "#spawn_number": 78
+            }
+        ]
+    },
+    "#hash_3fc327fe017e7df1": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#debug_color": "0.737789 0.760784 0.369955 1",
+        "#hash_d63bff823de6d46a": 3000,
+        "#hash_817374b52a0f5265": "hard",
+        "#debug_icon": "hud_icon_minimap_vehicle_hummer",
+        "#hash_e79b6f0d46e45758": 6,
+        "#hash_272018d23eeea527": [
+            {
+                "#spawn_number": 3
+            }
+        ],
+        "#hash_cc9ebd1c994451db": "hard",
+        "#script_struct": "veh9_hummer",
+        "#hash_473fbf10b632a192": 6
+    },
+    "#hash_3fd90e7dcfaa29ab": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 18
+            },
+            {
+                "#spawn_number": 23
+            },
+            {
+                "#spawn_number": 26
+            },
+            {
+                "#spawn_number": 28
+            },
+            {
+                "#spawn_number": 35
+            },
+            {
+                "#spawn_number": 37
+            },
+            {
+                "#spawn_number": 41
+            },
+            {
+                "#spawn_number": 46
+            },
+            {
+                "#spawn_number": 47
+            },
+            {
+                "#spawn_number": 51
+            }
+        ]
+    },
+    "#hash_400350c89a0bf590": {
+        "#hash_ef46c86624a75b00": 15000,
+        "#debug_color": "0.0870069 0.133532 0.482353 1",
+        "#hash_d63bff823de6d46a": 6000,
+        "#debug_icon": "hud_icon_minimap_vehicle_rhib",
+        "#hash_e79b6f0d46e45758": 8,
+        "#script_struct": "veh9_rhib",
+        "#hash_473fbf10b632a192": 8
+    },
+    "#hash_400b1fb0e3328368": {
+        "#debug_color": "0.0870069 0.133532 0.482353 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_rhib",
+        "#script_struct": "veh9_rhib",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 21
+            },
+            {
+                "#spawn_number": 15
+            },
+            {
+                "#spawn_number": 14
+            },
+            {
+                "#spawn_number": 10
+            }
+        ]
+    },
+    "#hash_4132a888c827e020": {
+        "#debug_color": "0.446601 0.564096 0.862745 1",
+        "#debug_icon": "hud_icon_vehicle_acv_6x6",
+        "#script_struct": "veh9_acv_6x6",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 13
+            },
+            {
+                "#spawn_number": 20
+            },
+            {
+                "#spawn_number": 11
+            },
+            {
+                "#spawn_number": 7
+            }
+        ]
+    },
+    "#hash_414aeac6b7942524": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#spawn_all": true,
+        "#script_struct": "buy_station"
+    },
+    "#hash_418ec20bb3403bd4": {
+        "#hash_ef46c86624a75b00": 25000,
+        "#debug_color": "0.189899 0.768627 0.680079 1",
+        "#hash_d63bff823de6d46a": 3500,
+        "#debug_icon": "hud_icon_minimap_vehicle_polaris",
+        "#hash_e79b6f0d46e45758": 18,
+        "#script_struct": "veh_jup_polaris_utv",
+        "#hash_473fbf10b632a192": 18
+    },
+    "#hash_422e0fc576eb5cd2": {
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#spawn_all": true,
+        "#script_struct": "atv",
+        "#hash_473fbf10b632a192": 6
+    },
+    "#hash_433685db2ec1691e": {
+        "#debug_color": "0.108415 0.797162 0.921569 1",
+        "#hash_d63bff823de6d46a": 2000,
+        "#debug_icon": "hud_icon_minimap_vehicle_pwc",
+        "#spawn_all": true,
+        "#script_struct": "veh9_pwc",
+        "#hash_473fbf10b632a192": 5
+    },
+    "#hash_43d06ef8985deee0": {
+        "#debug_color": "0.114565 0.45716 0.584314 1",
+        "#debug_icon": "hud_icon_loot_wrench",
+        "#hash_8cd1c028ce4287b8": true,
+        "#hash_e79b6f0d46e45758": 11,
+        "#script_struct": "staged_blueprint",
+        "#hash_473fbf10b632a192": 10
+    },
+    "#hash_43dbf9e575a438c8": {
+        "#debug_color": "0.0465095 0.272526 0.847059 1",
+        "#debug_icon": "ui_map_icon_ammo_cache",
+        "#spawn_all": true,
+        "#script_struct": "ammorestock"
+    },
+    "#hash_447db6e83c71ffcf": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 91
+            },
+            {
+                "#spawn_number": 132
+            },
+            {
+                "#spawn_number": 133
+            }
+        ]
+    },
+    "#hash_44a8bcd7059228ce": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#hash_295277097b7b81ea": 14,
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_power"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_industrial"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_outpost"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "popovpower",
+                "#hash_af067ae8c152b0da": 6000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 14
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 3500
+            }
+        ],
+        "#hash_48d9abd529d9d920": 14
+    },
+    "#hash_45acc207e1ad0058": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#hash_d63bff823de6d46a": 7800,
+        "#debug_icon": "hud_icon_minimap_vehicle_utv",
+        "#hash_e79b6f0d46e45758": 12,
+        "#script_struct": "veh9_utv",
+        "#hash_473fbf10b632a192": 12
+    },
+    "#hash_4650752961e5a10a": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_suburbs"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_estates"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_riverside"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_soukNori"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_operaHouse"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_apartments"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_communityCenter"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_university"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "zaravansuburbs",
+                "#hash_af067ae8c152b0da": 12000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 3
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 6300
+            }
+        ]
+    },
+    "#hash_4681aa705323c67c": {
+        "#debug_color": "0.968627 0.698329 0.117754 1",
+        "#debug_icon": "ui_map_icon_top_earners_piggy",
+        "#spawn_all": true,
+        "#script_struct": "extraction_site"
+    },
+    "#hash_46988c6cf0afd568": {
+        "#debug_color": "0.114565 0.45716 0.584314 1",
+        "#debug_icon": "hud_icon_loot_wrench",
+        "#hash_8cd1c028ce4287b8": true,
+        "#hash_e79b6f0d46e45758": 14,
+        "#script_struct": "staged_items",
+        "#hash_473fbf10b632a192": 13,
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 1
+            }
+        ]
+    },
+    "#hash_479a293cf837499a": {
+        "#debug_color": "0.565179 0.512413 0.960784 1",
+        "#debug_icon": "ui_map_icon_obj_gas_refuel",
+        "#spawn_all": true,
+        "#script_struct": "gas_station_charger"
+    },
+    "#hash_47c1e3611c7e76d6": {
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_minimap_vehicle_suv_1996",
+        "#script_struct": "veh9_suv_1996",
+        "#hash_473fbf10b632a192": 7
+    },
+    "#hash_48d231d70c891e53": {
+        "#debug_color": "0.619608 0.854902 0.313726 1",
+        "#debug_icon": "ui_map_icon_poi_weapontrader",
+        "#script_struct": "armory_trader",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_militaryBase\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_academy\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_subBase\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_array\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_silo\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_rural"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "militaryBasePoi",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 100,
+                        "#spawn_count": 2
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 1000
+            }
+        ]
+    },
+    "#hash_497287290cfb33f9": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#debug_color": "0.108415 0.797162 0.921569 1",
+        "#hash_d63bff823de6d46a": 7000,
+        "#hash_817374b52a0f5265": "hard",
+        "#debug_icon": "hud_icon_minimap_vehicle_pwc",
+        "#hash_e79b6f0d46e45758": 6,
+        "#script_struct": "veh9_pwc",
+        "#hash_473fbf10b632a192": 6
+    },
+    "#hash_4aa1d0c83fb6d3db": {
+        "#debug_color": "0.549004 0 0.666667 1",
+        "#hash_d63bff823de6d46a": 7000,
+        "#hash_d0e74a43bfc6fd16": [
+            {
+                "#spawn_weight": 1,
+                "#spawn_count": 6
+            }
+        ],
+        "#script_struct": "redeploy_drone"
+    },
+    "#hash_4c223a74e107d684": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#hash_295277097b7b81ea": 12,
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_power"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_industrial"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "popovpower",
+                "#hash_af067ae8c152b0da": 12000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 12
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 6000
+            }
+        ],
+        "#hash_48d9abd529d9d920": 12
+    },
+    "#hash_4c8943a3ca6f9107": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 33
+            },
+            {
+                "#spawn_number": 45
+            },
+            {
+                "#spawn_number": 56
+            },
+            {
+                "#spawn_number": 73
+            },
+            {
+                "#spawn_number": 55
+            },
+            {
+                "#spawn_number": 48
+            },
+            {
+                "#spawn_number": 79
+            },
+            {
+                "#spawn_number": 100
+            },
+            {
+                "#spawn_number": 95
+            },
+            {
+                "#spawn_number": 101
+            },
+            {
+                "#spawn_number": 107
+            },
+            {
+                "#spawn_number": 82
+            },
+            {
+                "#spawn_number": 65
+            },
+            {
+                "#spawn_number": 54
+            }
+        ]
+    },
+    "#hash_4c8944a3ca6f92ba": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 33
+            },
+            {
+                "#spawn_number": 45
+            },
+            {
+                "#spawn_number": 56
+            },
+            {
+                "#spawn_number": 73
+            },
+            {
+                "#spawn_number": 44
+            },
+            {
+                "#spawn_number": 69
+            },
+            {
+                "#spawn_number": 60
+            },
+            {
+                "#spawn_number": 100
+            },
+            {
+                "#spawn_number": 86
+            },
+            {
+                "#spawn_number": 67
+            },
+            {
+                "#spawn_number": 48
+            },
+            {
+                "#spawn_number": 94
+            },
+            {
+                "#spawn_number": 109
+            },
+            {
+                "#spawn_number": 85
+            }
+        ]
+    },
+    "#hash_4c8945a3ca6f946d": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 33
+            },
+            {
+                "#spawn_number": 45
+            },
+            {
+                "#spawn_number": 56
+            },
+            {
+                "#spawn_number": 77
+            },
+            {
+                "#spawn_number": 59
+            },
+            {
+                "#spawn_number": 41
+            },
+            {
+                "#spawn_number": 46
+            },
+            {
+                "#spawn_number": 63
+            },
+            {
+                "#spawn_number": 79
+            },
+            {
+                "#spawn_number": 106
+            },
+            {
+                "#spawn_number": 93
+            },
+            {
+                "#spawn_number": 105
+            },
+            {
+                "#spawn_number": 81
+            },
+            {
+                "#spawn_number": 88
+            }
+        ]
+    },
+    "#hash_4cd5868b53eb4f6d": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 106
+            },
+            {
+                "#spawn_number": 109
+            },
+            {
+                "#spawn_number": 154
+            },
+            {
+                "#spawn_number": 121
+            },
+            {
+                "#spawn_number": 146
+            },
+            {
+                "#spawn_number": 123
+            },
+            {
+                "#spawn_number": 136
+            },
+            {
+                "#spawn_number": 143
+            },
+            {
+                "#spawn_number": 158
+            },
+            {
+                "#spawn_number": 124
+            },
+            {
+                "#spawn_number": 133
+            },
+            {
+                "#spawn_number": 145
+            }
+        ]
+    },
+    "#hash_4d49fc76268cc3f7": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#debug_color": "0.737789 0.760784 0.369955 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_hummer",
+        "#hash_e79b6f0d46e45758": 8,
+        "#hash_272018d23eeea527": [
+            {
+                "#spawn_number": 3
+            }
+        ],
+        "#script_struct": "veh9_hummer",
+        "#hash_473fbf10b632a192": 8
+    },
+    "#hash_504be1007e2ff2e2": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 11
+            },
+            {
+                "#spawn_number": 13
+            },
+            {
+                "#spawn_number": 23
+            },
+            {
+                "#spawn_number": 32
+            },
+            {
+                "#spawn_number": 33
+            }
+        ]
+    },
+    "#hash_506d7e35f0a3442e": {
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_minimap_vehicle_suv_1996",
+        "#spawn_all": true,
+        "#script_struct": "veh9_suv_1996",
+        "#hash_473fbf10b632a192": 7
+    },
+    "#hash_509a540780e17481": {
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#hash_d63bff823de6d46a": 4000,
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#hash_e79b6f0d46e45758": 20,
+        "#script_struct": "atv",
+        "#hash_473fbf10b632a192": 20
+    },
+    "#hash_50d89b2136526d46": {
+        "#debug_color": "0.737789 0.760784 0.369955 1",
+        "#hash_d63bff823de6d46a": 2000,
+        "#debug_icon": "hud_icon_minimap_vehicle_hummer",
+        "#hash_e79b6f0d46e45758": 2,
+        "#script_struct": "veh9_hummer",
+        "#hash_473fbf10b632a192": 1
+    },
+    "#hash_51106dde991a4351": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_power"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_industrial"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_outpost"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "popovpower",
+                "#hash_af067ae8c152b0da": 12000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 3
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 6300
+            }
+        ]
+    },
+    "#hash_512e4380b58b91f8": {
+        "#debug_color": "0.0465095 0.272526 0.847059 1",
+        "#debug_icon": "ui_map_icon_ammo_cache",
+        "#script_struct": "ammorestock",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 6
+            }
+        ]
+    },
+    "#hash_518855a8104f40e2": {
+        "#debug_icon": "hud_icon_minimap_vehicle_utv",
+        "#script_struct": "veh9_utv",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_militaryBase\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_academy\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_subBase\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_array\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_silo\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_rural"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "militaryBasePoi",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 100,
+                        "#spawn_count": 3
+                    }
+                ]
+            }
+        ]
+    },
+    "#hash_51daaa1bb63816b5": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#hash_295277097b7b81ea": 14,
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_suburbs"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_estates"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_riverside"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_soukNori"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_operaHouse"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_apartments"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_communityCenter"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_university"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "zaravansuburbs",
+                "#hash_af067ae8c152b0da": 6000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 14
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 3500
+            }
+        ],
+        "#hash_48d9abd529d9d920": 14
+    },
+    "#hash_52277ce4dd88d659": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#spawn_all": true,
+        "#script_struct": "buy_station"
+    },
+    "#hash_5257671984da4c8f": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 47
+            },
+            {
+                "#spawn_number": 55
+            },
+            {
+                "#spawn_number": 58
+            },
+            {
+                "#spawn_number": 65
+            },
+            {
+                "#spawn_number": 67
+            },
+            {
+                "#spawn_number": 69
+            },
+            {
+                "#spawn_number": 75
+            },
+            {
+                "#spawn_number": 77
+            },
+            {
+                "#spawn_number": 78
+            },
+            {
+                "#spawn_number": 79
+            }
+        ]
+    },
+    "#hash_5324453dfb980aba": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#spawn_all": true,
+        "#script_struct": "uav_tower"
+    },
+    "#hash_53475fa25cbb580d": {
+        "#debug_color": "0.235294 0.307301 1 1",
+        "#hash_d63bff823de6d46a": 2000,
+        "#hash_295277097b7b81ea": 3,
+        "#debug_icon": "jup_ui_map_icon_mr_peeks",
+        "#hash_8cd1c028ce4287b8": true,
+        "#script_struct": "puzzle_cache",
+        "#hash_48d9abd529d9d920": 3
+    },
+    "#hash_537bee069b2906f6": {
+        "#debug_color": "0.0870069 0.133532 0.482353 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_rhib",
+        "#script_struct": "veh9_rhib",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_power"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_industrial"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_outpost"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "powerPoi",
+                "#hash_af067ae8c152b0da": 5000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 4
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 1500
+            }
+        ]
+    },
+    "#hash_53ac5f210bc353c2": {
+        "#debug_color": "0.108415 0.797162 0.921569 1",
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_minimap_vehicle_pwc",
+        "#script_struct": "veh9_pwc",
+        "#hash_473fbf10b632a192": 6
+    },
+    "#hash_53df6a4d6a0c891a": {
+        "#debug_color": "0.290196 0.0823529 0.388235 1",
+        "#hash_295277097b7b81ea": 1,
+        "#debug_icon": "hud_icon_vehicle_little_bird",
+        "#script_struct": "little_bird",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_power"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_industrial"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_outpost"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "powerPoi",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 1
+                    }
+                ]
+            }
+        ],
+        "#hash_48d9abd529d9d920": 1
+    },
+    "#hash_558dcda210378a8f": {
+        "#debug_color": "0.243137 0.243137 0.243137 1",
+        "#hash_d63bff823de6d46a": 10000,
+        "#debug_icon": "hud_icon_minimap_vehicle_armored_patrol",
+        "#spawn_all": true,
+        "#hash_e79b6f0d46e45758": 9,
+        "#script_struct": "veh9_patrol_boat",
+        "#hash_473fbf10b632a192": 3
+    },
+    "#hash_5648ac9f0af50cac": {
+        "#debug_color": "0.737789 0.760784 0.369955 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_hummer",
+        "#spawn_all": true,
+        "#script_struct": "veh9_hummer"
+    },
+    "#hash_5659db6793624756": {
+        "#debug_color": "0.235294 0.307301 1 1",
+        "#hash_d63bff823de6d46a": 200,
+        "#hash_e79b6f0d46e45758": 10,
+        "#script_struct": "puzzle_cache",
+        "#hash_473fbf10b632a192": 5
+    },
+    "#hash_57493afdd8c3f780": {
+        "#debug_color": "0.0422217 0.239216 0.213733 1",
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_minimap_vehicle_jltv",
+        "#hash_e79b6f0d46e45758": 5,
+        "#script_struct": "veh9_jltv",
+        "#hash_473fbf10b632a192": 3
+    },
+    "#hash_5750ff5f08ce12d8": {
+        "#debug_color": "0.114565 0.45716 0.584314 1",
+        "#debug_icon": "hud_icon_loot_wrench",
+        "#spawn_all": true,
+        "#script_struct": "staged_blueprint"
+    },
+    "#hash_5762c2131a9e2bad": {
+        "#debug_color": "0.618463 0.854902 0.311788 1",
+        "#hash_d63bff823de6d46a": 1500,
+        "#hash_295277097b7b81ea": 1,
+        "#debug_icon": "ui_map_icon_poi_weapontrader",
+        "#hash_8cd1c028ce4287b8": true,
+        "#hash_e79b6f0d46e45758": 9,
+        "#script_struct": "armory_trader"
+    },
+    "#hash_57e698d02cff1d19": {
+        "#debug_color": "0.243137 0.243137 0.243137 1",
+        "#hash_d63bff823de6d46a": 4000,
+        "#debug_icon": "hud_icon_minimap_vehicle_armored_patrol",
+        "#spawn_all": true,
+        "#hash_e79b6f0d46e45758": 3,
+        "#script_struct": "veh9_patrol_boat",
+        "#hash_473fbf10b632a192": 1
+    },
+    "#hash_57f9f53eb30d8ced": {
+        "#debug_color": "0.114565 0.584314 0.114565 1",
+        "#debug_icon": "hud_icon_equipment_oxygen",
+        "#spawn_all": true,
+        "#script_struct": "staged_oxygen_mask"
+    },
+    "#hash_583072703cd42635": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 33
+            },
+            {
+                "#spawn_number": 45
+            },
+            {
+                "#spawn_number": 56
+            },
+            {
+                "#spawn_number": 73
+            },
+            {
+                "#spawn_number": 104
+            },
+            {
+                "#spawn_number": 107
+            },
+            {
+                "#spawn_number": 89
+            },
+            {
+                "#spawn_number": 95
+            },
+            {
+                "#spawn_number": 68
+            },
+            {
+                "#spawn_number": 43
+            },
+            {
+                "#spawn_number": 86
+            },
+            {
+                "#spawn_number": 72
+            },
+            {
+                "#spawn_number": 54
+            },
+            {
+                "#spawn_number": 99
+            }
+        ]
+    },
+    "#hash_58638cc521e4a9d8": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 119
+            },
+            {
+                "#spawn_number": 63
+            },
+            {
+                "#spawn_number": 78
+            }
+        ]
+    },
+    "#hash_58638dc521e4ab8b": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 94
+            },
+            {
+                "#spawn_number": 30
+            },
+            {
+                "#spawn_number": 120
+            }
+        ]
+    },
+    "#hash_58638ec521e4ad3e": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 22
+            },
+            {
+                "#spawn_number": 78
+            },
+            {
+                "#spawn_number": 69
+            }
+        ]
+    },
+    "#hash_588587ed1980bcfe": {
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#hash_d63bff823de6d46a": 2000,
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#script_struct": "atv",
+        "#hash_473fbf10b632a192": 8
+    },
+    "#hash_588ba0f2d2f0e742": {
+        "#debug_color": "1 0 0.713726 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_razorback",
+        "#hash_e79b6f0d46e45758": 10,
+        "#script_struct": "veh_jup_razorback",
+        "#hash_473fbf10b632a192": 10
+    },
+    "#hash_58aafc3898eb4d81": {
+        "#debug_color": "0.0870069 0.133532 0.482353 1",
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_minimap_vehicle_rhib",
+        "#hash_e79b6f0d46e45758": 9,
+        "#script_struct": "veh9_rhib",
+        "#hash_473fbf10b632a192": 5
+    },
+    "#hash_59394776addb0aaa": {
+        "#hash_ef46c86624a75b00": 25000,
+        "#debug_color": "0.189899 0.768627 0.680079 1",
+        "#hash_d63bff823de6d46a": 3500,
+        "#debug_icon": "hud_icon_minimap_vehicle_polaris",
+        "#hash_e79b6f0d46e45758": 18,
+        "#script_struct": "veh_jup_polaris_utv",
+        "#hash_473fbf10b632a192": 18
+    },
+    "#hash_594585cf346d6d95": {
+        "#debug_color": "0.446601 0.564096 0.862745 1",
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_vehicle_acv_6x6",
+        "#hash_e79b6f0d46e45758": 8,
+        "#script_struct": "veh9_acv_6x6",
+        "#hash_473fbf10b632a192": 5
+    },
+    "#hash_59cfa51a38d3170d": {
+        "#debug_color": "0.0870069 0.133532 0.482353 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_rhib",
+        "#script_struct": "veh9_rhib",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_riverside"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_communityCenter"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_suburbs"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_soukNuri"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_apartments"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_university"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_estates"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "suburbsPoi",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 1
+                    }
+                ]
+            }
+        ]
+    },
+    "#hash_59d9b864957d2dd9": {
+        "#debug_color": "0.290196 0.0823529 0.388235 1",
+        "#hash_295277097b7b81ea": 1,
+        "#debug_icon": "hud_icon_vehicle_little_bird",
+        "#script_struct": "little_bird",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_suburbs"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_estates"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_soukNuri"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_apartments"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_university"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_riverside"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "suburbsPoi",
+                "#hash_af067ae8c152b0da": 20000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 1
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 7500
+            }
+        ],
+        "#hash_48d9abd529d9d920": 0
+    },
+    "#hash_5a650df08f64dd76": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#hash_d63bff823de6d46a": 7800,
+        "#debug_icon": "hud_icon_minimap_vehicle_utv",
+        "#hash_e79b6f0d46e45758": 15,
+        "#script_struct": "veh9_utv",
+        "#hash_473fbf10b632a192": 15
+    },
+    "#hash_5aa5d40e420f64ea": {
+        "#debug_color": "0.701961 0.683803 0.561563 1",
+        "#debug_icon": "hud_icon_vehicle_mil_cargo_truck",
+        "#script_struct": "veh9_mil_cargo_truck",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 13
+            },
+            {
+                "#spawn_number": 12
+            },
+            {
+                "#spawn_number": 10
+            },
+            {
+                "#spawn_number": 4
+            },
+            {
+                "#spawn_number": 5
+            },
+            {
+                "#spawn_number": 20
+            }
+        ]
+    },
+    "#hash_5b9306cadc3f0f1f": {
+        "#hash_d63bff823de6d46a": 2000,
+        "#debug_icon": "hud_icon_minimap_vehicle_sedan_hatchback_1985",
+        "#script_struct": "veh9_sedan_hatchback_1985",
+        "#hash_473fbf10b632a192": 4
+    },
+    "#hash_5bc51d1af533302a": {
+        "#debug_color": "0.321569 0.588235 0.803922 1",
+        "#hash_d63bff823de6d46a": 15000,
+        "#debug_icon": "hud_icon_minimap_vehicle_palfa",
+        "#spawn_all": true,
+        "#hash_e79b6f0d46e45758": 3,
+        "#script_struct": "veh9_palfa",
+        "#hash_473fbf10b632a192": 3
+    },
+    "#hash_5c67d5f6fbec33cf": {
+        "#debug_color": "0.291508 0.0837415 0.388235 1",
+        "#debug_icon": "hud_icon_vehicle_little_bird",
+        "#spawn_all": true,
+        "#script_struct": "little_bird"
+    },
+    "#hash_5c8a41df8fe14e75": {
+        "#hash_d63bff823de6d46a": 9000,
+        "#debug_icon": "hud_icon_minimap_vehicle_sedan_hatchback_1985",
+        "#script_struct": "veh9_sedan_hatchback_1985",
+        "#hash_473fbf10b632a192": 4
+    },
+    "#hash_5cdfcb7323afac48": {
+        "#debug_color": "0.0465095 0.272526 0.847059 1",
+        "#debug_icon": "ui_map_icon_ammo_cache",
+        "#script_struct": "ammorestock"
+    },
+    "#hash_5d3ab98f79de3334": {
+        "#debug_color": "0.905882 0.846509 0.184726 1",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 7
+            },
+            {
+                "#spawn_number": 3
+            },
+            {
+                "#spawn_number": 6
+            },
+            {
+                "#spawn_number": 1
+            },
+            {
+                "#spawn_number": 2
+            },
+            {
+                "#spawn_number": 10
+            }
+        ]
+    },
+    "#hash_5d562d05b47bef9b": {
+        "#debug_color": "0.549004 0 0.666667 1",
+        "#hash_d63bff823de6d46a": 6000,
+        "#hash_d0e74a43bfc6fd16": [
+            {
+                "#spawn_weight": 1,
+                "#spawn_count": 3
+            }
+        ],
+        "#script_struct": "redeploy_drone"
+    },
+    "#hash_5d97aea6491c2945": {
+        "#debug_color": "0.291508 0.0837415 0.388235 1",
+        "#hash_d63bff823de6d46a": 4000,
+        "#debug_icon": "hud_icon_vehicle_little_bird",
+        "#spawn_all": true,
+        "#hash_e79b6f0d46e45758": 2,
+        "#script_struct": "little_bird",
+        "#hash_473fbf10b632a192": 1
+    },
+    "#hash_5da67266411f0be8": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 4
+            },
+            {
+                "#spawn_number": 12
+            },
+            {
+                "#spawn_number": 33
+            },
+            {
+                "#spawn_number": 63
+            },
+            {
+                "#spawn_number": 73
+            },
+            {
+                "#spawn_number": 105
+            },
+            {
+                "#spawn_number": 121
+            },
+            {
+                "#spawn_number": 137
+            },
+            {
+                "#spawn_number": 147
+            },
+            {
+                "#spawn_number": 131
+            },
+            {
+                "#spawn_number": 157
+            },
+            {
+                "#spawn_number": 149
+            },
+            {
+                "#spawn_number": 139
+            },
+            {
+                "#spawn_number": 130
+            },
+            {
+                "#spawn_number": 118
+            },
+            {
+                "#spawn_number": 115
+            },
+            {
+                "#spawn_number": 113
+            },
+            {
+                "#spawn_number": 91
+            },
+            {
+                "#spawn_number": 66
+            },
+            {
+                "#spawn_number": 58
+            },
+            {
+                "#spawn_number": 20
+            },
+            {
+                "#spawn_number": 6
+            },
+            {
+                "#spawn_number": 36
+            },
+            {
+                "#spawn_number": 110
+            },
+            {
+                "#spawn_number": 92
+            },
+            {
+                "#spawn_number": 75
+            },
+            {
+                "#spawn_number": 47
+            },
+            {
+                "#spawn_number": 32
+            },
+            {
+                "#spawn_number": 14
+            },
+            {
+                "#spawn_number": 8
+            },
+            {
+                "#spawn_number": 23
+            },
+            {
+                "#spawn_number": 40
+            },
+            {
+                "#spawn_number": 62
+            },
+            {
+                "#spawn_number": 28
+            },
+            {
+                "#spawn_number": 21
+            }
+        ]
+    },
+    "#hash_5eeac0df6e8882ef": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#hash_d63bff823de6d46a": 4000,
+        "#hash_817374b52a0f5265": "hard",
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#hash_e79b6f0d46e45758": 16,
+        "#hash_cc9ebd1c994451db": "hard",
+        "#script_struct": "atv",
+        "#hash_473fbf10b632a192": 16
+    },
+    "#hash_5fca4f7b8a0185bc": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#debug_color": "0.189899 0.768627 0.680079 1",
+        "#hash_d63bff823de6d46a": 5900,
+        "#debug_icon": "hud_icon_minimap_vehicle_polaris",
+        "#hash_e79b6f0d46e45758": 10,
+        "#script_struct": "veh_jup_polaris_utv",
+        "#hash_473fbf10b632a192": 10
+    },
+    "#hash_600e7bd1a5c07211": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#hash_d63bff823de6d46a": 5000,
+        "#hash_817374b52a0f5265": "hard",
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#hash_e79b6f0d46e45758": 12,
+        "#hash_cc9ebd1c994451db": "hard",
+        "#script_struct": "atv",
+        "#hash_473fbf10b632a192": 12
+    },
+    "#hash_605626be43a96667": {
+        "#debug_color": "0.701961 0.683803 0.561563 1",
+        "#debug_icon": "hud_icon_vehicle_mil_cargo_truck",
+        "#script_struct": "veh9_mil_cargo_truck",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 13
+            },
+            {
+                "#spawn_number": 12
+            },
+            {
+                "#spawn_number": 10
+            },
+            {
+                "#spawn_number": 4
+            },
+            {
+                "#spawn_number": 5
+            },
+            {
+                "#spawn_number": 20
+            },
+            {
+                "#spawn_number": 23
+            }
+        ]
+    },
+    "#hash_60a2413d5a27c197": {
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#hash_d63bff823de6d46a": 4000,
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#hash_e79b6f0d46e45758": 22,
+        "#script_struct": "atv",
+        "#hash_473fbf10b632a192": 22
+    },
+    "#hash_60f30be17cac59b6": {
+        "#debug_color": "0.411765 0.246998 0.174395 1",
+        "#hash_d0e74a43bfc6fd16": [
+            {
+                "#spawn_weight": 1,
+                "#spawn_count": 30
+            }
+        ],
+        "#script_struct": "breakable_cache"
+    },
+    "#hash_6104b7b7461dd0ed": {
+        "#debug_color": "0.446601 0.564096 0.862745 1",
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_vehicle_acv_6x6",
+        "#spawn_all": true,
+        "#hash_e79b6f0d46e45758": 8,
+        "#script_struct": "veh9_acv_6x6",
+        "#hash_473fbf10b632a192": 5
+    },
+    "#hash_612b1663dda26c31": {
+        "#debug_color": "0.619608 0.854902 0.313726 1",
+        "#debug_icon": "ui_map_icon_poi_weapontrader",
+        "#hash_e79b6f0d46e45758": 0,
+        "#script_struct": "armory_trader",
+        "#hash_473fbf10b632a192": 0,
+        "#hash_ac34ab4f5f1df619": [
+            {}
+        ]
+    },
+    "#hash_61cc708c5bd4be38": {
+        "#debug_color": "0.701961 0.683803 0.561563 1",
+        "#debug_icon": "hud_icon_vehicle_mil_cargo_truck",
+        "#script_struct": "veh9_mil_cargo_truck",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 1
+            },
+            {
+                "#spawn_number": 9
+            },
+            {
+                "#spawn_number": 10
+            },
+            {
+                "#spawn_number": 24
+            },
+            {
+                "#spawn_number": 18
+            }
+        ]
+    },
+    "#hash_631cf4cf4c36439a": {
+        "#debug_color": "0.243137 0.243137 0.243137 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_armored_patrol",
+        "#hash_e79b6f0d46e45758": 2,
+        "#script_struct": "veh9_patrol_boat",
+        "#hash_473fbf10b632a192": 2
+    },
+    "#hash_633ca75f6167c532": {
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#script_struct": "atv",
+        "#hash_473fbf10b632a192": 6
+    },
+    "#hash_633fef23f5eadfae": {
+        "#hash_ef46c86624a75b00": 35000,
+        "#debug_color": "0.313725 0.189899 0.0898146 1",
+        "#hash_d63bff823de6d46a": 10000,
+        "#debug_icon": "hud_icon_minimap_vehicle_techo_rebel_armor",
+        "#hash_e79b6f0d46e45758": 8,
+        "#script_struct": "veh_jup_techo_rebel_armor",
+        "#hash_473fbf10b632a192": 8
+    },
+    "#hash_636371a94a857d7b": {
+        "#hash_d63bff823de6d46a": 9000,
+        "#debug_icon": "hud_icon_minimap_vehicle_utv",
+        "#script_struct": "veh9_utv"
+    },
+    "#hash_63f4da3ab2bb933a": {
+        "#debug_color": "0.0465095 0.272526 0.847059 1",
+        "#debug_icon": "ui_map_icon_ammo_cache",
+        "#spawn_all": true,
+        "#script_struct": "ammorestock"
+    },
+    "#hash_643f21e2d6202e8a": {
+        "#debug_color": "0.0465095 0.272526 0.847059 1",
+        "#debug_icon": "ui_map_icon_ammo_cache",
+        "#script_struct": "ammorestock",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_suburbs"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_estates"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_riverside"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_soukNori"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_operaHouse"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_apartments"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_communityCenter"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_university"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "zaravansuburbs",
+                "#hash_af067ae8c152b0da": 1200,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 0,
+                        "#spawn_count": 5
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 7800
+            }
+        ]
+    },
+    "#hash_6455a6255d5cfb29": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 12
+            },
+            {
+                "#spawn_number": 3
+            },
+            {
+                "#spawn_number": 13
+            },
+            {
+                "#spawn_number": 11
+            },
+            {
+                "#spawn_number": 6
+            },
+            {
+                "#spawn_number": 4
+            },
+            {
+                "#spawn_number": 2
+            },
+            {
+                "#spawn_number": 1
+            },
+            {
+                "#spawn_number": 9
+            },
+            {
+                "#spawn_number": 5
+            },
+            {
+                "#spawn_number": 8
+            },
+            {
+                "#spawn_number": 10
+            }
+        ]
+    },
+    "#hash_646f43fef8de36e8": {
+        "#debug_color": "0.549004 0 0.666667 1",
+        "#hash_d63bff823de6d46a": 500,
+        "#hash_d0e74a43bfc6fd16": [
+            {
+                "#spawn_weight": 1,
+                "#spawn_count": 4
+            }
+        ],
+        "#script_struct": "redeploy_drone"
+    },
+    "#hash_64978e33628c4e58": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 125
+            },
+            {
+                "#spawn_number": 121
+            },
+            {
+                "#spawn_number": 86
+            }
+        ]
+    },
+    "#hash_6555c6eb2e9d51ea": {
+        "#debug_color": "0.235294 1 0.235294 1",
+        "#hash_d63bff823de6d46a": 200,
+        "#debug_icon": "ui_mp_br_icon_fish",
+        "#hash_e79b6f0d46e45758": 5,
+        "#script_struct": "drone_parts",
+        "#hash_473fbf10b632a192": 5
+    },
+    "#hash_660d301fde833607": {
+        "#debug_color": "0.0459754 0.180392 0.163012 1",
+        "#hash_d63bff823de6d46a": 6000,
+        "#debug_icon": "hud_icon_minimap_vehicle_jltv_mg",
+        "#spawn_all": true,
+        "#hash_e79b6f0d46e45758": 3,
+        "#script_struct": "veh9_jltv_mg",
+        "#hash_473fbf10b632a192": 3
+    },
+    "#hash_67751b15fe5d53c4": {
+        "#debug_color": "0.905882 0.846509 0.184726 1",
+        "#spawn_all": true,
+        "#script_struct": "uav_tower"
+    },
+    "#hash_681bb38d016bd5c0": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#debug_color": "0.189899 0.768627 0.680079 1",
+        "#hash_d63bff823de6d46a": 5900,
+        "#debug_icon": "hud_icon_minimap_vehicle_polaris",
+        "#hash_e79b6f0d46e45758": 18,
+        "#script_struct": "veh_jup_polaris_utv",
+        "#hash_473fbf10b632a192": 18
+    },
+    "#hash_6926f5dd56337b5f": {
+        "#debug_color": "0.446601 0.564096 0.862745 1",
+        "#debug_icon": "hud_icon_vehicle_acv_6x6",
+        "#script_struct": "veh9_acv_6x6",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 22
+            },
+            {
+                "#spawn_number": 8
+            }
+        ]
+    },
+    "#hash_69e30a3a577fec66": {
+        "#debug_color": "0.0870069 0.133532 0.482353 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_rhib",
+        "#script_struct": "veh9_rhib",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_militaryBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_academy"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_subBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_array"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_silo"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_rural"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "militaryBasePoi",
+                "#hash_af067ae8c152b0da": 5000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 4
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 1500
+            }
+        ]
+    },
+    "#hash_6a565de4768a8c8c": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 18
+            },
+            {
+                "#spawn_number": 31
+            },
+            {
+                "#spawn_number": 23
+            },
+            {
+                "#spawn_number": 37
+            },
+            {
+                "#spawn_number": 41
+            },
+            {
+                "#spawn_number": 46
+            }
+        ]
+    },
+    "#hash_6a565ee4768a8e3f": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 18
+            },
+            {
+                "#spawn_number": 31
+            },
+            {
+                "#spawn_number": 35
+            },
+            {
+                "#spawn_number": 47
+            },
+            {
+                "#spawn_number": 51
+            },
+            {
+                "#spawn_number": 34
+            }
+        ]
+    },
+    "#hash_6a5660e4768a91a5": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 18
+            },
+            {
+                "#spawn_number": 31
+            },
+            {
+                "#spawn_number": 26
+            },
+            {
+                "#spawn_number": 28
+            },
+            {
+                "#spawn_number": 47
+            },
+            {
+                "#spawn_number": 39
+            }
+        ]
+    },
+    "#hash_6ad80f294e7e129c": {
+        "#debug_color": "0.0422217 0.239216 0.213733 1",
+        "#hash_d63bff823de6d46a": 2000,
+        "#debug_icon": "hud_icon_minimap_vehicle_jltv",
+        "#script_struct": "veh9_jltv",
+        "#hash_473fbf10b632a192": 8
+    },
+    "#hash_6b4001a0539587a4": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 8
+            },
+            {
+                "#spawn_number": 15
+            },
+            {
+                "#spawn_number": 120
+            }
+        ]
+    },
+    "#hash_6bb1255fbec8e89e": {
+        "#debug_color": "0.446601 0.564096 0.862745 1",
+        "#debug_icon": "hud_icon_vehicle_acv_6x6",
+        "#script_struct": "veh9_acv_6x6",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 13
+            },
+            {
+                "#spawn_number": 18
+            },
+            {
+                "#spawn_number": 2
+            },
+            {
+                "#spawn_number": 9
+            },
+            {
+                "#spawn_number": 12
+            },
+            {
+                "#spawn_number": 19
+            }
+        ]
+    },
+    "#hash_6bccb469b540dae2": {
+        "#hash_ef46c86624a75b00": 30000,
+        "#debug_color": "0.0459754 0.180392 0.163012 1",
+        "#hash_d63bff823de6d46a": 12000,
+        "#debug_icon": "hud_icon_minimap_vehicle_jltv_mg",
+        "#hash_e79b6f0d46e45758": 10,
+        "#script_struct": "veh9_jltv_mg",
+        "#hash_473fbf10b632a192": 10
+    },
+    "#hash_6be926dab112da22": {
+        "#debug_color": "0.737789 0.760784 0.369955 1",
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_minimap_vehicle_hummer",
+        "#spawn_all": true,
+        "#hash_e79b6f0d46e45758": 4,
+        "#script_struct": "veh9_hummer",
+        "#hash_473fbf10b632a192": 2
+    },
+    "#hash_6d1b0e229cdc3588": {
+        "#hash_ef46c86624a75b00": 35000,
+        "#debug_color": "0.313725 0.189899 0.0898146 1",
+        "#hash_d63bff823de6d46a": 10000,
+        "#debug_icon": "hud_icon_minimap_vehicle_techo_rebel_armor",
+        "#hash_e79b6f0d46e45758": 3,
+        "#script_struct": "veh_jup_techo_rebel_armor",
+        "#hash_473fbf10b632a192": 3
+    },
+    "#hash_6d2c36c50f41a41c": {
+        "#debug_color": "0.0422217 0.239216 0.213733 1",
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_minimap_vehicle_jltv",
+        "#spawn_all": true,
+        "#hash_e79b6f0d46e45758": 5,
+        "#script_struct": "veh9_jltv",
+        "#hash_473fbf10b632a192": 3
+    },
+    "#hash_6d8da0646c3ca078": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 51
+            },
+            {
+                "#spawn_number": 77
+            },
+            {
+                "#spawn_number": 55
+            },
+            {
+                "#spawn_number": 64
+            },
+            {
+                "#spawn_number": 73
+            },
+            {
+                "#spawn_number": 71
+            }
+        ]
+    },
+    "#hash_6d8da1646c3ca22b": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 47
+            },
+            {
+                "#spawn_number": 77
+            },
+            {
+                "#spawn_number": 78
+            },
+            {
+                "#spawn_number": 59
+            },
+            {
+                "#spawn_number": 63
+            },
+            {
+                "#spawn_number": 75
+            }
+        ]
+    },
+    "#hash_6d8da3646c3ca591": {
+        "#debug_color": "0.964706 0.124849 0.935027 1",
+        "#debug_icon": "hud_icon_minimap_fieldupgrade_drone_recon",
+        "#script_struct": "redeploy_drone",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 47
+            },
+            {
+                "#spawn_number": 77
+            },
+            {
+                "#spawn_number": 67
+            },
+            {
+                "#spawn_number": 58
+            },
+            {
+                "#spawn_number": 69
+            },
+            {
+                "#spawn_number": 79
+            }
+        ]
+    },
+    "#hash_6d949d1776acb6da": {
+        "#debug_color": "0.243137 0.243137 0.243137 1",
+        "#hash_295277097b7b81ea": 4,
+        "#debug_icon": "hud_icon_minimap_vehicle_armored_patrol",
+        "#script_struct": "veh9_patrol_boat",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_power\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_industrial\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_outpost\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "powerPoi",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 2
+                    }
+                ]
+            }
+        ],
+        "#hash_48d9abd529d9d920": 0
+    },
+    "#hash_6e79d5c987db4582": {
+        "#debug_color": "0.108415 0.797162 0.921569 1",
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_minimap_vehicle_pwc",
+        "#spawn_all": true,
+        "#script_struct": "veh9_pwc",
+        "#hash_473fbf10b632a192": 6
+    },
+    "#hash_6ec03893dce23b4e": {
+        "#debug_color": "0.112505 0.486275 0.270802 1",
+        "#hash_d63bff823de6d46a": 40000,
+        "#debug_icon": "hud_icon_vehicle_orav",
+        "#hash_e79b6f0d46e45758": 2,
+        "#script_struct": "veh_jup_orav",
+        "#hash_473fbf10b632a192": 2
+    },
+    "#hash_6f43acd0718efe53": {
+        "#debug_color": "0.114565 0.45716 0.584314 1",
+        "#debug_icon": "hud_icon_loot_wrench",
+        "#spawn_all": true,
+        "#script_struct": "staged_weapons_overcast"
+    },
+    "#hash_6fd5da357b9fac1b": {
+        "#debug_color": "0.737789 0.760784 0.369955 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_hummer",
+        "#hash_e79b6f0d46e45758": 0,
+        "#script_struct": "veh9_hummer",
+        "#hash_473fbf10b632a192": 0
+    },
+    "#hash_700eff2bbfd2d241": {
+        "#debug_color": "0.0870069 0.133532 0.482353 1",
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_minimap_vehicle_rhib",
+        "#spawn_all": true,
+        "#hash_e79b6f0d46e45758": 9,
+        "#script_struct": "veh9_rhib",
+        "#hash_473fbf10b632a192": 5
+    },
+    "#hash_70b8e0624a4dbeb0": {
+        "#debug_color": "0.189899 0.768627 0.680079 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_polaris",
+        "#script_struct": "veh_jup_polaris_utv",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 13
+            },
+            {
+                "#spawn_number": 8
+            },
+            {
+                "#spawn_number": 3
+            }
+        ]
+    },
+    "#hash_715bbe820727a4d8": {
+        "#hash_ef46c86624a75b00": 30000,
+        "#debug_color": "0.108415 0.797162 0.921569 1",
+        "#hash_d63bff823de6d46a": 7000,
+        "#debug_icon": "hud_icon_minimap_vehicle_pwc",
+        "#hash_e79b6f0d46e45758": 2,
+        "#script_struct": "veh9_pwc",
+        "#hash_473fbf10b632a192": 2
+    },
+    "#hash_715ff7a544a9c78c": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 93
+            },
+            {
+                "#spawn_number": 92
+            },
+            {
+                "#spawn_number": 109
+            }
+        ]
+    },
+    "#hash_715ff8a544a9c93f": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 76
+            },
+            {
+                "#spawn_number": 64
+            },
+            {
+                "#spawn_number": 55
+            }
+        ]
+    },
+    "#hash_715ffaa544a9cca5": {
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 18
+            },
+            {
+                "#spawn_number": 42
+            },
+            {
+                "#spawn_number": 139
+            }
+        ]
+    },
+    "#hash_72a66b4b6fd99260": {
+        "#debug_color": "0.112505 0.486275 0.270802 1",
+        "#debug_icon": "hud_icon_vehicle_orav",
+        "#hash_e79b6f0d46e45758": 8,
+        "#script_struct": "veh_jup_orav",
+        "#hash_473fbf10b632a192": 8
+    },
+    "#hash_72bb41bed8151fa5": {
+        "#debug_color": "0.619608 0.854902 0.313726 1",
+        "#debug_icon": "ui_map_icon_poi_weapontrader",
+        "#script_struct": "armory_trader",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_power\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_industrial\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_outpost"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "powerPoi",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 100,
+                        "#spawn_count": 2
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 1000
+            }
+        ]
+    },
+    "#hash_74994d6268563d7f": {
+        "#debug_color": "0.0870069 0.133532 0.482353 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_rhib",
+        "#script_struct": "veh9_rhib",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 13
+            },
+            {
+                "#spawn_number": 14
+            },
+            {
+                "#spawn_number": 21
+            },
+            {
+                "#spawn_number": 22
+            }
+        ]
+    },
+    "#hash_74ac8b0b2e9f3321": {
+        "#debug_icon": "hud_icon_minimap_vehicle_utv",
+        "#script_struct": "veh9_utv",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_riverside\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_communityCenter\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_suburbs\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_soukNuri\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_apartments\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_university\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_estates\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "suburbsPoi\n",
+                "#hash_af067ae8c152b0da": 10000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 100,
+                        "#spawn_count": 3
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 3500
+            }
+        ]
+    },
+    "#hash_74c05aa34595daa6": {
+        "#debug_color": "0.905882 0.846509 0.184726 1",
+        "#script_struct": "uav_tower",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 7
+            },
+            {
+                "#spawn_number": 10
+            },
+            {
+                "#spawn_number": 6
+            }
+        ]
+    },
+    "#hash_75370aa45b373d8f": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 104
+            },
+            {
+                "#spawn_number": 107
+            },
+            {
+                "#spawn_number": 154
+            },
+            {
+                "#spawn_number": 144
+            },
+            {
+                "#spawn_number": 134
+            },
+            {
+                "#spawn_number": 127
+            },
+            {
+                "#spawn_number": 120
+            },
+            {
+                "#spawn_number": 137
+            },
+            {
+                "#spawn_number": 124
+            },
+            {
+                "#spawn_number": 158
+            },
+            {
+                "#spawn_number": 150
+            },
+            {
+                "#spawn_number": 159
+            }
+        ]
+    },
+    "#hash_75370ba45b373f42": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 106
+            },
+            {
+                "#spawn_number": 109
+            },
+            {
+                "#spawn_number": 154
+            },
+            {
+                "#spawn_number": 119
+            },
+            {
+                "#spawn_number": 126
+            },
+            {
+                "#spawn_number": 141
+            },
+            {
+                "#spawn_number": 158
+            },
+            {
+                "#spawn_number": 153
+            },
+            {
+                "#spawn_number": 155
+            },
+            {
+                "#spawn_number": 137
+            },
+            {
+                "#spawn_number": 141
+            },
+            {
+                "#spawn_number": 138
+            }
+        ]
+    },
+    "#hash_75370ca45b3740f5": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 104
+            },
+            {
+                "#spawn_number": 107
+            },
+            {
+                "#spawn_number": 154
+            },
+            {
+                "#spawn_number": 133
+            },
+            {
+                "#spawn_number": 129
+            },
+            {
+                "#spawn_number": 122
+            },
+            {
+                "#spawn_number": 128
+            },
+            {
+                "#spawn_number": 142
+            },
+            {
+                "#spawn_number": 147
+            },
+            {
+                "#spawn_number": 158
+            },
+            {
+                "#spawn_number": 160
+            },
+            {
+                "#spawn_number": 148
+            }
+        ]
+    },
+    "#hash_7556d0eea59d5dc1": {
+        "#debug_color": "0.446601 0.564096 0.862745 1",
+        "#hash_d63bff823de6d46a": 2000,
+        "#debug_icon": "hud_icon_vehicle_acv_6x6",
+        "#hash_e79b6f0d46e45758": 5,
+        "#script_struct": "veh9_acv_6x6",
+        "#hash_473fbf10b632a192": 3
+    },
+    "#hash_75930f5466ae45f4": {
+        "#debug_color": "0.0465095 0.272526 0.847059 1",
+        "#debug_icon": "ui_map_icon_ammo_cache",
+        "#spawn_all": true,
+        "#script_struct": "ammorestock"
+    },
+    "#hash_76015243a82daf98": {
+        "#debug_color": "0.917647 0.859876 0.215915 1",
+        "#hash_48b973d2a7eb9e64": [
+            {
+                "#spawn_weight": 1,
+                "#spawn_count": 6
+            }
+        ],
+        "#debug_icon": "hud_icon_vehicle_atv",
+        "#script_struct": "atv",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_suburbs\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_soukNuri\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_apartments\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_university\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_riverside\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_estates\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "suburbsPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 6
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 1000
+            }
+        ]
+    },
+    "#hash_769cb7211a6732fa": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#debug_color": "0.189899 0.768627 0.680079 1",
+        "#hash_d63bff823de6d46a": 5900,
+        "#debug_icon": "hud_icon_minimap_vehicle_polaris",
+        "#hash_e79b6f0d46e45758": 17,
+        "#script_struct": "veh_jup_polaris_utv",
+        "#hash_473fbf10b632a192": 17
+    },
+    "#hash_76c5ae00fe54d009": {
+        "#debug_color": "0.189899 0.768627 0.680079 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_polaris",
+        "#spawn_all": true,
+        "#script_struct": "veh_jup_polaris_utv"
+    },
+    "#hash_776939ea1b391d1b": {
+        "#debug_color": "0.446601 0.564096 0.862745 1",
+        "#hash_d63bff823de6d46a": 9000,
+        "#debug_icon": "hud_icon_vehicle_acv_6x6",
+        "#spawn_all": true,
+        "#hash_e79b6f0d46e45758": 0,
+        "#script_struct": "veh9_acv_6x6",
+        "#hash_473fbf10b632a192": 0
+    },
+    "#hash_77764293f6f71eb2": {
+        "#debug_icon": "hud_icon_minimap_vehicle_utv",
+        "#script_struct": "veh9_utv",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_power\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_industrial\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_outpost\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "powerPoi",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 100,
+                        "#spawn_count": 3
+                    }
+                ]
+            }
+        ]
+    },
+    "#hash_77b9b7622a3475d4": {
+        "#debug_color": "0.114565 0.45716 0.584314 1",
+        "#debug_icon": "hud_icon_loot_wrench",
+        "#spawn_all": true,
+        "#script_struct": "staged_items_overcast"
+    },
+    "#hash_78b30b250dddd896": {
+        "#debug_color": "0.968627 0.698329 0.117754 1",
+        "#debug_icon": "ui_map_icon_top_earners_piggy",
+        "#script_struct": "extraction_site",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 2
+            },
+            {
+                "#spawn_number": 25
+            },
+            {
+                "#spawn_number": 18
+            },
+            {
+                "#spawn_number": 1
+            },
+            {
+                "#spawn_number": 12
+            },
+            {
+                "#spawn_number": 7
+            },
+            {
+                "#spawn_number": 16
+            },
+            {
+                "#spawn_number": 22
+            },
+            {
+                "#spawn_number": 30
+            },
+            {
+                "#spawn_number": 26
+            },
+            {
+                "#spawn_number": 24
+            },
+            {
+                "#spawn_number": 20
+            }
+        ]
+    },
+    "#hash_798b50602421bc2e": {
+        "#hash_ef46c86624a75b00": 50000,
+        "#debug_color": "1 0.235294 0.235294 1",
+        "#hash_d63bff823de6d46a": 25000,
+        "#debug_icon": "hud_icon_killstreak_uav",
+        "#hash_e79b6f0d46e45758": 8,
+        "#script_struct": "uav_tower",
+        "#hash_473fbf10b632a192": 8
+    },
+    "#hash_7a091a9eeb12e2cb": {
+        "#debug_color": "0.701961 0.683803 0.561563 1",
+        "#debug_icon": "hud_icon_vehicle_mil_cargo_truck",
+        "#script_struct": "veh9_mil_cargo_truck",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 23
+            },
+            {
+                "#spawn_number": 13
+            },
+            {
+                "#spawn_number": 26
+            }
+        ]
+    },
+    "#hash_7a96bcfbae525af5": {
+        "#debug_color": "0.447059 0.564706 0.862745 1",
+        "#hash_295277097b7b81ea": 1,
+        "#debug_icon": "hud_icon_vehicle_acv_6x6",
+        "#script_struct": "veh9_acv_6x6",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_militaryBase\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_academy\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_subBase\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_array\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_silo\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "militaryBasePoi",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_resort\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_outpost\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_blocks\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_shops\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "resortPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_seaport\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_cargo\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_condos\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "cargoPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_rural\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_farms\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_village\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_bazaar\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_ranch\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "ruralPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_city\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_parkway\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_riverside\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_seaside\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_shoppingCenter\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_communityCenter\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "cityPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_suburbs\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_soukNuri\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_apartments\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_university\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_estates\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "suburbsPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_manor\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_island\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "manorPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_lowTown\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_oldTown\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_bathhouse\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_seatown\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_palace\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "oldTownPoi\n",
+                "#hash_af067ae8c152b0da": 4000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 6
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 2500
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_power\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_industrial\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "powerPoi",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            }
+        ],
+        "#hash_48d9abd529d9d920": 1
+    },
+    "#hash_7b4e65860ca5837a": {
+        "#debug_color": "0.189899 0.768627 0.680079 1",
+        "#debug_icon": "hud_icon_minimap_vehicle_polaris",
+        "#script_struct": "veh_jup_polaris_utv",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 2
+            },
+            {
+                "#spawn_number": 19
+            }
+        ]
+    },
+    "#hash_7c51972a67b30d06": {
+        "#debug_color": "0.619608 0.854902 0.313726 1",
+        "#debug_icon": "ui_map_icon_poi_weapontrader",
+        "#script_struct": "armory_trader",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_riverside\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_communityCenter\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_suburbs\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_soukNuri\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_apartments\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_university\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_estates\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "suburbsPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 100,
+                        "#spawn_count": 2
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 1000
+            }
+        ]
+    },
+    "#hash_7ca1e06a278b6984": {
+        "#debug_color": "0.905882 0.846509 0.184726 1",
+        "#spawn_all": true,
+        "#script_struct": "uav_tower"
+    },
+    "#hash_7ca9794d1986f50e": {
+        "#debug_color": "0.447059 0.564706 0.862745 1",
+        "#hash_295277097b7b81ea": 1,
+        "#debug_icon": "hud_icon_vehicle_acv_6x6",
+        "#script_struct": "veh9_acv_6x6",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_militaryBase\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_academy\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_subBase\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_array\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_silo\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "militaryBasePoi",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_resort\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_outpost\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_blocks\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_shops\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "resortPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_seaport\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_cargo\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_condos\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "cargoPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_rural\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_farms\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_village\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_bazaar\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_ranch\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "ruralPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_city\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_parkway\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_riverside\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_seaside\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_shoppingCenter\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_communityCenter\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "cityPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_suburbs\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_soukNuri\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_apartments\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_university\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_estates\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "suburbsPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_manor\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_island\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "manorPoi\n",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_lowTown\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_oldTown\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_bathhouse\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_seatown\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_palace\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "oldTownPoi\n",
+                "#hash_af067ae8c152b0da": 4000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 6
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 2500
+            },
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_power\n"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_industrial\n"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "powerPoi",
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_count": 1
+                    }
+                ]
+            }
+        ],
+        "#hash_48d9abd529d9d920": 1
+    },
+    "#hash_7cb97d03c031fbae": {
+        "#debug_color": "0.101961 0.764706 0.273503 1",
+        "#hash_295277097b7b81ea": 14,
+        "#debug_icon": "hud_icon_splash_buystation",
+        "#script_struct": "buy_station",
+        "#hash_80007572cdd4150f": [
+            {
+                "#poi_group": [
+                    {
+                        "#poi_name": "jup_bigmap_militaryBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_academy"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_subBase"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_array"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_silo"
+                    },
+                    {
+                        "#poi_name": "jup_bigmap_rural"
+                    }
+                ],
+                "#hash_dfe282400b2e9ad7": "orlovmilitarybase",
+                "#hash_af067ae8c152b0da": 6000,
+                "#hash_c49eb61fdcdb5a08": [
+                    {
+                        "#spawn_weight": 1,
+                        "#spawn_count": 14
+                    }
+                ],
+                "#hash_4a8d43d74b119570": 3500
+            }
+        ],
+        "#hash_48d9abd529d9d920": 14
+    },
+    "#hash_7d35d204ffdccc9f": {
+        "#hash_ef46c86624a75b00": 20000,
+        "#debug_color": "0.108415 0.797162 0.921569 1",
+        "#hash_d63bff823de6d46a": 7000,
+        "#debug_icon": "hud_icon_minimap_vehicle_pwc",
+        "#hash_e79b6f0d46e45758": 6,
+        "#script_struct": "veh9_pwc",
+        "#hash_473fbf10b632a192": 6
+    },
+    "#hash_7e30605f0006ef05": {
+        "#debug_color": "0.0870069 0.133532 0.482353 1",
+        "#hash_d63bff823de6d46a": 2000,
+        "#debug_icon": "hud_icon_minimap_vehicle_rhib",
+        "#hash_e79b6f0d46e45758": 12,
+        "#script_struct": "veh9_rhib"
+    },
+    "#hash_7e79c9c7daca55d3": {
+        "#hash_d63bff823de6d46a": 3000,
+        "#debug_icon": "hud_icon_minimap_vehicle_sedan_hatchback_1985",
+        "#script_struct": "veh9_sedan_hatchback_1985",
+        "#hash_473fbf10b632a192": 8
+    },
+    "#hash_7e97b4926db3b60c": {
+        "#hash_ef46c86624a75b00": 25000,
+        "#hash_d63bff823de6d46a": 4000,
+        "#debug_icon": "hud_icon_minimap_vehicle_utv",
+        "#hash_e79b6f0d46e45758": 21,
+        "#script_struct": "veh9_utv",
+        "#hash_473fbf10b632a192": 21
+    },
+    "#hash_7f04ca6b2d08b573": {
+        "#debug_color": "0.0465095 0.272526 0.847059 1",
+        "#debug_icon": "ui_map_icon_ammo_cache",
+        "#script_struct": "ammorestock",
+        "#hash_ac34ab4f5f1df619": [
+            {
+                "#spawn_number": 8
+            }
+        ]
+    },
+    "#hash_7f8e29e2047120ab": {
+        "#hash_22002ed9c7d33de7": "hard",
+        "#debug_color": "0.0422217 0.239216 0.213733 1",
+        "#hash_d63bff823de6d46a": 10000,
+        "#debug_icon": "hud_icon_minimap_vehicle_jltv",
+        "#hash_e79b6f0d46e45758": 9,
+        "#script_struct": "veh9_jltv",
+        "#hash_473fbf10b632a192": 9
+    }
+}

@@ -1,0 +1,4155 @@
+{
+    "#hash_12618d8258b07a8d": {
+        "#rendertarget": "None",
+        "#parameters": [
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "objective_data",
+                            "#value": "scripted_widget_objective_text.scriptedwidget",
+                            "#type": "AssetProperty"
+                        },
+                        "#variant_type": "Types_AssetProperty"
+                    }
+                ],
+                "#name": "TestExample"
+            }
+        ],
+        "#hash_679a5fd22385af82": [],
+        "#children": [
+            {
+                "#widgets": [
+                    {
+                        "#scriptedwidget": "scripted_widget_objective_text",
+                        "#name": "objective_line"
+                    }
+                ],
+                "#name": "objective",
+                "#omnvarsets": [
+                    {
+                        "#omnvars": [
+                            {
+                                "#variant_object": {
+                                    "#maxvalue": 1023,
+                                    "#notifylui": true,
+                                    "#type": "IntOmnvar",
+                                    "#name": "objective_param"
+                                },
+                                "#variant_type": "Types_IntOmnvar"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#maxvalue": 255,
+                                    "#minvalue": -255,
+                                    "#notifylui": true,
+                                    "#type": "IntOmnvar",
+                                    "#name": "objective_max_count"
+                                },
+                                "#variant_type": "Types_IntOmnvar"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#maxvalue": 255,
+                                    "#minvalue": -255,
+                                    "#notifylui": true,
+                                    "#type": "IntOmnvar",
+                                    "#name": "objective_count"
+                                },
+                                "#variant_type": "Types_IntOmnvar"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#maxvalue": 15,
+                                    "#notifylui": true,
+                                    "#type": "IntOmnvar",
+                                    "#name": "objective_state"
+                                },
+                                "#variant_type": "Types_IntOmnvar"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#maxvalue": 1,
+                                    "#notifylui": true,
+                                    "#type": "IntOmnvar",
+                                    "#name": "objective_type"
+                                },
+                                "#variant_type": "Types_IntOmnvar"
+                            }
+                        ],
+                        "#name": "Default",
+                        "#setnum": 9
+                    }
+                ]
+            }
+        ],
+        "#rendertargetheight": 1024,
+        "#hash_a35573938e7a51c8": 1024,
+        "#widget": "ObObjectiveGroup",
+        "#states": [
+            {
+                "#animation": "Show",
+                "#name": "Show"
+            },
+            {
+                "#animation": "Hide",
+                "#name": "Hide"
+            },
+            {
+                "#animation": "Success",
+                "#name": "Success"
+            },
+            {
+                "#animation": "Failure",
+                "#name": "Failure"
+            }
+        ],
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_14f0080942a5d7f1": {
+        "#rendertarget": "None",
+        "#parameters": [
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DONOTUSE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "remove_objective"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/TEST_OBJ_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "test_activity_obj_count"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/TEST_OBJ_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "test_activity_obj_capture"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/TEST_OBJ_3",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "test_activity_obj_kill"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/TEST_OBJ_4",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "test_activity_obj_civs"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/TEST_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "test_activity_title"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/TEST_DESC",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "test_activity_desc"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/TEST_TITLE2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "test_activity2_title"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/TEST_DESC2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "test_activity2_desc"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_ACTIVITY_BEGIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_ACTIVITY_BEGIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_ACTIVITY_BEGIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_ACTIVITY_BEGIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_ACTIVITY_FAIL_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_ACTIVITY_FAIL_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_ACTIVITY_FAIL_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_ACTIVITY_FAIL_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_ACTIVITY_SUCCESS_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_ACTIVITY_SUCCESS_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_ACTIVITY_SUCCESS_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_ACTIVITY_SUCCESS_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_PLAYER_JOIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_PLAYER_JOIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_PLAYER_JOIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_PLAYER_JOIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HALO_DROP_ACTIVITY_BEGIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HALO_DROP_ACTIVITY_BEGIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HALO_DROP_ACTIVITY_BEGIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HALO_DROP_ACTIVITY_BEGIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_BEGIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_BEGIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_BEGIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_BEGIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_FAIL_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_FAIL_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_FAIL_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_FAIL_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_SUCCESS_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_SUCCESS_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_SUCCESS_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_SUCCESS_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_PLAYER_JOIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_PLAYER_JOIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_PLAYER_JOIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_PLAYER_JOIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/LEAVE_NOTIFICATION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "LEAVE_NOTIFICATION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/LEAVE_WARNING_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "LEAVE_WARNING_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/LEAVE_WARNING_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "LEAVE_WARNING_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_SCIENTISTS_OBJECTIVE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_SCIENTISTS_OBJECTIVE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_SCIENTISTS_DEAD_OBJECTIVE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_SCIENTISTS_DEAD_OBJECTIVE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_CHECKPOINTS_REVEALED_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_CHECKPOINTS_REVEALED_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_CHECKPOINTS_REVEALED_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_CHECKPOINTS_REVEALED_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_NEAR_END_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_NEAR_END_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_TRACKER_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_TRACKER_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_BEGIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_BEGIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_BEGIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_BEGIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_FAIL_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_FAIL_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_FAIL_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_FAIL_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_SUCCESS_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_SUCCESS_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_SUCCESS_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_SUCCESS_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_PLAYER_JOIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_PLAYER_JOIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_PLAYER_JOIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_PLAYER_JOIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_TRACKER_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_TRACKER_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_TRACKER_SUBOBJECTIVE_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_TRACKER_SUBOBJECTIVE_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_BEGIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_BEGIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_JOIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_JOIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_JOIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_JOIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_SUCCESS_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_SUCCESS_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_SUCCESS_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_SUCCESS_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_FAIL_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_FAIL_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_FAIL_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_FAIL_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_BEGIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_BEGIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_BEGIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_BEGIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_JOIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_JOIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_JOIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_JOIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_FAIL_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_FAIL_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_FAIL_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_FAIL_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_SUCCESS_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_SUCCESS_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_SUCCESS_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_SUCCESS_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_PROGRESS_TRACKER",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_PROGRESS_TRACKER"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/EXFIL_ACTIVITY_BEGIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "EXFIL_ACTIVITY_BEGIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/EXFIL_ACTIVITY_BEGIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "EXFIL_ACTIVITY_BEGIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/EXFIL_KILLS_REMAINING_TRACKER",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "EXFIL_KILLS_REMAINING_TRACKER"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/EXFIL_BOARD_VEHICLE_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "EXFIL_BOARD_VEHICLE_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/EXFIL_GET_TO_VEHICLE_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "EXFIL_GET_TO_VEHICLE_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/EXFIL_TIMER_TRACKER",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "EXFIL_TIMER_TRACKER"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_PROGRESS_TRACKER",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_PROGRESS_TRACKER"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_HEALTH",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_HEALTH"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_HEALTH",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_HEALTH"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_BEGIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_BEGIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_HEALTH",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_HEALTH"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_TRACKER_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_TRACKER_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_ACTIVITY_TRACKER_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_ACTIVITY_TRACKER_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_TRACKER_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_TRACKER_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/EXFIL_ACTIVITY_TRACKER_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "EXFIL_ACTIVITY_TRACKER_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ARRIVE_VIP_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ARRIVE_VIP_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ARRIVE_VIP_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ARRIVE_VIP_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ARRIVE_VIP_3",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ARRIVE_VIP_3"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ARRIVE_OBJECT_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ARRIVE_OBJECT_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ARRIVE_OBJECT_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ARRIVE_OBJECT_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ARRIVE_OBJECT_3",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ARRIVE_OBJECT_3"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ARRIVE_ZONE_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ARRIVE_ZONE_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ARRIVE_ZONE_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ARRIVE_ZONE_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_PLAYER_ARRIVE_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_PLAYER_ARRIVE_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_PLAYER_ARRIVE_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_PLAYER_ARRIVE_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_PLAYER_ARRIVE_3",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_PLAYER_ARRIVE_3"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ADVANCE_DEFAULT",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ADVANCE_DEFAULT"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ADVANCE_E",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ADVANCE_E"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ADVANCE_N",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ADVANCE_N"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ADVANCE_NE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ADVANCE_NE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ADVANCE_NW",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ADVANCE_NW"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ADVANCE_S",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ADVANCE_S"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ADVANCE_SE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ADVANCE_SE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ADVANCE_SW",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ADVANCE_SW"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_ADVANCE_W",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_ADVANCE_W"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_BARRIER",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_BARRIER"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_CLEAR_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_CLEAR_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_CLEAR_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_CLEAR_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_CLEAR_3",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_CLEAR_3"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_LAST_VIP_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_LAST_VIP_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_LAST_VIP_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_LAST_VIP_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_MULTI_LANES_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_MULTI_LANES_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_MULTI_LANES_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_MULTI_LANES_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_PREP_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_PREP_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_PREP_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_PREP_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_PREP_3",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_PREP_3"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_RUSH_DEFAULT_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_RUSH_DEFAULT_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_RUSH_DEFAULT_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_RUSH_DEFAULT_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_RUSH_E",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_RUSH_E"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_RUSH_N",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_RUSH_N"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_RUSH_NE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_RUSH_NE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_RUSH_NW",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_RUSH_NW"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_RUSH_S",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_RUSH_S"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_RUSH_SE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_RUSH_SE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_RUSH_SW",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_RUSH_SW"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_RUSH_W",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_RUSH_W"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_TIMEOUT_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_TIMEOUT_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_TIMEOUT_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_TIMEOUT_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_TWO_LANES_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_TWO_LANES_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_TWO_LANES_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_TWO_LANES_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_VIP_DAMAGE_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_VIP_DAMAGE_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_VIP_DAMAGE_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_VIP_DAMAGE_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_VIP_DAMAGE_3",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_VIP_DAMAGE_3"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_VIP_DANGER_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_VIP_DANGER_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_VIP_DANGER_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_VIP_DANGER_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_VIP_FAIL_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_VIP_FAIL_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_VIP_FAIL_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_VIP_FAIL_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_VIP_KILLED_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_VIP_KILLED_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_VIP_KILLED_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_VIP_KILLED_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_VIP_SUCCESS_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_VIP_SUCCESS_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_VIP_SUCCESS_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_VIP_SUCCESS_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_WAVE_DEFAULT",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_WAVE_DEFAULT"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_WAVE_E",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_WAVE_E"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_WAVE_N",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_WAVE_N"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_WAVE_NE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_WAVE_NE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_WAVE_NW",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_WAVE_NW"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_WAVE_S",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_WAVE_S"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_WAVE_SE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_WAVE_SE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_WAVE_SW",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_WAVE_SW"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_DIALOG_WAVE_W",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_DIALOG_WAVE_W"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/CONVOY_ACTIVITY_DIALOG_START",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "CONVOY_ACTIVITY_DIALOG_START"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/CONVOY_ACTIVITY_DIALOG_LEAVING",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "CONVOY_ACTIVITY_DIALOG_LEAVING"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/CONVOY_ACTIVITY_DIALOG_JOINED",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "CONVOY_ACTIVITY_DIALOG_JOINED"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/CONVOY_ACTIVITY_DIALOG_VEH_DESTROYED",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "CONVOY_ACTIVITY_DIALOG_VEH_DESTROYED"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/CONVOY_ACTIVITY_DIALOG_FIRST_DESTROYED",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "CONVOY_ACTIVITY_DIALOG_FIRST_DESTROYED"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/CONVOY_ACTIVITY_DIALOG_ONE_REMAINING",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "CONVOY_ACTIVITY_DIALOG_ONE_REMAINING"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/CONVOY_ACTIVITY_DIALOG_PING",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "CONVOY_ACTIVITY_DIALOG_PING"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/CONVOY_ACTIVITY_DIALOG_CHECKPOINTS",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "CONVOY_ACTIVITY_DIALOG_CHECKPOINTS"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/CONVOY_ACTIVITY_DIALOG_FAIL",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "CONVOY_ACTIVITY_DIALOG_FAIL"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/CONVOY_ACTIVITY_DIALOG_SUCCESS",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "CONVOY_ACTIVITY_DIALOG_SUCCESS"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_VO_APPROACH",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_VO_APPROACH"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_VO_COMPLETE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_VO_COMPLETE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_VO_DMG_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_VO_DMG_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_VO_DMG_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_VO_DMG_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_VO_DMG_3",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_VO_DMG_3"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_VO_FAIL",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_VO_FAIL"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ZOMBIES_ACTIVITY_VO_START",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ZOMBIES_ACTIVITY_VO_START"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_VO_APPROACH",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_VO_APPROACH"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_VO_COMPLETE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_VO_COMPLETE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_VO_DECON_END",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_VO_DECON_END"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_VO_DECON_START",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_VO_DECON_START"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_VO_DMG_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_VO_DMG_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_VO_DMG_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_VO_DMG_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_VO_DMG_3",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_VO_DMG_3"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_VO_FAIL",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_VO_FAIL"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_VO_START",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_VO_START"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_DIALOG_EXECUTE_WARNING",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_DIALOG_EXECUTE_WARNING"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_DIALOG_EXECUTE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_DIALOG_EXECUTE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_DIALOG_FAIL",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_DIALOG_FAIL"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_DIALOG_KILLED_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_DIALOG_KILLED_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_DIALOG_KILLED_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_DIALOG_KILLED_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_DIALOG_RESCUED_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_DIALOG_RESCUED_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_DIALOG_RESCUED_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_DIALOG_RESCUED_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_DIALOG_SUCCESS",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_DIALOG_SUCCESS"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_DIALOG_SUCCESS_ALL",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_DIALOG_SUCCESS_ALL"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_DIALOG_SUCCESS_ONE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_DIALOG_SUCCESS_ONE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_DIALOG_BEGIN",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_DIALOG_BEGIN"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOSTAGE_ACTIVITY_DIALOG_PLAYER_JOIN",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOSTAGE_ACTIVITY_DIALOG_PLAYER_JOIN"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOLDOUT_ZOMBIES_ACTIVITY_BEGIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOLDOUT_ZOMBIES_ACTIVITY_BEGIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOLDOUT_ZOMBIES_ACTIVITY_BEGIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOLDOUT_ZOMBIES_ACTIVITY_BEGIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOLDOUT_ZOMBIES_ACTIVITY_FAIL_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOLDOUT_ZOMBIES_ACTIVITY_FAIL_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOLDOUT_ZOMBIES_ACTIVITY_FAIL_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOLDOUT_ZOMBIES_ACTIVITY_FAIL_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOLDOUT_ZOMBIES_ACTIVITY_JOIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOLDOUT_ZOMBIES_ACTIVITY_JOIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOLDOUT_ZOMBIES_ACTIVITY_JOIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOLDOUT_ZOMBIES_ACTIVITY_JOIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOLDOUT_ZOMBIES_ACTIVITY_SUCCESS_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOLDOUT_ZOMBIES_ACTIVITY_SUCCESS_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOLDOUT_ZOMBIES_ACTIVITY_SUCCESS_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOLDOUT_ZOMBIES_ACTIVITY_SUCCESS_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HOLDOUT_ZOMBIES_ACTIVITY_PROGRESS_TRACKER",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HOLDOUT_ZOMBIES_ACTIVITY_PROGRESS_TRACKER"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SABOTAGE_ACTIVITY_BEGIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SABOTAGE_ACTIVITY_BEGIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SABOTAGE_ACTIVITY_SUCCESS_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SABOTAGE_ACTIVITY_SUCCESS_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SABOTAGE_ACTIVITY_FAIL_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SABOTAGE_ACTIVITY_FAIL_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SABOTAGE_PLAYER_JOIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SABOTAGE_PLAYER_JOIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SABOTAGE_ACTIVITY_DIALOG_BEGIN",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SABOTAGE_ACTIVITY_DIALOG_BEGIN"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SABOTAGE_ACTIVITY_DIALOG_PLAYER_JOIN",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SABOTAGE_ACTIVITY_DIALOG_PLAYER_JOIN"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SABOTAGE_ACTIVITY_DIALOG_DISABLED_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SABOTAGE_ACTIVITY_DIALOG_DISABLED_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SABOTAGE_ACTIVITY_DIALOG_DISABLED_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SABOTAGE_ACTIVITY_DIALOG_DISABLED_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SABOTAGE_ACTIVITY_DIALOG_DISABLED_3",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SABOTAGE_ACTIVITY_DIALOG_DISABLED_3"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SABOTAGE_ACTIVITY_DIALOG_FAIL",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SABOTAGE_ACTIVITY_DIALOG_FAIL"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SABOTAGE_ACTIVITY_DIALOG_SUCCESS",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SABOTAGE_ACTIVITY_DIALOG_SUCCESS"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SABOTAGE_OBJECTIVE_COUNTER",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SABOTAGE_OBJECTIVE_COUNTER"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SABOTAGE_OBJECTIVE_TIMER",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SABOTAGE_OBJECTIVE_TIMER"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_TRANSMITTER_START",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_SUBOBJECTIVE_TRANSMITTER_START"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/DEFEND_ACTIVITY_TRANSMITTER_FINISH",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "DEFEND_ACTIVITY_SUBOBJECTIVE_TRANSMITTER_FINISH"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SURVIVE_ZOMBIES_ACTIVITY_PROGRESS_TRACKER",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SURVIVE_ZOMBIES_ACTIVITY_PROGRESS_TRACKER"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SURVIVE_ZOMBIES_ACTIVITY_BEGIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SURVIVE_ZOMBIES_ACTIVITY_BEGIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ZOMBIE_CONTROL_ACTIVITY_BEGIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ZOMBIE_CONTROL_ACTIVITY_BEGIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ZOMBIE_CONTROL_ACTIVITY_JOIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ZOMBIE_CONTROL_ACTIVITY_JOIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ZOMBIE_CONTROL_ACTIVITY_SUCCESS_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ZOMBIE_CONTROL_ACTIVITY_SUCCESS_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ZOMBIE_CONTROL_ACTIVITY_FAIL_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ZOMBIE_CONTROL_ACTIVITY_FAIL_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ZOMBIE_CONTROL_ACTIVITY_BEGIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ZOMBIE_CONTROL_ACTIVITY_BEGIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ZOMBIE_CONTROL_ACTIVITY_JOIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ZOMBIE_CONTROL_ACTIVITY_JOIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ZOMBIE_CONTROL_ACTIVITY_SUCCESS_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ZOMBIE_CONTROL_ACTIVITY_SUCCESS_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ZOMBIE_CONTROL_ACTIVITY_FAIL_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ZOMBIE_CONTROL_ACTIVITY_FAIL_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ZOMBIE_CONTROL_ACTIVITY_TIMER",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ZOMBIE_CONTROL_ACTIVITY_TIMER"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ZOMBIE_CONTROL_ACTIVITY_TRACKER_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ZOMBIE_CONTROL_ACTIVITY_TRACKER_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ZOMBIE_CONTROL_ACTIVITY_PROGRESS_BAR_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ZOMBIE_CONTROL_ACTIVITY_PROGRESS_BAR_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ZOMBIE_CONTROL_ACTIVITY_START_INTERACT",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ZOMBIE_CONTROL_ACTIVITY_START_INTERACT"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SUMMON_ACTIVITY_BEGIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SUMMON_ACTIVITY_BEGIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SUMMON_ACTIVITY_SUCCESS_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SUMMON_ACTIVITY_SUCCESS_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SUMMON_ACTIVITY_FAIL_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SUMMON_ACTIVITY_FAIL_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SUMMON_PLAYER_JOIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SUMMON_PLAYER_JOIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SUMMON_ACTIVITY_TRACKER_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SUMMON_ACTIVITY_TRACKER_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SUMMON_ACTIVITY_TRACKER_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SUMMON_ACTIVITY_TRACKER_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SUMMON_ACTIVITY_TRACKER_3",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SUMMON_ACTIVITY_TRACKER_3"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SUMMON_ACTIVITY_FINAL_TIMER",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SUMMON_ACTIVITY_FINAL_TIMER"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SUMMON_ACTIVITY_DIALOG_PLAYER_JOIN",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SUMMON_ACTIVITY_DIALOG_PLAYER_JOIN"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SUMMON_ACTIVITY_DIALOG_COLLECTOR_1",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SUMMON_ACTIVITY_DIALOG_COLLECTOR_1"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SUMMON_ACTIVITY_DIALOG_COLLECTOR_2",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SUMMON_ACTIVITY_DIALOG_COLLECTOR_2"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SUMMON_ACTIVITY_DIALOG_COLLECTOR_3",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SUMMON_ACTIVITY_DIALOG_COLLECTOR_3"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SUMMON_ACTIVITY_DIALOG_SUCCESS",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SUMMON_ACTIVITY_DIALOG_SUCCESS"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SUMMON_ACTIVITY_DIALOG_FAIL",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SUMMON_ACTIVITY_DIALOG_FAIL"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_EXGM_ACTIVITIES/ACTIVITY_EXGM_HOSTAGE_JOINED",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ACTIVITY_EXGM_HOSTAGE_JOINED"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_EXGM_ACTIVITIES/ACTIVITY_EXGM_HOSTAGE_SUCCESS",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ACTIVITY_EXGM_HOSTAGE_SUCCESS"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_EXGM_ACTIVITIES/ACTIVITY_EXGM_HOSTAGE_FAIL",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ACTIVITY_EXGM_HOSTAGE_FAIL"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/MERC_CAMP_ACTIVITY_DIALOG_START",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "MERC_CAMP_ACTIVITY_DIALOG_START"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/MERC_CAMP_ACTIVITY_DIALOG_JOINED",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "MERC_CAMP_ACTIVITY_DIALOG_JOINED"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/MERC_CAMP_ACTIVITY_DIALOG_SUCCESS",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "MERC_CAMP_ACTIVITY_DIALOG_SUCCESS"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/MERC_CAMP_ACTIVITY_DIALOG_END",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "MERC_CAMP_ACTIVITY_DIALOG_END"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_TAKEDOWN_ACTIVITY_DIALOG_START",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_TAKEDOWN_ACTIVITY_DIALOG_START"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_TAKEDOWN_ACTIVITY_DIALOG_JOINED",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_TAKEDOWN_ACTIVITY_DIALOG_JOINED"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_TAKEDOWN_ACTIVITY_DIALOG_TAKEOFF",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_TAKEDOWN_ACTIVITY_DIALOG_TAKEOFF"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_TAKEDOWN_ACTIVITY_DIALOG_SUCCESS",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_TAKEDOWN_ACTIVITY_DIALOG_SUCCESS"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_TAKEDOWN_ACTIVITY_DIALOG_END",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_TAKEDOWN_ACTIVITY_DIALOG_END"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_CONVOY_ACTIVITY_DIALOG_START",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_CONVOY_ACTIVITY_DIALOG_START"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_CONVOY_ACTIVITY_DIALOG_JOINED",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_CONVOY_ACTIVITY_DIALOG_JOINED"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_CONVOY_ACTIVITY_DIALOG_HELI_DMG_LO",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_CONVOY_ACTIVITY_DIALOG_HELI_DMG_LO"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_CONVOY_ACTIVITY_DIALOG_HELI_DMG_HI",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_CONVOY_ACTIVITY_DIALOG_HELI_DMG_HI"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_CONVOY_ACTIVITY_DIALOG_SUCCESS",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_CONVOY_ACTIVITY_DIALOG_SUCCESS"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_CONVOY_ACTIVITY_DIALOG_END",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_CONVOY_ACTIVITY_DIALOG_END"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_ACTIVITY_DIALOG_START",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_ACTIVITY_DIALOG_START"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_ACTIVITY_DIALOG_JOINED",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_ACTIVITY_DIALOG_JOINED"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_ACTIVITY_DIALOG_FIRST_DESTROYED",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_ACTIVITY_DIALOG_FIRST_DESTROYED"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_ACTIVITY_DIALOG_VEH_DESTROYED",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_ACTIVITY_DIALOG_VEH_DESTROYED"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_ACTIVITY_DIALOG_SUCCESS",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_ACTIVITY_DIALOG_SUCCESS"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_ACTIVITY_DIALOG_END",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_ACTIVITY_DIALOG_END"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_ACTIVITY_DIALOG_SUCCESS_ALT",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_ACTIVITY_DIALOG_SUCCESS_ALT"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ARMORED_CONVOY_ACTIVITY_DIALOG_ONE_REMAINING",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ARMORED_CONVOY_ACTIVITY_DIALOG_ONE_REMAINING"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_TAKEDOWN_ACTIVITY_DIALOG_HELI_DMG_HI",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_TAKEDOWN_ACTIVITY_DIALOG_HELI_DMG_HI"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_TAKEDOWN_ACTIVITY_DIALOG_HELI_DMG_LO",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_TAKEDOWN_ACTIVITY_DIALOG_HELI_DMG_LO"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_CONVOY_ACTIVITY_DIALOG_DRONE_START",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_CONVOY_ACTIVITY_DIALOG_DRONE_START"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_CONVOY_ACTIVITY_DIALOG_DRONE_JOINED",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_CONVOY_ACTIVITY_DIALOG_DRONE_JOINED"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_CONVOY_ACTIVITY_DIALOG_DRONE_DMG",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_CONVOY_ACTIVITY_DIALOG_DRONE_DMG"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_CONVOY_ACTIVITY_DIALOG_DRONE_SUCCESS",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_CONVOY_ACTIVITY_DIALOG_DRONE_SUCCESS"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/HELI_CONVOY_ACTIVITY_DIALOG_DRONE_END",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "HELI_CONVOY_ACTIVITY_DIALOG_DRONE_END"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/MERC_CAMP_ACTIVITY_DIALOG_REINFORCEMENTS",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "MERC_CAMP_ACTIVITY_DIALOG_REINFORCEMENTS"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SOLO_RACE_ACTIVITY_DIALOG_START",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SOLO_RACE_ACTIVITY_DIALOG_START"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SOLO_RACE_ACTIVITY_DIALOG_MIDPOINT",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SOLO_RACE_ACTIVITY_DIALOG_MIDPOINT"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SOLO_RACE_ACTIVITY_DIALOG_END",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SOLO_RACE_ACTIVITY_DIALOG_END"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/SOLO_RACE_ACTIVITY_DIALOG_SUCCESS",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "SOLO_RACE_ACTIVITY_DIALOG_SUCCESS"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/QUEST_0_ACT1_DEFEND_MERCS",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_ACT1_DEFEND_MERCS"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/QUEST_0_ACT1_ENTER_STRONGHOLD",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_ACT1_ENTER_STRONGHOLD"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/QUEST_0_ACT1_EXFIL",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_ACT1_EXFIL"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/QUEST_0_ACT1_LOCATE_AVA",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_ACT1_LOCATE_AVA"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/QUEST_0_ACT1_RADIO_TOWER",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_ACT1_RADIO_TOWER"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/QUEST_0_ACT1_ZOMBIE_DEFEND",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_ACT1_ZOMBIE_DEFEND"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/BIGBOUNTY_ACTIVITY_BEGIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "BIGBOUNTY_ACTIVITY_BEGIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/BIGBOUNTY_ACTIVITY_BEGIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "BIGBOUNTY_ACTIVITY_BEGIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/BIGBOUNTY_ACTIVITY_FAILURE_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "BIGBOUNTY_ACTIVITY_FAILURE_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/BIGBOUNTY_ACTIVITY_SUCCESS_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "BIGBOUNTY_ACTIVITY_SUCCESS_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_LAUNCH_START",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_LAUNCH_START"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_ACTIVITY_LAUNCH_END",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_ACTIVITY_LAUNCH_END"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/OUTLAST_ACTIVITY_ANALYSIS_PROGRESS",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "OUTLAST_ACTIVITY_ANALYSIS_PROGRESS"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/OUTLAST_ACTIVITY_BEGIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "OUTLAST_ACTIVITY_BEGIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/OUTLAST_ACTIVITY_BEGIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "OUTLAST_ACTIVITY_BEGIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/OUTLAST_ACTIVITY_FAILURE_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "OUTLAST_ACTIVITY_FAILURE_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/OUTLAST_ACTIVITY_FAILURE_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "OUTLAST_ACTIVITY_FAILURE_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/OUTLAST_ACTIVITY_JOIN_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "OUTLAST_ACTIVITY_JOIN_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/OUTLAST_ACTIVITY_JOIN_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "OUTLAST_ACTIVITY_JOIN_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/OUTLAST_ACTIVITY_SUCCESS_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "OUTLAST_ACTIVITY_SUCCESS_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/OUTLAST_ACTIVITY_SUCCESS_TITLE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "OUTLAST_ACTIVITY_SUCCESS_TITLE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/OUTLAST_ACTIVITY_TRACKER_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "OUTLAST_ACTIVITY_TRACKER_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/OUTLAST_ACTIVITY_PND_TRACKER_DESCRIPTION",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "OUTLAST_ACTIVITY_PND_TRACKER_DESCRIPTION"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_OBJECTIVES/ESCORT_ZOMBIES_START_ACV",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "ESCORT_ZOMBIES_START_ACV"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_S2/QUEST_0_RIFT_S2_ENTERSTRONGHOLD_DESC",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_RIFT_S2_ENTERSTRONGHOLD"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_S2/QUEST_0_RIFT_S2_RESCUEINTRO_DESC",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_RIFT_S2_RESCUEINTRO"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_S2/QUEST_0_RIFT_S2_RESCUEINTRO_PROTECT_DESC",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_RIFT_S2_RESCUEINTRO_PROTECT"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_S2/QUEST_0_RIFT_S2_ESCORT_EMP_DESC",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_RIFT_S2_ESCORT_EMP"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_S2/QUEST_0_RIFT_S2_ESCORT_EMP_ENEMY_DESC",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_RIFT_S2_ESCORT_EMP_ENEMY"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_S2/QUEST_0_RIFT_S2_ESCORT_PRE_EMP_DESC",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_RIFT_S2_ESCORT_PRE_EMP"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_S2/QUEST_0_RIFT_S2_ESCORT_POST_MALL_DESC",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_RIFT_S2_ESCORT_POST_MALL"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_S2/QUEST_0_RIFT_S2_CLEAR_STRONGHOLD_DESC",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_RIFT_S2_CLEAR_STRONGHOLD"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_S2/QUEST_0_RIFT_S2_MEET_FLETCHER_DESC",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_RIFT_S2_MEET_FLETCHER"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_S2/QUEST_0_RIFT_S2_REGROUP_POST_MALL_DESC",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_RIFT_S2_REGROUP_POST_MALL"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_S2/QUEST_0_RIFT_S2_WAIT_FLETCHER",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_RIFT_S2_WAIT_FLETCHER"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_S2/QUEST_0_RIFT_S2_OUTLAST_ANALYSIS_PHASE",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_RIFT_S2_OUTLAST_ANALYSIS_PHASE"
+            },
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "display_string",
+                            "#value": "&JUP_OB_S2/QUEST_0_RIFT_S2_BOSS_DESC",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "QUEST_0_RIFT_S2_BOSS"
+            }
+        ],
+        "#hash_679a5fd22385af82": [],
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hash_a35573938e7a51c8": 1024,
+        "#widget": "ObObjective",
+        "#states": [
+            {
+                "#animation": "ToastDescShow",
+                "#name": "show_desc_toast"
+            },
+            {
+                "#animation": "ToastTitleShow",
+                "#name": "show_title_toast"
+            },
+            {
+                "#animation": "DescShow",
+                "#name": "show_desc"
+            },
+            {
+                "#animation": "TitleShow",
+                "#name": "show_title"
+            },
+            {
+                "#animation": "Hide",
+                "#name": "hidden"
+            },
+            {
+                "#animation": "Success",
+                "#name": "success"
+            },
+            {
+                "#animation": "Failure",
+                "#name": "failure"
+            },
+            {
+                "#animation": "DefaultSequence",
+                "#name": "DefaultSequence"
+            },
+            {
+                "#animation": "DialogDescShow",
+                "#name": "show_desc_dialog"
+            },
+            {
+                "#animation": "DialogTitleShow",
+                "#name": "show_title_dialog"
+            }
+        ],
+        "#normalgameplay": true,
+        "#assets": []
+    }
+}

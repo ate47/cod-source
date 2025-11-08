@@ -1,0 +1,67 @@
+{
+    "#hash_8a45173239d8fa4": {
+        "#hash_fe35ca9b37873aa2": 8,
+        "#anchors": [],
+        "#archetypes": [
+            {
+                "#archetype": "scripted_widget_archetype_powerup"
+            }
+        ],
+        "#hash_348f35d05ac9a37e": 8,
+        "#scripted_widgets": [
+            {
+                "#scripted_widget": "scripted_widget_power_up_zm"
+            }
+        ]
+    },
+    "#hash_37613e5746d75daa": {
+        "#hash_fe35ca9b37873aa2": 8,
+        "#anchors": [],
+        "#archetypes": [],
+        "#hash_348f35d05ac9a37e": 8,
+        "#scripted_widgets": [
+            {
+                "#scripted_widget": "scripted_widget_objective_tracker_jup_wm"
+            },
+            {
+                "#scripted_widget": "scripted_widget_objective_tracker_jup_wm_launch_facility"
+            },
+            {
+                "#scripted_widget": "scripted_widget_objective_tracker_jup_wm_skydiving"
+            }
+        ]
+    },
+    "#hash_49c35c36e3e402c4": {
+        "#hash_fe35ca9b37873aa2": 8,
+        "#anchors": [
+            {
+                "#anchor": "scripted_widget_anchor_origin_prison"
+            },
+            {
+                "#anchor": "scripted_widget_anchor_right_prompt_prison"
+            },
+            {
+                "#anchor": "scripted_widget_anchor_movement_node"
+            },
+            {
+                "#anchor": "scripted_widget_anchor_camera_node"
+            }
+        ],
+        "#archetypes": [],
+        "#hash_348f35d05ac9a37e": 32,
+        "#scripted_widgets": [
+            {
+                "#scripted_widget": "scripted_widget_rules_of_engagement"
+            },
+            {
+                "#scripted_widget": "scripted_widget_action_prompts"
+            },
+            {
+                "#scripted_widget": "scripted_widget_movement_node"
+            },
+            {
+                "#scripted_widget": "scripted_widget_cctv_interact"
+            }
+        ]
+    }
+}

@@ -1,0 +1,350 @@
+/* COLORS */
+/* COLORS */
+
+html.is4k {
+  font-size: 32px;
+}
+
+body {
+  background-color: #3E3E3E;
+  font-family: 'Stratum2 BETA', 'HelveticaNeueLT Arabic 55 Roman', 'Tazugane Gothic StdN ARIB', 'Noto Sans', 'Bio Sans Cyr C', NimbusS;
+  width: 120rem;
+  height: 67.5rem;
+  font-size: 1.25rem;
+  color: #E7E7E764;
+}
+
+body.is-kbm #acceptances-wrapper::-webkit-scrollbar-thumb {
+  background-clip: padding-box;
+  background-color: rgba(231, 231, 231, 0.3);
+  height: 7.8125rem;
+}
+
+body.is-kbm #acceptances-wrapper::-webkit-scrollbar-thumb:vertical:hover {
+  background-color: #79C370;
+}
+
+body.is-kbm #acceptances-wrapper:hover::-webkit-scrollbar-thumb {
+  background-color: #e7e7e7;
+  border-radius: 0.125rem !important;
+}
+
+body #acceptances {
+  background: url("../assets/eula-bg.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0 auto;
+  padding: 2.5rem 4.875rem 0;
+  color: #E7E7E7;
+  font-size: 1.25rem;
+  color: #E7E7E764;
+}
+
+body #acceptances .header {
+  display: flex;
+  justify-content: space-between;
+}
+
+body #acceptances .header svg {
+  opacity: 0.6;
+  width: 12.75rem;
+  height: 3.1875rem;
+}
+
+body .divider hr {
+  border: 1px solid #3B3B3A;
+  opacity: 0.6;
+}
+
+body .divider-top {
+  padding-bottom: 3.4375rem;
+}
+
+body .divider-top hr {
+  opacity: 0.4;
+}
+
+body .content-container {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+}
+
+body .content-container .scroll-overlay {
+  position: absolute;
+  right: 0;
+  width: 0.75rem;
+  height: 32.125rem;
+  transition: width linear 195ms;
+  background-color: #3B3B3A;
+  overflow-y: hidden;
+}
+
+body .content-container .scroll-overlay::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  background: transparent;
+  pointer-events: none;
+  height: 5.25rem;
+  top: 0;
+  transition: width linear 195ms;
+  width: 100%;
+}
+
+body .content-container .scroll-overlay:hover {
+  width: 0.75rem;
+}
+
+body .controller-hints.is-pc {
+  display: none;
+}
+
+body .controller-hints.scroll {
+  position: absolute;
+  left: 97.99%;
+  top: 0;
+}
+
+body .controller-hints .control {
+  display: block;
+}
+
+body .controller-hints .control .icon {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  margin-right: 0.5rem;
+}
+
+body .controller-hints .control .icon[data-icon-string="rightStickRight"] {
+  width: 2.8125rem;
+  height: 3.125rem;
+}
+
+body .controller-hints .control .copy {
+  color: #D2D4CD;
+  text-transform: uppercase;
+}
+
+body .controller-hints .control svg {
+  width: 100%;
+  height: 100%;
+}
+
+body .copy-container {
+  color: #E7E7E7;
+}
+
+body .copy-container .artifact-disclaimer {
+  font-size: 1.25rem;
+  color: #E7E7E764;
+}
+
+body .copy-container .copyright {
+  font-size: 1.125rem;
+}
+
+body header {
+  display: flex;
+}
+
+body .step-container {
+  display: flex;
+}
+
+body .active-artifact-title {
+  text-transform: uppercase;
+  align-items: center;
+  font-size: 1.25rem;
+  color: #E7E7E764;
+  font-size: 2.5rem;
+  color: #9AA39A;
+}
+
+body #controls {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+body #controls .controller-hints {
+  top: 50%;
+  transform: translate(0, -50%);
+  left: 5%;
+  position: absolute;
+}
+
+body #controls .controller-hints .control .icon {
+  width: 1.5625rem;
+  height: 1.5625rem;
+  margin-right: 0.5rem;
+}
+
+body #controls .controller-hints .control .icon[data-icon-string="rightStickRight"] {
+  width: 2.8125rem;
+  height: 3.125rem;
+}
+
+body #controls .controller-hints .control .copy {
+  color: #D2D4CD;
+  text-transform: uppercase;
+}
+
+body #controls .controller-hints .control svg {
+  width: 100%;
+  height: 100%;
+}
+
+body #controls button {
+  font-size: 1.25rem;
+  color: #E7E7E764;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%), #636362;
+  color: #141313;
+  width: 29.875rem;
+  height: 3.5rem;
+  position: relative;
+  border: solid 0.063rem transparent;
+  outline: none;
+  text-transform: uppercase;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+}
+
+body #controls button .control {
+  display: none;
+}
+
+body #controls button.active {
+  font-size: 1.25rem;
+  color: #E7E7E764;
+  font-weight: 700;
+  color: #141313;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%), #79C370;
+  border: 1px solid #368947;
+}
+
+body #controls button.active .control {
+  display: flex;
+}
+
+body #controls button.active#decline {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.2) 100%), #EC4442;
+  border: 1px solid #EC4442;
+}
+
+body #controls button.disabled {
+  font-size: 1.25rem;
+  color: #E7E7E764;
+  background: #292B33;
+  color: #9AA39A;
+}
+
+body #controls button.disabled.flash {
+  background: #E7E7E7;
+}
+
+body #controls button p {
+  pointer-events: none;
+}
+
+body #acceptances-wrapper {
+  height: 32.125rem;
+  overflow-y: scroll;
+  position: relative;
+  margin-bottom: 4.375rem;
+}
+
+body #acceptances-wrapper::-webkit-scrollbar {
+  width: 0.75rem;
+  background: transparent;
+}
+
+body #acceptances-wrapper::-webkit-scrollbar-track {
+  background-clip: content-box;
+}
+
+body #acceptances-wrapper::-webkit-scrollbar-thumb {
+  background-color: #E7E7E7;
+  border-radius: 0.5625rem;
+  background-color: transparent;
+  height: 3.125rem;
+}
+
+body #acceptances-wrapper .acceptance {
+  display: none;
+  padding: 0 1.5rem;
+}
+
+body #acceptances-wrapper .acceptance.active {
+  display: block;
+}
+
+body #acceptances-wrapper .acceptance header {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+body #acceptances-wrapper .acceptance a {
+  color: #E7E7E764;
+}
+
+body .scroll-warning {
+  visibility: hidden;
+  width: 100%;
+  height: 2.1875rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+body .scroll-warning.active {
+  visibility: visible;
+}
+
+body .acceptance {
+  display: none;
+  padding: 0 1.5rem;
+}
+
+body .acceptance.active {
+  display: block;
+}
+
+body .acceptance header {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+body .acceptance a {
+  color: #E7E7E764;
+}
+
+body .controller-hints {
+  display: flex;
+  align-items: center;
+}
+
+body .controller-hints svg {
+  fill: #9AA39A;
+}
+
+body.arabic .controller-hints {
+  left: unset;
+  right: 5%;
+}
+
+body.arabic .controller-hints.scroll {
+  right: 97.7%;
+}
+
+body.arabic .scroll-overlay {
+  right: unset;
+  left: 0;
+}
+
+body.arabic .scroll-overlay::after {
+  right: unset;
+  left: 0;
+}

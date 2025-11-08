@@ -1,0 +1,90 @@
+{
+    "#hash_2e60e2c97ae54bd2": {
+        "#itemlistentries": [
+            {
+                "#maxcount": 2,
+                "#weight": 100,
+                "#itemspawnlist": "ob_jup_items_contracts_sublist_high_value_red",
+                "#mincount": 2
+            },
+            {
+                "#maxcount": 1,
+                "#itemspawnlist": "ob_jup_items_contracts_riftrun_special_s3"
+            },
+            {
+                "#maxcount": 1,
+                "#weight": 1,
+                "#itemspawnlist": "ob_jup_items_contracts_riftrun_schematics_s3",
+                "#mincount": 1
+            }
+        ],
+        "#itementries": []
+    },
+    "#hash_588ec3e68e29477a": {
+        "#itemlistentries": [],
+        "#itementries": [
+            {
+                "#maxcount": 1,
+                "#weight": 8,
+                "#itemspawnentry": "ob_jup_item_weaponcase_raygun"
+            },
+            {
+                "#maxcount": 1,
+                "#weight": 8,
+                "#itemspawnentry": "ob_jup_item_weaponcase_dg2"
+            },
+            {
+                "#maxcount": 1,
+                "#weight": 8,
+                "#itemspawnentry": "ob_jup_item_weaponcase_plasmagun"
+            },
+            {
+                "#maxcount": 1,
+                "#weight": 8,
+                "#itemspawnentry": "ob_jup_item_weaponcase_vr11"
+            },
+            {
+                "#maxcount": -1,
+                "#weight": 70
+            },
+            {
+                "#itemspawnentry": "ob_jup_item_weapon_pi_raygun"
+            },
+            {
+                "#itemspawnentry": "ob_jup_item_weapon_ar_dg2"
+            },
+            {
+                "#itemspawnentry": "ob_jup_item_weapon_la_plasmagun"
+            }
+        ]
+    },
+    "#hash_75dde4390975aef0": {
+        "#itemlistentries": [
+            {
+                "#maxcount": 2,
+                "#weight": 1,
+                "#itemspawnlist": "ob_jup_items_contracts_sublist_high_value_red",
+                "#mincount": 2
+            },
+            {
+                "#maxcount": 1,
+                "#weight": 50,
+                "#itemspawnlist": "ob_jup_items_contracts_riftrun_special_s3",
+                "#mincount": 1
+            },
+            {
+                "#maxcount": 1,
+                "#weight": 50,
+                "#itemspawnlist": "ob_jup_items_contracts_riftrun_highroll"
+            }
+        ],
+        "#itementries": [
+            {
+                "#maxcount": 1,
+                "#weight": 1,
+                "#itemspawnentry": "ob_jup_item_key_rift_token_high",
+                "#mincount": 1
+            }
+        ]
+    }
+}

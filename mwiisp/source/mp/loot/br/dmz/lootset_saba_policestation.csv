@@ -1,0 +1,8 @@
+string,string,string,string,string,string,string
+inherit,mp/loot/br/dmz/lootset_root.csv,,,,,
+option,no_points_ground,,,,,
+chance,point,70,#     % of non-clustered points that will be populated,,,
+chance,cluster,70,#     % of clusters that will be populated,,,
+chance,clusterSolo,30,#     % of clusters that will become invalid after spawning one item (with dependencies),,,
+reqAdd,weapon,1,,,,
+reqAdd,revolver,1,,50,# 50% chance to have a revolver, for the PMC mission

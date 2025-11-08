@@ -1,0 +1,10 @@
+string,string,string,string,string,string,int
+inherit,mp/loot/br/sealion/resurgence/lootset_root.csv,,,,,0
+reqAdd,ammo,1,,,# require ammo,0
+reqAdd,plunder,1,,,# require plunder,0
+reqAdd,weapon,1,,,# require a weapon,0
+reqAdd,brloot_sealion_chance_token,1,1,50,# chance machine sidequest,0
+reqAdd,,1,,,# require an item of any rarity,0
+reqAdd,brloot_armor_plate,1,1,,# require an armor plate,0
+reqLimit,brloot_armor_plate,1,1,,# limit plates,0
+reqLimit,ammo,1,1,,# limit ammo,0

@@ -1,0 +1,11 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/dmz/lootset_root.csv,,,,
+tagReject,nodmz,100,,,
+reqAdd,weapon&[3],1,,100,# 1 weapon of type epic
+reqAdd,ammo,1,,100,# 1 ammo
+reqAdd,[4],1,,,# 1 item of any type legendary
+reqAdd,plunder,1,,100,#Cash Drop
+reqAdd,brloot_killstreak_clusterstrike,1,,50,
+reqAdd,brloot_killstreak_precision_airstrike,1,,50,
+reqAdd,brloot_killstreak_uav,1,,50,
+reqLimit,killstreak,,4,,

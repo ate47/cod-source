@@ -1,0 +1,8 @@
+%force_cs_anim_index_match
+
+civilian_stairs_up_loop : blendspace1d( range="56,220", blend_time="200", coords="56,120,220", value=[desiredspeed] ) loopsync
+{
+	bmr_com_stairs_run_forward_up
+	bmr_com_stairs_run_forward_up@2
+	bmr_com_stairs_run_forward_up@3
+}

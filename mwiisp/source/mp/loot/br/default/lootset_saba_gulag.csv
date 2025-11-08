@@ -1,0 +1,14 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/default/lootset_root.csv,,,,
+option,mergzones,0,,,
+options,allowdupes,1,,,
+tagReject,nogulag,100,,,
+chance,point,50,#     % of non-clustered points that will be populated,,
+chance,cluster,1,#     % of clusters that will be populated,,
+chance,clusterSolo,0,#     % of clusters that will become invalid after spawning one item (with dependencies),,
+pointFlagFilter,loot_spawn_large,0,weapon & gulag,,
+pointFlagFilter,loot_spawn_small,0,gulag | lethal | ammo,,
+reqAdd,weapon & gulag,5,,,# Chance at Weapon
+reqLimit,lethal,,2,,# Limit
+reqLimit,ammo,,4,,# Limit
+reqLimit,weapon,,5,,# Limit

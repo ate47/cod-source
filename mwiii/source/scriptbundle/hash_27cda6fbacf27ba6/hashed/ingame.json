@@ -1,0 +1,618 @@
+{
+    "#hash_57419af6cc3d0d1": {
+        "#id": "#hash_b18fb0619d83bf30",
+        "#rarity": -1,
+        "#positioncategory": "top",
+        "#hash_87ce1145840d91ca": true,
+        "#title": "&MP_BR_INGAME/CASH_DROP",
+        "#icon": "%#ui_map_icon_cash_drop"
+    },
+    "#hash_6cf4c3ac2d495a2": {
+        "#id": "#ammocache",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP_BR_INGAME/AMMO_CACHE",
+        "#icon": "%#ui_map_icon_ammo_cache"
+    },
+    "#hash_8253c24e8d25a00": {
+        "#id": "#dogtags",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&DMZ/DOG_TAG",
+        "#icon": "%#hud_icon_minimap_misc_dog_tag"
+    },
+    "#hash_b528be36cdf209a": {
+        "#id": "#perkstation",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&JUP_OB/PERK_MACHINES",
+        "#icon": "%#ui_map_icon_obj_bg"
+    },
+    "#hash_b98ae2db9e41117": {
+        "#id": "#armorykiosk",
+        "#dvar": "@#scr_br_armory_kiosk",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#hash_87ce1145840d91ca": true,
+        "#title": "&MP_BR_INGAME/ARMORY_KIOSK",
+        "#icon": "%#ui_map_icon_poi_shop"
+    },
+    "#hash_c1e7181b58ef14f": {
+        "#rarity": -1,
+        "#positioncategory": "vehicles",
+        "#title": "&VEHICLES/ORAV",
+        "#icon": "%#jup_hud_icon_minimap_vehicle_orav"
+    },
+    "#hash_cc792fff65ad522": {
+        "#id": "#wallbuy",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&CP_ZMB/PING_WALLBUY",
+        "#icon": "%#ui_icon_minimap_wallbuys"
+    },
+    "#hash_e07fc55b6f07629": {
+        "#id": "#hash_cb02a3bd8e31ef2e",
+        "#dvar": "@#scr_br_armory_kiosk",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#hash_87ce1145840d91ca": true,
+        "#title": "&EQUIPMENT/DEPLOYABLE_KIOSK_MARKER",
+        "#icon": "%#ui_map_icon_portable_buystation"
+    },
+    "#hash_191c674e8374b75a": {
+        "#id": "#cashHoarder",
+        "#isplayertarget": true,
+        "#rarity": -1,
+        "#positioncategory": "top",
+        "#title": "&MP_BR_INGAME/CASH_HOARDER",
+        "#icon": "%#ui_map_icon_top_earners"
+    },
+    "#hash_193996317ae0ad9e": {
+        "#id": "#uavtower",
+        "#dvar": "@#scr_enable_uav_towers",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&DMZ/UAV_TOWER",
+        "#icon": "%#ui_map_icon_uav_tower"
+    },
+    "#hash_19a953516252f980": {
+        "#id": "#weaponTradeStation",
+        "#dvar": "@#scr_br_armory_trader",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP_BR_INGAME/ARMORY_TRADER",
+        "#icon": "%#ui_map_icon_poi_weapontrader",
+        "#hash_c114da75f31ed27b": true
+    },
+    "#hash_19e8512ee3d06714": {
+        "#id": "#safe",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&DMZ/SAFE_TITLE",
+        "#icon": "%#ui_map_icon_safe"
+    },
+    "#hash_1a74e61ce1f45317": {
+        "#id": "#ammocache",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP_BR_INGAME/AMMO_CACHE",
+        "#icon": "%#ui_map_icon_ammo_cache"
+    },
+    "#hash_1d48bff3d11a9f4b": {
+        "#id": "#plunderBalloon",
+        "#rarity": -1,
+        "#positioncategory": "top",
+        "#hash_87ce1145840d91ca": true,
+        "#title": "&MP_BR_INGAME/EXTRACTION_BALLOON",
+        "#icon": "%#ui_map_icon_cash_balloon"
+    },
+    "#hash_22ce7c32dc7f1145": {
+        "#id": "#hash_cd6b5d6fc081ba8f",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#condition": "#hash_22e43e352ac19fba",
+        "#title": "&MP_BR_INGAME/ZC_LEADER",
+        "#icon": "%#ui_map_icon_zcleader"
+    },
+    "#hash_27a964967b37f44a": {
+        "#id": "#armorykiosk",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP_BR_INGAME/ARMORY_KIOSK",
+        "#icon": "%#ui_map_icon_poi_shop"
+    },
+    "#hash_2be50b40b0ab8f3f": {
+        "#id": "#plunderChopper",
+        "#hash_a9bace64d7f3175a": true,
+        "#rarity": -1,
+        "#positioncategory": "top",
+        "#title": "&VEHICLES/LOOT_CHOPPER",
+        "#icon": "%#hud_icon_minimap_vehicle_heli_blima"
+    },
+    "#hash_2c6ff054155ee923": {
+        "#id": "#samsite",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&DMZ/SAM_SITE_TITLE",
+        "#icon": "%#ui_map_icon_sam_site"
+    },
+    "#hash_2c835e496d297155": {
+        "#id": "#hash_345eb7bf55fe46a4",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&JUP_OB/ENCAMPMENTS",
+        "#icon": "%#hash_2a4148fa08cae621"
+    },
+    "#hash_2cb9cb196b96a33d": {
+        "#id": "#hash_45bc2951473fa36",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&JUP_OB/AETHER_NEST",
+        "#icon": "%#hash_3d352c0c5011868e"
+    },
+    "#hash_2f4c4fa92f8082dc": {
+        "#id": "#fortress",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&JUP_OB/FORTRESS",
+        "#icon": "%#hash_712f509bbfaf2740"
+    },
+    "#hash_315083391fb33a10": {
+        "#id": "#hash_b0f3f9a9f5abc2a4",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&DMZ/WEAPON_CASE_AREA",
+        "#icon": "%#ui_map_icon_dmz_weapon_search_yellow"
+    },
+    "#hash_3559f690ca3eb51b": {
+        "#id": "#activitystarter",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&DMZ/CONTRACTS",
+        "#icon": "%#ui_map_icon_ph_bg"
+    },
+    "#hash_35e3f6e55401e796": {
+        "#id": "#ammocache",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&MP_BR_INGAME/AMMO_CACHE",
+        "#icon": "%#ui_map_icon_ammo_cache"
+    },
+    "#hash_36273dca7b70703f": {
+        "#id": "#train",
+        "#rarity": 3,
+        "#positioncategory": "middle",
+        "#condition": "#hash_403700f0a30339e3",
+        "#title": "&DMZ/TRAIN",
+        "#icon": "%#hud_icon_minimap_vehicle_train_engine"
+    },
+    "#hash_3780c72b8bb73c90": {
+        "#id": "#hash_2d3c8ade695a232c",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&DMZ/FORTRESS_LOC",
+        "#icon": "%#ui_map_icon_loc_fortress"
+    },
+    "#hash_382fd77bbe749947": {
+        "#id": "#gas",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP_BR_INGAME/GAS_STATION",
+        "#icon": "%#ui_map_icon_gas_land"
+    },
+    "#hash_39224ac4cc26fd87": {
+        "#id": "#fortress",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP_BR_INGAME/FORTRESS",
+        "#icon": "%#ui_map_icon_fortress"
+    },
+    "#hash_39681f0a3357d39d": {
+        "#id": "#contracts",
+        "#iscontract": true,
+        "#rarity": -1,
+        "#positioncategory": "bottom",
+        "#hash_c114da75f31ed27b": true
+    },
+    "#hash_3c7cdebbb8b7f30d": {
+        "#id": "#radiationarea",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&DMZ/RADIATION_AREA",
+        "#icon": "%#ui_map_icon_dmz_radiation_orange"
+    },
+    "#hash_3eeef6682090ec3e": {
+        "#rarity": -1,
+        "#positioncategory": "vehicles",
+        "#title": "&VEHICLES/TRUCK_TECH_HMG",
+        "#icon": "%#jup_hud_icon_minimap_vehicle_hmg_technical"
+    },
+    "#hash_4381a18b8163a5cc": {
+        "#rarity": -1,
+        "#positioncategory": "vehicles",
+        "#title": "&VEHICLES/RAZORBACK",
+        "#icon": "%#hud_icon_minimap_vehicle_tank_coscar"
+    },
+    "#hash_46e9dadabac967db": {
+        "#id": "#exfil",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&DMZ/EXFIL",
+        "#icon": "%#ui_map_icon_extraction"
+    },
+    "#hash_493d138207eb7329": {
+        "#id": "#RedeployDrone",
+        "#dvar": "@#redeploy_ascenders_enabled",
+        "#rarity": 3,
+        "#positioncategory": "middle",
+        "#title": "&VEHICLES/REDEPLOY_DRONE",
+        "#icon": "%#ui_map_icon_redeploy_drone"
+    },
+    "#hash_4b64dcc7beb70460": {
+        "#id": "#radiationarea",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&JUP_OB/AETHER_STORM",
+        "#icon": "%#jup_ui_map_icon_obj_radiation"
+    },
+    "#hash_4bd6232d8ec2d90f": {
+        "#id": "#hash_1bd6b7da95dbead4",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&JUP_OB/REDEPLOY_DRONES",
+        "#icon": "%#hash_cb611579dc0f91b"
+    },
+    "#hash_5209a6d751823e2e": {
+        "#id": "#activitystarter",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&DMZ/CONTRACTS",
+        "#icon": "%#jup_tac_contract_phone"
+    },
+    "#hash_5279aa43c34596d9": {
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&MPUI/PLAYER_ICON",
+        "#icon": "%#icon_minimap_player"
+    },
+    "#hash_52ceb59a2dd7cc28": {
+        "#id": "#uavtower",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&DMZ/UAV_TOWER",
+        "#icon": "%#ui_map_icon_uav_tower"
+    },
+    "#hash_530836340139eaea": {
+        "#id": "#packapunch",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&LUA_MENU_ZM/PAP",
+        "#icon": "%#ui_icon_minimap_weaponupgrade"
+    },
+    "#hash_546e24478883dffd": {
+        "#id": "#tram",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#condition": "#hash_e068ddcd66d1dd2b",
+        "#title": "&MP_INGAME_ONLY/TRANSPORT_TRAM",
+        "#icon": "%#hash_23871debb2e509c9"
+    },
+    "#hash_55f7e9146d25c174": {
+        "#id": "#abandonedCache",
+        "#dvar": "@#hash_4af62e57f66d060b",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#hash_87ce1145840d91ca": true,
+        "#title": "&MP_BR_INGAME/ABANDONEDCACHE",
+        "#icon": "%#ui_map_icon_loot_cache"
+    },
+    "#hash_57b97bb0ec06f8f4": {
+        "#id": "#hash_73c8d37ffdcd940e",
+        "#dvar": "@#scr_br_dropbagspawn",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP_BR_INGAME/SQUAD_DROPBAG",
+        "#icon": "%#ui_map_icon_drop_loadout_blue"
+    },
+    "#hash_59bb18860bf6cb58": {
+        "#id": "#topEarner",
+        "#isplayertarget": true,
+        "#rarity": -1,
+        "#positioncategory": "top",
+        "#title": "&MP_BR_INGAME/TOP_EARNER",
+        "#icon": "%#ui_map_icon_marked_leader"
+    },
+    "#hash_59f5c6ab03fd82a8": {
+        "#rarity": -1,
+        "#positioncategory": "poi",
+        "#title": "&TACMAP_LEGEND/POINTS_OF_INTEREST"
+    },
+    "#hash_5a232497c7c4dab0": {
+        "#rarity": -1,
+        "#positioncategory": "items",
+        "#title": "&TACMAP_LEGEND/FIELD_UPGRADE",
+        "#icon": "%#jup_cp_hud_icon_minimap_fieldupgrade"
+    },
+    "#hash_5a232597c7c4dc63": {
+        "#rarity": -1,
+        "#positioncategory": "items",
+        "#title": "&TACMAP_LEGEND/WEAPON",
+        "#icon": "%#jup_cp_hud_icon_minimap_weapon"
+    },
+    "#hash_5a232d97c7c4e9fb": {
+        "#rarity": -1,
+        "#positioncategory": "poi",
+        "#title": "&TACMAP_LEGEND/YOU",
+        "#icon": "%#hud_icon_minimap_player_yellow"
+    },
+    "#hash_5a232e97c7c4ebae": {
+        "#rarity": -1,
+        "#positioncategory": "poi",
+        "#title": "&TACMAP_LEGEND/ALLIES",
+        "#icon": "%#hud_icon_minimap_player_friendly_blue"
+    },
+    "#hash_5a232f97c7c4ed61": {
+        "#rarity": -1,
+        "#positioncategory": "poi",
+        "#title": "&TACMAP_LEGEND/UNKNOWN_ITEM",
+        "#icon": "%#jup_question_mark"
+    },
+    "#hash_5a233097c7c4ef14": {
+        "#rarity": -1,
+        "#positioncategory": "poi",
+        "#title": "&TACMAP_LEGEND/OBJECTIVE",
+        "#icon": "%#icon_waypoint_objective_general"
+    },
+    "#hash_5a233197c7c4f0c7": {
+        "#rarity": -1,
+        "#positioncategory": "items",
+        "#title": "&TACMAP_LEGEND/ITEMS"
+    },
+    "#hash_5a233297c7c4f27a": {
+        "#rarity": -1,
+        "#positioncategory": "items",
+        "#title": "&TACMAP_LEGEND/LOOT_CASE",
+        "#icon": "%#hud_icon_minimap_misc_squad_loot_box"
+    },
+    "#hash_5a233397c7c4f42d": {
+        "#rarity": -1,
+        "#positioncategory": "items",
+        "#title": "&TACMAP_LEGEND/KILLSTREAK",
+        "#icon": "%#jup_cp_hud_icon_minimap_killstreak"
+    },
+    "#hash_5ba4d19e1f973e63": {
+        "#id": "#armorykiosk",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&JUP_OB/BUY_STATIONS",
+        "#icon": "%#ui_map_icon_poi_shop"
+    },
+    "#hash_5c397674aa48662f": {
+        "#id": "#trophyUploadStation",
+        "#dvar": "@#scr_scorpiontrophyevent",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP/SCORPION_TROPHY_BANK",
+        "#icon": "%#ui_map_icon_trophy_s03"
+    },
+    "#hash_5d606f1ae215a089": {
+        "#id": "#strongholds",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&JUP_OB/STRONGHOLDS",
+        "#icon": "%#hash_4e7437651310bb17"
+    },
+    "#hash_5f1f6bf5b5af8fa2": {
+        "#id": "#gasstation",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&DMZ/GAS_STATION",
+        "#icon": "%#ui_map_icon_gas_land"
+    },
+    "#hash_60c591ceb7b1ecf0": {
+        "#id": "#fortress",
+        "#dvar": "@#hash_9adec631e1eee04a",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP_BR_INGAME/FORTRESS",
+        "#icon": "%#ui_map_icon_stronghold"
+    },
+    "#hash_63735d7460031020": {
+        "#id": "#hash_7b9e715c3f5104c4",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&DMZ/FORTRESS_LOC_HIGH_TIER",
+        "#icon": "%#ui_map_icon_loc_fortress_high_tier"
+    },
+    "#hash_66a8043c22503d8e": {
+        "#id": "#exfil",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&DMZ/EXFIL",
+        "#icon": "%#ui_map_icon_cp_mp_exfil"
+    },
+    "#hash_66cb29575e2340d9": {
+        "#id": "#gasstation",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&JUP_OB/GAS_STATIONS",
+        "#icon": "%#ui_map_icon_gas_land"
+    },
+    "#hash_67206c52cbb387ad": {
+        "#id": "#hash_b37e1792946921cc",
+        "#dvar": "@#scr_br_plunder_sites",
+        "#rarity": 5,
+        "#positioncategory": "top",
+        "#hash_87ce1145840d91ca": true,
+        "#title": "&MP_BR_INGAME/EXTRACTION_SITE",
+        "#icon": "%#ui_map_icon_top_earners_piggy"
+    },
+    "#hash_68b20a3123899720": {
+        "#id": "#atmCache",
+        "#dvar": "@#hash_a6b7002b1a7fef73",
+        "#rarity": -1,
+        "#positioncategory": "top",
+        "#title": "&MP_BR_INGAME/ATM_CACHE",
+        "#icon": "%#ui_map_icon_atm"
+    },
+    "#hash_68f68a834006700c": {
+        "#id": "#mysterybox",
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&CP_ZMB/PING_MYSTERY_BOX",
+        "#icon": "%#ui_icon_minimap_mysterybox"
+    },
+    "#hash_6a533124cf3f5ea0": {
+        "#rarity": -1,
+        "#positioncategory": "vehicles",
+        "#title": "&VEHICLES/LITTLE_BIRD",
+        "#icon": "%#hud_icon_minimap_vehicle_littlebird"
+    },
+    "#hash_6a533224cf3f6053": {
+        "#rarity": -1,
+        "#positioncategory": "vehicles",
+        "#title": "&VEHICLES/JLTV",
+        "#icon": "%#hud_icon_minimap_vehicle_jltv_mg"
+    },
+    "#hash_6a533924cf3f6c38": {
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&MPUI/PLAYER_PING_ICON",
+        "#icon": "%#ui_mp_br_mapmenu_ping_navigation_squadleader"
+    },
+    "#hash_6a533b24cf3f6f9e": {
+        "#rarity": -1,
+        "#positioncategory": "vehicles",
+        "#title": "&VEHICLES/APC_RUS",
+        "#icon": "%#hud_icon_minimap_vehicle_apc"
+    },
+    "#hash_6a533c24cf3f7151": {
+        "#rarity": -1,
+        "#positioncategory": "vehicles",
+        "#title": "&LUA_MENU/VEHICLES"
+    },
+    "#hash_6a533e24cf3f74b7": {
+        "#rarity": -1,
+        "#positioncategory": "vehicles",
+        "#title": "&VEHICLES/PALFA",
+        "#icon": "%#hud_icon_minimap_vehicle_palfa"
+    },
+    "#hash_6a533f24cf3f766a": {
+        "#rarity": -1,
+        "#positioncategory": "vehicles",
+        "#title": "&VEHICLES/COUGAR",
+        "#icon": "%#hud_icon_minimap_vehicle_tank_cougar"
+    },
+    "#hash_6a534024cf3f781d": {
+        "#rarity": -1,
+        "#positioncategory": "vehicles",
+        "#title": "&VEHICLES/LIGHT_TANK",
+        "#icon": "%#hud_icon_minimap_vehicle_tank_coscar"
+    },
+    "#hash_6ad6198c28c48400": {
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&MPUI/PLAYER_PING_ICON",
+        "#icon": "%#ui_mp_br_mapmenu_ping_navigation_squadleader"
+    },
+    "#hash_6ad6218c28c49198": {
+        "#rarity": -1,
+        "#positioncategory": "vehicles",
+        "#title": "&VEHICLES/ATV",
+        "#icon": "%#hud_icon_minimap_vehicle_atv"
+    },
+    "#hash_6ad6228c28c4934b": {
+        "#rarity": -1,
+        "#positioncategory": "vehicles",
+        "#title": "&VEHICLES/UTV",
+        "#icon": "%#hud_icon_minimap_vehicle_utv"
+    },
+    "#hash_6ad6238c28c494fe": {
+        "#rarity": -1,
+        "#positioncategory": "vehicles",
+        "#title": "&VEHICLES/SUV_1996",
+        "#icon": "%#hud_icon_minimap_vehicle_suv_1996"
+    },
+    "#hash_6ad6248c28c496b1": {
+        "#rarity": -1,
+        "#positioncategory": "vehicles",
+        "#title": "&VEHICLES/CARGO_TRUCK",
+        "#icon": "%#hud_icon_minimap_vehicle_mil_cargo_truck"
+    },
+    "#hash_6ad6268c28c49a17": {
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&MP_ARM/HQ",
+        "#icon": "%#ui_mp_br_ping_icon_domination"
+    },
+    "#hash_6ad6278c28c49bca": {
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&MPUI/PLAYER_PING_ICON",
+        "#icon": "%#ui_mp_br_mapmenu_ping_navigation_squadleader"
+    },
+    "#hash_6ad6288c28c49d7d": {
+        "#rarity": -1,
+        "#positioncategory": "legend",
+        "#title": "&MP_ARM/HQ",
+        "#icon": "%#icon_waypoint_hq"
+    },
+    "#hash_6eb043e8739943f1": {
+        "#rarity": -1,
+        "#positioncategory": "poi",
+        "#title": "&TACMAP_LEGEND/ZIPLINE",
+        "#icon": "%#hash_32336443df796230"
+    },
+    "#hash_6ec43b283f413d4a": {
+        "#id": "#RedeployDrone",
+        "#dvar": "@#redeploy_ascenders_enabled",
+        "#rarity": 3,
+        "#positioncategory": "middle",
+        "#title": "&VEHICLES/REDEPLOY_DRONE",
+        "#icon": "%#ui_map_icon_redeploy_drone"
+    },
+    "#hash_718fe25bd894a632": {
+        "#id": "#trophyUploadStation",
+        "#dvar": "@#scr_scorpiontrophyevent",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP/SCORPION_TROPHY_BANK",
+        "#icon": "%#ui_map_icon_trophy_s03"
+    },
+    "#hash_7788fed69e36e45d": {
+        "#id": "#ammocache",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&MP_BR_INGAME/AMMO_CACHE",
+        "#icon": "%#ui_map_icon_ammo_cache"
+    },
+    "#hash_7943ba90340c1387": {
+        "#id": "#hash_8d5a0ef02185a2ab",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&DMZ/SUPPLY_DROP",
+        "#icon": "%#ui_map_icon_supply_drop_yellow"
+    },
+    "#hash_7afa388cf80a5c6d": {
+        "#id": "#train",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#condition": "#hash_403700f0a30339e3",
+        "#title": "&DMZ/TRAIN",
+        "#icon": "%#hud_icon_minimap_vehicle_train_engine"
+    },
+    "#hash_7ecb3a1b9ac6f9b3": {
+        "#id": "#contracts",
+        "#iscontract": true,
+        "#rarity": -1,
+        "#positioncategory": "top",
+        "#hash_c114da75f31ed27b": true
+    },
+    "#hash_7f40c6e4d6c06c79": {
+        "#id": "#weaponcase",
+        "#rarity": -1,
+        "#positioncategory": "middle",
+        "#title": "&DMZ/WEAPON_CASE",
+        "#icon": "%#hud_icon_minimap_misc_squad_loot_box"
+    }
+}

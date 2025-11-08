@@ -1,0 +1,9 @@
+string,string,string,string
+inherit,ob/loot/lootset_root.csv,,
+option,no_points_ground,,
+option,no_points_shelf,,
+chance,point,80,
+chance,cluster,60,
+chance,clusterSolo,40,
+reqAdd,,1,
+reqAdd,brloot_armor_plate,1,

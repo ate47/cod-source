@@ -1,0 +1,10 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/resurgence_poi/lootset_root.csv,,,,
+chance,point,85,,,
+chance,cluster,85,,,
+chance,clusterSolo,35,,,
+reqAdd,brloot_armor_plate,1,,,
+reqAdd,offensive&!(lethal|tactical),1,1,,
+reqAdd,support&!(lethal|tactical)&!(brloot_super_reinforcement_flare),1,1,,
+tagBoost,offensive,100,,,
+tagBoost,support&!(brloot_super_reinforcement_flare),100,,,

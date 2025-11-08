@@ -1,0 +1,168 @@
+{
+    "#objects": [
+        {
+            "#variant_object": {
+                "#xmodelname": "tag_origin",
+                "#aligntarget": "character_loc_winners_circle_a",
+                "#animtree": {
+                    "name": "script_model",
+                    "id": 0
+                },
+                "#name": "winners_circle_script_character_00",
+                "#shots": [
+                    {
+                        "#mayhemanimations": [],
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "iw8_mp_end_game_intro_us_cam_a_ar@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "iw8_mp_end_game_idle_us_cam_ar@sbundle"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "#variant_type": "Types_Prop"
+        },
+        {
+            "#variant_object": {
+                "#hash_8db9e626632f8094": 50,
+                "#hash_8db9e726632f82c7": 20,
+                "#xmodelname": "tag_origin",
+                "#aligntarget": "character_loc_winners_circle_a",
+                "#animtree": {
+                    "name": "script_model",
+                    "id": 0
+                },
+                "#name": "winners_circle_script_character_01",
+                "#shots": [
+                    {
+                        "#mayhemanimations": [],
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "iw8_mp_end_game_intro_us_cam_a_ar@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "iw8_mp_end_game_idle_us_cam_ar@sbundle"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "#variant_type": "Types_Prop"
+        },
+        {
+            "#variant_object": {
+                "#hash_8db9e626632f8094": -50,
+                "#hash_8db9e726632f82c7": 40,
+                "#xmodelname": "tag_origin",
+                "#aligntarget": "character_loc_winners_circle_a",
+                "#animtree": {
+                    "name": "script_model",
+                    "id": 0
+                },
+                "#name": "winners_circle_script_character_02",
+                "#shots": [
+                    {
+                        "#mayhemanimations": [],
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "iw8_mp_end_game_intro_us_cam_a_ar@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "iw8_mp_end_game_idle_us_cam_ar@sbundle"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "#variant_type": "Types_Prop"
+        },
+        {
+            "#variant_object": {
+                "#hash_8db9e626632f8094": 100,
+                "#hash_8db9e726632f82c7": 80,
+                "#xmodelname": "tag_origin",
+                "#aligntarget": "character_loc_winners_circle_a",
+                "#animtree": {
+                    "name": "script_model",
+                    "id": 0
+                },
+                "#name": "winners_circle_script_character_03",
+                "#shots": [
+                    {
+                        "#mayhemanimations": [],
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "iw8_mp_end_game_intro_us_cam_a_ar@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "iw8_mp_end_game_idle_us_cam_ar@sbundle"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "#variant_type": "Types_Prop"
+        }
+    ],
+    "#shots": [
+        {
+            "#variant_object": {
+                "#name": "intro_walk_in"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "idle"
+            },
+            "#variant_type": "Types_Shot"
+        }
+    ]
+}

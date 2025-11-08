@@ -1,0 +1,100 @@
+{
+    "name": "#vehicle_boct_mil_boat_tactical_raft_wz_blk_pc",
+    "type": "boat",
+    "scriptVehicleType": "tactical_raft_wz",
+    "scoreType": "none",
+    "cameraTag": "tag_camera",
+    "archeType": "#none",
+    "unk38": "#none",
+    "spawnerType": "#none",
+    "spawnInfluencers1": "#none",
+    "spawnInfluencers2": "#none",
+    "exhaustFx": "#hash_2e3a479308a09bbe",
+    "exhaustFxTag1": "tag_motor_steer_animate",
+    "unk13c0": "#hash_6b374ceaf54c60b8",
+    "unk13c8": "tag_motor_steer_animate",
+    "scriptBundleSettings": "#zodiac_boat_bundle_settings",
+    "deathFx": "#hash_3202c49913ee49a7",
+    "deathFxTag": "tag_motor_steer_animate",
+    "deathFxSound": "#hash_2149db0c502305e3",
+    "sndMaterialNames": [
+        "#hash_6a18d331e9b820c6"
+    ],
+    "skidSpeedMin": 350,
+    "skidSpeedMax": 650,
+    "peelSpeedMax": 600,
+    "model": "#veh_t8_mil_boat_tactical_raft_blk",
+    "deathModel": "#veh_t8_mil_boat_tactical_raft_dead_blk",
+    "soundDef": "#hash_3654a68e15f18431",
+    "compassIconMaterial": "#hash_6cee2f8b2dbb1302",
+    "destructibleDef": "#hash_7eb2c20fa0e6e924",
+    "tacticalModeIcon": "#hash_716771c2e774aebf",
+    "steerAxisName": "AXIS_LSTICK",
+    "gasAxisName": "AXIS_LSTICK",
+    "shootshock": "tankblast",
+    "rumbletype": "microwave_rumble_low",
+    "bundle": {
+        "huds": [
+            {
+                "bindings": [
+                    {
+                        "gamepad": "#gamepad",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_76b39c94b6f50858",
+                        "hash_334a8e60": "left",
+                        "prompt": "+movestick"
+                    },
+                    {
+                        "gamepad": "#gamepad",
+                        "cooldownindex": 0,
+                        "hash_334a8e60": "left",
+                        "prompt": "+lookstick"
+                    },
+                    {
+                        "kbm": "#kbm",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_5d353ec43eb36759",
+                        "hash_334a8e60": "right",
+                        "prompt": "+vehiclealtcontrol"
+                    },
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "hash_334a8e60": "left",
+                        "prompt": "+attack"
+                    }
+                ],
+                "widgets": [
+                    {
+                        "hash_513059ad": 0,
+                        "widgettype": 1
+                    },
+                    {
+                        "hash_513059ad": 0,
+                        "widgettype": 10
+                    },
+                    {
+                        "hash_513059ad": 0,
+                        "widgettype": 14
+                    },
+                    {
+                        "hash_513059ad": 4,
+                        "widgettype": 15
+                    },
+                    {
+                        "hash_513059ad": 0,
+                        "widgettype": 12
+                    }
+                ],
+                "hash_56985ec1": 0,
+                "hideweaponinfo": 0,
+                "hash_24c083a4": 0,
+                "vehiclehud": "VehicleHUD_GroundVehicle",
+                "hash_bf777968": "1 1 1 1",
+                "hash_9b2a3de7": "IsAttackMode"
+            }
+        ],
+        "healthpoolsize": 2100,
+        "hash_7812fce8": 1
+    }
+}

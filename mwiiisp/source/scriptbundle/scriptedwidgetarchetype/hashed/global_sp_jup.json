@@ -1,0 +1,171 @@
+{
+    "#hash_21798d257d9a076a": {
+        "#hash_5267b7b6ac48c6c9": "data",
+        "#archetype_func": "ArchetypeObjective",
+        "#fields": [
+            {
+                "#step_increment": 1,
+                "#field_name": "title_index",
+                "#max_value": 65535
+            },
+            {
+                "#step_increment": 1,
+                "#field_name": "count",
+                "#max_value": 10
+            },
+            {
+                "#step_increment": 1,
+                "#field_name": "is_completed",
+                "#max_value": 1
+            },
+            {
+                "#step_increment": 1,
+                "#field_name": "table_id",
+                "#max_value": 255
+            }
+        ],
+        "#hash_94e8bfb4ae7d568c": true,
+        "#widget_func": "SetObjective"
+    },
+    "#hash_30fb60496773b970": {
+        "#hash_5267b7b6ac48c6c9": "time",
+        "#archetype_func": "ArchetypeProgress",
+        "#fields": [
+            {
+                "#step_increment": 0.001,
+                "#field_name": "current_pct",
+                "#max_value": 1
+            },
+            {
+                "#step_increment": 0.001,
+                "#field_name": "target_pct",
+                "#max_value": 1
+            },
+            {
+                "#step_increment": 0.25,
+                "#field_name": "time",
+                "#max_value": 1000
+            }
+        ],
+        "#hash_94e8bfb4ae7d568c": true,
+        "#widget_func": "SetProgress"
+    },
+    "#hash_3c7793a8b9a50855": {
+        "#hash_5267b7b6ac48c6c9": "data",
+        "#fields": [
+            {
+                "#step_increment": 1,
+                "#field_name": "locstring_index",
+                "#max_value": 65535
+            },
+            {
+                "#step_increment": 1,
+                "#field_name": "important",
+                "#max_value": 1
+            },
+            {
+                "#step_increment": 1,
+                "#field_name": "locked",
+                "#max_value": 1
+            },
+            {
+                "#step_increment": 1,
+                "#field_name": "used",
+                "#max_value": 1
+            },
+            {
+                "#step_increment": 1,
+                "#field_name": "default",
+                "#max_value": 1
+            }
+        ]
+    },
+    "#hash_3f27e640042d55cd": {
+        "#hash_5267b7b6ac48c6c9": "time",
+        "#archetype_func": "ArchetypeGeneric",
+        "#fields": [
+            {
+                "#step_increment": 1,
+                "#field_name": "bundle_index",
+                "#max_value": 16
+            },
+            {
+                "#step_increment": 1,
+                "#field_name": "time",
+                "#max_value": 1000
+            },
+            {
+                "#step_increment": 1,
+                "#field_name": "progress_display_type_index",
+                "#max_value": 4
+            }
+        ],
+        "#widget_func": "SetPowerupFields"
+    },
+    "#hash_42f02a9ba4e25eb3": {
+        "#hash_5267b7b6ac48c6c9": "data",
+        "#fields": [
+            {
+                "#step_increment": 0.001,
+                "#field_name": "current_pct",
+                "#max_value": 1
+            },
+            {
+                "#step_increment": 1,
+                "#field_name": "display_name_index",
+                "#max_value": 20
+            }
+        ]
+    },
+    "#hash_4be23b86080cdcf6": {
+        "#hash_5267b7b6ac48c6c9": "data",
+        "#archetype_func": "ArchetypeCount",
+        "#fields": [
+            {
+                "#step_increment": 1,
+                "#field_name": "count",
+                "#max_value": 127
+            },
+            {
+                "#step_increment": 1,
+                "#field_name": "max_count",
+                "#max_value": 127
+            },
+            {
+                "#step_increment": 0.25,
+                "#field_name": "time",
+                "#max_value": 1000
+            }
+        ],
+        "#hash_94e8bfb4ae7d568c": true,
+        "#widget_func": "SetCount"
+    },
+    "#hash_5f97da188cc7b7e5": {
+        "#hash_5267b7b6ac48c6c9": "data",
+        "#archetype_func": "ArchetypeProgressBool",
+        "#fields": [
+            {
+                "#step_increment": 0.01,
+                "#field_name": "current_pct",
+                "#max_value": 1
+            },
+            {
+                "#step_increment": 1,
+                "#field_name": "bool",
+                "#max_value": 1
+            }
+        ],
+        "#hash_94e8bfb4ae7d568c": true,
+        "#widget_func": "SetProgressBool"
+    },
+    "#hash_62129794d51b33b8": {
+        "#hash_5267b7b6ac48c6c9": "data",
+        "#fields": [
+            {
+                "#step_increment": 1,
+                "#field_name": "locstring_index",
+                "#max_value": 65535
+            }
+        ]
+    }
+}

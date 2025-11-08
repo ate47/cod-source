@@ -1,0 +1,6 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/delta/default/lootset_root.csv,,,,
+reqAdd,brloot_health_adrenaline,1,,,# Required Stim
+reqAdd,brloot_super_stimpistol,1,,10,# Required Stim
+reqAdd,brloot_super_reinforcementflare,1,1,8,#Required Flare
+reqAdd,brloot_self_revive,1,,5,# Chance of Revive

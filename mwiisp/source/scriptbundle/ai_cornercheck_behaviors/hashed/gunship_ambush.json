@@ -1,0 +1,114 @@
+{
+    "#hash_3e6103e973a78402": {
+        "#m_specs": [
+            {
+                "#decelwindows": [
+                    {
+                        "#speed": 85,
+                        "#minspeedvalid": 85,
+                        "#maxdist": 200,
+                        "#maxspeedvalid": 250,
+                        "#types": "shallow",
+                        "#mindist": 75,
+                        "#maxdecel": 400
+                    }
+                ],
+                "#combined": [
+                    {
+                        "#decelwindow": {
+                            "#speed": 80,
+                            "#maxdist": 200,
+                            "#maxspeedvalid": 250,
+                            "#types": "all",
+                            "#mindist": 75,
+                            "#maxdecel": 400
+                        },
+                        "#action": {
+                            "#hash_9500ee6cc7edf83a": 8,
+                            "#hash_7cf6aba53ddd7274": 300,
+                            "#hash_c84c06a4463ee99c": 24
+                        },
+                        "#types": "aim_only",
+                        "#validation": {
+                            "#hash_d1e64a8da97c5f9a": 45,
+                            "#maxspeed": 250
+                        },
+                        "#animtest": {
+                            "#hash_7f5b76693231a12b": -0.2,
+                            "#hash_7f388c69320b89d5": 0.2,
+                            "#hash_830990a848249805": 2,
+                            "#hash_832c9aa8484af5bb": 25
+                        }
+                    },
+                    {
+                        "#decelwindow": {
+                            "#speed": 60,
+                            "#maxdist": 200,
+                            "#maxspeedvalid": 250,
+                            "#types": "all",
+                            "#mindist": 75,
+                            "#maxdecel": 400
+                        },
+                        "#action": {
+                            "#hash_9500ee6cc7edf83a": 8,
+                            "#hash_7cf6aba53ddd7274": 300,
+                            "#hash_c84c06a4463ee99c": 24
+                        },
+                        "#types": "strafe_only",
+                        "#validation": {
+                            "#hash_d1e64a8da97c5f9a": 170,
+                            "#maxspeed": 250
+                        },
+                        "#animtest": {
+                            "#hash_7f5b76693231a12b": -0.2,
+                            "#hash_7f388c69320b89d5": 0.2,
+                            "#hash_830990a848249805": 2,
+                            "#hash_832c9aa8484af5bb": 25
+                        }
+                    },
+                    {
+                        "#decelwindow": {
+                            "#speed": 60,
+                            "#maxdist": 200,
+                            "#maxspeedvalid": 250,
+                            "#types": "all",
+                            "#mindist": 75,
+                            "#maxdecel": 400
+                        },
+                        "#action": {
+                            "#hash_9500ee6cc7edf83a": 8,
+                            "#hash_7cf6aba53ddd7274": 300,
+                            "#hash_c84c06a4463ee99c": 24
+                        },
+                        "#types": "shallow",
+                        "#validation": {
+                            "#hash_26e073f24350c158": 40,
+                            "#hash_d1e64a8da97c5f9a": 135,
+                            "#maxspeed": 50
+                        },
+                        "#animtest": {
+                            "#hash_7f5b76693231a12b": -0.2,
+                            "#hash_7f388c69320b89d5": 0.2,
+                            "#hash_830990a848249805": 2,
+                            "#hash_832c9aa8484af5bb": 48
+                        }
+                    }
+                ],
+                "#validations": [
+                    {
+                        "#hash_26e073f24350c158": 40,
+                        "#hash_d1e64a8da97c5f9a": 135,
+                        "#maxspeed": 110,
+                        "#types": "shallow",
+                        "#minspeed": 50
+                    }
+                ],
+                "#animtests": [],
+                "#enabledtypes": "all",
+                "#actions": [],
+                "#query": {},
+                "#name": "default"
+            }
+        ]
+    }
+}

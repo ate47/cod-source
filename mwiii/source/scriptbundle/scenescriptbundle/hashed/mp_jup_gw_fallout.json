@@ -1,0 +1,424 @@
+{
+    "#hash_222142a9052ce7a": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#hash_7c6075e90a7b0fa": "soldier_ob_scene",
+                    "#name": "Actor 1",
+                    "#aitypename": "jup_ob_ally_ava_base",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_jup_zm_vig_s0_act1_quest_exfil_entry_f_ava@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_jup_zm_vig_s0_act1_quest_exfil_entry_idle_ava@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "c_jup_zmb_npc_fang_fb",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_jup_zm_vig_s0_act1_quest_exfil_entry_idle_soap@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "c_jup_zmb_ravenov_fb",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 2",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_jup_zm_vig_s0_act1_quest_exfil_entry_idle_ravenov@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#aligntarget": "origin_animate_jnt",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "ava_exfil_entry_f"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "ava_exfil_entry_idle"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "soap_exfil_entry_idle"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "ravenov_exfil_entry_idle"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_9e81d45d762210a": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#hash_7c6075e90a7b0fa": "soldier_ob_scene",
+                    "#name": "Actor 1",
+                    "#aitypename": "jup_ob_ally_ava_base",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_jup_zm_vig_s0_act3_quest_infil_exit_idle_ava@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_jup_zm_vig_s0_act3_quest_infil_exit_f_ava@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#hash_7c6075e90a7b0fa": "soldier_ob_scene",
+                    "#name": "Actor 2",
+                    "#aitypename": "jup_ob_ally_ravenov_base",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_jup_zm_vig_s0_act3_quest_infil_exit_idle_ravenov@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_jup_zm_vig_s0_act3_quest_infil_exit_f_ravenov@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            }
+        ],
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "ava_infil_exit_idle"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "ava_infil_exit_f"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "ravenov_infil_exit_idle"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "ravenov_infil_exit_f"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_5ecdb31fb8a0e58e": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#hash_7c6075e90a7b0fa": "soldier_ob_scene",
+                    "#name": "Actor 1",
+                    "#aitypename": "jup_ob_ally_ava_base",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_jup_zm_vig_s0_act1_quest_typing_idle_ava@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#reachtype": "ReachArrive",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_jup_zm_vig_s0_act1_quest_typing_react_01_ava@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#reachtype": "ReachArrive",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_jup_zm_vig_s0_act1_quest_typing_to_cover_01_ava@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#reachtype": "ReachArrive",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "ch_cin_jup_zm_vig_s0_act1_quest_typing_to_cover_02_ava@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "jup_zm_merc_defend_computer_combined",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "o_cin_jup_zm_vig_s0_act1_quest_typing_idle_computer@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "o_cin_jup_zm_vig_s0_act1_quest_typing_react_01_computer@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "o_cin_jup_zm_vig_s0_act1_quest_typing_to_cover_01_computer@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "o_cin_jup_zm_vig_s0_act1_quest_typing_to_cover_02_computer@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#aligntarget": "tag_align",
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "ava_typing_idle"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "ava_typing_react_01"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "ava_typing_to_cover_01"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "ava_typing_to_cover_02"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    }
+}

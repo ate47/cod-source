@@ -1,0 +1,14 @@
+%force_cs_anim_index_match
+aimnode: blendspace2d( rangeX="-45, 45", rangeY="-45, 45", blend_time="250", coords="{45,45},{0,45},{-45,45},{45,0},{0,0},{-45,0},{45,-45},{0,-45},{-45,-45}", edges="", valuex=[custom_attack_yaw], valuey=[custom_attack_pitch] )
+
+{
+	#aim_1
+	#aim_2
+	#aim_3
+	#aim_4
+	#aim_5
+	#aim_6
+	#aim_7
+	#aim_8
+	#aim_9
+}

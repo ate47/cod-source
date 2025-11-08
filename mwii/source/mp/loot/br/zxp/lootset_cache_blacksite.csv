@@ -1,0 +1,8 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/zxp/lootset_root.csv,,,,
+reqAdd,killstreak&brPowerItem&!brloot_redeploy_token,4,,,
+reqAdd,brPowerItem&!plunder&!brloot_redeploy_token,4,,,
+reqAdd,plunder,5,,,
+reqLimit,killstreak,3,,,
+reqAdd,brloot_zmb_stim,1,1,100,# ZXP Stim
+reqAdd,brloot_offhand_magsnap|brloot_super_hauntedbox,1,1,100,# Forced MagSnap or Haunted Box

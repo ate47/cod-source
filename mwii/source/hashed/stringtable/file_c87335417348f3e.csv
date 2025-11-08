@@ -1,0 +1,48 @@
+string,string,string,string,string,string,string,string,string
+clip64x64x64,,27966,-30546,3198,0,30,0,ATM fix
+clip128x128x128,,28850,-31151,3381,0,30,0,awning arch fix
+missile64x64x128,,29594.5,-29708.5,3232.5,0,30,0,awning arch fix
+missile32x32x256,,27066,-30186,3156,90,0,60,awning arch fix
+clip32x32x256,,27066,-30186,3156,90,0,60,awning arch fix
+player256x256x128,,27536,-30804,3468,0,30,-90,awning arch fix
+player32x32x256,,28814,-31104,3322,0,30,0,block player from clipping into model and causing umbra
+clip128x128x128,,29590.5,-28499.5,3087.5,0,30,0,Spawn clip by the red tarp
+player32x32x256,,28677,-30875,3309,0,30,0,block player from clipping into model and causing umbra
+player64x64x256,,27480,-30670,3242,0,26,0,Block player from getting onto roof by the arch
+player64x64x256,,27490,-30690,3242,0,26,0,Block player from getting onto roof by the arch
+player256x256x256,,27979,-29361.5,3296,0,30,0,Block player from getting onto roof by the arch
+player32x32x256,,28380,-30426,3140,0,34,0,Block player from getting onto roof by the arch
+player32x32x256,,28402,-30412,3140,0,34,0,Block player from getting onto roof by the arch
+missile256x256x8,,28122,-30646,3300,0,30,90,Add missile clip on windows.
+missile128x128x8,,27914,-28156,3150,0,32,90,Adresses IW9-874651 
+nosight32x32x128,,28934,-31004,3258,0,300,-90,Block player from hanging on a tv in the cantina
+player32x32x32,,27526,-30024,3316,0,27.9968,0,Fixes mid area exploit, blue underside outcropped geo 1
+player32x32x32,,27514,-30004,3316,0,27.9968,0,Fixes mid area exploit, blue underside outcropped geo 2
+player32x32x32,,27554,-30008,3316,0,27.9968,0,Fixes mid area exploit, blue underside outcropped geo 3
+player32x32x32,,27542,-29988,3316,0,27.9968,0,Fixes mid area exploit, blue underside outcropped geo 4
+missile128x128x8,,27065.961,-30280.248,3365.312,0,28,90,Fixes missile clip issue in blue building door way
+player256x256x256,,28573.5,-30214,3572,90,31,0,Adds clip around center building to block players from getting up there
+player256x256x256,,28787.5,-30080,3568,90,31,0,Adds clip around center building to block players from getting up there
+player256x256x256,,28512,-29296,3404,0,30,0,Adds clip around center building to block players from getting up there
+shotblock128x128x8,shotblock128x128x8,27452,-30008,3216,0,30,90,Add shotblock to church
+shotblock128x128x128,shotblock128x128x128,27034.092,-29951.479,3220,0,31,90,Add shotblock to church
+clip256x256x8,,28888,-28538,3176,0,300,90,Fixes umbra in warehouse room
+clip256x256x8,,28956,-28656,3176,0,300,90,Fixes umbra in warehouse room
+shotblock128x128x128,shotblock128x128x128,27832,-30316,3172,0,300,0,Add shotblock to center area geo block
+shotblock256x256x8,shotblock256x256x8,28195,-30093.5,3206.5,0,300,90,Add shotblock to tunnel
+shotblock128x128x8,shotblock128x128x8,29015.389,-30656.232,3213.555,0,300,90,Adds shotblock to cantina
+shotblock128x128x8,shotblock128x128x8,28983.4,-30602.199,3213.56,0,300,90,Adds shotblock to cantina
+shotblock256x256x8,shotblock256x256x8,28841.801,-30614.4,3153.56,0,210,90,Adds shotblock to cantina
+shotblock256x256x8,shotblock256x256x8,28726.801,-30680.4,3153.56,0,210,90,Adds shotblock to cantina
+shotblock128x128x256,shotblock128x128x256,27368,-29536,3223.5,90,0,60,Adds shotblock in the church old church
+shotblock128x128x128,shotblock128x128x128,29456,-29968,3168,0,30,0,Adds shotblock to fixIW9-597043
+shotblock128x128x128,shotblock128x128x128,29460,-29884,3168,0,30,0,Adds shotblock to fixIW9-597043
+clip32x32x128,,28188,-28546,3304,0,300,-174.999,Fixes umbra IW9-608198
+clip128x128x8,,27359,-29639,3500,0,300,90,Fixes missing collision on old church
+player128x128x8,,27326,-28576,3332,0,300,85,Fixes IW9-733499
+player64x64x128,,29322.699,-30331.699,3288,350,300,0,Fixes overhang by barbershop
+player64x64x128,,29298.662,-30345.662,3288,350,300,0,Fixes overhang by barbershop
+shotblock128x128x8,shotblock128x128x8,28816,-29878,3222,0,30,90,Adds shotblock to fix IW9-733384
+shotblock128x128x8,shotblock128x128x8,28756,-29778,3222,0,30,90,Adds shotblock to fixI IW9-733384
+shotblock256x256x8,shotblock256x256x8,28200,-30600,3320,0,30,90,Adds shotblock to fixI IW9-733384
+nosight128x128x8,,27696,-29680,3232,90,26.143,-3.856,Adresses  IW9-952825

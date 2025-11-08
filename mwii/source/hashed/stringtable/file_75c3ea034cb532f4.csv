@@ -1,0 +1,32 @@
+string,string,string,string,string,string,string,string,string,string,string
+0,,,custom,prewave,5,,,,,
+1,,,spawn_cmd,,30,ai_shotgun 6 4,wait_count 4,ai_riot 4 0,,
+2,,,spawn_cmd,,30,ai_shotgun 6 4,wait_count 4,ai_riot 4 0,,
+3,,,spawn_cmd,,30,ai_ar 6 4,wait_time 30,ai_shotgun 6 4,wait_count 0,ai_riot 4 0
+4,,,spawn_cmd,,30,ai_smg 6 4,wait_count 0,ai_shotgun 6 4,wait_count 0,ai_riot 4 0
+5,,,spawn_cmd,,30,ai_shotgun 6 4,wait_count 30,ai_jugg 1 1,,
+6,,,,,,,,,,
+7,,,spawn_cmd,,30,ai_smg 3 0,ai_ar 1 0,,,
+8,,,spawn_cmd,lmg_house,30,ai_lmg 2 0 spawner_lmg_house,ai_ar 2 0 spawner_lmg_house,wait_flag near_lmg_house,ai_ar 4 0,
+9,,,spawn_cmd,,30,ai_ar 9 0,,,,
+10,,,spawn_cmd,sniper_house,30,ai_rpg 2 0 spawner_sniper_house_window,ai_sniper 1 0 spawner_sniper_house_window,ai_ar 3 0 spawner_sniper_house,wait_flag near_sniper_house,ai_ar 6 0
+11,,,spawn_cmd,,30,ai_ar 11 0,wait_time 20,ai_jugg 1 0,,
+12,,,,,,,,,,
+13,13 14 15,repeat_start,spawn_cmd,,30,ai_shotgun 6 4,wait_count 4,ai_riot 4 0,,
+14,13 14 15,,spawn_cmd,,30,ai_shotgun 6 4,wait_count 4,ai_riot 4 0,,
+15,13 14 15,,spawn_cmd,,30,ai_ar 6 4,wait_count 0,ai_shotgun 6 4,wait_count 0,ai_riot 4 0
+16,,,spawn_cmd,,30,ai_smg 6 4,wait_count 0,ai_shotgun 6 4,wait_count 0,ai_riot 4 0
+17,,repeat_end,spawn_cmd,,30,ai_shotgun 6 4,wait_count 30,ai_jugg 1 1,,
+18,,,,,,,,,,
+19,,,,,,,,,,
+20,,,,,,,,,,
+21,,,,,,,,,,
+22,,,,,,,,,,
+23,,,,,,,,,,
+24,,,,,,,,,,
+25,,,,,,,,,,
+26,,,,,,,,,,
+27,,,,,,,,,,
+28,,,,,,,,,,
+29,,,,,,,,,,
+30,,,,,,,,,,

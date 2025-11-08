@@ -1,0 +1,438 @@
+{
+    "#isactivearmory": false,
+    "#hash_7dd53930896082d8": false,
+    "#hash_e10b5af3eb8b75c5": false,
+    "#hash_b0ae127b7ec2cc64": true,
+    "#image": "hud_icon_weapon_jup_jp01_ar_golf36_mp",
+    "#hash_79839b907716ac41": "icon_weapon_jup_jp01_ar_golf36_mp",
+    "#platform": "platform_jup_ar_golf36",
+    "#hash_6f6c20f2b0d0c976": "WEAPON/SUBCLASS_ID_1",
+    "#maxrank": 100,
+    "#hash_d0fe304f345ec9f0": false,
+    "#hash_d1072a4f3468db6c": false,
+    "#hash_d1404c4f34a7a11d": false,
+    "#tuningasset": "jup_jp01_ar_golf36_tuning",
+    "#bwimage": "hud_icon_weapon_jup_jp01_ar_golf36_mp",
+    "#unlocktype": "NONE",
+    "#hash_a14ab3c871d11f13": [],
+    "#menuclass": "weapon_assault",
+    "#category": "&WEAPON/SUBCLASS_ID_1",
+    "#hash_5c340605811ef737": true,
+    "#rarity": "COMMON",
+    "#isdefault": false,
+    "#survivalcost": 2000,
+    "#botpersonality": "run_and_gun|cqb|camper",
+    "#hash_1328c6a635d409bf": {
+        "#zoffset": -0.5,
+        "#yoffset": 1,
+        "#priority": 1
+    },
+    "#lootid": 17181,
+    "#hash_64ecb2fb1eb743a6": "WZ2,IW9,JUP",
+    "#hash_b39b0c46cc86be1d": 5,
+    "#hash_f79f436c85df92d0": 8,
+    "#ref": "jup_jp01_ar_golf36",
+    "#botdifficulty": "recruit|regular|hardened|veteran",
+    "#availableoffline": true,
+    "#hash_dea75a49e78d5e7f": false,
+    "#hash_2ab754e309d92f29": "full_auto_fire_mode",
+    "#desc": "&JUP_WEAPON/GOLF36_DESC",
+    "#botarchetype": "assault",
+    "#hash_bca4e5890b0eedf6": true,
+    "#hash_696d08f2d8ca06f4": false,
+    "#hash_3f53e2b3788c8f17": true,
+    "#hash_f88228c68db4828": false,
+    "#speedscale": 1,
+    "#name": "&JUP_WEAPON/JUP_JP01_AR_GOLF36",
+    "#hash_26755ea5f1d38138": [
+        {
+            "#season": "0",
+            "#priority": 1
+        },
+        {
+            "#season": "1",
+            "#priority": 1
+        },
+        {
+            "#season": "2",
+            "#priority": 1
+        },
+        {
+            "#season": "3",
+            "#priority": 1
+        },
+        {
+            "#season": "4",
+            "#priority": 1
+        }
+    ],
+    "#attachfirst": "rec front back mag gripdefault selectsemi ironsdefault",
+    "#asset": "jup_jp01_ar_golf36_mp",
+    "#hash_1025dff40f62ddf2": false,
+    "#group": "weapon_assault",
+    "#hash_1d2551f4185c4b6a": false,
+    "#weaponprogression": [
+        {
+            "#levelunlocks": [
+                {},
+                {},
+                {},
+                {},
+                {}
+            ]
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#challengeref": "jup_jp01_ar_golf36_camo_1",
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_bar_short",
+                    "#lootid": 21822,
+                    "#challengeid": 11406
+                },
+                {
+                    "#challengeref": "jup_jp01_ar_golf36_camo_ob_1",
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_frontpieces",
+                    "#lootid": 21729,
+                    "#challengeid": 17902
+                },
+                {},
+                {},
+                {}
+            ],
+            "#level": 1
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_twofivex_golf36",
+                    "#lootid": 23431
+                },
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_optics",
+                    "#lootid": 21732
+                },
+                {},
+                {},
+                {}
+            ],
+            "#level": 2
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_stock_assault",
+                    "#lootid": 21830
+                },
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_backpieces",
+                    "#lootid": 21730
+                },
+                {},
+                {},
+                {}
+            ],
+            "#level": 3
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_pgrip_tac",
+                    "#lootid": 21848
+                },
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_reargrips",
+                    "#lootid": 21735
+                },
+                {},
+                {},
+                {}
+            ],
+            "#level": 4
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_comp_ar_07",
+                    "#lootid": 21809
+                },
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_muzzles",
+                    "#lootid": 21734
+                },
+                {},
+                {},
+                {}
+            ],
+            "#level": 5
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_mag_20_556n",
+                    "#lootid": 21837
+                },
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_magazines",
+                    "#lootid": 21731
+                },
+                {},
+                {},
+                {}
+            ],
+            "#level": 6
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_ammo_556n_rn",
+                    "#lootid": 26668
+                },
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_gunperks",
+                    "#lootid": 23233
+                },
+                {},
+                {},
+                {}
+            ],
+            "#level": 7
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_stock_tacheavy",
+                    "#lootid": 21827
+                },
+                {},
+                {},
+                {},
+                {}
+            ],
+            "#level": 8
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#challengeref": "jup_jp01_ar_golf36_camo_2",
+                    "#hash_c2ebfd2a212d7be2": "grip_vert01",
+                    "#lootid": 3162,
+                    "#challengeid": 11407
+                },
+                {
+                    "#challengeref": "jup_jp01_ar_golf36_camo_ob_2",
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_undermounts",
+                    "#lootid": 21733,
+                    "#challengeid": 17903
+                },
+                {},
+                {},
+                {}
+            ],
+            "#level": 9
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_pgrip_snp",
+                    "#lootid": 21845
+                },
+                {},
+                {},
+                {},
+                {}
+            ],
+            "#level": 10
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "laserbox_ads02",
+                    "#lootid": 676
+                },
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_extras",
+                    "#lootid": 21737
+                },
+                {},
+                {},
+                {}
+            ],
+            "#level": 11
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_mag_40_556n",
+                    "#lootid": 21839
+                },
+                {},
+                {},
+                {},
+                {}
+            ],
+            "#level": 12
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_pgrip_ske",
+                    "#lootid": 21847
+                },
+                {},
+                {},
+                {},
+                {}
+            ],
+            "#level": 13
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_bar_light",
+                    "#lootid": 21819
+                },
+                {},
+                {},
+                {},
+                {}
+            ],
+            "#level": 14
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#challengeref": "jup_jp01_ar_golf36_camo_3",
+                    "#hash_c2ebfd2a212d7be2": "jup_silencer_ar_06",
+                    "#lootid": 32198,
+                    "#challengeid": 11422
+                },
+                {
+                    "#challengeref": "jup_jp01_ar_golf36_camo_ob_3",
+                    "#challengeid": 17904
+                },
+                {},
+                {},
+                {}
+            ],
+            "#level": 15
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_stock_heavy",
+                    "#lootid": 21828
+                },
+                {},
+                {},
+                {},
+                {}
+            ],
+            "#level": 16
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_pgrip_aim",
+                    "#lootid": 21844
+                },
+                {},
+                {},
+                {},
+                {}
+            ],
+            "#level": 17
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_risr_twofivex01",
+                    "#lootid": 21773
+                },
+                {},
+                {},
+                {},
+                {}
+            ],
+            "#level": 18
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_bar_fusion",
+                    "#lootid": 21820
+                },
+                {},
+                {},
+                {},
+                {}
+            ],
+            "#level": 19
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_stock_skel",
+                    "#lootid": 21829
+                },
+                {},
+                {},
+                {},
+                {}
+            ],
+            "#level": 20
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_bar_short_heavy",
+                    "#lootid": 21821
+                },
+                {},
+                {},
+                {},
+                {}
+            ],
+            "#level": 21
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_stockno",
+                    "#lootid": 21832
+                },
+                {},
+                {},
+                {},
+                {}
+            ],
+            "#level": 22
+        },
+        {
+            "#levelunlocks": [
+                {
+                    "#challengeref": "jup_jp01_ar_golf36_camo_4",
+                    "#hash_c2ebfd2a212d7be2": "ub_gl01",
+                    "#lootid": 1219,
+                    "#challengeid": 11423
+                },
+                {
+                    "#challengeref": "jup_jp01_ar_golf36_camo_ob_4",
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_tuning",
+                    "#lootid": 22260,
+                    "#challengeid": 17905
+                },
+                {
+                    "#hash_c2ebfd2a212d7be2": "jup_jp01_ar_golf36_amps",
+                    "#lootid": 47199
+                },
+                {},
+                {}
+            ],
+            "#level": 23
+        }
+    ],
+    "#displayorder": 17,
+    "#availablegamemodes": "MP,OB,MOBILE,BR",
+    "#tacticalspeedscale": 0.92,
+    "#hash_799361e53b3b5b94": []
+}

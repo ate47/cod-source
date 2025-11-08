@@ -1,0 +1,8 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/default/lootset_root.csv,,,,
+tagReject,nocache,100,,,
+reqAdd,ammo,1,,,# required ammo
+reqAdd,plunder,1,1,,
+reqAdd,,1,,20,# chance for any item of any quality
+reqLimit,ammo,2,3,,
+reqLimit,gear,0,1,,

@@ -1,0 +1,5 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/delta/zxp/lootset_root.csv,,,,
+tagReject,nocache,100,,,
+reqAdd,brloot_zmb_stim,1,1,100,# ZXP Stim
+reqAdd,brloot_offhand_magsnap|brloot_super_hauntedbox,1,1,100,# Forced MagSnap or Haunted Box

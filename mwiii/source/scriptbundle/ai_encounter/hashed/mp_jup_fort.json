@@ -1,0 +1,1017 @@
+{
+    "#hash_31ee940d9ad45399": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "spawnRandom",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase1"
+                    },
+                    {
+                        "#tag": "wave1"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 4,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase1"
+                    },
+                    {
+                        "#tag": "wave2"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase1"
+                    },
+                    {
+                        "#tag": "wave3"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler_hvt",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase2"
+                    },
+                    {
+                        "#tag": "wave1"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic_hvt",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase2"
+                    },
+                    {
+                        "#tag": "wave2"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple_hvt",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase2"
+                    },
+                    {
+                        "#tag": "wave3"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic_hvt_emp",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase3"
+                    },
+                    {
+                        "#tag": "wave1"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler_hvt",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase3"
+                    },
+                    {
+                        "#tag": "wave2"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple_hvt_stormcaller",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase3"
+                    },
+                    {
+                        "#tag": "wave3"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple_hvt_spatial",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase4"
+                    },
+                    {
+                        "#tag": "wave1"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple_hvt",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase4"
+                    },
+                    {
+                        "#tag": "wave2"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic_hvt",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase4"
+                    },
+                    {
+                        "#tag": "wave3"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler_s3_rr_quest",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase5"
+                    },
+                    {
+                        "#tag": "wave1"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic_hvt",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase5"
+                    },
+                    {
+                        "#tag": "wave2"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler_hvt",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase5"
+                    },
+                    {
+                        "#tag": "wave3"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic_s3_rr",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase6"
+                    },
+                    {
+                        "#tag": "wave1"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler_hvt_spatial",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase6"
+                    },
+                    {
+                        "#tag": "wave2"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic_hvt_emp",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase6"
+                    },
+                    {
+                        "#tag": "wave3"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple_s3_rr",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler_s3_rr",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic_s3_rr",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            }
+        ],
+        "#requiredtags": [
+            {
+                "#tag": "ob_unstable_rift"
+            }
+        ],
+        "#hash_bdd3233ff35552d0": true,
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_eaf2d49924a9c14": "random"
+                    },
+                    "#variant_type": "Types_RandomSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "immediate",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": false,
+        "#hash_1647f937d0da0c33": {
+            "#hash_15082fe4f4b3229b": 100
+        }
+    },
+    "#hash_4e22c4b8685d929c": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "spawnRandom",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase1"
+                    },
+                    {
+                        "#tag": "wave3"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic_hvt",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase2"
+                    },
+                    {
+                        "#tag": "wave3"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler_hvt",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase3"
+                    },
+                    {
+                        "#tag": "wave3"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple_hvt_stormcaller",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase4"
+                    },
+                    {
+                        "#tag": "wave3"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic_hvt_emp",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [
+                    {
+                        "#tag": "phase5"
+                    },
+                    {
+                        "#tag": "wave3"
+                    }
+                ],
+                "#hash_75e8b4b12826dca6": false,
+                "#hash_179611467641c036": [],
+                "#requiredalltags": true,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_df8364f7a7e35119": [],
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_disciple_s3_rr_unstable_rift",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            }
+        ],
+        "#requiredtags": [
+            {
+                "#tag": "ob_unstable_rift"
+            }
+        ],
+        "#hash_bdd3233ff35552d0": true,
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_eaf2d49924a9c14": "random"
+                    },
+                    "#variant_type": "Types_RandomSpawnSelectionParams"
+                }
+            ]
+        },
+        "#requiredalltags": false,
+        "#hash_605d88fdc85b673d": "immediate",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": false,
+        "#hash_1647f937d0da0c33": {
+            "#hash_15082fe4f4b3229b": 100
+        }
+    }
+}

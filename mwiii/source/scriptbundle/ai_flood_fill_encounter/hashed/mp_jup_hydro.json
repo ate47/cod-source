@@ -1,0 +1,710 @@
+{
+    "#hash_23925db53dd5bdc": {
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 4,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mimic",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 0.5,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base_armored_light",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base_armored_heavy",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 1.5,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base_armored_heavy",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 1.5,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_hellhound",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 0.5,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base_armored_heavy",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 30
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true,
+        "#hash_1647f937d0da0c33": {
+            "#hash_98080a4c2759eb8f": 0.5,
+            "#hash_15082fe4f4b3229b": 20,
+            "#hash_bc5eb4ae9531c1fc": true,
+            "#hash_4bcfb20c457c2f67": true
+        }
+    },
+    "#hash_23926db53dd5d8f": {
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 3,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_hellhound",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 0.5,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base_armored_light",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base_armored_heavy",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 3,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base_armored_heavy",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 4,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 30
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true,
+        "#hash_1647f937d0da0c33": {
+            "#hash_98080a4c2759eb8f": 0.5,
+            "#hash_15082fe4f4b3229b": 20,
+            "#hash_bc5eb4ae9531c1fc": true,
+            "#hash_4bcfb20c457c2f67": true
+        }
+    },
+    "#hash_23927db53dd5f42": {
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 0.5,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_c2f4c9d88a0a6125": "obelisk"
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 0.5,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_c2f4c9d88a0a6125": "obelisk"
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 0.5,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_c2f4c9d88a0a6125": "obelisk"
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_base_armored_light",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_c2f4c9d88a0a6125": "obelisk"
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 0.5,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 4,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_c2f4c9d88a0a6125": "obelisk"
+                    },
+                    {
+                        "#aitype": "jup_spawner_zombie_base_armored_light",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_c2f4c9d88a0a6125": "obelisk"
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 30
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true,
+        "#hash_1647f937d0da0c33": {
+            "#hash_98080a4c2759eb8f": 0.5,
+            "#hash_15082fe4f4b3229b": 20,
+            "#hash_bc5eb4ae9531c1fc": true,
+            "#hash_4bcfb20c457c2f67": true
+        }
+    },
+    "#hash_444ab1b52306d8d": {
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_mangler",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 1,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_c2f4c9d88a0a6125": "obelisk"
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 1.5,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 3,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_c2f4c9d88a0a6125": "obelisk"
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 0.5,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_c2f4c9d88a0a6125": "obelisk"
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            },
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_98080a4c2759eb8f": 1,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base",
+                        "#spawnfilter": "custom",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 2,
+                        "#hash_8dec8deff66e2c69": true,
+                        "#hash_c2f4c9d88a0a6125": "obelisk"
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_f0dc9444869c62f9": true,
+                        "#hash_eaf2d49924a9c14": "spawn_points",
+                        "#hash_7c0f1597c648d597": 30
+                    },
+                    "#variant_type": "Types_PointSpawnSelectionParams"
+                }
+            ]
+        },
+        "#hash_605d88fdc85b673d": "unique",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true,
+        "#hash_1647f937d0da0c33": {
+            "#hash_98080a4c2759eb8f": 0.5,
+            "#hash_15082fe4f4b3229b": 20,
+            "#hash_bc5eb4ae9531c1fc": true,
+            "#hash_4bcfb20c457c2f67": true
+        }
+    },
+    "#hash_2d783c600f444203": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 10,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": []
+        },
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true,
+        "#hash_1647f937d0da0c33": {
+            "#hash_15082fe4f4b3229b": 20
+        }
+    },
+    "#hash_2d783d600f4443b6": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 10,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": []
+        },
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true,
+        "#hash_1647f937d0da0c33": {
+            "#hash_15082fe4f4b3229b": 20
+        }
+    },
+    "#hash_2d783e600f444569": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#hash_aea2e41228e503c2": true,
+                        "#spawncount": 10,
+                        "#hash_8dec8deff66e2c69": true
+                    }
+                ],
+                "#hash_acea821686a77783": "always",
+                "#faction": "zombie"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": []
+        },
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "always",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true,
+        "#hash_1647f937d0da0c33": {
+            "#hash_15082fe4f4b3229b": 15
+        }
+    },
+    "#hash_488fcd34b7b48e4f": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": []
+        },
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true,
+        "#hash_1647f937d0da0c33": {
+            "#hash_15082fe4f4b3229b": 20
+        }
+    },
+    "#hash_7ed98aa612851130": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": []
+        },
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true,
+        "#hash_1647f937d0da0c33": {
+            "#hash_15082fe4f4b3229b": 20
+        }
+    },
+    "#hash_7ed98ba6128512e3": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": []
+        },
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true,
+        "#hash_1647f937d0da0c33": {
+            "#hash_15082fe4f4b3229b": 20
+        }
+    },
+    "#hash_7ed98ca612851496": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": []
+        },
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true,
+        "#hash_1647f937d0da0c33": {
+            "#hash_15082fe4f4b3229b": 20
+        }
+    },
+    "#hash_7ed991a612851d15": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": []
+        },
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true,
+        "#hash_1647f937d0da0c33": {
+            "#hash_15082fe4f4b3229b": 20
+        }
+    }
+}

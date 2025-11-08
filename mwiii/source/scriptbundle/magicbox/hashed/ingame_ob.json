@@ -1,0 +1,36 @@
+{
+    "#hash_54e871b0e4bc9424": {
+        "#objectiveicon": "ui_icon_minimap_mysterybox",
+        "#hash_888e9af064e3f1c8": "ob_base_magicbox_scaling",
+        "#magicBoxJokerVFX": "vfx/jup/ob/gameplay/zm/vfx_magic_box_bunny_rarity_white.vfx",
+        "#magicBoxJokerDisappearVFX": "vfx/jup/ob/gameplay/zm/vfx_magic_box_bunny_rarity_white_disappear.vfx",
+        "#hash_d892f026355ed7a2": 4,
+        "#magicBoxSharedWeaponVFX": "vfx/jup/ob/gameplay/zm/vfx_powerup_glow_green.vfx",
+        "#model": "jup_zm_mystery_box_all_fxanim",
+        "#hash_83c1e0570238817": "&SHARED_HINTSTRINGS/MAGICBOX_USE_ESSENCE",
+        "#hash_11cc16f2a143d3b5": 4,
+        "#magicboxjokermodel": "jup_zm_mystery_box_plinth_bunny",
+        "#hash_a98942d893386a40": "&SHARED_HINTSTRINGS/MAGICBOX_USE_ESSENCE_NOT_ENOUGH_ESSENCE",
+        "#hash_42d32d0c0d67cae2": [
+            {
+                "#maxuses": 1,
+                "#minuses": 1
+            },
+            {
+                "#maxuses": 3,
+                "#minuses": 2,
+                "#percentchance": 15
+            },
+            {
+                "#maxuses": 7,
+                "#minuses": 4,
+                "#percentchance": 30
+            },
+            {
+                "#maxuses": 9999,
+                "#minuses": 8,
+                "#percentchance": 50
+            }
+        ]
+    }
+}

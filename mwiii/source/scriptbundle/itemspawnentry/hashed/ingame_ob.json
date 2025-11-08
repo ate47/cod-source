@@ -1,0 +1,197 @@
+{
+    "#hash_dd7baad19a60722": {
+        "#raritydef": "%#hash_2b13ac750c6bead0",
+        "#pingvo": "#ping_essence_vials",
+        "#maxcount": 2000,
+        "#titlestring": "&SHARED_HINTSTRINGS/ESSENCEICON",
+        "#hash_13fc3679e0d849db": true,
+        "#ref": "essence_container_large",
+        "#dropsfx": "#hash_828277e51db438e7",
+        "#lootidtype": "consumable",
+        "#type": "currency",
+        "#subtype": "essence",
+        "#hash_95d6d970efccc96d": "common_unrestricted",
+        "#pickupsfx": "#hash_45d921056c463475",
+        "#inventorytype": "Pooled",
+        "#icon": "jup_ui_map_icon_poi_essence_container",
+        "#spawncount": 2000,
+        "#scriptable": "%#obloot_essence_large",
+        "#typestring": "&SHARED_HINTSTRINGS/ESSENCE_CONTAINER_NAME"
+    },
+    "#hash_1f890fb8ea440530": {
+        "#raritydef": "%#hash_47748ff97b0f469c",
+        "#pingvo": "#ping_cache",
+        "#hash_359e971d09addafc": "#ping_cache_confirm",
+        "#type": "cache",
+        "#subtype": "",
+        "#hash_95d6d970efccc96d": "common_unrestricted",
+        "#scriptable": "%#activity_reward_cache_lootcache"
+    },
+    "#hash_50a3f5fb7a234ee1": {
+        "#raritydef": "%#hash_47748ff97b0f469c",
+        "#pingvo": "#ping_loot_weapon_melee",
+        "#hash_ff1750b480636dc9": true,
+        "#hash_359e971d09addafc": "#ping_response_generic",
+        "#titlestring": "&JUP_WEAPON/JUP_ME_GLASSSHIV",
+        "#worldmodel": "wm_me_glass_shiv_00",
+        "#ref": "jup_me_glassshiv",
+        "#inventoryslot": "Weapon",
+        "#dropsfx": "#br_inventory_drop_weap",
+        "#lootidtype": "weapon",
+        "#hash_8464122fb6575536": true,
+        "#type": "weapon",
+        "#subtype": "me",
+        "#baseweapon": "jup_me_glassshiv_mp",
+        "#hash_95d6d970efccc96d": "common_unrestricted",
+        "#pickupsfx": "#hash_b5059413ad647316",
+        "#inventorytype": "Loadout",
+        "#icon": "hud_icon_weapon_jup_me_glassshiv_mp",
+        "#scriptable": "%#brloot_weapon_me_glassshiv",
+        "#lifetime": 300,
+        "#denialsfx": "#br_pickup_deny",
+        "#typestring": "&JUP_WEAPON/JUP_ME_GLASSSHIV"
+    },
+    "#hash_61f1fd4ce60fe229": {
+        "#raritydef": "%#hash_47748ff97b0f469c",
+        "#pingvo": "#ping_loot_weapon_assaultrifle",
+        "#hash_ff1750b480636dc9": true,
+        "#maxattachments": 1,
+        "#hash_359e971d09addafc": "#ping_response_generic",
+        "#titlestring": "&JUP_WEAPON/JUP_JP03_AR_AROMEO160",
+        "#worldmodel": "wpn_wm_p08_ar_mcbravo",
+        "#attachmentslots": [
+            {
+                "#forced": true,
+                "#excludelist": [
+                    {
+                        "#attachment": "jup_las_minireddot01"
+                    },
+                    {
+                        "#attachment": "arscope_nvg01"
+                    },
+                    {
+                        "#attachment": "arscope_nvg02"
+                    },
+                    {
+                        "#attachment": "jup_las_fourx01"
+                    },
+                    {
+                        "#attachment": "jup_las_dmscope01"
+                    },
+                    {
+                        "#attachment": "jup_las_twofivex01"
+                    },
+                    {
+                        "#attachment": "jup_reflex04_tall"
+                    },
+                    {
+                        "#attachment": "holotherm01"
+                    },
+                    {
+                        "#attachment": "jup_twofivex01"
+                    },
+                    {
+                        "#attachment": "jup_twofivex02"
+                    },
+                    {
+                        "#attachment": "jup_twofivextherm01"
+                    },
+                    {
+                        "#attachment": "fourxtherm01"
+                    },
+                    {
+                        "#attachment": "fourxtherm02"
+                    },
+                    {
+                        "#attachment": "fourxtherm03"
+                    },
+                    {
+                        "#attachment": "fourxtherm04"
+                    },
+                    {
+                        "#attachment": "hybridtherm02"
+                    },
+                    {
+                        "#attachment": "jup_hybridtherm01"
+                    },
+                    {
+                        "#attachment": "jup_hybridtherm02"
+                    },
+                    {
+                        "#attachment": "arscope_therm01"
+                    },
+                    {
+                        "#attachment": "arscope_nvgvz01"
+                    }
+                ],
+                "#slot": "scope",
+                "#includeall": true
+            },
+            {
+                "#slot": "frontpiece",
+                "#includeall": true
+            },
+            {
+                "#slot": "backpiece",
+                "#includeall": true
+            },
+            {
+                "#excludelist": [
+                    {
+                        "#attachment": "jup_jp03_ar_aromeo160_mag_20_556n"
+                    }
+                ],
+                "#slot": "magazine",
+                "#includeall": true
+            },
+            {
+                "#slot": "muzzle",
+                "#includeall": true
+            },
+            {
+                "#slot": "reargrip",
+                "#includeall": true
+            },
+            {
+                "#excludelist": [
+                    {
+                        "#attachment": "bipod01"
+                    },
+                    {
+                        "#attachment": "bipod02"
+                    },
+                    {
+                        "#attachment": "bipod03"
+                    }
+                ],
+                "#slot": "trigger",
+                "#includeall": true
+            },
+            {
+                "#slot": "extra",
+                "#includeall": true
+            },
+            {
+                "#slot": "modifier",
+                "#includeall": true
+            }
+        ],
+        "#descstring": "&JUP_WEAPON/JUP_JP03_AR_AROMEO160",
+        "#ref": "jup_jp03_ar_aromeo160",
+        "#inventoryslot": "Weapon",
+        "#dropsfx": "#br_inventory_drop_weap",
+        "#lootidtype": "weapon",
+        "#hash_8464122fb6575536": true,
+        "#type": "weapon",
+        "#subtype": "ar",
+        "#baseweapon": "jup_jp03_ar_aromeo160_mp",
+        "#hash_95d6d970efccc96d": "common_unrestricted",
+        "#pickupsfx": "#hash_b5059413ad647316",
+        "#inventorytype": "Loadout",
+        "#icon": "hud_icon_weapon_jup_jp03_ar_aromeo160_mp",
+        "#scriptable": "%#brloot_weapon_ar_aromeo160_comm",
+        "#lifetime": 300,
+        "#denialsfx": "#br_pickup_deny",
+        "#typestring": "&MP/BR_TYPE_AR"
+    }
+}

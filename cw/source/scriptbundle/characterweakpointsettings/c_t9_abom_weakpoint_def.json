@@ -1,0 +1,102 @@
+{
+    "#hash_8009bee": [
+        {
+            "#hash_47b606f3": [
+                {
+                    "tag": "tag_fx_head_le_throat"
+                }
+            ],
+            "fxtag": "tag_fx_head_le_throat",
+            "hash_4aa216c9": "fx#hash_1137dfb75f39c042",
+            "weakpoint": 1
+        },
+        {
+            "#hash_47b606f3": [
+                {
+                    "tag": "tag_fx_head_mid_throat"
+                }
+            ],
+            "fxtag": "tag_fx_head_center_throat",
+            "hash_4aa216c9": "fx#hash_1137dfb75f39c042",
+            "weakpoint": 2
+        },
+        {
+            "#hash_47b606f3": [
+                {
+                    "tag": "tag_fx_head_ri_throat"
+                }
+            ],
+            "fxtag": "tag_fx_head_ri_throat",
+            "hash_4aa216c9": "fx#hash_1137dfb75f39c042",
+            "weakpoint": 3
+        }
+    ],
+    "weakpoints": [
+        {
+            "hash_8b732142": 4,
+            "hash_3765e777": 1,
+            "hash_641ce20e": 1,
+            "hash_8223b0cf": 0,
+            "type": "#weakpoint",
+            "hash_51e8b151": "tag_fx_jaw_le",
+            "activebydefault": 1,
+            "hitradius": 0,
+            "health": 0.1
+        },
+        {
+            "hash_8b732142": 5,
+            "hash_3765e777": 1,
+            "hash_641ce20e": 1,
+            "hash_8223b0cf": 0,
+            "type": "#weakpoint",
+            "hash_51e8b151": "tag_fx_jaw_center",
+            "activebydefault": 1,
+            "hitradius": 0,
+            "health": 0.1
+        },
+        {
+            "hash_8b732142": 6,
+            "hash_3765e777": 1,
+            "hash_641ce20e": 1,
+            "hash_8223b0cf": 0,
+            "type": "#weakpoint",
+            "hash_51e8b151": "tag_fx_jaw_ri",
+            "activebydefault": 1,
+            "hitradius": 0,
+            "health": 0.1
+        },
+        {
+            "hash_8223b0cf": 0,
+            "type": "#weakpoint",
+            "hash_51e8b151": "tag_fx_jaw_le",
+            "hitradius": 15,
+            "health": 1
+        },
+        {
+            "hash_8223b0cf": 0,
+            "type": "#weakpoint",
+            "hash_51e8b151": "tag_fx_jaw_center",
+            "hitradius": 15,
+            "health": 1
+        },
+        {
+            "hash_8223b0cf": 0,
+            "type": "#weakpoint",
+            "hash_51e8b151": "tag_fx_jaw_ri",
+            "hitradius": 15,
+            "health": 1
+        },
+        {
+            "hash_8223b0cf": 0,
+            "type": "#weakpoint",
+            "hash_51e8b151": "j_tail_spine",
+            "activebydefault": 1,
+            "hitradius": 16,
+            "health": 1
+        }
+    ],
+    "configstringfiletype": "scriptbundle",
+    "model": "model#c_t9_zmb_abomination_body",
+    "type": "characterweakpointsettings",
+    "name": "c_t9_abom_weakpoint_def"
+}

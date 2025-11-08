@@ -1,0 +1,260 @@
+{
+    "#hash_106341a351902fb7": {
+        "#headiconparameters": {
+            "#zoffset": 20,
+            "#image": "jup_hud_warlord_marker",
+            "#fadeincenter": false,
+            "#hash_40323b3869b1dbf4": false,
+            "#hash_ade54a80646b269e": false,
+            "#maxdistance": 4000,
+            "#worldiconsize": "icon_small"
+        },
+        "#warlordparameters": [
+            {
+                "#variant_object": {
+                    "#goalvolumetargetname": "WARLORD_ALLFORONE_RADIANT",
+                    "#hash_3dd45e9c06d5584": 0,
+                    "#hash_e29df6aa4cf02437": {
+                        "#hash_d98fee6eecf7a00e": 600,
+                        "#cooldown": 15
+                    },
+                    "#hash_15151153c9c55809": {
+                        "#hash_704e73ab0b2b890c": 2,
+                        "#hash_97731092f6c8e": 12
+                    },
+                    "#hash_17314c85fa758e32": {
+                        "#respawntime": 0,
+                        "#hash_4076c4127124f4df": 0,
+                        "#helicoptersettings": "hind_missile_helicopter_settings_ob"
+                    },
+                    "#hash_651c4bb853d4df1f": 45,
+                    "#hash_f03196013d5cd011": {
+                        "#hash_2f53a6b82c6bd61b": 2,
+                        "#hash_2f2f9cb82c434565": 6,
+                        "#hash_704e73ab0b2b890c": 2,
+                        "#hash_97731092f6c8e": 10,
+                        "#hash_bd4764e9cd24dddd": 6,
+                        "#hash_92e39a76d937fed9": 150,
+                        "#lifetime": 20
+                    },
+                    "#warlordtype": "AllForOne",
+                    "#hash_41ecd282cbd8319a": 90,
+                    "#hash_cf60a0125fae69b4": {
+                        "#hash_704e73ab0b2b890c": 2,
+                        "#hash_97731092f6c8e": 22,
+                        "#hash_9727956f0fe8813d": 30,
+                        "#hash_c4ba99cb47087174": 0,
+                        "#hash_1ce4150d20c22722": 15,
+                        "#hash_fed1e336785b30c5": 12,
+                        "#lifetime": 80,
+                        "#hash_25186cd2abd12722": "enc_flood_ob_warlord_all_for_one_backup",
+                        "#encounterradius": 180
+                    }
+                },
+                "#variant_type": "Types_AllForOneParams"
+            }
+        ],
+        "#hash_9ef0d49b3929f84b": "scripts/ob/warlords/ob_warlord_behaviors_all_for_one.gsc",
+        "#hash_562cca092966b4b5": [
+            {
+                "#hash_fff6b84dc56a9504": "jup_ob_warlord_all_for_one"
+            }
+        ]
+    },
+    "#hash_29639117deadf7e4": {
+        "#headiconparameters": {
+            "#zoffset": 20,
+            "#image": "jup_hud_warlord_marker",
+            "#fadeincenter": false,
+            "#hash_40323b3869b1dbf4": false,
+            "#hash_ade54a80646b269e": false,
+            "#maxdistance": 4000,
+            "#worldiconsize": "icon_small"
+        },
+        "#warlordparameters": [
+            {
+                "#variant_object": {
+                    "#hash_68d81840282013fc": 6,
+                    "#hash_fe9db1b79b6e0fd4": 0.9,
+                    "#hash_fd316c47f1527c93": 20,
+                    "#goalvolumetargetname": "",
+                    "#hash_151cd74fd4c1f445": 4,
+                    "#hash_3dd45e9c06d5584": 10,
+                    "#hash_353647cb7ffa6545": 0.5,
+                    "#hash_4ebb0afebf683c01": 5,
+                    "#hash_52787549de264c36": "scr_warlord_chemist_grenade",
+                    "#hash_3b356a4d4d47aef9": 30,
+                    "#hash_651c4bb853d4df1f": 45,
+                    "#hash_ddd49c02e8a6b496": 2,
+                    "#hash_4cc27cef1fa6d563": 4,
+                    "#smokeduration": 20,
+                    "#gasdamage": 12,
+                    "#hash_a985895b5796100b": 100,
+                    "#hash_f15869a3edbdfafe": 40,
+                    "#warlordtype": "Chemist",
+                    "#hash_affbf78d9cdb1361": 0.5,
+                    "#gasradius": 300,
+                    "#hash_41ecd282cbd8319a": 65,
+                    "#hash_676a9574befe2b66": "scr_warlord_chemist_grenade",
+                    "#hash_8e4066ce4def853c": "EvenSpread",
+                    "#hash_5aaa252fb3c34a87": 10,
+                    "#hash_2278441f7203ae": 1,
+                    "#hash_123946e763239e1c": 1.8,
+                    "#hash_af81256de9842e66": 20,
+                    "#arenadamage": 4
+                },
+                "#variant_type": "Types_ChemistParams"
+            }
+        ],
+        "#hash_9ef0d49b3929f84b": "scripts/ob/warlords/ob_warlord_behaviors_chemist.gsc",
+        "#hash_562cca092966b4b5": [
+            {
+                "#hash_fff6b84dc56a9504": "jup_ob_warlord_chemist"
+            },
+            {
+                "#hash_fff6b84dc56a9504": "jup_ob_warlord_chemist_rift"
+            }
+        ]
+    },
+    "#hash_2b2e2a695c6babb5": {
+        "#headiconparameters": {
+            "#zoffset": 20,
+            "#image": "jup_hud_warlord_marker",
+            "#fadeincenter": false,
+            "#hash_40323b3869b1dbf4": false,
+            "#hash_ade54a80646b269e": false,
+            "#maxdistance": 4000,
+            "#worldiconsize": "icon_small"
+        },
+        "#warlordparameters": [
+            {
+                "#variant_object": {
+                    "#hash_450f1b6abad414f7": {
+                        "#vehiclesetting": -139,
+                        "#walksetting": -139
+                    },
+                    "#hash_fab3766f7a5dd61b": {
+                        "#vehiclesetting": 136,
+                        "#walksetting": 136
+                    },
+                    "#hash_5d7bb478881057d9": 35,
+                    "#hash_55811e2f54b0b1": {
+                        "#vehiclesetting": 0.3,
+                        "#walksetting": 0.63
+                    },
+                    "#hash_d696242739e0212a": 20,
+                    "#hash_d874ef4e462b9053": 1000,
+                    "#goalvolumetargetname": "",
+                    "#hash_561d2e92cbbf977": 780,
+                    "#hash_1c811e8ae01b583e": 25000,
+                    "#hash_4e855a88264a2ed0": 1000,
+                    "#hash_48f5467275b7ca3e": {
+                        "#vehiclesetting": 250,
+                        "#walksetting": 375
+                    },
+                    "#hash_3dd45e9c06d5584": 10,
+                    "#hash_46d620779b96b55": {
+                        "#vehiclesetting": -136,
+                        "#walksetting": -136
+                    },
+                    "#hash_a8b72b0b7f481d0b": 4,
+                    "#hash_e2016d6d8138b836": 20000,
+                    "#hash_651c4bb853d4df1f": 45,
+                    "#hash_ed33c6f7e6054607": 50,
+                    "#hash_687f80ad44cf3cd5": 100,
+                    "#hash_6c3b39b37008b949": {
+                        "#vehiclesetting": 139,
+                        "#walksetting": 139
+                    },
+                    "#warlordtype": "Rainmaker",
+                    "#hash_a773fecfa7c44bbe": {
+                        "#vehiclesetting": 1.5,
+                        "#walksetting": 2.5
+                    },
+                    "#hash_4dd5c4885e94aaaa": 6,
+                    "#hash_2ac3c800559f7b7e": 37,
+                    "#hash_41ecd282cbd8319a": 65,
+                    "#hash_9e29352ba1d54508": {
+                        "#vehiclesetting": 3.24,
+                        "#walksetting": 4.24
+                    },
+                    "#hash_80c845eda7764ce0": 50,
+                    "#hash_4b6686b7eee42901": {
+                        "#vehiclesetting": 0.35,
+                        "#walksetting": 0.66
+                    },
+                    "#hash_4c8cea60d20c5df5": {
+                        "#vehiclesetting": 3,
+                        "#walksetting": 4
+                    },
+                    "#hash_fbc8bef50e9d8f8a": {
+                        "#vehiclesetting": 3.74,
+                        "#walksetting": 4.74
+                    }
+                },
+                "#variant_type": "Types_RainmakerParams"
+            }
+        ],
+        "#hash_9ef0d49b3929f84b": "scripts/ob/warlords/ob_warlord_behaviors_rainmaker.gsc",
+        "#hash_562cca092966b4b5": [
+            {
+                "#hash_fff6b84dc56a9504": "jup_ob_warlord_rainmaker"
+            }
+        ]
+    },
+    "#hash_4ab00f7b2bd2da8a": {
+        "#headiconparameters": {
+            "#zoffset": 20,
+            "#image": "jup_hud_warlord_marker",
+            "#fadeincenter": false,
+            "#hash_40323b3869b1dbf4": false,
+            "#hash_ade54a80646b269e": false,
+            "#maxdistance": 4000,
+            "#worldiconsize": "icon_small"
+        },
+        "#warlordparameters": [
+            {
+                "#variant_object": {
+                    "#shielddamagemultiplier": 0.2,
+                    "#hash_ab5d8fc6026bb639": 750,
+                    "#dronehealth": 275,
+                    "#hash_176f2563dbfd1669": 0.55,
+                    "#hash_380bac03870b68ea": 15,
+                    "#hash_59eca32f21910808": 5,
+                    "#hash_be95333ad2001a2f": 1,
+                    "#dronespeed": 22,
+                    "#dronecap": 20,
+                    "#goalvolumetargetname": "",
+                    "#hash_56d56002bf1ece12": 10000,
+                    "#hash_21b55f9053ab09db": 42,
+                    "#hash_f78dccad86bc937a": 3200,
+                    "#hash_7ce9f91c0bd1c384": 50,
+                    "#hash_3dd45e9c06d5584": 10,
+                    "#hash_affa9b1c7dd6d033": 2,
+                    "#hash_d824ae1f19006400": 1,
+                    "#dronesightdistance": 1200,
+                    "#hash_651c4bb853d4df1f": 40,
+                    "#targetplayertimer": 10000,
+                    "#hash_50ca1e6d9f2ca345": 0,
+                    "#hash_cfc9c46afa203cf6": 0.5,
+                    "#proximitydistance": 100,
+                    "#warlordtype": "Maestro",
+                    "#hash_a7cdb2a8ec572747": 300,
+                    "#hash_41ecd282cbd8319a": 60,
+                    "#hash_8ff0d62ff823d63f": 20,
+                    "#hash_10822a7e7ccbd521": 0.9,
+                    "#hash_db9991611a26b0c1": 4.5,
+                    "#hash_482220154ebed932": 7.5,
+                    "#hash_40ed8a6dd8f0e6c5": 16
+                },
+                "#variant_type": "Types_MaestroParams"
+            }
+        ],
+        "#hash_9ef0d49b3929f84b": "scripts/ob/warlords/ob_warlord_behaviors_maestro.gsc",
+        "#hash_562cca092966b4b5": [
+            {
+                "#hash_fff6b84dc56a9504": "jup_ob_warlord_maestro"
+            }
+        ]
+    }
+}

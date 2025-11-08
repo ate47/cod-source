@@ -1,0 +1,45 @@
+string,string,string,string,string,string,string,string,string
+player32x32x128,,-8749,42799,194,0,18,0,Fix bug: IW9-524171 - Laundry Shop - Washing machine doors do not have Player collision
+player32x32x128,,-8703.328,42970.75,205,0,18,0,Fix bug: IW9-524171 - Laundry Shop - Washing machine doors do not have Player collision
+player128x128x8,,-6923.076,42226.67,207.126,7.429,354.684,7.589,IW9-533025 - The User is getting blocked on the terrain next to the destroyed car due to invisible geo
+missile128x128x8,,-7467.84,41544.5,405.997,270,0,-15,Fixed IW9-515527 - Supermarket - The second story window on the outside West facing wall on the right hand side of 'Omair's Supermarket' is lacking equipment collision
+missile128x128x8,,-7259.79,41424.5,263.997,0,345,90,Fixed IW9-511286 - South-East - There is a cardboard window that lacks equipment and bullet collision
+player32x32x32,,-7140.74,41594.5,210.997,320,4.997,0,Fixed IW9-535696 - Supermarket - Stones are missing player collision which allows the User to hide equipment there
+missile128x128x8,,-7516.9,40757.801,212,0,159.993,89.999,Fixed IW9-501258 - Two windows lack equipment and bullet collison
+missile128x128x8,,-7654.56,40807.898,212,0,159.993,89.999,Fixed IW9-501258 - Two windows lack equipment and bullet collison
+missile8x8x256,,-7983.5,42452.398,689,0,74.999,-180,Fixed IW9-545635 - Internet Cafe - Camera can be hidden inside wall with no collision
+player256x256x8,,-8286.29,43259.199,613,0,345,90,NoJira - Clip off the center building half height wall
+player256x256x8,,-8341.285,43273.227,613,0,345,90,NoJira - Clip off the center building half height wall
+player256x256x8,,-8474.29,43263.199,607,0,75,90,NoJira - Clip off the center building half height wall
+player256x256x8,,-8510.29,43163.199,607,0,75,90,NoJira - Clip off the center building half height wall
+player256x256x8,,-8178.29,43486.199,613,0,345,90,NoJira - Clip off the center building half height wall
+player256x256x8,,-8101.29,43465.199,613,0,345,90,NoJira - Clip off the center building half height wall
+player256x256x8,,-8869.762,42979.422,490.5,0,75,90,IW9-542543 - Hookah Shop - User can climb extended Player Collision to climb to an unintended area
+player128x128x8,,-6295,43394,206,0,345,0,IW9-551617 - Prone crawling between grave stones causes culling
+item512x512x8,,-8565,41669,249,0,345,0,IW9-554027 - The User is able to throw equipment through the wall to the building
+player8x8x256,,-6862,44294,7,0,345,0,IW9-545883 - Cement block lacks player collision but has equipment collision
+shotblock128x128x8,shotblock128x128x8,-8642.5,44275.5,329,270,121.084,133.917,IW9-588103 - Nursery - The user can shoot and kill through one side of outdoor stairs
+player256x256x8,,-9803.964,43753.445,490.788,270,123.307,41.693,IW9-568300 - Barber Shop - The User can get on top of the building to gain an advantage
+player512x512x8,,-8157.221,42734.703,678.769,0,75,90,NoJira - Found by Luke
+player32x32x256,,-8188,42936,441,0,345,0,NoJira - Found by Luke
+player32x32x256,,-8157,42928,441,0,345,0,NoJira - Found by Luke
+player32x32x256,,-8126,42919.5,441,0,345,0,NoJira - Found by Luke
+player256x256x8,,-8462.887,43314.145,588.848,0,255,90,NoJira - Found by Luke
+player128x128x8,,-8400.887,43545.645,527.848,0,255,90,NoJira - Found by Luke
+player128x128x8,,-8393.39,43543.602,527.848,0,255,90,NoJira - Found by Luke
+player256x256x8,,-8012.463,43329.27,559.5,0,290,90,NoJira - Found by Luke
+player64x64x256,,-9703.971,44555.93,466,0,345,0,NoJira - Found by Luke
+player64x64x256,,-9765.47,44572.398,466,0,345,0,NoJira - Found by Luke
+player128x128x8,,-9722.97,44606.898,530,0,345,90,NoJira - Found by Luke
+player128x128x8,,-8280.521,43339.539,548,0,345,90,NoJira - Found by Luke
+player128x128x8,,-8215.02,43322,548,0,345,90,NoJira - Found by Luke
+shotblock64x64x128,shotblock64x64x128,-9826.389,43772.473,237.677,1.55,345.078,54.797,IW9-588082 - Barber Shop - User is able to scan other Users through rock stairs
+player64x64x256,,-7074.483,41679.949,475.403,0,345,0,IW9-629464 - Supermarket - The user can use deployable covers to reach the top of a building
+missile32x32x128,,-7330.81,42208.2,232.212,84.6837,7.46004,1.35673,IW9-739659 - stone wall lack of equipment collision
+missile32x32x32,,-7192.81,42226.2,228.212,0,20,0,IW9-739659 - stone wall lack of equipment collision
+missile32x32x32,,-7167.81,42237.2,227.212,3.99991,27.9991,0,IW9-739659 - stone wall lack of equipment collision
+missile32x32x32,,-7143.81,42251.2,225.212,3.98874,32.1095,0.286367,IW9-739659 - stone wall lack of equipment collision
+missile32x32x128,,-7128.81,42259.2,240.212,88.6431,61.4313,9.32368,IW9-739659 - stone wall lack of equipment collision
+missile512x512x8,,-8564,41670,250,0,344.939,0,IW9-751724 - player can through nades through the base of the exterior wall
+missile256x256x8,,-8836.5,41875.5,250,0,344.939,0,IW9-751724 - player can through nades through the base of the exterior wall
+missile256x256x8,,-8836.5,41875,242,0,344.939,0,IW9-751724 - player can through nades through the base of the exterior wall

@@ -1,0 +1,27 @@
+main()
+{
+	level._effect[ "vfx_wartorn_burn_dec" ] = loadfx( "vfx/iw9/level/mp_wartorn/vfx_wartorn_burn_dec.vfx" );
+	level._effect[ "vfx_wartorn_falling_ash" ] = loadfx( "vfx/iw9/level/mp_wartorn/vfx_wartorn_falling_ash.vfx" );
+	level._effect[ "vfx_wartorn_falling_ash_2" ] = loadfx( "vfx/iw9/level/mp_wartorn/vfx_wartorn_falling_ash_2.vfx" );
+	level._effect[ "vfx_wartorn_6v6_sunflare" ] = loadfx( "vfx/iw9/level/mp_wartorn/vfx_wartorn_6v6_sunflare.vfx" );
+	level._effect[ "vfx_wartorn_smoke_plume" ] = loadfx( "vfx/iw9/level/mp_wartorn/vfx_wartorn_smoke_plume.vfx" );
+	level._effect[ "vfx_wartorn_barrel_fire" ] = loadfx( "vfx/iw9/level/mp_wartorn/vfx_wartorn_barrel_fire.vfx" );
+	level._effect[ "vfx_wartorn_blowing_sand_big" ] = loadfx( "vfx/iw9/level/mp_wartorn/vfx_wartorn_blowing_sand_big.vfx" );
+	level._effect[ "vfx_wartorn_blowing_sand_med" ] = loadfx( "vfx/iw9/level/mp_wartorn/vfx_wartorn_blowing_sand_med.vfx" );
+	level._effect[ "vfx_wartorn_distant_dust" ] = loadfx( "vfx/iw9/level/mp_wartorn/vfx_wartorn_distant_dust.vfx" );
+	//---------------------VOLUMETRIC Height Fog--------------------------//
+	SetDvar( #d"r_volumetricDepth", 4096 );
+	SetDvar( #d"r_fogHeightMapFade"               , 0.01 );//Max Density
+	SetDvar( #d"r_fogHeightMapNoiseDt"            , 60 );//Speed of fog Noise movement, larger number appears to be slower. 1 looks to repeat pattern every 1 second.
+	SetDvar( #d"r_fogHeightMapNoiseScrollDir"     , "-1 0 1" );//Noise scrolling vector direction in world space
+	SetDvar( #d"r_fogHeightMapNoiseFlowmapUVScale", 0 );//broken - leave at 0
+	SetDvar( #d"r_fogHeightMapNoiseUVScale", 200 );//Size of fog chunks.  Bigger number is bigger chunks and gaps;
+	SetDvar( #d"r_fogHeightMapNoiseBias"   , -0.1 );//Max Density
+	
+/#
+	if ( GetDvar( #d"clientSideEffects" ) != "1" )
+	{
+	}
+#/
+
+}

@@ -1,0 +1,16 @@
+main()
+{
+
+/#
+	if ( GetDvar( #d"clientSideEffects" ) != "1" )
+	{
+	}
+#/
+
+}
+
+onSpawn()
+{
+
+}
+

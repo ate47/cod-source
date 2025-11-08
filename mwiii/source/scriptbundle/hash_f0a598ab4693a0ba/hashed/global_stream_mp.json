@@ -1,0 +1,174 @@
+{
+    "#hash_292c4e83bc035f5e": {
+        "#hash_20233888a67ff470": [
+            {
+                "#unittype": "zombie",
+                "#subclass": "zombie_base",
+                "#hash_5217ac10dbbbc8d9": "tier_1_soldiers",
+                "#healthoverride": 200
+            },
+            {
+                "#unittype": "zombie",
+                "#subclass": "zombie_base_armored_heavy",
+                "#hash_5217ac10dbbbc8d9": "tier_2_soldiers",
+                "#healthoverride": 200
+            },
+            {
+                "#unittype": "zombie",
+                "#subclass": "zombie_base_armored_light",
+                "#hash_5217ac10dbbbc8d9": "tier_2_soldiers",
+                "#healthoverride": 200
+            },
+            {
+                "#unittype": "soldier",
+                "#subclass": "ob_grunt",
+                "#hash_5217ac10dbbbc8d9": "normal_zombies"
+            },
+            {
+                "#unittype": "soldier",
+                "#subclass": "ob_soldier",
+                "#hash_5217ac10dbbbc8d9": "heavy_armored_zombies"
+            },
+            {
+                "#unittype": "soldier",
+                "#subclass": "ob_rocketeer",
+                "#hash_5217ac10dbbbc8d9": "heavy_armored_zombies"
+            },
+            {
+                "#unittype": "soldier",
+                "#subclass": "ob_sniper",
+                "#hash_5217ac10dbbbc8d9": "heavy_armored_zombies"
+            },
+            {
+                "#unittype": "soldier",
+                "#subclass": "ob_support",
+                "#hash_5217ac10dbbbc8d9": "heavy_armored_zombies"
+            },
+            {
+                "#unittype": "soldier",
+                "#subclass": "ob_rusher",
+                "#hash_5217ac10dbbbc8d9": "heavy_armored_zombies"
+            },
+            {
+                "#unittype": "soldier",
+                "#subclass": "ob_specop",
+                "#hash_5217ac10dbbbc8d9": "heavy_armored_zombies"
+            },
+            {
+                "#unittype": "soldier",
+                "#subclass": "ob_shielded",
+                "#hash_5217ac10dbbbc8d9": "heavy_armored_zombies"
+            },
+            {
+                "#unittype": "soldier",
+                "#subclass": "ob_tactician",
+                "#hash_5217ac10dbbbc8d9": "heavy_armored_zombies"
+            },
+            {
+                "#unittype": "soldier",
+                "#subclass": "ob_captain",
+                "#hash_5217ac10dbbbc8d9": "heavy_armored_zombies"
+            }
+        ],
+        "#hash_d321e477699580b7": "vfx/jup/ob/gameplay/zm_weapons/vfx_hgun_transform_pap.vfx",
+        "#hash_4e1f6080aa106884": [
+            {
+                "#hash_cbc64e1962385dc0": "vfx/jup/ob/gameplay/zm_weapons/vfx_hgun_hit_01_pap.vfx",
+                "#hash_7b066992b167348f": "vfx/jup/ob/gameplay/zm_weapons/vfx_hgun_hit_01_lg.vfx",
+                "#hash_fda0ed7e67ea625d": "vfx/jup/ob/gameplay/zm_weapons/vfx_hgun_hit_01.vfx",
+                "#hash_268d8ef9df8d4f06": "vfx/jup/ob/gameplay/zm_weapons/vfx_hgun_hit_01_lg_pap.vfx"
+            },
+            {
+                "#hash_cbc64e1962385dc0": "vfx/jup/ob/gameplay/zm_weapons/vfx_hgun_hit_02_pap.vfx",
+                "#hash_7b066992b167348f": "vfx/jup/ob/gameplay/zm_weapons/vfx_hgun_hit_02_lg.vfx",
+                "#hash_fda0ed7e67ea625d": "vfx/jup/ob/gameplay/zm_weapons/vfx_hgun_hit_02.vfx",
+                "#hash_268d8ef9df8d4f06": "vfx/jup/ob/gameplay/zm_weapons/vfx_hgun_hit_02_lg_pap.vfx"
+            },
+            {
+                "#hash_cbc64e1962385dc0": "vfx/jup/ob/gameplay/zm_weapons/vfx_hgun_hit_03_pap.vfx",
+                "#hash_7b066992b167348f": "vfx/jup/ob/gameplay/zm_weapons/vfx_hgun_hit_03_lg.vfx",
+                "#hash_fda0ed7e67ea625d": "vfx/jup/ob/gameplay/zm_weapons/vfx_hgun_hit_03.vfx",
+                "#hash_268d8ef9df8d4f06": "vfx/jup/ob/gameplay/zm_weapons/vfx_hgun_hit_03_lg_pap.vfx"
+            }
+        ],
+        "#powerupvisionset": "jup_humangun_powerup",
+        "#hash_622d0dcc6ccb65a2": "vfx/jup/ob/gameplay/zm_weapons/vfx_hgun_explode_pap.vfx",
+        "#transformationvfx": "vfx/jup/ob/gameplay/zm_weapons/vfx_hgun_transform.vfx",
+        "#hash_db084f1cf5e27d83": [
+            {
+                "#typelist": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base",
+                        "#weight": 1
+                    }
+                ],
+                "#name": "normal_zombies"
+            },
+            {
+                "#typelist": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base_armored_heavy",
+                        "#weight": 1
+                    }
+                ],
+                "#name": "heavy_armored_zombies"
+            },
+            {
+                "#typelist": [
+                    {
+                        "#aitype": "jup_ob_enemy_basic_grunt_long",
+                        "#weight": 1
+                    },
+                    {
+                        "#aitype": "jup_ob_enemy_basic_grunt_short",
+                        "#weight": 1
+                    }
+                ],
+                "#name": "tier_1_soldiers"
+            },
+            {
+                "#typelist": [
+                    {
+                        "#aitype": "jup_ob_enemy_basic_soldier_long",
+                        "#weight": 1
+                    },
+                    {
+                        "#aitype": "jup_ob_enemy_basic_soldier_short",
+                        "#weight": 1
+                    },
+                    {
+                        "#aitype": "jup_ob_enemy_specialist_rocketeer",
+                        "#weight": 1
+                    },
+                    {
+                        "#aitype": "jup_ob_enemy_specialist_heavytactician_fortressguard",
+                        "#weight": 1
+                    },
+                    {
+                        "#aitype": "jup_ob_enemy_specialist_rusher",
+                        "#weight": 1
+                    },
+                    {
+                        "#aitype": "jup_ob_enemy_specialist_sniper",
+                        "#weight": 1
+                    }
+                ],
+                "#name": "tier_2_soldiers"
+            }
+        ],
+        "#hash_f83ca5ee7d0caf2f": [
+            {
+                "#unittype": "zombie",
+                "#subclass": "zombie_hellhound"
+            },
+            {
+                "#unittype": "zombie",
+                "#subclass": "zombie_base_abom_crawler"
+            },
+            {
+                "#unittype": "zombie",
+                "#subclass": "zombie_base_abom_crawler_hvt"
+            }
+        ]
+    }
+}

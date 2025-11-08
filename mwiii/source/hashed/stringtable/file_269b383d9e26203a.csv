@@ -1,0 +1,7 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/plunder/lootset_root.csv,,,,
+tagReject,nocache,100,,,
+reqAdd,,1,,,
+reqAdd,ammo,1,,,
+reqAdd,valuable,4,,,
+reqAdd,plunder,1,1,,

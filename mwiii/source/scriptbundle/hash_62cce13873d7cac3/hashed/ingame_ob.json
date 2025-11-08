@@ -1,0 +1,70 @@
+{
+    "#hash_2b8656a390360633": {
+        "#crawlersubclass": "zombie_base_abom_crawler_hvt",
+        "#hash_2a63977888a58d8": 250,
+        "#hash_fdef87a2422ca38a": 1000,
+        "#knockdowndata_list": [
+            {
+                "#movetype": "walk",
+                "#radius": 120,
+                "#interval": 0.25,
+                "#velocityoffset": 20
+            },
+            {
+                "#movetype": "run",
+                "#radius": 175,
+                "#interval": 0.25,
+                "#velocityoffset": 50
+            },
+            {
+                "#movetype": "sprint",
+                "#radius": 225,
+                "#interval": 0.2,
+                "#velocityoffset": 75
+            }
+        ],
+        "#hash_e2963f289e5dec02": true,
+        "#hash_a20e9b98232bb5f4": "tag_origin_abom_mega_beam_tip",
+        "#hash_ff6f00af7e3c1d57": 100,
+        "#hash_3d9c1f087e495f34": 500,
+        "#hash_d4d3fb3f1b2ef02": 500,
+        "#hash_309b2924da876f4b": 150,
+        "#candeploycrawler": true,
+        "#hash_a9e8db47e0618b28": 1750,
+        "#hash_3ef3fffffdcdc02a": false
+    },
+    "#hash_6086107a9c31983e": {
+        "#crawlersubclass": "zombie_base_abom_crawler",
+        "#hash_2a63977888a58d8": 250,
+        "#hash_fdef87a2422ca38a": 1000,
+        "#knockdowndata_list": [
+            {
+                "#movetype": "walk",
+                "#radius": 120,
+                "#interval": 0.25,
+                "#velocityoffset": 20
+            },
+            {
+                "#movetype": "run",
+                "#radius": 175,
+                "#interval": 0.25,
+                "#velocityoffset": 50
+            },
+            {
+                "#movetype": "sprint",
+                "#radius": 225,
+                "#interval": 0.2,
+                "#velocityoffset": 75
+            }
+        ],
+        "#hash_e2963f289e5dec02": false,
+        "#hash_a20e9b98232bb5f4": "tag_origin_abom_mega_beam_tip",
+        "#hash_ff6f00af7e3c1d57": 100,
+        "#hash_3d9c1f087e495f34": 500,
+        "#hash_d4d3fb3f1b2ef02": 250,
+        "#hash_309b2924da876f4b": 150,
+        "#candeploycrawler": true,
+        "#hash_a9e8db47e0618b28": 1250,
+        "#hash_3ef3fffffdcdc02a": false
+    }
+}

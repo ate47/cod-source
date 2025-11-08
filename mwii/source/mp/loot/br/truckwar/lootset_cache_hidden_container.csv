@@ -1,0 +1,6 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/truckwar/lootset_root.csv,,,,
+reqAdd,weapon,1,,,# Required Weapon
+reqAdd,killstreak,1,,75,# Chance of Killstreak
+reqAdd,plunder & [2],1,,75,# Chance of Plunder
+reqAdd,lethal | tactical,2,,,

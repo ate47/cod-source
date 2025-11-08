@@ -1,0 +1,8 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/default/lootset_root.csv,,,,
+reqAdd,weapon&[4],1,,,# require a tier 4 weapon
+reqAdd,plunder,1,,,# require plunder
+reqAdd,[3-4],1,,,# any item of epic or lege rarity
+reqAdd,[3-4],1,,50,# chance for any item of higher quality
+reqLimit,brloot_armor_plate,0,,,# limit plates
+reqLimit,perkpack,,1,,

@@ -1,0 +1,965 @@
+{
+    "#hash_650e1a20314a6124": {
+        "#mapobjectives": [
+            {
+                "#objectives": [
+                    {
+                        "#description": "%#hash_48539baa8d0a89e2",
+                        "#defendertitle": "%#hash_2c1bf4aad804c972",
+                        "#defendericon": "%#icon_waypoint_hq_enemy",
+                        "#type": "zone",
+                        "#hash_f875121bbd7f26cb": "%#",
+                        "#options": [
+                            {
+                                "#description": "%#hash_22e870ad58056d57",
+                                "#values": [
+                                    {
+                                        "#value": 120,
+                                        "#displayvalue": 2,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 180,
+                                        "#displayvalue": 3,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 240,
+                                        "#displayvalue": 4,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 300,
+                                        "#displayvalue": 5,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 360,
+                                        "#displayvalue": 6,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 600,
+                                        "#displayvalue": 10,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 900,
+                                        "#displayvalue": 15,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 1200,
+                                        "#displayvalue": 20,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    }
+                                ],
+                                "#member": "zoneTimeLimit",
+                                "#class": "wmData",
+                                "#title": "%#hash_7f5dca818203eaed"
+                            },
+                            {
+                                "#description": "%#hash_16619942a7f2b1ef",
+                                "#values": [
+                                    {
+                                        "#value": 5,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 10,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 20,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 30,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 40,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 50,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 60,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    }
+                                ],
+                                "#member": "lfFlagCaptureTime",
+                                "#class": "wmData",
+                                "#title": "%#hash_6ea690068a970ce5"
+                            },
+                            {
+                                "#description": "%#hash_7d4c169bcdb2d828",
+                                "#values": [
+                                    {
+                                        "#value": 0,
+                                        "#text": "%#hash_644d2cefc7cf74a3"
+                                    },
+                                    {
+                                        "#value": 1,
+                                        "#text": "%#hash_9d867a8745cfb48"
+                                    }
+                                ],
+                                "#member": "zoneReversible",
+                                "#class": "wmData",
+                                "#title": "%#hash_51dd05badce3c960"
+                            }
+                        ],
+                        "#title": "%#hash_2c1bf4aad804c972",
+                        "#icon": "%#icon_waypoint_hq_friendly",
+                        "#icon2": "%#"
+                    },
+                    {
+                        "#description": "%#hash_48539aaa8d0a882f",
+                        "#defendertitle": "%#hash_2c1bf3aad804c7bf",
+                        "#defendericon": "%#icon_waypoint_escort_tank",
+                        "#type": "escort",
+                        "#hash_f875121bbd7f26cb": "%#",
+                        "#options": [
+                            {
+                                "#description": "%#hash_22e870ad58056d57",
+                                "#values": [
+                                    {
+                                        "#value": 120,
+                                        "#displayvalue": 2,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 180,
+                                        "#displayvalue": 3,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 240,
+                                        "#displayvalue": 4,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 300,
+                                        "#displayvalue": 5,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 360,
+                                        "#displayvalue": 6,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 600,
+                                        "#displayvalue": 10,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 900,
+                                        "#displayvalue": 15,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 1200,
+                                        "#displayvalue": 20,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    }
+                                ],
+                                "#member": "lfEscortTimeLimit",
+                                "#class": "wmData",
+                                "#title": "%#hash_7f5dca818203eaed"
+                            },
+                            {
+                                "#description": "%#hash_5bdcf572ff0475c1",
+                                "#values": [
+                                    {
+                                        "#value": 0,
+                                        "#text": "%#hash_644d2cefc7cf74a3"
+                                    },
+                                    {
+                                        "#value": 1,
+                                        "#text": "%#hash_9d867a8745cfb48"
+                                    }
+                                ],
+                                "#member": "tankTurretUsable",
+                                "#class": "wmData",
+                                "#title": "%#hash_753bb8ac85c39e4f"
+                            },
+                            {
+                                "#description": "%#hash_765a8c318a7498c4",
+                                "#values": [
+                                    {
+                                        "#value": 0,
+                                        "#text": "%#hash_644d2cefc7cf74a3"
+                                    },
+                                    {
+                                        "#value": 1,
+                                        "#text": "%#hash_9d867a8745cfb48"
+                                    }
+                                ],
+                                "#member": "tankRepair",
+                                "#class": "wmData",
+                                "#title": "%#hash_5f1489d99d7d223c"
+                            },
+                            {
+                                "#description": "%#hash_539ca28905fb6b9a",
+                                "#values": [
+                                    {
+                                        "#value": 0,
+                                        "#text": "%#hash_644d2cefc7cf74a3"
+                                    },
+                                    {
+                                        "#value": 1,
+                                        "#text": "%#hash_9d867a8745cfb48"
+                                    }
+                                ],
+                                "#member": "IEDBombEnabled",
+                                "#class": "wmData",
+                                "#title": "%#hash_630cb036976cc8aa"
+                            },
+                            {
+                                "#description": "%#hash_3382839597c394d8",
+                                "#values": [
+                                    {
+                                        "#value": 1,
+                                        "#text": "%#hash_313729791e5ce6bd"
+                                    },
+                                    {
+                                        "#value": 3,
+                                        "#text": "%#hash_313729791e5ce6bd"
+                                    },
+                                    {
+                                        "#value": 5,
+                                        "#text": "%#hash_313729791e5ce6bd"
+                                    },
+                                    {
+                                        "#value": 7,
+                                        "#text": "%#hash_313729791e5ce6bd"
+                                    },
+                                    {
+                                        "#value": 9,
+                                        "#text": "%#hash_313729791e5ce6bd"
+                                    }
+                                ],
+                                "#member": "tankMaxHealth",
+                                "#class": "wmData",
+                                "#title": "%#hash_24facd60e566bc70"
+                            },
+                            {
+                                "#description": "%#hash_7de0ec949b8bcaa9",
+                                "#values": [
+                                    {
+                                        "#value": 0,
+                                        "#text": "%#hash_644d2cefc7cf74a3"
+                                    },
+                                    {
+                                        "#value": 1,
+                                        "#text": "%#hash_9d867a8745cfb48"
+                                    }
+                                ],
+                                "#member": "RPGAgentsEnabled",
+                                "#class": "wmData",
+                                "#title": "%#hash_18c6c5b1424ecc77"
+                            },
+                            {
+                                "#description": "%#hash_424760ca740b1d50",
+                                "#values": [
+                                    {
+                                        "#value": 2,
+                                        "#text": "%#hash_1862786e267462d1"
+                                    },
+                                    {
+                                        "#value": 3,
+                                        "#text": "%#hash_412f5d63c219c5a6"
+                                    },
+                                    {
+                                        "#value": 4,
+                                        "#text": "%#hash_70a8e1f8449c43a8"
+                                    },
+                                    {
+                                        "#value": 6,
+                                        "#text": "%#hash_34f7f1d009c26969"
+                                    },
+                                    {
+                                        "#value": 7.5,
+                                        "#text": "%#hash_4646c6a172b53722"
+                                    },
+                                    {
+                                        "#value": 9,
+                                        "#text": "%#hash_1f7dd855e9ef3993"
+                                    }
+                                ],
+                                "#member": "tankSpeed",
+                                "#class": "wmData",
+                                "#title": "%#hash_1a778a886c939948"
+                            },
+                            {
+                                "#description": "%#hash_2ee6adeb5d06d395",
+                                "#values": [
+                                    {
+                                        "#value": 0,
+                                        "#text": "%#hash_644d2cefc7cf74a3"
+                                    },
+                                    {
+                                        "#value": 1,
+                                        "#text": "%#hash_9d867a8745cfb48"
+                                    }
+                                ],
+                                "#member": "tankContestable",
+                                "#class": "wmData",
+                                "#title": "%#hash_293d41673d7c7f03"
+                            },
+                            {
+                                "#description": "%#hash_a005c43f7319b96",
+                                "#values": [
+                                    {
+                                        "#value": 0,
+                                        "#text": "%#hash_644d2cefc7cf74a3"
+                                    },
+                                    {
+                                        "#value": 1,
+                                        "#text": "%#hash_9d867a8745cfb48"
+                                    }
+                                ],
+                                "#member": "tankReversible",
+                                "#class": "wmData",
+                                "#title": "%#hash_730f474212882e66"
+                            }
+                        ],
+                        "#title": "%#hash_2c1bf3aad804c7bf",
+                        "#icon": "%#icon_waypoint_escort_tank",
+                        "#icon2": "%#"
+                    },
+                    {
+                        "#description": "%#hash_485399aa8d0a867c",
+                        "#defendertitle": "%#hash_2c1bf2aad804c60c",
+                        "#defendericon": "%#icon_waypoint_hack",
+                        "#type": "hack",
+                        "#hash_f875121bbd7f26cb": "%#",
+                        "#options": [
+                            {
+                                "#description": "%#hash_22e870ad58056d57",
+                                "#values": [
+                                    {
+                                        "#value": 120,
+                                        "#displayvalue": 2,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 180,
+                                        "#displayvalue": 3,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 240,
+                                        "#displayvalue": 4,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 300,
+                                        "#displayvalue": 5,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 360,
+                                        "#displayvalue": 6,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 600,
+                                        "#displayvalue": 10,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 900,
+                                        "#displayvalue": 15,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 1200,
+                                        "#displayvalue": 20,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    }
+                                ],
+                                "#member": "hackTimeLimit",
+                                "#class": "wmData",
+                                "#title": "%#hash_7f5dca818203eaed"
+                            },
+                            {
+                                "#description": "%#hash_5b8b7d06eb52aa49",
+                                "#values": [
+                                    {
+                                        "#value": 1,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 2,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 3,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 4,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 5,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 10,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    }
+                                ],
+                                "#member": "hackUseTime",
+                                "#class": "wmData",
+                                "#title": "%#hash_6c4dafa0359f757"
+                            },
+                            {
+                                "#description": "%#hash_103668c7ecc165fc",
+                                "#values": [
+                                    {
+                                        "#value": 1,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 2,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 3,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 4,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 5,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 10,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    }
+                                ],
+                                "#member": "hackRestoreTime",
+                                "#class": "wmData",
+                                "#title": "%#hash_5b3c4c9b883695f4"
+                            },
+                            {
+                                "#description": "%#hash_64990e3c46df930b",
+                                "#values": [
+                                    {
+                                        "#value": 10,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 20,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 30,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 40,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 50,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 60,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    }
+                                ],
+                                "#member": "hackUploadTime",
+                                "#class": "wmData",
+                                "#title": "%#hash_2c6528a85fb79b1"
+                            }
+                        ],
+                        "#title": "%#hash_2c1bf2aad804c60c",
+                        "#icon": "%#icon_waypoint_hack",
+                        "#icon2": "%#"
+                    }
+                ],
+                "#mapname": "mp_jup_launchfacility"
+            },
+            {
+                "#objectives": [
+                    {
+                        "#description": "%#JUP_MP/WM_OBJ_OPEN_HATCH_ATTACKERS_DESC_SKYDIVING",
+                        "#defendertitle": "%#JUP_MP/WM_OBJ_OPEN_HATCH_DEFENDERS_TITLE_SKYDIVING",
+                        "#defendericon": "%#icon_waypoint_hack",
+                        "#type": "hack_and_bomb",
+                        "#hash_69ce62c56e56de7f": "%#JUP_MP/WM_OBJ_OPEN_HATCH_DEFENDERS_DESC_SKYDIVING",
+                        "#hash_f875121bbd7f26cb": "%#icon_waypoint_bomb",
+                        "#options": [
+                            {
+                                "#description": "%#hash_22e870ad58056d57",
+                                "#values": [
+                                    {
+                                        "#value": 120,
+                                        "#displayvalue": 2,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 180,
+                                        "#displayvalue": 3,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 240,
+                                        "#displayvalue": 4,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 300,
+                                        "#displayvalue": 5,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 360,
+                                        "#displayvalue": 6,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 420,
+                                        "#displayvalue": 7,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 600,
+                                        "#displayvalue": 10,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 900,
+                                        "#displayvalue": 15,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 1200,
+                                        "#displayvalue": 20,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    }
+                                ],
+                                "#member": "hackBombTimeLimit",
+                                "#class": "wmData",
+                                "#title": "%#hash_7f5dca818203eaed"
+                            },
+                            {
+                                "#description": "%#hash_155672cc5416750d",
+                                "#values": [
+                                    {
+                                        "#value": 10,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 20,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 25,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 40,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 50,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 60,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    }
+                                ],
+                                "#member": "sdHackUploadTime",
+                                "#class": "wmData",
+                                "#title": "%#hash_c2de4f55c25cc5b"
+                            },
+                            {
+                                "#description": "%#hash_248937bc77ddd928",
+                                "#values": [
+                                    {
+                                        "#value": 1,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 2,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 3,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 4,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 5,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 10,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    }
+                                ],
+                                "#member": "plantTime",
+                                "#class": "bombData",
+                                "#title": "%#hash_14a409f0bee41460"
+                            },
+                            {
+                                "#description": "%#hash_3f88755b327cee03",
+                                "#values": [
+                                    {
+                                        "#value": 1,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 2,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 3,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 4,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 5,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 10,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    }
+                                ],
+                                "#member": "defuseTime",
+                                "#class": "bombData",
+                                "#title": "%#hash_15920cc86a638649"
+                            },
+                            {
+                                "#description": "%#hash_20dba164c3eefc6a",
+                                "#values": [
+                                    {
+                                        "#value": 5,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 10,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 15,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 25,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 30,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 45,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 60,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    }
+                                ],
+                                "#member": "bombTimer",
+                                "#class": "bombData",
+                                "#title": "%#hash_6d1b10af962498da"
+                            }
+                        ],
+                        "#title": "%#JUP_MP/WM_OBJ_OPEN_HATCH_ATTACKERS_TITLE_SKYDIVING",
+                        "#icon": "%#icon_waypoint_hack",
+                        "#icon2": "%#icon_waypoint_bomb"
+                    },
+                    {
+                        "#description": "%#JUP_MP/WM_OBJ_ESCORT_WHEELSON_ATTACKERS_DESC_SKYDIVING",
+                        "#defendertitle": "%#JUP_MP/WM_OBJ_ESCORT_WHEELSON_DEFENDERS_TITLE_SKYDIVING",
+                        "#defendericon": "%#icon_waypoint_wheelson",
+                        "#type": "escort_wheelson",
+                        "#hash_69ce62c56e56de7f": "%#JUP_MP/WM_OBJ_ESCORT_WHEELSON_DEFENDERS_DESC_SKYDIVING",
+                        "#hash_f875121bbd7f26cb": "%#",
+                        "#options": [
+                            {
+                                "#description": "%#hash_22e870ad58056d57",
+                                "#values": [
+                                    {
+                                        "#value": 120,
+                                        "#displayvalue": 2,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 180,
+                                        "#displayvalue": 3,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 240,
+                                        "#displayvalue": 4,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 300,
+                                        "#displayvalue": 5,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 330,
+                                        "#displayvalue": 6,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 420,
+                                        "#displayvalue": 7,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 600,
+                                        "#displayvalue": 10,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 900,
+                                        "#displayvalue": 15,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 1200,
+                                        "#displayvalue": 20,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    }
+                                ],
+                                "#member": "escortWheelsonTimeLimit",
+                                "#class": "wmData",
+                                "#title": "%#hash_7f5dca818203eaed"
+                            },
+                            {
+                                "#description": "%#hash_538dcd65fbdfa6be",
+                                "#values": [
+                                    {
+                                        "#value": 0,
+                                        "#text": "%#hash_644d2cefc7cf74a3"
+                                    },
+                                    {
+                                        "#value": 1,
+                                        "#text": "%#hash_9d867a8745cfb48"
+                                    }
+                                ],
+                                "#member": "tankContestable",
+                                "#class": "wmData",
+                                "#title": "%#hash_293d41673d7c7f03"
+                            },
+                            {
+                                "#description": "%#hash_205149939e4e86f",
+                                "#values": [
+                                    {
+                                        "#value": 0,
+                                        "#text": "%#hash_644d2cefc7cf74a3"
+                                    },
+                                    {
+                                        "#value": 1,
+                                        "#text": "%#hash_9d867a8745cfb48"
+                                    }
+                                ],
+                                "#member": "tankReversible",
+                                "#class": "wmData",
+                                "#title": "%#hash_730f474212882e66"
+                            },
+                            {
+                                "#description": "%#hash_25d2c54dd3e6fe2b",
+                                "#values": [
+                                    {
+                                        "#value": 10,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 20,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 25,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 40,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 50,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 60,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    }
+                                ],
+                                "#member": "escortCaptureTime",
+                                "#class": "wmData",
+                                "#title": "%#hash_677ea2358c100311"
+                            }
+                        ],
+                        "#title": "%#JUP_MP/WM_OBJ_ESCORT_WHEELSON_ATTACKERS_TITLE_SKYDIVING",
+                        "#icon": "%#icon_waypoint_wheelson",
+                        "#icon2": "%#"
+                    },
+                    {
+                        "#description": "%#JUP_MP/WM_OBJ_CAPTURE_FLAG_ATTACK_DESC_SKYDIVING",
+                        "#defendertitle": "%#JUP_MP/WM_OBJ_CAPTURE_FLAG_DEFEND_TITLE_SKYDIVING",
+                        "#defendericon": "%#icon_waypoint_filter",
+                        "#type": "capture_flag",
+                        "#hash_69ce62c56e56de7f": "%#JUP_MP/WM_OBJ_CAPTURE_FLAG_DEFEND_DESC_SKYDIVING",
+                        "#hash_f875121bbd7f26cb": "%#icon_waypoint_rescue_extract",
+                        "#options": [
+                            {
+                                "#description": "%#hash_22e870ad58056d57",
+                                "#values": [
+                                    {
+                                        "#value": 120,
+                                        "#displayvalue": 2,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 180,
+                                        "#displayvalue": 3,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 240,
+                                        "#displayvalue": 4,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 300,
+                                        "#displayvalue": 5,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 360,
+                                        "#displayvalue": 6,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 420,
+                                        "#displayvalue": 7,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 600,
+                                        "#displayvalue": 10,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 900,
+                                        "#displayvalue": 15,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    },
+                                    {
+                                        "#value": 1200,
+                                        "#displayvalue": 20,
+                                        "#text": "%#hash_23dcdacc87b15e54"
+                                    }
+                                ],
+                                "#member": "captureFlagTimeLimit",
+                                "#class": "wmData",
+                                "#title": "%#hash_7f5dca818203eaed"
+                            },
+                            {
+                                "#description": "%#hash_16619942a7f2b1ef",
+                                "#values": [
+                                    {
+                                        "#value": 15,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 30,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 45,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 60,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 75,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    },
+                                    {
+                                        "#value": 90,
+                                        "#text": "%#hash_16bd7f18f38ad8fc"
+                                    }
+                                ],
+                                "#member": "captureFlagZoneTime",
+                                "#class": "wmData",
+                                "#title": "%#hash_6ea690068a970ce5"
+                            },
+                            {
+                                "#description": "%#hash_7d4c169bcdb2d828",
+                                "#values": [
+                                    {
+                                        "#value": 0,
+                                        "#text": "%#hash_644d2cefc7cf74a3"
+                                    },
+                                    {
+                                        "#value": 1,
+                                        "#text": "%#hash_9d867a8745cfb48"
+                                    }
+                                ],
+                                "#member": "zoneReversible",
+                                "#class": "wmData",
+                                "#title": "%#hash_51dd05badce3c960"
+                            }
+                        ],
+                        "#title": "%#JUP_MP/WM_OBJ_CAPTURE_FLAG_ATTACK_TITLE_SKYDIVING",
+                        "#icon": "%#icon_waypoint_filter",
+                        "#icon2": "%#icon_waypoint_rescue_extract"
+                    }
+                ],
+                "#mapname": "mp_jup_skydiving"
+            }
+        ],
+        "#generalsettings": [
+            {
+                "#hash_c6d041e37a76aec2": [
+                    {
+                        "#description": "%#hash_15946560d8f85160",
+                        "#values": [
+                            {
+                                "#value": 0,
+                                "#text": "%#hash_644d2cefc7cf74a3"
+                            },
+                            {
+                                "#value": 1,
+                                "#text": "%#hash_9d867a8745cfb48"
+                            }
+                        ],
+                        "#member": "stopWatchEnabled",
+                        "#class": "wmData",
+                        "#title": "%#hash_7c4a750fd5998e38"
+                    }
+                ],
+                "#title": "%#hash_1470c9ddf99e3908"
+            }
+        ]
+    }
+}

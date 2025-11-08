@@ -1,0 +1,8 @@
+string,string,localized_a,localized_a,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,localized_a,string,string,string,localized_a,localized_a,localized_a,localized_a,localized_a
+1,obj_retrieve_trackers,a&CP_JUP_PORT/SHIP_OBJECTIVE,a&,Primary,,,,,,,,,,,,0,1,,,,,,,,,cp_jup_port_create_script,,a&LEVELS_JUP/CP_JUP_PORT,1,,,a&,a&,a&,a&,a&
+2,obj_get_manifest,a&CP_JUP_PORT/RFID_OBJECTIVE,a&,Primary,,,,,,,,,,,,0,1,,,,,,,,,cp_jup_port_create_script,,a&LEVELS_JUP/CP_JUP_PORT,2,,,a&,a&,a&,a&,a&
+3,obj_missile_container_hmo,a&CP_JUP_PORT/OPEN_CONTAINER,a&,Primary,,,,,,,,,,,1,0,1,,,,,,,,,cp_jup_port_create_script,,a&LEVELS_JUP/CP_JUP_PORT,1,1,,a&,a&,a&,a&,a&
+4,obj_missile_container_boat,a&CP_JUP_PORT/EXFIL,a&,Primary,,,,,,,,,,,1,0,1,,,,,,,,,cp_jup_port_create_script,,a&LEVELS_JUP/CP_JUP_PORT,1,1,,a&,a&,a&,a&,a&
+5,obj_gear_container,a&CP_JUP_PORT/GEAR_CONTAINER_OBJECTIVE,a&,Primary,,,,,,,,,,,,0,1,,,,,,,,,cp_jup_port_create_script,,a&LEVELS_JUP/CP_JUP_PORT,1,,,a&,a&,a&,a&,a&
+6,obj_pickup_ascender,a&CP_JUP_PORT/PICKUP_ASCENDER,a&,Secondary,,,,,,,,,,,1,0,1,,,,,,,,,cp_jup_port_create_script,,a&LEVELS_JUP/CP_JUP_PORT,1,,,a&,a&,a&,a&,a&
+7,obj_missile_containers,a&CP_JUP_PORT/OPEN_CONTAINER,a&,Primary,,,,,,,,,,,,0,1,,,,,,,,,cp_jup_port_create_script,,a&LEVELS_JUP/CP_JUP_PORT,1,1,,a&,a&,a&,a&,a&

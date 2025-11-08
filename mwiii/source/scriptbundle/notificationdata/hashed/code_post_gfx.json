@@ -1,0 +1,92 @@
+{
+    "#hash_2638e98c90fba740": {
+        "#id": "achievement_unlocked",
+        "#description": "&NOTIFICATIONS/ACHIEVEMENT_UNLOCKED_TITLE",
+        "#hash_a9caa7d359bd84fc": "standard",
+        "#hash_826d60b415213260": true,
+        "#hash_95b7bf95bac9740": "standard",
+        "#title": "&LUA_MENU/ACHIEVEMENT_UNLOCKED",
+        "#icon": "icon_notification_challenges",
+        "#group": "%#hash_1a16392ebed77a1c",
+        "#length": "standard",
+        "#behavior": "%#notificationbehavior:localstore_alert_all",
+        "#priority": "low"
+    },
+    "#hash_2bcdc6bd8fefa558": {
+        "#id": "challenge_completed",
+        "#description": "&NOTIFICATIONS/CHALLENGE_COMPLETED_DESCRIPTION",
+        "#hash_a9caa7d359bd84fc": "success",
+        "#hash_826d60b415213260": true,
+        "#hash_95b7bf95bac9740": "standard",
+        "#title": "&NOTIFICATIONS/CHALLENGE_COMPLETED_TITLE",
+        "#icon": "icon_notification_challenges",
+        "#group": "%#hash_1a16392ebed77a1c",
+        "#length": "standard",
+        "#behavior": "%#notificationbehavior:localstore_alert_none",
+        "#priority": "default"
+    },
+    "#hash_59f193fe08424b61": {
+        "#id": "battlepass_refund_received",
+        "#description": "&NOTIFICATIONS/BATTLEPASS_REFUND_RECEIVED_DESC",
+        "#hash_a9caa7d359bd84fc": "standard",
+        "#hash_826d60b415213260": true,
+        "#hash_95b7bf95bac9740": "standard",
+        "#title": "&NOTIFICATIONS/BATTLEPASS_REFUND_RECEIVED_TITLE",
+        "#icon": "icon_notification_store",
+        "#group": "%#hash_57819e435c06898e",
+        "#length": "standard",
+        "#behavior": "%#notificationbehavior:localstore_alert_frontend",
+        "#priority": "default"
+    },
+    "#hash_72ec768de548a2e0": {
+        "#id": "broadcast_received",
+        "#description": "&NOTIFICATIONS/CHALLENGE_PROGRESS_DESCRIPTION",
+        "#hash_a9caa7d359bd84fc": "standard",
+        "#hash_826d60b415213260": true,
+        "#hash_95b7bf95bac9740": "standard",
+        "#title": "&NOTIFICATIONS/CHALLENGE_PROGRESS_TITLE",
+        "#icon": "icon_notification_challenges",
+        "#group": "%#hash_1a16392ebed77a1c",
+        "#length": "standard",
+        "#behavior": "%#notificationbehavior:localstore_alert_none",
+        "#priority": "low"
+    },
+    "#hash_7450c07fc0fcd183": {
+        "#id": "bulk_friend_request_sent",
+        "#description": "&NOTIFICATIONS/BULK_FRIEND_REQUEST_SENT_DESCRIPTION",
+        "#hash_a9caa7d359bd84fc": "standard",
+        "#hash_95b7bf95bac9740": "standard",
+        "#title": "&NOTIFICATIONS/BULK_FRIEND_REQUEST_SENT_TITLE",
+        "#icon": "icon_notification_friend",
+        "#group": "%#hash_545c1c2a9d3554bf",
+        "#length": "short",
+        "#behavior": "%#notificationbehavior:nostore_alert_all",
+        "#priority": "default"
+    },
+    "#hash_7b7940ea28df4332": {
+        "#id": "broadcast_received",
+        "#description": "&NOTIFICATIONS/BROADCAST_RECEIVED_DESCRIPTION",
+        "#hash_a9caa7d359bd84fc": "standard",
+        "#hash_95b7bf95bac9740": "standard",
+        "#title": "&NOTIFICATIONS/BROADCAST_RECEIVED_TITLE",
+        "#icon": "icon_notification_channels",
+        "#group": "%#notificationgroup:channels",
+        "#length": "standard",
+        "#behavior": "%#notificationbehavior:localstore_alert_frontend_stack",
+        "#priority": "low"
+    },
+    "#hash_7f417ebb3b79101f": {
+        "#id": "bnet_friend_request",
+        "#description": "&NOTIFICATIONS/FRIEND_REQUEST_RECEIVED_DESCRIPTION",
+        "#hash_f62f8b5f016441be": "&NOTIFICATIONS/FRIEND_REQUEST_RECEIVED_ACTION",
+        "#hash_a9caa7d359bd84fc": "standard",
+        "#hash_95b7bf95bac9740": "standard",
+        "#hash_60332e13d0bc2f9d": true,
+        "#title": "&NOTIFICATIONS/FRIEND_REQUEST_RECEIVED_TITLE",
+        "#icon": "icon_notification_invite",
+        "#group": "%#hash_6f2919c744871b2b",
+        "#length": "standard",
+        "#behavior": "%#notificationbehavior:localstore_alert_all",
+        "#priority": "high"
+    }
+}

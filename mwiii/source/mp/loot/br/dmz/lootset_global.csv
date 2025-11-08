@@ -1,0 +1,8 @@
+string,string,string,string
+inherit,mp/loot/br/dmz/lootset_root.csv,,
+option,no_points_ground,1,
+chance,point,30,
+chance,cluster,25,
+chance,clusterSolo,70,
+reqAdd,,1,
+reqAdd,brloot_armor_plate,1,

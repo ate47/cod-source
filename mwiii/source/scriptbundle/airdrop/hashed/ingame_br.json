@@ -1,0 +1,51 @@
+{
+    "#hash_6895821e56e397ac": {
+        "#hash_c996d363a9173609": "1 1 0 1",
+        "#capturestring": "&MP/DOUBLEXP_CRATE_CAPTURE",
+        "#hash_fe88e6e7c8add110": true,
+        "#hash_2ee59895d237b340": "&MP/DOUBLEXP_CRATE_NAME",
+        "#hash_27f313fd45e9d878": "veh_br_c17_flyby",
+        "#hash_93c857c1e2091c6": 5,
+        "#droptype": "single_plane",
+        "#useparachute": false,
+        "#droplocationtype": "center",
+        "#packagemodel": "military_carepackage_03_doublexp",
+        "#planesound": "veh_br_c17_distant_lp",
+        "#hash_b60de7134e4cf75": true,
+        "#planescount": 1,
+        "#hash_ef16dcb12768aa27": "ui_map_icon_drop_doublexp",
+        "#hash_37e362c5ada9087b": "smoke_carepackage_smoke_lp",
+        "#hash_c5994554ba7952fd": 5,
+        "#hash_e2ebda8aedfdb4ee": 4000,
+        "#hash_6c96508868e4b444": 5,
+        "#lootitems": [
+            {
+                "#cashquantity": 500,
+                "#lootscriptable": "brloot_plunder_cash_epic_1",
+                "#maxquantity": 1,
+                "#iscash": true
+            },
+            {
+                "#cashquantity": 50,
+                "#lootscriptable": "brloot_super_deployablekiosk",
+                "#maxquantity": 1,
+                "#iscash": false
+            },
+            {
+                "#cashquantity": 50,
+                "#lootscriptable": "brloot_super_reinforcement_flare",
+                "#maxquantity": 1,
+                "#iscash": false
+            },
+            {
+                "#cashquantity": 50,
+                "#lootscriptable": "brloot_super_utilitybox",
+                "#maxquantity": 1,
+                "#iscash": false
+            }
+        ],
+        "#hash_e9b6802b9c57d0f6": 300,
+        "#hash_7d4f6719bd8da7f7": "none",
+        "#hash_a9b8bcc86865726f": "vfx/iw9_br/gameplay/vfx_br_crate_smoke_signal_doublexp_gold.vfx"
+    }
+}

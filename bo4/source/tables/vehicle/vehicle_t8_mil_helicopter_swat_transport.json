@@ -1,0 +1,149 @@
+{
+    "name": "#vehicle_t8_mil_helicopter_swat_transport",
+    "type": "helicopter",
+    "scriptVehicleType": "helicopter_light",
+    "cameraTag": "tag_turret",
+    "archeType": "#none",
+    "unk38": "#none",
+    "spawnerType": "#none",
+    "spawnInfluencers1": "#none",
+    "spawnInfluencers2": "#none",
+    "exhaustFx": "#hash_5fa1874396786bd7",
+    "exhaustFxTag1": "tag_body",
+    "unk1350": "#hash_12c0d224e578c92a",
+    "deathFx": "#hash_4475fd2c32ab3987",
+    "deathFxTag": "tag_deathfx",
+    "deathFxSound": "#hash_626995667a4ff5c",
+    "lightFx": [
+        "#hash_721990bf03bf0871",
+        "#hash_4ad0a7a7f0f1bd65",
+        "#hash_3a2469bcc2d93b90"
+    ],
+    "lightFxTag": [
+        "tag_body",
+        "tag_main_rotor",
+        "tag_tail_rotor"
+    ],
+    "unk11f4": [
+        "tag_tail_rotor",
+        "tag_main_rotor"
+    ],
+    "targetTags": [
+        "tag_driver_camera"
+    ],
+    "skidSpeedMin": 100,
+    "skidSpeedMax": 600,
+    "peelSpeedMax": 600,
+    "model": "#hash_9038b879c45f21c",
+    "deathModel": "#veh_t8_mil_helicopter_light_transport",
+    "enemyModel": "#hash_22a7de9a3483c3f4",
+    "soundDef": "#hash_70d498da8ac63bc1",
+    "tacticalModeIcon": "#hash_679c5098faff525b",
+    "steerAxisName": "AXIS_LSTICK",
+    "unk1608": "BUTTON_RSHLDR",
+    "unk1618": "BUTTON_LSHLDR",
+    "bundle": {
+        "huds": [
+            {
+                "bindings": [
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_5145090d78d3a9f6",
+                        "hash_334a8e60": "left",
+                        "prompt": "+switchseat"
+                    }
+                ],
+                "widgets": [
+                    {
+                        "hash_513059ad": 0,
+                        "widgettype": 1
+                    },
+                    {
+                        "hash_513059ad": 0,
+                        "widgettype": 14
+                    },
+                    {
+                        "hash_513059ad": 3,
+                        "widgettype": 15
+                    },
+                    {
+                        "hash_513059ad": 0,
+                        "widgettype": 12
+                    }
+                ],
+                "hash_56985ec1": 0,
+                "hideweaponinfo": 0,
+                "hash_24c083a4": 0,
+                "vehiclehud": "VehicleHUD_GroundVehicle",
+                "hash_bf777968": "1 1 1 1",
+                "hash_9b2a3de7": "IsAttackMode"
+            },
+            {
+                "bindings": [
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_5145090d78d3a9f6",
+                        "hash_334a8e60": "left",
+                        "prompt": "+switchseat"
+                    },
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_6615f9892006f4f4",
+                        "hash_334a8e60": "left",
+                        "prompt": "+lookstick"
+                    },
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_35cdd6b4a2080b64",
+                        "hash_334a8e60": "left",
+                        "prompt": "+movestick"
+                    },
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_6601cb85da109187",
+                        "hash_334a8e60": "left",
+                        "prompt": "+vehiclemovedown"
+                    },
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_36567bb8c49ec72d",
+                        "hash_334a8e60": "left",
+                        "prompt": "+vehiclemoveup"
+                    }
+                ],
+                "widgets": [
+                    {
+                        "hash_513059ad": 0,
+                        "widgettype": 1
+                    },
+                    {
+                        "hash_513059ad": 0,
+                        "widgettype": 14
+                    },
+                    {
+                        "hash_513059ad": 3,
+                        "widgettype": 15
+                    },
+                    {
+                        "hash_513059ad": 0,
+                        "widgettype": 12
+                    }
+                ],
+                "hash_56985ec1": 0,
+                "hideweaponinfo": 0,
+                "hash_24c083a4": 0,
+                "vehiclehud": "VehicleHUD_GroundVehicle",
+                "hash_bf777968": "1 1 1 1",
+                "hash_9b2a3de7": "IsVehicleOwner"
+            }
+        ],
+        "healthpoolsize": 6000,
+        "hash_7812fce8": 1
+    }
+}

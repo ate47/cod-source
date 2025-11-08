@@ -1,0 +1,94 @@
+{
+    "#hash_182d1189351c111c": {
+        "#name_id": "smoke_tundra",
+        "#interactsound": "loot_pickup_offhand",
+        "#image": "hud_icon_equipment_smoke",
+        "#hinttake": "&GAME/TAKE_SMOKE",
+        "#weapongrenade": "smoke_tundra",
+        "#shader": "hud_icon_equipment_smoke",
+        "#hintswap": "&GAME/TAKE_SMOKE",
+        "#model": "loot_smoke_empty",
+        "#type": "Offhand",
+        "#name": "&GAME/TAKE_SMOKE"
+    },
+    "#hash_25f4c44b53c0ae20": {
+        "#name_id": "flash",
+        "#interactsound": "loot_pickup_offhand",
+        "#image": "hud_icon_equipment_flash",
+        "#hinttake": "&GAME/TAKE_FLASH",
+        "#weapongrenade": "flash",
+        "#shader": "hud_icon_equipment_flash",
+        "#hintswap": "&GAME/TAKE_FLASH",
+        "#model": "loot_flash",
+        "#type": "Offhand",
+        "#name": "&EQUIPMENT/LOOT_FLASH"
+    },
+    "#hash_2a1198ff3e158a6a": {
+        "#name_id": "frag",
+        "#interactsound": "loot_pickup_offhand",
+        "#image": "hud_icon_equipment_frag",
+        "#hinttake": "&GAME/TAKE_FRAG",
+        "#weapongrenade": "frag",
+        "#shader": "hud_icon_equipment_frag",
+        "#hintswap": "&GAME/SWAP_FRAG",
+        "#model": "loot_frag",
+        "#type": "Offhand",
+        "#name": "&EQUIPMENT/LOOT_FRAG"
+    },
+    "#hash_391be878374cd2b2": {
+        "#name_id": "armorplate",
+        "#interactsound": "loot_pickup_armor",
+        "#image": "hud_icon_loot_armor",
+        "#shader": "hud_icon_loot_armor",
+        "#model": "lm_loot_wm_armor_plate_iw9_carbon_fiber",
+        "#type": "ArmorPlate",
+        "#interactoffsetx": 2,
+        "#name": "&EQUIPMENT/LOOT_ARMOR"
+    },
+    "#hash_3dcac30310160393": {
+        "#name_id": "smoke",
+        "#interactsound": "loot_pickup_offhand",
+        "#image": "hud_icon_equipment_smoke",
+        "#hinttake": "&GAME/TAKE_SMOKE",
+        "#weapongrenade": "smoke_empty",
+        "#shader": "hud_icon_equipment_smoke",
+        "#hintswap": "&GAME/TAKE_SMOKE",
+        "#model": "loot_smoke_empty",
+        "#type": "Offhand",
+        "#name": "&GAME/TAKE_SMOKE"
+    },
+    "#hash_4a76c156c91a725e": {
+        "#name_id": "semtex",
+        "#interactsound": "loot_pickup_offhand",
+        "#image": "hud_icon_equipment_semtex",
+        "#hinttake": "&GAME/TAKE_SEMTEX",
+        "#weapongrenade": "semtex",
+        "#shader": "hud_icon_equipment_semtex",
+        "#hintswap": "&GAME/SWAP_SEMTEX",
+        "#model": "loot_semtex",
+        "#type": "Offhand",
+        "#name": "&EQUIPMENT/LOOT_SEMTEX"
+    },
+    "#hash_573ec545f78a1df3": {
+        "#name_id": "armor_plates",
+        "#interactsound": "loot_pickup_offhand",
+        "#image": "hud_icon_loot_armor",
+        "#hinttake": "&GAME/REFILL_ARMOR",
+        "#shader": "hud_icon_loot_armor",
+        "#model": "lm_loot_wm_armor_plate_iw9_carbon_fiber",
+        "#probability": "Never"
+    },
+    "#hash_7984d7b56f40e2c8": {
+        "#name_id": "throwingknife",
+        "#interactsound": "weap_pickup_knife_plr",
+        "#image": "hud_icon_equipment_throwing_knife",
+        "#hinttake": "&GAME/TAKE_THROWING_KNIFE",
+        "#weapongrenade": "throwingknife",
+        "#shader": "hud_icon_equipment_throwing_knife",
+        "#hintswap": "&GAME/TAKE_THROWING_KNIFE",
+        "#model": "loot_throwingknife",
+        "#type": "Offhand",
+        "#interactoffsetx": -2.5,
+        "#name": "&EQUIPMENT/LOOT_THROWING_KNIFE"
+    }
+}

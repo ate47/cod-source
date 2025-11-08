@@ -1,0 +1,10 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/default/lootset_root.csv,,,,
+reqAdd,weapon&[2-4],1,,,
+reqAdd,plate_carrier,1,,50,
+reqAdd,support,2,,,
+reqAdd,brloot_armor_plate,2,,,
+reqAdd,ammo,1,,,
+reqAdd,plunder,1,,,
+reqAdd,brloot_killstreak_supply_sweep,1,,30,
+reqLimit,plate_carrier,1,,,

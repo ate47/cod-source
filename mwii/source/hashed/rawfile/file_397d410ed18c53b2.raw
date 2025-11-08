@@ -1,0 +1,42 @@
+(function (WK) {
+    WK.utils = WK.utils || {};
+    WK.utils.svg = WK.utils.svg || {};
+    WK.utils.svg.psIcons = WK.utils.svg.psIcons || {};
+    var ps = WK.utils.svg.psIcons;
+
+
+    ps.circle = function () {
+        var svgStr =
+            '<svg class="ps-circle-svg" width="106" height="106" viewBox="0 0 106 106" fill="#D2D4CD" xmlns="http://www.w3.org/2000/svg"><path class="svg-fill-path default-white" d="M53 0C23.7 0 0 23.7 0 53C0 82.3 23.7 106 53 106C82.3 106 106 82.3 106 53C106 23.7 82.3 0 53 0ZM53 90.9C32.1 90.9 15.1 73.9 15.1 53C15.1 32.1 32.1 15.1 53 15.1C73.9 15.1 90.9 32.1 90.9 53C90.9 73.9 73.9 90.9 53 90.9Z" /><path class="svg-fill-path default-white" d="M53 25C37.5 25 25 37.5 25 53C25 68.5 37.5 81 53 81C68.5 81 81 68.5 81 53C81 37.5 68.5 25 53 25Z" /></svg>';
+        svg = new DOMParser().parseFromString(svgStr, 'application/xml');
+        return svg.documentElement;
+    };
+
+    ps.circleL = function () {
+        var svgStr =
+                '<svg class="ps-circle-L-svg" width="28" height="42" viewBox="0 0 28 42" fill="#D2D4CD" xmlns="http://www.w3.org/2000/svg"><mask id="mask0_171_2541" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="4" y="0" width="20" height="42"><path d="M20 35L8 35L14 40L20 35Z" fill="#D2D4CD" stroke="#D2D4CD"/><path d="M20 7H8L14 2L20 7Z" fill="#D2D4CD" stroke="#D2D4CD"/><path fill-rule="evenodd" clip-rule="evenodd" d="M14 31C19.5228 31 24 26.5228 24 21C24 15.4772 19.5228 11 14 11C8.47715 11 4 15.4772 4 21C4 26.5228 8.47715 31 14 31ZM16.9688 24.2022V26H11.9688V16H14.1334V24.2022H16.9688Z" fill="#D2D4CD"/></mask><g mask="url(#mask0_171_2541)"><rect x="-2" width="32" height="42" fill="#D2D4CD"/></g></svg>',                
+            svg = new DOMParser().parseFromString(svgStr, 'application/xml');
+        return svg.documentElement;
+    };
+
+    ps.square = function () {
+        var svgStr =
+                '<svg class="ps-square-svg" width="106" height="106" viewBox="0 0 106 106" fill="#D2D4CD" xmlns="http://www.w3.org/2000/svg"><path class="svg-fill-path default-white" d="M32.2771 32.2205L32.124 73.7205L73.624 73.8736L73.7771 32.3736L32.2771 32.2205Z" /><path class="svg-fill-path default-white" d="M53.2003 0.000316625C23.9003 -0.0996834 0.100317 23.5003 0.000316625 52.8003C-0.0996834 82.1003 23.5003 105.9 52.8003 106C82.1003 106.1 105.9 82.5003 106 53.2003C106.1 23.9003 82.5003 0.100317 53.2003 0.000316625ZM82.8003 82.0003V83.0003L23.0003 82.8003L23.2003 23.0003L83.0003 23.2003L82.8003 82.0003Z" /></svg>',
+            svg = new DOMParser().parseFromString(svgStr, 'application/xml');
+        return svg.documentElement;
+    };
+
+    ps.triangle = function () {
+        var svgStr =
+                '<svg class="ps-triangle-svg" width="106" height="106" viewBox="0 0 106 106" fill="#D2D4CD" xmlns="http://www.w3.org/2000/svg"><path class="svg-fill-path default-white" d="M52.9999 31.3L31.2 70H74.7L52.9999 31.3Z" /><path class="svg-fill-path default-white" d="M53 0C23.7 0 0 23.7 0 53C0 82.3 23.7 106 53 106C82.3 106 106 82.3 106 53C106 23.7 82.3 0 53 0ZM14.3 79.2L52 12.6H54L91.8 79.2H14.3Z" /></svg>',
+            svg = new DOMParser().parseFromString(svgStr, 'application/xml');
+        return svg.documentElement;
+    };
+    
+    ps.x = function () {
+        var svgStr =
+                '<svg class="ps-x-svg" width="106" height="106" viewBox="0 0 106 106" fill="#D2D4CD" xmlns="http://www.w3.org/2000/svg"><path class="svg-fill-path default-white" d="M53 0C23.7 0 0 23.7 0 53C0 82.3 23.7 106 53 106C82.3 106 106 82.3 106 53C106 23.7 82.3 0 53 0ZM75.1 82.5L53 60.4L30.9 82.5L23.6 75.2L45.6 53L23.5 30.9L30.9 23.5L53 45.6L75.1 23.5L82.4 30.8L60.4 53L82.5 75.1L75.1 82.5Z" /></svg>',
+            svg = new DOMParser().parseFromString(svgStr, 'application/xml');
+        return svg.documentElement;
+    };
+})(WK);

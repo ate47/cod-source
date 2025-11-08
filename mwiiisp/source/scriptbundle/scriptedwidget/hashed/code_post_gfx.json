@@ -1,0 +1,252 @@
+{
+    "#hash_254951a3009e2187": {
+        "#rendertarget": "None",
+        "#parameters": [],
+        "#hash_679a5fd22385af82": [],
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hash_a35573938e7a51c8": 1024,
+        "#widget": "rulesofengagement",
+        "#states": [
+            {
+                "#animation": "TakedownHover",
+                "#name": "TakedownHover"
+            },
+            {
+                "#animation": "TakedownSelected",
+                "#name": "TakedownSelected"
+            },
+            {
+                "#animation": "OutOfSight",
+                "#name": "OutOfSight"
+            },
+            {
+                "#animation": "ShootHover",
+                "#name": "ShootHover"
+            },
+            {
+                "#animation": "ShootSelected",
+                "#name": "ShootSelected"
+            },
+            {
+                "#animation": "ArmoredHover",
+                "#name": "ArmoredHover"
+            },
+            {
+                "#animation": "ArmoredSelected",
+                "#name": "ArmoredSelected"
+            },
+            {
+                "#animation": "ArmoredOoS",
+                "#name": "ArmoredOoS"
+            },
+            {
+                "#animation": "DefaultSequence",
+                "#name": "DefaultSequence"
+            },
+            {
+                "#animation": "ShootCancel",
+                "#name": "ShootCancel"
+            },
+            {
+                "#animation": "TakeDownCancel",
+                "#name": "TakeDownCancel"
+            }
+        ],
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_3536e5e2de3477dc": {
+        "#rendertarget": "None",
+        "#parameters": [
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "move",
+                            "#value": "&[{+GOSTAND}]",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    },
+                    {
+                        "#variant_object": {
+                            "#property": "camera",
+                            "#value": "&[{+WEAPNEXT}]",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "actions"
+            }
+        ],
+        "#hash_679a5fd22385af82": [],
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hash_a35573938e7a51c8": 1024,
+        "#widget": "MovementWidget",
+        "#states": [
+            {
+                "#animation": "Node",
+                "#name": "Node"
+            },
+            {
+                "#animation": "Prompt",
+                "#name": "Prompt"
+            },
+            {
+                "#animation": "PingSystem",
+                "#name": "PingSystem"
+            },
+            {
+                "#animation": "DefaultSequence",
+                "#name": "DefaultSequence"
+            },
+            {
+                "#animation": "CameraNode",
+                "#name": "CameraNode"
+            },
+            {
+                "#animation": "CameraNodeInteract",
+                "#name": "CameraNodeInteract"
+            },
+            {
+                "#animation": "Drop",
+                "#name": "Drop"
+            },
+            {
+                "#animation": "Drop2",
+                "#name": "Drop2"
+            },
+            {
+                "#animation": "DropInteract",
+                "#name": "DropInteract"
+            },
+            {
+                "#animation": "Drop2Interact",
+                "#name": "Drop2Interact"
+            }
+        ],
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_7161d5f6905df844": {
+        "#rendertarget": "None",
+        "#parameters": [
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "melee",
+                            "#value": "&[{+frag}] Knife Kill",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    },
+                    {
+                        "#variant_object": {
+                            "#property": "shoot",
+                            "#value": "&[{+attack}] Shoot",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "actions"
+            }
+        ],
+        "#hash_679a5fd22385af82": [],
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hash_a35573938e7a51c8": 1024,
+        "#widget": "ActionPrompts",
+        "#states": [
+            {
+                "#animation": "visible",
+                "#name": "visible"
+            },
+            {
+                "#animation": "armored",
+                "#name": "armored"
+            },
+            {
+                "#animation": "DefaultSequence",
+                "#name": "DefaultSequence"
+            },
+            {
+                "#animation": "notVisible",
+                "#name": "notVisible"
+            }
+        ],
+        "#normalgameplay": true,
+        "#assets": []
+    },
+    "#hash_7ff0280b16baeab5": {
+        "#rendertarget": "None",
+        "#parameters": [
+            {
+                "#properties": [
+                    {
+                        "#variant_object": {
+                            "#property": "electronic",
+                            "#value": "&[{+ACTIVATE}] Turn off",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    },
+                    {
+                        "#variant_object": {
+                            "#property": "bomb",
+                            "#value": "&[{+ACTIVATE}] Plant bomb",
+                            "#type": "StringProperty"
+                        },
+                        "#variant_type": "Types_StringProperty"
+                    }
+                ],
+                "#name": "actions"
+            }
+        ],
+        "#hash_679a5fd22385af82": [],
+        "#children": [],
+        "#rendertargetheight": 1024,
+        "#hash_a35573938e7a51c8": 1024,
+        "#widget": "CCTVInteract",
+        "#states": [
+            {
+                "#animation": "DefaultSequence",
+                "#name": "DefaultSequence"
+            },
+            {
+                "#animation": "ElectronicInteract",
+                "#name": "ElectronicInteract"
+            },
+            {
+                "#animation": "ShowElectronic",
+                "#name": "ShowElectronic"
+            },
+            {
+                "#animation": "BombInteract",
+                "#name": "BombInteract"
+            },
+            {
+                "#animation": "ShowBomb",
+                "#name": "ShowBomb"
+            },
+            {
+                "#animation": "IconElectronic",
+                "#name": "IconElectronic"
+            },
+            {
+                "#animation": "IconBomb",
+                "#name": "IconBomb"
+            },
+            {
+                "#animation": "FenceInteract",
+                "#name": "FenceInteract"
+            }
+        ],
+        "#normalgameplay": true,
+        "#assets": []
+    }
+}

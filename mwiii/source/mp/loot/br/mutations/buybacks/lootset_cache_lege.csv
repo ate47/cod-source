@@ -1,0 +1,10 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/mutations/buybacks/lootset_root.csv,,,,
+tagReject,nocache,100,,,
+reqAdd,weapon,1,,,
+reqAdd,ammo,1,,,
+reqAdd,brPowerItem,1,,,
+reqAdd,mutation,1,,,
+reqAdd,plunder,1,1,,
+reqLimit,perkpack,1,1,,
+reqLimit,killstreak,1,1,,

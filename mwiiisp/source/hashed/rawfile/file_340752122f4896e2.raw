@@ -1,0 +1,71 @@
+%force_cs_anim_index_match
+
+move_forward_neutral: blendspace2d( rangex="-180,180", rangey="0,255", blend_time="200",
+coords="{-135,19},{-90,19},{-45,23},{0,24},{45,24},{90,24},{135,23},{-135,52},{-90,52},{-45,52},{0,52},{45,52},{90,52},{135,52},{-135,250},{-90,250},{-45,250},{0,250},{45,250},{90,250},{135,250},{0,153},{45,153},{-45,153},{90,153},{135,153},{-90,153},{-135,153},{0,0},{90,0},{-90,0},{-135,0},{-45,0},{45,0},{135,0},{180,52},{180,153},{-180,52},{-180,153},{180,24},{-180,24},{180,250},{-180,250},{180,0},{-180,0},{180,75},{135,75},{90,75},{45,75},{0,75},{-45,75},{-90,75},{-135,75},{-180,75}",
+edges="{16,21,23},{16,17,21},{17,18,21},{18,21,22},{18,19,22},{14,26,27},{14,15,26},{15,23,26},{19,22,24},{19,20,24},{20,24,25},{2,3,28},{3,4,28},{5,6,29},{0,1,30},{5,6,13},{5,12,13},{4,5,12},{4,11,12},{3,4,11},{3,10,11},{3,9,10},{2,3,9},{1,2,8},{0,1,7},{1,7,8},{0,30,31},{1,30,32},{1,2,32},{2,28,32},{4,28,33},{5,29,33},{4,5,33},{6,29,34},{2,8,9},{6,13,35},{0,7,37},{0,37,40},{6,35,39},{31,40,44},{0,31,40},{6,34,39},{34,39,43},{25,36,41},{20,25,41},{14,27,42},{27,38,42},{13,35,45},{13,45,46},{36,45,46},{25,36,46},{12,13,46},{12,46,47},{25,46,47},{24,25,47},{11,12,47},{11,47,48},{24,47,48},{22,24,48},{10,11,48},{10,48,49},{15,16,23},{22,48,49},{21,22,49},{9,10,50},{10,49,50},{23,49,50},{21,23,49},{8,9,51},{7,8,52},{7,37,53},{9,50,51},{8,51,52},{7,52,53},{26,50,51},{27,51,52},{38,52,53},{23,26,50},{26,27,51},{27,38,52}",
+valuex=[strafeyaw], valuey=[desiredspeed] ) loopsync
+{
+	civ_cas_strafe_shuffle_3
+	civ_cas_strafe_shuffle_6
+	civ_cas_strafe_shuffle_9
+	civ_cas_strafe_shuffle_8
+	civ_cas_strafe_shuffle_7
+	civ_cas_strafe_shuffle_4
+	civ_cas_strafe_shuffle_1
+	civ_cas_strafe_walk_3
+	civ_cas_strafe_walk_6
+	civ_cas_strafe_walk_9
+	civ_cas_strafe_walk_8
+	civ_cas_strafe_walk_7
+	civ_cas_strafe_walk_4
+	civ_cas_strafe_walk_1
+	civ_pnc_strafe_jog_3
+	civ_pnc_strafe_jog_6
+	civ_pnc_strafe_jog_9
+	civ_pnc_run_forward01
+	civ_pnc_strafe_jog_7
+	civ_pnc_strafe_jog_4
+	civ_pnc_strafe_jog_1
+	civ_pnc_jog_forward01
+	civ_pnc_strafe_jog_7@1
+	civ_pnc_strafe_jog_9@1
+	civ_pnc_strafe_jog_4@1
+	civ_pnc_strafe_jog_1@1
+	civ_pnc_strafe_jog_6@1
+	civ_pnc_strafe_jog_3@1
+	civ_cas_strafe_in_place_8
+	civ_cas_strafe_in_place_4
+	civ_cas_strafe_in_place_6
+	civ_cas_strafe_in_place_3
+	civ_cas_strafe_in_place_9
+	civ_cas_strafe_in_place_7
+	civ_cas_strafe_in_place_1
+	civ_cas_strafe_walk_2
+	civ_pnc_strafe_jog_2
+	civ_cas_strafe_walk_2@1
+	civ_pnc_strafe_jog_2@1
+	civ_cas_strafe_shuffle_2
+	civ_cas_strafe_shuffle_2@1
+	civ_pnc_strafe_jog_2@2
+	civ_pnc_strafe_jog_2@3
+	civ_cas_strafe_in_place_2
+	civ_cas_strafe_in_place_2@1
+	civ_pnc_strafe_wary_walk_2
+	civ_pnc_strafe_wary_walk_1
+	civ_pnc_strafe_wary_walk_4
+	civ_pnc_strafe_wary_walk_7
+	forward_wary_walk: randomloop( blendtime=".75", restart="false", norepeat="true", seed=[animtime] )
+					{
+						civ_pnc_strafe_wary_walk_8
+						civ_pnc_strafe_wary_walk_forward01
+						civ_pnc_strafe_wary_walk_forward02
+						civ_pnc_strafe_wary_walk_forward03
+						civ_pnc_strafe_wary_walk_forward04
+						civ_pnc_strafe_wary_walk_forward05
+						civ_pnc_strafe_wary_walk_forward06
+					}
+	civ_pnc_strafe_wary_walk_9
+	civ_pnc_strafe_wary_walk_6
+	civ_pnc_strafe_wary_walk_3
+	civ_pnc_strafe_wary_walk_2@1
+}

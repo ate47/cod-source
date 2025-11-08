@@ -1,0 +1,190 @@
+{
+    "#hash_4295a9fd47d7c9e1": {
+        "#hash_ded947577ba0ee4a": "zombie_entity",
+        "#hash_667ab99889e6c59f": "scripts/aitypes/zombie_entity/zombie_entity_metabones.gsc",
+        "#metabones": [
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "l_hip",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 24814,
+                                    "#absolutehealth": true
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "active"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#tagname": "TAG_VFX_DMG_L_HIP",
+                        "#radius": 138
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "r_hand",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 24814,
+                                    "#absolutehealth": true
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "active"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#tagname": "TAG_VFX_DMG_R_HAND",
+                        "#radius": 138
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "l_hand",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 24814,
+                                    "#absolutehealth": true
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "active"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#tagname": "TAG_VFX_DMG_L_HAND",
+                        "#radius": 138
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "heart",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 24814,
+                                    "#absolutehealth": true
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "active"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#tagname": "TAG_VFX_DMG_HEAD",
+                        "#radius": 138
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "r_hip",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 24814,
+                                    "#absolutehealth": true
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "active"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#tagname": "TAG_VFX_DMG_R_HIP",
+                        "#radius": 138
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "l_shoulder",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 24814,
+                                    "#absolutehealth": true
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "active"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#tagname": "TAG_VFX_DMG_L_SHOULDER",
+                        "#radius": 138
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "r_shoulder",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 24814,
+                                    "#absolutehealth": true
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "active"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#tagname": "TAG_VFX_DMG_R_SHOULDER",
+                        "#radius": 138
+                    }
+                ]
+            }
+        ]
+    }
+}

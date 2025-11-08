@@ -1,0 +1,12 @@
+string,string,string,string,string,localized_a,localized_a,string,string,localized_a,string,string,string,int
+0,cp_timerSkip,special,timer_skip,1,a&CP_WEAPON_BUY/SKIPTIMER,a&CP_WEAPON_BUY/SKIPTIMER_DESC,hud_icon_killstreak_death_switch,1,a&,0,18168,,0
+1,cp_super_ammo_drop,fieldupgrade,super_ammo_drop,1,a&LUA_MENU_CP/AMMO_DROP,a&LUA_MENU_CP/AMMO_DROP_DESC,hud_icon_fieldupgrade_ammo_box,3,a&,0,9230,,0
+2,cp_armorBundle,special,armor_bundle,1,a&MP_BR_INGAME/KIOSK_ITEM_ARMOR_PLACE_BUNDLE,a&MP_BR_INGAME/KIOSK_ITEM_ARMOR_PLATE_BUNDLE_DESC,hud_icon_loot_armor_plates_triple,1,a&,80,8372,,0
+3,cp_clusterSpike,killstreak,cluster_spike,1,a&KILLSTREAKS/CLUSTER_SPIKE,a&KILLSTREAKS/CLUSTER_SPIKE_DESC,hud_icon_killstreak_clusterspike,4,a&,0,9161,,0
+4,cp_cruisePredator,killstreak,cruise_predator,1,a&KILLSTREAKS/CRUISE_PREDATOR,a&KILLSTREAKS/CRUISE_PREDATOR_DESC,hud_icon_killstreak_cruise_missile,4,a&,0,9151,,0
+5,cp_reviveToken,special,self_revive_token,1,a&MP_BR_INGAME/KIOSK_ITEM_SELF_REVIVE,a&MP_BR_INGAME/KIOSK_ITEM_SELF_REVIVE_DESC,hud_icon_loot_revive,1,a&,100,8548,,0
+6,cp_aiSquad,special,ai_squad,1,a&LUA_MENU_MP/RISK_AI_SQUAD,a&LUA_MENU_MP/RISK_AI_SQUAD_DESC,hud_icon_killstreak_reinforcements,1,a&,0,18169,,0
+7,cp_sentry,special,cp_sentry,1,a&LUA_MENU_MP/RISK_SENTRY_TURRET,a&LUA_MENU_MP/RISK_SENTRY_TURRET_DESC,hud_icon_killstreak_sentry,1,a&,0,9175,,0
+8,cp_autoDrone,killstreak,auto_drone,1,a&KILLSTREAKS/AUTO_DRONE,a&KILLSTREAKS/AUTO_DRONE_DESC,hud_icon_killstreak_auto_drone,4,a&,0,9140,,0
+9,cp_juggStreak,killstreak,juggernaut,1,a&KILLSTREAKS/JUGGERNAUT,a&KILLSTREAKS/JUGGERNAUT_DESC,hud_icon_killstreak_juggernaut,4,a&,0,9176,,0
+10,cp_armoredtruck,special,armoredtruck,1,a&CP_WEAPON_BUY/JLTV_TURRET,a&CP_WEAPON_BUY/JLTV_TURRET_DESC,hud_icon_vehicle_JLTV_mg,4,a&,0,9177,,0

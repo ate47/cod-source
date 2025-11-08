@@ -1,0 +1,88 @@
+{
+    "#hash_4209b828fd9bfd6f": {
+        "#scenarios": [
+            {
+                "#hash_c335b73c96a684ee": 0,
+                "#destructionstate": {
+                    "#delay": 10
+                },
+                "#weight": 55,
+                "#exploders": [
+                    {
+                        "#delay": 0,
+                        "#name": "escape5_jet_water_impact"
+                    }
+                ],
+                "#scenename": "jup_wz_infil_s3_outro_default",
+                "#name": "Default",
+                "#hash_3c98c782dfda4138": 5
+            },
+            {
+                "#hash_beb3ce9cb5705897": "rein_grav_infr",
+                "#hash_c335b73c96a684ee": 11,
+                "#destructionstate": {
+                    "#delay": 12,
+                    "#state": "Destroyed"
+                },
+                "#flyinstate": "Destroying",
+                "#weight": 15,
+                "#defaultstate": "Default",
+                "#exploders": [
+                    {
+                        "#delay": 0,
+                        "#name": "escape5_lighthouse"
+                    }
+                ],
+                "#scenename": "jup_wz_infil_s3_outro_lighthouse",
+                "#name": "escape5_lighthouse",
+                "#hash_3c98c782dfda4138": 5,
+                "#hash_56e04d3d0e7663ca": "compass_map_mp_jup_escape5_lighthouse"
+            },
+            {
+                "#hash_beb3ce9cb5705897": "rein_grav_infr",
+                "#hash_c335b73c96a684ee": 7,
+                "#destructionstate": {
+                    "#delay": 5,
+                    "#state": "Destroyed"
+                },
+                "#weight": 15,
+                "#defaultstate": "Default",
+                "#exploders": [
+                    {
+                        "#delay": 0,
+                        "#name": "escape5_prison"
+                    },
+                    {
+                        "#delay": 0,
+                        "#name": "esc5_ambient_dense_smk_xlg"
+                    }
+                ],
+                "#scenename": "jup_wz_infil_s3_outro_prison",
+                "#name": "escape5_prison",
+                "#hash_3c98c782dfda4138": 5,
+                "#hash_56e04d3d0e7663ca": "compass_map_mp_jup_escape5_prison"
+            },
+            {
+                "#hash_beb3ce9cb5705897": "rein_grav_infr",
+                "#hash_c335b73c96a684ee": 8,
+                "#destructionstate": {
+                    "#delay": 13,
+                    "#state": "Destroyed"
+                },
+                "#flyinstate": "Destroying",
+                "#weight": 15,
+                "#defaultstate": "Default",
+                "#exploders": [
+                    {
+                        "#delay": 0,
+                        "#name": "escape5_watertower"
+                    }
+                ],
+                "#scenename": "jup_wz_infil_s3_outro_watertower",
+                "#name": "escape5_water_tower",
+                "#hash_3c98c782dfda4138": 5,
+                "#hash_56e04d3d0e7663ca": "compass_map_mp_jup_escape5_watertower"
+            }
+        ]
+    }
+}

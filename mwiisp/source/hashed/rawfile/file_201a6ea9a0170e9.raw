@@ -1,0 +1,12 @@
+%force_cs_anim_index_match
+
+hvt_wnd_strafe: blendspace1d( range="-180.000,180", blend_time="200",
+coords="-90,-45,0,45,90",
+value=[strafeyaw] ) loopsync complete
+{
+	mtg_wnd_jog_6
+	mtg_wnd_jog_9
+	mtg_wnd_jog_8
+	mtg_wnd_jog_7
+	mtg_wnd_jog_4
+}

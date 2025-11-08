@@ -1,0 +1,8 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/default/lootset_root.csv,,,,
+chance,point,70,#     % of non-clustered points that will be populated,,
+chance,cluster,70,#     % of clusters that will be populated,,
+chance,clusterSolo,30,#     % of clusters that will become invalid after spawning one item (with dependencies),,
+reqAdd,weapon & [2-3],1,,,# required weapon
+reqAdd,killstreak,1,,33,# required killstreak
+reqLimit,killstreak,,1,,# limit # of killstreaks

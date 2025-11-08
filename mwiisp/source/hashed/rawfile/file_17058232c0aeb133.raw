@@ -1,0 +1,9 @@
+% force_cs_anim_index_match
+walk_look: blendspace1d( range="-1,1", blend_time="250", coords="-.5,0,.5", value=[civilian_focus] ) loopsync 
+{
+		//civ_cas_walk_curious_3
+		civ_cas_walk_curious_6
+		civ_cas_walk_curious_8
+		civ_cas_walk_curious_4
+		//civ_cas_walk_curious_1
+}

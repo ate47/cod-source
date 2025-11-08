@@ -1,0 +1,56 @@
+{
+    "name": "#veh_drone_squadron_mp",
+    "type": "helicopter",
+    "scriptVehicleType": "lead_drone",
+    "scoreType": "sentinel",
+    "cameraTag": "tag_driver_camera",
+    "archeType": "#lead_drone",
+    "unk38": "#none",
+    "spawnerType": "#none",
+    "spawnInfluencers1": "#hash_645ee7a1e8b99f30",
+    "spawnInfluencers2": "#hash_1cb125b04a11f881",
+    "exhaustFx": "#hash_6ca4bae1ebace539",
+    "exhaustFxTag1": "tag_rotor_right_rear",
+    "scriptBundleSettings": "#drone_squadronsettings_mp",
+    "deathFx": "#hash_784abc490d28f005",
+    "deathFxTag": "tag_body_animate",
+    "deathFxSound": "#hash_1abcdb19e4a6cb83",
+    "lightFx": [
+        "#hash_2e960f5499b7853f",
+        "#hash_6ca4bae1ebace539",
+        "#hash_6ca4bae1ebace539",
+        "#hash_6ca4bae1ebace539"
+    ],
+    "lightFxTag": [
+        "tag_body_animate",
+        "tag_rotor_left_front",
+        "tag_rotor_right_front",
+        "tag_rotor_left_rear"
+    ],
+    "unk11f4": [
+        "tag_rotor_left_front",
+        "tag_rotor_right_front",
+        "tag_rotor_left_rear",
+        "tag_rotor_right_rear"
+    ],
+    "skidSpeedMin": 100,
+    "skidSpeedMax": 600,
+    "peelSpeedMax": 600,
+    "model": "#vehicle_t8_drone_swarm_lead_mp_light",
+    "viewModel": "#vehicle_t8_drone_swarm_lead_mp_light",
+    "deathModel": "#hash_4b62fd2d8bc9c50d",
+    "enemyModel": "#hash_64cb8e69c1c3b674",
+    "soundDef": "#hash_5c83a533a2f4f5b6",
+    "lightCollisionRumble": "#hash_6e2cf62b0e7ea6a0",
+    "heavyCollisionRumble": "#hash_62c9299e7f036f23",
+    "steerAxisName": "AXIS_RSTICK",
+    "gasAxisName": "AXIS_LSTICK",
+    "attackButtonName": "BUTTON_RTRIG",
+    "boostButtonName": "BUTTON_LTRIG",
+    "unk1608": "BUTTON_RSHLDR",
+    "unk1618": "BUTTON_LSHLDR",
+    "bundle": {
+        "healthpoolsize": 650,
+        "hash_7812fce8": 3
+    }
+}

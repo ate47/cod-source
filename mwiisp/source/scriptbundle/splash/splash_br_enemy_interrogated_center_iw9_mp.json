@@ -1,0 +1,23 @@
+{
+    "#description": "&SPLASHES/BR_ENEMY_INTERROGATED",
+    "#splashref": "#br_enemy_interrogated_center",
+    "#image": "hud_icon_interrogation_active",
+    "#splashparameter": {
+        "#paramtype": "ClientId",
+        "#paramdestination": "description",
+        "#hash_22779049fb3e0691": "&SPLASHES/INTERROGATION_SQUAD_COMPROMISED_FALLBACK_TOKEN"
+    },
+    "#shortname": "&SPLASHES/INTERROGATION_SQUAD_MARKED",
+    "#type": "generic",
+    "#colorswatch": "IW9StyleGuide.styleGuideWarm01",
+    "#hash_773fcbe04446f5df": {},
+    "#hash_773fcce04446f812": {},
+    "#hash_ffbe9b6f3cabcd7d": {
+        "#intensity": "low",
+        "#alignment": "center",
+        "#tone": "positive",
+        "#hash_32d058d79cc0c7f3": {},
+        "#hash_b389814f29c3dfd8": {}
+    },
+    "#name": "&SPLASHES/INTERROGATION_SQUAD_MARKED"
+}

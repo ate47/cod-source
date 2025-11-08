@@ -1,0 +1,6 @@
+string,string,string,string
+inherit,mp/loot/br/default/lootset_root.csv,,
+reqAdd,(brloot_killstreak_circle_peek|brloot_killstreak_auav|brloot_perkpack_specialist_jup)|(weapon&[5]),1,1
+reqAdd,brloot_plunder_cash_uncommon_1,1,1
+reqAdd,health,1,1
+reqAdd,ammo,1,1

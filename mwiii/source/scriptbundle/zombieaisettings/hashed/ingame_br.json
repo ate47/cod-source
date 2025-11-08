@@ -1,0 +1,93 @@
+{
+    "#hash_7741ccb5b8043b93": {
+        "#hash_204e8fd8424a6542": true,
+        "#hash_289be7ed6a138df8": false,
+        "#speedthreshold_list": [
+            {
+                "#movetype": "wander_shuffle",
+                "#speedthreshold": 30
+            },
+            {
+                "#movetype": "wander",
+                "#speedthreshold": 48
+            },
+            {
+                "#movetype": "investigate",
+                "#speedthreshold": 50
+            },
+            {
+                "#movetype": "walk",
+                "#speedthreshold": 56
+            },
+            {
+                "#movetype": "wander_agitated",
+                "#speedthreshold": 65
+            },
+            {
+                "#movetype": "run",
+                "#speedthreshold": 120
+            },
+            {
+                "#movetype": "sprint",
+                "#speedthreshold": 170
+            },
+            {
+                "#movetype": "super_sprint",
+                "#speedthreshold": 256
+            }
+        ],
+        "#hash_ffe6545012b26f": true,
+        "#turnanimsenabled": true,
+        "#enablespreading": true,
+        "#hash_6fddf68ea9876757": 90,
+        "#hash_4f4c7fe3debb81dd": 1,
+        "#hash_fbb461f12b47eaa3": 2000,
+        "#maxwanderradius": 2000,
+        "#enablemelee": true,
+        "#hash_e2b91916dda5f27f": [
+            {
+                "#modelname": "jup_zm_gore_chunk_01"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_02"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_03"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_04"
+            },
+            {
+                "#modelname": "jup_zm_gore_chunk_05"
+            }
+        ],
+        "#hash_f42bfa0e947d5b2b": false,
+        "#hash_658057c64a5cf3f1": false,
+        "#aicategory": "normal",
+        "#hash_d0ede1e06e380f47": 85,
+        "#healthscriptbundle": "health_zombie_base",
+        "#hash_333751673b2281dc": 65,
+        "#elementalweakness": [],
+        "#hash_23731ac359988186": true,
+        "#hash_7410c30336739540": true,
+        "#usewanderscripted": true,
+        "#meleeknockbackstrength": 0,
+        "#hash_878a9f80b05effb": 1,
+        "#hash_96a98119d705d6c2": false,
+        "#hash_d1ded916cc30d50c": [],
+        "#metabones": "metabones_zombie_base",
+        "#hash_f6fe19952d45625e": true,
+        "#biterange": 64,
+        "#meleedamage": 30,
+        "#hash_e39c9bda85ea5d4e": true,
+        "#leapattackdamage": 30,
+        "#hash_4e3307a692b95a11": true,
+        "#minwanderradius": 1000,
+        "#hash_8d29cdf5f3f3dd2c": 750,
+        "#hash_a18e13a8f1d43f20": false,
+        "#meleerange": 64,
+        "#hash_a98faeef4a48e76": 7.5,
+        "#hash_68efc88ffa0aa2c2": 5000,
+        "#hash_b9a7a1856c211959": 1
+    }
+}

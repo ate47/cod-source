@@ -1,0 +1,28 @@
+#using scripts\core_common\callbacks_shared;
+#using scripts\core_common\clientfield_shared;
+#using scripts\core_common\system_shared;
+#using scripts\core_common\util_shared;
+
+#namespace namespace_89fd9b3e;
+
+// Namespace namespace_89fd9b3e/namespace_89fd9b3e
+// Params 0, eflags: 0x5
+// Checksum 0xb96a6957, Offset: 0xa0
+// Size: 0x3c
+function private autoexec __init__system__()
+{
+    system::register( #"zonslaught_accelerated", &preinit, undefined, undefined, undefined );
+}
+
+// Namespace namespace_89fd9b3e/namespace_89fd9b3e
+// Params 0, eflags: 0x4
+// Checksum 0x8a256674, Offset: 0xe8
+// Size: 0x38
+function private preinit()
+{
+    if ( util::get_game_type() === #"zonslaught_accelerated" )
+    {
+        level.var_612d6a21 = 1;
+    }
+}
+

@@ -1,0 +1,40 @@
+#x392a79b700b91aa81							"blurred"						// The type of screen effect to be played
+
+#x3e24dce16298b76e				"0.5"							// The amount of time in seconds for the shellshock effect to blend
+#x3ac8ce18e6cbb9c38			"2.75"							// The amount of time in seconds for the shellshock effect to fade
+#x31075874ee1cc4a69			"0.0"							// In seconds, how soon from the end of the effect to start blending out the whiteout layer
+#x39615a723f4d809fa			"0.0"							// In seconds, how soon from the end of the effect to start blending out the screengrab layer
+
+#x34c9de5813472d260							"0"								// Boolean - during shellshock effect, can the player may move 
+#x35ae16698bc91b2bd								"0"								// Boolean - during shellshock effect, can the player may sprint
+#x3d1ecfa0e83c1ab1b								"0"								// Boolean - during shellshock effect, can the player may job
+#x34a36f6def266342								"1"								// Boolean - during shellshock effect, can the player may mount
+
+#x32d8a21dfd216316b						"1.0"						
+
+#x3a2a292794a8e5357						"0.75"							// The period of the shellshock view kick effect
+#x37fe2958b6216b8c						"0.25"							// Shell shock kick radius
+#x3f8094669f9bce181					"1.5"							// The time for the shellshock kick effect to fade
+
+#x3ad94e22d1b87ff33						"1"								// Alter player control during shellshock
+
+#x3bf452740676e875b			"25"							// Maximum pitch movement rate while shellshocked in degrees per second
+#x3b145d33867fda6c0			"25"							// Maximum yaw movement rate while shell shocked in degrees per second
+#x39fc7d4fa9251b768	"0.5"							// Sensitivity scale to apply to a shellshocked player
+#x33a48cc548e3596a3				"3"							
+
+#x3399708ca8b77758c								"1"								// Play shell shock sound
+
+#x33951cce1cbd83d78						"frag_grenade_mp_shock"			// Shell shock sound audio zone
+
+#x34fe606b42634f792							"flashbang_tinnitus_loop"		// Shellshock loop alias
+#x38a1b831a20aef726						"flashbang_tinnitus_loop"		// Shellshock loop alias
+#x3b7450f8df17a0f93					"flashbang_tinnitus_loop_silent"// The sound that gets blended with the shellshock loop alias
+#x3d4dcb282baa5f9e1							"flashbang_tinnitus_end"		// Shellshock end sound alias
+#x38124987509c55fd						"flashbang_tinnitus_abort"		// Shellshock aborted end sound alias
+
+#x327ce4c3839a91114					"0.5"							// Shell shock sound fade in time in seconds
+#x322015aad472305b7					"2.0"							// Shell shock sound fade out time in seconds
+#x3b2bb9ece48591195					"2.0"							// Shell shock sound loop fade time in seconds
+#x31de5f308b2b7637e					"1.5"							// Sound loop end offset time from the end of the shellshock in seconds
+#x397af623f28dd5be8					"1.5"							// The delay from the end of the shell shock to the end of the sound modification

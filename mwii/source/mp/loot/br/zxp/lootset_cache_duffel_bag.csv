@@ -1,0 +1,7 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/zxp/lootset_root.csv,,,,
+reqAdd,gear,1,,33,# chance for gear
+reqAdd,super&[0-1],1,,50,# chance for super
+reqAdd,weapon,1,,,
+reqAdd,brloot_zmb_stim,1,1,50,# ZXP Stim
+reqAdd,brloot_offhand_magsnap|brloot_super_hauntedbox,1,1,50,# More chance of having MagSnap or Haunted Box

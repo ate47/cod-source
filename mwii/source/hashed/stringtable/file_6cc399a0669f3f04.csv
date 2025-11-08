@@ -1,0 +1,94 @@
+string,string,string,string,string,string,string,string,string
+player128x128x8,,422,-2772,284,0,21.9996,0, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,518,-2718,284,0,37.9999,0, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,604.511,-2638.54,278.09,1.92713,47.384,-0.0762524, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,691.075,-2543.64,268.144,5.97001,47.4033,0.0333736, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,777.963,-2448.39,254.077,5.99589,47.8681,0.169616, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,864.612,-2353.42,238.243,7.99573,47.7859,-0.0790263, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,948.432,-2257.63,220.278,7.96784,47.3036,-0.225117, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,1033.45,-2164.29,204.314,7.98514,48.3198,-0.34567, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,1121.01,-2068.05,188.518,7.78609,46.6153,0.815109, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,1209.2,-1975.95,171.071,7.78609,46.6153,0.815109, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,374,-2654,284,0,21.9996,0, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,474,-2688,284,0,45.9998,0, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,562.138,-2595.88,277.919,1.9233,45.3829,-0.143487, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,651.917,-2504.1,267.905,5.96752,45.3924,-0.175755, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,741.753,-2412.26,253.967,5.99814,45.8571,-0.0405096, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,831.684,-2320.36,237.847,7.98807,45.7663,-0.359849, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,917.809,-2226.25,219.783,7.9551,45.2842,-0.504851, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,1005.55,-2136.53,203.768,7.96818,46.3003,-0.625941, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,1097.21,-2042.56,188.72,7.80977,44.5968,0.541209, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+player128x128x8,,1188.59,-1953.64,171.224,7.80977,44.5968,0.541209, Fix for missing player collision on terrain near roundabout spawn IW9-732109
+shotblock128x128x8,shotblock128x128x8,376,-386,268,270,0,-180, Fix for excess penetration through bar counter on terrace IW9-725541
+shotblock128x128x8,shotblock128x128x8,376,-488,268,270,0,-180, Fix for excess penetration through bar counter on terrace IW9-725541
+shotblock8x8x256,shotblock8x8x256,374,-552,74,0,0,0, Fix for excess penetration through bar counter on terrace IW9-725541
+shotblock8x8x256,shotblock8x8x256,366,-552,74,0,0,0, Fix for excess penetration through bar counter on terrace IW9-725541
+shotblock8x8x256,shotblock8x8x256,358,-552,74,0,0,0, Fix for excess penetration through bar counter on terrace IW9-725541
+shotblock8x8x256,shotblock8x8x256,350,-552,74,0,0,0, Fix for excess penetration through bar counter on terrace IW9-725541
+shotblock8x8x256,shotblock8x8x256,342,-552,74,0,0,0, Fix for excess penetration through bar counter on terrace IW9-725541
+shotblock8x8x256,shotblock8x8x256,334,-552,74,0,0,0, Fix for excess penetration through bar counter on terrace IW9-725541
+shotblock256x256x8,shotblock256x256x8,-658,-966,200,326,0,0, Added shotblock underneath stairs in Lounge IW9-727063
+player256x256x8,,-576,-656,-4,0,0,0, Added player collision to bottom of pool to prevent stuck spots IW9-731498 IW9-730894
+player512x512x8,,-192,-608,-4,0,0,0, Added player collision to bottom of pool to prevent stuck spots IW9-731498 IW9-730894
+player256x256x8,,-576,-492.086,1.95218,0,0,28.5999, Added player collision to bottom of pool to prevent stuck spots IW9-731498 IW9-730894
+player256x256x8,,-320,-492.086,1.95218,0,0,28.5998, Added player collision to bottom of pool to prevent stuck spots IW9-731498 IW9-730894
+player256x256x8,,-64,-492.086,1.95218,0,0,28.5999, Added player collision to bottom of pool to prevent stuck spots IW9-731498 IW9-730894
+player256x256x8,,-576,-400,-4,0,0,0, Added player collision to bottom of pool to prevent stuck spots IW9-731498 IW9-730894
+player512x512x8,,-192,-127,62,0,0,0, Added player collision to bottom of pool to prevent stuck spots IW9-731498 IW9-730894
+clip8x8x256,,-424,776,136,0,0,0, Added collision to umbrella near north restaurant entrance
+vehicle128x128x8,,-590,-688,78,32.9998,0,0, Added vehicle clip over pool stairs for wheelson IW9-724832
+player128x128x8,,-204,652,328,270,0,0, Added clip inside restaurant to prevent player models from poking through glass IW9-731692
+player128x128x8,,-208,696,328,270,0,0, Added clip inside restaurant to prevent player models from poking through glass IW9-731692
+player128x128x256,,2952,1776,216,90,0,90, pavement outside the playable area lacks character collision IW9-741399
+player128x128x8,,-204,2052,604,270,0,0, Clipped top of lamp posts near tourist office
+player128x128x8,,-204,2052,732,270,0,0, Clipped top of lamp posts near tourist office
+player128x128x8,,-840,1732,604,270,0,0, Clipped top of lamp posts near tourist office
+player128x128x8,,-840,1732,732,270,0,0, Clipped top of lamp posts near tourist office
+player128x128x8,,1024,-320,448,270,0,-90, Clipped space above overlook inside conference room
+player128x128x8,,1152,-320,448,270,0,-90, Clipped space above overlook inside conference room
+player128x128x8,,1280,-320,448,270,0,-90, Clipped space above overlook inside conference room
+player256x256x8,,1920,376,408,270,0,-90, Clipped windows by double doors in front of sculpture garden
+player128x128x8,,-88,-1534,476,270,0,-90, Clipped off top of couches inside lounge
+player128x128x8,,-128,-1534,476,270,0,-90, Clipped off top of couches inside lounge
+player128x128x8,,-88,-1534,604,270,0,-90, Clipped off top of couches inside lounge
+player128x128x8,,-128,-1534,604,270,0,-90, Clipped off top of couches inside lounge
+player128x128x8,,-206,328,402,270, 0, 0, Clipped off shelf near double doors inside restaurant
+player8x8x256,,-567,10,378,0,0,0, Clipped off small ledge on top of restaurant roof
+shotblock128x128x8,shotblock128x128x8,-892,-88,200,270,0,-90, Fix for wallbang through sauna IW9-728907
+shotblock512x512x8,shotblock512x512x8,256,212,192,270,0,-135, Fix for wallbang through vent IW9-719524
+shotblock512x512x8,shotblock512x512x8,-528,688,4,270,0,-90, Fix for wallbang through restaurant double doors on lower floor
+shotblock128x128x8,shotblock128x128x8,-1280,-252,192,270,0,-15, Fix for wallbang through sauna IW9-728907
+shotblock128x128x8,shotblock128x128x8,-1276,-196,192,270,0,-15, Fix for wallbang through sauna IW9-728907
+player32x32x256,,-1027,1565,280,0,0,0, Fix for boost exploit on top of dolly IW9-774669
+player32x32x256,,-1027,1565,536,0,0,0, Fix for boost exploit on top of dolly IW9-774669
+nosight128x128x128,,68,-952,296,0,0,0, Fix for seeing red dots through wall in Lounge IW9-780284
+nosight128x128x128,,196,-900,296,0,0,0, Fix for seeing red dots through wall in Lounge IW9-780284
+player64x64x256,,50,-2497,455,270,0,-60.7001, Fix for exploitable boost onto white truck in roundabout IW9-787615
+player64x64x256,,85,-2478,455,270,0,-60.7001, Fix for exploitable boost onto white truck in roundabout IW9-787615
+player64x64x256,,50,-2497,519,270,0,-60.7001, Fix for exploitable boost onto white truck in roundabout IW9-787615
+player64x64x256,,85,-2478,519,270,0,-60.7001, Fix for exploitable boost onto white truck in roundabout IW9-787615
+player64x64x256,,-72.1197,-2272.55,399.297,0.599568,299.612,-0.00556757, Fix for exploitable boost onto white truck in roundabout IW9-787615
+player64x64x256,,-43.503,-2255.87,398.734,0.599568,299.612,-0.00556757, Fix for exploitable boost onto white truck in roundabout IW9-787615
+player64x64x256,,-1038.88,-2043.37,399.297,0.599536,10.3117,-0.0055676, Fix for exploitable boost onto yellow truck in roundabout IW9-787604
+player64x64x256,,-1045.16,-2010.84,398.734,0.599536,10.3117,-0.0055676, Fix for exploitable boost onto yellow truck in roundabout IW9-787604
+player32x32x256,,-801,-2027,422,0,20.6982,0, Fix for exploitable boost onto yellow truck in roundabout IW9-787604
+player32x32x256,,-819,-2034,422,0,20.6982,0, Fix for exploitable boost onto yellow truck in roundabout IW9-787604
+player32x32x256,,-815.345,-1942.36,422,0,0.296917,0, Fix for exploitable boost onto yellow truck in roundabout IW9-787604
+player32x32x256,,-834.655,-1942.64,422,0,0.296917,0, Fix for exploitable boost onto yellow truck in roundabout IW9-787604
+player64x64x256,,-785.682,-2001.29,455,270,0,9.99966, Fix for exploitable boost onto yellow truck in roundabout IW9-787604
+player64x64x256,,-785.682,-2001.29,519,270,0,9.99966, Fix for exploitable boost onto yellow truck in roundabout IW9-787604
+player64x64x256,,-785.682,-2001.29,583,270,0,9.99966, Fix for exploitable boost onto yellow truck in roundabout IW9-787604
+player64x64x256,,-792.046,-1961.98,455,270,0,9.99966, Fix for exploitable boost onto yellow truck in roundabout IW9-787604
+player64x64x256,,-792.046,-1961.98,519,270,0,9.99966, Fix for exploitable boost onto yellow truck in roundabout IW9-787604
+player64x64x256,,-792.046,-1961.98,583,270,0,9.99966, Fix for exploitable boost onto yellow truck in roundabout IW9-787604
+clip256x256x8,,-632,-840,416,270,0,-90, Fix for third person camera clipping through wall IW9-777998
+clip256x256x8,,-632,-840,160,270,0,-90, Fix for third person camera clipping through wall IW9-777998
+clip32x32x32,,-562,248,219,9.49948,0,0, Fix for exploitable boost in corner of restaurant exterior IW9-787592
+shotblock512x512x8,shotblock512x512x8,268,-468,24,270,0,0, Fix for wallbang through stone fireplace IW9-788166
+shotblock32x32x256,shotblock32x32x256,236,-396,200,0,0,0, Fix for wallbang through stone fireplace IW9-788166
+shotblock32x32x256,shotblock32x32x256,236,-416,200,0,0,0, Fix for wallbang through stone fireplace IW9-788166
+shotblock32x32x256,shotblock32x32x256,236,-440,200,0,0,0, Fix for wallbang through stone fireplace IW9-788166
+clip64x64x256,,672,670,288,0,0,0, Fix for unintended hardpoint capture behind pillar IW9-823821  
+clip64x64x256,,864,670,288,0,0,0, Fix for unintended hardpoint capture behind pillar IW9-823821 
+clip64x64x256,,1440,670,288,0,0,0, Fix for unintended hardpoint capture behind pillar IW9-823821 
+clip64x64x256,,1632,670,288,0,0,0, Fix for unintended hardpoint capture behind pillar IW9-823821 

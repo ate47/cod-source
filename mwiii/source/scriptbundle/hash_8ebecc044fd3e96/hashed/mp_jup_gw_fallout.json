@@ -1,0 +1,46 @@
+{
+    "#hash_310c3daa7b7b8a99": {
+        "#respawntime": 300,
+        "#hash_8275c6699afd270f": "directorControlled",
+        "#potentialbuckets": [
+            {
+                "#smokebombinfil": false,
+                "#requiredtags": [],
+                "#hash_179611467641c036": [],
+                "#requiredalltags": false,
+                "#hash_7eb3ffaa29efda6b": [
+                    {
+                        "#aitype": "jup_spawner_zombie_base",
+                        "#spawnfilter": "none",
+                        "#hash_c220f624418529a9": [],
+                        "#droptoground": true,
+                        "#spawncount": 3
+                    }
+                ],
+                "#hash_acea821686a77783": "filler",
+                "#faction": "zombie"
+            }
+        ],
+        "#requiredtags": [],
+        "#hash_ba90d6264de9df9b": {
+            "#spawnparams": [
+                {
+                    "#variant_object": {
+                        "#hash_eaf2d49924a9c14": "random",
+                        "#maxradius": 300
+                    },
+                    "#variant_type": "Types_RandomSpawnSelectionParams"
+                }
+            ]
+        },
+        "#hash_605d88fdc85b673d": "directorControlled",
+        "#hash_59ff2b52bbba73fa": "filler",
+        "#savestate": false,
+        "#hash_c508480ff26dab43": true,
+        "#hash_1647f937d0da0c33": {
+            "#hash_98080a4c2759eb8f": 5,
+            "#hash_15082fe4f4b3229b": 6,
+            "#hash_4bcfb20c457c2f67": true
+        }
+    }
+}

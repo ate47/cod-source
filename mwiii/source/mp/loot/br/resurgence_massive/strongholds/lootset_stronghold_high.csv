@@ -1,0 +1,10 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/resurgence_massive/lootset_root.csv,,,,
+chance,point,75,,,
+chance,cluster,75,,,
+chance,clusterSolo,40,,,
+reqLimit,brloot_self_revive,1,1,,
+reqAdd,ammo,3,,,
+reqAdd,brloot_armor_plate,2,3,,
+reqAdd,weapon,2,,,
+reqAdd,plunder,2,,,

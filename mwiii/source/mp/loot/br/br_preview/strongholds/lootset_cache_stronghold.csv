@@ -1,0 +1,9 @@
+string,string,string,string
+inherit,mp/loot/br/br_preview/lootset_root.csv,,
+reqAdd,weapon&[4],1,1
+reqAdd,perkpack,1,1
+reqAdd,brloot_self_revive,1,1
+reqAdd,brPowerItem,1,1
+reqAdd,plunder,1,1
+reqLimit,perkpack,1,
+reqLimit,gear,1,

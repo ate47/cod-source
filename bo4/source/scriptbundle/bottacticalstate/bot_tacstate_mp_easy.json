@@ -1,0 +1,111 @@
+{
+    "movingstancehandlerlist": [
+        {
+            "stance": "#slide",
+            "name": "#hash_51f609ea675fecde"
+        },
+        {
+            "stance": "#sprint",
+            "name": "#hash_59db68c04af7aab5"
+        },
+        {
+            "stance": "#stand",
+            "name": "#default"
+        }
+    ],
+    "positionhandlerlist": [
+        {
+            "name": "#gameobject_interact",
+            "center": "#gameobject_interact"
+        },
+        {
+            "name": "#hash_27560b4cbc3c3443",
+            "center": "#goal"
+        },
+        {
+            "querylist": [
+                {
+                    "name": "bot_tacquery_nearest_point_nodeless"
+                }
+            ],
+            "name": "#default",
+            "center": "#goal"
+        }
+    ],
+    "actionlist": [
+        {
+            "name": "#hash_78881ac649c38041"
+        },
+        {
+            "name": "#melee_glass"
+        },
+        {
+            "name": "#melee_enemy"
+        },
+        {
+            "name": "#reload_weapon"
+        },
+        {
+            "name": "#use_gameobject"
+        },
+        {
+            "name": "#switch_to_weapon"
+        },
+        {
+            "name": "#look_for_enemy"
+        },
+        {
+            "name": "#scan_for_threats"
+        }
+    ],
+    "hash_6ef48dfa": 0,
+    "hash_a78526b8": "j_spineupper",
+    "hash_48aa05a1": 400,
+    "hash_1f5429aa": 200,
+    "fovbusy": 80,
+    "longrange": 3500,
+    "hash_f181b86b": "bot_tacquery_space_seeds",
+    "shortrange": 200,
+    "yawsensitivity": 0.6,
+    "configstringfiletype": "scriptbundle",
+    "inaccuracy": 160,
+    "hash_19019506": 0.76,
+    "pacifistwait": 1,
+    "hash_4333f343": 0.1,
+    "type": "bottacticalstate",
+    "hash_1f8a6a2": 4,
+    "hash_2fc77943": 8,
+    "pitchacceleration": 7.5,
+    "hash_b9f05fc": 0.6,
+    "hash_c850085f": 1.2,
+    "movingads": 0,
+    "hash_d5bf8f0d": 0.85,
+    "hash_25664dde": 1000,
+    "pitchsensitivity": 0.6,
+    "yawacceleration": 15,
+    "hash_b4c8298c": 0.9,
+    "vmtype": "server",
+    "lowhealthratio": 0.7,
+    "sprintdist": 300,
+    "aimtaghead": "j_head",
+    "name": "bot_tacstate_mp_easy",
+    "hash_82aa37d8": 4500,
+    "meleechance": 0.05,
+    "headshotchance": 0,
+    "highlyawareradius": 64,
+    "perfectaim": 1,
+    "maxsightdist": 16384,
+    "fov": 120,
+    "adsdot": 0.8,
+    "pacifist": 0,
+    "maxrange": 5000,
+    "hash_2b02e26a": 10,
+    "hash_b392418": 0.1,
+    "hash_f58a14bd": 0.8,
+    "hash_69610dbe": 20,
+    "pathenemyfightdist": 0,
+    "hash_5eaa9e02": 1,
+    "hash_bc0b2a06": 3,
+    "accuracy": 1,
+    "hash_d1fb2f1a": 0
+}

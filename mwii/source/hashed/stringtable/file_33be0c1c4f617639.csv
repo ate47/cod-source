@@ -1,0 +1,24 @@
+string,string,string,string,string,string,string,string,string
+player512x2048x64,,-744,536,144,270,0,-90,Fix for players hovering on the slick clip
+player512x2048x64,,-744,-944,144,270,0,-90,Fix for players hovering on the slick clip
+player128x128x8,,-356,-904,-32,280,254,-3.65,Fix for potential exploits by seeing around container
+player128x128x8,,-604,484,-48,287,56,-22.55,Fix for potential exploits by seeing around container
+player128x128x8,,-308,-536,14,0,0,81,Fix for potential exploits by seeing over container this needs a model fix
+shotblock32x32x128,shotblock32x32x128,-62,252,-274,0,10,0,Shotblock fix for no physics doors
+shotblock32x32x128,shotblock32x32x128,-60,230,-274,0,10,0,Shotblock fix for no physics doors
+shotblock32x32x128,shotblock32x32x128,-72,106,-258,0,336,0,Shotblock fix for no physics doors
+shotblock32x32x128,shotblock32x32x128,-82,86,-258,0,336,0,Shotblock fix for no physics doors
+shotblock256x256x8,shotblock256x256x8,-472,302,-216,0,0,90,Shotblock fix for no bullet collision on container
+missile32x32x32,,-226,126,-202,315,360,0,Missile clip for equipment between barrels
+player128x128x8,,-356,96,-28,360,0,100,Fix for assets as they have player collision leading too players climbing containers
+player128x128x8,,-292,96,-28,360,0,100,Fix for assets as they have player collision leading too players climbing containers
+player128x128x8,,-356,-160,-28,360,180,100,Fix for assets as they have player collision leading too players climbing containers
+player128x128x8,,-292,-160,-28,0,180,100,Fix for assets as they have player collision leading too players climbing containers
+player128x128x8,,-664,112,-28,0,0,100,Fix for assets as they have player collision leading too players climbing containers
+player128x128x8,,-341,-288,-28,0,0,100,Fix for assets as they have player collision leading too players climbing containers
+player128x128x8,,-339,-544,-28,0,180,100,Fix for assets as they have player collision leading too players climbing containers
+player128x128x8,,-344,-777,-28,0,270,100,Fix for assets as they have player collision leading too players climbing containers
+player128x128x8,,-600,-777,-28,0,90,100,Fix for assets as they have player collision leading too players climbing containers
+player128x128x8,,-600,-837,-28,0,90,100,Fix for assets as they have player collision leading too players climbing containers
+player128x128x8,,-344,360,-36,360,270,100,Fix for assets as they have player collision leading too players climbing containers
+player128x128x8,,208,460,-60,360,180,100,Fix for assets as they have player collision leading too players climbing pipes

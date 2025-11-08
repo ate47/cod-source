@@ -1,0 +1,13 @@
+main()
+{
+	level._effect[ "vfx_bounty_rain_cam_medium" ] = loadfx( "vfx/iw9/level/mp_bounty/vfx_bounty_rain_cam_medium.vfx" );
+
+/#
+	if ( GetDvar( #d"clientSideEffects" ) != "1" )
+	{
+        scripts\mp\maps\mp_bounty\gen\mp_bounty_fx::main();
+        scripts\mp\maps\mp_bounty\gen\mp_bounty_sound::main();
+	}
+#/
+
+}

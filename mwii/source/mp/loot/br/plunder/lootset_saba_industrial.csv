@@ -1,0 +1,9 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/plunder/lootset_root.csv,,,,
+chance,point,65,#     % of non-clustered points that will be populated,,
+chance,cluster,65,#     % of clusters that will be populated,,
+chance,clusterSolo,50,#     % of clusters that will become invalid after spawning one item (with dependencies),,
+reqLimit,tablet,1,,,
+reqAdd,brloot_killstreak_assaultdrone,1,,45,# required killstreak
+reqAdd,brloot_killstreak_recondrone,1,,33,# required super
+reqLimit,killstreak,,1,,# limit # of killstreaks

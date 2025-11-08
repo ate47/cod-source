@@ -1,0 +1,8 @@
+string,string,string,string
+inherit,mp/loot/br/dmz/biolab/lootset_root.csv,,
+option,no_points_ground,,
+chance,point,50,
+chance,cluster,50,
+chance,clusterSolo,50,
+reqAdd,brloot_backpack_large,1,
+reqAdd,brloot_backpack_medium,1,

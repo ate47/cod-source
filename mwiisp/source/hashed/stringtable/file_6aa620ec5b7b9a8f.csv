@@ -1,0 +1,9 @@
+string,string,string,string,string,string,string,string,string,string,string,string,string,string
+ui_br_plunder_repository,1,,c,i,0,0,2147483647,,,,,,#32 bits packed: (1 visible, 1 type, 14 endtime, 9 contents, 6 eventAmount) or (1 visible, 1 type, 14 endtime, 15 eventAmount)
+ui_br_plunder_repo_ent_1,1,,c,i,-1,-1,2048,,,,,,#fulton ent num
+ui_br_plunder_repo_ent_2,1,,c,i,-1,-1,2048,,,,,,#fulton ent num
+ui_br_plunder_repo_ent_3,1,,c,i,-1,-1,2048,,,,,,#fulton ent num
+ui_br_plunder_repo_info_1,1,,c,i,0,0,16777215,,,,,,#24 bits packed: (1 visible, 14 endtime, 9 contents)
+ui_br_plunder_repo_info_2,1,,c,i,0,0,16777215,,,,,,#24 bits packed: (1 visible, 14 endtime, 9 contents)
+ui_br_plunder_repo_info_3,1,,c,i,0,0,16777215,,,,,,#24 bits packed: (1 visible, 14 endtime, 9 contents)
+ui_br_plunder_extract_state,1,,c,i,0,0,4,,,,,,

@@ -1,0 +1,192 @@
+{
+	map			"cp_mission_esc"
+	longname	"LUA_MENU_CP/MISSION_ESC"
+	gametype	"Aliens missions, none"
+	defaultgametype "missions"
+	description "PLAYLIST/MISSIONS_DESC"
+	mapimage    "loading_cp_mission_esc_bg"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"cp_observatory"
+	longname	"LUA_MENU_CP/MISSION_OBSERVE"
+	gametype	"Aliens missions, none"
+	defaultgametype "missions"
+	description "PLAYLIST/MISSION_OBSERVE"
+	mapimage    "loading_cp_observatory_bg"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"cp_hydro"
+	longname	"LUA_MENU_CP/MISSION_HYDRO"
+	gametype	"Aliens missions, none"
+	defaultgametype "missions"
+	description "PLAYLIST/MISSION_HYDRO"
+	mapimage    "loading_cp_hydro_bg"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_crossing"
+	longname	"LUA_MENU/MAPNAME_CROSSING"
+	gametype	"conf ko dm dom hq koth sd war rescue control"
+	description "LUA_MENU/MAPNAME_CROSSING"
+	mapimage    "loading_mp_crossing_bg"
+	mapvoteimage "image_mp_map_templogo_vote"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_saba"
+	longname	"LUA_MENU/MAPNAME_SABA"
+	gametype	"br dmzTrio"
+	description "LUA_MENU/MAPNAME_SABA"
+	mapimage    "loading_mp_saba_bg"
+	mapvoteimage "image_mp_map_templogo_vote"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_catedral"
+	longname	"LUA_MENU/MAPNAME_CATEDRAL"
+	gametype	"conf ko dm dom hq koth sd war rescue control"
+	description "LUA_MENU/MAPNAME_CATEDRAL"
+	mapimage    "loading_mp_catedral_bg"
+	mapvoteimage "image_mp_map_templogo_vote"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_farm_18"
+	longname	"LUA_MENU/MAPNAME_FARM_18"
+	gametype	"conf ko dm dom hq koth sd war rescue control"
+	description "LUA_MENU/MAPNAME_FARM_18"
+	mapimage    "loading_mp_farm_18_bg"
+	mapvoteimage "image_mp_map_templogo_vote"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_embassy"
+	longname	"LUA_MENU/MAPNAME_EMBASSY"
+	gametype	"conf ko dm dom hq koth sd war rescue control"
+	description "LUA_MENU/MAPNAME_EMBASSY"
+	mapimage    "loading_mp_embassy_bg"
+	mapvoteimage "image_mp_map_templogo_vote"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_fort"
+	longname	"LUA_MENU/MAPNAME_FORT"
+	gametype	"conf ko dm dom hq koth sd war rescue control"
+	description "LUA_MENU/MAPNAME_FORT"
+	mapimage    "loading_mp_fort_bg"
+	mapvoteimage "image_mp_map_templogo_vote"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_grandprix_pm_2"
+	longname	"LUA_MENU/MAPNAME_GRANDPRIX"
+	gametype	"conf ko dm dom hq koth sd war rescue control"
+	description "LUA_MENU/MAPNAME_GRANDPRIX"
+	mapimage    "loading_mp_grandprix_pm_2_bg"
+	mapvoteimage "image_mp_map_templogo_vote"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_hydro"
+	longname	"LUA_MENU/MAPNAME_HYDRO"
+	gametype	"conf ko dm dom hq koth sd war rescue control"
+	description "LUA_MENU/MAPNAME_HYDRO"
+	mapimage    "loading_mp_hydro_bg"
+	mapvoteimage "loading_mp_hydro_bg_preview"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_luxury"
+	longname	"LUA_MENU/MAPNAME_LUXURY"
+	gametype	"conf ko dm dom hq koth sd war rescue control"
+	description "LUA_MENU/MAPNAME_LUXURY"
+	mapimage    "loading_mp_luxury_bg"
+	mapvoteimage "image_mp_map_templogo_vote"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_nogales_gw2"
+	longname	"LUA_MENU/MAPNAME_NOGALES"
+	gametype	"conf ko dm dom hq koth sd war rescue control"
+	description "LUA_MENU/MAPNAME_NOGALES"
+	mapimage    "loading_mp_nogales_bg"
+	mapvoteimage "image_mp_map_templogo_vote"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_swap_meet"
+	longname	"LUA_MENU/MAPNAME_SWAP_MEET"
+	gametype	"conf ko dm dom hq koth sd war rescue control"
+	description "LUA_MENU/MAPNAME_SWAP_MEET"
+	mapimage    "loading_mp_swap_meet_bg"
+	mapvoteimage "image_mp_map_templogo_vote"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_fishtown_gw"
+	longname	"LUA_MENU/MAPNAME_FISHTOWN"
+	gametype	"conf ko dm dom hq koth sd war rescue control"
+	description "LUA_MENU/MAPNAME_FISHTOWN"
+	mapimage    "loading_mp_fishtown_gw_bg"
+	mapvoteimage "image_mp_map_templogo_vote"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_historic_gw2"
+	longname	"LUA_MENU/MAPNAME_HISTORIC"
+	gametype	"conf ko dm dom hq koth sd war rescue control"
+	description "LUA_MENU/MAPNAME_HISTORIC"
+	mapimage    "loading_mp_historic_gw_bg"
+	mapvoteimage "image_mp_map_templogo_vote"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_sira_gw"
+	longname	"LUA_MENU/MAPNAME_SIRA"
+	gametype	"conf ko dm dom hq koth sd war rescue control"
+	description "LUA_MENU/MAPNAME_SIRA"
+	mapimage    "loading_mp_sira_gw_bg"
+	mapvoteimage "image_mp_map_templogo_vote"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_wartorn"
+	longname	"LUA_MENU/MAPNAME_WARTORN"
+	gametype	"conf ko dm dom hq koth sd war rescue control"
+	description "LUA_MENU/MAPNAME_WARTORN"
+	mapimage    "loading_mp_wartorn_bg"
+	mapvoteimage "image_mp_map_templogo_vote"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+	map			"mp_wartorn_gw"
+	longname	"LUA_MENU/MAPNAME_WARTORN"
+	gametype	"conf ko dm dom hq koth sd war rescue control"
+	description "LUA_MENU/MAPNAME_WARTORN"
+	mapimage    "loading_mp_wartorn_gw_bg"
+	mapvoteimage "image_mp_map_templogo_vote"
+	mappack		"0" 
+	wegame		"1"
+}
+{
+}

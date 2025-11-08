@@ -1,0 +1,10 @@
+%force_cs_anim_index_match
+
+run_n_gun: blendspace1d( range="-180,180", blend_time="300",
+coords="-90,0,90",
+value=[aim_yaw] ) loopsync
+{
+	sdr_wtr_rungun_forward_r
+	sdr_wtr_rungun_forward
+	sdr_wtr_rungun_forward_l
+}

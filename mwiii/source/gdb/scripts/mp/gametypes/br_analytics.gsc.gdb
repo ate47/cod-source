@@ -1,0 +1,81 @@
+NAME scripts\mp\gametypes\br_analytics.gsc
+VERSION 0
+CHECKSUM 0x8a403416
+######################################################
+####################  DEV STRINGS  ###################
+######################################################
+# br_analytics::function_cb3b3cbf2d1ac3f3@52
+STRING "<dev string:x1c>" 0x76bc
+######################################################
+####################  DEV BLOCKS  ####################
+######################################################
+# br_analytics::_branalytics_addeventdelayed@34
+DEVBLOCK 0x3a93
+# br_analytics::_branalytics_addeventdelayed@47
+DEVBLOCK 0x3aa6
+# br_analytics::_branalytics_addeventdelayed@52
+DEVBLOCK 0x3ab1
+# br_analytics::_branalytics_addeventdelayed@5d
+DEVBLOCK 0x3abc
+# br_analytics::branalytics_equipmentuse@43
+DEVBLOCK 0x3cb6
+# br_analytics::branalytics_down@16d
+DEVBLOCK 0x3e94
+# br_analytics::branalytics_down@1cd
+DEVBLOCK 0x3ef4
+# br_analytics::branalytics_lootpickup@2e
+DEVBLOCK 0x4703
+# br_analytics::branalytics_lootpickup@3d
+DEVBLOCK 0x4712
+# br_analytics::branalytics_lootdrop@36
+DEVBLOCK 0x47ae
+# br_analytics::branalytics_lootdrop@49
+DEVBLOCK 0x47c1
+# br_analytics::branalytics_lootdrop@58
+DEVBLOCK 0x47d0
+# br_analytics::function_6039c3ffa983858f@87
+DEVBLOCK 0x5d59
+# br_analytics::function_6039c3ffa983858f@92
+DEVBLOCK 0x5d64
+# br_analytics::function_6039c3ffa983858f@9d
+DEVBLOCK 0x5d6f
+# br_analytics::function_cb3b3cbf2d1ac3f3@4d
+DEVBLOCK 0x76b7
+# br_analytics::_branalytics_header@24
+DEVBLOCK 0x7775
+# br_analytics::_branalytics_headerplayer@1a
+DEVBLOCK 0x780d
+# br_analytics::_branalytics_headerplayer@29
+DEVBLOCK 0x781c
+# br_analytics::_branalytics_headerplayer@4f
+DEVBLOCK 0x7842
+# br_analytics::_branalytics_headerplayer@7a
+DEVBLOCK 0x786d
+# br_analytics::_branalytics_headerplayer@a6
+DEVBLOCK 0x7899
+# br_analytics::_branalytics_headerplayer@d2
+DEVBLOCK 0x78c5
+# br_analytics::_branalytics_headerplayer@e7
+DEVBLOCK 0x78da
+# br_analytics::_branalytics_headerplayerposrow@34
+DEVBLOCK 0x79ba
+# br_analytics::_branalytics_headerplayerposrow@68
+DEVBLOCK 0x79ee
+# br_analytics::_branalytics_headerplayerposrow@93
+DEVBLOCK 0x7a19
+# br_analytics::_branalytics_headerplayerposrow@bf
+DEVBLOCK 0x7a45
+# br_analytics::_branalytics_headerplayerposrow@eb
+DEVBLOCK 0x7a71
+# br_analytics::_branalytics_headerplayerposrow@100
+DEVBLOCK 0x7a86
+# br_analytics::function_7d3c7b86d9efcddb@3c
+DEVBLOCK 0x8bba
+# br_analytics::function_28e81a288cb740fd@1c
+DEVBLOCK 0x9bee
+# br_analytics::_onmatchstartbr@ac
+DEVBLOCK 0xaa8e
+# br_analytics::_onmatchstartbr@cd
+DEVBLOCK 0xaaaf
+# br_analytics::_onmatchstartbr@26b
+DEVBLOCK 0xac4d

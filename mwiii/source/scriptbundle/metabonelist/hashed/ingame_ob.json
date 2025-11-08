@@ -1,0 +1,1190 @@
+{
+    "#hash_120c8d0717d31f0c": {
+        "#metabones": [
+            {
+                "#metadata": [
+                    {
+                        "#variant_object": {
+                            "#additionaldamagemod": 0
+                        },
+                        "#variant_type": "Types_Weakspot"
+                    }
+                ],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#maxangle": 240,
+                        "#hitlocation": "head"
+                    }
+                ],
+                "#name": "weakspot_mouth",
+                "#states": [],
+                "#tags": []
+            }
+        ]
+    },
+    "#hash_138338fc2ebf5e24": {
+        "#hash_ded947577ba0ee4a": "zombie_entity",
+        "#hash_667ab99889e6c59f": "scripts/aitypes/zombie_entity/zombie_entity_metabones.gsc",
+        "#metabones": [
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "l_hip",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 8163,
+                                    "#absolutehealth": true
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "active"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#tagname": "TAG_VFX_DMG_L_HIP",
+                        "#radius": 138
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "r_hand",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 8163,
+                                    "#absolutehealth": true
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "active"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#tagname": "TAG_VFX_DMG_R_HAND",
+                        "#radius": 138
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "l_hand",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 8163,
+                                    "#absolutehealth": true
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "active"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#tagname": "TAG_VFX_DMG_L_HAND",
+                        "#radius": 138
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "heart",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 8163,
+                                    "#absolutehealth": true
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "active"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#tagname": "TAG_VFX_DMG_HEAD",
+                        "#radius": 138
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "r_hip",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 8163,
+                                    "#absolutehealth": true
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "active"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#tagname": "TAG_VFX_DMG_R_HIP",
+                        "#radius": 138
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "l_shoulder",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 8163,
+                                    "#absolutehealth": true
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "active"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#tagname": "TAG_VFX_DMG_L_SHOULDER",
+                        "#radius": 138
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "r_shoulder",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 8163,
+                                    "#absolutehealth": true
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "active"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#tagname": "TAG_VFX_DMG_R_SHOULDER",
+                        "#radius": 138
+                    }
+                ]
+            }
+        ]
+    },
+    "#hash_14b079fadf949b40": {
+        "#hash_ded947577ba0ee4a": "zombie_disciple",
+        "#hash_667ab99889e6c59f": "scripts/aitypes/zombie_disciple/zombie_disciple_metabones.gsc",
+        "#metabones": [
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "head"
+                    },
+                    {
+                        "#hitlocation": "neck"
+                    }
+                ],
+                "#name": "head",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.1,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.8
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "armor"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [
+                    {
+                        "#variant_object": {
+                            "#health": 100,
+                            "#absolutehealth": false
+                        },
+                        "#variant_type": "Types_Damageable"
+                    }
+                ],
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "right_hand"
+                    },
+                    {
+                        "#hitlocation": "right_arm_lower"
+                    },
+                    {
+                        "#hitlocation": "right_arm_upper"
+                    }
+                ],
+                "#name": "hand",
+                "#states": [],
+                "#tags": [
+                    {
+                        "#tagname": "j_mid_ri_1",
+                        "#radius": 15
+                    },
+                    {
+                        "#tagname": "j_wristtwist4_ri",
+                        "#radius": 15
+                    }
+                ]
+            }
+        ]
+    },
+    "#hash_2945fdae4c60f917": {
+        "#hash_ded947577ba0ee4a": "zombie_abom",
+        "#hash_667ab99889e6c59f": "scripts/aitypes/zombie_abom/zombie_abom_metabones.gsc",
+        "#metabones": [
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "head_mid",
+                "#states": [
+                    {
+                        "#metadata": [],
+                        "#name": "closed"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.15,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "open"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#maxangle": 220,
+                        "#tagname": "tag_fx_jaw_center",
+                        "#radius": 45
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "head_ri",
+                "#states": [
+                    {
+                        "#metadata": [],
+                        "#name": "closed"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.1,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "open"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#maxangle": 220,
+                        "#tagname": "tag_fx_jaw_ri",
+                        "#radius": 45
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [],
+                "#name": "head_le",
+                "#states": [
+                    {
+                        "#metadata": [],
+                        "#name": "closed"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.1,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "open"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#maxangle": 220,
+                        "#tagname": "tag_fx_jaw_le",
+                        "#radius": 45
+                    }
+                ]
+            }
+        ]
+    },
+    "#hash_4d11a78c2ea77806": {
+        "#metabones": [
+            {
+                "#metadata": [
+                    {
+                        "#variant_object": {
+                            "#additionaldamagemod": 0
+                        },
+                        "#variant_type": "Types_Weakspot"
+                    }
+                ],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "head"
+                    },
+                    {
+                        "#hitlocation": "neck"
+                    }
+                ],
+                "#name": "weakspot_head",
+                "#states": [],
+                "#tags": []
+            }
+        ]
+    },
+    "#hash_4f2f667937026df9": {
+        "#hash_ded947577ba0ee4a": "zombie_mangler",
+        "#hash_667ab99889e6c59f": "scripts/aitypes/zombie_mangler/zombie_mangler_metabones.gsc",
+        "#metabones": [
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "right_arm_lower"
+                    },
+                    {
+                        "#hitlocation": "right_arm_upper"
+                    }
+                ],
+                "#name": "j_weapon_spin",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.25,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "default"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": [
+                    {
+                        "#tagname": "j_weapon_spin",
+                        "#radius": 15
+                    }
+                ]
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "torso_upper"
+                    },
+                    {
+                        "#hitlocation": "torso_lower"
+                    }
+                ],
+                "#name": "armored_torso",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.4
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.2,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "default"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "head"
+                    },
+                    {
+                        "#hitlocation": "helmet"
+                    },
+                    {
+                        "#hitlocation": "neck"
+                    }
+                ],
+                "#name": "armored_head",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.1,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.4
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "default"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "left_arm_upper"
+                    }
+                ],
+                "#name": "armored_shoulder_left",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.1,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.4
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "default"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "left_leg_upper"
+                    }
+                ],
+                "#name": "armored_leg_left",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.1,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.4
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "default"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "right_leg_upper"
+                    }
+                ],
+                "#name": "armored_leg_right",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#health": 0.1,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.4
+                                },
+                                "#variant_type": "Types_Armor"
+                            }
+                        ],
+                        "#name": "default"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "destroyed"
+                    }
+                ],
+                "#tags": []
+            }
+        ]
+    },
+    "#hash_6cac111b2ba4b2d6": {
+        "#hash_ded947577ba0ee4a": "zombie_base_armored",
+        "#hash_667ab99889e6c59f": "scripts/aitypes/zombie_base/zombie_base_armored_metabones.gsc",
+        "#metabones": [
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "right_hand"
+                    },
+                    {
+                        "#hitlocation": "right_arm_lower"
+                    }
+                ],
+                "#name": "armored_arm_right_lower",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.35
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.05,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "armored"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "exposed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "head"
+                    },
+                    {
+                        "#hitlocation": "helmet"
+                    },
+                    {
+                        "#hitlocation": "neck"
+                    }
+                ],
+                "#name": "armored_head",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.35
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.25,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "armored"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "exposed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "right_arm_upper"
+                    }
+                ],
+                "#name": "armored_arm_right_upper",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.35
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.05,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "armored"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "exposed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "left_hand"
+                    },
+                    {
+                        "#hitlocation": "left_arm_lower"
+                    }
+                ],
+                "#name": "armored_arm_left_lower",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.35
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.05,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "armored"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "exposed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "left_arm_upper"
+                    }
+                ],
+                "#name": "armored_arm_left_upper",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.35
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.05,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "armored"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "exposed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "left_foot"
+                    },
+                    {
+                        "#hitlocation": "left_leg_lower"
+                    }
+                ],
+                "#name": "armored_leg_left_lower",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.35
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.1,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "armored"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "exposed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "left_leg_upper"
+                    }
+                ],
+                "#name": "armored_leg_left_upper",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.35
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.25,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "armored"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "exposed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "right_foot"
+                    },
+                    {
+                        "#hitlocation": "right_leg_lower"
+                    }
+                ],
+                "#name": "armored_leg_right_lower",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.35
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.1,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "armored"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "exposed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "right_leg_upper"
+                    }
+                ],
+                "#name": "armored_leg_right_upper",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.35
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.25,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "armored"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "exposed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "torso_lower"
+                    },
+                    {
+                        "#hitlocation": "torso_upper"
+                    }
+                ],
+                "#name": "armored_torso",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.35
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.5,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "armored"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "exposed"
+                    }
+                ],
+                "#tags": []
+            }
+        ]
+    },
+    "#hash_6f9048166cd15b77": {
+        "#hash_ded947577ba0ee4a": "zombie_base_armored",
+        "#hash_667ab99889e6c59f": "scripts/aitypes/zombie_base/zombie_base_armored_metabones.gsc",
+        "#metabones": [
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "head"
+                    },
+                    {
+                        "#hitlocation": "helmet"
+                    },
+                    {
+                        "#hitlocation": "neck"
+                    }
+                ],
+                "#name": "armored_head",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.35
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.25,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "armored"
+                    },
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#additionaldamagemod": 0
+                                },
+                                "#variant_type": "Types_Weakspot"
+                            }
+                        ],
+                        "#name": "exposed"
+                    }
+                ],
+                "#tags": []
+            },
+            {
+                "#metadata": [],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "torso_lower"
+                    },
+                    {
+                        "#hitlocation": "torso_upper"
+                    }
+                ],
+                "#name": "armored_torso",
+                "#states": [
+                    {
+                        "#metadata": [
+                            {
+                                "#variant_object": {
+                                    "#damagemod": 0.35
+                                },
+                                "#variant_type": "Types_Armor"
+                            },
+                            {
+                                "#variant_object": {
+                                    "#health": 0.5,
+                                    "#absolutehealth": false
+                                },
+                                "#variant_type": "Types_Damageable"
+                            }
+                        ],
+                        "#name": "armored"
+                    },
+                    {
+                        "#metadata": [],
+                        "#name": "exposed"
+                    }
+                ],
+                "#tags": []
+            }
+        ]
+    },
+    "#hash_734f17cdc0b2fcbe": {
+        "#metabones": [
+            {
+                "#metadata": [
+                    {
+                        "#variant_object": {
+                            "#additionaldamagemod": 0
+                        },
+                        "#variant_type": "Types_Weakspot"
+                    }
+                ],
+                "#activebydefault": true,
+                "#hitlocations": [
+                    {
+                        "#hitlocation": "head"
+                    },
+                    {
+                        "#hitlocation": "neck"
+                    }
+                ],
+                "#name": "weakspot_head",
+                "#states": [],
+                "#tags": []
+            }
+        ]
+    }
+}

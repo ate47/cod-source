@@ -1,0 +1,894 @@
+{
+    "#hash_af0841ff642390a": {
+        "#hash_441e11fdba27e1d": {},
+        "#eventendtime": "1800000000",
+        "#hash_5e42ba3bc94d58ff": {
+            "#mode": "VERSUS",
+            "#featuredloot": [],
+            "#hash_64ce292e0f7395e": [],
+            "#hash_b04b96b2bbcb549c": {
+                "#hash_e9533a385b527e4e": "$black",
+                "#hash_82ffce968682a1fd": "1 1 1 1",
+                "#hash_4a976d41bfbe7d1b": "1 1 1 1"
+            },
+            "#hash_d6e5d767d09f3347": [],
+            "#hash_9a67cc78192dc9bc": [],
+            "#hash_200f515defc382df": [],
+            "#hash_2ba737a7c851f022": []
+        },
+        "#hash_30ae578b17302a42": {
+            "#modes": [],
+            "#eventicon": "$black"
+        },
+        "#hash_159a9447fd21d2cb": [],
+        "#hash_43530aa638a1bc8": [],
+        "#hash_6d98afa892e450b2": {
+            "#hash_8f849633c5346fe6": [
+                {
+                    "#rowname": "&SEASONAL_EVENT/EVENT",
+                    "#hash_a0ce127b67855bd4": "NONE",
+                    "#widgetname": "SeasonalEventsMenuContentTemplateVersus",
+                    "#backgroundimage": "$black"
+                }
+            ],
+            "#hash_44a258afc67e311": "$black",
+            "#hash_57c8b89a6f263921": [],
+            "#hash_c09838b98e2a318c": true,
+            "#hash_65af21db85cf0274": [],
+            "#titleimage": "$black"
+        },
+        "#hash_94b8f71cafb7a53b": "259200",
+        "#eventicon": "$black",
+        "#ftuedata": {
+            "#hash_6208c90751407ab5": {},
+            "#detailspopup": {
+                "#detailspanels": []
+            }
+        }
+    },
+    "#hash_14b066443440ded7": {
+        "#hash_441e11fdba27e1d": {},
+        "#eventendtime": "1800000000",
+        "#hash_5e42ba3bc94d58ff": {
+            "#mode": "NONE",
+            "#featuredloot": [],
+            "#hash_64ce292e0f7395e": [],
+            "#hash_b04b96b2bbcb549c": {
+                "#hash_e9533a385b527e4e": "$black",
+                "#hash_82ffce968682a1fd": "1 1 1 1",
+                "#hash_4a976d41bfbe7d1b": "1 1 1 1"
+            },
+            "#hash_d6e5d767d09f3347": [],
+            "#hash_9a67cc78192dc9bc": [],
+            "#hash_200f515defc382df": [],
+            "#hash_2ba737a7c851f022": []
+        },
+        "#hash_30ae578b17302a42": {
+            "#hash_6ae515af310e6533": "menu_backplate_event_main",
+            "#screentitle": "&SEASONAL_EVENT/PLAY_AND_EARN_TROPHIES",
+            "#hash_4cf1585d19342d69": "&SEASONAL_EVENT/PLAY_AND_EARN_DESC",
+            "#modes": [
+                {
+                    "#hash_b2977da7c00626eb": "$black",
+                    "#hash_81c106ffe87181de": "$black",
+                    "#moderef": "MP",
+                    "#hash_8001462d2f430de1": "$black",
+                    "#modedesc": "&SEASONAL_EVENT/PLAY_AND_EARN_MP",
+                    "#actiontext": "&LUA_MENU/QUICK_PLAY",
+                    "#hash_5fcdfacb2b97c963": "s3_event_s03_play_and_earn_1",
+                    "#modename": "&MENU/MULTIPLAYER"
+                },
+                {
+                    "#hash_b2977da7c00626eb": "$black",
+                    "#hash_81c106ffe87181de": "$black",
+                    "#moderef": "BR",
+                    "#hash_8001462d2f430de1": "$black",
+                    "#modedesc": "&SEASONAL_EVENT/PLAY_AND_EARN_BR",
+                    "#actiontext": "&LUA_MENU/RESURGENCE",
+                    "#hash_5fcdfacb2b97c963": "s3_event_s03_play_and_earn_2",
+                    "#modename": "&LUA_MENU/WARZONE2"
+                },
+                {
+                    "#hash_b2977da7c00626eb": "$black",
+                    "#hash_81c106ffe87181de": "$black",
+                    "#moderef": "DMZ",
+                    "#hash_8001462d2f430de1": "$black",
+                    "#modedesc": "&SEASONAL_EVENT/PLAY_AND_EARN_DMZ",
+                    "#actiontext": "&PLAYLIST/DMZ",
+                    "#hash_5fcdfacb2b97c963": "s3_event_s03_play_and_earn_3",
+                    "#modename": "&LUA_MENU/DMZ"
+                }
+            ],
+            "#eventicon": "s3_event_trophy_icon_medium"
+        },
+        "#hash_159a9447fd21d2cb": [],
+        "#hash_43530aa638a1bc8": [],
+        "#hash_6d98afa892e450b2": {
+            "#hash_8f849633c5346fe6": [
+                {
+                    "#rowname": "&SEASONAL_EVENT/EVENT",
+                    "#hash_6ae515af310e6533": "menu_backplate_event_main",
+                    "#hash_a0ce127b67855bd4": "NONE",
+                    "#widgetname": "SeasonalEventSandstormMainScreen",
+                    "#backgroundimage": "$black"
+                }
+            ],
+            "#hash_44a258afc67e311": "seasons_viewnewcontent_button",
+            "#hash_57c8b89a6f263921": [],
+            "#hash_c09838b98e2a318c": true,
+            "#hash_a8152ac83c032da2": true,
+            "#hash_65af21db85cf0274": [],
+            "#titleimage": "$black"
+        },
+        "#hash_94b8f71cafb7a53b": "259200",
+        "#eventicon": "$black",
+        "#title": "&ONBOARDING/SEASON_3_EVENT_TITLE",
+        "#ftuedata": {
+            "#hash_6208c90751407ab5": {},
+            "#detailspopup": {
+                "#detailspanels": [
+                    {
+                        "#image": "s3_event_s03_onboarding_1",
+                        "#header": "&ONBOARDING/SEASON_3_EVENT_HEADER_1",
+                        "#desc": "&ONBOARDING/SEASON_3_EVENT_DESC_1"
+                    },
+                    {
+                        "#image": "s3_event_s03_onboarding_2",
+                        "#header": "&ONBOARDING/SEASON_3_EVENT_HEADER_2",
+                        "#desc": "&ONBOARDING/SEASON_3_EVENT_DESC_2"
+                    },
+                    {
+                        "#image": "s3_event_s03_onboarding_3",
+                        "#header": "&ONBOARDING/SEASON_3_EVENT_HEADER_3",
+                        "#desc": "&ONBOARDING/SEASON_3_EVENT_DESC_3"
+                    }
+                ]
+            }
+        },
+        "#trophylootid": "26148"
+    },
+    "#hash_163727b258dd162b": {
+        "#hash_441e11fdba27e1d": {},
+        "#eventendtime": "1697561999",
+        "#hash_5e42ba3bc94d58ff": {
+            "#mode": "NONE",
+            "#featuredloot": [],
+            "#hash_64ce292e0f7395e": [],
+            "#hash_b04b96b2bbcb549c": {
+                "#hash_e9533a385b527e4e": "$black",
+                "#hash_82ffce968682a1fd": "1 1 1 1",
+                "#hash_4a976d41bfbe7d1b": "1 1 1 1"
+            },
+            "#hash_d6e5d767d09f3347": [],
+            "#hash_9a67cc78192dc9bc": [],
+            "#hash_200f515defc382df": [],
+            "#hash_2ba737a7c851f022": []
+        },
+        "#hash_30ae578b17302a42": {
+            "#modes": []
+        },
+        "#hash_159a9447fd21d2cb": [],
+        "#eventstarttime": "1695834000",
+        "#hash_43530aa638a1bc8": [],
+        "#hash_6d98afa892e450b2": {
+            "#hash_8f849633c5346fe6": [
+                {
+                    "#rowname": "&CHALLENGE/COMING_SOON",
+                    "#hash_e082573444c188a4": 120,
+                    "#hash_6ae515af310e6533": "seasonal_event_h_coming_soon",
+                    "#hash_2c062e9c00fc102c": 365,
+                    "#hash_a0ce127b67855bd4": "NONE",
+                    "#widgetname": "SeasonalEventHauntingPreviewScreen",
+                    "#backgroundimage": "$black"
+                }
+            ],
+            "#hash_57c8b89a6f263921": [],
+            "#hash_c09838b98e2a318c": true,
+            "#hash_65af21db85cf0274": []
+        },
+        "#hash_94b8f71cafb7a53b": "259200",
+        "#eventicon": "$black",
+        "#ftuedata": {
+            "#hash_6208c90751407ab5": {},
+            "#detailspopup": {
+                "#detailspanels": [
+                    {},
+                    {},
+                    {}
+                ]
+            }
+        },
+        "#trophylootid": "38901"
+    },
+    "#hash_1ac93b472d30d9e0": {
+        "#hash_441e11fdba27e1d": {},
+        "#eventendtime": "1800000000",
+        "#hash_5e42ba3bc94d58ff": {
+            "#mode": "NONE",
+            "#featuredloot": [],
+            "#hash_64ce292e0f7395e": [],
+            "#hash_b04b96b2bbcb549c": {
+                "#hash_e9533a385b527e4e": "$black",
+                "#hash_82ffce968682a1fd": "1 1 1 1",
+                "#hash_4a976d41bfbe7d1b": "1 1 1 1"
+            },
+            "#hash_d6e5d767d09f3347": [],
+            "#hash_9a67cc78192dc9bc": [],
+            "#hash_200f515defc382df": [],
+            "#hash_2ba737a7c851f022": []
+        },
+        "#hash_30ae578b17302a42": {
+            "#modes": [],
+            "#eventicon": "$black"
+        },
+        "#hash_159a9447fd21d2cb": [
+            {
+                "#mode": "ANY",
+                "#challengeref": "compound_iw9_ae_kind_seasonal_s2_mastery",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_SEASONAL"
+            }
+        ],
+        "#hash_43530aa638a1bc8": [],
+        "#hash_6d98afa892e450b2": {
+            "#hash_8f849633c5346fe6": [
+                {
+                    "#rowname": "&SEASONAL_EVENT/EVENT",
+                    "#hash_6ae515af310e6533": "menu_season_2_petals",
+                    "#hash_a0ce127b67855bd4": "NONE",
+                    "#widgetname": "SeasonalEventRoninMainScreen",
+                    "#backgroundimage": "$black"
+                }
+            ],
+            "#hash_44a258afc67e311": "seasons_viewnewcontent_button",
+            "#hash_57c8b89a6f263921": [],
+            "#hash_c09838b98e2a318c": true,
+            "#hash_a8152ac83c032da2": true,
+            "#hash_65af21db85cf0274": [],
+            "#titleimage": "$black"
+        },
+        "#hash_94b8f71cafb7a53b": "259200",
+        "#eventicon": "$black",
+        "#ftuedata": {
+            "#hash_6208c90751407ab5": {},
+            "#detailspopup": {
+                "#detailspanels": []
+            }
+        }
+    },
+    "#hash_1c10ab5d90221023": {
+        "#hash_441e11fdba27e1d": {},
+        "#eventendtime": "1800000000",
+        "#eventdescription": "&SEASONAL_EVENT/DOUBLE_XP_WEEKEND_DESC",
+        "#hash_5e42ba3bc94d58ff": {
+            "#mode": "INFORMATIONAL_MODES",
+            "#featuredloot": [],
+            "#hash_64ce292e0f7395e": [
+                {
+                    "#playlistcategory": "11",
+                    "#playlistid": "200",
+                    "#hash_3784550fa96dc00": "groundwar"
+                },
+                {
+                    "#playlistcategory": "7",
+                    "#playlistid": "80",
+                    "#hash_3784550fa96dc00": "cpraids1_hm"
+                },
+                {
+                    "#playlistcategory": "23",
+                    "#playlistid": "88",
+                    "#hash_3784550fa96dc00": "brduos"
+                },
+                {
+                    "#playlistcategory": "18",
+                    "#playlistid": "76",
+                    "#hash_3784550fa96dc00": "dmz"
+                }
+            ],
+            "#hash_b04b96b2bbcb549c": {
+                "#hash_e9533a385b527e4e": "$black",
+                "#hash_82ffce968682a1fd": "1 1 1 1",
+                "#hash_4a976d41bfbe7d1b": "1 1 1 1"
+            },
+            "#hash_d6e5d767d09f3347": [],
+            "#hash_9a67cc78192dc9bc": [],
+            "#hash_200f515defc382df": [],
+            "#hash_2ba737a7c851f022": []
+        },
+        "#hash_30ae578b17302a42": {
+            "#modes": [],
+            "#eventicon": "$black"
+        },
+        "#hash_159a9447fd21d2cb": [],
+        "#hash_43530aa638a1bc8": [],
+        "#hash_6d98afa892e450b2": {
+            "#hash_8f849633c5346fe6": [
+                {
+                    "#rowname": "&SEASONAL_EVENT/EVENT",
+                    "#hash_a0ce127b67855bd4": "NONE",
+                    "#widgetname": "SeasonalEventsMenuContentTemplateInformational",
+                    "#backgroundimage": "$black"
+                }
+            ],
+            "#hash_44a258afc67e311": "$black",
+            "#hash_57c8b89a6f263921": [],
+            "#hash_c09838b98e2a318c": true,
+            "#hash_65af21db85cf0274": [],
+            "#titleimage": "$black"
+        },
+        "#hash_94b8f71cafb7a53b": "259200",
+        "#eventicon": "$black",
+        "#title": "&SEASONAL_EVENT/DOUBLE_XP_WEEKEND",
+        "#ftuedata": {
+            "#hash_6208c90751407ab5": {},
+            "#detailspopup": {
+                "#detailspanels": []
+            }
+        }
+    },
+    "#hash_311236e2868a172d": {
+        "#hash_441e11fdba27e1d": {},
+        "#eventendtime": "1800000000",
+        "#hash_5e42ba3bc94d58ff": {
+            "#mode": "NONE",
+            "#featuredloot": [],
+            "#hash_64ce292e0f7395e": [],
+            "#hash_b04b96b2bbcb549c": {
+                "#hash_e9533a385b527e4e": "$black",
+                "#hash_82ffce968682a1fd": "1 1 1 1",
+                "#hash_4a976d41bfbe7d1b": "1 1 1 1"
+            },
+            "#hash_d6e5d767d09f3347": [],
+            "#hash_9a67cc78192dc9bc": [],
+            "#hash_200f515defc382df": [],
+            "#hash_2ba737a7c851f022": []
+        },
+        "#hash_30ae578b17302a42": {
+            "#hash_6ae515af310e6533": "menu_season_4_5_dust",
+            "#screentitle": "&SEASONAL_EVENT/TEMP_V_SUPERPOWERS",
+            "#hash_4cf1585d19342d69": "&SEASONAL_EVENT/PLAY_AND_EARN_DESC",
+            "#modes": [
+                {
+                    "#hash_b2977da7c00626eb": "$black",
+                    "#hash_81c106ffe87181de": "$black",
+                    "#moderef": "BR",
+                    "#hash_8001462d2f430de1": "$black",
+                    "#modedesc": "&SUPER_MP/LASER_CHARGE_DESC",
+                    "#hash_5fcdfacb2b97c963": "s4_5_event_play_and_earn_1",
+                    "#modename": "&SUPER_MP/LASER_CHARGE"
+                },
+                {
+                    "#hash_b2977da7c00626eb": "$black",
+                    "#hash_81c106ffe87181de": "$black",
+                    "#moderef": "BR",
+                    "#hash_8001462d2f430de1": "$black",
+                    "#modedesc": "&SUPER_MP/SUPER_JUMP_DESC",
+                    "#hash_5fcdfacb2b97c963": "s4_5_event_play_and_earn_2",
+                    "#modename": "&SUPER_MP/SUPER_JUMP"
+                },
+                {
+                    "#hash_b2977da7c00626eb": "$black",
+                    "#hash_81c106ffe87181de": "$black",
+                    "#moderef": "BR",
+                    "#hash_8001462d2f430de1": "$black",
+                    "#modedesc": "&SUPER_MP/ELECTRIC_DISCHARGE_DESC",
+                    "#hash_5fcdfacb2b97c963": "s4_5_event_play_and_earn_3",
+                    "#modename": "&SUPER_MP/ELECTRIC_DISCHARGE"
+                },
+                {
+                    "#hash_b2977da7c00626eb": "$black",
+                    "#hash_81c106ffe87181de": "$black",
+                    "#moderef": "BR",
+                    "#hash_8001462d2f430de1": "$black",
+                    "#modedesc": "&SUPER_MP/TELEPORT_REDEPLOY_DESC",
+                    "#hash_5fcdfacb2b97c963": "s4_5_event_play_and_earn_4",
+                    "#modename": "&SUPER_MP/TELEPORT_REDEPLOY"
+                }
+            ]
+        },
+        "#hash_159a9447fd21d2cb": [
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_03_ar",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_03_br",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_03_dm",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_03_la",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_03_lm",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_03_me",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_03_pi",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_03_sh",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_03_sm",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_03_sn",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "compound_iw9_event_camo_3",
+                "#category": "COMPOUND",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            }
+        ],
+        "#hash_43530aa638a1bc8": [],
+        "#hash_6d98afa892e450b2": {
+            "#hash_8f849633c5346fe6": [
+                {
+                    "#rowname": "&SEASONAL_EVENT/DIABOLICAL_BUNDLES",
+                    "#hash_6ae515af310e6533": "menu_season_4_5_dust",
+                    "#hash_2c062e9c00fc102c": 506,
+                    "#hash_a0ce127b67855bd4": "NONE",
+                    "#widgetname": "SeasonalEventBundlesScreen",
+                    "#backgroundimage": "s4_5_bg_homelander"
+                },
+                {
+                    "#rowname": "&SEASONAL_EVENT/DIABOLICAL_CAMO_CHALLENGES",
+                    "#hash_6ae515af310e6533": "menu_season_4_5_dust",
+                    "#hash_2c062e9c00fc102c": 480,
+                    "#hash_a0ce127b67855bd4": "NONE",
+                    "#widgetname": "SeasonalEventWeaponCamoChallenges",
+                    "#backgroundimage": "s4_5_bg_camo"
+                }
+            ],
+            "#hash_57c8b89a6f263921": [],
+            "#hash_c09838b98e2a318c": true,
+            "#hash_a8152ac83c032da2": true,
+            "#hash_65af21db85cf0274": [],
+            "#titleimage": "s4_5_event_logo"
+        },
+        "#hash_94b8f71cafb7a53b": "259200",
+        "#eventicon": "$black",
+        "#ftuedata": {
+            "#hash_6208c90751407ab5": {},
+            "#detailspopup": {
+                "#detailspanels": []
+            }
+        }
+    },
+    "#hash_55cb4fbcad35a6b9": {
+        "#hash_441e11fdba27e1d": {},
+        "#eventendtime": "1800000000",
+        "#hash_5e42ba3bc94d58ff": {
+            "#mode": "NONE",
+            "#featuredloot": [],
+            "#hash_64ce292e0f7395e": [],
+            "#hash_b04b96b2bbcb549c": {
+                "#hash_e9533a385b527e4e": "$black",
+                "#hash_82ffce968682a1fd": "1 1 1 1",
+                "#hash_4a976d41bfbe7d1b": "1 1 1 1"
+            },
+            "#hash_d6e5d767d09f3347": [],
+            "#hash_9a67cc78192dc9bc": [],
+            "#hash_200f515defc382df": [],
+            "#hash_2ba737a7c851f022": []
+        },
+        "#hash_30ae578b17302a42": {
+            "#modes": [],
+            "#eventicon": "$black"
+        },
+        "#hash_159a9447fd21d2cb": [
+            {
+                "#mode": "ANY",
+                "#challengeref": "compound_iw9_event_camo_01",
+                "#category": "MASTERY",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_01_ar",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_01_br",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_01_dm",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_01_la",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_01_lm",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_01_me",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_01_pi",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_01_sh",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_01_sm",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_01_sn",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            }
+        ],
+        "#hash_43530aa638a1bc8": [],
+        "#hash_6d98afa892e450b2": {
+            "#hash_8f849633c5346fe6": [
+                {
+                    "#rowname": "&SEASONAL_EVENT/EVENT",
+                    "#hash_6ae515af310e6533": "menu_season_2_5_camo_bg",
+                    "#hash_a0ce127b67855bd4": "NONE",
+                    "#widgetname": "SeasonalEventRoninCamoScreen",
+                    "#backgroundimage": "$black"
+                }
+            ],
+            "#hash_44a258afc67e311": "seasons_viewnewcontent_button",
+            "#hash_57c8b89a6f263921": [],
+            "#hash_c09838b98e2a318c": true,
+            "#hash_a8152ac83c032da2": true,
+            "#hash_65af21db85cf0274": [],
+            "#titleimage": "$black"
+        },
+        "#hash_94b8f71cafb7a53b": "259200",
+        "#eventicon": "$black",
+        "#ftuedata": {
+            "#hash_6208c90751407ab5": {},
+            "#detailspopup": {
+                "#detailspanels": []
+            }
+        }
+    },
+    "#hash_64f3aaa663c6a32d": {
+        "#hash_441e11fdba27e1d": {},
+        "#eventendtime": "1800000000",
+        "#hash_5e42ba3bc94d58ff": {
+            "#mode": "POINTS",
+            "#featuredloot": [],
+            "#hash_64ce292e0f7395e": [],
+            "#hash_b04b96b2bbcb549c": {
+                "#hash_e9533a385b527e4e": "$black",
+                "#hash_82ffce968682a1fd": "1 1 1 1",
+                "#hash_4a976d41bfbe7d1b": "1 1 1 1"
+            },
+            "#hash_d6e5d767d09f3347": [],
+            "#hash_9a67cc78192dc9bc": [],
+            "#hash_200f515defc382df": [],
+            "#hash_2ba737a7c851f022": []
+        },
+        "#hash_30ae578b17302a42": {
+            "#modes": [],
+            "#eventicon": "$black"
+        },
+        "#hash_159a9447fd21d2cb": [],
+        "#hash_43530aa638a1bc8": [],
+        "#hash_6d98afa892e450b2": {
+            "#hash_8f849633c5346fe6": [
+                {
+                    "#rowname": "&SEASONAL_EVENT/EVENT",
+                    "#hash_a0ce127b67855bd4": "NONE",
+                    "#widgetname": "SeasonalEventsMenuContentTemplateFieldRep",
+                    "#backgroundimage": "$black"
+                }
+            ],
+            "#hash_44a258afc67e311": "$black",
+            "#hash_57c8b89a6f263921": [],
+            "#hash_c09838b98e2a318c": true,
+            "#hash_65af21db85cf0274": [],
+            "#titleimage": "$black"
+        },
+        "#hash_94b8f71cafb7a53b": "259200",
+        "#eventicon": "$black",
+        "#ftuedata": {
+            "#hash_6208c90751407ab5": {},
+            "#detailspopup": {
+                "#detailspanels": []
+            }
+        }
+    },
+    "#hash_72cc4eff3422e239": {
+        "#hash_441e11fdba27e1d": {},
+        "#eventendtime": "1800000000",
+        "#eventdescription": "&SEASONAL_EVENT/DELTA_EVENT_DESC",
+        "#hash_5e42ba3bc94d58ff": {
+            "#mode": "CHALLENGE",
+            "#featuredloot": [],
+            "#hash_64ce292e0f7395e": [],
+            "#hash_b04b96b2bbcb549c": {
+                "#hash_e9533a385b527e4e": "$black",
+                "#hash_82ffce968682a1fd": "1 1 1 1",
+                "#hash_4a976d41bfbe7d1b": "1 1 1 1"
+            },
+            "#hash_d6e5d767d09f3347": [],
+            "#hash_9a67cc78192dc9bc": [],
+            "#hash_200f515defc382df": [],
+            "#hash_2ba737a7c851f022": []
+        },
+        "#hash_30ae578b17302a42": {
+            "#hash_6ae515af310e6533": "menu_backplate_event_main",
+            "#screentitle": "&SEASONAL_EVENT/PLAY_AND_EARN_TROPHIES",
+            "#hash_4cf1585d19342d69": "&SEASONAL_EVENT/TROPHY_HUNT_DISCLAIMER",
+            "#modes": [],
+            "#eventicon": "seasons_viewnewcontent_button"
+        },
+        "#hash_159a9447fd21d2cb": [
+            {
+                "#mode": "ANY",
+                "#challengeref": "compound_iw9_ae_kind_seasonal_s2_mastery",
+                "#category": "MASTERY",
+                "#kind": "IW9_AE_KIND_SEASONAL"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_01_ar",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_SEASONAL"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_01_br",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_SEASONAL"
+            }
+        ],
+        "#hash_43530aa638a1bc8": [],
+        "#hash_6d98afa892e450b2": {
+            "#hash_8f849633c5346fe6": [
+                {
+                    "#rowname": "&SEASONAL_EVENT/EVENT",
+                    "#hash_a0ce127b67855bd4": "NONE",
+                    "#widgetname": "SeasonalEventsMenuContentTemplateChallenge",
+                    "#backgroundimage": "s3_event_s03_play_and_earn_3"
+                }
+            ],
+            "#hash_44a258afc67e311": "$black",
+            "#hash_57c8b89a6f263921": [],
+            "#hash_c09838b98e2a318c": true,
+            "#hash_65af21db85cf0274": [],
+            "#titleimage": "s3_event_s03_play_and_earn_3"
+        },
+        "#hash_94b8f71cafb7a53b": "259200",
+        "#eventicon": "$black",
+        "#title": "&SEASONAL_EVENT/EVENT_DELTA",
+        "#ftuedata": {
+            "#hash_6208c90751407ab5": {},
+            "#detailspopup": {
+                "#detailspanels": []
+            }
+        }
+    },
+    "#hash_7e6e97715c3a4c8d": {
+        "#hash_441e11fdba27e1d": {},
+        "#eventendtime": "1800000000",
+        "#hash_5e42ba3bc94d58ff": {
+            "#mode": "NONE",
+            "#featuredloot": [],
+            "#hash_64ce292e0f7395e": [],
+            "#hash_b04b96b2bbcb549c": {
+                "#hash_e9533a385b527e4e": "$black",
+                "#hash_82ffce968682a1fd": "1 1 1 1",
+                "#hash_4a976d41bfbe7d1b": "1 1 1 1"
+            },
+            "#hash_d6e5d767d09f3347": [],
+            "#hash_9a67cc78192dc9bc": [],
+            "#hash_200f515defc382df": [],
+            "#hash_2ba737a7c851f022": []
+        },
+        "#hash_30ae578b17302a42": {
+            "#hash_6ae515af310e6533": "menu_backplate_event_main",
+            "#screentitle": "&SEASONAL_EVENT/PLAY_AND_EARN_TROPHIES",
+            "#hash_4cf1585d19342d69": "&SEASONAL_EVENT/PLAY_AND_EARN_DESC",
+            "#modes": [
+                {
+                    "#hash_b2977da7c00626eb": "$black",
+                    "#hash_81c106ffe87181de": "$black",
+                    "#moderef": "MP",
+                    "#hash_8001462d2f430de1": "$black",
+                    "#modedesc": "&SEASONAL_EVENT/PLAY_AND_EARN_MP",
+                    "#actiontext": "&LUA_MENU/QUICK_PLAY",
+                    "#hash_5fcdfacb2b97c963": "s3_event_s03_play_and_earn_1",
+                    "#modename": "&MENU/MULTIPLAYER"
+                },
+                {
+                    "#hash_b2977da7c00626eb": "$black",
+                    "#hash_81c106ffe87181de": "$black",
+                    "#moderef": "BR",
+                    "#hash_8001462d2f430de1": "$black",
+                    "#modedesc": "&SEASONAL_EVENT/PLAY_AND_EARN_BR",
+                    "#actiontext": "&LUA_MENU/RESURGENCE",
+                    "#hash_5fcdfacb2b97c963": "s3_event_s03_play_and_earn_2",
+                    "#modename": "&LUA_MENU/WARZONE2"
+                },
+                {
+                    "#hash_b2977da7c00626eb": "$black",
+                    "#hash_81c106ffe87181de": "$black",
+                    "#moderef": "DMZ",
+                    "#hash_8001462d2f430de1": "$black",
+                    "#modedesc": "&SEASONAL_EVENT/PLAY_AND_EARN_DMZ",
+                    "#actiontext": "&PLAYLIST/DMZ",
+                    "#hash_5fcdfacb2b97c963": "s3_event_s03_play_and_earn_3",
+                    "#modename": "&LUA_MENU/DMZ"
+                }
+            ],
+            "#eventicon": "s3_event_trophy_icon_medium"
+        },
+        "#hash_159a9447fd21d2cb": [
+            {
+                "#mode": "ANY",
+                "#challengeref": "compound_iw9_event_camo_2",
+                "#category": "MASTERY",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_02_ar",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_02_br",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_02_dm",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_02_la",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_02_lm",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_02_me",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_02_pi",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_02_sh",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_02_sm",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "iw9_ch_event_camo_02_sn",
+                "#category": "NONE",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            },
+            {
+                "#mode": "ANY",
+                "#challengeref": "compound_iw9_event_camo_2",
+                "#category": "COMPOUND",
+                "#kind": "IW9_AE_KIND_GUNSMITH"
+            }
+        ],
+        "#hash_43530aa638a1bc8": [],
+        "#hash_6d98afa892e450b2": {
+            "#hash_8f849633c5346fe6": [
+                {
+                    "#rowname": "&SEASONAL_EVENT/TROPHY_HUNT_EVENT_CAMO_CHALLENGES",
+                    "#hash_6ae515af310e6533": "menu_backplate_event_main",
+                    "#hash_2c062e9c00fc102c": 515,
+                    "#hash_a0ce127b67855bd4": "NONE",
+                    "#widgetname": "SeasonalEventWeaponCamoChallenges",
+                    "#hash_9bc9538b4d6d0b1": "icon_global_weapon_camo"
+                },
+                {
+                    "#rowname": "&SEASONAL_EVENT/SANDSTORM_REDEEM_TROPHIES",
+                    "#hash_6ae515af310e6533": "menu_backplate_event_main",
+                    "#hash_2c062e9c00fc102c": 515,
+                    "#hash_a0ce127b67855bd4": "NONE",
+                    "#widgetname": "SeasonalEventSandstormRewardsScreen",
+                    "#backgroundimage": "$black",
+                    "#hash_9bc9538b4d6d0b1": "icon_global_redeem_trophy"
+                }
+            ],
+            "#hash_44a258afc67e311": "seasons_viewnewcontent_button",
+            "#hash_57c8b89a6f263921": [],
+            "#hash_c09838b98e2a318c": true,
+            "#hash_a8152ac83c032da2": true,
+            "#hash_65af21db85cf0274": [],
+            "#titleimage": "$black"
+        },
+        "#hash_94b8f71cafb7a53b": "259200",
+        "#eventicon": "$black",
+        "#title": "&ONBOARDING/SEASON_3_EVENT_TITLE",
+        "#ftuedata": {
+            "#hash_6208c90751407ab5": {},
+            "#detailspopup": {
+                "#detailspanels": []
+            }
+        },
+        "#trophylootid": "26148"
+    }
+}

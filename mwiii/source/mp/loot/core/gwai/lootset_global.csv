@@ -1,0 +1,7 @@
+string,string,string,string
+inherit,mp/loot/core/gwai/lootset_root.csv,,
+chance,point,50,
+chance,cluster,50,
+chance,clusterSolo,25,
+req,,weapon,1
+req,brloot_armor_plate,health,1

@@ -1,0 +1,8 @@
+string,string,string,string,string,string,string,string,string,string,string,string,string,string,string
+ui_resurgenceRespawnTimer,1,,c,a,0,0,2147483647,,,,,,#32 bits packed: ( 1 penalty, 1 force
+resurgence_tracked_teams,1,,c,i,0,0,2147483647,,,,,,#32bits packed: 8bits team 0, 8bits team 1, 8bits team 2, 8bits team 3,
+resurgence_dataheist_state,1,,c,i,0,0,3,,,,,,#dataheist file download state,
+resurgence_dataheist_progress,1,,c,f,0,0,1,,,,,,#dataheist file download progress,
+ui_resurgence_care_request,1,,c,a,0,0,31,,,,,,#5 bits packed: 2 bits request state, 3 bits alive count
+ui_resurgence_team_nemeses,1,,c,a,0,,,,,,,,#32 bits packed: 8 per squad member's killer,
+ui_resurgence_action_feedback,1,,c,a,0,0,,,,,,,#14 bits packed: 3 bits for squad member's id, 11 bits for eventId

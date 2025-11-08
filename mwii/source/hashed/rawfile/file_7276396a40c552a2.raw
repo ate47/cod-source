@@ -1,0 +1,17 @@
+///////////////////////////////////////////////////////////////////////////
+//This file is generated from the Animation Blender tool
+///////////////////////////////////////////////////////////////////////////
+% force_cs_anim_index_match
+stand_run_loop: blendspace2d( rangex="-180.000,180.000", rangey="0,260", blend_time="250.00",
+coords="{0,225},{45,225},{-45,225},{0,258},{45,258},{-45,258}",
+edges="{5,2,3},{3,2,0},{3,0,1},{4,3,1}",
+valuex=[strafeyaw], valuey=[desiredspeed] ) loopsync
+	{
+			butcher_exposed_strafe_run01_8
+			butcher_exposed_strafe_run01_7
+			butcher_exposed_strafe_run01_9
+			butcher_exposed_strafe_sprint01_8
+			butcher_exposed_strafe_sprint01_7
+			butcher_exposed_strafe_sprint01_9
+	}
+

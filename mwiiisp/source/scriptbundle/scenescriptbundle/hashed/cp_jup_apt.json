@@ -1,0 +1,77 @@
+{
+    "#hash_6e2abf82624c9dc": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": "animtree#player",
+                    "#name": "Player 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#cameraanimation": "jup_apt_skyhook_capture_xcam",
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_c_jup_sp_villain_nolan_apt",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#generic_human",
+                    "#name": "body_nolan_01",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_apt_skyhook_capture_nolan_conversation@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "c_jup_head_hero_nolan",
+                    "#aligntarget": "body_nolan_01",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#generic_human",
+                    "#hash_adbd47886f23e1a2": true,
+                    "#name": "head_nolan",
+                    "#aligntargettag": "j_spine4",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_apt_skyhook_capture_nolan_conversation@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ],
+        "#autostream": true
+    }
+}

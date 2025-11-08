@@ -1,0 +1,8 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/delta/zxp/lootset_root.csv,,,,
+reqAdd,plunder,3,,,# require plunder
+reqAdd,weapon&[4],2,,,# chance for any item of higher quality
+reqAdd,brPowerItem&!brloot_redeploy_token,2,,,
+reqAdd,brPowerItem&killstreak&!brloot_redeploy_token,1,,,
+reqAdd,brloot_zmb_stim,1,1,100,# ZXP Stim
+reqAdd,brloot_offhand_magsnap|brloot_super_hauntedbox,1,1,100,# Forced MagSnap or Haunted Box

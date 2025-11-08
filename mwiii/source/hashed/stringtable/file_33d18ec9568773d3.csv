@@ -1,0 +1,11 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/br_preview/lootset_root.csv,,,,
+tagReject,nocache,100,,,
+reqAdd,weapon,1,,,
+reqAdd,gear|plate_carrier|perkpack,1,,,
+reqAdd,plunder & [2],1,,,
+reqAdd,killstreak,1,,,
+reqAdd,,2,,,
+reqLimit,gear,1,,,
+reqLimit,plate_carrier,1,,,
+reqLimit,perkpack,1,,,

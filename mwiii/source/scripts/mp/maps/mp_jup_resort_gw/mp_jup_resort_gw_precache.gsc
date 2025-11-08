@@ -1,0 +1,11 @@
+#namespace mp_jup_resort_gw_precache;
+
+// Namespace mp_jup_resort_gw_precache / scripts\mp\maps\mp_jup_resort_gw\mp_jup_resort_gw_precache
+// Params 0
+// Checksum 0x0, Offset: 0x88
+// Size: 0x2
+function main()
+{
+    
+}
+

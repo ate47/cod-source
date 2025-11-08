@@ -1,0 +1,189 @@
+{
+    "#hash_6b4140c380ac8d25": {
+        "#conversations": [],
+        "#hash_423f1766afe848b9": [
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpveoperationinfilstart",
+                "#ref": "ob_pvpve_infil",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpveenemysqdnearbystart",
+                "#ref": "enemy_squad_nearby",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpveteammatedown",
+                "#ref": "teammate_down",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpveteammaterespawned",
+                "#ref": "teammate_spawned",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpveplayersqdeliminated",
+                "#ref": "teammate_eliminated",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvebntycntrctaccept",
+                "#ref": "bounty_contract_accept",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvebntycntrctcomplete",
+                "#ref": "bounty_contract_complete",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvebntycntrcttimeout",
+                "#ref": "bounty_contract_timeout",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvebctrgtkillbyother",
+                "#ref": "bounty_contract_killed_by_other",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvebntycntrctcancelled",
+                "#ref": "bounty_contract_cancelled",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvebntycntrcttargeted",
+                "#ref": "bounty_contract_targeted",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvebntysqdcntrctaccept",
+                "#ref": "bounty_squad_contract_accept",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvebntysqdcntrctcomplt",
+                "#ref": "bounty_squad_contract_complete",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvebntysqdcntrcttime",
+                "#ref": "bounty_squad_contract_timeout",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvebntysqdcntrctcancel",
+                "#ref": "bounty_squad_contract_cancelled",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvebntysqdcntrcttarget",
+                "#ref": "bounty_squad_contract_targeted",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvereconpointacquired",
+                "#ref": "recon_points_acquired",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvereconpointrespawn",
+                "#ref": "recon_points_respawn",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvewpnacquirestart",
+                "#ref": "loot_case_acquired",
+                "#cooldown": 45,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvewpnacquirebyenemy",
+                "#ref": "loot_case_acquired_enemy",
+                "#cooldown": 45,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvewpnextractbyenemy",
+                "#ref": "loot_case_extracted_enemy",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvesqdrrequestnewteam",
+                "#ref": "requesting_new_team",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvesqdrrequestbyteam",
+                "#ref": "being_requested_to_new_team",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvesqdrteammateleft",
+                "#ref": "teammate_left",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvesqdrrequestbyplayer",
+                "#ref": "other_players_requesting_join",
+                "#cooldown": 0,
+                "#priority": 100
+            },
+            {
+                "#speakerasset": "jup_ob_speaker_greene",
+                "#alias": "dx_ob_pvpe_pvpg_gree_pvpvesqdrnewplayerrqst",
+                "#ref": "invite_players_to_join",
+                "#cooldown": 0,
+                "#priority": 100
+            }
+        ]
+    }
+}

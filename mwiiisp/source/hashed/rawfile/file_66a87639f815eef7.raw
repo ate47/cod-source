@@ -1,0 +1,96 @@
+#define VECTOR_ZERO ( 0.0, 0.0, 0.0 ) 
+
+// colors
+#define MIDGRAY 0.7297400528 
+#define COLOR_MIDGRAY ( 0.7297400528, 0.7297400528, 0.7297400528 )
+
+// fonts
+#define PRINT2D_FONT_WIDTH 8.0 	// TA 11.0
+#define PRINT2D_FONT_HEIGHT 16.0 	// TA 24.0
+#define PRINT2D_FONT_ASCENT 14.0 	// TA 16.0
+#define PRINT2D_FONT_DESCENT 2.0 	// TA 4.0
+#define PRINT2D_FONT_GLYPH_HEIGHT (PRINT2D_FONT_DESCENT+PRINT2D_FONT_ASCENT) 
+#define PRINT2D_FONT_Y_OFFSET (PRINT2D_FONT_GLYPH_HEIGHT-PRINT2D_FONT_HEIGHT) 
+
+#define PRINT3D_FONT_WIDTH 8.0 	// TA 11.0
+#define PRINT3D_FONT_HEIGHT 16.0 	// TA 24.0
+#define PRINT3D_FONT_DESCENT 2.0 	// TA 1.0
+									// 1.0; better for thicker/bolder fonts // 0.666; // better for thinner/medium fonts
+#define PRINT2D_PLUS_SHADOW_OFFSET 1.333 	// TA 2.000
+#define PRINT2D_PLUS_LIGHT_OFFSET 0.666 	// TA 0.666
+
+#define SND_FONT_2D_HEIGHT PRINT2D_FONT_HEIGHT 
+#define SND_FONT_3D_HEIGHT SND_FONT_2D_HEIGHT 
+
+// sound hud
+#define SND_HUD_ALPHA 0.8542482383944377 
+#define SND_HUD_ALPHASQ ( SND_HUD_ALPHA*SND_HUD_ALPHA )
+#define SND_HUD_SCALE 1.333333 	// TA 1.333333
+#define SND_HUD_HEIGHT PRINT2D_FONT_HEIGHT * SND_HUD_SCALE 
+
+// sound alias column names
+#define SND_ALIAS_DIST_MIN "dist_min"  // ""DistMin" 
+#define SND_ALIAS_DIST_MAX "dist_max"  // "DistMaxWet"  // "DistMaxDry" 
+#define SND_ALIAS_DIST_CURVE "volumefalloffcurve"  // "DryMaxCurve" 
+#define SND_ALIAS_SECONDARY "secondaryaliasname"  //"Secondary" 
+#define SND_ALIAS_GROUP "vol_mod"  // "DuckGroup"  // "VolumeGroup" 
+#define SND_ALIAS_PITCH_MIN "pitch_min"  //"PitchMin" 
+#define SND_ALIAS_PITCH_MAX "pitch_max"  //"PitchMax" 
+
+// snd api
+#define SND_TYPE_CENTITY "centity" 
+#define SND_TYPE_GENTITY "gentity" 
+#define SND_TYPE_LOCAL "local" 
+#define SND_TYPE_EMITTER "emitter" 
+#define SND_TYPE_LINE "line" 
+
+#define SND_CLIENTSYS "clientSoundCommand" 
+#define SND_CLIENTFIELD_ACTOR "clientFieldSndTargetActor" 
+#define SND_CLIENTFIELD_PLAYER "clientFieldSndTargetPlayer" 
+#define SND_CLIENTFIELD_VEHICLE "clientFieldSndTargetVehicle" 
+#define SND_CLIENTFIELD_SCRIPTMOVER "clientFieldSndTargetScriptMover" 
+
+#define SND_CALLBACK_CLIENTSYS SND_CLIENTSYS 
+#define SND_CALLBACK_CLIENTMSG "client_msg" 
+#define SND_CALLBACK_CLIENTTARGETNAME "client_targetname" 
+#define SND_CALLBACK_CLIENTVOICE "client_voice" 
+#define SND_CALLBACK_DEBUG_PRINT "debug_print"  // args ( posx, posy, text, color, alpha, scale, duration )
+#define SND_CALLBACK_PITCH_GET "pitch_get" 
+#define SND_CALLBACK_PITCH_SET "pitch_set" 
+#define SND_CALLBACK_VOLUME_GET "volume_get" 
+#define SND_CALLBACK_VOLUME_SET "volume_set" 
+#define SND_CALLBACK_PLAYER_VIEW_ORIGIN "player_view" 
+#define SND_CALLBACK_PLAYER_VIEW_ANGLES "player_angles" 
+#define SND_CALLBACK_PLAYER_VIEW_FOV "player_fov" 
+
+#define SND_WAIT_CLIENT 0.0166666666666667 
+#define SND_WAIT_SERVER 0.05 
+
+#define SND_DEFAULT_FADE 0.0 
+
+#define SND_SCALEPITCH_MIN 0.00390625  // -96 semitones
+#define SND_SCALEPITCH_MAX 2.0 
+#define SND_SCALEVOLUME_MIN 0.0 
+#define SND_SCALEVOLUME_MAX 4.0 
+
+#define SND_EMITTER_MOVE_TIME ( 2 * 0.05 ) 
+
+#define SND_TRIGGER_DEFAULT "$default" 
+
+#define SND_SPEED_EPSILON 0.01 
+#define SND_VOLUME_EPSILON 0.001 
+	
+// IW - game_types_shared.h - sv = 2048, cl = 384 ( 96 + MAX_PREDICTED_ENTS + CLIENT_MODEL_MAX_COUNT + MAX_FAKE_LOCAL_CENTITIES )
+// T9 - q_defines.h - sv = 1024 ( 1 << GENTITYNUM_BITS ), cl = 768 (MAX_FAKE_LOCAL_CENTITIES)
+#define SND_MAX_GENTITIES 2048 
+#define SND_MAX_CENTITIES 384 
+
+// unit conversions
+#define SND_INCHES_TO_FEET 0.0833333333333333 
+#define SND_INCHES_TO_METERS 0.0254 
+#define SND_METERS_TO_INCHES 39.37007874 
+#define SND_METERS_TO_FEET 3.280839895 
+#define SND_MILES_TO_INCHES 63360 
+
+// shorthand for undefined
+#define _x_ undefined 

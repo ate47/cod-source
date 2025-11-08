@@ -1,0 +1,2310 @@
+#include scripts\engine\utility;
+#include scripts\common\utility;
+#include scripts\cp_mp\utility\audio_utility;
+#include scripts\cp_mp\utility\script_utility;
+#include scripts\mp\hud_util;
+#include scripts\mp\utility\dvars;
+#include scripts\mp\utility\weapon;
+#include scripts\mp\utility\game;
+#include scripts\mp\utility\player;
+#include scripts\mp\utility\stats;
+#include scripts\mp\utility\points;
+#include scripts\mp\utility\teams;
+#include scripts\mp\utility\dialog;
+#include scripts\mp\utility\sound;
+#include scripts\mp\utility\debug;
+#include scripts\mp\utility\script;
+#include scripts\engine\trace;
+#include scripts\mp\ai_behavior;
+#include scripts\mp\ai_mp_controller;
+
+#include scripts\mp\gametypes\arm_vehicles;
+#include scripts\mp\gametypes\arm_upgrades;
+
+#inline scripts\common\inline\vehicle_dlog;
+
+#inline scripts\common\inline\little_bird;
+#inline scripts\common\inline\atv;
+#inline scripts\common\inline\tac_rover;
+#inline scripts\common\inline\apc_rus;
+#inline scripts\common\inline\light_tank;
+#inline scripts\common\inline\veh9_rhib;
+#inline scripts\common\inline\veh9_jltv;
+#inline scripts\common\inline\veh9_jltv_mg;
+#inline scripts\common\inline\veh9_suv_1996;
+#inline scripts\common\inline\veh9_patrol_boat;
+
+#inline scripts\common\inline\weapons;
+#inline scripts\common\inline\dmz_ai;
+
+
+
+/*
+	GROUND WAR AI
+	Objective: 	Kill and capture points.
+	Map ends:	Reach the point goal from kills and capture points.
+	Respawning:	Spawn selection and spawn on squad.
+*/
+
+/*QUAKED mp_gw_spawn (0.0 1.0 0.0) (-16 -16 0) (16 16 72)
+Allied players spawn use these points to spawn on the ground in Ground War.*/
+
+/*QUAKED mp_gw_spawn_axis_start (0.8 0.0 0.4) (-16 -16 0) (16 16 72)
+Axis players spawn use these points to spawn on the ground in Ground War.*/
+
+/*QUAKED mp_gw_spawn_allies_start (0.8 1.0 0.0) (-16 -16 0) (16 16 72)
+Allied players spawn use these points to spawn on the ground in Ground War.*/
+
+/*QUAKED mp_gwai_spawn_start (0.0 1.0 0.0) (-16 -16 0) (16 16 72)
+Allied players spawn use these points to spawn on the ground in Ground War.*/
+
+//  Location		Locale#
+//	Mil Base		1
+//	Super Layover	2
+//	Port			3
+//	Boneyard		4
+//	Quarry			5
+//	Downtown ( Lg )	6
+//	Train Station	7
+//	South Downtown	8
+//	Farms			9
+//	Hotel Ridge		10
+//	Dam				11
+//	Western Woods	12
+//	Lumber Crossing	13
+//	Hospital		14
+//	Hills			15
+//	Quarry 2 - Alt	16
+//	Aniyah			17
+
+#define CONST_CLOSE_SPAWN_MIN_DIST          1000 * 1000
+#define CONST_MAX_SPAWN_DISTANCE            15000 * 15000
+#define CONST_MAX_RELAVENT_SPAWN_DISTANCE   5000
+
+#define CONST_OBJICON_Z_OFFSET           72
+#define CONST_CRATE_ARRIVAL_SMOKE_TIME   16
+
+#define CONST_CORNER_OFFSET   250
+
+#define CONST_NUM_NON_RALLY_VEHICLES_TO_SPAWN   25
+
+#define DEBUG   false
+
+main()
+{
+	if ( GetDvar(#d"g_mapname" ) == "mp_background" )
+		return;
+
+	scripts\mp\globallogic::init();
+	scripts\mp\globallogic::SetupCallbacks();
+
+	allowed[ 0 ] = getGameType();
+	allowed[ 1 ] = "arm";
+	scripts\mp\gameobjects::main( allowed );
+	
+	if ( isUsingMatchRulesData() )
+	{
+		level.initializeMatchRules = ::initializeMatchRules;
+		[[ level.initializeMatchRules ]]();
+		level thread reInitializeMatchRulesOnMigration();
+	}
+	else
+	{
+		registerTimeLimitDvar( getGameType(), 150 );
+		registerScoreLimitDvar( getGameType(), 1 );
+		registerRoundLimitDvar( getGameType(), 0 );
+		registerWinLimitDvar( getGameType(), 3 );
+		registerNumLivesDvar( getGameType(), 1 );
+		registerHalfTimeDvar( getGameType(), 0 );
+		registerRoundSwitchDvar( getGameType(), 1, 0, 9 );
+	}
+	
+	SetDvar( #d"scr_game_spawncamera_frontline"   , 0 );
+	SetDvar( #d"scr_allow_technicals"             , 1 );
+	SetDvar( #d"scr_runlean_max_technicals"       , 30 );
+	SetDvar( #d"scr_allow_vehicles"               , 1 );
+	SetDvar( #d"cg_friendlyReviveNameplateEnabled", 0 );
+	SetOmnvar( "ui_num_dom_flags", 1 ); // baseline
+	
+	EnableGroundWarSpawnLogic( 400, 1200 );
+	
+	updateGametypeDvars();
+	
+	setDefaultClass();
+	
+	scripts\mp\utility\connect_event_aggregator::registerOnConnectCallback( ::onPlayerConnect );
+	scripts\mp\utility\spawn_event_aggregator::registerOnPlayerSpawnCallback( ::onPlayerSpawned );
+	scripts\mp\utility\join_team_aggregator::registerOnPlayerJoinTeamCallback( ::onJoinedTeam );
+	scripts\mp\utility\disconnect_event_aggregator::registerOnDisconnectEventCallback( ::onPlayerDisconnect );
+	
+	level.objectiveBased = true;
+	level.teamBased      = true;
+	level.usePersAmmo    = true;
+	level.allowNoSuper   = true;
+	
+	level.allowGWVehicles          = GetDvarInt(#d"scr_gwai_allow_vehicles", 1 ) == 1;
+	level.onStartGameType          = ::onStartGameType;
+	level.getSpawnPoint            = ::getSpawnPoint;
+	level.modeOnSpawnPlayer        = ::modeOnSpawnPlayer;
+	level.onPlayerKilled           = ::onPlayerKilled;
+	level.onNormalDeath            = ::onNormalDeath;
+	level.onTimeLimit              = ::onTimeLimit;
+	level.onScoreLimit             = ::onScoreLimit;
+	level.canEndOnDeadEvent        = ::canEndOnDeadEvent;
+	level.getModeUAVTowerLocations = ::getModeUAVTowerLocations;
+	
+	if ( GetDvarInt( #d"com_usingGameTypeAsset", 0 ) == 0 )
+	{
+		csvDefault = Int( tableLookup( "mp/gametypesTable.csv", 0, "gwai", 5 ) );
+		level.allowClassChoice = GetDvarInt( #d"scr_gwai_allow_class_select", csvDefault ) == 1;
+	}
+	else
+	{
+		level.allowClassChoice = level.gameTypeBundle.allowClassChoice;
+	}
+	if ( !level.allowClassChoice )
+		level.bypassClassChoiceFunc = scripts\mp\class::alwaysGamemodeClass;
+
+	level.allowClassChoiceFunc = ::allowClassChoiceFunc;
+	
+	
+	level.domFlag_SetNeutral   = scripts\mp\gametypes\obj_dom::domFlag_SetNeutral;
+	level.domPoint_SetCaptured = scripts\mp\gametypes\obj_dom::domPoint_SetCaptured;
+	
+	level.missedInfilCameraPosotionsFunc = ::getMissedInfilCameraPositions;
+	
+	game[ "dialog" ][ "gametype" ] = "gametype_groundwar";
+
+	if ( getDvarInt(#d"scr_diehard" ) )
+		game[ "dialog" ][ "gametype" ] = "dh_" + game[ "dialog" ][ "gametype" ];
+	else if ( GetDvarInt( HashCat(#d"scr_", getGameType(), "_promode" ) ) )
+		game[ "dialog" ][ "gametype" ] = game[ "dialog" ][ "gametype" ] + "_pro";
+	
+	game[ "dialog" ][ "offense_obj"   ] = "boost_groundwar";
+	game[ "dialog" ][ "defense_obj"   ] = "boost_groundwar";
+	game[ "dialog" ][ "obj_destroyed" ] = "obj_destroyed";
+	game[ "dialog" ][ "obj_captured"  ] = "obj_captured";
+	
+	game[ "dialog" ][ "securing_a" ] = "securing_a";
+	game[ "dialog" ][ "securing_b" ] = "securing_b";
+	game[ "dialog" ][ "securing_c" ] = "securing_c";
+	game[ "dialog" ][ "securing_d" ] = "securing_d";
+	game[ "dialog" ][ "securing_e" ] = "securing_e";
+	game[ "dialog" ][ "secured_a"  ] = "secured_a";
+	game[ "dialog" ][ "secured_b"  ] = "secured_b";
+	game[ "dialog" ][ "secured_c"  ] = "secured_c";
+	game[ "dialog" ][ "secured_d"  ] = "secured_d";
+	game[ "dialog" ][ "secured_e"  ] = "secured_e";
+	game[ "dialog" ][ "losing_a"   ] = "losing_a";
+	game[ "dialog" ][ "losing_b"   ] = "losing_b";
+	game[ "dialog" ][ "losing_c"   ] = "losing_c";
+	game[ "dialog" ][ "losing_d"   ] = "losing_d";
+	game[ "dialog" ][ "losing_e"   ] = "losing_e";
+	game[ "dialog" ][ "lost_a"     ] = "lost_a";
+	game[ "dialog" ][ "lost_b"     ] = "lost_b";
+	game[ "dialog" ][ "lost_c"     ] = "lost_c";
+	game[ "dialog" ][ "lost_d"     ] = "lost_d";
+	game[ "dialog" ][ "lost_e"     ] = "lost_e";
+	game[ "dialog" ][ "lost_all"   ] = "gamestate_domlosing";
+	game[ "dialog" ][ "secure_all" ] = "gamestate_domwinning";
+	
+	game[ "dialog" ][ "hp_new_location" ]  = "iw9_mphq_mode_uktl_hqnl";//new hq identified
+	game[ "dialog" ][ "hp_active"       ]  = "iw9_mphq_mode_uktl_hqoa";//hq active for capture
+	
+	
+	level._effect[ "vfx_smk_signal_gr" ]          = LoadFx( "vfx/_requests/mp_gameplay/vfx_smk_signal_gr" );
+	level._effect[ "vfx_snatch_ac130_clouds" ]    = LoadFX( "vfx/iw8_mp/gamemode/vfx_snatch_ac130_clouds.vfx" );
+
+	level._effect[ "vfx_br_infil_cloud_scroll" ]  = LoadFX( "vfx/iw8_br/gameplay/infil/vfx_br_infil_cloud_scroll.vfx" );
+	level._effect[ "vfx_br_infil_jump_smoke_01" ] = LoadFX( "vfx/iw8_br/gameplay/infil/vfx_br_infil_jump_smoke_01.vfx" );
+	level._effect[ "vfx_br_infil_jump_wisp_01" ]  = LoadFX( "vfx/iw8_br/gameplay/infil/vfx_br_infil_jump_wisp_01.vfx" );
+	level._effect[ "vfx_br_infil_jump_wisp_02" ]  = LoadFX( "vfx/iw8_br/gameplay/infil/vfx_br_infil_jump_wisp_02.vfx" );
+	level._effect[ "vfx_br_infil_omni_light" ]    = LoadFX( "vfx/iw8_br/gameplay/infil/vfx_br_infil_omni_light.vfx" );
+	level._effect[ "vfx_br_infil_spot_light" ]    = LoadFX( "vfx/iw8_br/gameplay/infil/vfx_br_infil_spot_light.vfx" );
+
+	level.buyStationUsePersonalOnly = GetDvarInt(#d"scr_arm_buystation_use_personal_only", 0 ) == 1;
+	
+	level.spawnAgentsOnCapture = GetDvarInt(#d"scr_gwai_spawn_agents_on_capture", 0 ) == 1;
+	
+	level.enableBuystationsForAll = GetDvarInt(#d"scr_arm_enable_buystations_for_all", 1 ) == 1;
+	
+	//Loot
+	level.dropBRLoot         = GetDvarInt(#d"scr_arm_dropBRLoot", 0 );
+	level.br_plunder_enabled = GetDvarInt(#d"scr_game_cash", 0 );
+	level.noInventory        = GetDvarInt(#d"scr_br_no_inventory", 1 );
+	
+	if ( level.br_plunder_enabled )
+	{
+		scripts\cp_mp\utility\loot::init();
+		level.HACKplayerBackpackSize = 0; // TODO?;
+		scripts\mp\gametypes\br_default_inventory::setBackpackData();
+	}
+	
+	level.giveCashOnScoreEvents = GetDvarInt(#d"scr_arm_giveCashOnScoreEvent", 0 );
+	if ( level.giveCashOnScoreEvents )
+	{
+		level.cashOnScoreEvent = ::cashOnScoreEvent;		
+	}
+	
+	level.numNonRallyVehicles = GetDvarInt(#d"scr_arm_numNonRallyVehicles", CONST_NUM_NON_RALLY_VEHICLES_TO_SPAWN );
+	
+	level.disablePersonalNuke      = GetDvarInt(#d"scr_arm_disablePersonalNuke", 0 );
+	level.personalNukeCostOverride = GetDvarInt(#d"scr_personalNukeCostOverride", 30 );
+	
+	//GW soundbank load
+	thread gw_sound_load();
+
+	level.ignoreTeamOOB = true;
+		
+	flag_init( "stealth_enabled" );
+	flag_init( "level_stealth_initialized" );
+	flag_init( "stealth_spotted" );
+}
+
+initializeMatchRules()
+{
+	//  set common values
+	setCommonRulesFromMatchRulesData();
+
+	//  set everything else (private match options, default .cfg file values, and what normally is registered in the 'else' below)
+	SetDynamicDvar(#d"scr_gwai_zoneLifetime", GetMatchRulesData( "kothData", "zoneLifetime" ) );
+	SetDynamicDvar(#d"scr_gwai_zoneCaptureTime", GetMatchRulesData( "kothData", "zoneCaptureTime" ) );
+	SetDynamicDvar(#d"scr_gwai_zoneActivationDelay", GetMatchRulesData( "kothData", "zoneActivationDelay" ) );
+	SetDynamicDvar(#d"scr_gwai_randomLocationOrder", GetMatchRulesData( "kothData", "randomLocationOrder" ) );
+	SetDynamicDvar(#d"scr_gwai_additiveScoring", GetMatchRulesData( "kothData", "additiveScoring" ) );
+	SetDynamicDvar(#d"scr_gwai_pauseTime", GetMatchRulesData( "kothData", "pauseTime" ) );
+	SetDynamicDvar(#d"scr_gwai_spawndelay", GetMatchRulesData( "tdefData", "spawnDelay" ) );
+
+	registerHalfTimeDvar( "gwai", 0 );
+}
+
+onStartGameType()
+{
+	level.requiredPlayerCountOveride = true;
+	
+	foreach ( team in level.teamNameList )
+	{
+		level.requiredPlayerCount[ team ] = Int( level.maxTeamSize * 0.75 );
+	}
+	
+	if ( !level.multiteambased )
+	{
+		if ( !isDefined( game[ "switchedsides" ] ) )
+			game[ "switchedsides" ] = false;
+		
+		if ( game[ "switchedsides" ] )
+		{
+			oldAttackers        = game[ "attackers" ];
+			oldDefenders        = game[ "defenders" ];
+			game[ "attackers" ] = oldDefenders;
+			game[ "defenders" ] = oldAttackers;
+		}
+	}
+	
+	setClientNameMode( "auto_change" );
+
+	level.objectives             = [];
+	level.uncapturableObjectives = [];
+	
+	initSpawns();
+	
+	setIconNames();
+	
+	level.useDomFlag = 0;
+	
+	//Used if the killstreaks are the objectives
+	level.killStreakQueue = [];
+	
+	level thread setupWaypointIcons();
+	
+	setupObjectives();
+	
+	level thread runObjectives();
+	
+	level.numHQTanks_Axis   = 0;
+	level.numHQTanks_Allies = 0;
+	level.maxHQTanks        = 0;
+	thread init_GroundWarVehicles();
+	
+	scripts\mp\utility\dialog::initStatusDialog();
+	
+	//Attempt to clean up as much ent and BR cruft as possible.
+	emergency_cleanUpEnts();
+	
+	//Remove the base patchable collision volumes
+	// NOTE-IW8-Lockwood: Removing this line.
+	// It was removing tac cover collisions and brushes we needed for patching.
+	// We may be able to Hide the entities instead of deleting them to save on client entities.
+	// If we can, then that's something we should do globally, not just for arm.
+	//thread removePatchableCollision_delayed();
+
+	scripts\cp_mp\parachute::initParachuteDvars();
+	
+	if ( GetDvarInt(#d"scr_br_armory_kiosk", 0 ) == 1 )
+	{
+		scripts\mp\gametypes\br_armory_kiosk::init();
+		scripts\mp\gametypes\br_armory_kiosk::setBuyStation( "personalOnly" );
+		//level thread initObjectiveUpgradeData();
+	}
+	
+	level thread spawnAI();
+	
+	level thread scripts\cp_mp\uav_tower::init();
+}
+
+updateGametypeDvars()
+{
+	scripts\mp\gametypes\common::updateCommonGametypeDvars();
+	
+	level.selectNewObjectiveRoundCount = dvarIntValue( "newObjectiveRoundCount", 2, 0, 10 );
+	level.zoneHideTime                 = dvarFloatValue( "zoneHideTime", 120, 0, 300 );
+	level.zoneLockedTime               = dvarFloatValue( "zoneLockedTime", 120, 0, 300 );
+	level.zoneCaptureTime              = dvarFloatValue( "zoneCaptureTime", 15, 0, 60 );
+	level.objectiveScaler              = dvarFloatValue( "objScalar", 1, 1, 10 );
+	level.pauseModeTimer               = false;
+}
+
+setIconNames()
+{	
+	level.iconTarget    = "hq_target";
+	level.iconNeutral   = "hq_neutral";
+	level.iconCapture   = "hq_destroy";
+	level.iconDefend    = "hq_defend";
+	level.iconContested = "hq_contested";
+	level.iconTaking    = "hq_taking";
+	level.iconLosing    = "hq_losing";
+	level.iconDefending = "hq_defending";
+}
+
+emergency_cleanUpEnts()
+{
+	//Remove all ents that are still in the GW maps and are not needed
+	scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByKey( "delete_on_load", "targetname" );
+	
+	scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByKey( "vehicle_volume"           , "script_noteworthy" );
+	scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByKey( "vehicle_volume_simplified", "script_noteworthy" );
+	scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByKey( "super"                    , "script_noteworthy" );
+	scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByKey( "militarybase"             , "script_noteworthy" );
+
+	scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByKey( "location_volume"    , "targetname" );
+	scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByKey( "locale_area_trigger", "targetname" );
+	scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByKey( "bank_entry_detector", "targetname" );
+	scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByKey( "shadow_blocker"     , "targetname" );
+	
+	scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByModel( "door_prison_cell_metal_mp"  , true );
+	scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByModel( "veh8_mil_air_acharlie130"   , true );
+	scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByModel( "door_wooden_panel_mp_01"    , true );
+	scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByModel( "me_electrical_box_street_01", true );
+	
+	scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByCodeClassname( "light" );
+	scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByCodeClassname( "trigger_use_touch" );
+	
+	if ( IsDefined( level.localeID ) && level.localeID == "locale_6" )
+		scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByKey( "locale_8", "script_noteworthy" );
+	
+	unneededTagOrigins       = [];
+	unneededTagOrigins[ 0 ]  = ( -22592, 27367, 1000 ); //Ascender control tower
+	unneededTagOrigins[ 1 ] = ( -22592, 27303, -448 ); //Ascender control tower
+	unneededTagOrigins[ 2 ] = ( 7837, -9674, 1154 ); //Ascender hospital
+	unneededTagOrigins[ 3 ] = ( 7637, -9674, 1154 ); //Ascender hospital
+	unneededTagOrigins[ 4 ] = ( 7901, -9674, -270 ); //Ascender hospital
+	unneededTagOrigins[ 5 ] = ( 7701, -9674, -270 ); //Ascender hospital
+	unneededTagOrigins[ 6 ] = ( 10366, -11606, 66 ); //Ascender hospital
+	unneededTagOrigins[ 7 ] = ( 10366, -11813, 66 ); //Ascender hospital
+	unneededTagOrigins[ 6 ] = ( 10366, -11670, -270 ); //Ascender hospital
+	unneededTagOrigins[ 7 ] = ( 10366, -11877, -270 ); //Ascender hospital
+	unneededTagOrigins[ 8 ] = ( 7498, -11716, 66 ); //Ascender hospital
+	unneededTagOrigins[ 9 ] = ( 7498, -11652, -270 ); //Ascender hospital;
+	unneededTagOrigins[ 10 ] = ( -1200, -18954, -242 ); //Ascender market row
+	unneededTagOrigins[ 11 ] = ( -1215, -19016, 774 ); //Ascender market row;
+	
+	ents = GetEntArray();
+	
+	foreach ( ent in ents )
+	{
+		if ( IsDefined( ent.model ) && ent.model == "tag_origin" )
+		{
+			isBadLoc = false;
+			foreach ( badTagOrigin in unneededTagOrigins )
+			{
+				if ( isBadLoc )
+					break;
+				
+				if ( DistanceSquared( ent.origin, badTagOrigin ) < 12 * 12 )
+					isBadLoc = true;
+			}
+			
+			if ( isBadLoc )
+				ent Delete();
+		}
+	}
+}
+
+removePatchableCollision_delayed()
+{
+	wait 5;
+	
+	patchableCollisionNames       = [];
+	patchableCollisionNames[ 0  ] = "tactical_cover_col";
+	patchableCollisionNames[ 1  ] = "tactical_ladder_col";
+	patchableCollisionNames[ 2  ] = "clip8x8x256";
+	patchableCollisionNames[ 3  ] = "player8x8x256";
+	patchableCollisionNames[ 4  ] = "ladderMetal264";
+	patchableCollisionNames[ 5  ] = "ladderWood192";
+	patchableCollisionNames[ 6  ] = "ladderMetal192";
+	patchableCollisionNames[ 7  ] = "mount128";
+	patchableCollisionNames[ 8  ] = "mount64";
+	patchableCollisionNames[ 9  ] = "mount32";
+	patchableCollisionNames[ 10 ] = "mount256";
+	patchableCollisionNames[ 11 ] = "ladderWood264";
+	patchableCollisionNames[ 12 ] = "nosight256x256x8";
+	patchableCollisionNames[ 13 ] = "nosight128x128x8";
+	patchableCollisionNames[ 14 ] = "mountCorner128";
+	patchableCollisionNames[ 15 ] = "mantle256";
+	patchableCollisionNames[ 16 ] = "mantle128";
+	patchableCollisionNames[ 17 ] = "mantle64";
+	patchableCollisionNames[ 18 ] = "mantle32";
+	patchableCollisionNames[ 19 ] = "stairsHalfFlight128";
+	patchableCollisionNames[ 20 ] = "stairsFullFlight128";
+	
+	foreach ( name in patchableCollisionNames )
+		scripts\cp_mp\utility\game_utility::removeMatchingEnts_ByKey( name, "targetname" );
+}
+
+onJoinedTeam( player )
+{
+	player scripts\mp\gametypes\arm_upgrades::enableOwnedBuyStationsForPlayer();
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//     ____  _     _           _   _              _____      _
+//    / __ \| |   (_)         | | (_)            / ____|    | |
+//   | |  | | |__  _  ___  ___| |_ ___   _____  | (___   ___| |_ _   _ _ __
+//   | |  | | '_ \| |/ _ \/ __| __| \ \ / / _ \  \___ \ / _ \ __| | | | '_ \
+//   | |__| | |_) | |  __/ (__| |_| |\ V /  __/  ____) |  __/ |_| |_| | |_) |
+//    \____/|_.__/| |\___|\___|\__|_| \_/ \___| |_____/ \___|\__|\__,_| .__/
+//               _/ |                                                 | |
+//              |__/                                                  |_|
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+setupWaypointIcons()
+{
+	while ( !IsDefined( level.streakGlobals ) || !IsDefined( level.streakGlobals.streakBundles ) )
+		waitframe;
+	
+	foreach ( kiillstreakName, bundle in level.streakGlobals.streakBundles )
+	{
+		level.waypointColors[ kiillstreakName + "_incoming" ] = "neutral";
+		level.waypointBGType[ kiillstreakName + "_incoming" ] = 1;
+		// With these crate objectives overlapping with the game mode objectives it was too much UI clutter. The smoke can communicate incoming without this text.
+		level.waypointString[ kiillstreakName + "_incoming" ] = ""; // "MP_INGAME_ONLY/INCOMING_OBJ_CAPS";
+		level.waypointShader[ kiillstreakName + "_incoming" ] = ter_op( IsDefined( bundle.hudIcon ), bundle.hudIcon, "" );
+		level.waypointPulses[ kiillstreakName + "_incoming" ] = 0;
+		
+		level.waypointColors[ kiillstreakName ] = "neutral";
+		level.waypointBGType[ kiillstreakName ] = 1;
+		level.waypointString[ kiillstreakName ] = "MP_INGAME_ONLY/OBJ_CAPTURE_CAPS";
+		level.waypointShader[ kiillstreakName ] = ter_op( IsDefined( bundle.hudIcon ), bundle.hudIcon, "" );
+	}
+}
+
+//Bases, FOBs, etc...
+setupObjectives()
+{
+	//Use this wait when you are debugging and need to race to connect the debugger.
+	//wait 5;
+
+	level.startingFOBNames_Neutral = [ "gw_fob_01", "gw_fob_02", "gw_fob_03", "gw_fob_04", "gw_fob_05", "gw_fob_06", "gw_fob_07", "gw_fob_08", "gw_fob_09" ];
+	
+	level.gW_ObjStruct                      = SpawnStruct();
+	level.gW_ObjStruct.startingFOBs_Neutral = [];
+	
+	if ( !IsDefined( game[ "gwai_possible_objective_keys" ] ) )
+		game[ "gwai_possible_objective_keys" ] = [];
+	
+	objKeyIndex = 0;
+	[ level.gW_ObjStruct.startingFOBs_Neutral, objKeyIndex ] = gatherObjectives( level.startingFOBNames_Neutral, objKeyIndex );
+	
+	if ( !IsDefined( game[ "current_objective_key" ] ) || level.selectNewObjectiveRoundCount > 0 && game[ "roundsPlayed" ] % level.selectNewObjectiveRoundCount == 0 )
+	{
+		possibleLocations = [];
+		foreach ( key, used in game[ "gwai_possible_objective_keys" ] )
+		{
+			dvarKeys = GetDvar(#d"scr_gwai_possible_objective_keys", "" );
+			if ( dvarKeys != "" )
+			{
+				dvarKeys = StrTok( dvarKeys, " " );
+				if ( !array_contains( dvarKeys, key ) )
+					continue;
+			}
+			
+			if ( !used )
+				possibleLocations[ possibleLocations.size ] = key;
+		}
+		
+		if ( possibleLocations.size == 0 )
+		{
+			foreach ( key, entry in game[ "gwai_possible_objective_keys" ] )
+			{
+				game[ "gwai_possible_objective_keys" ][ key ] = false;
+			}
+			
+			foreach ( key, used in game[ "gwai_possible_objective_keys" ] )
+			{
+				dvarKeys = GetDvar(#d"scr_gwai_possible_objective_keys", "" );
+				if ( dvarKeys != "" )
+				{
+					dvarKeys = StrTok( dvarKeys, " " );
+					if ( !array_contains( dvarKeys, key ) )
+						continue;
+				}
+				
+				if ( !used )
+					possibleLocations[ possibleLocations.size ] = key;
+			}
+		}
+		
+		keyToUse                                           = possibleLocations[ RandomInt( possibleLocations.size ) ];
+		game[ "current_objective_key" ]                    = keyToUse;
+		game[ "gwai_possible_objective_keys" ][ keyToUse ] = true;
+	}
+}
+
+gatherObjectives( arrayToCheck, currentIndex )
+{
+	targetArray = [];
+	
+	if ( !IsDefined( arrayToCheck ) || arrayToCheck.size == 0 )
+		return[ targetArray, currentIndex];
+	
+	objKeyArray = [ "_a", "_b", "_c", "_d", "_e", "_f", "_g", "_h", "_i" ];
+	objKeyIndex = currentIndex;
+	
+	foreach ( fobName in arrayToCheck )
+	{
+		trigger = scripts\cp_mp\utility\game_utility::getLocaleEnt( fobName );
+		if ( isdefined( trigger ) )
+		{
+			fob                = SpawnStruct();
+			fob.name           = fobName;
+			fob.trigger        = trigger;
+			fob.trigger.objKey = objKeyArray[ objKeyIndex ];
+			objKeyIndex++;
+			
+			targetArray[ targetArray.size ] = fob;
+			
+			if ( !IsDefined( game[ "gwai_possible_objective_keys" ][ fob.trigger.objKey ] ) )
+				game[ "gwai_possible_objective_keys" ][ fob.trigger.objKey ] = false;
+		}
+	}
+	
+	return[ targetArray, objKeyIndex ];
+}
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//     ____  _     _           _   _              _____      _           _   _
+//    / __ \| |   (_)         | | (_)            / ____|    | |         | | (_)
+//   | |  | | |__  _  ___  ___| |_ ___   _____  | (___   ___| | ___  ___| |_ _  ___  _ __    ______ ______ ______ ______ ______ ______
+//   | |  | | '_ \| |/ _ \/ __| __| \ \ / / _ \  \___ \ / _ \ |/ _ \/ __| __| |/ _ \| '_ \  
+//   | |__| | |_) | |  __/ (__| |_| |\ V /  __/  ____) |  __/ |  __/ (__| |_| | (_) | | | |
+//    \____/|_.__/| |\___|\___|\__|_| \_/ \___| |_____/ \___|_|\___|\___|\__|_|\___/|_| |_|
+//               _/ |
+//              |__/
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+runObjectives()
+{	
+	level.allFOBs = [];
+		
+	foreach ( fob in level.gW_ObjStruct.startingFOBs_Neutral )
+	{
+		if ( fob.trigger.objKey == game[ "current_objective_key" ] )
+		{
+			// Mark this objective as A to match the UI
+			fob.trigger.objKey                  = "_a";
+			activeFOB                           = runObjZone( fob.trigger, "neutral" );
+			level.allFOBs[ level.allFOBs.size ] = fob;
+		}
+	}
+	
+	aiVolumes = GetEntArray( "gw_ai_base", "targetname" );
+	
+	foreach ( fob in level.allFOBs )
+	{		
+		fob.trigger.gameobject.onUse               = ::zone_OnUse;
+		fob.trigger.gameobject.onBeginUse          = scripts\mp\gametypes\obj_zonecapture::zone_onUseBegin;
+		fob.trigger.gameobject.onUseUpdate         = scripts\mp\gametypes\obj_zonecapture::zone_onUseUpdate;
+		fob.trigger.gameobject.onEndUse            = scripts\mp\gametypes\obj_zonecapture::zone_OnUseEnd;
+		fob.trigger.gameobject.onUnoccupied        = scripts\mp\gametypes\obj_zonecapture::zone_onUnoccupied;
+		fob.trigger.gameobject.onContested         = scripts\mp\gametypes\obj_zonecapture::zone_onContested;
+		fob.trigger.gameobject.onUncontested       = scripts\mp\gametypes\obj_zonecapture::zone_onUncontested;
+		fob.trigger.gameobject.stompProgressReward = scripts\mp\gametypes\obj_zonecapture::zone_stompProgressReward;
+		fob.trigger.gameobject.onPinnedState       = scripts\mp\gametypes\obj_zonecapture::zone_OnPinnedState;
+		fob.trigger.gameobject.onUnpinnedState     = scripts\mp\gametypes\obj_zonecapture::zone_OnUnpinnedState;
+		
+		if ( istrue( level.gamesOfSummerCallbacks ) )
+		{
+			fob.specialEventOnUse = scripts\mp\gametypes\obj_dom::specialEventOnUse;
+		}
+		
+		foreach ( aiVolume in aiVolumes )
+		{
+			if ( fob.trigger.targetname == aiVolume.script_label )
+			{
+				fob.trigger.gameObject.aiVolume = aiVolume;
+				break;
+			}
+		}
+		
+		level.objectives[ fob.trigger.gameObject.objectiveKey ] = fob.trigger.gameObject;
+	}
+	
+	SetOmnvar( "ui_num_dom_flags", level.allFOBs.size );
+	
+	if ( level.zoneHideTime == 0 )
+		level thread objective_manageObjectivesIntroVisibility();
+
+	level thread showObjectiveAfterMatchStart();
+	level thread allowObjectiveUseAfterMatchStart();
+	
+	level.objectiveSetupComplete = true;
+}
+
+showObjectiveAfterMatchStart()
+{
+	level endon ( "game_ended" );
+	
+	scripts\mp\flags::gameFlagWait( "prematch_done" );
+	
+	if ( level.zoneHideTime > 0 )
+		wait level.zoneHideTime;
+	
+	foreach ( fob in level.allFOBs )
+	{
+		fob.trigger.gameobject scripts\mp\gameobjects::setVisibleTeam( "any" );
+	}
+	
+	foreach ( entry in level.teamNameList )
+	{
+		scripts\mp\utility\dialog::statusDialog( "hp_new_location", entry ); // new hq identified
+	}
+}
+
+allowObjectiveUseAfterMatchStart()
+{
+	level endon ( "game_ended" );
+	
+	scripts\mp\flags::gameFlagWait( "prematch_done" );
+
+	if ( level.zoneLockedTime > 0 )
+	{
+		foreach ( fob in level.allFOBs )
+		{
+			//fob.trigger.gameobject scripts\mp\gameobjects::setObjectiveStatusIcons( level.iconTarget );
+			//fob.trigger.gameobject scripts\mp\gameobjects::allowUse( "none" );
+		}
+		
+		activeTime = Int( GetTime() + ( level.zoneLockedTime * 1000 ) );
+		SetOmnvar( "ui_hardpoint_timer", activeTime );
+		SetOmnvar( "ui_hq_status", 1 ); // HQ activating in:
+		SetOmnvar( "ui_hq_ownerteam", -1 );
+		
+		wait level.zoneLockedTime;
+	}
+	
+	SetOmnvar( "ui_hardpoint_timer", 0 );
+	SetOmnvar( "ui_hq_status"      , -1 );
+	
+	foreach ( fob in level.allFOBs )
+	{
+		fob.trigger.gameobject scripts\mp\gameobjects::allowUse( "enemy" );
+		fob.trigger.gameobject scripts\mp\gameobjects::enableObject();
+		fob.trigger.gameobject scripts\mp\gameobjects::setUseTime( level.zoneCaptureTime );
+	}
+	
+	foreach ( entry in level.teamNameList )
+	{
+		scripts\mp\utility\dialog::statusDialog( "hp_active", entry ); // new hq identified
+	}
+}
+
+objective_manageObjectivesIntroVisibility()
+{
+	wait 1;
+	
+	foreach ( fob in level.allFOBs )
+		scripts\mp\objidpoolmanager::Objective_PlayerMask_HideFromAll( fob.trigger.gameobject.objIDNum );
+	
+	while ( !scripts\mp\flags::gameflag( "prematch_done" ) )
+		waitframe;
+	
+	foreach ( fob in level.allFOBs )
+		scripts\mp\objidpoolmanager::Objective_PlayerMask_ShowToAll( fob.trigger.gameobject.objIDNum );
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//    _____   ____  __  __    _             _
+//   |  __ \ / __ \|  \/  |  | |           (_)
+//   | |  | | |  | | \  / |  | | ___   __ _ _  ___
+//   | |  | | |  | | |\/| |  | |/ _ \ / _` | |/ __|
+//   | |__| | |__| | |  | |  | | (_) | (_| | | (__
+//   |_____/ \____/|_|  |_|  |_|\___/ \__, |_|\___|
+//                                     __/ |
+//                                    |___/
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+runObjZone( objective, startingTeam )
+{
+	level endon( "game_ended" );
+	
+	objective.script_label = objective.objKey;
+	
+	domFlag        = scripts\mp\gametypes\obj_zonecapture::setupObjective( objective );
+	domFlag.origin = objective.origin;
+	domflag scripts\mp\gameobjects::allowUse( "none" );
+	domflag.didStatusNotify = false;
+	domFlag scripts\mp\gameobjects::setObjectiveStatusIcons( level.iconTarget );
+	return domflag;
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//             _         _                    _____           _
+//       /\   (_)       | |                  / ____|         | |
+//      /  \   _ _ __ __| |_ __ ___  _ __   | |     _ __ __ _| |_ ___  ___
+//     / /\ \ | | '__/ _` | '__/ _ \| '_ \  | |    | '__/ _` | __/ _ \/ __|
+//    / ____ \| | | | (_| | | | (_) | |_) | | |____| | | (_| | ||  __/\__ \
+//   /_/    \_\_|_|  \__,_|_|  \___/| .__/   \_____|_|  \__,_|\__\___||___/
+//                                  | |
+//                                  |_|
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+dropCrate( killstreakName, dropLocation, team )
+{
+	crate = scripts\cp_mp\killstreaks\airdrop::dropArmCrateFromScriptedHeli( team, killstreakName, dropLocation.origin, ( 0, RandomInt( 360 ), 0 ), undefined );
+	return crate;
+}
+
+doCrateDropSmoke( crate, dropLocation, duration )
+{
+	testFromPos = dropLocation.origin + ( 0, 0, 2000 );
+	spawnPos    = groundpos( testFromPos, ( 0, 0, 1 ) );
+	
+	dropLocation.vfxEnt = Spawn( "script_model", spawnPos );
+	dropLocation.vfxEnt SetModel( "tag_origin" );
+	dropLocation.vfxEnt.angles = ( 0, 0, 0 );
+	dropLocation.vfxEnt PlayLoopSound( "smoke_carepackage_smoke_lp" );
+	
+	wait 1;
+	PlayFXOnTag( getfx( "vfx_smk_signal_gr" ), dropLocation.vfxEnt, "tag_origin" );
+	
+	if ( IsDefined( crate ) )
+		crate waittill_any_timeout_1( duration, "crate_dropped" );
+	else
+		wait duration;
+	
+	StopFXOnTag( getfx( "vfx_smk_signal_gr" ), dropLocation.vfxEnt, "tag_origin" );
+	dropLocation.vfxEnt Delete();
+}
+
+///////////////////////////////////////////////////////////////////////////////////
+//    _  ___ _ _     _                  _       _____           _
+//   | |/ (_) | |   | |                | |     / ____|         | |
+//   | ' / _| | |___| |_ _ __ ___  __ _| | __ | |     _ __ __ _| |_ ___
+//   |  < | | | / __| __| '__/ _ \/ _` | |/ / | |    | '__/ _` | __/ _ \
+//   | . \| | | \__ \ |_| | |  __/ (_| |   <  | |____| | | (_| | ||  __/
+//   |_|\_\_|_|_|___/\__|_|  \___|\__,_|_|\_\  \_____|_|  \__,_|\__\___|
+//
+///////////////////////////////////////////////////////////////////////////////////
+
+#define CRATE_LOCATION_TESTING                   false
+#define CRATE_DEBUG_LOCATION_DRAW_TIME           1
+#define CONST_KILLSTREAK_CRATE_POINT_INTERVAL    100
+#define CONST_KILLSTREAKS_DROPPED_PER_INTERVAL   2
+#define CONST_TIME_BETWEEN_STREAKS               5
+
+//These points can be used for more than just drop bags. These are locations in the world that are open to the sky and can have a crate drop onto.
+registerValidDropLocations()
+{
+	scripts\cp_mp\killstreaks\airdrop::initPlunderCrateData();
+	
+	level.validDropLocationStruct          = SpawnStruct();
+	level.validDropLocationStruct.clusters = getStructArray( "dropBagCluterNode", "script_noteworthy" );
+	potentialDropLocations                 = getStructArray( "dropBagLocation", "script_noteworthy" );
+	
+	foreach ( location in potentialDropLocations )
+	{
+		location.inUse = false;
+		
+		foreach ( cluster in level.validDropLocationStruct.clusters )
+		{
+			if ( location.target == cluster.targetname )
+			{
+				if ( !IsDefined( cluster.dropLocations ) )
+					cluster.dropLocations = [];
+				
+				cluster.dropLocations[ cluster.dropLocations.size ] = location;
+				continue;
+			}
+		}
+	}
+	
+	level.nextKillStreakGoal = CONST_KILLSTREAK_CRATE_POINT_INTERVAL;
+	
+	if ( CRATE_LOCATION_TESTING )
+		thread debug_TestCrateDropLocationPicker();
+}
+
+debug_TestCrateDropLocationPicker()
+{
+	while ( true )
+	{
+		chooseCrateLocation();
+		
+		wait CRATE_DEBUG_LOCATION_DRAW_TIME;
+	}
+}
+
+checkKillStreakCrateDrop( team )
+{
+	if ( game[ "teamScores" ][ team ]     >= level.nextKillStreakGoal )
+	{
+		level.nextKillStreakGoal += CONST_KILLSTREAK_CRATE_POINT_INTERVAL;
+		dropKillstreakCrates( CONST_KILLSTREAKS_DROPPED_PER_INTERVAL );
+	}
+}
+
+dropKillstreakCrates( numToDrop )
+{
+	owningPlayer = undefined;
+	
+	foreach ( player in level.players )
+	{
+		if ( IsDefined( player ) )
+		{
+			owningPlayer = player;
+			break;
+		}
+	}
+	
+	for ( i = 0;i < numToDrop; i++ )
+	{
+		location = chooseCrateLocation();
+		thread runKillstreakReward( location, owningPlayer, getKillStreak( 1 ) );
+		wait CONST_TIME_BETWEEN_STREAKS;
+	}
+}
+
+chooseCrateLocation()
+{
+	randFrac         = randomFloatRange( 0, 1.0 );
+	randPointOnPathA = VectorLerp( level.c130pathStruct_a.startPt, level.c130pathStruct_a.endPt, randFrac );
+	randPointOnPathB = VectorLerp( level.c130pathStruct_b.endPt, level.c130pathStruct_b.startPt, randFrac );
+
+	choosenCrateOrigin = VectorLerp( randPointOnPathA, randPointOnPathB, 0.5 );
+	
+	trace               = ray_trace( choosenCrateOrigin, choosenCrateOrigin - ( 0, 0, 100000 ) );
+	choosenCrateOrigin  = trace[ "position" ];
+	actualCrateLocation = findClosestDropLocation( choosenCrateOrigin );
+	
+	if ( CRATE_LOCATION_TESTING )
+	{
+		thread drawSphere( randPointOnPathA, 1000, CRATE_DEBUG_LOCATION_DRAW_TIME * 100, ( 0, 0, 1 ) );
+		thread drawSphere( randPointOnPathB, 1000, CRATE_DEBUG_LOCATION_DRAW_TIME * 100, ( 0, 0, 1 ) );
+		thread drawSphere( choosenCrateOrigin, 1000, CRATE_DEBUG_LOCATION_DRAW_TIME * 100, ( 1, 0, 0 ) );
+		thread drawSphere( actualCrateLocation.origin, 1000, CRATE_DEBUG_LOCATION_DRAW_TIME * 100, ( 0, 1, 0 ) );
+		thread drawLine( choosenCrateOrigin, actualCrateLocation.origin, 3, ( 0, 1, 0 ) );
+	}
+	
+	return actualCrateLocation;
+}
+
+findClosestDropLocation( origin )
+{
+	startLocation        = SpawnStruct();
+	startLocation.origin = origin;
+	clustersByDistance   = startLocation array_sort_with_func( level.validDropLocationStruct.clusters, ::sortLocationsByDistance );
+	
+	foreach ( cluster in clustersByDistance )
+	{
+		randomPotentialLocations = array_randomize( cluster.dropLocations );
+		
+		if ( CRATE_LOCATION_TESTING )
+		{
+			return randomPotentialLocations[ 0 ];
+		}
+		else
+		{
+			foreach ( location in randomPotentialLocations )
+			{
+				if ( !location.inUse )
+				{
+					location.inUse = true;
+					return location;
+				}
+			}
+		}
+	}
+	
+	//If we get here, there are no good locations to drop the crate
+	return undefined;
+}
+
+runKillstreakReward( location, creditPlayer, streakName )
+{
+	level endon( "game_ended" );
+	
+	crate = undefined;
+	
+	object        = scripts\mp\gameobjects::createOBJIDObject( location.origin, "neutral", ( 0, 0, CONST_OBJICON_Z_OFFSET ), undefined, "any" );
+	object.origin = location.origin;
+	object.angles = location.angles;
+	
+	thread doCrateDropSmoke( undefined, location, CONST_CRATE_ARRIVAL_SMOKE_TIME );
+	
+	object.iconName          = "_incoming";
+	object.lockUpdatingIcons = false;
+	object scripts\mp\gameobjects::setObjectiveStatusIcons( streakName );
+	object.lockUpdatingIcons = true;
+	
+	wait 4;
+
+	crate                          = scripts\cp_mp\killstreaks\airdrop::dropArmCrateFromScriptedHeli( creditPlayer.team, streakName, location.origin, ( 0, RandomInt( 360 ), 0 ), undefined );
+	crate.skipMiniMapIcon          = true;
+	crate.neverTimeOut             = false;
+	crate.waitForObjectiveActivate = true;
+	crate.killMiniMapIcon          = false;
+	crate.disallowHeadIconID       = true;
+	crate.isArmCrate               = true;
+	
+	crate waittill( "crate_dropped" );
+	
+	object.useObj = crate;
+	object.origin = crate.origin;
+	
+	currentWait = 0;
+	interval    = 0.1;
+	
+	wait 1;
+	
+	crate notify( "objective_activate" );
+	
+	scripts\mp\objidpoolmanager::Update_Objective_OnEntity( object.objIDNum, crate );
+	scripts\mp\objIDPoolManager::Update_Objective_SetZOffset( object.objIDNum, CONST_OBJICON_Z_OFFSET );
+	
+	object.iconName          = "";
+	object.lockUpdatingIcons = false;
+	object scripts\mp\gameobjects::setObjectiveStatusIcons( streakName );
+	object.lockUpdatingIcons = true;
+	
+	Objective_SetLabel( object.objIDNum, "" );
+	
+	crate waittill( "death" );
+	
+	object scripts\mp\gameobjects::setVisibleTeam( "none" );
+	object scripts\mp\gameobjects::releaseID();
+	object.visibleTeam	= "none";
+}
+
+getKillStreak( tier )
+{
+	if ( !IsDefined( level.killStreakTierList ) )
+	{
+		processKillStreaksIntoTiers();
+	}
+	
+	level.killStreakTierList[ tier ] = array_randomize( level.killStreakTierList[ tier ] );
+	
+	return level.killStreakTierList[ tier ][ 0 ];
+}
+
+processKillStreaksIntoTiers()
+{
+	//TODO: Eventually process the streaks from the killstreak list stored on the level
+	
+	level.killStreakTierList = [];
+	
+	level.killStreakTierList[ 3 ] = [ "cruise_predator"    , "scrambler_drone_guard", "uav" ];
+	level.killStreakTierList[ 2 ] = [ "precision_airstrike", "multi_airstrike"      , "bradley" ];
+	level.killStreakTierList[ 1 ] = [ "toma_strike", "uav", "pac_sentry", "white_phosphorus" ]; //"chopper_gunner"
+	level.killStreakTierList[ 0 ] = [ "uav" ]; //"ac130"
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+//     _____
+//    / ____|
+//   | (___  _ __   __ ___      ___ __  ___
+//    \___ \| '_ \ / _` \ \ /\ / / '_ \/ __|
+//    ____) | |_) | (_| |\ V  V /| | | \__ \
+//   |_____/| .__/ \__,_| \_/\_/ |_| |_|___/
+//          | |
+//          |_|
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+#define START_ATTACKERS_SPAWN_SET_NAME   "start_attackers"
+#define START_DEFENDERS_SPAWN_SET_NAME   "start_defenders"
+#define SPAWN_SET_NAME                   "normal"
+#define FALLBACK_SPAWN_SET_NAME          "fallback"
+
+initSpawns( modAllStarts )
+{
+	level.spawnMins = ( 0, 0, 0 );
+	level.spawnMaxs = ( 0, 0, 0 );
+	
+	if ( !level.multiteambased )
+	{
+		alliesStartSpawnName = "mp_gw_spawn_allies_start";
+		axisStartSpawnName   = "mp_gw_spawn_axis_start";
+	
+		scripts\mp\spawnlogic::addSpawnPoints( game[ "attackers" ], alliesStartSpawnName );
+		scripts\mp\spawnlogic::addSpawnPoints( game[ "defenders" ], axisStartSpawnName );
+		
+		attackers = scripts\mp\spawnlogic::getSpawnpointArray( alliesStartSpawnName );
+		defenders = scripts\mp\spawnlogic::getSpawnpointArray( axisStartSpawnName );
+		
+		scripts\mp\spawnlogic::registerSpawnSet( START_ATTACKERS_SPAWN_SET_NAME, attackers );
+		scripts\mp\spawnlogic::registerSpawnSet( START_DEFENDERS_SPAWN_SET_NAME, defenders );
+	}
+	else
+	{
+		//alliesStartSpawnName = "mp_gw_spawn_allies_start";
+		//axisStartSpawnName   = "mp_gw_spawn_axis_start";
+		//
+		//scripts\mp\spawnlogic::addSpawnPoints( game[ "attackers" ], alliesStartSpawnName );
+		//scripts\mp\spawnlogic::addSpawnPoints( game[ "defenders" ], axisStartSpawnName );
+		//
+		//attackers = scripts\mp\spawnlogic::getSpawnpointArray( alliesStartSpawnName );
+		//defenders = scripts\mp\spawnlogic::getSpawnpointArray( axisStartSpawnName );
+		//
+		//allSpawns = array_combine( attackers, defenders );
+		//
+		//scripts\mp\spawnlogic::registerSpawnSet( SPAWN_SET_NAME, allSpawns );
+		
+		level.startLocs = [];
+		
+		switch ( level.mapName )
+		{
+			case "mp_sira_gw":
+				// North Stadium
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -37117, -14519, 260 );
+				startLoc.angles = ( 0, 302, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				// NE
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -29272, -15643, 350 );
+				startLoc.angles = ( 0, 236, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				
+				// SE
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -27343, -24666, 260 );
+				startLoc.angles = ( 0, 154, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				// SW Bridge
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -35216, -29197, 320 );
+				startLoc.angles = ( 0, 96, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				// W
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -42555, -20407, 260 );
+				startLoc.angles = ( 0, 335, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				break;
+				
+			case "mp_wartorn_gw":
+				// West
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -21036, 39417, -30 );
+				startLoc.angles = ( 0, 333, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				// NW
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -12069, 51876, 194 );
+				startLoc.angles = ( 0, 271, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				// ENE
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( 1983, 43672, 479 );
+				startLoc.angles = ( 0, 178, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				// SE
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -1061, 29444, 406 );
+				startLoc.angles = ( 0, 124, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				// SW
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -15203, 31037, 266 );
+				startLoc.angles = ( 0, 67, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				break;
+				
+			case "mp_fishtown_gw":
+				// W
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -16014, -51700, 322 );
+				startLoc.angles = ( 0, 30, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				// NW
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -12154, -40440, 586 );
+				startLoc.angles = ( 0, 354, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				// N
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -3034, -33855, 997 );
+				startLoc.angles = ( 0, 274, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				// ENE
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( 12220, -36424, 677 );
+				startLoc.angles = ( 0, 202, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				// S
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( 1979, -51789, 252 );
+				startLoc.angles = ( 0, 109, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				break;
+				
+			default:
+				// mp_sira_gw
+				// North Stadium
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -37117, -14519, 260 );
+				startLoc.angles = ( 0, 302, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				// NE
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -29272, -15643, 350 );
+				startLoc.angles = ( 0, 236, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				
+				// SE
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -27343, -24666, 260 );
+				startLoc.angles = ( 0, 154, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				// SW Bridge
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -35216, -29197, 320 );
+				startLoc.angles = ( 0, 96, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				
+				// W
+				startLoc        = SpawnStruct();
+				startLoc.team   = undefined;
+				startLoc.origin = ( -42555, -20407, 260 );
+				startLoc.angles = ( 0, 335, 0 );
+				
+				level.startLocs[ level.startLocs.size ] = startLoc;
+				break;
+		}
+	
+		
+		level.startLocs = array_randomize( level.startLocs );
+	}
+	
+	level.mapCenter = scripts\mp\spawnlogic::findBoxCenter( level.spawnMins, level.spawnMaxs );
+	setMapCenter( level.mapCenter );
+}
+
+//===========================================
+// 				initSpawns End
+//===========================================
+getSpawnPoint()
+{
+	scripts\mp\spawnlogic::setActiveSpawnLogic( "StartSpawn", "Crit_Default" );
+	
+	spawnTeam = self.pers[ "team" ];
+
+	spawnPoint = undefined;
+	if ( !level.multiteambased )
+	{
+		if ( spawnteam == game[ "attackers" ] )
+		{
+			scripts\mp\spawnlogic::activateSpawnSet( START_ATTACKERS_SPAWN_SET_NAME, true );
+			spawnPoint = scripts\mp\spawnlogic::getSpawnpoint( self, spawnTeam, undefined, START_ATTACKERS_SPAWN_SET_NAME );
+		}
+		else
+		{
+			scripts\mp\spawnlogic::activateSpawnSet( START_DEFENDERS_SPAWN_SET_NAME, true );
+			spawnPoint = scripts\mp\spawnlogic::getSpawnpoint( self, spawnTeam, undefined, START_DEFENDERS_SPAWN_SET_NAME );
+		}
+	}
+	else
+	{
+		//scripts\mp\spawnlogic::activateSpawnSet( SPAWN_SET_NAME, true );
+		//spawnPoint = scripts\mp\spawnlogic::getSpawnpoint( self, spawnteam, undefined, SPAWN_SET_NAME );
+		alivePlayers = getTeamData( spawnTeam, "alivePlayers" );
+		if ( alivePlayers.size > 0 )
+		{
+			spawnPoint = scripts\mp\spawnscoring::findTeammateBuddySpawn( alivePlayers[ 0 ] );
+		}
+		else
+		{
+			foreach ( startLoc in level.startLocs )
+			{
+				if ( !IsDefined( startLoc.team ) || startLoc.team == spawnTeam )
+				{
+					startLoc.team = spawnTeam;
+					
+					spawnPoint        = SpawnStruct();
+					spawnPoint.origin = startLoc.origin;
+					spawnPoint.angles = startLoc.angles;
+					spawnPoint.index  = -1;
+					
+					break;
+				}
+				else
+				{
+					continue;
+				}
+				
+			}
+		}
+	}
+	
+	return spawnPoint;
+}
+
+onPlayerConnect()
+{
+	if ( IsDefined( level.rallyPointVehicles ) )
+	{
+		thread scripts\mp\rally_point::rallyPoint_showToPlayer( self );
+	}
+	
+	self thread scripts\mp\gametypes\br_weapons::br_ammo_player_init();
+	
+	self scripts\mp\class::setClassToGameModeClass();
+	
+	if ( !IsDefined( self.pers[ "gamemodeLoadout" ] ) )
+		self.pers[ "gamemodeLoadout" ] = level.gamemodeLoadout;
+}
+
+onPlayerDisconnect( player )
+{
+}
+
+modeOnSpawnPlayer( reviveSpawn )
+{
+	// This is needed for the br_ammo system
+	self notify( "br_spawned" );
+	
+	self scripts\mp\hud_message::updateMatchStatusHintForPlayer( "dom_cap_defend" );
+	
+	self scripts\cp_mp\cash::initPlayerCashVars();
+	
+	scripts\cp_mp\squads::updateSquadOmnvars( self.team, self.sessionsquadid );
+	
+	if ( IsDefined( self.pers[ "gamemodeLoadout" ] ) && IsDefined( self.pers[ "gamemodeLoadout" ][ "armorPlates" ] ) )
+	{
+		self.additionalStartingPlates = self.pers[ "gamemodeLoadout" ][ "armorPlates" ];
+		self.pers[ "gamemodeLoadout" ][ "armorPlates" ] = 0;
+	}
+	
+	//self thread scripts\cp_mp\parachute::playerWatchForRedeploy();
+}
+
+onPlayerSpawned()
+{
+	self scripts\mp\gametypes\br_pickups::resetPlayerInventory( true, true );
+	
+	if ( level.multiteambased )
+		scripts\mp\outofbounds::enableOOBImmunity( self );
+}
+
+onPlayerKilled( eInflictor, attacker, iDamage, sMeansOfDeath, objWeapon, vDir, sHitLoc, psOffsetTime, deathAnimDuration, killId )
+{
+	scripts\cp_mp\squads::updateSquadOmnvars( self.team, self.sessionsquadid );
+	
+	scripts\mp\gametypes\obj_dom::AwardGenericMedals( eInflictor, attacker, iDamage, sMeansOfDeath, objWeapon, vDir, sHitLoc, psOffsetTime, deathAnimDuration, killId );
+	
+	if ( level.dropBRLoot )
+		self scripts\mp\gametypes\br_pickups::dropOnPlayerDeath( attacker, sMeansOfDeath, objWeapon );
+}
+
+onNormalDeath( victim, attacker, lifeId, meansOfDeath, objWeapon, isKillstreakWeapon )
+{
+	scripts\mp\gametypes\common::onCommonNormalDeath( victim, attacker, lifeId, meansOfDeath, objWeapon, isKillstreakWeapon );
+	//thread checkKillStreakCrateDrop( attacker.team );
+}
+
+setDefaultClass()
+{
+	//	no killstreaks defined for special classes
+	level.gamemodeLoadout[ "loadoutArchetype"          ] = "archetype_assault";
+	level.gamemodeLoadout[ "loadoutPrimary"            ] = "iw9_pi_golf17";
+	level.gamemodeLoadout[ "loadoutPrimaryAttachment"  ] = "none";
+	level.gamemodeLoadout[ "loadoutPrimaryAttachment2" ] = "none";
+	level.gamemodeLoadout[ "loadoutPrimaryCamo"        ] = "none";
+	level.gamemodeLoadout[ "loadoutPrimaryReticle"     ] = "none";
+	level.gamemodeLoadout[ "loadoutPrimaryVariantID"   ] = 0;
+	
+	level.gamemodeLoadout[ "loadoutSecondary"            ] = "none";
+	level.gamemodeLoadout[ "loadoutSecondaryAttachment"  ] = "none";
+	level.gamemodeLoadout[ "loadoutSecondaryAttachment2" ] = "none";
+	level.gamemodeLoadout[ "loadoutSecondaryCamo"        ] = "none";
+	level.gamemodeLoadout[ "loadoutSecondaryReticle"     ] = "none";
+	level.gamemodeLoadout[ "loadoutSecondaryVariantID"   ] = 0;
+	
+	level.gamemodeLoadout[ "loadoutEquipmentPrimary"   ] = "none";
+	level.gamemodeLoadout[ "loadoutEquipmentSecondary" ] = "none";
+	
+	level.gamemodeLoadout[ "loadoutFieldUpgrade1" ] = "none";
+	level.gamemodeLoadout[ "loadoutFieldUpgrade2" ] = "none";
+	
+	level.gamemodeLoadout[ "loadoutStreakType"  ] = "assault";
+	level.gamemodeLoadout[ "loadoutKillstreak1" ] = "none";
+	level.gamemodeLoadout[ "loadoutKillstreak2" ] = "none";
+	level.gamemodeLoadout[ "loadoutKillstreak3" ] = "none";
+	
+	level.gamemodeLoadout[ "loadoutPerks" ] = [];
+	
+	level.gamemodeLoadout[ "loadoutGesture" ] = "playerData";
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//
+//     ____        _      ____   __   ____                        _
+//    / __ \      | |    / __ \ / _| |  _ \                      | |
+//   | |  | |_   _| |_  | |  | | |_  | |_) | ___  _   _ _ __   __| |___
+//   | |  | | | | | __| | |  | |  _| |  _ < / _ \| | | | '_ \ / _` / __|
+//   | |__| | |_| | |_  | |__| | |   | |_) | (_) | |_| | | | | (_| \__ \
+//    \____/ \__,_|\__|  \____/|_|   |____/ \___/ \__,_|_| |_|\__,_|___/
+//
+////////////////////////////////////////////////////////////////////////////////////////////////////
+
+arm_initOutOfBounds()
+{
+	level.outOfBoundsTriggers = [];
+	
+	potentialOOBTriggers = GetEntArray( "OutOfBounds", "targetname" );
+	
+	foreach ( trigger in potentialOOBTriggers )
+	{
+		if ( IsDefined( trigger.script_team ) )
+		{
+			trigger Delete();
+		}
+		else
+		{
+			if ( IsDefined( scripts\cp_mp\utility\game_utility::getLocaleID() ) && IsDefined( trigger.script_noteworthy )
+			      && trigger.script_noteworthy == level.localeID && scripts\mp\utility\game_utility_mp::modeUsesGroundWarTeamOOBTriggers( trigger ) )
+			{
+				level.outOfBoundsTriggers[ level.outOfBoundsTriggers.size ] = trigger;
+			}
+			else
+			{
+				trigger Delete();
+			}
+		}
+	}
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////
+//    _    _ _   _ _ _ _
+//   | |  | | | (_) (_) |
+//   | |  | | |_ _| |_| |_ _   _   ______ ______ ______ ______ ______
+//   | |  | | __| | | | __| | | | |______|______|______|______|______|
+//   | |__| | |_| | | | |_| |_| |
+//    \____/ \__|_|_|_|\__|\__, |
+//                          __/ |
+//                         |___/
+////////////////////////////////////////////////////////////////////////////////////////////////////
+sortLocationsByDistance( location1, location2 )
+{
+	return DistanceSquared( location1.origin, self.origin ) < DistanceSquared( location2.origin, self.origin );
+}
+
+getMissedInfilCameraPositions( team )
+{
+	Assert( IsDefined( scripts\cp_mp\utility\game_utility::getLocaleID() ), "Asking for a missed infil cam and no locale has been set." );
+	
+	missedInfilCameras             = SpawnStruct();
+	missedInfilCameras.startOrigin = undefined;
+	missedInfilCameras.endPos      = undefined;
+	
+	if ( level.mapName == "mp_locale_test" )
+	{
+		switch( level.localeID )
+		{
+			case "locale_6":
+			case "locale_8":
+				if ( team == "axis" )
+				{
+					missedInfilCameras.startOrigin = ( 2094, -1804, 2763 );
+					missedInfilCameras.startAngles = ( 54, 40, 0 );
+					missedInfilCameras.endOrigin   = ( 2094, -1804, 2763 );
+					missedInfilCameras.endAngles   = ( 54, 40, 0 );
+				}
+				else
+				{
+					missedInfilCameras.startOrigin = ( 2315, 1956, 2763 );
+					missedInfilCameras.startAngles = ( 54, 296, 0 );
+					missedInfilCameras.endOrigin   = ( 2094, -1804, 2763 );
+					missedInfilCameras.endAngles   = ( 54, 40, 0 );
+				}
+				break;
+			default:
+				missedInfilCameras.startOrigin = ( 0, 0, 0 );
+				missedInfilCameras.startAngles = ( 0, 0, 0 );
+				missedInfilCameras.endOrigin   = ( 0, 0, 0 );
+				missedInfilCameras.endAngles   = ( 0, 0, 0 );
+				break;
+				
+		}
+	}
+	else
+	{
+		switch( level.localeID )
+		{
+			case "locale_3":
+				if ( team == "axis" )
+				{
+					missedInfilCameras.startOrigin = ( 38864, -14018, -396 );
+					missedInfilCameras.startAngles = ( 3, 250, 0 );
+					missedInfilCameras.endOrigin   = ( 38473, -14077, 401 );
+					missedInfilCameras.endAngles   = ( 15, 252, 0 );
+				}
+				else
+				{
+					missedInfilCameras.startOrigin = ( 30526, -38262, -483 );
+					missedInfilCameras.startAngles = ( 0, 72, 0 );
+					missedInfilCameras.endOrigin   = ( 30024, -38403, 560 );
+					missedInfilCameras.endAngles   = ( 19, 67, 0 );
+				}
+				break;
+			case "locale_6":
+				if ( team == "axis" )
+				{
+					missedInfilCameras.startOrigin = ( 16977, -23256, 169 );
+					missedInfilCameras.startAngles = ( 9, 69, 0 );
+					missedInfilCameras.endOrigin   = ( 16899, -23467, 683 );
+					missedInfilCameras.endAngles   = ( 15, 68, 0 );
+				}
+				else
+				{
+					missedInfilCameras.startOrigin = ( 18607, 1423, -355 );
+					missedInfilCameras.startAngles = ( 8, 289, 0 );
+					missedInfilCameras.endOrigin   = ( 18100, 1083, 503 );
+					missedInfilCameras.endAngles   = ( 22, 302, 0 );
+				}
+				break;
+			case "locale_8":
+				if ( team == "axis" )
+				{
+					missedInfilCameras.startOrigin = ( 18672, -26836, -129 );
+					missedInfilCameras.startAngles = ( 359, 76, 0 );
+					missedInfilCameras.endOrigin   = ( 18518, -26909, 314 );
+					missedInfilCameras.endAngles   = ( 14, 69, 0 );
+				}
+				else
+				{
+					missedInfilCameras.startOrigin = ( 18607, 1423, -355 );
+					missedInfilCameras.startAngles = ( 8, 289, 0 );
+					missedInfilCameras.endOrigin   = ( 18100, 1083, 503 );
+					missedInfilCameras.endAngles   = ( 22, 302, 0 );
+				}
+				break;
+			case "locale_5":
+			case "locale_16":
+				if ( team == "axis" )
+				{
+					missedInfilCameras.startOrigin = ( 24893, 28349, 1408 );
+					missedInfilCameras.startAngles = ( 15, 54, 0 );
+					missedInfilCameras.endOrigin   = ( 25613, 29274, 1255 );
+					missedInfilCameras.endAngles   = ( 19, 53, 0 );
+				}
+				else
+				{
+					missedInfilCameras.startOrigin = ( 39490, 48919, 2302 );
+					missedInfilCameras.startAngles = ( 17, 235, 0 );
+					missedInfilCameras.endOrigin   = ( 39254, 48584, 1542 );
+					missedInfilCameras.endAngles   = ( 18, 245, 0 );
+				}
+				break;
+			case "locale_9":
+				if ( team == "axis" )
+				{
+					missedInfilCameras.startOrigin = ( 48331, -24822, 514 );
+					missedInfilCameras.startAngles = ( 12, 77, 0 );
+					missedInfilCameras.endOrigin   = ( 48424, -24421, -240 );
+					missedInfilCameras.endAngles   = ( 2, 77, 0 );
+				}
+				else
+				{
+					missedInfilCameras.startOrigin = ( 46188, 2520, 49 );
+					missedInfilCameras.startAngles = ( 7, 295, 0 );
+					missedInfilCameras.endOrigin   = ( 46571, 2664, 526 );
+					missedInfilCameras.endAngles   = ( 16, 276, 0 );
+				}
+				break;
+			case "locale_10":
+				if ( team == "axis" )
+				{
+					missedInfilCameras.startOrigin = ( -11083, 22197, 381 );
+					missedInfilCameras.startAngles = ( 10, 181, 0 );
+					missedInfilCameras.endOrigin   = ( -12112, 23761, 381 );
+					missedInfilCameras.endAngles   = ( 11, 201, 0 );
+				}
+				else
+				{
+					missedInfilCameras.startOrigin = ( -31134, 11924, -116 );
+					missedInfilCameras.startAngles = ( 0, 36, 0 );
+					missedInfilCameras.endOrigin   = ( -31134, 11924, 434 );
+					missedInfilCameras.endAngles   = ( 11, 36, 0 );
+				}
+				break;
+			case "locale_17":
+				if ( team == "axis" )
+				{
+					missedInfilCameras.startOrigin = ( 9215, 984, 325 );
+					missedInfilCameras.startAngles = ( 357, 186, 0 );
+					missedInfilCameras.endOrigin   = ( 9107, 628, 1144 );
+					missedInfilCameras.endAngles   = ( 19, 182, 0 );
+				}
+				else
+				{
+					missedInfilCameras.startOrigin = ( -5351, 641, 408 );
+					missedInfilCameras.startAngles = ( 2, 352, 0 );
+					missedInfilCameras.endOrigin   = ( -5282, 996, 1103 );
+					missedInfilCameras.endAngles   = ( 11, 347, 0 );
+				}
+				break;
+			case "locale_18":
+				if ( team == "axis" )
+				{
+					missedInfilCameras.startOrigin = ( -22847, -28632, 34 );
+					missedInfilCameras.startAngles = ( 12, 42, 0 );
+					missedInfilCameras.endOrigin   = ( -22694, -28429, 356 );
+					missedInfilCameras.endAngles   = ( 12, 40, 0 );
+				}
+				else
+				{
+					missedInfilCameras.startOrigin = ( -8084, -20649, 72 );
+					missedInfilCameras.startAngles = ( 10, 185, 0 );
+					missedInfilCameras.endOrigin   = ( -9092, -20635, 224 );
+					missedInfilCameras.endAngles   = ( 12, 184, 0 );
+				}
+				break;
+			default:
+				missedInfilCameras.startOrigin = ( 0, 0, 0 );
+				missedInfilCameras.startAngles = ( 0, 0, 0 );
+				missedInfilCameras.endOrigin   = ( 0, 0, 0 );
+				missedInfilCameras.endAngles   = ( 0, 0, 0 );
+				break;
+		}
+	}
+	
+	return missedInfilCameras;
+	
+}
+
+gw_sound_load()
+{
+	wait 5;
+	snd_transient_load( "mp_gamemode_gw" );
+}
+
+spawnAI()
+{
+	if ( !isdefined( level.difficultyType ) )
+		level scripts\mp\ai_mp_controller::ai_initializeScriptedAgents();
+	
+	level thread scripts\mp\gametypes\dmz_ai::init();
+	scripts\mp\ai_mp_controller::init();
+	aiBudget_registerCategory( "everybody", 100 );
+	
+	level thread scripts\mp\ai_mp_paratrooper::para_reinforce_init();
+	level thread scripts\mp\ai_heli_reinforce::heli_reinforce_init();
+	
+	
+	while ( !isTrue( level.objectiveSetupComplete ) )
+		waitframe;
+	
+	level thread manageReinforcementBackfill();
+	
+	
+	//postLandingOrigins = [];
+	//foreach ( key, obj in level.objectives )
+	//{
+	//	tempStruct                                    = SpawnStruct();
+	//	tempStruct.origin                             = obj.trigger.origin;
+	//	postLandingOrigins[ postLandingOrigins.size ] = tempStruct;
+	//}
+	//
+	//scripts\mp\ai_heli_reinforce::heli_addPostLandingNodes( postLandingOrigins, true );
+	//scripts\mp\ai_heli_reinforce::heli_overrideSelectPathFunc( ::selectHeliPath );
+	
+	ai_waitTillCanSpawn();
+	
+	foreach ( key, obj in level.objectives )
+	{
+		groupName = generateUniqueReinforcementGroupName( obj.trigger.origin );
+		
+		cqbStruct = cqb_gatherNodes_aroundOrigin( obj.trigger.origin, 1024, true );
+		cqbNodes  = array_combine( cqbStruct.cqbCoverNodes, cqbStruct.cqbCoverNodes_dontMove, cqbStruct.cqbCoverNodes_unlabeled );
+		
+		numAgents = GetDvarInt(#d"scr_gwai_initial_agents_per_objective_count", 15 );
+		if ( numAgents > 0 )
+		{
+			for ( i = 0; i < numAgents; i++ )
+			{
+				aitype = ai_determineAIType( undefined, undefined, groupName, undefined, 3 );
+				
+				nodeToUse = undefined;
+				if ( cqbNodes.size > 0 )
+				{
+					potentialNodes = cqb_pickNodes( obj.trigger.origin, cqbNodes, cqbNodes.size, 256, false );
+					potentialNodes = array_randomize( potentialNodes );
+					if ( potentialNodes.size > 0 )
+					{
+						nodeToUse = potentialNodes[ 0 ];
+					}
+				}
+				
+				spawnOrigin = obj.trigger.origin;
+				if ( IsDefined( nodeToUse ) )
+					spawnOrigin = nodeToUse.origin;
+				
+				agent = ai_mp_requestSpawnAgent( aitype, spawnOrigin, ( 0, 0, 0 ), "medium", "everybody", "captureAgents", groupName, undefined, undefined, undefined, true, true );
+				if ( isdefined( agent ) )
+				{
+					scripts\mp\gametypes\common::commonAI_setupAgent( agent, CONST_DMZ_AGENT_TEAM );
+					if ( IsDefined( nodeToUse ) )
+					{
+						cqb_useNode( agent, nodeToUse );
+					}
+					else
+					{
+						agent thread scripts\mp\ai_behavior::behavior_GuardWander( agent, 256, 256 );
+					}
+					
+					if ( IsDefined( obj.aiVolume ) )
+						agent SetGoalVolumeAuto( obj.aiVolume );
+					//agent scripts\mp\ai_mp_controller::overrideAgentSettings( "body_spetsnaz_cqc", "head_spetsnaz_cqc" );
+				}
+			}
+		}
+		
+		numJuggs = GetDvarInt(#d"scr_gwai_initial_juggs_per_objective_count", 0 );
+		if ( numJuggs > 0 )
+		{
+			for ( i = 0; i < numJuggs; i++ )
+			{
+				nodeToUse = undefined;
+				if ( cqbNodes.size > 0 )
+				{
+					potentialNodes = cqb_pickNodes( obj.trigger.origin, cqbNodes, cqbNodes.size, 256, false );
+					potentialNodes = array_randomize( potentialNodes );
+					if ( potentialNodes.size > 0 )
+					{
+						nodeToUse = potentialNodes[ 0 ];
+					}
+				}
+				
+				spawnOrigin = obj.trigger.origin;
+				if ( IsDefined( nodeToUse ) )
+					spawnOrigin = nodeToUse.origin;
+				
+				agent = ai_mp_requestSpawnAgent( "actor_enemy_mp_jugg_aq", spawnOrigin, ( 0, 0, 0 ), "absolute", "everybody", "jugg", groupName, undefined, undefined, undefined, true, true );
+				if ( isdefined( agent ) )
+				{
+					scripts\mp\gametypes\common::commonAI_setupAgent( agent, CONST_DMZ_AGENT_TEAM );
+					scripts\cp_mp\agents\agent_utils::overrideElite( agent );
+					
+					scripts\mp\gametypes\common::commonAI_setupAgent( agent, CONST_DMZ_AGENT_TEAM );
+					if ( IsDefined( nodeToUse ) )
+					{
+						cqb_useNode( agent, nodeToUse );
+					}
+					else
+					{
+						agent thread scripts\mp\ai_behavior::behavior_GuardWander( agent, 256, 256 );
+					}
+					
+					if ( IsDefined( obj.aiVolume ) )
+						agent SetGoalVolumeAuto( obj.aiVolume );
+				}
+			}
+		}
+	}
+	
+	if ( GetDvarInt( #d"scr_gwai_initial_filler_ai", 1 ) == 1 ) 
+		level thread spawnFillerAI();
+}
+
+spawnFillerAI()
+{
+	gridMin = ( -38000, -22000, 250 );
+	
+	stepX = 512;
+	stepY = 512;
+	
+	subDivX = 12;
+	subDivY = 7;
+	
+	gridYaw   = ( 0, 25, 0 );
+	gridFwd   = AnglesToForward( gridYaw );
+	gridRight = AnglesToRight( gridYaw );
+	
+	spawnPoints = [];
+	for ( x = 2; x < subDivX; x++ )
+	{
+		for ( y = 2; y < subDivY; y++ )
+		{
+			spawnPoints[ spawnPoints.size ] = gridMin + gridFwd * x * stepX + gridRight * y * stepy;
+		}
+	}
+	
+	foreach ( origin in spawnPoints )
+	{
+		nodeArray	= GetNodesInRadiusSorted( origin, 512, 0, 512, "Path", 1 );
+		
+		//thread scripts\cp_mp\utility\debug_utility::drawLine( origin, origin + ( 0, 0, 500 ), 60.0, ( 1, 1, 1 ) );
+		if ( isdefined( nodeArray[ 0 ] ) )
+		{
+			//thread scripts\cp_mp\utility\debug_utility::drawLine( origin, nodeArray[ 0 ].origin, 60.0, ( 1, 0, 0 ) );
+			spawnOrigin = nodeArray[ 0 ].origin;
+			
+			groupName = generateUniqueReinforcementGroupName( spawnOrigin );
+			aitype = ai_determineAIType();
+			
+			agent = ai_mp_requestSpawnAgent( aitype, spawnOrigin, ( 0, 0, 0 ), "medium", "everybody", "captureAgents", groupName, undefined, undefined, undefined, true, true );
+			if ( isdefined( agent ) )
+			{
+				scripts\mp\gametypes\common::commonAI_setupAgent( agent, CONST_DMZ_AGENT_TEAM );
+				agent thread scripts\mp\ai_behavior::behavior_GuardWander( agent, 1024, 512 );
+			}
+		}
+	}
+	
+	text = 0;
+}
+
+spawnAIOnObjectiveForTeam( objectiveKey, team, numAgents, numJuggs )
+{
+	if ( !isTrue( level.spawnAgentsOnCapture ) )
+		return;	
+	
+	obj       = level.objectives[ objectiveKey ];
+	groupName = generateUniqueReinforcementGroupName( obj.trigger.origin );
+	cqbStruct = cqb_gatherNodes_aroundOrigin( obj.trigger.origin, 1024, true );
+	cqbNodes  = array_combine( cqbStruct.cqbCoverNodes, cqbStruct.cqbCoverNodes_dontMove, cqbStruct.cqbCoverNodes_unlabeled );
+	
+	if ( !isdefined( numAgents ) )
+		numAgents = GetDvarInt(#d"scr_gwai_reinforce_agents_per_objective_count", 5 );
+	
+	//objectiveOrigin = level.objectives[ objectiveKey ].trigger.origin;
+	//agents          = scripts\mp\ai_heli_reinforce::heli_requestReinforcements( numAgents, objectiveOrigin, "medium", "everybody", "heli", objectiveKey, team );
+	
+	if ( numAgents > 0 )
+	{
+		for ( i = 0; i < numAgents; i++ )
+		{
+			aitype = ai_determineAIType();
+			
+			agent = ai_mp_requestSpawnAgent( aitype, obj.trigger.origin, ( 0, 0, 0 ), "medium", "everybody", "captureAgents", groupName, team, undefined, undefined, true, true );
+			if ( isdefined( agent ) )
+			{
+				scripts\mp\gametypes\common::commonAI_setupAgent( agent, CONST_DMZ_AGENT_TEAM );
+				if ( cqbNodes.size > 0 )
+				{
+					potentialNodes = cqb_pickNodes( agent.origin, cqbNodes, cqbNodes.size, 256, false );
+					potentialNodes = array_randomize( potentialNodes );
+					
+					if ( potentialNodes.size > 0 )
+					{
+						agent.bAlwaysCoverExposed = true;
+						cqb_useNode( agent, potentialNodes[ 0 ] );
+					}
+					else
+					{
+						agent thread scripts\mp\ai_behavior::behavior_GuardWander( agent, 256, 256 );
+					}
+				}
+				else
+				{
+					agent thread scripts\mp\ai_behavior::behavior_GuardWander( agent, 256, 256 );
+				}
+				
+				agent SetGoalVolumeAuto( obj.aiVolume );
+				//agent scripts\mp\ai_mp_controller::overrideAgentSettings( "body_spetsnaz_cqc", "head_spetsnaz_cqc" );
+				
+				agent.objectiveKey = objectiveKey;
+				level.objectiveReinforcements[ objectiveKey ][ team ].agents[ level.objectiveReinforcements[ objectiveKey ][ team ].agents.size ] = agent;
+			}
+		}
+	}
+	
+	if ( !isdefined( numJuggs ) )
+		numJuggs = GetDvarInt(#d"scr_gwai_reinforce_juggs_per_objective_count", 0 );
+	
+	if ( numJuggs > 0 )
+	{
+		for ( i = 0; i < numJuggs; i++ )
+		{
+			agent = ai_mp_requestSpawnAgent( "actor_enemy_mp_jugg_aq", obj.trigger.origin, ( 0, 0, 0 ), "absolute", "everybody", "jugg", groupName, undefined, undefined, undefined, true, true );
+			if ( isdefined( agent ) )
+			{
+				scripts\mp\gametypes\common::commonAI_setupAgent( agent, CONST_DMZ_AGENT_TEAM );
+				scripts\cp_mp\agents\agent_utils::overrideElite( agent );
+				
+				if ( cqbNodes.size > 0 )
+				{
+					potentialNodes = cqb_pickNodes( agent.origin, cqbNodes, cqbNodes.size, 256, false );
+					potentialNodes = array_randomize( potentialNodes );
+					
+					if ( potentialNodes.size > 0 )
+					{
+						agent.bAlwaysCoverExposed = true;
+						cqb_useNode( agent, potentialNodes[ 0 ] );
+					}
+					else
+					{
+						agent thread scripts\mp\ai_behavior::behavior_GuardWander( agent, 256, 256 );
+					}
+				}
+				else
+				{
+					agent thread scripts\mp\ai_behavior::behavior_GuardWander( agent, 256, 256 );
+				}
+				
+				agent SetGoalVolumeAuto( obj.aiVolume );
+			}
+		}
+	}
+}
+
+selectHeliPath( desired_origin, overrideClosestSpawn )
+{
+	org_struct        = SpawnStruct();
+	org_struct.origin = desired_origin;
+	
+	//use post landing dest to find closest unload loc
+	unload_locs = SortByDistance( level.heliReinforceStruct.unload_locs, org_struct.origin );
+	
+	//nothing found, try the rest of the array in order
+	pathNode = scripts\mp\ai_heli_reinforce::heli_findAndReservePathNodes( unload_locs, desired_origin );
+	
+	if ( isdefined( pathNode ) )
+		return pathNode;
+	
+	return undefined;
+}
+
+fixupAgentsArray( agent, killer )
+{
+	if ( !isdefined( agent.objectiveKey ) || !isGameplayTeam( agent.team ) )
+		return;
+	
+	level.objectiveReinforcements[ agent.objectiveKey ][ agent.team ].agents = array_remove( level.objectiveReinforcements[ agent.objectiveKey ][ agent.team ].agents, agent );
+}
+
+manageReinforcementBackfill()
+{
+	scripts\mp\ai_mp_controller::addAgentDeathCallback( ::fixupAgentsArray, level );
+	
+	desiredCount        = GetDvarInt(#d"scr_gwai_reinforce_agents_per_objective_count", 5 );
+	backfillThreshold   = GetDvarInt(#d"scr_gwai_backfil_agents_per_objective_count", 2 );
+	minBackfillInterval = GetDvarInt(#d"scr_gwai_backfil_cooldown", 30 ) * 1000;
+	
+	level.objectiveReinforcements = [];
+	foreach ( key, obj in level.objectives )
+	{
+		level.objectiveReinforcements[ key ] = [];
+		foreach ( team in level.teamNameList )
+		{
+			data                                         = SpawnStruct();
+			data.agents                                  = [];
+			data.lastBackfillTime                        = 0;
+			level.objectiveReinforcements[ key ][ team ] = data;
+		}
+	}
+	
+	while ( true )
+	{
+		foreach ( key, obj in level.objectives )
+		{
+			wait 1.0;
+			
+			team = obj.ownerTeam;
+			
+			if ( team == "neutral" )
+				continue;
+			
+			currentTime = GetTime();
+			if ( currentTime < level.objectiveReinforcements[ key ][ team ].lastBackfillTime + minBackfillInterval )
+				continue;
+			
+			aliveAgents = [];
+			foreach ( agent in level.objectiveReinforcements[ key ][ team ].agents )
+			{
+				if ( agent.health > 0 )
+					aliveAgents[ aliveAgents.size ] = agent;
+			}
+			level.objectiveReinforcements[ key ][ team ].agents = aliveAgents;
+			
+			currentCount = level.objectiveReinforcements[ key ][ team ].agents.size;
+			if ( currentCount <= backfillThreshold )
+			{
+				level thread spawnAIOnObjectiveForTeam( key, team, desiredCount - currentCount, 0 );
+				level.objectiveReinforcements[ key ][ team ].lastBackfillTime = currentTime;
+			}
+		}		
+	}
+}
+
+snapshotInventory()
+{
+	items = [];
+	
+	inventoryWeapons = scripts\mp\gametypes\br_default_inventory::getInventoryWeapons( self );
+	// Weapons
+	foreach ( weapon in inventoryWeapons )
+	{
+		variantID = weapon.variantID;
+		if ( !IsDefined( weapon.variantID ) )
+		{
+			variantID = 0;
+		}
+		
+		rootName = scripts\cp_mp\weapon::getWeaponRootName( weapon );
+		lootID   = scripts\cp_mp\weapon::getWeaponLootIDFromRootAndVariant( rootName, variantID );
+		
+		if ( IsDefined( lootID ) && lootID > 0 )
+		{
+			item             = SpawnStruct();
+			item.lootID      = lootID;
+			item.ref         = rootName;
+			item.attachments = weapon.attachments;
+			item.camo        = weapon.camo;
+			item.reticle     = weapon.reticle;
+			item.variantID   = variantID;
+			item.quantity    = 1;
+			
+			if ( !IsDefined( items[ "loadoutPrimary" ] ) )
+				items[ "loadoutPrimary" ] = item;
+			else if ( !IsDefined( items[ "loadoutSecondary" ] ) )
+				items[ "loadoutSecondary" ] = item;
+		}
+	}
+	
+	self.pers[ "br_ammo" ] = self.br_ammo;
+	
+	// Equipment
+	ref           = self scripts\mp\equipment::getCurrentEquipment( "primary" );
+	equipmentAmmo = self scripts\mp\equipment::getEquipmentSlotAmmo( "primary" );
+	lootID        = scripts\cp_mp\utility\loot::getLootIDFromRef( ref );
+	if ( IsDefined( lootID ) && equipmentAmmo > 0 )
+	{
+		item          = SpawnStruct();
+		item.lootID   = lootID;
+		item.ref      = ref;
+		item.quantity = 1;
+		
+		items[ "loadoutEquipmentPrimary"     ] = item;
+	}
+	
+	ref           = self scripts\mp\equipment::getCurrentEquipment( "secondary" );
+	equipmentAmmo = self scripts\mp\equipment::getEquipmentSlotAmmo( "secondary" );
+	lootID        = scripts\cp_mp\utility\loot::getLootIDFromRef( ref );
+	if ( IsDefined( lootID ) && equipmentAmmo > 0 )
+	{
+		item          = SpawnStruct();
+		item.lootID   = lootID;
+		item.ref      = ref;
+		item.quantity = 1;
+		
+		items[ "loadoutEquipmentSecondary"     ] = item;
+	}
+	
+	// Super
+	ref           = self scripts\mp\equipment::getCurrentEquipment    ( "super" );
+	ref           = scripts\cp_mp\utility\loot::fixupBRFieldUpgradeRef( ref );
+	equipmentAmmo = self scripts\mp\gametypes\br::getSuperWeaponDisabledAmmoBR();
+	lootID        = scripts\cp_mp\utility\loot::getLootIDFromRef( ref );
+	if ( IsDefined( lootID ) && equipmentAmmo > 0 )
+	{
+		item          = SpawnStruct();
+		item.lootID   = lootID;
+		item.ref      = ref;
+		item.quantity = 1;
+		
+		items[ "loadoutFieldUpgrade1" ] = item;
+	}
+	
+	ref = self scripts\mp\killstreaks\killstreaks::getKillstreakInSlot( 1 );
+	if ( IsDefined( ref ) )
+	{
+		lootID = scripts\cp_mp\utility\loot::getLootIDFromRef( ref.streakname );
+		if ( IsDefined( lootID ) )
+		{
+			item          = SpawnStruct();
+			item.lootID   = lootID;
+			item.ref      = ref;
+			item.quantity = 1;
+			
+			items[ "loadoutKillstreak1" ] = item;
+		}
+	}
+	
+	// Consumables
+	// TODO: Cash
+	// TODO: Armor
+	// TODO: Ammo Types?
+	if ( self scripts\mp\gametypes\br_public::hasPlatePouch() )
+	{
+		lootID = scripts\cp_mp\utility\loot::getLootIDFromRef( "armor_satchel" );
+		if ( IsDefined( lootID ) )
+		{
+			item          = SpawnStruct();
+			item.lootID   = lootID;
+			item.quantity = 1;
+			
+			items[ "armorSatchel" ] = item;
+		}
+	}
+	
+	itemName  = self.equipment[ "health" ];
+	itemCount = self scripts\mp\equipment::getEquipmentSlotAmmo( "health" );
+	if ( isdefined( itemName ) && isdefined( itemCount ) && ( itemCount > 0 ) )
+	{
+		item          = SpawnStruct();
+		item.lootID   = scripts\cp_mp\utility\loot::getLootIDFromRef( "armor_plate" );
+		item.quantity = itemCount;
+		
+		items[ "armorPlates" ] = item;
+	}
+	
+	return items;
+}
+
+snapshotPlayerInventories()
+{
+	if ( isTrue( level.processedEOMInventory ) )
+		return;
+	
+	// Reset dead player's persistent loadouts back to use the base
+	foreach ( player in level.players )
+	{
+		player.pers[ "gamemodeLoadout" ] = level.gamemodeLoadout;
+		
+		if ( isReallyAlive( player ) )
+		{
+			inventory = player snapshotInventory();
+			
+			if ( IsDefined( inventory[ "loadoutPrimary" ] ) )
+			{
+				player.pers[ "gamemodeLoadout" ][ "loadoutPrimary" ] = inventory[ "loadoutPrimary" ] .ref;
+				for ( attachmentIndex = 0; attachmentIndex < MAX_PRIMARY_ATTACHMENTS; attachmentIndex++ )
+				{
+					attachString = scripts\mp\class::getAttachmentLoadoutString( attachmentIndex, "primary" );
+					
+					player.pers[ "gamemodeLoadout" ][ attachString ] = inventory[ "loadoutPrimary" ].attachments[ attachmentIndex ];
+				}
+				player.pers[ "gamemodeLoadout" ][ "loadoutPrimaryCamo"        ] = inventory[ "loadoutPrimary" ] .camo;
+				player.pers[ "gamemodeLoadout" ][ "loadoutPrimaryReticle"     ] = inventory[ "loadoutPrimary" ] .reticle;
+				player.pers[ "gamemodeLoadout" ][ "loadoutPrimaryVariantID"   ] = inventory[ "loadoutPrimary" ] .variantID;
+			}
+			
+			if ( IsDefined( inventory[ "loadoutSecondary" ] ) )
+			{
+				player.pers[ "gamemodeLoadout" ][ "loadoutSecondary" ] = inventory[ "loadoutSecondary" ] .ref;
+				for ( attachmentIndex = 0; attachmentIndex < MAX_PRIMARY_ATTACHMENTS; attachmentIndex++ )
+				{
+					attachString = scripts\mp\class::getAttachmentLoadoutString( attachmentIndex, "secondary" );
+					
+					player.pers[ "gamemodeLoadout" ][ attachString ] = inventory[ "loadoutSecondary" ].attachments[ attachmentIndex ];
+				}
+				player.pers[ "gamemodeLoadout" ][ "loadoutSecondaryCamo"        ] = inventory[ "loadoutSecondary" ] .camo;
+				player.pers[ "gamemodeLoadout" ][ "loadoutSecondaryReticle"     ] = inventory[ "loadoutSecondary" ] .reticle;
+				player.pers[ "gamemodeLoadout" ][ "loadoutSecondaryVariantID"   ] = inventory[ "loadoutSecondary" ] .variantID;
+			}
+			
+			if ( IsDefined( inventory[ "loadoutEquipmentPrimary" ] ) )
+				player.pers[ "gamemodeLoadout" ][ "loadoutEquipmentPrimary" ] = inventory[ "loadoutEquipmentPrimary" ] .ref;
+			
+			if ( IsDefined( inventory[ "loadoutEquipmentSecondary" ] ) )
+				player.pers[ "gamemodeLoadout" ][ "loadoutEquipmentSecondary" ] = inventory[ "loadoutEquipmentSecondary" ].ref;
+			
+			if ( IsDefined( inventory[ "loadoutFieldUpgrade1" ] ) )
+				player.pers[ "gamemodeLoadout" ][ "loadoutFieldUpgrade1" ] = inventory[ "loadoutFieldUpgrade1" ].ref;
+			
+			if ( IsDefined( inventory[ "loadoutKillstreak1" ] ) )
+				player.pers[ "gamemodeLoadout" ][ "loadoutKillstreak1" ] = inventory[ "loadoutKillstreak1" ].ref;
+			
+			if ( IsDefined( inventory[ "armorSatchel" ] ) )
+				player.pers[ "gamemodeLoadout" ][ "armorSatchel" ] = inventory[ "armorSatchel" ];
+			
+			if ( IsDefined( inventory[ "armorPlates" ] ) )
+				player.pers[ "gamemodeLoadout" ][ "armorPlates" ] = inventory[ "armorPlates" ].quantity;
+		}
+	}
+	
+	level.processedEOMInventory = true;
+}
+
+onTimeLimit()
+{
+	if ( level.gameEnded )
+		return;
+	
+	// Sudden Death - If someone is interacting with the objective, wait until it is unoccupied before allowing to end on time.
+	foreach ( obj in level.objectives )
+	{
+		if ( obj.claimTeam != "none" || obj.staleMate )
+			return;
+	}
+	
+	if ( GetDvarInt( #d"scr_gwai_hack_kill_all_agents", 1 ) == 1 )
+		killAllAgents();
+	
+	snapshotPlayerInventories();
+	
+	scripts\mp\gamelogic::default_onTimeLimit();
+}
+
+onScoreLimit( winner )
+{
+	if ( level.gameEnded )
+		return;
+	
+	if ( GetDvarInt( #d"scr_gwai_hack_kill_all_agents", 1 ) == 1 )
+		killAllAgents();
+	
+	snapshotPlayerInventories();
+}
+
+canEndOnDeadEvent()
+{
+	if ( level.gameEnded )
+		return;
+	
+	if ( GetDvarInt(#d"scr_gwai_hack_kill_all_agents", 1 ) == 1 )
+		killAllAgents();
+	
+	snapshotPlayerInventories();
+	
+	return true;
+}
+
+killAllAgents()
+{
+	active_agents = scripts\mp\agents\agent_utility::getActiveAgentsOfType( "all" );
+	foreach ( agent in active_agents )
+	{
+		scripts\mp\agents\agent_utility::killAgent( agent );
+	}
+}
+
+zone_OnUse( credit_player )
+{
+	self scripts\mp\gameobjects::setOwnerTeam( credit_player.team );
+	
+	scripts\mp\gamescore::giveTeamScoreForObjective( credit_player.team, 1, false );
+	
+	if ( isTrue( level.spawnAgentsOnCapture ) )
+		level thread spawnAIOnObjectiveForTeam( self.objectiveKey, self.ownerTeam );
+}
+
+getModeUAVTowerLocations()
+{
+	towerLocs = [];
+	
+	tower        = SpawnStruct();
+	tower.origin = ( -36817, -23834, 255 );
+	tower.angles = ( 0, 302, 0 );
+	
+	towerLocs[ towerLocs.size ] = tower;
+	
+	tower        = SpawnStruct();
+	tower.origin = ( -33345, -24830, 256 );
+	tower.angles = ( 0, 236, 0 );
+	
+	towerLocs[ towerLocs.size ] = tower;
+	
+	tower        = SpawnStruct();
+	tower.origin = ( -31695, -22035, 256 );
+	tower.angles = ( 0, 154, 0 );
+	
+	towerLocs[ towerLocs.size ] = tower;
+	
+	tower        = SpawnStruct();
+	tower.origin = ( -32684, -20101, 261 );
+	tower.angles = ( 0, 96, 0 );
+	
+	towerLocs[ towerLocs.size ] = tower;
+	
+	tower        = SpawnStruct();
+	tower.origin = ( -36176, -19765, 264 );
+	tower.angles = ( 0, 335, 0 );
+	
+	towerLocs[ towerLocs.size ] = tower;
+	
+	count = GetDvarInt( #d"scr_gwai_uav_tower_count", 3 );
+	
+	towerLocs = array_randomize( towerLocs );
+	towerLocs = array_slice( towerLocs, 0, count );
+	
+	return towerLocs;
+}
+
+allowClassChoiceFunc()
+{
+	return level.allowClassChoice;
+}

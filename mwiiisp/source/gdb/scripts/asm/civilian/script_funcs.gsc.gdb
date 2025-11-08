@@ -1,0 +1,40 @@
+NAME scripts\asm\civilian\script_funcs.gsc
+VERSION 0
+CHECKSUM 0xfe58c6ba
+######################################################
+####################  DEV BLOCKS  ####################
+######################################################
+# script_funcs::civilian_init@6e
+DEVBLOCK 0x3ec
+# script_funcs::choosecivilianreactidleanim@8a
+DEVBLOCK 0x7b9
+# script_funcs::choosecivilianreactidleanim@df
+DEVBLOCK 0x80e
+# script_funcs::civilian_playsharpturnanim@5d
+DEVBLOCK 0xc8b
+# script_funcs::function_acfe95f0c8655298@e1
+DEVBLOCK 0xf14
+# script_funcs::civilianfocusupdatethread@62
+DEVBLOCK 0x161c
+# script_funcs::civilianfocusupdatethread@2b6
+DEVBLOCK 0x1870
+# script_funcs::function_e481d310d5cb87c@46
+DEVBLOCK 0x1eeb
+# script_funcs::function_e481d310d5cb87c@59
+DEVBLOCK 0x1efe
+# script_funcs::function_e481d310d5cb87c@70
+DEVBLOCK 0x1f15
+# script_funcs::function_d98f49aeb63edce4@50
+DEVBLOCK 0x2122
+# script_funcs::function_d98f49aeb63edce4@63
+DEVBLOCK 0x2135
+# script_funcs::function_d98f49aeb63edce4@7a
+DEVBLOCK 0x214c
+# script_funcs::civplayturnanim@8e
+DEVBLOCK 0x22ef
+# script_funcs::civchooseturnanim@14e
+DEVBLOCK 0x2733
+# script_funcs::civchooseturnanim@1e1
+DEVBLOCK 0x27c6
+# script_funcs::function_4be295e4306dc70c@22
+DEVBLOCK 0x2817

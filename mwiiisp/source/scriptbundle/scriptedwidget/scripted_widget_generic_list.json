@@ -1,0 +1,192 @@
+{
+    "#rendertarget": "None",
+    "#parameters": [
+        {
+            "#properties": [
+                {
+                    "#variant_object": {
+                        "#property": "use_backing",
+                        "#type": "BoolProperty"
+                    },
+                    "#variant_type": "Types_BoolProperty"
+                },
+                {
+                    "#variant_object": {
+                        "#property": "backing image",
+                        "#type": "ImageProperty"
+                    },
+                    "#variant_type": "Types_ImageProperty"
+                },
+                {
+                    "#variant_object": {
+                        "#property": "backing_image_color",
+                        "#type": "ColorProperty"
+                    },
+                    "#variant_type": "Types_ColorProperty"
+                },
+                {
+                    "#variant_object": {
+                        "#property": "backing_image_alpha",
+                        "#type": "FloatProperty"
+                    },
+                    "#variant_type": "Types_FloatProperty"
+                },
+                {
+                    "#variant_object": {
+                        "#property": "backing_padding_horizontal",
+                        "#type": "FloatProperty"
+                    },
+                    "#variant_type": "Types_FloatProperty"
+                },
+                {
+                    "#variant_object": {
+                        "#property": "backing_padding_vertical",
+                        "#type": "FloatProperty"
+                    },
+                    "#variant_type": "Types_FloatProperty"
+                }
+            ],
+            "#name": "Default"
+        },
+        {
+            "#properties": [
+                {
+                    "#variant_object": {
+                        "#property": "use_backing",
+                        "#value": true,
+                        "#type": "BoolProperty"
+                    },
+                    "#variant_type": "Types_BoolProperty"
+                },
+                {
+                    "#variant_object": {
+                        "#property": "backing image",
+                        "#type": "ImageProperty"
+                    },
+                    "#variant_type": "Types_ImageProperty"
+                },
+                {
+                    "#variant_object": {
+                        "#property": "backing_image_color",
+                        "#value": "0.0627451 0.0627451 0.0627451 1",
+                        "#type": "ColorProperty"
+                    },
+                    "#variant_type": "Types_ColorProperty"
+                },
+                {
+                    "#variant_object": {
+                        "#property": "backing_image_alpha",
+                        "#value": 0.5,
+                        "#type": "FloatProperty"
+                    },
+                    "#variant_type": "Types_FloatProperty"
+                },
+                {
+                    "#variant_object": {
+                        "#property": "backing_padding_horizontal",
+                        "#value": 20,
+                        "#type": "FloatProperty"
+                    },
+                    "#variant_type": "Types_FloatProperty"
+                },
+                {
+                    "#variant_object": {
+                        "#property": "backing_padding_vertical",
+                        "#value": 20,
+                        "#type": "FloatProperty"
+                    },
+                    "#variant_type": "Types_FloatProperty"
+                }
+            ],
+            "#name": "Dark_Background"
+        }
+    ],
+    "#hash_679a5fd22385af82": [
+        {
+            "#variant_object": {
+                "#property": "use_backing",
+                "#type": "BoolProperty"
+            },
+            "#variant_type": "Types_BoolProperty"
+        },
+        {
+            "#variant_object": {
+                "#property": "backing image",
+                "#type": "ImageProperty"
+            },
+            "#variant_type": "Types_ImageProperty"
+        },
+        {
+            "#variant_object": {
+                "#property": "backing_image_color",
+                "#type": "ColorProperty"
+            },
+            "#variant_type": "Types_ColorProperty"
+        },
+        {
+            "#variant_object": {
+                "#property": "backing_image_alpha",
+                "#type": "FloatProperty"
+            },
+            "#variant_type": "Types_FloatProperty"
+        },
+        {
+            "#variant_object": {
+                "#property": "backing_padding_horizontal",
+                "#type": "FloatProperty"
+            },
+            "#variant_type": "Types_FloatProperty"
+        },
+        {
+            "#variant_object": {
+                "#property": "backing_padding_vertical",
+                "#type": "FloatProperty"
+            },
+            "#variant_type": "Types_FloatProperty"
+        }
+    ],
+    "#children": [],
+    "#rendertargetheight": 1024,
+    "#hash_a35573938e7a51c8": 1024,
+    "#widget": "ScriptedWidgetGenericList",
+    "#states": [
+        {
+            "#animation": "TopLeft",
+            "#name": "TopLeft"
+        },
+        {
+            "#animation": "TopCenter",
+            "#name": "TopCenter"
+        },
+        {
+            "#animation": "TopRight",
+            "#name": "TopRight"
+        },
+        {
+            "#animation": "MiddleLeft",
+            "#name": "MiddleLeft"
+        },
+        {
+            "#animation": "MiddleCenter",
+            "#name": "MiddleCenter"
+        },
+        {
+            "#animation": "MiddleRight",
+            "#name": "MiddleRight"
+        },
+        {
+            "#animation": "BottomLeft",
+            "#name": "BottomLeft"
+        },
+        {
+            "#animation": "BottomCenter",
+            "#name": "BottomCenter"
+        },
+        {
+            "#animation": "BottomRight",
+            "#name": "BottomRight"
+        }
+    ],
+    "#normalgameplay": true,
+    "#assets": []
+}

@@ -1,0 +1,395 @@
+{
+    "#hash_28a1f79d001cfb7": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#name": "Actor 1",
+                    "#aitypename": "jup_ob_ally_ava_base",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#blendcurve": "ease_out_cubic",
+                            "#reachtype": "ReachRadius",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_cleanserelic_unarmed_jansen_waitidle_loop@sbundle"
+                                    }
+                                }
+                            ],
+                            "#arrivaltype": "ExposedMoving",
+                            "#locomotionstart": "walk"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_cleanserelic_unarmed_jansen_enter@sbundle"
+                                    }
+                                }
+                            ],
+                            "#float_lerptime": 0.2
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_cleanserelic_unarmed_jansen_loop@sbundle"
+                                    }
+                                }
+                            ],
+                            "#float_lerptime": 0.2
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0.1,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_cleanserelic_unarmed_jansen_kneel@sbundle"
+                                    }
+                                }
+                            ],
+                            "#float_lerptime": 0.1
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_cleanserelic_unarmed_jansen_kneel_loop@sbundle"
+                                    }
+                                }
+                            ],
+                            "#float_lerptime": 0.2
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_cleanserelic_unarmed_jansen_kneel_exit@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            }
+        ],
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_020"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_030"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_040"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_050"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_060"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_cdbc85607f22fa5": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#aligntarget": "beat_04_jansen_exfil_animnode",
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#hash_7c6075e90a7b0fa": "agent_mp_jup_ob_ava",
+                    "#name": "Actor 1",
+                    "#aitypename": "jup_ob_ally_ava_base",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_portal_jansen_in@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_8db9e726632f82c7": 17,
+                            "#blendcurve": "ease_inout_sine",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_cleanserelic_rifle_jansen_enter@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#hash_8db9e726632f82c7": 17,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_cleanserelic_rifle_jansen_loop_looped@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            }
+        ],
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_030"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_020"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_147dc3360ce13837": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#name": "Actor 1",
+                    "#aitypename": "jup_ob_ally_ava_base",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_chargealtar_jansen_enter@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_chargealtar_jansen_levitate_loop@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_chargealtar_jansen_charge@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_chargealtar_jansen_lightbomb_downed@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_chargealtar_jansen_downed_loop@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_chargealtar_jansen_exit@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            }
+        ],
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_020"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_030"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_040"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_050"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_060"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_6147b48b8661b61f": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#deletetype": "None",
+                    "#animtree": {
+                        "name": "generic_human",
+                        "id": 0
+                    },
+                    "#lookatstealth": true,
+                    "#hash_7c6075e90a7b0fa": "agent_mp_jup_ob_ava",
+                    "#name": "Actor 1",
+                    "#aitypename": "jup_ob_ally_ava_base",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#blendcurve": "ease_inout_sine",
+                            "#reachtype": "ReachRadius",
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_cleanserelic_rifle_jansen_enter@sbundle"
+                                    }
+                                }
+                            ],
+                            "#float_lerptime": 0.2,
+                            "#arrivaltype": "ExposedMoving",
+                            "#locomotionstart": "walk"
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_ob_s5_story_cleanserelic_rifle_jansen_loop@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Actor"
+            }
+        ],
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#name": "shot_020"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    }
+}

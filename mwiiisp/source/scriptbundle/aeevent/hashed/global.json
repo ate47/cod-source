@@ -1,0 +1,3255 @@
+{
+    "#hash_e67159295d985b": {
+        "#id": 71,
+        "#keys": [
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_happy_hour",
+        "#sharedname": "#hash_684618d734c34338"
+    },
+    "#hash_f47c0e5b944dcd": {
+        "#id": 39,
+        "#keys": [
+            {
+                "#key": "iw9_pool_id"
+            },
+            {
+                "#key": "iw9_activate_id"
+            },
+            {
+                "#key": "iw9_deactivate_id"
+            },
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activation_pool",
+        "#sharedname": "#activation_pool"
+    },
+    "#hash_13b2231911e34fa": {
+        "#id": 44,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_season"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_battlemap_token_purchase",
+        "#sharedname": "#hash_77f789559f8ca2cd"
+    },
+    "#hash_14a5003a287b473": {
+        "#id": 74,
+        "#keys": [
+            {
+                "#key": "iw9_clan_id"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_join_clan",
+        "#sharedname": "#hash_ede50c658856e12e"
+    },
+    "#hash_33b558afd9b8b33": {
+        "#id": 471,
+        "#keys": [
+            {
+                "#key": "iw9_mgl_ftue_expertise"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_mgl_ftue_progress_transfer",
+        "#sharedname": "#hash_77043ee04017cce4"
+    },
+    "#hash_439655ba5c243a9": {
+        "#id": 380,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_operator_id"
+            },
+            {
+                "#key": "iw9_loot_cache_type"
+            },
+            {
+                "#key": "iw9_loot_cache_bitfield1"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_loot_cache",
+        "#sharedname": "#loot_cache"
+    },
+    "#hash_505d32e165d7a2c": {
+        "#id": 516,
+        "#keys": [
+            {
+                "#key": "iw9_login_reward_faketime"
+            },
+            {
+                "#key": "iw9_login_reward_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_login_reward_claim",
+        "#sharedname": "#hash_ea553798b7859b07"
+    },
+    "#hash_534f12fcf70343d": {
+        "#id": 447,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_season"
+            },
+            {
+                "#key": "iw9_battlemap_sector_ae_id"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_battlemap_activate_sector",
+        "#sharedname": "#hash_196c7abf7b9ff234"
+    },
+    "#hash_67ce637151c738b": {
+        "#id": 419,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_mgl_ftue_complete",
+        "#sharedname": "#hash_f2cb4f1663e0ad2e"
+    },
+    "#hash_76eb99464040117": {
+        "#id": 90,
+        "#keys": [
+            {
+                "#key": "iw9_day_override"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_user_info"
+            },
+            {
+                "#key": "iw9_sp_progression"
+            },
+            {
+                "#key": "iw9_login_bitfield1"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_login",
+        "#sharedname": "#login"
+    },
+    "#hash_8d95da3bff4242a": {
+        "#id": 411,
+        "#keys": [],
+        "#source": "client",
+        "#name": "#iw9_activate_unlock_token",
+        "#sharedname": "#hash_3c4e876a6f046843"
+    },
+    "#hash_a02b47021579f64": {
+        "#id": 56,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_daily_ch_id_1"
+            },
+            {
+                "#key": "iw9_daily_ch_id_2"
+            },
+            {
+                "#key": "iw9_daily_ch_id_3"
+            },
+            {
+                "#key": "iw9_daily_ch_id_4"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_daily_ch_override",
+        "#sharedname": "#hash_8e23f6d519bc3ded"
+    },
+    "#hash_a4171da41b2ed75": {
+        "#id": 461,
+        "#keys": [
+            {
+                "#key": "iw9_leagueplay_event_season"
+            },
+            {
+                "#key": "iw9_leagueplay_gametype"
+            },
+            {
+                "#key": "iw9_leagueplay_league_id"
+            },
+            {
+                "#key": "iw9_leagueplay_lobby_id"
+            },
+            {
+                "#key": "iw9_leagueplay_match_id"
+            },
+            {
+                "#key": "iw9_leagueplay_event_type"
+            },
+            {
+                "#key": "iw9_leagueplay_match_sr_version"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_leagueplay_start_game",
+        "#sharedname": "#hash_22675ae5492f866c"
+    },
+    "#hash_bc70fc7785a1c43": {
+        "#id": 70,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_loot_id"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_loot_id_1"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_hack",
+        "#sharedname": "#hack"
+    },
+    "#hash_c126b04aed865d2": {
+        "#id": 432,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_battlepass_xp_token_year",
+        "#sharedname": "#hash_6288cf2671b9e1ab"
+    },
+    "#hash_c41254e5488edb8": {
+        "#id": 109,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_playlist_id"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_battlepass_xp_scalar"
+            },
+            {
+                "#key": "iw9_lobby_id"
+            },
+            {
+                "#key": "iw9_matchmaking_gametype"
+            },
+            {
+                "#key": "iw9_match_id"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_start_match",
+        "#sharedname": "#start_match"
+    },
+    "#hash_c98a94c1e9973dd": {
+        "#id": 342,
+        "#keys": [
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_mgl_ftue_give_item",
+        "#sharedname": "#hash_4bd6cc7811718c8e"
+    },
+    "#hash_d2f0fa38331f47d": {
+        "#id": 421,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_dev_grant_ticket",
+        "#sharedname": "#hash_ae2718696f31002e"
+    },
+    "#hash_db5bc8b7deffeb6": {
+        "#id": 428,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_mgl_daily_lineup_reset",
+        "#sharedname": "#hash_e3d32a91fc47025d"
+    },
+    "#hash_de40b04c993fb6a": {
+        "#id": 122,
+        "#keys": [
+            {
+                "#key": "iw9_zm_heal_amount"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_zm_heal",
+        "#sharedname": "#zm_heal"
+    },
+    "#hash_e1a96643c5bffad": {
+        "#id": 517,
+        "#keys": [
+            {
+                "#key": "iw9_value_0"
+            },
+            {
+                "#key": "iw9_value_1"
+            },
+            {
+                "#key": "iw9_value_2"
+            },
+            {
+                "#key": "iw9_value_3"
+            },
+            {
+                "#key": "iw9_value_4"
+            },
+            {
+                "#key": "iw9_value_5"
+            },
+            {
+                "#key": "iw9_value_6"
+            },
+            {
+                "#key": "iw9_value_7"
+            },
+            {
+                "#key": "iw9_value_8"
+            },
+            {
+                "#key": "iw9_value_9"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_win_challenge_update_ordered_list",
+        "#sharedname": "#hash_3a267e03e27faf80"
+    },
+    "#hash_e998ddce2771c6b": {
+        "#id": 72,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_high_five_received",
+        "#sharedname": "#hash_fc6790afb2a9acc4"
+    },
+    "#hash_108b8376b1ca1e40": {
+        "#id": 48,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_loot_id"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_capture",
+        "#sharedname": "#capture"
+    },
+    "#hash_10f182fa6175b113": {
+        "#id": 103,
+        "#keys": [
+            {
+                "#key": "iw9_rejoin_lobby_id"
+            },
+            {
+                "#key": "iw9_playlist_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_rejoin_reject",
+        "#sharedname": "#hash_19e9c7e064414efe"
+    },
+    "#hash_11122b43311dd33a": {
+        "#id": 412,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_season"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_battlemap_onboarding",
+        "#sharedname": "#hash_9e985b2c8ce77489"
+    },
+    "#hash_11fe35fe22678757": {
+        "#id": 524,
+        "#keys": [
+            {
+                "#key": "iw9_score"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_mp_addscore",
+        "#sharedname": "#hash_55f2abb9e7a67b5e"
+    },
+    "#hash_128abd2bbed05e17": {
+        "#id": 52,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_operator_id"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_contract_start",
+        "#sharedname": "#contract_start"
+    },
+    "#hash_138db2b7e8d0a971": {
+        "#id": 66,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_squad_event"
+            },
+            {
+                "#key": "iw9_loot_id"
+            },
+            {
+                "#key": "iw9_loadout_item_method"
+            },
+            {
+                "#key": "iw9_field_upgrade_bitfield1"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            },
+            {
+                "#key": "iw9_perk_bitfield1"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_field_upgrade",
+        "#sharedname": "#field_upgrade"
+    },
+    "#hash_149b315079113c2c": {
+        "#id": 345,
+        "#keys": [
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_confirmed_kill",
+        "#sharedname": "#confirmed_kill"
+    },
+    "#hash_15717251feb123e7": {
+        "#id": 84,
+        "#keys": [
+            {
+                "#key": "iw9_leagueplay_gametype"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_leagueplay_penalty_seen",
+        "#sharedname": "#hash_208f393d15a04d12"
+    },
+    "#hash_15893404b813951e": {
+        "#id": 89,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_loadout",
+        "#sharedname": "#loadout"
+    },
+    "#hash_164804e37f29271e": {
+        "#id": 32,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_player_xp_token_legendary",
+        "#sharedname": "#hash_89ee44eaba5fe851"
+    },
+    "#hash_16a3e47c21b9004e": {
+        "#id": 108,
+        "#keys": [
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_activity_type"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_start_activity",
+        "#sharedname": "#start_activity"
+    },
+    "#hash_16aa57bdfbd51f34": {
+        "#id": 26,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_battlepass_xp_token_legendary",
+        "#sharedname": "#hash_cdd58a1867b5ef33"
+    },
+    "#hash_17efe06110820caa": {
+        "#id": 49,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_string_ref"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_string_ref2"
+            },
+            {
+                "#key": "iw9_operator_id"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_squad_event"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_collect_item",
+        "#sharedname": "#collect_item"
+    },
+    "#hash_1bb431a4494383f1": {
+        "#id": 40,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_alive_in_gas",
+        "#sharedname": "#alive_in_gas"
+    },
+    "#hash_1c1b890eea25c66c": {
+        "#id": 63,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_end_trial",
+        "#sharedname": "#end_trial"
+    },
+    "#hash_1c6a87e4a1b18177": {
+        "#id": 117,
+        "#keys": [
+            {
+                "#key": "iw9_weapon_loot_id"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_zm_elimination_bitfield"
+            },
+            {
+                "#key": "iw9_zm_pap_level"
+            },
+            {
+                "#key": "iw9_zm_zombie_type"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_zm_assist",
+        "#sharedname": "#zm_assist"
+    },
+    "#hash_1d013f8dfc043aed": {
+        "#id": 113,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_loot_id"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_string_ref"
+            },
+            {
+                "#key": "iw9_loadout_item_method"
+            },
+            {
+                "#key": "iw9_operator_id"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_squad_event"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_use_item",
+        "#sharedname": "#use_item"
+    },
+    "#hash_1db4a0c00edd5621": {
+        "#id": 222,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_damage_type"
+            },
+            {
+                "#key": "iw9_squad_event"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_damaged",
+        "#sharedname": "#damaged"
+    },
+    "#hash_1ddbdc215458eadd": {
+        "#id": 498,
+        "#keys": [],
+        "#source": "server",
+        "#name": "#cer_creator_viewer_reward_redeem",
+        "#sharedname": "#hash_eee81dc21735959d"
+    },
+    "#hash_1e4294fd0f8a6315": {
+        "#id": 526,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_login_ob",
+        "#sharedname": "#hash_6107d8c9692d19fe"
+    },
+    "#hash_1f6b1b29a1c2a742": {
+        "#id": 64,
+        "#keys": [
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_loot_id"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_squad_event"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_loadout_item_method"
+            },
+            {
+                "#key": "iw9_distance"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            },
+            {
+                "#key": "iw9_perk_bitfield1"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_equipment",
+        "#sharedname": "#equipment"
+    },
+    "#hash_20df5e0180b63033": {
+        "#id": 347,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_login_dmz",
+        "#sharedname": "#hash_e208153d9f06d5c2"
+    },
+    "#hash_213f16ab500b8be3": {
+        "#id": 527,
+        "#keys": [
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_match_placement",
+        "#sharedname": "#match_placement"
+    },
+    "#hash_218f6160f626a0f0": {
+        "#id": 47,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_loot_id"
+            },
+            {
+                "#key": "iw9_loot_item_type"
+            },
+            {
+                "#key": "iw9_string_ref"
+            },
+            {
+                "#key": "iw9_squad_event"
+            },
+            {
+                "#key": "iw9_buy_action"
+            },
+            {
+                "#key": "iw9_cash_value"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_buy_item",
+        "#sharedname": "#buy_item"
+    },
+    "#hash_21b3833a78b52a09": {
+        "#id": 515,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_season"
+            },
+            {
+                "#key": "iw9_battlepass_revoke_flags"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_battlemap_revoke",
+        "#sharedname": "#hash_f3738982e534c78e"
+    },
+    "#hash_22c93d94a24c7359": {
+        "#id": 119,
+        "#keys": [
+            {
+                "#key": "iw9_zm_equipment_type"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_zm_craft_equipment",
+        "#sharedname": "#hash_c1e33f27f4dafd62"
+    },
+    "#hash_231293eb1289c1c9": {
+        "#id": 55,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_cp_complete",
+        "#sharedname": "#cp_complete"
+    },
+    "#hash_23e4195839b446b6": {
+        "#id": 98,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_pickup",
+        "#sharedname": "#pickup"
+    },
+    "#hash_24742c7f8e391272": {
+        "#id": 80,
+        "#keys": [
+            {
+                "#key": "iw9_leagueplay_league_id"
+            },
+            {
+                "#key": "iw9_leagueplay_match_result"
+            },
+            {
+                "#key": "iw9_leagueplay_skill_rating"
+            },
+            {
+                "#key": "iw9_leagueplay_division"
+            },
+            {
+                "#key": "iw9_leagueplay_added_to_ladder"
+            },
+            {
+                "#key": "iw9_leagueplay_event_season"
+            },
+            {
+                "#key": "iw9_leagueplay_on_ladder"
+            },
+            {
+                "#key": "iw9_leagueplay_hot_streak_cooldown_s"
+            },
+            {
+                "#key": "iw9_leagueplay_event_type"
+            },
+            {
+                "#key": "iw9_leagueplay_at_match_end"
+            },
+            {
+                "#key": "iw9_leagueplay_lobby_id"
+            },
+            {
+                "#key": "iw9_leagueplay_match_id"
+            },
+            {
+                "#key": "iw9_leagueplay_current_top250_placement"
+            },
+            {
+                "#key": "iw9_leagueplay_gametype"
+            },
+            {
+                "#key": "iw9_leagueplay_placement"
+            },
+            {
+                "#key": "iw9_leagueplay_forgiveness_level"
+            },
+            {
+                "#key": "iw9_leagueplay_rejoin_enabled"
+            },
+            {
+                "#key": "iw9_leagueplay_is_disconnect"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_leagueplay_end_game",
+        "#sharedname": "#hash_46314392af70142b"
+    },
+    "#hash_25008dc5045ffa4c": {
+        "#id": 605,
+        "#keys": [
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_br_stronghold_advance",
+        "#sharedname": "#hash_ff0f2afd6e4375e9"
+    },
+    "#hash_250c8243c639fa16": {
+        "#id": 68,
+        "#keys": [
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_product_id"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_give_loot",
+        "#sharedname": "#give_loot"
+    },
+    "#hash_25a7abe295efd81d": {
+        "#id": 61,
+        "#keys": [
+            {
+                "#key": "iw9_activity_type"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_ob_activity_type"
+            },
+            {
+                "#key": "iw9_squadmate0"
+            },
+            {
+                "#key": "iw9_squadmate1"
+            },
+            {
+                "#key": "iw9_squadmate2"
+            },
+            {
+                "#key": "iw9_squadmate3"
+            },
+            {
+                "#key": "iw9_squadmate4"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_end_activity",
+        "#sharedname": "#end_activity"
+    },
+    "#hash_25e8fde078c9060f": {
+        "#id": 374,
+        "#keys": [
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_operator_id"
+            },
+            {
+                "#key": "iw9_champions_quest_bitfield1"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_champions_quest",
+        "#sharedname": "#champions_quest"
+    },
+    "#hash_269e26a6f367b36f": {
+        "#id": 529,
+        "#keys": [],
+        "#source": "client",
+        "#name": "#iw9_login_reward_reset",
+        "#sharedname": "#hash_5440a9149d8cdae8"
+    },
+    "#hash_279124442a080e34": {
+        "#id": 38,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_weapon_xp_token_rare",
+        "#sharedname": "#hash_9663effaedf77c81"
+    },
+    "#hash_27ddb301ffe1364a": {
+        "#id": 99,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_ping",
+        "#sharedname": "#ping"
+    },
+    "#hash_2af4cf2814c27c66": {
+        "#id": 25,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_battlepass_xp_token_epic",
+        "#sharedname": "#hash_ad38ca3e070b017f"
+    },
+    "#hash_2b438615e7aaf065": {
+        "#id": 358,
+        "#keys": [
+            {
+                "#key": "iw9_wc_match_pick"
+            },
+            {
+                "#key": "iw9_wc_match_number"
+            },
+            {
+                "#key": "iw9_wc_game_time"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_wc_gamble",
+        "#sharedname": "#wc_gamble"
+    },
+    "#hash_2c1215d1cb6e75c2": {
+        "#id": 118,
+        "#keys": [
+            {
+                "#key": "iw9_zm_covenant_type"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_zm_covenant_purchase",
+        "#sharedname": "#hash_122c42d708c3ae3d"
+    },
+    "#hash_2c28def7cd0a5b9d": {
+        "#id": 430,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_weapon_xp_token_year",
+        "#sharedname": "#hash_ea6e6d24ba99c950"
+    },
+    "#hash_2cfd90437284aa7d": {
+        "#id": 521,
+        "#keys": [
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_win_challenge_bypass_request",
+        "#sharedname": "#hash_2a06276b44258926"
+    },
+    "#hash_2df361d3c85a7a0f": {
+        "#id": 104,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_operator_id"
+            },
+            {
+                "#key": "iw9_revive_bitfield"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_revive",
+        "#sharedname": "#revive"
+    },
+    "#hash_2e5f7bc2fa6ea6be": {
+        "#id": 78,
+        "#keys": [
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_kill_operator_id"
+            },
+            {
+                "#key": "iw9_weapon_loot_id"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_kill_amount"
+            },
+            {
+                "#key": "iw9_killstreak_bitfield1"
+            },
+            {
+                "#key": "iw9_perk_bitfield1"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_killstreak_end",
+        "#sharedname": "#killstreak_end"
+    },
+    "#hash_2e788d8a8108ae4c": {
+        "#id": 606,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_loot_id"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_ob_give_loot",
+        "#sharedname": "#hash_98cdb9f71144ed0f"
+    },
+    "#hash_302fe6cd919cf7bf": {
+        "#id": 41,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_alive_not_downed",
+        "#sharedname": "#alive_not_downed"
+    },
+    "#hash_30cf595fe1cc0348": {
+        "#id": 608,
+        "#keys": [],
+        "#source": "server",
+        "#name": "#iw9_never_sent_dummy",
+        "#sharedname": "#hash_8288de55bd2837e3"
+    },
+    "#hash_328cf0b799640e16": {
+        "#id": 462,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_trophies_earned",
+        "#sharedname": "#hash_f6befbe618f1037b"
+    },
+    "#hash_32e4766ead5cdab6": {
+        "#id": 511,
+        "#keys": [
+            {
+                "#key": "iw9_weapon_class_bitfield"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_jup_ob_enemy_type"
+            },
+            {
+                "#key": "iw9_loot_id"
+            },
+            {
+                "#key": "iw9_weapon_loot_id"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_weapon_damage",
+        "#sharedname": "#weapon_damage"
+    },
+    "#hash_33412d33591d85ce": {
+        "#id": 106,
+        "#keys": [
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_sp_mission_complete",
+        "#sharedname": "#hash_ef0e7f185e63e463"
+    },
+    "#hash_3419beab03b3fab3": {
+        "#id": 567,
+        "#keys": [
+            {
+                "#key": "iw9_leagueplay_gametype"
+            },
+            {
+                "#key": "iw9_leagueplay_event_season"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_leagueplay_end_of_season_sd_setback",
+        "#sharedname": "#hash_4fe02870ff93f78e"
+    },
+    "#hash_36cd62dab0e67882": {
+        "#id": 592,
+        "#keys": [
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_squad_event"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_squad_wiped",
+        "#sharedname": "#squad_wiped"
+    },
+    "#hash_37561f18b854ca7c": {
+        "#id": 31,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_player_xp_token_epic",
+        "#sharedname": "#hash_a7c2d5996ee369b1"
+    },
+    "#hash_37ec3e906e7ce34c": {
+        "#id": 373,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_jailbreak_respawn_player_from_gulag"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_jailbreak_player_respawn",
+        "#sharedname": "#hash_774f005e1bf7d1d3"
+    },
+    "#hash_38e39b75ccedbb92": {
+        "#id": 93,
+        "#keys": [
+            {
+                "#key": "iw9_mgl_edge_item_id"
+            },
+            {
+                "#key": "iw9_mgl_edge_item_count"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_mgl_edge_item_gain",
+        "#sharedname": "#hash_3971fbf1d7a8c855"
+    },
+    "#hash_39b849bd397cc987": {
+        "#id": 27,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_battlepass_xp_token_rare",
+        "#sharedname": "#hash_622b87c86701e29e"
+    },
+    "#hash_3a10b557fdbdd1fd": {
+        "#id": 83,
+        "#keys": [
+            {
+                "#key": "iw9_leagueplay_sr_penalty"
+            },
+            {
+                "#key": "iw9_leagueplay_ladder_penalty"
+            },
+            {
+                "#key": "iw9_leagueplay_event_season"
+            },
+            {
+                "#key": "iw9_leagueplay_lobby_id"
+            },
+            {
+                "#key": "iw9_leagueplay_division"
+            },
+            {
+                "#key": "iw9_leagueplay_skill_rating"
+            },
+            {
+                "#key": "iw9_leagueplay_gametype"
+            },
+            {
+                "#key": "iw9_leagueplay_rejoin_enabled"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_leagueplay_lobby_disconnect",
+        "#sharedname": "#hash_9bce81d6bc43a6a0"
+    },
+    "#hash_3a27b363b7622353": {
+        "#id": 593,
+        "#keys": [
+            {
+                "#key": "iw9_kill_amount"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_is_killstreak"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_multikill",
+        "#sharedname": "#multikill"
+    },
+    "#hash_3e649a66df81b1fb": {
+        "#id": 45,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_battlemap_sector_reward_id"
+            },
+            {
+                "#key": "iw9_battlemap_sector_ae_id"
+            },
+            {
+                "#key": "iw9_battlemap_sector_spend_max"
+            },
+            {
+                "#key": "iw9_season"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_battlemap_batch_spend"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_battlemap_token_spend",
+        "#sharedname": "#hash_7cb997d167b8a302"
+    },
+    "#hash_3f04db01c43cf62e": {
+        "#id": 97,
+        "#keys": [
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_squad_event"
+            },
+            {
+                "#key": "iw9_loot_id"
+            },
+            {
+                "#key": "iw9_loadout_item_method"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_perk",
+        "#sharedname": "#perk"
+    },
+    "#hash_404dabb08bc2231c": {
+        "#id": 76,
+        "#keys": [
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_squad_event"
+            },
+            {
+                "#key": "iw9_loot_id"
+            },
+            {
+                "#key": "iw9_loadout_item_method"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_killstreak",
+        "#sharedname": "#killstreak"
+    },
+    "#hash_408ea2da675bb384": {
+        "#id": 77,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_string_ref"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_killstreak_available",
+        "#sharedname": "#killstreak_available"
+    },
+    "#hash_41470b2993d7fc24": {
+        "#id": 415,
+        "#keys": [
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_enemy_squads_remaining"
+            },
+            {
+                "#key": "iw9_matchmaking_gametype"
+            },
+            {
+                "#key": "iw9_in_prematch"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_unassisted_kill",
+        "#sharedname": "#unassisted_kill"
+    },
+    "#hash_4234806feb96183a": {
+        "#id": 348,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_loot_id"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_dmz_give_loot",
+        "#sharedname": "#hash_b103a36a0ed8b293"
+    },
+    "#hash_42fd1ab3dabc7a20": {
+        "#id": 34,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_player_xp_token_year",
+        "#sharedname": "#hash_8761f8f2e898761d"
+    },
+    "#hash_439f75bec23cf99b": {
+        "#id": 464,
+        "#keys": [
+            {
+                "#key": "iw9_autospend_enabled"
+            },
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_battlemap_configuration",
+        "#sharedname": "#hash_70ec12dfc977723a"
+    },
+    "#hash_44b32746ec04d80e": {
+        "#id": 73,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_high_five_sent",
+        "#sharedname": "#hash_8feb7a30dae1f56d"
+    },
+    "#hash_475083f9207a30e3": {
+        "#id": 86,
+        "#keys": [
+            {
+                "#key": "iw9_leagueplay_new_skill_division"
+            },
+            {
+                "#key": "iw9_leagueplay_new_skill_rating"
+            },
+            {
+                "#key": "iw9_leagueplay_event_season"
+            },
+            {
+                "#key": "iw9_leagueplay_division_stickiness_applied"
+            },
+            {
+                "#key": "iw9_leagueplay_at_match_end"
+            },
+            {
+                "#key": "iw9_leagueplay_sr_forgiven"
+            },
+            {
+                "#key": "iw9_leagueplay_sr_loss_prevention_remaining"
+            },
+            {
+                "#key": "iw9_leagueplay_prematch_skill_rating"
+            },
+            {
+                "#key": "iw9_leagueplay_gametype"
+            },
+            {
+                "#key": "iw9_leagueplay_bans"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_leagueplay_update_skill_rating",
+        "#sharedname": "#hash_cdf8dc377b5d1e50"
+    },
+    "#hash_47c8cd084bad25b4": {
+        "#id": 30,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_player_xp_token",
+        "#sharedname": "#hash_3589ec1bf7669a6b"
+    },
+    "#hash_48e6625a1117a910": {
+        "#id": 575,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_drone_gun_emp",
+        "#sharedname": "#hash_372efa96b8695b65"
+    },
+    "#hash_496215d3fc513208": {
+        "#id": 369,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_operator_id"
+            },
+            {
+                "#key": "iw9_gulag_end_bitfield1"
+            },
+            {
+                "#key": "iw9_team_size"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_gulag_end",
+        "#sharedname": "#gulag_end"
+    },
+    "#hash_4987c8252116a13d": {
+        "#id": 417,
+        "#keys": [
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gametype"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_extract_failed",
+        "#sharedname": "#hash_672d2c0185c09e4e"
+    },
+    "#hash_4a2ea8b7ef0a5c01": {
+        "#id": 563,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_s5_team"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_s5_switch_team",
+        "#sharedname": "#hash_9c0cfaee787b77d2"
+    },
+    "#hash_4a93fe018c73846c": {
+        "#id": 105,
+        "#keys": [
+            {
+                "#key": "iw9_season0"
+            },
+            {
+                "#key": "iw9_season1"
+            },
+            {
+                "#key": "iw9_season3"
+            },
+            {
+                "#key": "iw9_season5"
+            },
+            {
+                "#key": "iw9_season2"
+            },
+            {
+                "#key": "iw9_season6"
+            },
+            {
+                "#key": "iw9_season4"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_seasons",
+        "#sharedname": "#seasons"
+    },
+    "#hash_4b640106c81cbd32": {
+        "#id": 85,
+        "#keys": [
+            {
+                "#key": "iw9_leagueplay_league_id"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_leagueplay_processed_league",
+        "#sharedname": "#hash_e496ad11539b8037"
+    },
+    "#hash_4c89bb9e53554f31": {
+        "#id": 36,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_weapon_xp_token_epic",
+        "#sharedname": "#hash_ca42707e347a7bcc"
+    },
+    "#hash_4da4bae5353ff336": {
+        "#id": 468,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_loot_id"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_trophy_purchase",
+        "#sharedname": "#trophy_purchase"
+    },
+    "#hash_4e1185b1cb4a74e2": {
+        "#id": 504,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_trophy_xp_conversion",
+        "#sharedname": "#hash_16c237f3ab2a3f15"
+    },
+    "#hash_4f3fec652fc28c86": {
+        "#id": 604,
+        "#keys": [
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_completed"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_br_secondary_victory",
+        "#sharedname": "#hash_8f093c85d9262e5d"
+    },
+    "#hash_4f5339e20ced82c6": {
+        "#id": 523,
+        "#keys": [
+            {
+                "#key": "iw9_ob_interact_bitfield"
+            },
+            {
+                "#key": "iw9_ob_interact_bitfield2"
+            },
+            {
+                "#key": "iw9_loot_sold"
+            },
+            {
+                "#key": "iw9_squad_event"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_ob_interact",
+        "#sharedname": "#ob_interact"
+    },
+    "#hash_4fa84cc6dba1acfc": {
+        "#id": 528,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_mgl_daily_lineup_login",
+        "#sharedname": "#hash_7d54d32ace0cba6f"
+    },
+    "#hash_508b3846b8595b3e": {
+        "#id": 423,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_mgl_pre_ftue_start",
+        "#sharedname": "#hash_b32d5e238e2bfd65"
+    },
+    "#hash_53a77045f1a2740a": {
+        "#id": 495,
+        "#keys": [
+            {
+                "#key": "iw9_cohort_reward_division_index"
+            },
+            {
+                "#key": "iw9_cohort_reward_ae_id"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_mgl_cohort_reward_notification",
+        "#sharedname": "#hash_54f39f95c1bd8fb5"
+    },
+    "#hash_5420b23ca7801a59": {
+        "#id": 53,
+        "#keys": [
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_weapon_loot_id"
+            },
+            {
+                "#key": "iw9_weapon_xp"
+            },
+            {
+                "#key": "iw9_battlepass_xp"
+            },
+            {
+                "#key": "iw9_clan_xp"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_operator_xp_id"
+            },
+            {
+                "#key": "iw9_operator_xp"
+            },
+            {
+                "#key": "iw9_battlepass_xp_from_time"
+            },
+            {
+                "#key": "iw9_double_xp_event"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_cp_addxp",
+        "#sharedname": "#hash_84b7156b87f3dbf6"
+    },
+    "#hash_5549cb3c0802ba4b": {
+        "#id": 107,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_spray",
+        "#sharedname": "#spray"
+    },
+    "#hash_55af250f1604bb83": {
+        "#id": 420,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_mgl_ftue_reset",
+        "#sharedname": "#hash_52c0fa324861cf1c"
+    },
+    "#hash_56ae0b8501fd1417": {
+        "#id": 116,
+        "#keys": [
+            {
+                "#key": "iw9_zm_armor_tier"
+            },
+            {
+                "#key": "iw9_zm_armor_repair"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_zm_armor",
+        "#sharedname": "#zm_armor"
+    },
+    "#hash_5978340686f61bbd": {
+        "#id": 46,
+        "#keys": [
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_br_tutorial_complete",
+        "#sharedname": "#hash_8facc0c43df50712"
+    },
+    "#hash_598cec06f65f53de": {
+        "#id": 384,
+        "#keys": [
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_string_ref"
+            },
+            {
+                "#key": "iw9_squad_event"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_unlock",
+        "#sharedname": "#unlock"
+    },
+    "#hash_5c4f498a5d281a0f": {
+        "#id": 67,
+        "#keys": [
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gametype_bitfield1"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_gametype_event",
+        "#sharedname": "#gametype_event"
+    },
+    "#hash_5c646dd9583621f8": {
+        "#id": 65,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_string_ref"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_field_end",
+        "#sharedname": "#field_end"
+    },
+    "#hash_5d4812cdea008b64": {
+        "#id": 121,
+        "#keys": [
+            {
+                "#key": "iw9_zm_round_number"
+            },
+            {
+                "#key": "iw9_zm_armor_tier"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_zm_legendary_covenants"
+            },
+            {
+                "#key": "iw9_zm_damage_covenants"
+            },
+            {
+                "#key": "iw9_ob_exfil_bitfield"
+            },
+            {
+                "#key": "iw9_essence_extracted"
+            },
+            {
+                "#key": "iw9_gametype"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_zm_exfil",
+        "#sharedname": "#zm_exfil"
+    },
+    "#hash_5d583bed4268b27e": {
+        "#id": 88,
+        "#keys": [
+            {
+                "#key": "iw9_clan_id"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_leave_clan",
+        "#sharedname": "#hash_b651defcdac73e25"
+    },
+    "#hash_5e31f8e6e93f8d96": {
+        "#id": 216,
+        "#keys": [
+            {
+                "#key": "iw9_mgl_inbox_notification_id"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_mgl_inbox_complete_event",
+        "#sharedname": "#hash_f0a3658289fa2fb9"
+    },
+    "#hash_5e3b24cd8b395e3f": {
+        "#id": 399,
+        "#keys": [
+            {
+                "#key": "iw9_season"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_battlepass_blackcell",
+        "#sharedname": "#hash_e1b6cff37fe73fd6"
+    },
+    "#hash_5e7a1370e05a487a": {
+        "#id": 127,
+        "#keys": [
+            {
+                "#key": "iw9_zm_perk_acquires"
+            },
+            {
+                "#key": "iw9_zm_perk_level"
+            },
+            {
+                "#key": "iw9_zm_perk_type"
+            },
+            {
+                "#key": "iw9_zm_consecutive_perks"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_zm_perk_gain",
+        "#sharedname": "#hash_be8068b54c02751"
+    },
+    "#hash_606b9e8e24304a33": {
+        "#id": 112,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_tournament_end",
+        "#sharedname": "#hash_3a3c31bb87e71ca4"
+    },
+    "#hash_640f6857077de01d": {
+        "#id": 114,
+        "#keys": [
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_zm_status_effect_bitfield"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_zm_apply_status_effect",
+        "#sharedname": "#hash_44cf8f1648c9386"
+    },
+    "#hash_6478db9afd6c355f": {
+        "#id": 520,
+        "#keys": [
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_win_challenge_grant_points",
+        "#sharedname": "#hash_a807e7d0ac92458c"
+    },
+    "#hash_652a3e6ab088b183": {
+        "#id": 28,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_clan_xp_token",
+        "#sharedname": "#hash_a81b5969eefe8658"
+    },
+    "#hash_68fa3c415bfd98ae": {
+        "#id": 115,
+        "#keys": [
+            {
+                "#key": "iw9_zm_all_areas_unlocked"
+            },
+            {
+                "#key": "iw9_zm_areas_unlocked"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_zm_area_unlock",
+        "#sharedname": "#hash_9715d8e8bd15a609"
+    },
+    "#hash_6ab97a9669488360": {
+        "#id": 57,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_team_size"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_death",
+        "#sharedname": "#death"
+    },
+    "#hash_6ace84c165d4c466": {
+        "#id": 75,
+        "#keys": [
+            {
+                "#key": "iw9_weapon_loot_id"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_kill_operator_id"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_kill_bitfield1"
+            },
+            {
+                "#key": "iw9_weapon_attachment1"
+            },
+            {
+                "#key": "iw9_weapon_attachment10"
+            },
+            {
+                "#key": "iw9_weapon_attachment2"
+            },
+            {
+                "#key": "iw9_weapon_attachment5"
+            },
+            {
+                "#key": "iw9_weapon_attachment7"
+            },
+            {
+                "#key": "iw9_weapon_attachment4"
+            },
+            {
+                "#key": "iw9_weapon_attachment3"
+            },
+            {
+                "#key": "iw9_weapon_attachment8"
+            },
+            {
+                "#key": "iw9_weapon_attachment6"
+            },
+            {
+                "#key": "iw9_weapon_attachment9"
+            },
+            {
+                "#key": "iw9_weapon_class_bitfield"
+            },
+            {
+                "#key": "iw9_enemy_type_bitfield"
+            },
+            {
+                "#key": "iw9_squad_event"
+            },
+            {
+                "#key": "iw9_kill_amount"
+            },
+            {
+                "#key": "iw9_perk_bitfield1"
+            },
+            {
+                "#key": "iw9_loot_id"
+            },
+            {
+                "#key": "iw9_distance"
+            },
+            {
+                "#key": "iw9_weapon_attachment_flags"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_kill_bitfield2"
+            },
+            {
+                "#key": "iw9_weapon_camo"
+            },
+            {
+                "#key": "iw9_exgm_warlord_id"
+            },
+            {
+                "#key": "iw9_hit_loc"
+            },
+            {
+                "#key": "iw9_team_size"
+            },
+            {
+                "#key": "iw9_ob_zombie_kill_bitfield"
+            },
+            {
+                "#key": "iw9_enemy_squads_remaining"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            },
+            {
+                "#key": "iw9_matchmaking_gametype"
+            },
+            {
+                "#key": "iw9_squadmate0"
+            },
+            {
+                "#key": "iw9_squadmate1"
+            },
+            {
+                "#key": "iw9_squadmate3"
+            },
+            {
+                "#key": "iw9_squadmate2"
+            },
+            {
+                "#key": "iw9_squadmate4"
+            },
+            {
+                "#key": "iw9_ob_zombie_kill_bitfield2"
+            },
+            {
+                "#key": "iw9_kills_since_reload"
+            },
+            {
+                "#key": "iw9_in_prematch"
+            },
+            {
+                "#key": "iw9_jup_ob_enemy_type"
+            },
+            {
+                "#key": "iw9_kills_since_trigger_held"
+            },
+            {
+                "#key": "iw9_critical_kill_chain"
+            },
+            {
+                "#key": "iw9_no_damage_kill_chain"
+            },
+            {
+                "#key": "iw9_enemy_type_bitfield2"
+            },
+            {
+                "#key": "iw9_kill_bitfield3"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_kill",
+        "#sharedname": "#kill"
+    },
+    "#hash_6c49b5c824b48cbb": {
+        "#id": 221,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_squad_event"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_downed",
+        "#sharedname": "#downed"
+    },
+    "#hash_6df0b14b41a36c4b": {
+        "#id": 95,
+        "#keys": [
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_weapon_loot_id"
+            },
+            {
+                "#key": "iw9_weapon_xp"
+            },
+            {
+                "#key": "iw9_operator_xp_id"
+            },
+            {
+                "#key": "iw9_operator_xp"
+            },
+            {
+                "#key": "iw9_battlepass_xp"
+            },
+            {
+                "#key": "iw9_clan_xp"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_battlepass_xp_from_time"
+            },
+            {
+                "#key": "iw9_reputation"
+            },
+            {
+                "#key": "iw9_faction_id"
+            },
+            {
+                "#key": "iw9_double_xp_event"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_mp_addxp",
+        "#sharedname": "#mp_addxp"
+    },
+    "#hash_6f5f7d8a0e76c8d1": {
+        "#id": 33,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_player_xp_token_rare",
+        "#sharedname": "#hash_82ca3e3f459628b4"
+    },
+    "#hash_6f942150cb49d674": {
+        "#id": 531,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_operator_id"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            },
+            {
+                "#key": "iw9_game_flags_cmd"
+            },
+            {
+                "#key": "iw9_game_flags_bitfield1"
+            },
+            {
+                "#key": "iw9_game_flags_bitfield2"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_game_flags",
+        "#sharedname": "#game_flags"
+    },
+    "#hash_7018faddd8cfa12f": {
+        "#id": 349,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_season"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_battlepass",
+        "#sharedname": "#hash_ee135aca6ed087c2"
+    },
+    "#hash_705b825edac84181": {
+        "#id": 362,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_score"
+            },
+            {
+                "#key": "iw9_damage"
+            },
+            {
+                "#key": "iw9_operator_id"
+            },
+            {
+                "#key": "iw9_team_size"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_stats",
+        "#sharedname": "#stats"
+    },
+    "#hash_707fb9cad2c602d2": {
+        "#id": 24,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_battlepass_xp_token",
+        "#sharedname": "#hash_c04d961651b09c5d"
+    },
+    "#hash_7123dd73a52b3061": {
+        "#id": 60,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_driving",
+        "#sharedname": "#driving"
+    },
+    "#hash_716f727f92b83aef": {
+        "#id": 82,
+        "#keys": [
+            {
+                "#key": "iw9_leagueplay_event_season"
+            },
+            {
+                "#key": "iw9_leagueplay_mark_as_seen"
+            },
+            {
+                "#key": "iw9_leagueplay_current_top250_placement"
+            },
+            {
+                "#key": "iw9_leagueplay_gametype"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_leagueplay_end_of_season",
+        "#sharedname": "#hash_c4e4be7ca07818fc"
+    },
+    "#hash_7355829b8df2a8d1": {
+        "#id": 37,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_weapon_xp_token_legendary",
+        "#sharedname": "#hash_84244d04c86624ae"
+    },
+    "#hash_739739b844c3cf32": {
+        "#id": 120,
+        "#keys": [
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_zm_crystal",
+        "#sharedname": "#zm_crystal"
+    },
+    "#hash_75349c8f6b77ae7d": {
+        "#id": 42,
+        "#keys": [
+            {
+                "#key": "iw9_weapon_loot_id"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_weapon_class_bitfield"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_enemy_squads_remaining"
+            },
+            {
+                "#key": "iw9_matchmaking_gametype"
+            },
+            {
+                "#key": "iw9_assist_recommended_weapon_list"
+            },
+            {
+                "#key": "iw9_in_prematch"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_assist",
+        "#sharedname": "#assist"
+    },
+    "#hash_77889bcc69f18573": {
+        "#id": 79,
+        "#keys": [],
+        "#source": "client",
+        "#name": "#iw9_leagueplay_daily_refresh",
+        "#sharedname": "#hash_67ae37dd039cf538"
+    },
+    "#hash_78ac123a60051d81": {
+        "#id": 62,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_match_result"
+            },
+            {
+                "#key": "iw9_endgame_bitfield1"
+            },
+            {
+                "#key": "iw9_operator_id"
+            },
+            {
+                "#key": "iw9_cp_mission_id"
+            },
+            {
+                "#key": "iw9_cp_stars"
+            },
+            {
+                "#key": "iw9_cp_role"
+            },
+            {
+                "#key": "iw9_cp_kit_rank"
+            },
+            {
+                "#key": "iw9_cp_intel_collected"
+            },
+            {
+                "#key": "iw9_placement"
+            },
+            {
+                "#key": "iw9_playlist_id"
+            },
+            {
+                "#key": "iw9_team_size"
+            },
+            {
+                "#key": "iw9_cp_kit_stars"
+            },
+            {
+                "#key": "iw9_lobby_id"
+            },
+            {
+                "#key": "iw9_matchmaking_gametype"
+            },
+            {
+                "#key": "iw9_cp_total_stars"
+            },
+            {
+                "#key": "iw9_squadmate0"
+            },
+            {
+                "#key": "iw9_squadmate1"
+            },
+            {
+                "#key": "iw9_squadmate2"
+            },
+            {
+                "#key": "iw9_squadmate3"
+            },
+            {
+                "#key": "iw9_squadmate4"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            },
+            {
+                "#key": "iw9_match_id"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_end_match",
+        "#sharedname": "#end_match"
+    },
+    "#hash_78d84069d3cbc1ce": {
+        "#id": 571,
+        "#keys": [
+            {
+                "#key": "iw9_enemy_type_bitfield"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_string_ref"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_enemy_type_bitfield2"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_vehicle",
+        "#sharedname": "#vehicle"
+    },
+    "#hash_794f6dba4d683f7b": {
+        "#id": 126,
+        "#keys": [
+            {
+                "#key": "iw9_zm_objective_location"
+            },
+            {
+                "#key": "iw9_zm_objective_type"
+            },
+            {
+                "#key": "iw9_zm_round_number"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_zm_objective_bitfield"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_zm_objective_complete",
+        "#sharedname": "#hash_176711a0034c407a"
+    },
+    "#hash_7988618ba3e8fc32": {
+        "#id": 91,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_string_ref"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_squad_event"
+            },
+            {
+                "#key": "iw9_loot_item_type"
+            },
+            {
+                "#key": "iw9_loot_id"
+            },
+            {
+                "#key": "iw9_loot_method_bitfield"
+            },
+            {
+                "#key": "iw9_loot_source"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_loot_item",
+        "#sharedname": "#loot_item"
+    },
+    "#hash_79d0e0732edf0d92": {
+        "#id": 51,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_operator_id"
+            },
+            {
+                "#key": "iw9_contract_end_bitfield1"
+            },
+            {
+                "#key": "iw9_location_bitfield"
+            },
+            {
+                "#key": "iw9_location_bitfield2"
+            },
+            {
+                "#key": "iw9_squadmate0"
+            },
+            {
+                "#key": "iw9_squadmate1"
+            },
+            {
+                "#key": "iw9_squadmate2"
+            },
+            {
+                "#key": "iw9_squadmate3"
+            },
+            {
+                "#key": "iw9_squadmate4"
+            },
+            {
+                "#key": "iw9_ob_contract_type"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_contract_end",
+        "#sharedname": "#contract_end"
+    },
+    "#hash_7a7342e06d61c878": {
+        "#id": 124,
+        "#keys": [
+            {
+                "#key": "iw9_zm_perk_total"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_zm_max_perks",
+        "#sharedname": "#hash_7399b965afb8a2df"
+    },
+    "#hash_7ab30d12771b56eb": {
+        "#id": 35,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_weapon_xp_token",
+        "#sharedname": "#hash_71d1a5f93f6bac24"
+    },
+    "#hash_7bc575f6cd642e2b": {
+        "#id": 110,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_value"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_stim",
+        "#sharedname": "#stim"
+    },
+    "#hash_7bd396f6cd70a39a": {
+        "#id": 111,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_equipment_bitfield1"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_stun",
+        "#sharedname": "#stun"
+    },
+    "#hash_7c4a3209f50a0daa": {
+        "#id": 50,
+        "#keys": [
+            {
+                "#key": "iw9_leagueplay_is_disconnect"
+            },
+            {
+                "#key": "iw9_leagueplay_match_id"
+            },
+            {
+                "#key": "iw9_leagueplay_ladder_penalty"
+            },
+            {
+                "#key": "iw9_leagueplay_sr_penalty"
+            },
+            {
+                "#key": "iw9_leagueplay_event_season"
+            },
+            {
+                "#key": "iw9_rejoin_is_active"
+            },
+            {
+                "#key": "iw9_rejoin_lobby_id"
+            },
+            {
+                "#key": "iw9_rejoin_expiry"
+            },
+            {
+                "#key": "iw9_disconnect_reason"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_leagueplay_rejoin_enabled"
+            },
+            {
+                "#key": "iw9_playlist_version"
+            },
+            {
+                "#key": "iw9_leagueplay_lobby_id"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_connection_update",
+        "#sharedname": "#connection_update"
+    },
+    "#hash_7d5f3b2183422570": {
+        "#id": 123,
+        "#keys": [
+            {
+                "#key": "iw9_weapon_loot_id"
+            },
+            {
+                "#key": "iw9_gamemode"
+            },
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_zm_elimination_bitfield"
+            },
+            {
+                "#key": "iw9_zm_pap_level"
+            },
+            {
+                "#key": "iw9_zm_zombie_type"
+            },
+            {
+                "#key": "iw9_kill_bitfield1"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_zm_kill",
+        "#sharedname": "#zm_kill"
+    },
+    "#hash_7de2ae5b9db1a78d": {
+        "#id": 434,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_season"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_update_progress_community",
+        "#sharedname": "#hash_788309612384e88"
+    },
+    "#hash_7e4c46abb7ba197a": {
+        "#id": 560,
+        "#keys": [],
+        "#source": "client",
+        "#name": "#iw9_dmz_s4_soft_reset",
+        "#sharedname": "#hash_ca07e58f38c9b4d3"
+    },
+    "#hash_7f199b8e8a5f7710": {
+        "#id": 59,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            },
+            {
+                "#key": "iw9_gametype"
+            },
+            {
+                "#key": "iw9_gamemode"
+            }
+        ],
+        "#source": "server",
+        "#name": "#iw9_defuse",
+        "#sharedname": "#defuse"
+    },
+    "#hash_7f3f1f1771a85c7f": {
+        "#id": 29,
+        "#keys": [
+            {
+                "#key": "iw9_version"
+            }
+        ],
+        "#source": "client",
+        "#name": "#iw9_activate_operator_xp_token",
+        "#sharedname": "#hash_fef2ffc9618889f8"
+    }
+}

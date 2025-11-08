@@ -1,0 +1,8 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/delta/zonecontrol/lootset_root.csv,,,,
+reqAdd,brloot_super_munitionsbox | brloot_super_armorbox,1,,,# require ammo
+reqAdd,brloot_super_personal_redeploy_drone,1,,75,# chance for PRD
+reqAdd,brPowerItem,1,,75,# any item of epic or lege rarity
+reqLimit,brloot_super_personal_redeploy_drone,,1,,#limit to one prd
+reqLimit,brloot_super_munitionsbox,,1,,#limit to one munition box
+reqLimit,brloot_super_armorbox,,1,,#limit to one armor box

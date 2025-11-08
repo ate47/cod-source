@@ -1,0 +1,7 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/burn/lootset_root.csv,,,,
+tagReject,nogulag,100,,,
+reqAdd,plunder | gear | plate_carrier | perkpack | super,1,,,# A high quality item
+reqAdd,plunder | gear | plate_carrier | perkpack,1,,75,# Chance at a high quality item
+reqAdd,plunder | gear | plate_carrier | perkpack,1,,50,# Chance at a high quality item
+reqAdd,plunder | gear | plate_carrier | perkpack,1,,25,# Chance at a high quality item

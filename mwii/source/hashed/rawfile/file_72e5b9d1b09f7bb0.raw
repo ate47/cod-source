@@ -1,0 +1,41 @@
+%force_cs_anim_index_match
+
+	juggernaut_strafe: blendspace2d( rangex="-180,180", rangey="35,170.000", blend_time="0", disable_update_while_turning_off="true",
+	coords="{-135,40},{-90,40},{-45,40},{0,40},{45,40},{90,40},{135,40},{-135,113},{-90,113},{-45,113},{0,120},{45,113},{90,113},{135,113},{-180,40},{180,40},{-180,113},{180,113},{-135,35},{-90,35},{-45,35},{45,35},{90,35},{135,35},{-135,115},{-90,115},{-45,115},{45,115},{90,115},{135,115},{0,170},{45,170},{-44,170}",
+	edges="{7,16,24},{7,8,24},{8,24,25},{9,25,26},{8,9,25},{9,10,26},{10,11,27},{11,27,28},{11,12,28},{12,28,29},{12,13,29},{13,17,29},{0,14,16},{0,14,18},{0,7,16},{0,1,7},{0,18,19},{0,1,19},{1,7,8},{1,2,8},{1,19,20},{1,2,20},{2,8,9},{2,3,9},{3,9,10},{2,3,20},{3,4,21},{3,10,11},{3,4,11},{4,11,12},{4,5,12},{4,5,21},{5,21,22},{5,12,13},{5,6,13},{5,6,22},{6,22,23},{6,13,17},{6,15,17},{6,15,23},{10,26,32},{10,30,32},{10,30,31},{10,27,31}",
+	valuex=[strafeyaw], valuey=[desiredspeed] ) loopsync complete
+	{
+		jug_com_strafe_walk_3
+		jug_com_strafe_walk_6
+		jug_com_strafe_walk_9
+		jug_com_strafe_walk_8
+		jug_com_strafe_walk_7
+		jug_com_strafe_walk_4
+		jug_com_strafe_walk_1
+		jug_com_strafe_jog_3
+		jug_com_strafe_jog_6
+		jug_com_strafe_jog_9
+		jug_com_strafe_jog_8
+		jug_com_strafe_jog_7
+		jug_com_strafe_jog_4
+		jug_com_strafe_jog_1
+		jug_com_strafe_walk_2bckwrd
+		jug_com_strafe_walk_2bckwrd@1
+		jug_com_strafe_jog_2bckwrd
+		jug_com_strafe_jog_2bckwrd@1
+		jug_com_strafe_walk_3bckwrd
+		jug_com_strafe_walk_6bckwrd
+		jug_com_strafe_walk_9bckwrd
+		jug_com_strafe_walk_7bckwrd
+		jug_com_strafe_walk_4bckwrd
+		jug_com_strafe_walk_1bckwrd
+		jug_com_strafe_jog_3bckwrd
+		jug_com_strafe_jog_6bckwrd
+		jug_com_strafe_jog_9bckwrd
+		jug_com_strafe_jog_7bckwrd
+		jug_com_strafe_jog_4bckwrd
+		jug_com_strafe_jog_1bckwrd
+		jug_com_strafe_run_8
+		jug_com_strafe_run_7
+		jug_com_strafe_run_9
+}

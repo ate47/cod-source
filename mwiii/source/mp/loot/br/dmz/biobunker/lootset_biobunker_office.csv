@@ -1,0 +1,8 @@
+string,string,string,string,string
+inherit,mp/loot/br/dmz/biobunker/lootset_root.csv,,,
+option,no_points_ground,,,
+chance,point,60,,
+chance,cluster,60,,
+chance,clusterSolo,10,,
+reqAdd,,1,,
+reqAdd,brloot_nvg,1,1,100

@@ -1,0 +1,234 @@
+{
+    "#hash_759a7a55c329f18": {
+        "#idleanim": {
+            "type": "anim",
+            "name": "iw9_fe_lobby_dog_idle_sitting_01@sbundle"
+        },
+        "#ref": "universal_dog_darpa",
+        "#body": "body_mp_exec_dog_darpa_iw9_1_1",
+        "#walkinganims": []
+    },
+    "#hash_8532841dd0a7e78": {
+        "#idleanim": {
+            "type": "anim",
+            "name": "jup_fe_mp_lobby_servo_skull_idle_01@sbundle"
+        },
+        "#ref": "servo_skull",
+        "#body": "jup_accessory_servo_skull_01_rig",
+        "#walkinganims": []
+    },
+    "#hash_a12f9a268a7fc73": {
+        "#idleanim": {
+            "type": "anim",
+            "name": "iw9_fe_lobby_dog_idle_sitting_01@sbundle"
+        },
+        "#ref": "universal_dog_merlin",
+        "#body": "body_mp_exec_dog_merlin_iw9_1_2",
+        "#walkinganims": []
+    },
+    "#hash_2e3235573d00ae40": {
+        "#idleanim": {
+            "type": "anim",
+            "name": "chr_menu_raven_idle_01@sbundle"
+        },
+        "#ref": "hawk",
+        "#body": "mp_hawk_perch",
+        "#walkinganims": [
+            {
+                "#anim": {
+                    "type": "anim",
+                    "name": "chr_menu_mp_squad_hawk_01@sbundle"
+                }
+            },
+            {
+                "#anim": {
+                    "type": "anim",
+                    "name": "chr_menu_mp_squad_hawk_02@sbundle"
+                }
+            },
+            {
+                "#anim": {
+                    "type": "anim",
+                    "name": "chr_menu_mp_squad_hawk_03@sbundle"
+                }
+            },
+            {
+                "#anim": {
+                    "type": "anim",
+                    "name": "chr_menu_mp_squad_hawk_01@sbundle"
+                }
+            },
+            {
+                "#anim": {
+                    "type": "anim",
+                    "name": "chr_menu_mp_squad_hawk_03@sbundle"
+                }
+            }
+        ]
+    },
+    "#hash_331a01e488afa629": {
+        "#idleanim": {
+            "type": "anim",
+            "name": "chr_menu_raven_idle_01@sbundle"
+        },
+        "#ref": "raven",
+        "#body": "raven_perch",
+        "#walkinganims": [
+            {
+                "#anim": {
+                    "type": "anim",
+                    "name": "chr_menu_mp_squad_raven_01@sbundle"
+                }
+            },
+            {
+                "#anim": {
+                    "type": "anim",
+                    "name": "chr_menu_mp_squad_raven_02@sbundle"
+                }
+            },
+            {
+                "#anim": {
+                    "type": "anim",
+                    "name": "chr_menu_mp_squad_raven_03@sbundle"
+                }
+            },
+            {
+                "#anim": {
+                    "type": "anim",
+                    "name": "chr_menu_mp_squad_raven_01@sbundle"
+                }
+            },
+            {
+                "#anim": {
+                    "type": "anim",
+                    "name": "chr_menu_mp_squad_raven_03@sbundle"
+                }
+            }
+        ]
+    },
+    "#hash_3bc10ab814443148": {
+        "#idleanim": {
+            "type": "anim",
+            "name": "chr_menu_dog_idle_01@sbundle"
+        },
+        "#ref": "indiana_dog",
+        "#body": "mp_fullbody_execution_dog_a",
+        "#walkinganims": [
+            {
+                "#anim": {
+                    "type": "anim",
+                    "name": "chr_menu_mp_squad_dog_01@sbundle"
+                }
+            }
+        ]
+    },
+    "#hash_3f4de75da89d5737": {
+        "#idleanim": {
+            "type": "anim",
+            "name": "chr_menu_dog_idle_01@sbundle"
+        },
+        "#ref": "universal_dog_snow",
+        "#body": "mp_fullbody_execution_dog_snow",
+        "#walkinganims": [
+            {
+                "#anim": {
+                    "type": "anim",
+                    "name": "chr_menu_mp_squad_dog_01@sbundle"
+                }
+            }
+        ]
+    },
+    "#hash_480e893ec8321e18": {
+        "#idleanim": {
+            "type": "anim",
+            "name": "iw9_fe_lobby_dog_idle_sitting_01@sbundle"
+        },
+        "#ref": "universal_jup_dog_04",
+        "#body": "c_jup_mp_dog_04",
+        "#walkinganims": []
+    },
+    "#hash_480e8a3ec8321fcb": {
+        "#idleanim": {
+            "type": "anim",
+            "name": "iw9_fe_lobby_dog_idle_sitting_01@sbundle"
+        },
+        "#ref": "universal_jup_dog_05",
+        "#body": "c_jup_mp_dog_05",
+        "#walkinganims": []
+    },
+    "#hash_480e8e3ec8322697": {
+        "#idleanim": {
+            "type": "anim",
+            "name": "iw9_fe_lobby_dog_idle_sitting_01@sbundle"
+        },
+        "#ref": "universal_jup_dog_01",
+        "#body": "c_jup_mp_dog",
+        "#walkinganims": []
+    },
+    "#hash_480e8f3ec832284a": {
+        "#idleanim": {
+            "type": "anim",
+            "name": "iw9_fe_lobby_dog_idle_sitting_01@sbundle"
+        },
+        "#ref": "universal_jup_dog_02",
+        "#body": "c_jup_mp_dog_02",
+        "#walkinganims": []
+    },
+    "#hash_4ba7f0e175c157b7": {
+        "#idleanim": {
+            "type": "anim",
+            "name": "chr_menu_dog_hellhound_idle_01@sbundle"
+        },
+        "#ref": "universal_dog_hellhound",
+        "#body": "mp_fullbody_execution_dog_hellhound",
+        "#walkinganims": [
+            {
+                "#anim": {
+                    "type": "anim",
+                    "name": "chr_menu_mp_squad_dog_hellhound_1@sbundle"
+                }
+            }
+        ]
+    },
+    "#hash_4ff4b2c6d8aaca26": {
+        "#idleanim": {
+            "type": "anim",
+            "name": "chr_menu_hyena_idle_01@sbundle"
+        },
+        "#ref": "universal_hyena",
+        "#body": "mp_hyena_rig_skeleton",
+        "#walkinganims": [
+            {
+                "#anim": {
+                    "type": "anim",
+                    "name": "chr_menu_mp_squad_hyena_01@sbundle"
+                }
+            }
+        ]
+    },
+    "#hash_75e68e3f1e01545d": {
+        "#idleanim": {
+            "type": "anim",
+            "name": "iw9_fe_lobby_dog_idle_sitting_01@sbundle"
+        },
+        "#ref": "universal_dog_riley",
+        "#body": "body_mp_exec_dog_riley_iw9_1_1",
+        "#walkinganims": []
+    },
+    "#hash_783a60cab69996d6": {
+        "#idleanim": {
+            "type": "anim",
+            "name": "chr_menu_dog_idle_01@sbundle"
+        },
+        "#ref": "universal_dog_malinois",
+        "#body": "mp_fullbody_execution_dog_malinois",
+        "#walkinganims": [
+            {
+                "#anim": {
+                    "type": "anim",
+                    "name": "chr_menu_mp_squad_dog_01@sbundle"
+                }
+            }
+        ]
+    }
+}

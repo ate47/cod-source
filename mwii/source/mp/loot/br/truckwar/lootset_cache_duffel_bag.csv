@@ -1,0 +1,6 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/truckwar/lootset_root.csv,,,,
+reqAdd,gear,1,,33,# chance for gear
+reqAdd,super&[0-1],1,,50,# chance for super
+reqAdd,lethal | tactical,1,,,
+reqAdd,weapon,1,,,

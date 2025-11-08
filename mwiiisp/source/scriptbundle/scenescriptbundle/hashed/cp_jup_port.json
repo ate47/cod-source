@@ -1,0 +1,943 @@
+{
+    "#hash_1355ac725541bb59": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": "animtree#player",
+                    "#name": "Player 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#hash_169ec6c28c4aae8a": 0,
+                            "#cameraanimation": "jup_port_tracker_xcam",
+                            "#hash_88317c7614e6553c": 0,
+                            "#hash_1f406d98a26a7085": 0,
+                            "#deltaanimations": [],
+                            "#hash_52c388f739467cb0": 0,
+                            "#cameratweenin": 0.6
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#animtree": "animtree#script_model",
+                    "#charactername": "c_jup_sp_hero_farah_desert",
+                    "#name": "farah_body",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_tracker_farah@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#disablehud": true,
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_22d7e8c2ffa4ed23": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": "animtree#player",
+                    "#name": "Player 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#cameratweenoutvisible": false,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_port_infil_xcam_1",
+                            "#deltaanimations": [],
+                            "#cameratweeninvisible": false
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_c_jup_sp_hero_farah_desert",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#generic_human",
+                    "#name": "Farah_body",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_infil_npc@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "c_jup_head_hero_farah_no_dyn",
+                    "#aligntarget": "Farah_body",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#generic_human",
+                    "#hash_adbd47886f23e1a2": true,
+                    "#name": "Farah_head",
+                    "#aligntargettag": "j_spine4",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#aligntarget": "Farah_body",
+                            "#hash_adbd47886f23e1a2": true,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_infil_npc_head@sbundle"
+                                    }
+                                }
+                            ],
+                            "#aligntargettag": "j_spine4"
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "vm_jup_jp23_me_knife_000",
+                    "#aligntarget": "Farah_body",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#script_model",
+                    "#name": "Prop 1",
+                    "#aligntargettag": "TAG_ACCESSORY_RIGHT",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#notanimated": true,
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "vm_jup_jp23_me_knife_000",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#script_model",
+                    "#name": "Prop 2",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_infil_knife@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#disablehud": true,
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ],
+        "#autostream": true
+    },
+    "#hash_6520652ecc5210a9": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": "animtree#player",
+                    "#name": "Player 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#cameratweenoutvisible": false,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_port_exfil_xcam_01",
+                            "#deltaanimations": [],
+                            "#xcamthirdperson": true,
+                            "#cameratweeninvisible": false
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#cameratweenoutvisible": false,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_port_exfil_xcam_02",
+                            "#deltaanimations": [],
+                            "#xcamthirdperson": true,
+                            "#cameratweeninvisible": false
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#cameratweenoutvisible": false,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_port_exfil_xcam_03",
+                            "#deltaanimations": [],
+                            "#xcamthirdperson": true,
+                            "#cameratweeninvisible": false
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#cameratweenoutvisible": false,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_port_exfil_xcam_04",
+                            "#deltaanimations": [],
+                            "#xcamthirdperson": true,
+                            "#cameratweeninvisible": false
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#cameratweenoutvisible": false,
+                            "#float_blendtime": 0,
+                            "#cameraanimation": "jup_port_exfil_xcam_05",
+                            "#deltaanimations": [],
+                            "#xcamthirdperson": true,
+                            "#cameratweeninvisible": false
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#script_model",
+                    "#charactername": "c_jup_sp_hero_alex",
+                    "#name": "alex_body",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_alex_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_alex_02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_alex_03@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_alex_04@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_alex_05@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#script_model",
+                    "#charactername": "c_jup_sp_hero_farah_desert",
+                    "#name": "farah_body",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_farah_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_farah_02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_farah_03@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_farah_04@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_farah_05@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_sp_ally_sla_rebels_cqb_1_1",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#script_model",
+                    "#name": "npc1_body",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc1_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc1_03@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc1_04@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc1_05@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "head_sc_m_ahmadzai",
+                    "#aligntarget": "npc1_body",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#script_model",
+                    "#hash_adbd47886f23e1a2": true,
+                    "#name": "npc1_head",
+                    "#aligntargettag": "j_spine4",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc1_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc1_03@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc1_04@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc1_05@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "body_sp_ally_sla_rebels_ar_2_1",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#script_model",
+                    "#name": "npc2_body",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc2_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc2_03@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc2_04@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc2_05@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "head_sc_m_mrehin_civ_bg_no_hair",
+                    "#aligntarget": "npc2_body",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": "animtree#script_model",
+                    "#hash_adbd47886f23e1a2": true,
+                    "#name": "npc2_head",
+                    "#aligntargettag": "j_spine4",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc2_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc2_03@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc2_04@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_male_npc2_05@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "medical_corpse_bodybag_01_rig",
+                    "#animtree": "animtree#script_model",
+                    "#name": "dena_bodybag",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_kai_01@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_kai_02@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_kai_03@sbundle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#float_blendtime": 0,
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "jup_port_exfil_kai_05@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "weapon_vm_ar_akilo47_brprop_nophys",
+                    "#aligntarget": "npc2_body",
+                    "#animtree": "animtree#script_model",
+                    "#hash_adbd47886f23e1a2": true,
+                    "#name": "npc2_gun",
+                    "#aligntargettag": "j_gun",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#hash_adbd47886f23e1a2": true,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "weapon_vm_ar_akilo47_brprop_nophys",
+                    "#aligntarget": "npc1_body",
+                    "#animtree": "animtree#script_model",
+                    "#hash_adbd47886f23e1a2": true,
+                    "#name": "npc1_gun",
+                    "#aligntargettag": "j_gun",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#hash_adbd47886f23e1a2": true,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "weapon_vm_ar_akilo47_brprop_nophys",
+                    "#aligntarget": "farah_body",
+                    "#animtree": "animtree#script_model",
+                    "#hash_adbd47886f23e1a2": true,
+                    "#name": "wpn_farah",
+                    "#globaltype": "targetname",
+                    "#aligntargettag": "j_gun",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#hash_adbd47886f23e1a2": true,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#hash_adbd47886f23e1a2": true,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#hash_adbd47886f23e1a2": true,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#hash_adbd47886f23e1a2": true,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#hash_adbd47886f23e1a2": true,
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "weapon_vm_ar_akilo47_brprop_nophys",
+                    "#aligntarget": "alex_body",
+                    "#animtree": "animtree#script_model",
+                    "#hash_adbd47886f23e1a2": true,
+                    "#name": "wpn_alex",
+                    "#globaltype": "targetname",
+                    "#aligntargettag": "j_gun",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#hash_adbd47886f23e1a2": true,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#hash_adbd47886f23e1a2": true,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#hash_adbd47886f23e1a2": true,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#hash_adbd47886f23e1a2": true,
+                            "#deltaanimations": []
+                        },
+                        {
+                            "#mayhemanimations": [],
+                            "#notanimated": true,
+                            "#hash_adbd47886f23e1a2": true,
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#disablehud": true,
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#syncend": true,
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#syncend": true,
+                    "#name": "shot_020"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#syncend": true,
+                    "#name": "shot_030"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#syncend": true,
+                    "#name": "shot_040"
+                },
+                "#variant_type": "Types_Shot"
+            },
+            {
+                "#variant_object": {
+                    "#syncend": true,
+                    "#name": "shot_050"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ],
+        "#autostream": true
+    },
+    "#hash_7e8ee3a212eb7dff": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "tag_origin_animate",
+                    "#animtree": "animtree#player",
+                    "#name": "Player 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#cameraanimation": "jup_port_konni_exfil_xcam",
+                            "#deltaanimations": [],
+                            "#cameratweeninvisible": false
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Player"
+            }
+        ],
+        "#disablehud": true,
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ],
+        "#autostream": true
+    }
+}

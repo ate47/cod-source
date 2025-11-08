@@ -1,0 +1,528 @@
+{
+    "#hash_1df68b3626e85803": {
+        "#gamelogo": "icon_wz2_logo_hq_row",
+        "#hash_3157f395d3232adf": "hq_seasonal_ka_wz_jup",
+        "#gamemodes": [
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&MENU/NEW"
+                    },
+                    {
+                        "#tag": "&MENU/POPULAR"
+                    }
+                ],
+                "#moderef": "QUICK_PLAY",
+                "#modeicon": "jup_icon_mode_wz_quickplay",
+                "#modedesc": "&",
+                "#modevideo": "jup_hq_wz_plate_feature",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_jup_featured_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_circle",
+                "#modename": "&LUA_MENU_MP/FEATURED",
+                "#gamemode": "br_wz2"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&JUP_LUA_MENU/INTENSE_ACTION"
+                    },
+                    {
+                        "#tag": "&JUP_LUA_MENU/LIMITED_RESPAWNS"
+                    }
+                ],
+                "#moderef": "RESURGENCE",
+                "#modeicon": "jup_icon_mode_wz_resurge",
+                "#modedesc": "&",
+                "#modevideo": "jup_hq_wz_plate_resurgence",
+                "#tutorial": "1",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_jup_resurgence_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_mountain",
+                "#modename": "&LUA_MENU/RESURGENCE",
+                "#gamemode": "br_wz2"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&JUP_LUA_MENU/CAMPAIGN_TAB_NAME_LARGE_MAP"
+                    },
+                    {
+                        "#tag": "&JUP_LUA_MENU/LAST_TEAM_STANDING"
+                    }
+                ],
+                "#moderef": "BR",
+                "#modeicon": "jup_icon_mode_wz_br",
+                "#modedesc": "&",
+                "#modevideo": "jup_hq_wz_plate_br",
+                "#tutorial": "0",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_jup_battle_royale_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_mountain",
+                "#modename": "&LUA_MENU/BR",
+                "#gamemode": "br_wz2"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&JUP_LUA_MENU/COMPETITIVE"
+                    },
+                    {
+                        "#tag": "&JUP_LUA_MENU/UNIQUE_REWARDS"
+                    }
+                ],
+                "#moderef": "WZ_RANKED",
+                "#modeicon": "jup_icon_mode_wz_ranked",
+                "#modedesc": "&",
+                "#modevideo": "jup_hq_wz_plate_resurgence_ranked",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_ranked_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_mountain",
+                "#modename": "&LUA_MENU_MP/BR_RANKED",
+                "#gamemode": "br_wz2"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&JUP_LUA_MENU/TEAMWORK"
+                    },
+                    {
+                        "#tag": "&JUP_LUA_MENU/RESPAWNS"
+                    }
+                ],
+                "#moderef": "PLUNDER",
+                "#modeicon": "jup_icon_mode_wz_plunder",
+                "#modedesc": "&",
+                "#modevideo": "jup_hq_wz_plate_plunder",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_jup_plunder_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_mountain",
+                "#modename": "&LUA_MENU/GAMEMODE_PLUNDER",
+                "#gamemode": "br_wz2"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&LUA_MENU/LOADOUT"
+                    },
+                    {
+                        "#tag": "&JUP_LUA_MENU/RESPAWNS"
+                    }
+                ],
+                "#moderef": "ZONE_CONTROL",
+                "#modeicon": "icon_mode_wz_zonecontrol",
+                "#modedesc": "&",
+                "#modevideo": "jup_hq_wz_plate_zonecontrol",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_jup_zonecontrol_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_mountain",
+                "#modename": "&LUA_MENU_MP/ZONE_CONTROL",
+                "#gamemode": "br_wz2"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&JUP_LUA_MENU/CUSTOM_GAMES"
+                    }
+                ],
+                "#moderef": "WZ_PRIVATE_MATCH",
+                "#modeicon": "jup_icon_mode_wz_br_custom",
+                "#modedesc": "&",
+                "#modevideo": "jup_hq_wz_plate_private_match",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_jup_private_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_hexagon_rotated",
+                "#modename": "&LUA_MENU/WARZONE_PRIVATE_MATCH",
+                "#gamemode": "br_wz2"
+            }
+        ],
+        "#hash_d0b3919dd53932b2": "SeasonalEvents.jupiterBlueDark",
+        "#hash_c3720967a7dd8d3c": "@#hash_cf9784d2da460681",
+        "#gameimage": "hq_bg_wz_jup",
+        "#gametitle": "&LUA_MENU/WARZONE2",
+        "#coloroverride": "SeasonalEvents.season4Primary",
+        "#hash_2da2279eef0c4d40": "",
+        "#gameref": "WZ2"
+    },
+    "#hash_23ccd624f978ae42": {
+        "#gamelogo": "jup_vertical_menu_logo",
+        "#hash_3157f395d3232adf": "hq_keyart_mw3_foreground",
+        "#gamemodes": [
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&LUA_MENU/SMALL_TO_LARGE_MAPS"
+                    },
+                    {
+                        "#tag": "&LUA_MENU/ACTION_PACKED"
+                    }
+                ],
+                "#moderef": "MP",
+                "#modeicon": "jup_icon_mode_mp_multiplayer",
+                "#modedesc": "&MENU/MULTIPLAYER_DESC",
+                "#modevideo": "hq_plate_mwiii_multiplayer_private_match",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwiii_multiplayer_private_match_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_circle",
+                "#modename": "&MENU/MULTIPLAYER",
+                "#gamemode": "mp_jup"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&MENU/POPULAR"
+                    },
+                    {
+                        "#tag": "&JUP_LUA_MENU/LAST_TEAM_STANDING"
+                    }
+                ],
+                "#moderef": "MW3_WARZONE",
+                "#modeicon": "jup_icon_mode_wz_br",
+                "#modedesc": "&",
+                "#modevideo": "jup_hq_wz_plate_br",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_jup_battle_royale_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_mountain",
+                "#modename": "&LUA_MENU/WARZONE2",
+                "#gamemode": "br_wz2"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&LUA_MENU/OPEN_WORLD"
+                    },
+                    {
+                        "#tag": "&LUA_MENU/PLAYLIST_TAG_COOP"
+                    }
+                ],
+                "#moderef": "OB",
+                "#modeicon": "jup_icon_mode_ob_wmz",
+                "#modedesc": "&MENU/OUTBREAK_DESC",
+                "#modevideo": "hq_plate_mwiii_zombies",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwiii_zombies_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_hexagon_rotated",
+                "#modename": "&LUA_MENU/OUTBREAK",
+                "#gamemode": "ob_jup"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&LUA_MENU/OPEN_WORLD"
+                    },
+                    {
+                        "#tag": "&LUA_MENU/PLAYLIST_TAG_COOP"
+                    }
+                ],
+                "#moderef": "OBPVP",
+                "#modeicon": "jup_icon_mode_ob_wmz",
+                "#modedesc": "&MENU/OUTBREAK_DESC",
+                "#modevideo": "hq_plate_mwiii_zombies",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwiii_zombies_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_hexagon_rotated",
+                "#modename": "&LUA_MENU/OBPVP",
+                "#gamemode": "ob_jup"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&LUA_MENU/LFP_COMPETITIVE"
+                    },
+                    {
+                        "#tag": "&PLAYLIST/CDL_MAPS_MODES"
+                    }
+                ],
+                "#moderef": "RANKED",
+                "#modeicon": "jup_icon_mode_ranked",
+                "#modedesc": "&",
+                "#modevideo": "hq_plate_mwiii_ranked",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_ranked_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_hexagon_rotated",
+                "#modename": "&LP/RANKED_TITLE",
+                "#gamemode": "mp_jup"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&MENU/SINGLE_PLAYER_CAPS"
+                    },
+                    {
+                        "#tag": "&MENU_SP/STORY_CAPS"
+                    }
+                ],
+                "#moderef": "SP",
+                "#modeicon": "jup_icon_mode_sp",
+                "#modedesc": "&MENU/CAMPAIGN_DESC",
+                "#modevideo": "hq_plate_mwiii_campaign",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwiii_campaign_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "jup_icon_mode_sp_shape",
+                "#modename": "&MENU/CAMPAIGN",
+                "#gamemode": "sp_jup"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&MENU/CUSTOM_MATCH"
+                    },
+                    {
+                        "#hash_da567db544b31672": true,
+                        "#tag": "&LUA_MENU_MP/BENCHMARK"
+                    }
+                ],
+                "#moderef": "PRIVATE_MATCH",
+                "#modeicon": "jup_icon_mode_mp_private_match",
+                "#modedesc": "&",
+                "#modevideo": "hq_plate_mwiii_multiplayer",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwiii_multiplayer_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_hexagon_rotated",
+                "#modename": "&LUA_MENU/PRIVATE_MATCH_CAPS",
+                "#gamemode": "mp_jup"
+            }
+        ],
+        "#hash_d0b3919dd53932b2": "",
+        "#hash_c3720967a7dd8d3c": "@#",
+        "#gameimage": "menu_keyart_mw3_background",
+        "#gametitle": "&LUA_MENU/MODERN_WARFARE_III",
+        "#coloroverride": "SeasonalEvents.Season5Primary",
+        "#hash_2da2279eef0c4d40": "",
+        "#gameref": "MW3"
+    },
+    "#hash_23ccd724f978aff5": {
+        "#gamelogo": "icon_mw2_logo_hq_row",
+        "#hash_3157f395d3232adf": "hq_seasonal_ka_mwii",
+        "#gamemodes": [
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&LUA_MENU/ACTION_PACKED"
+                    },
+                    {
+                        "#tag": "&LUA_MENU/PLAYLIST_TAG_SMALL_TEAMS"
+                    }
+                ],
+                "#moderef": "MP",
+                "#modeicon": "icon_mode_mp_quickplay",
+                "#modedesc": "&",
+                "#modevideo": "hq_plate_mwii_multiplayer",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_multiplayer_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_circle",
+                "#modename": "&MENU/MULTIPLAYER",
+                "#gamemode": "mp_iw9"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&LUA_MENU/PLAYLIST_TAG_LARGE_MAPS"
+                    },
+                    {
+                        "#tag": "&LUA_MENU/PLAYLIST_TAG_LARGE_TEAMS"
+                    }
+                ],
+                "#moderef": "MASSIVE_MP",
+                "#modeicon": "icon_mode_mp_gw_invasion",
+                "#modedesc": "&",
+                "#modevideo": "hq_plate_mwii_ground_war",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_ground_war_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_homeplate",
+                "#modename": "&LUA_MENU_MP/ARMSRACE",
+                "#gamemode": "massive_mp_iw9"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&MENU_SP/STORY_CAPS"
+                    },
+                    {
+                        "#tag": "&LUA_MENU_MP/RULES_TEAMS_SQUADS"
+                    }
+                ],
+                "#moderef": "RAID",
+                "#modeicon": "icon_mode_cp_raid",
+                "#modedesc": "&",
+                "#modevideo": "hq_plate_mwii_cp_raid",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_cp_raid_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_homeplate",
+                "#modename": "&LUA_MENU/PLAYLIST_TAG_COOP_RAID",
+                "#gamemode": "raid_iw9"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&LUA_MENU/PLAYLIST_TAG_COOP"
+                    },
+                    {
+                        "#tag": "&LUA_MENU_MP/RULES_TEAMS_SQUADS"
+                    }
+                ],
+                "#moderef": "COOP",
+                "#modeicon": "icon_mode_cp",
+                "#modedesc": "&",
+                "#modevideo": "hq_plate_mwii_cp_mission",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_cp_mission_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_homeplate",
+                "#modename": "&LUA_MENU/COOP_CAPS",
+                "#gamemode": "cp_iw9"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&LUA_MENU/LFP_COMPETITIVE"
+                    },
+                    {
+                        "#tag": "&LUA_MENU/PLAYLIST_TAG_SMALL_TEAMS"
+                    }
+                ],
+                "#moderef": "RANKED",
+                "#modeicon": "icon_mode_mp_ranked",
+                "#modedesc": "&",
+                "#modevideo": "hq_plate_mwii_ranked",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_ranked_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_hexagon_rotated",
+                "#modename": "&MENU/RANKEDPLAY",
+                "#gamemode": "mp_iw9"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&MENU_SP/STORY_CAPS"
+                    },
+                    {
+                        "#tag": "&MENU/SINGLE_PLAYER_CAPS"
+                    }
+                ],
+                "#moderef": "SP",
+                "#modeicon": "icon_mode_sp",
+                "#modedesc": "&",
+                "#modevideo": "hq_plate_mwii_campaign",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_campaign_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_homeplate",
+                "#modename": "&MENU/CAMPAIGN",
+                "#gamemode": "sp_iw9"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&MENU/CUSTOM_MATCH"
+                    }
+                ],
+                "#moderef": "PRIVATE_MATCH",
+                "#modeicon": "icon_mode_mp_custom",
+                "#modedesc": "&",
+                "#modevideo": "hq_plate_mwii_private_match",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_mwii_private_match_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_circle",
+                "#modename": "&LUA_MENU/PRIVATE_MATCH_CAPS",
+                "#gamemode": "private_match_iw9"
+            },
+            {
+                "#hash_6c79abbdb334433": [
+                    {
+                        "#tag": "&JUP_LUA_MENU/EXTRACTION"
+                    },
+                    {
+                        "#tag": "&JUP_LUA_MENU/PROGRESSION"
+                    }
+                ],
+                "#moderef": "DMZ",
+                "#modeicon": "icon_mode_dmz",
+                "#modedesc": "&",
+                "#modevideo": "hq_plate_wz_dmz",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "hq_plate_wz_dmz_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "hud_splash_gamemode_hexagon_rotated",
+                "#modename": "&LUA_MENU/DMZ",
+                "#gamemode": "dmz_iw9"
+            }
+        ],
+        "#hash_d0b3919dd53932b2": "",
+        "#hash_c3720967a7dd8d3c": "@#hash_9994f11d98915dee",
+        "#gameimage": "hq_bg_mwii",
+        "#gametitle": "&LUA_MENU/MODERN_WARFARE_II",
+        "#coloroverride": "IW9StyleGuide.styleGuideAccentMain",
+        "#hash_2da2279eef0c4d40": "",
+        "#gameref": "MW2"
+    },
+    "#hash_3b62a66fb25c670d": {
+        "#gamelogo": "ui_icon_branding_cerberus",
+        "#hash_3157f395d3232adf": "$black",
+        "#gamemodes": [
+            {
+                "#hash_6c79abbdb334433": [],
+                "#moderef": "MP",
+                "#modeicon": "icon_mode_mp_quickplay",
+                "#modedesc": "&MENU/MULTIPLAYER_DESC",
+                "#modevideo": "menu_backplate_gun_fight",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "menu_keyart_gun_fight_layer00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "",
+                "#modename": "&MENU/MULTIPLAYER",
+                "#gamemode": "mp_t10"
+            },
+            {
+                "#hash_6c79abbdb334433": [],
+                "#moderef": "ZM",
+                "#modeicon": "icon_mode_cp",
+                "#modedesc": "&",
+                "#modevideo": "",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "menu_keyart_shoot_the_ship_layer_00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "",
+                "#modename": "&LUA_MENU_T10/ZM",
+                "#gamemode": "zm_t10"
+            },
+            {
+                "#hash_6c79abbdb334433": [],
+                "#moderef": "SP",
+                "#modeicon": "icon_mode_cp",
+                "#modedesc": "&",
+                "#modevideo": "",
+                "#tutorial": "",
+                "#hash_a6948e7ea34cd22c": "menu_keyart_shoot_the_ship_layer_00",
+                "#hash_a6948f7ea34cd45f": "",
+                "#hash_2d081f34715f85b4": "",
+                "#modename": "&MENU/SINGLE_PLAYER",
+                "#gamemode": "sp_t10"
+            }
+        ],
+        "#hash_d0b3919dd53932b2": "",
+        "#hash_c3720967a7dd8d3c": "@#",
+        "#gameimage": "menu_keyart_bigwar_moshpit_layer_00",
+        "#gametitle": "&",
+        "#coloroverride": "",
+        "#hash_2da2279eef0c4d40": "",
+        "#gameref": "CER"
+    }
+}

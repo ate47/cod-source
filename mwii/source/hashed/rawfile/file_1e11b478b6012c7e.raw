@@ -1,0 +1,13 @@
+main()
+{
+	level._effect[ "vfx_fire_sml" ]     = LoadFX( "vfx/iw8_mp/gen_amb/vfx_fire_sml.vfx" );
+	level._effect[ "vfx_muzzle_flash" ] = LoadFX( "vfx/iw9/core/weapons/muzzleflash/ar/vfx_muz_ar_mike4.vfx" );
+	level._effect[ "swim_exit_water" ]  = LoadFX( "vfx/iw9/core/swimming/vfx_swim_exit_water_screen.vfx" );
+	level._effect[ "swim_enter_water" ]  = LoadFX( "vfx/iw9/core/swimming/vfx_swim_submerge_bubbles_2.vfx" );
+/#
+	if ( GetDvar( #d"clientSideEffects" ) != "1" )
+	{
+	}
+#/
+
+}

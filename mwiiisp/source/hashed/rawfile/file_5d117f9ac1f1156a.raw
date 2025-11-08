@@ -1,0 +1,42 @@
+%force_cs_anim_index_match
+
+casual_move_loop : blendspace1d( range="45,250", blend_time="500", coords="64,72,72.1,80,110,116", value=[desiredspeed] ) loopsync phase_sync_leader phase_sync_follower
+{
+	jup_civ_pnc_upstairs_fast_min : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_stairs_down_fast01_spdscaled_min	//64
+		
+	}	
+	jup_civ_pnc_upstairs_fast_max : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_stairs_down_fast01_spdscaled_max	//72
+		
+	}
+	jup_civ_pnc_upstairs_jog_min : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_stairs_down_jog01_spdscaled_min	//75
+		jup_civ_pnc_stairs_down_jog02_spdscaled_min	//75
+		
+	}
+	jup_civ_pnc_upstairs_jog_max : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_stairs_down_jog01_spdscaled_max	//80
+		jup_civ_pnc_stairs_down_jog02_spdscaled_max	//80
+	
+	}
+	jup_civ_pnc_upstairs_run_min : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_stairs_down_run01_spdscaled_min		//103
+		jup_civ_pnc_stairs_down_run02_spdscaled_min		//100
+		jup_civ_pnc_stairs_down_run03_spdscaled_min		//106
+
+	}
+	jup_civ_pnc_upstairs_run_max : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_stairs_down_run01_spdscaled_max		//103
+		jup_civ_pnc_stairs_down_run02_spdscaled_max		//116
+		jup_civ_pnc_stairs_down_run03_spdscaled_max		//118
+		
+	}
+	
+}

@@ -1,0 +1,135 @@
+{
+    "name": "#veh_bo3_mil_gunship_mp",
+    "type": "helicopter",
+    "scoreType": "none",
+    "cameraTag": "tag_barrel",
+    "archeType": "#mothership",
+    "unk38": "#none",
+    "spawnerType": "#none",
+    "spawnInfluencers1": "#none",
+    "spawnInfluencers2": "#none",
+    "scriptBundleSettings": "#gunshipsettings_mp",
+    "deathFx": "#hash_2dd59b07c2ea8004",
+    "deathFxTag": "tag_deathfx",
+    "deathFxSound": "#hash_347fbe348869aaa7",
+    "lightFx": [
+        "#hash_f1d44009bb4439b"
+    ],
+    "lightFxTag": [
+        "tag_body"
+    ],
+    "driverHideTag": "tag_barrel",
+    "skidSpeedMin": 100,
+    "skidSpeedMax": 600,
+    "peelSpeedMax": 600,
+    "model": "#veh_t7_mil_gunship_dest",
+    "deathModel": "#veh_t7_mil_gunship_dead",
+    "soundDef": "#hash_3726f6b1268dcd90",
+    "compassIconMaterial": "#compass_vtol",
+    "destructibleDef": "#hash_54873aaff78c68a6",
+    "steerAxisName": "AXIS_LSTICK",
+    "attackButtonName": "BUTTON_RTRIG",
+    "attackSecondaryButtonName": "BUTTON_RSHLDR",
+    "bundle": {
+        "huds": [
+            {
+                "bindings": [
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_5e774929c0bba30e",
+                        "hash_334a8e60": "left",
+                        "prompt": "+gostand"
+                    },
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_4c7d903a026627fc",
+                        "hash_334a8e60": "left",
+                        "prompt": "+activate"
+                    },
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_5f6588c74f549827",
+                        "hash_334a8e60": "left",
+                        "prompt": "+vehicleattack"
+                    },
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_64d22aa20ae809f",
+                        "hash_334a8e60": "left",
+                        "prompt": "+speed_throw"
+                    }
+                ],
+                "hash_56985ec1": 0,
+                "hideweaponinfo": 0,
+                "hash_24c083a4": 0,
+                "vehiclehud": "VHUD_MS_Gunner",
+                "hash_bf777968": "1 1 1 1",
+                "hash_9b2a3de7": "IsAttackMode"
+            },
+            {
+                "bindings": [
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_5e774929c0bba30e",
+                        "hash_334a8e60": "left",
+                        "prompt": "+gostand"
+                    },
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_4c7d903a026627fc",
+                        "hash_334a8e60": "left",
+                        "prompt": "+activate"
+                    },
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_7eb83df88eccff19",
+                        "hash_334a8e60": "left",
+                        "prompt": "+smoke"
+                    },
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_5f6588c74f549827",
+                        "hash_334a8e60": "left",
+                        "prompt": "+vehicleattack"
+                    },
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_1a14ac950dd062ca",
+                        "hash_334a8e60": "left",
+                        "prompt": "+vehicleattacksecond"
+                    },
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "displaystring": "localized17#hash_64d22aa20ae809f",
+                        "hash_334a8e60": "left",
+                        "prompt": "+speed_throw"
+                    },
+                    {
+                        "none": "#none",
+                        "cooldownindex": 0,
+                        "hash_334a8e60": "left",
+                        "prompt": "+attack"
+                    }
+                ],
+                "hash_56985ec1": 0,
+                "hideweaponinfo": 0,
+                "hash_24c083a4": 0,
+                "vehiclehud": "VHUD_MS",
+                "hash_bf777968": "1 1 1 1",
+                "hash_9b2a3de7": "IsVehicleOwner"
+            }
+        ],
+        "healthpoolsize": 650,
+        "hash_7812fce8": 2
+    }
+}

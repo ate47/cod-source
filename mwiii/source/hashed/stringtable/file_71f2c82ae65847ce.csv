@@ -1,0 +1,10 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/br_preview/lootset_root.csv,,,,
+reqAdd,weapon&[4],1,,,
+reqAdd,plate_carrier,1,,,
+reqAdd,brPowerItem,1,,,
+reqAdd,support,1,,,
+reqAdd,brloot_armor_plate,2,,,
+reqAdd,plunder,1,,,
+reqAdd,brloot_access_card_bunker,1,1,,
+reqLimit,plate_carrier,1,,,

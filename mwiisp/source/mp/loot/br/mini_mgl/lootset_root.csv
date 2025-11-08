@@ -1,0 +1,78 @@
+string,string,string,string,string,string,string,string,string,string,string,string,string,string
+setchancecol,mp/loot/br/mini_mgl/lootset_root.csv,2,,# root,,# column 0 is "Item"/"chance" etc, column 1 is the name, so first weight is in column 2,,,,,,,
+setchancecol,mp/loot/br/mini_mgl/lootset_global.csv,3,,# global,,,,,,,,,
+setchancecol,mp/loot/br/mini_mgl/lootset_cache_base.csv,4,,# cache_base,,,,,,,,,
+setchancecol,mp/loot/br/mini_mgl/lootset_cache_lege.csv,5,,# cache_lege,,,,,,,,,
+setchancecol,mp/loot/br/mini_mgl/lootset_empty.csv,6,,# N/A,,,,,,,,,
+setchancecol,mp/loot/br/mini_mgl/lootset_buildings.csv,7,,# buildings,,,,,,,,,
+setchancecol,mp/loot/br/mini_mgl/lootset_buildings_abundant.csv,8,,# abundant,,,,,,,,,
+setchancecol,mp/loot/br/mini_mgl/lootset_contract_asn.csv,9,,# contract_asn,,,,,,,,,
+setchancecol,mp/loot/br/mini_mgl/lootset_contract_dom.csv,10,,# contract_dom,,,,,,,,,
+setchancecol,mp/loot/br/mini_mgl/lootset_contract_scav1.csv,11,,# contract_scav1,,,,,,,,,
+setchancecol,mp/loot/br/mini_mgl/lootset_contract_scav2.csv,12,,# contract_scav2,,,,,,,,,
+setchancecol,mp/loot/br/mini_mgl/lootset_contract_scav3.csv,13,,# contract_scav3,,,,,,,,,
+Central Control,,,,,,,,,,,,,
+chance,ammo,,35,5,5,0,35,35,5,5,5,5,5
+chance,lethal,,4,20,15,0,4,4,20,20,20,20,20
+chance,tactical,,4,20,15,0,4,4,20,20,20,20,20
+chance,weapon,,15,1,1,0,15,15,5,5,1,5,5
+chance,killstreak,,4,10,10,0,4,4,10,10,10,10,10
+chance,super,,4,10,10,0,4,4,10,10,10,10,10
+chance,revive,,2,5,10,0,2,2,5,5,5,5,5
+chance,gear,,2,5,10,0,2,2,5,5,5,5,5
+chance,health,,14,10,10,0,14,14,10,10,10,10,10
+chance,plunder,,6,10,10,0,6,6,10,10,10,10,10
+chance,tablet,,2,0,0,0,2,2,0,0,0,0,0
+item,brloot_equip_gasmask,,90,70,50,0,85,80,50,50,50,50,50
+item,brloot_equip_gasmask_durable,,10,30,50,0,15,20,50,50,50,50,50
+item,brloot_armor_plate,,100,96,90,,100,100,96,96,96,96,100
+item,brloot_plate_pouch,,0,4,10,,0,0,4,4,4,4,0
+item,brloot_self_revive,,100,100,100,0,100,100,100,100,100,100,100
+item,brloot_ammo_12g,,10,10,10,0,10,10,10,10,10,10,10
+item,brloot_ammo_50cal,,15,15,15,0,15,15,15,15,15,15,15
+item,brloot_ammo_762,,35,35,35,0,35,35,35,35,35,35,35
+item,brloot_ammo_919,,35,35,35,0,35,35,35,35,35,35,35
+item,brloot_ammo_rocket,,5,5,5,0,5,5,5,5,5,5,5
+rarity,0_lethal,,50,30,30,0,50,50,30,30,30,30,30
+rarity,1_lethal,,30,40,40,0,30,30,40,40,40,40,40
+rarity,2_lethal,,20,30,30,0,20,20,30,30,30,30,30
+rarity,3_lethal,,0,0,0,0,0,0,0,0,0,0,0
+rarity,4_lethal,,0,0,0,0,0,0,0,0,0,0,0
+rarity,0_tactical,,50,40,40,0,50,50,40,40,40,40,40
+rarity,1_tactical,,50,60,60,0,50,50,60,60,60,60,60
+rarity,2_tactical,,10,10,20,0,10,10,10,10,10,10,10
+rarity,3_tactical,,0,0,0,0,0,0,0,0,0,0,0
+rarity,4_tactical,,0,0,0,0,0,0,0,0,0,0,0
+rarity,0_super,,0,0,0,0,0,0,0,0,0,0,0
+rarity,1_super,,0,0,0,0,0,0,0,0,0,0,0
+rarity,2_super,,60,60,60,0,60,60,60,60,60,60,60
+rarity,3_super,,20,20,20,0,20,20,20,20,20,20,20
+rarity,4_super,,20,20,20,0,20,20,20,20,20,20,20
+item,brloot_offhand_advancedsupplydrop,,0,0,0,0,0,0,0,0,0,0,0
+rarity,0_killstreak,,0,0,0,0,0,0,0,0,0,0,0
+rarity,1_killstreak,,0,0,0,0,0,0,0,0,0,0,0
+rarity,2_killstreak,,70,60,60,0,70,70,60,60,60,60,60
+rarity,3_killstreak,,20,25,25,0,20,20,25,25,25,25,25
+rarity,4_killstreak,,10,15,15,0,10,10,15,15,15,15,15
+item,brloot_killstreak_precision_airstrike_mgl,,50,50,50,0,50,50,50,50,50,50,50
+item,brloot_killstreak_uav_mgl,,40,40,40,0,40,40,40,40,40,40,40
+item,brloot_killstreak_auav_mgl,,10,10,10,0,10,10,10,10,10,10,10
+rarity,0_weapon,,40,32,0,0,40,40,32,32,32,32,32
+rarity,1_weapon,,24,30,0,0,24,24,30,30,30,30,30
+rarity,2_weapon,,24,18,30,0,24,24,18,18,18,18,18
+rarity,3_weapon,,12,18,40,0,12,12,18,18,18,18,18
+rarity,4_weapon,,0,6,30,0,0,0,6,6,6,6,6
+item,brloot_plunder_cash_common_1,,55,0,0,0,0,0,0,0,0,0,0
+item,brloot_plunder_cash_uncommon_1,,40,30,0,0,50,50,25,25,25,25,25
+item,brloot_plunder_cash_uncommon_2,,5,30,0,0,35,30,25,25,25,25,25
+item,brloot_plunder_cash_uncommon_3,,0,20,50,0,15,10,35,35,35,35,35
+item,brloot_plunder_cash_rare_1,,0,15,30,0,0,10,15,15,15,15,15
+item,brloot_plunder_cash_rare_2,,0,5,10,0,0,0,0,0,0,0,0
+item,brloot_plunder_cash_epic_1,,0,0,10,0,0,0,0,0,0,0,0
+item,brloot_plunder_cash_epic_2,,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_plunder_cash_legendary_1,,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_assassination_tablet_mgl,,20,0,0,0,20,20,0,0,0,0,0
+item,brloot_domination_tablet_mgl,,20,0,0,0,20,20,0,0,0,0,0
+item,brloot_scavenger_tablet_mgl,,20,0,0,0,20,20,0,0,0,0,0
+item,brloot_timedrun_tablet_mgl,,20,0,0,0,20,20,0,0,0,0,0
+item,brloot_vip_tablet_mgl,,20,0,0,0,20,20,0,0,0,0,0

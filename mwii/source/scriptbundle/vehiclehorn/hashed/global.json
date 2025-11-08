@@ -1,0 +1,40 @@
+{
+    "#hash_7bb050f2164b0f6c": {
+        "#image": "vehicle_horn_preview",
+        "#unlocktype": "NONE",
+        "#rarity": "COMMON",
+        "#lootid": 11971,
+        "#hash_64ecb2fb1eb743a6": "WZ2,IW9",
+        "#availableoffline": true,
+        "#hash_3eeaa9972cd0580b": "WZ2,IW9",
+        "#uialias": "#hash_46d44296a7ef2a94",
+        "#name": "&VEHICLES/VEH_HORN_DEFAULT",
+        "#aliasoverrides": [
+            {
+                "#alias": "#veh9_mil_lnd_atv_horn",
+                "#aliasui": "ui_horn_default_atango",
+                "#vehicle": "ATV"
+            },
+            {
+                "#alias": "#veh9_mil_lnd_cargo_truck_horn",
+                "#aliasui": "ui_horn_default_mkilo",
+                "#vehicle": "CARGO_TRUCK"
+            },
+            {
+                "#alias": "#veh9_civ_lnd_suv_1996_horn",
+                "#aliasui": "ui_horn_default_decho",
+                "#vehicle": "JEEP"
+            },
+            {
+                "#alias": "#veh9_mil_air_lbravo_horn",
+                "#aliasui": "ui_horn_default_lbravo",
+                "#vehicle": "LITTLE_BIRD"
+            },
+            {
+                "#alias": "#veh9_mil_lnd_utv_horn",
+                "#aliasui": "ui_horn_default_tromeo",
+                "#vehicle": "TAC_ROVER"
+            }
+        ]
+    }
+}

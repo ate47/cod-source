@@ -1,0 +1,600 @@
+{
+    "#hash_4725c8dee627919d": {
+        "#mtx": [],
+        "#ai": {
+            "#templateclass": "default"
+        },
+        "#id": 3,
+        "#occupancy": {
+            "#threatbiasgroup": "Level_Vehicle",
+            "#damagefeedbackgroupheavy": "all",
+            "#roofexittype": "no_roof_exit",
+            "#camera": "none",
+            "#damagefeedbackgrouplight": "driver"
+        },
+        "#aianimations": [],
+        "#horns": [],
+        "#lights": [],
+        "#spawn": {
+            "#maxinstancecount": 2,
+            "#clearancecheckradius": 125,
+            "#clearancecheckheight": 82,
+            "#hash_1ad50a59da38c8f5": true,
+            "#priority": 75
+        },
+        "#airdrop": {
+            "#earthquakeradius": 800,
+            "#planeanim": {},
+            "#physicsscale": 0.5,
+            "#realvehicleanim": {},
+            "#earthquakeduration": 0.7,
+            "#vehiclemodelanim": {},
+            "#earthquakescale": 0.3,
+            "#physicsinnerradius": 400,
+            "#physicsouterradius": 800,
+            "#planeparts": [],
+            "#parachuteanim": {}
+        },
+        "#targetname": "tacrover_spawn",
+        "#huskexplosion": {
+            "#earthquakeradius": 385,
+            "#physicsscale": 1,
+            "#maxdamage": 140,
+            "#tag": "tag_origin",
+            "#earthquakeduration": 1.5,
+            "#sfx": "veh9_dmg_mil_lnd_utv_husk_explode",
+            "#damageoffset": {},
+            "#radius": 256,
+            "#earthquakescale": 0.8,
+            "#mindamage": 70,
+            "#physicsinnerradius": 200,
+            "#physicsouterradius": 500
+        },
+        "#tricks": [],
+        "#pingicon": "hud_icon_vehicle_tac_rover",
+        "#damage": {
+            "#falldamagemultiplier": 1,
+            "#hash_3259f2f4faf8eaa8": 5,
+            "#huskforcemultiplier": 1,
+            "#mineextents": {
+                "#left": 50,
+                "#front": 125,
+                "#top": 50,
+                "#right": 50,
+                "#back": 130,
+                "#bottom": 50
+            },
+            "#distancetobottom": 38,
+            "#hash_5c7f497b7ee6ee55": 1,
+            "#hash_10175926aeb1591e": 2304,
+            "#agentdamagemultiplier": 0.5,
+            "#health": 750,
+            "#explosionextents": {
+                "#left": 50,
+                "#front": 125,
+                "#top": 50,
+                "#right": 50,
+                "#back": 130,
+                "#bottom": 50
+            },
+            "#hash_6c10b5dc07fd6459": 1,
+            "#explosivehitsperattack": 2,
+            "#scrapassist": true,
+            "#hash_8e266d8413972567": {},
+            "#class": "light",
+            "#heavystatehealthadd": 250,
+            "#hash_96f121d1edfdb0cb": 1,
+            "#maxhits": 5
+        },
+        "#seats": [
+            {
+                "#onenterbattlechatter": "driver",
+                "#animtag": "tag_seat_0",
+                "#exitids": [
+                    {
+                        "#exitdirection": "driver"
+                    },
+                    {
+                        "#exitdirection": "back_left"
+                    },
+                    {
+                        "#exitdirection": "back"
+                    },
+                    {
+                        "#exitdirection": "front_right"
+                    },
+                    {
+                        "#exitdirection": "front"
+                    }
+                ],
+                "#ref": "driver",
+                "#restrictions": "driver",
+                "#damagemodifier": -1,
+                "#spawnpriority": 10,
+                "#hash_dcfc487f4ef1103c": -1
+            },
+            {
+                "#onenterbattlechatter": "rider",
+                "#animtag": "tag_seat_1",
+                "#exitids": [
+                    {
+                        "#exitdirection": "front_right"
+                    },
+                    {
+                        "#exitdirection": "back_right"
+                    },
+                    {
+                        "#exitdirection": "back"
+                    },
+                    {
+                        "#exitdirection": "driver"
+                    },
+                    {
+                        "#exitdirection": "front"
+                    }
+                ],
+                "#hidestowedweapon": true,
+                "#ref": "front_right",
+                "#restrictions": "combat_passenger",
+                "#damagemodifier": -1,
+                "#hash_dcfc487f4ef1103c": -1,
+                "#omnvarid": 1
+            },
+            {
+                "#onenterbattlechatter": "rider",
+                "#animtag": "tag_seat_3",
+                "#exitids": [
+                    {
+                        "#exitdirection": "back_right"
+                    },
+                    {
+                        "#exitdirection": "front_right"
+                    },
+                    {
+                        "#exitdirection": "back"
+                    },
+                    {
+                        "#exitdirection": "back_left"
+                    },
+                    {
+                        "#exitdirection": "front"
+                    }
+                ],
+                "#hidestowedweapon": true,
+                "#ref": "back_right",
+                "#restrictions": "combat_passenger",
+                "#damagemodifier": -1,
+                "#hash_dcfc487f4ef1103c": -1,
+                "#omnvarid": 3
+            },
+            {
+                "#onenterbattlechatter": "rider",
+                "#animtag": "tag_seat_2",
+                "#exitids": [
+                    {
+                        "#exitdirection": "back_left"
+                    },
+                    {
+                        "#exitdirection": "driver"
+                    },
+                    {
+                        "#exitdirection": "back"
+                    },
+                    {
+                        "#exitdirection": "back_right"
+                    },
+                    {
+                        "#exitdirection": "front"
+                    }
+                ],
+                "#hidestowedweapon": true,
+                "#ref": "back_left",
+                "#restrictions": "combat_passenger",
+                "#damagemodifier": -1,
+                "#hash_dcfc487f4ef1103c": -1,
+                "#omnvarid": 2
+            }
+        ],
+        "#husk": {
+            "#abovevelocityscale": 1,
+            "#timeout": 60,
+            "#vdef": "vehicle/husk_sink_immediately.vdef",
+            "#belowvelocityscale": 1.5,
+            "#momentumthreshold": 20
+        },
+        "#hash_22dfbca89a3af942": 72,
+        "#ref": "tac_rover",
+        "#damageableparts": [],
+        "#model": "veh8_mil_lnd_tromeo_physics_mp",
+        "#weapon": "tac_rover_mp",
+        "#pristineexplosion": {
+            "#earthquakeradius": 385,
+            "#physicsscale": 1,
+            "#maxdamage": 140,
+            "#tag": "tag_body_animate",
+            "#vfx": "vfx/iw9/core/explosions/vehicles/vfx_explo_vehicle_small",
+            "#earthquakeduration": 1.5,
+            "#damageoffset": {},
+            "#radius": 256,
+            "#earthquakescale": 0.8,
+            "#mindamage": 70,
+            "#physicsinnerradius": 200,
+            "#physicsouterradius": 500
+        },
+        "#extraexits": [
+            {
+                "#offset": {
+                    "#x": 58,
+                    "#z": 55
+                },
+                "#ref": "front",
+                "#direction": "front"
+            },
+            {
+                "#offset": {
+                    "#x": -65,
+                    "#z": 65
+                },
+                "#ref": "back",
+                "#direction": "back"
+            },
+            {
+                "#offset": {
+                    "#y": 13,
+                    "#x": 10,
+                    "#z": 48
+                },
+                "#ref": "driver",
+                "#direction": "front"
+            },
+            {
+                "#offset": {
+                    "#y": -13,
+                    "#x": 10,
+                    "#z": 48
+                },
+                "#ref": "front_right",
+                "#direction": "right"
+            },
+            {
+                "#offset": {
+                    "#y": 13,
+                    "#x": -25,
+                    "#z": 55
+                },
+                "#ref": "back_left",
+                "#direction": "left"
+            },
+            {
+                "#offset": {
+                    "#y": -13,
+                    "#x": -25,
+                    "#z": 55
+                },
+                "#ref": "back_right",
+                "#direction": "right"
+            }
+        ],
+        "#aiseats": [],
+        "#unloadgroups": [],
+        "#interact": {
+            "#burndowntimerangle": 90,
+            "#maxfuel": 180,
+            "#depththreshold": 20,
+            "#hash_4c6d695d0920df19": 130,
+            "#hash_4c4a7b5d08fabef7": 170,
+            "#hash_b1fc50342f9a99dd": 135,
+            "#bctypename": "generic",
+            "#floattime": 8,
+            "#hash_23f37e83b1cafb10": 30
+        },
+        "#transitionparts": [],
+        "#exitextents": {
+            "#left": 34,
+            "#front": 85,
+            "#top": 82,
+            "#right": 34,
+            "#back": 82
+        },
+        "#vehicle": "tromeo_physics_mp"
+    },
+    "#hash_4739acdee6380b13": {
+        "#mtx": [],
+        "#ai": {
+            "#templateclass": "default"
+        },
+        "#id": 3,
+        "#occupancy": {
+            "#threatbiasgroup": "Level_Vehicle",
+            "#damagefeedbackgroupheavy": "all",
+            "#roofexittype": "no_roof_exit",
+            "#camera": "none",
+            "#damagefeedbackgrouplight": "driver"
+        },
+        "#aianimations": [],
+        "#horns": [],
+        "#lights": [],
+        "#spawn": {
+            "#maxinstancecount": 2,
+            "#clearancecheckradius": 125,
+            "#clearancecheckheight": 82,
+            "#hash_1ad50a59da38c8f5": true,
+            "#priority": 75
+        },
+        "#airdrop": {
+            "#earthquakeradius": 800,
+            "#planeanim": {},
+            "#physicsscale": 0.5,
+            "#realvehicleanim": {},
+            "#earthquakeduration": 0.7,
+            "#vehiclemodelanim": {},
+            "#earthquakescale": 0.3,
+            "#physicsinnerradius": 400,
+            "#physicsouterradius": 800,
+            "#planeparts": [],
+            "#parachuteanim": {}
+        },
+        "#targetname": "tacrover_spawn",
+        "#huskexplosion": {
+            "#earthquakeradius": 385,
+            "#physicsscale": 1,
+            "#maxdamage": 140,
+            "#tag": "tag_origin",
+            "#earthquakeduration": 1.5,
+            "#sfx": "veh9_dmg_mil_lnd_utv_husk_explode",
+            "#damageoffset": {},
+            "#radius": 256,
+            "#earthquakescale": 0.8,
+            "#mindamage": 70,
+            "#physicsinnerradius": 200,
+            "#physicsouterradius": 500
+        },
+        "#tricks": [],
+        "#pingicon": "hud_icon_vehicle_tac_rover",
+        "#damage": {
+            "#falldamagemultiplier": 1,
+            "#hash_3259f2f4faf8eaa8": 5,
+            "#huskforcemultiplier": 1,
+            "#mineextents": {
+                "#left": 50,
+                "#front": 125,
+                "#top": 50,
+                "#right": 50,
+                "#back": 130,
+                "#bottom": 50
+            },
+            "#distancetobottom": 38,
+            "#hash_5c7f497b7ee6ee55": 1,
+            "#hash_10175926aeb1591e": 2304,
+            "#agentdamagemultiplier": 0.5,
+            "#health": 750,
+            "#explosionextents": {
+                "#left": 50,
+                "#front": 125,
+                "#top": 50,
+                "#right": 50,
+                "#back": 130,
+                "#bottom": 50
+            },
+            "#hash_6c10b5dc07fd6459": 1,
+            "#explosivehitsperattack": 2,
+            "#scrapassist": true,
+            "#hash_8e266d8413972567": {},
+            "#class": "light",
+            "#heavystatehealthadd": 250,
+            "#hash_96f121d1edfdb0cb": 1,
+            "#maxhits": 5
+        },
+        "#seats": [
+            {
+                "#onenterbattlechatter": "driver",
+                "#animtag": "tag_seat_0",
+                "#exitids": [
+                    {
+                        "#exitdirection": "driver"
+                    },
+                    {
+                        "#exitdirection": "back_left"
+                    },
+                    {
+                        "#exitdirection": "back"
+                    },
+                    {
+                        "#exitdirection": "front_right"
+                    },
+                    {
+                        "#exitdirection": "front"
+                    }
+                ],
+                "#ref": "driver",
+                "#restrictions": "driver",
+                "#damagemodifier": -1,
+                "#spawnpriority": 10,
+                "#hash_dcfc487f4ef1103c": -1
+            },
+            {
+                "#onenterbattlechatter": "rider",
+                "#animtag": "tag_seat_1",
+                "#exitids": [
+                    {
+                        "#exitdirection": "front_right"
+                    },
+                    {
+                        "#exitdirection": "back_right"
+                    },
+                    {
+                        "#exitdirection": "back"
+                    },
+                    {
+                        "#exitdirection": "driver"
+                    },
+                    {
+                        "#exitdirection": "front"
+                    }
+                ],
+                "#hidestowedweapon": true,
+                "#ref": "front_right",
+                "#restrictions": "combat_passenger",
+                "#damagemodifier": -1,
+                "#hash_dcfc487f4ef1103c": -1,
+                "#omnvarid": 1
+            },
+            {
+                "#onenterbattlechatter": "rider",
+                "#animtag": "tag_seat_3",
+                "#exitids": [
+                    {
+                        "#exitdirection": "back_right"
+                    },
+                    {
+                        "#exitdirection": "front_right"
+                    },
+                    {
+                        "#exitdirection": "back"
+                    },
+                    {
+                        "#exitdirection": "back_left"
+                    },
+                    {
+                        "#exitdirection": "front"
+                    }
+                ],
+                "#hidestowedweapon": true,
+                "#ref": "back_right",
+                "#restrictions": "combat_passenger",
+                "#damagemodifier": -1,
+                "#hash_dcfc487f4ef1103c": -1,
+                "#omnvarid": 3
+            },
+            {
+                "#onenterbattlechatter": "rider",
+                "#animtag": "tag_seat_2",
+                "#exitids": [
+                    {
+                        "#exitdirection": "back_left"
+                    },
+                    {
+                        "#exitdirection": "driver"
+                    },
+                    {
+                        "#exitdirection": "back"
+                    },
+                    {
+                        "#exitdirection": "back_right"
+                    },
+                    {
+                        "#exitdirection": "front"
+                    }
+                ],
+                "#hidestowedweapon": true,
+                "#ref": "back_left",
+                "#restrictions": "combat_passenger",
+                "#damagemodifier": -1,
+                "#hash_dcfc487f4ef1103c": -1,
+                "#omnvarid": 2
+            }
+        ],
+        "#husk": {
+            "#abovevelocityscale": 1,
+            "#timeout": 60,
+            "#vdef": "vehicle/husk_sink_immediately.vdef",
+            "#belowvelocityscale": 1.5,
+            "#momentumthreshold": 20
+        },
+        "#hash_22dfbca89a3af942": 72,
+        "#ref": "tac_rover",
+        "#damageableparts": [],
+        "#model": "veh8_mil_lnd_tromeo_physics_mp",
+        "#weapon": "tac_rover_mp",
+        "#pristineexplosion": {
+            "#earthquakeradius": 385,
+            "#physicsscale": 1,
+            "#maxdamage": 140,
+            "#tag": "tag_body_animate",
+            "#vfx": "vfx/iw9/core/explosions/vehicles/vfx_explo_vehicle_small",
+            "#earthquakeduration": 1.5,
+            "#damageoffset": {},
+            "#radius": 256,
+            "#earthquakescale": 0.8,
+            "#mindamage": 70,
+            "#physicsinnerradius": 200,
+            "#physicsouterradius": 500
+        },
+        "#extraexits": [
+            {
+                "#offset": {
+                    "#x": 58,
+                    "#z": 55
+                },
+                "#ref": "front",
+                "#direction": "front"
+            },
+            {
+                "#offset": {
+                    "#x": -65,
+                    "#z": 65
+                },
+                "#ref": "back",
+                "#direction": "back"
+            },
+            {
+                "#offset": {
+                    "#y": 13,
+                    "#x": 10,
+                    "#z": 48
+                },
+                "#ref": "driver",
+                "#direction": "front"
+            },
+            {
+                "#offset": {
+                    "#y": -13,
+                    "#x": 10,
+                    "#z": 48
+                },
+                "#ref": "front_right",
+                "#direction": "right"
+            },
+            {
+                "#offset": {
+                    "#y": 13,
+                    "#x": -25,
+                    "#z": 55
+                },
+                "#ref": "back_left",
+                "#direction": "left"
+            },
+            {
+                "#offset": {
+                    "#y": -13,
+                    "#x": -25,
+                    "#z": 55
+                },
+                "#ref": "back_right",
+                "#direction": "right"
+            }
+        ],
+        "#aiseats": [],
+        "#unloadgroups": [],
+        "#interact": {
+            "#burndowntimerangle": 90,
+            "#maxfuel": 180,
+            "#depththreshold": 20,
+            "#hash_4c6d695d0920df19": 130,
+            "#hash_4c4a7b5d08fabef7": 170,
+            "#hash_b1fc50342f9a99dd": 135,
+            "#bctypename": "generic",
+            "#floattime": 8,
+            "#hash_23f37e83b1cafb10": 30
+        },
+        "#transitionparts": [],
+        "#exitextents": {
+            "#left": 34,
+            "#front": 85,
+            "#top": 82,
+            "#right": 34,
+            "#back": 82
+        },
+        "#vehicle": "tromeo_physics_mp"
+    }
+}

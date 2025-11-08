@@ -1,0 +1,42 @@
+NAME scripts\cp_mp\utility\vehicle_omnvar_utility.gsc
+VERSION 0
+CHECKSUM 0xcd28cbc3
+######################################################
+####################  DEV BLOCKS  ####################
+######################################################
+# vehicle_omnvar_utility::vehomn_init@a
+DEVBLOCK 0x6e9
+# vehicle_omnvar_utility::vehomn_init@22
+DEVBLOCK 0x701
+# vehicle_omnvar_utility::vehomn_setvehicle@56
+DEVBLOCK 0x7ac
+# vehicle_omnvar_utility::vehomn_setcurrentseat@af
+DEVBLOCK 0x8e6
+# vehicle_omnvar_utility::vehomn_setnextseat@53
+DEVBLOCK 0x96f
+# vehicle_omnvar_utility::vehomn_setseatentity@8b
+DEVBLOCK 0xa30
+# vehicle_omnvar_utility::vehomn_setseatentity@155
+DEVBLOCK 0xafa
+# vehicle_omnvar_utility::function_f1c6c7fa7cc97826@4c
+DEVBLOCK 0x10dc
+# vehicle_omnvar_utility::vehomn_setammo@72
+DEVBLOCK 0x12f8
+# vehicle_omnvar_utility::vehomn_setammo@e2
+DEVBLOCK 0x1368
+# vehicle_omnvar_utility::vehomn_showammo@22
+DEVBLOCK 0x1460
+# vehicle_omnvar_utility::vehomn_showwarning@6c
+DEVBLOCK 0x1534
+# vehicle_omnvar_utility::vehomn_hidewarning@6c
+DEVBLOCK 0x167b
+# vehicle_omnvar_utility::vehomn_setrotation@7b
+DEVBLOCK 0x1a01
+# vehicle_omnvar_utility::vehomn_setrotation@d5
+DEVBLOCK 0x1a5b
+# vehicle_omnvar_utility::vehomn_getleveldata@1
+DEVBLOCK 0x1ee0
+# vehicle_omnvar_utility::vehomn_getleveldata@19
+DEVBLOCK 0x1ef8
+# vehicle_omnvar_utility::veh_updateomnvarsperframeforclient@31
+DEVBLOCK 0x2e66

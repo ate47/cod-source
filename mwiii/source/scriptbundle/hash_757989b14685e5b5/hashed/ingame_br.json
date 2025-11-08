@@ -1,0 +1,33 @@
+{
+    "#hash_4d3e6d7a08fd0c0e": {
+        "#scriptfilename": "scripts\\mp\\gametypes\\br_secondary_victory_mission_cash.gsc",
+        "#total": [
+            {
+                "#value": 900,
+                "#teamsize": 1
+            },
+            {
+                "#value": 1600,
+                "#teamsize": 2
+            },
+            {
+                "#value": 2300,
+                "#teamsize": 3
+            },
+            {
+                "#value": 3000,
+                "#teamsize": 4
+            }
+        ],
+        "#missiondescription": "&SECONDARYVICTORY/MISSION_CASH_DESC",
+        "#missionname": "&SECONDARYVICTORY/MISSION_CASH_NAME",
+        "#scriptid": "cash",
+        "#xpbonus": [
+            {
+                "#value": 1000,
+                "#teamsize": 1
+            }
+        ],
+        "#hash_5a13a8ffa06dc908": "ui_mp_br_ping_icon_cash"
+    }
+}

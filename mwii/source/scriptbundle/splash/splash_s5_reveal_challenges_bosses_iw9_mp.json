@@ -1,0 +1,44 @@
+{
+    "#yoffset": -40,
+    "#description": "&CHALLENGE/JUPITER_REVEAL_BOSS_DESC",
+    "#splashref": "#s5_reveal_challenges_bosses",
+    "#image": "icon_weapon_ar_ralpha",
+    "#splashparameter": {
+        "#hash_a9a0a4846b6e3eb4": "lootIdToLootItemName",
+        "#paramtype": "number",
+        "#paramdestination": "description"
+    },
+    "#hash_85a14b9a081e8607": true,
+    "#visibilitysettings": {},
+    "#sound": "#hash_7517d90cad95852",
+    "#hash_af4e82569c7c88fb": "IW9StyleGuide.styleGuideMatchEnemyHighlight",
+    "#shortname": "&CHALLENGE/JUPITER_REVEAL_BOSS_TITLE",
+    "#type": "challengeComplete",
+    "#hash_b17cac3e3caa298a": "IW9StyleGuide.styleGuideMatchEnemyHighlight",
+    "#colorswatch": "IW9StyleGuide.styleGuideMatchEnemyHighlight",
+    "#hash_773fcbe04446f5df": {},
+    "#hash_773fcce04446f812": {},
+    "#hash_ffbe9b6f3cabcd7d": {
+        "#intensity": "high",
+        "#alignment": "center",
+        "#hash_266c374900cafa8c": true,
+        "#tone": "tempcod20",
+        "#hash_32d058d79cc0c7f3": {
+            "#supporticon": "ui_map_icon_bounty_s5"
+        },
+        "#iconsettings": {
+            "#hash_76245df8ec9ceba7": {
+                "#hash_e7d195b2f195babc": 100,
+                "#hash_23b44b0401cc99de": 4000,
+                "#hash_2a7072c7be47ffb3": 5
+            },
+            "#hash_c67473d1b32becd1": true
+        },
+        "#hash_b389814f29c3dfd8": {
+            "#supporticon": "ui_map_icon_bounty_s5"
+        },
+        "#hash_e89f92998ea15ce2": true
+    },
+    "#name": "&CHALLENGE/JUPITER_REVEAL_BOSS_TITLE",
+    "#priority": 100
+}

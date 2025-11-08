@@ -1,0 +1,11 @@
+// command,asset_name,lod0_dist,lod1_dist,lod2_dist,lod3_dist,lod4_dist,lod5_dist,lod6_dist,lod7_dist
+// Lod distance can be ommitted, in which case, value is unchanged. Lod0 is closest lod distance while lod7 is farthest lod distance
+// command can be:
+//		cg_replace: replace existing values with new one (PS4 & XB3 only)
+//		cg_shrink: reduce lod distance. If existing lod distance is lower, keep that
+//		cg_grow: increase lod distance. If existing lod distance is heigher, keep that
+//		ng_replace: replace existing values with new one (PS5, Scarlett & PC only)
+//		ng_shrink: reduce lod distance. If existing lod distance is lower, keep that
+//		ng_grow: increase lod distance. If existing lod distance is heigher, keep that
+//
+// example: cg_replace,foliage_tree_oak_01_efm_siege,0,,200,400,800,1600,

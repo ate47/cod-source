@@ -1,0 +1,7 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/delta/zxp/lootset_root.csv,,,,
+reqAdd,killstreak&brPowerItem&!brloot_redeploy_token,3,,,
+reqAdd,brPowerItem&!plunder&!brloot_redeploy_token,2,,,
+reqAdd,plunder,3,,,
+reqLimit,killstreak,3,,,
+reqAdd,brloot_zmb_stim,2,2,100,# ZXP Stim

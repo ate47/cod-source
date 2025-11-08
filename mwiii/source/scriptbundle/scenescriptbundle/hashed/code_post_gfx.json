@@ -1,0 +1,593 @@
+{
+    "#hash_6b651eb1681c6a2": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "veh9_mil_air_jet_fighter_scale",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 2",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_prison_jet_02@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "military_dmz_sam_site_missile_scripted_event",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 3",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_prison_missile_01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "military_dmz_sam_site_missile_scripted_event",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 4",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_prison_missile_02@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "military_dmz_sam_site_missile_scripted_event",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 5",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_prison_missile_03@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "military_dmz_sam_site_missile_scripted_event",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 6",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_prison_missile_04@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "veh9_mil_air_jet_fighter_scale",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 7",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_prison_jet_03@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_120223b3b5519c67": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "tag_origin",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "iw8_mp_end_game_mercy_us_winner_1st@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "emote_attack"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_1442858f825cb9e2": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "veh9_mil_air_jet_fighter_scale",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_default_jet_01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "military_dmz_sam_site_missile_scripted_event",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 4",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_default_samsite_missile_01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "veh9_mil_air_jet_fighter_scale",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 2",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_default_jet_02@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            }
+        ],
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_1bbd22e20ad7ee11": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "veh9_mil_air_jet_fighter_scale",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_watertower_jet_01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "veh9_mil_air_jet_fighter_scale",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 2",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_watertower_jet_02@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "military_dmz_sam_site_missile_scripted_event",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 3",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_watertower_missile_01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "military_dmz_sam_site_missile_scripted_event",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 4",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_watertower_missile_02@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_8db9e626632f8094": 5148.6,
+                    "#hash_8db9e726632f82c7": 58.22,
+                    "#hash_8db9e926632f872d": 950,
+                    "#deletetype": "DeleteAlways",
+                    "#firstframe": true,
+                    "#name": "Mayhem 1",
+                    "#hash_ac0c2857c7b0a3a": 258.8,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [
+                                {
+                                    "#framecount": 391,
+                                    "#mayhemanimation": "mp_jup_escape5_intro_watertower",
+                                    "#framerate": 30
+                                }
+                            ],
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Mayhem"
+            }
+        ],
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    },
+    "#hash_55871a149a6a7aa5": {
+        "#objects": [
+            {
+                "#variant_object": {
+                    "#xmodelname": "veh9_mil_air_jet_fighter_scale",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 1",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_lighthouse_jet_01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "military_dmz_sam_site_missile_scripted_event",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 3",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_lighthouse_missile_01@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "military_dmz_sam_site_missile_scripted_event",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 4",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_lighthouse_missile_02@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#xmodelname": "veh9_mil_air_jet_fighter_scale",
+                    "#aligntarget": "scripted_node",
+                    "#deletetype": "DeleteAlways",
+                    "#animtree": {
+                        "name": "script_model",
+                        "id": 0
+                    },
+                    "#name": "Prop 5",
+                    "#globaltype": "targetname",
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [],
+                            "#deltaanimations": [
+                                {
+                                    "#deltaanimation": {
+                                        "type": "anim",
+                                        "name": "wz_br_jup_infil_s3_outro_lighthouse_jet_02@sbundle"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Prop"
+            },
+            {
+                "#variant_object": {
+                    "#hash_8db9e626632f8094": -2972.31,
+                    "#hash_8db9e726632f82c7": 268.44,
+                    "#hash_8db9e926632f872d": 1262,
+                    "#deletetype": "DeleteAlways",
+                    "#firstframe": true,
+                    "#name": "Mayhem 1",
+                    "#hash_ac0c2857c7b0a3a": 90,
+                    "#shots": [
+                        {
+                            "#mayhemanimations": [
+                                {
+                                    "#framecount": 391,
+                                    "#mayhemanimation": "mp_jup_escape5_intro_lighthouse",
+                                    "#framerate": 30
+                                }
+                            ],
+                            "#deltaanimations": []
+                        }
+                    ]
+                },
+                "#variant_type": "Types_Mayhem"
+            }
+        ],
+        "#shots": [
+            {
+                "#variant_object": {
+                    "#name": "shot_010"
+                },
+                "#variant_type": "Types_Shot"
+            }
+        ]
+    }
+}

@@ -1,0 +1,181 @@
+{
+    "#objects": [
+        {
+            "#variant_object": {
+                "#deletetype": "None",
+                "#animtree": "animtree#generic_human",
+                "#lookatstealth": true,
+                "#name": "dt_actor",
+                "#aitypename": "t10_ally_hero",
+                "#shots": [
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 1,
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_idle_aloof_1_f@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_enter_left_f@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_exit_left_f@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_enter_right_f@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_exit_right_f@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_aloof_01_f@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_aloof_02_f@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_aloof_03_f@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_aloof_04_f@sbundle"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "#variant_type": "Types_Actor"
+        }
+    ],
+    "#shots": [
+        {
+            "#variant_object": {
+                "#name": "idle1"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "enter_left"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "exit_left"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "enter_right"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "exit_right"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_01"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_02"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_03"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_04"
+            },
+            "#variant_type": "Types_Shot"
+        }
+    ]
+}

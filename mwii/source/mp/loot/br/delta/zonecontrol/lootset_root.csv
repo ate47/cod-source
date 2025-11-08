@@ -1,0 +1,149 @@
+string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,string,int
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_global.csv,3,,# global,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_named_Location.csv,4,,# named_Location,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_supply_drop.csv,5,,# supply_drop,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_cache_base.csv,6,,# cache_base,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_cache_lege.csv,7,,# cache_lege,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_reusable_cache.csv,8,,# cache_reusable,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_cache_cash_register.csv,9,,# cache_cash_register,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_cache_duffel_bag.csv,10,,# cache_duffel_bag,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_cache_hidden_container.csv,11,,# cache_hidden_container,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_cache_medical_box_wall.csv,12,,# cache_medical_box,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_cache_medicine_cabinet.csv,13,,# cache_medicine_cab,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_cache_weapon_locker.csv,14,,# cache_weapon_locker,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/default/lootset_empty.csv,15,,# empty,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_main_scan.csv,16,,# main_scan,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_gasstation.csv,17,,# gasstation,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_cache_cash_register_clean.csv,18,,# cache_cash_register_clean,,,,,,,,,,,,,,,,0
+setchancecol,mp/loot/br/delta/zonecontrol/lootset_cash_machine.csv,19,,# cash_machine,,,,,,,,,,,,,,,,0
+tagReject,nobr,,100,,,,,,,,,,,,,,,,,0
+tagReject,sealion,,100,,,,,,,,,,,,,,,,,0
+tagReject,saba,,100,,,,,,,,,,,,,,,,,0
+tagReject,sabacrashsite,,100,,,,,,,,,,,,,,,,,0
+reqLimit,gear,,1,,,,,,,,,,,,,,,,,0
+chance,ammo,,350,350,0,350,125,350,0,1,0,0,0,0,0,2,350,0,0,0
+chance,health,,340,340,0,340,125,340,0,1,0,0,0,0,0,25,340,0,0,0
+chance,plunder,,10,10,0,20,50,20,1,0,1,0,0,0,0,2,20,1,99,0
+chance,killstreak,,10,10,0,10,275,10,0,0,1,0,0,0,0,3,10,0,1,0
+chance,lethal,,5,5,0,10,25,10,0,1,0,0,0,0,0,10,10,0,0,0
+chance,tactical,,5,5,0,10,25,10,0,1,0,400,600,0,0,10,10,0,0,0
+chance,super,,200,200,0,200,200,200,0,0,0,300,0,0,0,20,200,0,0,0
+chance,weapon,,50,50,0,60,100,60,0,1,1,0,0,1,0,20,60,0,0,0
+chance,gear,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+chance,revive,,0,0,0,30,75,30,0,0,0,300,400,0,0,0,0,0,0,0
+chance,tablet,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+chance,keycard,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+chance,valuable,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+chance,key,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+chance,plate_carrier,,30,30,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+chance,mission,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+chance,perkpack,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+chance,extractable,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_ammo_12g,,175,175,175,175,175,175,0,175,0,0,0,175,0,175,175,0,0,0
+item,brloot_ammo_50cal,,200,200,200,200,200,200,0,225,0,0,0,200,0,200,200,0,0,0
+item,brloot_ammo_762,,325,325,325,325,325,325,0,325,0,0,0,325,0,325,325,0,0,0
+item,brloot_ammo_919,,250,250,250,250,250,250,0,225,0,0,0,250,0,250,250,0,0,0
+item,brloot_ammo_rocket,,50,50,50,50,50,50,0,50,0,0,0,50,0,50,50,0,0,0
+item,brloot_equip_gasmask,,0,0,0,0,0,0,0,0,0,0,0,0,0,40,0,0,0,0
+item,brloot_equip_gasmask_durable,,0,0,0,0,0,0,0,0,0,0,0,0,0,10,0,0,0,0
+item,brloot_backpack_medium,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_backpack_large,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_plate_carrier_tempered,,1,1,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+item,brloot_plate_carrier_3_medic,,5,0,0,5,5,5,0,5,5,0,0,0,0,0,0,0,0,0
+item,brloot_self_revive,,0,0,1,1,1,1,0,0,0,1,1,0,0,1,0,0,0,0
+rarity,0_lethal,,300,300,300,300,300,300,0,300,0,0,0,0,0,0,300,0,0,0
+rarity,1_lethal,,200,200,200,200,200,200,0,200,0,0,0,0,0,0,200,0,0,0
+rarity,2_lethal,,100,100,100,100,100,100,0,100,0,0,0,0,0,0,100,0,0,0
+rarity,3_lethal,,50,50,50,50,50,50,0,50,0,0,0,0,0,0,50,0,0,0
+rarity,4_lethal,,25,25,25,25,25,25,0,25,0,0,0,0,0,0,25,0,0,0
+item,brloot_offhand_throwstar,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,0_tactical,,440,450,45,450,450,450,0,450,0,1,1,0,0,0,450,0,0,0
+rarity,1_tactical,,300,300,30,300,300,300,0,300,0,0,0,0,0,0,300,0,0,0
+rarity,2_tactical,,200,200,20,200,200,200,0,200,0,0,0,0,0,0,200,0,0,0
+rarity,3_tactical,,100,100,10,100,100,100,0,100,0,0,0,0,0,0,100,0,0,0
+rarity,4_tactical,,50,50,5,50,50,50,0,50,0,0,0,0,0,0,50,0,0,0
+item,brloot_health_adrenaline,,10,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_offhand_magsnap,,440,450,45,450,450,450,0,450,0,1,1,0,0,0,450,0,0,0
+rarity,0_super,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,1_super,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,2_super,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,3_super,,0,0,0,0,0,0,0,0,0,0,0,0,0,250,0,0,0,0
+rarity,4_super,,0,0,0,0,0,0,0,0,0,0,0,0,0,300,0,0,0,0
+item,brloot_offhand_advancedsupplydrop,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_balloon_extract,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_plunder_extract,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_super_personal_redeploy_drone,,300,300,0,300,250,300,0,300,0,0,0,0,0,0,300,0,0,0
+item,brloot_offhand_taccover,,25,50,0,50,0,50,0,50,0,0,0,0,0,0,50,0,0,0
+item,brloot_offhand_trophysystem,,50,50,0,50,150,50,0,50,0,0,0,0,0,0,50,0,0,0
+item,brloot_super_munitionsbox,,200,200,0,200,200,200,0,200,0,0,0,0,0,0,275,0,0,0
+item,brloot_super_armorbox,,300,300,0,300,300,300,0,300,0,0,0,0,0,0,275,0,0,0
+item,brloot_super_stimpistol,,100,25,0,25,50,25,0,25,0,0,0,0,0,0,25,0,0,0
+item,brloot_super_hauntedbox,,200,200,0,200,200,200,0,200,0,0,0,0,0,0,275,0,0,0
+rarity,0_weapon,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,1_weapon,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,2_weapon,,500,500,0,200,100,200,0,200,200,0,0,200,0,0,500,0,0,0
+rarity,3_weapon,,300,300,0,300,200,300,0,300,300,0,0,300,0,0,300,0,0,0
+rarity,4_weapon,,200,200,0,500,700,500,0,500,500,0,0,500,0,45,200,0,0,0
+tagChance,ngt,,200,200,0,500,700,500,0,500,500,0,0,500,0,45,200,0,0,0
+rarity,0_health,,1,1,1,1,1,1,0,1,0,0,0,0,0,1,1,0,0,0
+rarity,1_health,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,2_health,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,3_health,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,4_health,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_plunder_cash_common_1,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_plunder_cash_uncommon_1,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,80,0
+item,brloot_plunder_cash_uncommon_2,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,15,0
+item,brloot_plunder_cash_uncommon_3,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_plunder_cash_rare_1,,0,0,0,0,0,0,0,0,0,0,0,0,0,500,0,0,5,0
+item,brloot_plunder_cash_rare_2,,0,0,0,125,0,125,125,125,125,0,0,0,0,200,0,0,0,0
+item,brloot_plunder_cash_epic_1,,100,100,0,75,150,75,75,75,75,0,0,0,0,150,100,100,0,0
+item,brloot_plunder_cash_epic_2,,0,0,0,10,100,10,10,10,10,0,0,0,0,100,0,0,0,0
+item,brloot_plunder_cash_legendary_1,,0,0,0,0,50,0,0,0,0,0,0,0,0,50,0,0,0,0
+item,brloot_killstreak_assaultdrone,,100,100,0,100,100,100,0,100,100,0,0,0,0,125,100,0,100,0
+item,brloot_killstreak_uav,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_killstreak_clusterstrike,,150,150,0,150,150,150,0,150,150,0,0,0,0,150,150,0,150,0
+item,brloot_killstreak_precision_airstrike,,200,200,0,200,200,200,0,200,200,0,0,0,0,125,200,0,200,0
+item,brloot_killstreak_cluster_spike,,150,150,0,150,150,150,0,150,150,0,0,0,0,100,150,0,150,0
+item,brloot_killstreak_scramblerdrone,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_killstreak_circle_peek,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_assassination_phone,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_scavenger_phone,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_vip_phone,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_intel_phone,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_safecracker_phone,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_stronghold_infil_phone,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_elite_arrow_phone,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_searchseizure_phone,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_durable_loot,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_access_card_blue,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_access_card_green,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_access_card_red,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_access_card_blue_stadium_parking,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_access_card_blue_stadium_executive,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_access_card_blue_stadium_concourse,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,0_noDrop,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,1_noDrop,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,2_noDrop,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,3_noDrop,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,4_noDrop,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_dead_agent_radio,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_specialist_bonus,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_valuable_harddrive,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_valuable_goldbar,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_valuable_laptop,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_valuable_liquor,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,brloot_valuable_comicbook,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,loot_key_fortress,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,loot_key_quarry_storage,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,loot_key_quarry_office,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,loot_key_quarry_control,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,loot_key_fortress_interior,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,loot_multi_key_fortress,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,loot_key_gulag,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+item,dmz_intel_laptop,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,2_perkpack,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,3_perkpack,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+rarity,4_perkpack,,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+pointFlagFilter,loot_spawn_large,0,large|medium|small,,,,,,,,,,,,,,,,,0
+pointFlagFilter,loot_spawn_medium,0,medium|small,,,,,,,,,,,,,,,,,0
+pointFlagFilter,loot_spawn_small,0,small,,,,,,,,,,,,,,,,,0

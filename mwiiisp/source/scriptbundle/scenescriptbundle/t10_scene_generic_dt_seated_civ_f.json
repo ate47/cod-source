@@ -1,0 +1,522 @@
+{
+    "#objects": [
+        {
+            "#variant_object": {
+                "#deletetype": "None",
+                "#animtree": "animtree#generic_human",
+                "#lookatstealth": true,
+                "#name": "dt_actor",
+                "#aitypename": "t10_ally_hero",
+                "#shots": [
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_idle_1_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_idle_2_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_idle_3_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_idle_4_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_enter_left_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_exit_left_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_enter_right_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_exit_right_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_01_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_02_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_03_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_04_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_05_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_06_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_07_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_08_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_09_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_10_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_11_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_12_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_13_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_14_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_15_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_16_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_17_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_18_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_19_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_seated_civ_talking_20_m@sbundle"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "#variant_type": "Types_Actor"
+        }
+    ],
+    "#shots": [
+        {
+            "#variant_object": {
+                "#name": "idle"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "idle2"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "idle3"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "idle4"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "enter_left"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "exit_left"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "enter_right"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "exit_right"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_01"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_02"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_03"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_04"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_05"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_06"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_07"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_08"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_09"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_10"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_11"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_12"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_13"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_14"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_15"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_16"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_17"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_18"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_19"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_20"
+            },
+            "#variant_type": "Types_Shot"
+        }
+    ]
+}

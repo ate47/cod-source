@@ -1,0 +1,6 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/burn/lootset_root.csv,,,,
+reqAdd,plunder,4,,,# require plunder
+reqAdd,weapon&[4],2,,,# chance for any item of higher quality
+reqAdd,[4],2,,,
+reqAdd,[4]&killstreak,1,,,

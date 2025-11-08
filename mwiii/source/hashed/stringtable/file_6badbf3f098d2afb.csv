@@ -1,0 +1,10 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/resurgence_poi/lootset_root.csv,,,,
+chance,point,90,,,
+chance,cluster,90,,,
+chance,clusterSolo,20,,,
+reqLimit,tablet,6,,,
+option,allowdupes,0,,,
+reqAdd,weapon,1,3,,
+reqAdd,brloot_armor_plate,1,1,,
+reqAdd,tablet,4,,,

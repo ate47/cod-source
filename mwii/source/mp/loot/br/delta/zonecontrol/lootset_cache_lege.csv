@@ -1,0 +1,8 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/delta/zonecontrol/lootset_root.csv,,,,
+tagReject,nocache,100,,,
+reqAdd,weapon&[4],1,,,# require a tier 4 weapon
+reqAdd,brloot_super_munitionsbox,1,,,# required munitionbox
+reqAdd,brPowerItem,1,,,# any item of epic or lege rarity
+reqAdd,brloot_plate_carrier_3_medic,1,,,# required medic vest
+reqLimit,brloot_super_munitionsbox,,1,,#limit to one munition box

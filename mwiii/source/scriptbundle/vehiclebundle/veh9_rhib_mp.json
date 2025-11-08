@@ -1,0 +1,519 @@
+{
+    "#mtx": [
+        {
+            "#hash_c3606975ab404c5c": "",
+            "#hash_9c6d62e1c42be80a": [],
+            "#ref": "v001",
+            "#hash_87cc39e9260d5bcf": 1,
+            "#vehicletrail": "",
+            "#vehiclehorn": ""
+        },
+        {
+            "#hash_c3606975ab404c5c": "",
+            "#hash_9c6d62e1c42be80a": [],
+            "#ref": "v002",
+            "#hash_87cc39e9260d5bcf": 1,
+            "#vehicletrail": "",
+            "#vehiclehorn": ""
+        },
+        {
+            "#hash_c3606975ab404c5c": "",
+            "#hash_9c6d62e1c42be80a": [],
+            "#ref": "v003",
+            "#hash_87cc39e9260d5bcf": 1,
+            "#vehicletrail": "",
+            "#vehiclehorn": ""
+        },
+        {
+            "#hash_c3606975ab404c5c": "",
+            "#hash_9c6d62e1c42be80a": [],
+            "#ref": "v004",
+            "#hash_87cc39e9260d5bcf": 1,
+            "#vehicletrail": "",
+            "#vehiclehorn": ""
+        },
+        {
+            "#hash_c3606975ab404c5c": "",
+            "#hash_9c6d62e1c42be80a": [],
+            "#ref": "v005",
+            "#hash_87cc39e9260d5bcf": 1,
+            "#vehicletrail": "",
+            "#vehiclehorn": ""
+        },
+        {
+            "#hash_c3606975ab404c5c": "",
+            "#hash_9c6d62e1c42be80a": [],
+            "#ref": "v006",
+            "#hash_87cc39e9260d5bcf": 1,
+            "#vehicletrail": "",
+            "#vehiclehorn": ""
+        },
+        {
+            "#hash_c3606975ab404c5c": "",
+            "#hash_9c6d62e1c42be80a": [],
+            "#ref": "v007",
+            "#hash_87cc39e9260d5bcf": 1,
+            "#vehicletrail": "",
+            "#vehiclehorn": ""
+        },
+        {
+            "#hash_c3606975ab404c5c": "",
+            "#hash_9c6d62e1c42be80a": [],
+            "#ref": "v008",
+            "#hash_87cc39e9260d5bcf": 1,
+            "#vehicletrail": "",
+            "#vehiclehorn": ""
+        },
+        {
+            "#hash_c3606975ab404c5c": "",
+            "#hash_9c6d62e1c42be80a": [],
+            "#ref": "v010",
+            "#hash_87cc39e9260d5bcf": 1,
+            "#vehicletrail": "",
+            "#vehiclehorn": ""
+        },
+        {
+            "#hash_c3606975ab404c5c": "",
+            "#hash_9c6d62e1c42be80a": [],
+            "#ref": "v009",
+            "#hash_87cc39e9260d5bcf": 1,
+            "#vehicletrail": "",
+            "#vehiclehorn": ""
+        },
+        {
+            "#hash_c3606975ab404c5c": "",
+            "#hash_9c6d62e1c42be80a": [],
+            "#ref": "v011",
+            "#hash_87cc39e9260d5bcf": 1,
+            "#vehicletrail": "",
+            "#vehiclehorn": ""
+        },
+        {
+            "#hash_c3606975ab404c5c": "",
+            "#hash_9c6d62e1c42be80a": [],
+            "#ref": "v012",
+            "#hash_87cc39e9260d5bcf": 1,
+            "#vehicletrail": "",
+            "#vehiclehorn": ""
+        },
+        {
+            "#hash_c3606975ab404c5c": "",
+            "#hash_9c6d62e1c42be80a": [],
+            "#ref": "v013",
+            "#hash_87cc39e9260d5bcf": 1,
+            "#vehicletrail": "",
+            "#vehiclehorn": ""
+        },
+        {
+            "#hash_c3606975ab404c5c": "",
+            "#hash_9c6d62e1c42be80a": [],
+            "#ref": "v015",
+            "#hash_87cc39e9260d5bcf": 1,
+            "#vehicletrail": "",
+            "#vehiclehorn": ""
+        },
+        {
+            "#hash_c3606975ab404c5c": "",
+            "#hash_9c6d62e1c42be80a": [],
+            "#ref": "vj3927",
+            "#hash_87cc39e9260d5bcf": 1,
+            "#vehicletrail": "",
+            "#vehiclehorn": ""
+        }
+    ],
+    "#ai": {
+        "#templateclass": "default"
+    },
+    "#id": 6,
+    "#isboat": true,
+    "#occupancy": {
+        "#exittopcastoffset": 10,
+        "#allowairexit": true,
+        "#threatbiasgroup": "Level_Vehicle",
+        "#damagefeedbackgroupheavy": "all",
+        "#roofexittype": "no_roof_exit",
+        "#camera": "none",
+        "#damagefeedbackgrouplight": "driver",
+        "#canleanout": false
+    },
+    "#aianimations": [],
+    "#horns": [],
+    "#aifastrope": [],
+    "#lights": [],
+    "#spawn": {
+        "#maxinstancecount": 2,
+        "#clearancecheckradius": 120,
+        "#hash_32b659cdf8f93ae2": "",
+        "#clearancecheckheight": 82,
+        "#hash_1ad50a59da38c8f5": true,
+        "#priority": 75
+    },
+    "#airdrop": {
+        "#earthquakeradius": 800,
+        "#planeanim": {
+            "#animtree": {
+                "name": "",
+                "id": 0
+            },
+            "#animname": {
+                "type": "anim",
+                "name": ""
+            }
+        },
+        "#physicsscale": 0.5,
+        "#realvehicleanim": {
+            "#animtree": {
+                "name": "",
+                "id": 0
+            },
+            "#animname": {
+                "type": "anim",
+                "name": ""
+            }
+        },
+        "#planesound": "",
+        "#vfx": "",
+        "#earthquakeduration": 0.7,
+        "#vehiclemodelanim": {
+            "#animtree": {
+                "name": "",
+                "id": 0
+            },
+            "#animname": {
+                "type": "anim",
+                "name": ""
+            }
+        },
+        "#hash_5c73f15ed471884d": "",
+        "#hash_e01db00d1ccb42ea": false,
+        "#earthquakescale": 0.3,
+        "#hash_98cf00a549d2c206": "",
+        "#physicsinnerradius": 400,
+        "#physicsouterradius": 800,
+        "#planeparts": [],
+        "#parachuteanim": {
+            "#animtree": {
+                "name": "",
+                "id": 0
+            },
+            "#animname": {
+                "type": "anim",
+                "name": ""
+            }
+        }
+    },
+    "#targetname": "rhib_spawn",
+    "#huskexplosion": {
+        "#earthquakeradius": 385,
+        "#physicsscale": 1,
+        "#maxdamage": 60,
+        "#tag": "tag_origin",
+        "#earthquakeduration": 1.5,
+        "#damageoffset": {},
+        "#radius": 256,
+        "#earthquakescale": 0.8,
+        "#mindamage": 30,
+        "#physicsinnerradius": 200,
+        "#scriptable": "veh9_rhib_explosion",
+        "#physicsouterradius": 500
+    },
+    "#pingicon": "hud_icon_vehicle_rhib",
+    "#damage": {
+        "#falldamagemultiplier": 1,
+        "#hash_3259f2f4faf8eaa8": 5,
+        "#hash_98277a386e38941f": false,
+        "#huskforcemultiplier": 0.25,
+        "#mineextents": {
+            "#left": 38,
+            "#front": 90,
+            "#right": 38,
+            "#back": 115
+        },
+        "#distancetobottom": 60,
+        "#hash_5c7f497b7ee6ee55": 1.15,
+        "#hash_10175926aeb1591e": 2304,
+        "#agentdamagemultiplier": 0.5,
+        "#health": 900,
+        "#explosionextents": {
+            "#left": 50,
+            "#front": 125,
+            "#top": 50,
+            "#right": 50,
+            "#back": 130,
+            "#bottom": 50
+        },
+        "#hash_6c10b5dc07fd6459": 1.15,
+        "#explosivehitsperattack": 2,
+        "#scrapassist": true,
+        "#hash_8e266d8413972567": {},
+        "#class": "medium_light",
+        "#heavystatehealthadd": 250,
+        "#hash_96f121d1edfdb0cb": 1,
+        "#maxhits": 7
+    },
+    "#seats": [
+        {
+            "#onenterbattlechatter": "driver",
+            "#animtag": "tag_seat_0",
+            "#showcashbag": true,
+            "#exitids": [
+                {
+                    "#exitdirection": "driver"
+                },
+                {
+                    "#exitdirection": "back_left"
+                },
+                {
+                    "#exitdirection": "back"
+                },
+                {
+                    "#exitdirection": "front_right"
+                },
+                {
+                    "#exitdirection": "front"
+                },
+                {
+                    "#exitdirection": "left"
+                },
+                {
+                    "#exitdirection": "right"
+                }
+            ],
+            "#ref": "driver",
+            "#restrictions": "driver",
+            "#damagemodifier": -1,
+            "#spawnpriority": 10,
+            "#hash_dcfc487f4ef1103c": -1
+        },
+        {
+            "#onenterbattlechatter": "rider",
+            "#animtag": "tag_seat_3",
+            "#showcashbag": true,
+            "#exitids": [
+                {
+                    "#exitdirection": "front_right"
+                },
+                {
+                    "#exitdirection": "back_right"
+                },
+                {
+                    "#exitdirection": "back"
+                },
+                {
+                    "#exitdirection": "driver"
+                },
+                {
+                    "#exitdirection": "front"
+                },
+                {
+                    "#exitdirection": "left"
+                },
+                {
+                    "#exitdirection": "right"
+                }
+            ],
+            "#ref": "front_right",
+            "#restrictions": "combat_passenger",
+            "#damagemodifier": -1,
+            "#hash_dcfc487f4ef1103c": -1,
+            "#omnvarid": 1
+        },
+        {
+            "#onenterbattlechatter": "rider",
+            "#animtag": "tag_seat_1",
+            "#showcashbag": true,
+            "#exitids": [
+                {
+                    "#exitdirection": "back_right"
+                },
+                {
+                    "#exitdirection": "front_right"
+                },
+                {
+                    "#exitdirection": "back"
+                },
+                {
+                    "#exitdirection": "back_left"
+                },
+                {
+                    "#exitdirection": "front"
+                },
+                {
+                    "#exitdirection": "left"
+                },
+                {
+                    "#exitdirection": "right"
+                }
+            ],
+            "#ref": "back_right",
+            "#restrictions": "combat_passenger",
+            "#damagemodifier": -1,
+            "#hash_dcfc487f4ef1103c": -1,
+            "#omnvarid": 3
+        },
+        {
+            "#onenterbattlechatter": "driver",
+            "#animtag": "tag_seat_2",
+            "#showcashbag": true,
+            "#exitids": [
+                {
+                    "#exitdirection": "back_left"
+                },
+                {
+                    "#exitdirection": "driver"
+                },
+                {
+                    "#exitdirection": "back"
+                },
+                {
+                    "#exitdirection": "back_right"
+                },
+                {
+                    "#exitdirection": "front"
+                },
+                {
+                    "#exitdirection": "left"
+                },
+                {
+                    "#exitdirection": "right"
+                }
+            ],
+            "#ref": "back_left",
+            "#restrictions": "combat_passenger",
+            "#damagemodifier": -1,
+            "#hash_dcfc487f4ef1103c": -1,
+            "#omnvarid": 2
+        }
+    ],
+    "#husk": {
+        "#abovevelocityscale": 1,
+        "#timeout": 60,
+        "#vdef": "vehicle/veh9_rhib_physics_sink.vdef",
+        "#health": 400,
+        "#ref": "veh9_rhib_hsk",
+        "#compositemodel": "veh9_mil_sea_rhib_x_vehphys_hsk_mp",
+        "#belowvelocityscale": 1.5,
+        "#weapon": "rhib_mp",
+        "#momentumthreshold": 20,
+        "#hashusk": true
+    },
+    "#hash_22dfbca89a3af942": 64,
+    "#ref": "veh9_rhib",
+    "#damageableparts": [],
+    "#compositemodel": "veh9_mil_sea_rhib_x_vehphys_mp",
+    "#weapon": "rhib_mp",
+    "#pristineexplosion": {
+        "#earthquakeradius": 385,
+        "#physicsscale": 1,
+        "#maxdamage": 140,
+        "#tag": "tag_origin",
+        "#earthquakeduration": 1.5,
+        "#damageoffset": {},
+        "#radius": 256,
+        "#earthquakescale": 0.8,
+        "#mindamage": 70,
+        "#physicsinnerradius": 200,
+        "#physicsouterradius": 500
+    },
+    "#hash_b01f9533413e14ec": false,
+    "#hash_372bf6f67db5151a": "hud_icon_minimap_vehicle_rhib",
+    "#name": "&VEHICLES/RHIB",
+    "#extraexits": [
+        {
+            "#offset": {
+                "#x": -30
+            },
+            "#ref": "left",
+            "#direction": "left"
+        },
+        {
+            "#offset": {
+                "#x": 30
+            },
+            "#ref": "right",
+            "#direction": "right"
+        },
+        {
+            "#offset": {
+                "#x": 100
+            },
+            "#ref": "front",
+            "#direction": "front"
+        },
+        {
+            "#offset": {
+                "#x": -100
+            },
+            "#ref": "back",
+            "#direction": "back"
+        },
+        {
+            "#offset": {
+                "#x": -25,
+                "#z": 15
+            },
+            "#ref": "driver",
+            "#direction": "inside"
+        },
+        {
+            "#offset": {
+                "#y": -35,
+                "#x": -25,
+                "#z": 35
+            },
+            "#ref": "back_right",
+            "#direction": "inside"
+        },
+        {
+            "#offset": {
+                "#y": 35,
+                "#x": 45,
+                "#z": 35
+            },
+            "#ref": "back_left",
+            "#direction": "inside"
+        },
+        {
+            "#offset": {
+                "#y": -35,
+                "#x": 45,
+                "#z": 35
+            },
+            "#ref": "front_right",
+            "#direction": "inside"
+        }
+    ],
+    "#haswartracks": true,
+    "#aiseats": [],
+    "#unloadgroups": [],
+    "#interact": {
+        "#hash_c57febc7e53e3276": false,
+        "#hash_18f075aaf63a3da": true,
+        "#burndowntimerangle": 90,
+        "#maxfuel": 300,
+        "#depththreshold": 20,
+        "#hash_4c6d695d0920df19": 230,
+        "#hash_4c4a7b5d08fabef7": 280,
+        "#hash_b1fc50342f9a99dd": 135,
+        "#hash_591de85cd0986f8d": false,
+        "#bctypename": "boat",
+        "#floattime": 8,
+        "#hash_23f37e83b1cafb10": 30
+    },
+    "#transitionparts": [
+        {
+            "#hash_1fb6b56a662df98": "floor_fire"
+        },
+        {
+            "#hash_1fb6b56a662df98": "damage_transition"
+        }
+    ],
+    "#exitextents": {
+        "#left": 35,
+        "#front": 100,
+        "#top": 50,
+        "#right": 35,
+        "#back": 95
+    },
+    "#vehicle": "veh9_rhib_physics_mp"
+}

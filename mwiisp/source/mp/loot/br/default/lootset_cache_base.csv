@@ -1,0 +1,8 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/default/lootset_root.csv,,,,
+reqAdd,ammo,1,,50,# chance for plunder
+reqAdd,weapon,1,1,,# require a weapon
+reqAdd,,1,,,# any item
+reqAdd,,1,,50,# chance for any item of any quality
+reqLimit,brloot_armor_plate,,1,,# limit plates
+reqLimit,ammo,,1,,

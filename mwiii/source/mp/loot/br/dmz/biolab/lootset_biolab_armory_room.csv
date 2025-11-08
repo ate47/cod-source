@@ -1,0 +1,9 @@
+string,string,string,string
+inherit,mp/loot/br/dmz/biolab/lootset_root.csv,,
+option,no_points_ground,,
+chance,point,100,
+chance,cluster,100,
+chance,clusterSolo,100,
+reqAdd,brloot_equip_gasmask,1,
+reqAdd,brloot_equip_gasmask_durable,1,
+reqAdd,brloot_plate_carrier_3,1,

@@ -1,0 +1,7 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/default/lootset_root.csv,,,,
+reqAdd,plunder&[2],1,,,# 1 plunder
+reqAdd,ammo,1,,,# 1 ammo
+reqAdd,[2],1,,,# 1 item of rarity 2
+reqAdd,weapon,1,1,,
+reqLimit,weapon,1,,,

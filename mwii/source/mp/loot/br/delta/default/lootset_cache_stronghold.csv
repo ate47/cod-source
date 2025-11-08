@@ -1,0 +1,6 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/delta/default/lootset_root.csv,,,,
+reqAdd,plunder,3,,,# require plunder
+reqAdd,weapon&[4],2,,,# chance for any item of higher quality
+reqAdd,brPowerItem,2,,,
+reqAdd,brPowerItem&killstreak,1,,,

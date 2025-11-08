@@ -1,0 +1,88 @@
+//#include scripts\common\basic_wind;
+
+main()
+{
+	level._effect[ "vfx_skerries_cam_rain_infil_scripted" ] = loadfx( "vfx/iw9/level/mp_skerries/vfx_skerries_cam_rain_infil_scripted.vfx" );
+	level._effect[ "vfx_skerries_cam_rain_scripted" ] = loadfx( "vfx/iw9/level/mp_skerries/vfx_skerries_cam_rain_scripted.vfx" );
+	level._effect[ "vfx_rhib_infil_splashes" ] = loadfx( "vfx/iw9/infil/vfx_rhib_infil_splashes.vfx" );
+	level._effect[ "vfx_skerries_cigar_room_vp" ] = LoadFX( "vfx/iw9/level/mp_skerries/vfx_skerries_cigar_room_vp.vfx" );
+
+	//thread precache();
+	
+	thread reactive_foliage_wind_settings();
+}
+precache()
+{		
+
+}
+
+reactive_foliage_wind_settings()
+{
+	// Reactive motion settings
+//	setsavedDvar( #d"r_reactiveMotionActorHeightAdjust:" , 0 );//Default is 0;
+//	setsavedDvar( #d"r_reactiveMotionActorPushAmplitude" , 10 );//Default is 10
+	setsavedDvar( #d"r_reactiveMotionActorPushDecay"    , 0.8 );//Default is 0.998;
+	setsavedDvar( #d"r_reactiveMotionActorPushFrequency", 1 );//Default is 8.9;
+	setsavedDvar( #d"r_reactiveMotionActorRadius"       , 35 );//Default is 40
+//	setsavedDvar( #d"r_reactiveMotionActorVelocityDampen", 2 );//Default is 2;
+	setsavedDvar( #d"r_reactiveMotionActorVelocityMax"   , 7 );//Default is 50;
+	
+
+//	setsavedDvar( #d"r_reactiveMotionPlayerHeightAdjust" , 0 );//Default is 0
+//	setsavedDvar( #d"r_reactiveMotionPlayerPushAmplitude", 10 );//Default is 10
+	setsavedDvar( #d"r_reactiveMotionPlayerPushDecay"    , 0.8 );//Default is 0.998
+	setsavedDvar( #d"r_reactiveMotionPlayerPushFrequency", 1 );//Default is 8.9
+	setsavedDvar( #d"r_reactiveMotionPlayerRadius"       , 50 );//Default is 40;
+	
+//	setsavedDvar( #d"r_reactiveMotionClutter"              , 1 );//Default is 1
+	setsavedDvar( #d"r_reactiveMotionEffectorStrengthScale", 200 ); //Default is 50;
+	setsavedDvar( #d"r_reactiveMotionVelocityTailScale"  , 1 );//Default is 2;
+	
+	//-----
+	//reactive wind settings
+	SetDvar( #d"cg_defaultWindAmplitudeScale", 1 );//default is 1
+	SetDvar( #d"cg_defaultWindAreaScale"     , 10 );//default is 50
+	SetDvar( #d"cg_defaultWindDir", ( 0, 1, 0 ) ); //default is 1 0 0;
+	SetDvar( #d"cg_defaultWindFrequencyScale", 1.5 );//default is 1
+	SetDvar( #d"cg_defaultWindNoiseScale"    , 0.5 );//default is 0.7
+	SetDvar( #d"cg_defaultWindStrength"      , 500 );//default is 1;
+	//-----
+	
+	// Set within HWConfig
+	//SetDvar ( #d"r_vertexDeformFadeDist"       , 1024 );//default 256;
+	//SetDvar ( #d"r_vertexDeformFadeDistClutter", 256 );//default 256;
+	
+	//etDvar ( #d"r_vertexDeformCutOffDist"       , 1536 );//default 512;
+	//SetDvar ( #d"r_vertexDeformCutOffDistClutter", 512 );//default 512;
+}
+
+// Volumetric particles set up
+fx_vol_cigar_room()
+{
+	//---------------------VOLUMETRICS PARTICLES DVARS-----------------------//
+	
+	SetDvar( #d"r_volumetricParticlesBBoxPos"               , "8600 9050 240" );//xyz min
+	SetDvar( #d"r_volumetricParticlesBBoxSize"              , "650 750" );//Max X-minY, Max Y-minY
+	SetDvar( #d"r_volumetricParticlesBlendDistance"         , 70 );//Distance over which particle decay will fade out to 0
+	SetDvar( #d"r_volumetricParticlesBlendStart"            , 300 );//Height at which particle density starts to fade
+	SetDvar( #d"r_volumetricParticlesColor"                 , "1 1 1" );//Fog Color
+	SetDvar( #d"r_volumetricParticlesDensityCutoff"         , 0.00005 );//When particle density falls below this value particle is eliminated
+	SetDvar( #d"r_volumetricParticlesDensityScaler"         , 0.015 );//Global Opacity Scale
+	SetDvar( #d"r_volumetricParticlesDiffusionRate"         , 1 );//How quickly the particles diffuse in the xy plane
+	SetDvar( #d"r_volumetricParticlesDiffusionRateHeight"   , 1 );//How quickly the particles diffuse in the z axis
+	SetDvar( #d"r_volumetricParticlesDiffusionStartStrength", 0.15 );//How quickly the particles diffuse and how far they diffuse before equilibrium
+	SetDvar( #d"r_volumetricParticlesDistortNoiseDt"        , 20 );//How fast to the scroll the distortion noise over time
+	SetDvar( #d"r_volumetricParticlesDistortNoiseUVScale"   , 30 );//Distort Noise is tiled over the whole world, this scales tile size
+	SetDvar( #d"r_volumetricParticlesFixedDecay"            , 0 );//Flat Decay applied each frame
+	SetDvar( #d"r_volumetricParticlesMergeOverlap"          , 300 );//Particles need to overlap this much to merge into larger particle
+	SetDvar( #d"r_volumetricParticlesModuloDecay"           , 0.94 );//Percentage Decay of current density, applied each frame
+	SetDvar( #d"r_volumetricParticlesNoiseDt"               , 10 );//How fast to scroll noise over time
+	SetDvar( #d"r_volumetricParticlesNoiseBias"             , "0.035" );//bias
+	SetDvar( #d"r_volumetricParticlesNoiseScrollDir"        , "-0.25 0.15 0.15" );//Noise Direction Vector
+	SetDvar( #d"r_volumetricParticlesNoiseUVScale"          , 263 );//Scales tile size
+	SetDvar( #d"r_volumetricParticlesRemapMax"              , 0.5 );//Max Density
+	SetDvar( #d"r_volumetricParticlesRemapMin"              , 0 );//Min Density that will render
+	SetDvar( #d"r_volumetricParticlesVectorFieldDt"         , -0.8 );//Multiplies the strength of the vector field in the xy plane (red/green channels of vector texture controls particle velocity)
+	SetDvar( #d"r_volumetricParticlesVectorFieldHeightDt"   , 1 );//Multiplies the strength of the vector field in the z plane (blue channel of vector texture controls upward particle velocity);
+	SetDvar( #d"r__volumetricParticlesVectorFieldAmplitude" , 1 );//Amplitude of the vector field variation
+}

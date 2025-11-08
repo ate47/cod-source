@@ -1,0 +1,95 @@
+// command,asset_name,lod0_dist,lod1_dist,lod2_dist,lod3_dist,lod4_dist,lod5_dist,lod6_dist,lod7_dist
+// Lod distance can be ommitted, in which case, value is unchanged. Lod0 is closest lod distance while lod7 is farthest lod distance
+// command,asset_name,highest_rendered_lod,highest_shadow_lod
+// command can be:
+//		cg_replace: replace existing values with new one (PS4 & XB3 only)
+//		cg_shrink: reduce lod distance. If existing lod distance is lower, keep that
+//		cg_grow: increase lod distance. If existing lod distance is heigher, keep that
+//		ng_replace: replace existing values with new one (PS5, Scarlett & PC only)
+//		ng_shrink: reduce lod distance. If existing lod distance is lower, keep that
+//		ng_grow: increase lod distance. If existing lod distance is heigher, keep that
+//		cg_highest_lods: specify the highest rendered & shadow lod for this model (PS4 & XB3 only)
+//		ng_highest_lods: specify the highest rendered & shadow lod for this model (PS5, Scarlett & PC only)
+// 
+//
+// example: cg_replace,foliage_tree_oak_01_efm_siege,0,,200,400,800,1600,
+// example: cg_highest_lods,foliage_tree_oak_01_efm_siege,2,2
+//
+// environment_art
+cg_replace,pallet_truck_dirty,200,400,1200,1800,2400,3000,6000,8000
+ng_replace,pallet_truck_dirty,200,400,1200,1800,2400,3000,6000,8000
+cg_replace,uk_brick_wall_pillar_02_wet,100,200,600,1000,2000,6000,12000,24000
+cg_replace,p9_rus_amk_ext_gate_02,100,200,600,1000,2000,6000,12000,24000
+cg_replace,p8_zm_whi_barrier_concrete_01,100,200,600,1000,2000,6000,12000,24000
+cg_replace,mout_barrier_concrete_144_d,100,200,600,1000,2000,6000,12000,24000
+cg_replace,mout_barrier_concrete_144,100,200,600,1000,2000,6000,12000,24000
+//cg_replace,cup_mug_enamel_01_white,200,400,800,1600,2400,6000,12000,24000
+cg_replace,p9_rus_control_desk_radio_01,200,600,1200,1800,2400,6000,12000,24000
+cg_replace,container_fertilizer_bag_stack_02_amk,200,400,1000,1600,2400,9000,16000,32000
+cg_replace,container_fertilizer_bag_stack_04,200,400,1000,1600,2400,9000,16000,32000
+cg_replace,container_fertilizer_bag_stack_01,200,400,1000,1600,2400,9000,16000,32000
+cg_replace,container_fertilizer_bag_01,200,400,1000,1600,2400,9000,16000,32000
+cg_replace,container_fertilizer_bag_01_open,200,400,1000,1600,2400,9000,16000,32000
+//
+//techart
+cg_shrink,veh_t9_mil_ru_heli_gunship_hind,5,200,400,1600,3200,6000,8000
+cg_shrink,veh_t9_mil_ru_heli_gunship_hind_static,5,100,200,300,600,1600,8000
+cg_shrink,veh_t9_mil_ru_heli_gunship_hind_nocollide,5,100,200,300,900,2400,8000,16000
+cg_highest_lods,veh_t9_mil_ru_heli_gunship_hind_nocollide,2,6
+cg_shrink,veh_t9_mil_ru_heli_gunship_hind_wings_attach,5,100,200,300,600,1600,8000
+cg_highest_lods,veh_t9_mil_ru_heli_gunship_hind_wings_attach,2,6
+cg_shrink,veh_t9_mil_ru_heli_gunship_hind_doors_attach_yam,5,100,200,300,600,1600,8000
+cg_highest_lods,veh_t9_mil_ru_heli_gunship_hind_doors_attach_yam,2,6
+cg_shrink,p9_rus_amk_missile_sml,5,100,200,400,800,1600,8000
+cg_highest_lods,p9_rus_amk_missile_sml,2,5
+cg_shrink,veh_t8_vintage_gaz66_fuelbed,5,300,500,900,1800,3200,8000
+cg_shrink,veh_t8_vintage_gaz66_fuelbed_attach,5,300,500,900,1800,3200,8000
+
+cg_shrink,p9_rus_amk_brick_paneling_corner_blue_01,1,2,3,250,500,800,1200
+cg_highest_lods,p9_rus_amk_brick_paneling_corner_blue_01,3,5
+cg_shrink,stk_brick_paneling_corner_blue_01_half,1,2,3,250,500,800,1200
+cg_highest_lods,stk_brick_paneling_corner_blue_01_half,3,5
+
+cg_shrink,uk_brick_wall_top_trim_01_128_amk,1,2,3,250,500,800,1200
+cg_highest_lods,uk_brick_wall_top_trim_01_128_amk,3,5
+cg_shrink,uk_brick_wall_top_row_corner_wet,1,2,3,250,500,800,1200
+cg_highest_lods,uk_brick_wall_top_row_corner_wet,3,5
+cg_shrink,uk_brick_wall_top_trim_01_64_amk,1,2,3,250,500,800,1200
+cg_highest_lods,uk_brick_wall_top_trim_01_64_amk,3,5
+
+cg_shirnk,foliage_logs_fallen_beech_tree_long,5,50,200,800,1600
+cg_highest_lods,foliage_logs_fallen_beech_tree_long,2,5
+cg_shirnk,p9_nic_rock_boulder_lrg_03,5,50,200,800,1600
+cg_highest_lods,p9_nic_rock_boulder_lrg_03,2,5
+cg_shirnk,p9_nic_rock_mossy_lrg_02,5,50,200,800,1600
+cg_highest_lods,p9_nic_rock_mossy_lrg_02,2,5
+cg_shirnk,p9_rock_faceted_01_boulder_sml_01,5,50,200,800,1600
+cg_highest_lods,p9_rock_faceted_01_boulder_sml_01,2,5
+cg_shirnk,p9_nic_rock_boulder_lrg_01_amk,5,50,200,800,1600
+cg_highest_lods,p9_nic_rock_boulder_lrg_01_amk,2,5
+cg_shirnk,p9_nic_rock_boulder_lrg_03_amk,5,50,200,800,1600
+cg_highest_lods,p9_nic_rock_boulder_lrg_03_amk,2,5
+
+cg_highest_lods,p9_rock_faceted_01_pebble_patch_lrg_01,4,4
+cg_highest_lods,p9_rock_chunky_01_pebble_patch_sml_01,4,4
+cg_highest_lods,p9_rock_chunky_01_pebble_patch_sml_01_grime,4,4
+cg_highest_lods,p9_rock_chunky_01_pebble_patch_sml_02,4,4
+cg_highest_lods,p9_rock_chunky_01_pebble_patch_sml_02_grime,4,4
+cg_highest_lods,p9_rock_chunky_01_pebble_patch_sml_03,4,4
+cg_highest_lods,p9_rock_chunky_01_pebble_patch_sml_03_grime,4,4
+cg_highest_lods,p9_rock_chunky_01_pebble_patch_sml_04,4,4
+cg_highest_lods,p9_rock_chunky_01_pebble_patch_sml_04_grime,4,4
+cg_highest_lods,p9_rock_chunky_01_pebble_patch_lrg_01,4,4
+cg_highest_lods,p9_rock_chunky_01_pebble_patch_lrg_01_grime,4,4
+cg_highest_lods,p9_rock_chunky_01_pebble_patch_lrg_02,4,4
+cg_highest_lods,p9_rock_chunky_01_pebble_patch_lrg_02_grime,4,4
+cg_highest_lods,p9_rock_faceted_01_boulder_med_03,3,3
+cg_highest_lods,p9_rock_faceted_01_boulder_med_02_grime,3,3
+cg_highest_lods,p9_rock_faceted_01_boulder_lrg_02_amk,3,3
+cg_highest_lods,mkg_cliff_rock_02,3,3
+cg_highest_lods,p9_nic_rock_mossy_lrg_06,4,4
+cg_highest_lods,p9_tkd_rock_wall_02_grime,3,3
+
+cg_replace,zmb_objective_button_01,16000,32000,64000,84000,100000
+ng_replace,zmb_objective_button_01,16000,32000,64000,84000,100000
+//

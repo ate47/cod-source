@@ -1,0 +1,68 @@
+///////////////////////////////////////////////////////////////////////////
+//Animation Blender
+//These assests are used int he animation blender test level to test blending of additive animations
+//This file is generated from the Animation Blender tool
+///////////////////////////////////////////////////////////////////////////
+
+//jup_mp_hellhound_turn_l
+//jup_mp_hellhound_turn_l_loop
+//jup_mp_hellhound_turn_r
+//jup_mp_hellhound_turn_r_loop
+//jup_mp_hellhound_jump
+jup_mp_hellhound_jump_inair
+jup_mp_hellhound_jump_run
+jup_mp_hellhound_sprint
+jup_mp_hellhound_sprint_charge
+jup_mp_hellhound_charge_hit
+//jup_mp_hellhound_land
+//jup_mp_hellhound_land_run
+//jup_mp_hellhound_idle
+//jup_mp_hellhound_attack_01
+
+aim: additive unnormalized scrub1d( timerange="0,1", timevalue=[aim_scrub_value], weightValue=[aim_weight_value] )
+{
+	aim_additive_scale: blend_mode(continuous)
+	{
+		#aim_anim_slot
+	}
+}
+
+sc_mantle_on_fwd : scrub1d( timerange="0,1", timevalue=[bsparam_mantle_progress], autoselfclear="false" ) parse_cull(disable)
+	{
+		#bs_mantle_on_fwd_slot
+	}
+	
+base
+	{
+		#base_anim_slot
+	}
+	
+torso_overlay: overlay
+	{
+		#torso_overlay_anim_slot
+	}
+	
+adjust: additive_multiply
+	{
+		#adjust_anim_slot
+	}
+	
+puck_offset_add: additive_multiply
+	{
+		#puck_idle_add	
+	}
+	
+melee: overlay nonloopsync
+    {
+        #melee_anim_slot
+    }
+	
+melee_hips: additive
+	{
+		#melee_hips_slot
+	}		
+
+bs_jup_mp_hellhound_slope_compensator: additive scrub1d( timerange="-10,-0.01", timevalue=[bsparam_slope_height_adjust], weightValue=1.0, childindex="1" ) parse_cull(disable)
+	{
+		jup_mp_hellhound_slope_compensator
+	}

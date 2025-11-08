@@ -1,0 +1,71 @@
+% force_cs_anim_index_match
+
+performace_slopes: blendspace1d( range="-45,45", blend_time="250", coords="-45,0,45", value=[strafeyaw] ) loopsync
+{
+		performace_slopes_9: blendspace2d( rangex="-40,40", rangey="78,265", blend_time="250",
+		coords="{-40,78},{0,78},{40,78},{-40,104},{0,104},{40,104},{-40,178},{0,178},{40,178},{-40,242},{0,210},{40,210},{-40,265},{0,250},{40,250}",
+		edges="{3,0,1},{6,3,4},{4,3,1},{4,1,2},{5,4,2},{12,9,10},{9,6,7},{7,6,4},{7,4,5},{8,7,5},{10,9,7},{10,7,8},{11,10,8},{13,12,10},{13,10,11},{14,13,11}",
+		valuex=[groundslopepitch], valuey=[desiredspeed] )
+		{
+				sdr_com_slope_slwalk_decline_9
+				sdr_com_slope_slwalk_neutral_9
+				sdr_com_slope_slwalk_incline_9
+				sdr_com_slope_walk_decline_9
+				sdr_com_slope_walk_neutral_9
+				sdr_com_slope_walk_incline_9
+				sdr_com_slope_jog_decline_9
+				sdr_com_slope_jog_neutral_9
+				sdr_com_slope_jog_incline_9
+				sdr_com_slope_run_decline_9
+				sdr_com_slope_run_neutral_9
+				sdr_com_slope_run_incline_9
+				sdr_com_slope_sprint_decline_9
+				sdr_com_slope_sprint_neutral_9
+				sdr_com_slope_sprint_incline_9
+		}
+		
+		performace_slopes_8: blendspace2d( rangex="-40,40", rangey="78,265", blend_time="250",
+		coords="{-40,78},{0,78},{40,78},{-40,104},{0,104},{40,104},{-40,178},{0,178},{40,178},{-40,242},{0,210},{40,210},{-40,265},{0,250},{40,250}",
+		edges="{3,0,1},{6,3,4},{4,3,1},{4,1,2},{5,4,2},{12,9,10},{9,6,7},{7,6,4},{7,4,5},{8,7,5},{10,9,7},{10,7,8},{11,10,8},{13,12,10},{13,10,11},{14,13,11}",
+		valuex=[groundslopepitch], valuey=[desiredspeed] )
+		{
+				sdr_com_slope_slwalk_decline_8
+				sdr_com_slope_slwalk_neutral_8
+				sdr_com_slope_slwalk_incline_8
+				sdr_com_slope_walk_decline_8
+				sdr_com_slope_walk_neutral_8
+				sdr_com_slope_walk_incline_8
+				sdr_com_slope_jog_decline_8
+				sdr_com_slope_jog_neutral_8
+				sdr_com_slope_jog_incline_8
+				sdr_com_slope_run_decline_8
+				sdr_com_slope_run_neutral_8
+				sdr_com_slope_run_incline_8
+				sdr_com_slope_sprint_decline_8
+				sdr_com_slope_sprint_neutral_8
+				sdr_com_slope_sprint_incline_8
+		}
+		
+		performace_slopes_7: blendspace2d( rangex="-40,40", rangey="78,265", blend_time="250",
+		coords="{-40,78},{0,78},{40,78},{-40,104},{0,104},{40,104},{-40,178},{0,178},{40,178},{-40,242},{0,210},{40,210},{-40,265},{0,250},{40,250}",
+		edges="{3,0,1},{6,3,4},{4,3,1},{4,1,2},{5,4,2},{12,9,10},{9,6,7},{7,6,4},{7,4,5},{8,7,5},{10,9,7},{10,7,8},{11,10,8},{13,12,10},{13,10,11},{14,13,11}",
+		valuex=[groundslopepitch], valuey=[desiredspeed] )
+		{
+				sdr_com_slope_slwalk_decline_7
+				sdr_com_slope_slwalk_neutral_7
+				sdr_com_slope_slwalk_incline_7
+				sdr_com_slope_walk_decline_7
+				sdr_com_slope_walk_neutral_7
+				sdr_com_slope_walk_incline_7
+				sdr_com_slope_jog_decline_7
+				sdr_com_slope_jog_neutral_7
+				sdr_com_slope_jog_incline_7
+				sdr_com_slope_run_decline_7
+				sdr_com_slope_run_neutral_7
+				sdr_com_slope_run_incline_7
+				sdr_com_slope_sprint_decline_7
+				sdr_com_slope_sprint_neutral_7
+				sdr_com_slope_sprint_incline_7
+		}
+}
+

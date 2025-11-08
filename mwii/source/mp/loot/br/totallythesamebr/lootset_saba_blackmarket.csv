@@ -1,0 +1,11 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/totallythesamebr/lootset_root.csv,,,,
+chance,point,65,#     % of non-clustered points that will be populated,,
+chance,cluster,65,#     % of clusters that will be populated,,
+chance,clusterSolo,50,#     % of clusters that will become invalid after spawning one item (with dependencies),,
+reqLimit,tablet,1,,,
+reqAdd,weapon & [2-3],1,,,# required weapon
+reqAdd,killstreak,1,,33,# required killstreak
+reqLimit,killstreak,,1,,# limit # of killstreaks
+reqAdd,brloot_redeploy_token,1,,100,# required redeploy token
+reqLimit,brloot_redeploy_token,,3,,# limit # of redeploy tokens

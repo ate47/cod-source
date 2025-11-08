@@ -1,0 +1,21 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/zxp/lootset_root.csv,,,,
+tagReject,nocache,100,,,
+rollChance,plunder,7,,,
+rollChance,weapon,4,,,
+rollChance,ammo,7,,,
+rollChance,health,2,,,
+rollChance,super,3,,,
+tagChance,plunder,1,,,
+tagChance,weapon,1,,,
+tagChance,ammo,1,,,
+tagChance,health,1,,,
+tagChance,super,1,,,
+reqAdd,weapon&[4],1,,,# require a tier 4 weapon
+reqAdd,ammo,1,,,# required ammo
+reqAdd,brPowerItem&!brloot_redeploy_token,1,,,# any item of epic or lege rarity
+reqAdd,brPowerItem&!brloot_redeploy_token,1,,50,# chance for any item of higher quality
+reqAdd,plunder,2,2,,
+reqLimit,perkpack,1,1,,
+reqAdd,brloot_zmb_stim,1,1,25,# ZXP Stim
+reqAdd,brloot_offhand_magsnap|brloot_super_hauntedbox,1,1,50,# More chance of having MagSnap or Haunted Box

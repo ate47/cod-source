@@ -1,0 +1,67 @@
+%force_cs_anim_index_match
+
+casual_move_loop : blendspace1d( range="100,300", blend_time="500", coords="100,115,115.1,145,145.1,182,182.1,247,247.1,283", value=[desiredspeed] ) loopsync phase_sync_leader phase_sync_follower
+{
+	jup_civ_pnc_fast_min : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_fast01_spdscaled_min	//99
+		jup_civ_pnc_fast02_spdscaled_min	//103
+		jup_civ_pnc_fast03_spdscaled_min	//102
+		jup_civ_pnc_fast04_spdscaled_min	//95
+	}
+		jup_civ_pnc_fast_max : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_fast01_spdscaled_max	//115
+		jup_civ_pnc_fast02_spdscaled_max	//115
+		jup_civ_pnc_fast03_spdscaled_max	//115
+		jup_civ_pnc_fast04_spdscaled_max	//115
+	}
+	jup_civ_pnc_sljog_min : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_sljog01_spdscaled_min	//115
+		jup_civ_pnc_sljog02_spdscaled_min	//126
+		jup_civ_pnc_sljog03_spdscaled_min	//120
+	}
+	jup_civ_pnc_sljog_max : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_sljog01_spdscaled_max	//142
+		jup_civ_pnc_sljog02_spdscaled_max	//143
+		jup_civ_pnc_sljog03_spdscaled_max	//142
+	}
+	jup_civ_pnc_jog_min : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_jog01_spdscaled_min		//143
+		jup_civ_pnc_jog02_spdscaled_min		//147
+		jup_civ_pnc_jog03_spdscaled_min		//145
+	}
+	jup_civ_pnc_jog_max : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_jog01_spdscaled_max		//182
+		jup_civ_pnc_jog02_spdscaled_max		//182
+		jup_civ_pnc_jog03_spdscaled_max		//181
+	}
+	jup_civ_pnc_run_min : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_run01_spdscaled_min		//190
+		jup_civ_pnc_run02_spdscaled_min		//190
+		jup_civ_pnc_run03_spdscaled_min		//193
+		jup_civ_pnc_run04_spdscaled_min		//201
+	}
+	jup_civ_pnc_run_max : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_run01_spdscaled_max		//239
+		jup_civ_pnc_run02_spdscaled_max		//247
+		jup_civ_pnc_run03_spdscaled_max		//238
+		jup_civ_pnc_run04_spdscaled_max		//247
+	}
+	jup_civ_pnc_sprint_min : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_sprint01_spdscaled_min	//250
+		jup_civ_pnc_sprint02_spdscaled_min	//250
+	}
+	jup_civ_pnc_sprint_max : randomloop( blendtime="0.5", restart="false", norepeat="true", seed=[animtime] ) phase_sync_leader phase_sync_follower
+	{
+		jup_civ_pnc_sprint01_spdscaled_max	//283
+		jup_civ_pnc_sprint02_spdscaled_max	//283
+	}
+}

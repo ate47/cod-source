@@ -1,0 +1,8 @@
+string,string,string,string,string,string,string,string,string,string,string,string,string,string
+include,omnvars/mp/gametypes/omnvars_escort.csv,,,,,,,,,,,,
+include,omnvars/mp/omnvars_team_revive.csv,,,,,,,,,,,,
+include,omnvars/mp/omnvars_no_respawn_warning.csv,,,,,,,,,,,,
+ui_allies_lives_remaining,1,,g,i,0,0,100,,,,,,
+ui_axis_lives_remaining,1,,g,i,0,0,100,,,,,,
+ui_br_zombie_powers,1,,c,i,0,0,1073741823,,,,,1,
+ui_mutation_zombie_type,1,,c,i,0,-1,10,,,,,,

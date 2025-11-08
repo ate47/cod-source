@@ -1,0 +1,12 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/plunder/lootset_root.csv,,,,
+reqAdd,ammo,1,,,
+reqAdd,valuable,1,1,,
+reqAdd,plunder,1,,,
+reqAdd,brloot_armor_plate,1,1,,
+reqAdd,,1,,,
+reqAdd,,1,,50,
+reqLimit,brloot_armor_plate,1,1,,
+reqLimit,ammo,1,1,,
+reqLimit,plunder,2,2,,
+reqLimit,killstreak,1,1,,

@@ -1,0 +1,51 @@
+%force_cs_anim_index_match
+
+casual_move_loop : blendspace1d( range="0,100", blend_time="1000", coords="38,39,50,51,66,67", value=[desiredspeed] ) loopsync
+{
+	jup_civ_cas_slwalk : randomloop( blendtime="1", restart="false", norepeat="true", seed=[animtime] )
+	{
+		jup_civ_cas_slwalk01
+		jup_civ_cas_slwalk02
+		jup_civ_cas_slwalk03
+		jup_civ_cas_slwalk04
+	}
+	jup_civ_cas_walk : randomloop( blendtime="1", restart="false", norepeat="true", seed=[animtime] )
+	{
+		jup_civ_cas_walk01
+		jup_civ_cas_walk02
+		jup_civ_cas_walk03
+		jup_civ_cas_walk04	
+	}
+	jup_civ_cas_walk_clamp : randomloop( blendtime="1", restart="false", norepeat="true", seed=[animtime] )
+	{
+		jup_civ_cas_walk01@1
+		jup_civ_cas_walk02@1
+		jup_civ_cas_walk03@1
+		jup_civ_cas_walk04@1
+	}
+	jup_civ_cas_walk_grigs : randomloop( blendtime="1", restart="false", norepeat="true", seed=[animtime] )
+	{
+		jup_civ_cas_walk01_8_male01
+		jup_civ_cas_walk02_8_male01
+		jup_civ_cas_walk03_8_male01
+		jup_civ_cas_walk04_8_male01	
+	}
+	jup_civ_cas_walk_grigs_clamp : randomloop( blendtime="1", restart="false", norepeat="true", seed=[animtime] )
+	{
+		jup_civ_cas_walk01_8_male01@1
+		jup_civ_cas_walk02_8_male01@1
+		jup_civ_cas_walk03_8_male01@1
+		jup_civ_cas_walk04_8_male01@1
+	}
+	jup_civ_cas_fast : randomloop( blendtime="1", restart="false", norepeat="true", seed=[animtime] )
+	{
+		jup_civ_cas_fast01
+		jup_civ_cas_fast02
+		jup_civ_cas_fast03
+		jup_civ_cas_fast04
+		jup_civ_cas_fast05
+		jup_civ_cas_fast06
+		jup_civ_cas_fast07
+		jup_civ_cas_fast08
+	}
+}

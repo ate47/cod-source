@@ -1,0 +1,621 @@
+{
+    "#hash_41a78cee2a13810c": {
+        "#hash_f3f1b1527ea2bec9": 1.6,
+        "#hash_e2242d03b281b812": 1,
+        "#hash_a2acbf0088491e36": 4000,
+        "#hash_54ec1bf1b7aa3ed8": false,
+        "#hash_a261aabe45c61b72": 1800,
+        "#hash_28c4b065700d046d": 0,
+        "#hash_1e7ce6b5011c5782": 100,
+        "#hash_e73610a5bb6b0cf0": 8,
+        "#hash_ef746b212792a044": 80,
+        "#hash_76cebc06e8d85820": 100,
+        "#hash_ef16045a9443161f": 1,
+        "#announcements": [
+            {
+                "#teamname": true,
+                "#label": "CODCASTER/AN_BOMB_PLANTED",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": true,
+                "#playername": false,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 100,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_BOMB_PICKUP",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": true,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 30,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_DEFUSING",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "ui_bomb_interacting",
+                "#areaname": false,
+                "#playername": true,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 110,
+                "#displaytime": 0,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_LAST_PLAYER_STANDING",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": true,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 40,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_HARDPOINT_NEW",
+                "#lines": 2,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": false,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 100,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_HARDPOINT_AVAILABLE",
+                "#lines": 2,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": false,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 100,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_HQ_NEW",
+                "#lines": 2,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": false,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 100,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_HQ_AVAILABLE",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": false,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 100,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": true,
+                "#label": "CODCASTER/AN_HQ_CAPTURED",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": false,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 100,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_HQ_DESTROYED",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": true,
+                "#playername": false,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 100,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_GUNFIGHT_FLAG",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": false,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 100,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_FIRST_BLOOD",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": true,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 75,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_MULTIKILL",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": true,
+                "#killinfo": true,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 60,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_KILLSTREAK",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": true,
+                "#killinfo": true,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 50,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_MATCH_PAUSED",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": false,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 200,
+                "#displaytime": 43200,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": true,
+                "#label": "CODCASTER/AN_EMP_PLANTED",
+                "#lines": 100,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": false,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 0,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_EMP_PICKUP",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": true,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 30,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_CTF_CAPTURED",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": true,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 100,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_CTF_RETURN",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": true,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 50,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_CTF_PICKUP",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": true,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 100,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_CTF_KILLCARRIER",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": true,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 50,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": true,
+                "#label": "CODCASTER/AN_SECURE_POINT",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": true,
+                "#playername": false,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 100,
+                "#displaytime": 5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": false,
+                "#label": "CODCASTER/AN_GAME_PAUSED",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": false,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 150,
+                "#displaytime": 0,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": true,
+                "#label": "CODCASTER/AN_CONTROL_PROGRESS",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": true,
+                "#playername": false,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 50,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": true,
+                "#label": "CODCASTER/AN_ALL_NORESPAWNS",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": false,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 100,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            },
+            {
+                "#teamname": true,
+                "#label": "CODCASTER/AN_SECURE_POINT_ALL",
+                "#lines": 1,
+                "#hash_46701d0832030e31": "",
+                "#areaname": false,
+                "#playername": false,
+                "#killinfo": false,
+                "#hash_83d163d74ef1e42b": 0,
+                "#priority": 100,
+                "#displaytime": 3.5,
+                "#bgcolor": "1 1 1 1"
+            }
+        ],
+        "#hash_8583dc25f0dd65f2": 3500,
+        "#hash_afc55402631bd62e": 1.6,
+        "#equipmentnone": "esports_codcaster_not_equipped",
+        "#hash_7fb62dbeac7c30c9": false,
+        "#hash_3e41041d34dd088d": 10,
+        "#hash_f0a82b1c9c9206b5": 4000,
+        "#hash_52dc6c14f1d7084": 0,
+        "#hash_f6a592dd471f26b4": false,
+        "#hash_7b107130cf8dca3e": 4000,
+        "#hash_61faeb35e323b633": 0.5,
+        "#hash_6876a4c4a226696d": 0,
+        "#hash_789a9bb796db77e9": 20,
+        "#hash_b3c5013c19c5e21b": 100,
+        "#hash_154923d2bda5972e": 1.25,
+        "#hash_6eabe365c72f3bc7": 1,
+        "#hash_f15f6fee84a4d6f9": [
+            {
+                "#image": "hud_icon_equipment_bunker_buster"
+            },
+            {
+                "#image": "hud_icon_equipment_c4"
+            },
+            {
+                "#image": "hud_icon_equipment_at_mine"
+            },
+            {
+                "#image": "hud_icon_equipment_claymore"
+            },
+            {
+                "#image": "hud_icon_equipment_decoy"
+            },
+            {
+                "#image": "hud_icon_equipment_flash"
+            },
+            {
+                "#image": "hud_icon_equipment_frag"
+            },
+            {
+                "#image": "hud_icon_equipment_gas"
+            },
+            {
+                "#image": "hud_icon_equipment_gas_mask"
+            },
+            {
+                "#image": "hud_icon_equipment_geiger"
+            },
+            {
+                "#image": "hud_icon_equipment_hb_sensor"
+            },
+            {
+                "#image": "hud_icon_equipment_molotov"
+            },
+            {
+                "#image": "hud_icon_equipment_parachute"
+            },
+            {
+                "#image": "hud_icon_equipment_semtex"
+            },
+            {
+                "#image": "hud_icon_equipment_shock_stick"
+            },
+            {
+                "#image": "hud_icon_equipment_smoke"
+            },
+            {
+                "#image": "hud_icon_equipment_snapshot"
+            },
+            {
+                "#image": "hud_icon_equipment_stim"
+            },
+            {
+                "#image": "hud_icon_equipment_stun"
+            },
+            {
+                "#image": "hud_icon_equipment_thermite"
+            },
+            {
+                "#image": "hud_icon_equipment_throwing_knife"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_ammo_box"
+            },
+            {
+                "#image": "hud_icon_equipment_cellphone"
+            },
+            {
+                "#image": "hud_icon_equipment_emp"
+            },
+            {
+                "#image": "hud_icon_equipment_flare"
+            },
+            {
+                "#image": "hud_icon_equipment_nvg"
+            },
+            {
+                "#image": "hud_icon_equipment_pop_rocket"
+            },
+            {
+                "#image": "hud_icon_equipment_battlerage"
+            },
+            {
+                "#image": "hud_icon_equipment_tac_cover"
+            },
+            {
+                "#image": "hud_icon_equipment_bolt"
+            },
+            {
+                "#image": "hud_icon_killstreak_ac130"
+            },
+            {
+                "#image": "hud_icon_killstreak_apache"
+            },
+            {
+                "#image": "hud_icon_killstreak_assault_drone"
+            },
+            {
+                "#image": "hud_icon_killstreak_bradley"
+            },
+            {
+                "#image": "hud_icon_killstreak_death_switch"
+            },
+            {
+                "#image": "hud_icon_killstreak_chopper_support"
+            },
+            {
+                "#image": "hud_icon_killstreak_circle_peek"
+            },
+            {
+                "#image": "hud_icon_killstreak_emp_drone"
+            },
+            {
+                "#image": "hud_icon_killstreak_radardrone_escort"
+            },
+            {
+                "#image": "hud_icon_killstreak_radardrone_overwatch"
+            },
+            {
+                "#image": "hud_icon_killstreak_radardrone_recon"
+            },
+            {
+                "#image": "hud_icon_killstreak_scramblerdrone"
+            },
+            {
+                "#image": "hud_icon_killstreak_sentry"
+            },
+            {
+                "#image": "hud_icon_killstreak_tomastrike"
+            },
+            {
+                "#image": "hud_icon_killstreak_turret"
+            },
+            {
+                "#image": "hud_icon_killstreak_wp"
+            },
+            {
+                "#image": "hud_icon_equipment_tac_cover"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_battle_rage"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_blinding_turret"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_deadsilence"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_drone_recon"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_emp"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_inflatable_decoy"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_loadout_drop"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_smoke_airdrop"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_sonar_pulse"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_sound_veil"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_stim_pistol"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_tac_cam"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_ammo_box"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_armor_box"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_tac_insert"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_trophy"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_emp_drone"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_laststand"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_stopping_power"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_weapon_drop"
+            },
+            {
+                "#image": "hud_icon_fieldupgrade_apr"
+            },
+            {
+                "#image": "jup_icon_mode_mp_hardpoint"
+            },
+            {
+                "#image": "jup_icon_mode_mp_control"
+            },
+            {
+                "#image": "jup_icon_mode_mp_snd"
+            },
+            {
+                "#image": "icon_faction_coalition"
+            },
+            {
+                "#image": "icon_faction_allegiance"
+            }
+        ],
+        "#hash_8a8bccc8d47690da": 220,
+        "#ref": "",
+        "#hash_1effb063d94f97d7": 4000,
+        "#hash_ccd8240eaa1a8c6c": 90,
+        "#hash_79126f25216e2a22": 4000,
+        "#names": [
+            {
+                "#teamname": ""
+            },
+            {
+                "#teamname": ""
+            }
+        ],
+        "#hash_41dd9b8ea092d959": 80,
+        "#hash_5d105e2e3f0654f2": 6000,
+        "#hash_faf41f16e7592505": 600,
+        "#hash_e90a1809730117": -50,
+        "#hash_f18574a826fb680": 1.5,
+        "#hash_c84a4a12c54c89b9": 1.5,
+        "#hash_2aaf7dd8ac07adb9": 1.75,
+        "#name": "",
+        "#hash_cf6cd2d92bb2bfce": 8000,
+        "#hash_fa2209535451e948": 0.5,
+        "#hash_5fd6afc64b27f0c1": 16,
+        "#hash_f0ce82c29d789899": "colors_base",
+        "#hash_b2b34d27657a0e27": 3500,
+        "#hash_82757c629cd9fe8f": 1
+    }
+}

@@ -1,0 +1,11 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/default/lootset_root.csv,,,,
+reqAdd,weapon,1,,,# 1 weapon
+reqAdd,plunder&[0],1,,,# 1 plunder
+reqAdd,plunder&[0],1,,25,# 1 chance for more plunder
+reqAdd,ammo,2,,,# 2 ammo
+reqAdd,brloot_armor_plate,1,,,# 1 armor plate
+reqAdd,[2-4],1,,,# 1 item of rarity 2-4
+reqAdd,plate_carrier,1,,50,# chance for any item of high quality
+reqLimit,weapon,,1,,
+reqLimit,plate_carrier,1,1,,

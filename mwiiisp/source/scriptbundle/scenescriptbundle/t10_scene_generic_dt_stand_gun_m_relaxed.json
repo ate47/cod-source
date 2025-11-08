@@ -1,0 +1,217 @@
+{
+    "#objects": [
+        {
+            "#variant_object": {
+                "#deletetype": "None",
+                "#animtree": "animtree#generic_human",
+                "#lookatstealth": true,
+                "#name": "dt_actor",
+                "#aitypename": "t10_ally_hero",
+                "#shots": [
+                    {
+                        "#mayhemanimations": [],
+                        "#float_blendtime": 1,
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_stand_gun_idle_relaxed_1_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_stand_gun_enter_left_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_stand_gun_exit_left_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_stand_gun_enter_right_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_stand_gun_exit_right_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_stand_gun_enter_behind_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_stand_gun_exit_behind_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_stand_gun_talking_relaxed_01_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_stand_gun_talking_relaxed_02_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_stand_gun_talking_relaxed_03_m@sbundle"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "#mayhemanimations": [],
+                        "#aligntarget": "dt_actor",
+                        "#deltaanimations": [
+                            {
+                                "#deltaanimation": {
+                                    "type": "anim",
+                                    "name": "t10_generic_dt_stand_gun_talking_relaxed_04_m@sbundle"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "#variant_type": "Types_Actor"
+        }
+    ],
+    "#shots": [
+        {
+            "#variant_object": {
+                "#name": "idle1"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "enter_left"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "exit_left"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "enter_right"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "exit_right"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "enter_behind"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "exit_behind"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_01"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_02"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_03"
+            },
+            "#variant_type": "Types_Shot"
+        },
+        {
+            "#variant_object": {
+                "#name": "talking_04"
+            },
+            "#variant_type": "Types_Shot"
+        }
+    ]
+}

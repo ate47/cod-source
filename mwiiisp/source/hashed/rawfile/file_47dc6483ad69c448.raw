@@ -1,0 +1,9 @@
+%force_cs_anim_index_match
+
+move_loop: blendspace1d( range="0,250", blend_time="500",coords="55,56,171,172", value=[desiredspeed] ) loopsync 
+{
+	civ_inj_shuffle01
+	civ_inj_walk01
+	civ_inj_walk01@1
+	civ_inj_jog01
+}

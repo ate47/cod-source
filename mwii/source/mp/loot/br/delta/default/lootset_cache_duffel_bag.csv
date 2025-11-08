@@ -1,0 +1,5 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/delta/default/lootset_root.csv,,,,
+reqAdd,super&[0-1],1,,50,# chance for super
+reqAdd,lethal | tactical,1,,,
+reqAdd,weapon,1,,,

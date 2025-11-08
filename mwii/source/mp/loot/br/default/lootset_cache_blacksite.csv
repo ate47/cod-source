@@ -1,0 +1,6 @@
+string,string,string
+inherit,mp/loot/br/default/lootset_root.csv,
+reqAdd,killstreak&brPowerItem,4
+reqAdd,brPowerItem&!plunder,4
+reqAdd,plunder,5
+reqLimit,killstreak,3

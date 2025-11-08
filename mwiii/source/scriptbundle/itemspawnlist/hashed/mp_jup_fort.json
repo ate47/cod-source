@@ -1,0 +1,133 @@
+{
+    "#hash_16615940f1280111": {
+        "#itemlistentries": [],
+        "#itementries": [
+            {
+                "#weight": 15,
+                "#itemspawnentry": "ob_jup_item_killstreak_sentrygun"
+            },
+            {
+                "#weight": 31,
+                "#itemspawnentry": "ob_jup_item_killstreak_cluster_spike"
+            },
+            {
+                "#weight": 22,
+                "#itemspawnentry": "ob_jup_item_killstreak_precision_airstrike"
+            },
+            {
+                "#weight": 2,
+                "#itemspawnentry": "ob_jup_item_killstreak_juggernaut"
+            },
+            {
+                "#weight": 22,
+                "#itemspawnentry": "ob_jup_item_killstreak_clusterstrike"
+            }
+        ]
+    },
+    "#hash_5127dbc8a423153f": {
+        "#itemlistentries": [
+            {
+                "#weight": 40,
+                "#itemspawnlist": "ob_jup_items_equipment_droplist_lethals"
+            },
+            {
+                "#weight": 25,
+                "#itemspawnlist": "ob_jup_items_equipment_droplist_tacticals"
+            },
+            {
+                "#weight": 10,
+                "#itemspawnlist": "ob_jup_items_equipment_droplist_tacticals_zm"
+            },
+            {
+                "#maxcount": 2,
+                "#weight": 15,
+                "#itemspawnlist": "ob_jup_items_killstreaks_unstable_rift",
+                "#mincount": 1
+            },
+            {
+                "#weight": 5,
+                "#itemspawnlist": "ob_jup_items_ammomods"
+            }
+        ],
+        "#itementries": [
+            {
+                "#weight": 5,
+                "#itemspawnentry": "ob_jup_item_revive_self_revive"
+            }
+        ]
+    },
+    "#hash_588ec3e68e29477a": {
+        "#itemlistentries": [],
+        "#itementries": [
+            {
+                "#maxcount": 1,
+                "#weight": 8,
+                "#itemspawnentry": "ob_jup_item_weaponcase_raygun"
+            },
+            {
+                "#maxcount": 1,
+                "#weight": 8,
+                "#itemspawnentry": "ob_jup_item_weaponcase_dg2"
+            },
+            {
+                "#maxcount": 1,
+                "#weight": 8,
+                "#itemspawnentry": "ob_jup_item_weaponcase_plasmagun"
+            },
+            {
+                "#maxcount": 1,
+                "#weight": 8,
+                "#itemspawnentry": "ob_jup_item_weaponcase_vr11"
+            },
+            {
+                "#maxcount": -1,
+                "#weight": 70
+            },
+            {
+                "#itemspawnentry": "ob_jup_item_weapon_pi_raygun"
+            },
+            {
+                "#itemspawnentry": "ob_jup_item_weapon_ar_dg2"
+            },
+            {
+                "#itemspawnentry": "ob_jup_item_weapon_la_plasmagun"
+            }
+        ]
+    },
+    "#hash_61ee8aa1d75f8c90": {
+        "#itemlistentries": [],
+        "#itementries": [
+            {
+                "#maxcount": 1,
+                "#weight": 1,
+                "#itemspawnentry": "ob_jup_item_key_rift_gate_season1_ice_attuned",
+                "#mincount": 1
+            }
+        ]
+    },
+    "#hash_6f9d0b5c6a8da5a9": {
+        "#itemlistentries": [
+            {
+                "#weight": 50,
+                "#itemspawnlist": "ob_jup_items_equipment_droplist_lethals"
+            },
+            {
+                "#weight": 50,
+                "#itemspawnlist": "ob_jup_items_equipment_droplist_tacticals"
+            },
+            {
+                "#weight": 3,
+                "#itemspawnlist": "ob_jup_items_equipment_droplist_tacticals_zm"
+            }
+        ],
+        "#itementries": [
+            {
+                "#weight": 100,
+                "#itemspawnentry": "ob_jup_item_armor_plate"
+            },
+            {
+                "#weight": 1000
+            }
+        ]
+    }
+}

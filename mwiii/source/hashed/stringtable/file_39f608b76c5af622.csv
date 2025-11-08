@@ -1,0 +1,9 @@
+string,string,string,string,string,string
+inherit,mp/loot/br/br_preview/lootset_root.csv,,,,
+chance,point,75,,,
+chance,cluster,75,,,
+chance,clusterSolo,35,,,
+reqLimit,tablet,2,,,
+reqAdd,plunder & [1],1,,,
+reqAdd,defensive&brPowerItem,1,1,,
+tagBoost,defensive,10,,,

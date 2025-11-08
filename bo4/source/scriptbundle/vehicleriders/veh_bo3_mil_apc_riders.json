@@ -1,0 +1,35 @@
+{
+    "objects": [
+        {
+            "exitgroundanim": "anim#bo3_ai_crew_cougar_driver_exit",
+            "aligntag": "tag_driver",
+            "rideanim": "anim#bo3_ai_crew_cougar_driver_idle",
+            "position": "driver"
+        },
+        {
+            "exitgroundanim": "anim#bo3_ai_crew_cougar_passenger_exit",
+            "aligntag": "tag_passenger",
+            "rideanim": "anim#bo3_ai_crew_cougar_passenger_idle",
+            "position": "passenger1"
+        },
+        {
+            "exitgroundanim": "anim#bo3_ai_crew_cougar_guy0_exit",
+            "aligntag": "tag_passenger",
+            "rideanim": "anim#bo3_ai_crew_cougar_guy0_idle",
+            "position": "crew1"
+        },
+        {
+            "exitgroundanim": "anim#bo3_ai_crew_cougar_guy1_exit",
+            "aligntag": "tag_passenger",
+            "rideanim": "anim#bo3_ai_crew_cougar_guy1_idle",
+            "position": "crew2"
+        }
+    ],
+    "configstringfiletype": "scriptbundle",
+    "model": "model#veh_t7_mil_apc",
+    "type": "vehicleriders",
+    "vmtype": "both",
+    "dropspeed": 250,
+    "name": "veh_bo3_mil_apc_riders",
+    "highexitlandheight": 32
+}

@@ -1,0 +1,118 @@
+{
+    "#hash_7b459d4f35a92bbf": {
+        "#hash_3d3d503b4bc07408": true,
+        "#intro_vfx_label": "powerup_intro",
+        "#hash_d8d585d208a5d6e7": 0.3,
+        "#intro_vfx_duration": 0.2,
+        "#hash_40a95d7bb8872fa2": "Bottom",
+        "#grabbed_vfx_label": "powerup_grabbed",
+        "#hash_3a83b92e9fcd024a": 90,
+        "#hash_652fff0810f34100": [
+            {
+                "#min": 12,
+                "#max": 16,
+                "#player_number": 1,
+                "#hash_7cce2df0592b4cf": 1
+            },
+            {
+                "#min": 14,
+                "#max": 18,
+                "#player_number": 2,
+                "#hash_7cce2df0592b4cf": 1
+            },
+            {
+                "#min": 17,
+                "#max": 21,
+                "#player_number": 3,
+                "#hash_7cce2df0592b4cf": 1
+            },
+            {
+                "#min": 20,
+                "#max": 24,
+                "#player_number": 4,
+                "#hash_7cce2df0592b4cf": 1
+            },
+            {
+                "#min": 23,
+                "#max": 27,
+                "#player_number": 5,
+                "#hash_7cce2df0592b4cf": 1
+            }
+        ],
+        "#hash_669205d9e4532cf1": 0.3,
+        "#hash_5a95e049dbbdc1ec": "scripted_widget_power_up_zm",
+        "#hash_99a990e9f5ea961c": "Center",
+        "#scriptedwidgethudstate": "Show",
+        "#powerup_list": [
+            {
+                "#ref": "full_ammo",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_full_ammo_jup_mp"
+            },
+            {
+                "#ref": "fire_sale",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "bonus_points_team",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "bonus_points_player",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "free_perk",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "nuke",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_nuke_jup_mp"
+            },
+            {
+                "#ref": "insta_kill",
+                "#hash_cc9e5dd3893defb": true,
+                "#bundle": "powerup_insta_kill_jup_mp"
+            },
+            {
+                "#ref": "full_power",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "full_armor",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "double_points",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "zombie_vision",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "loot_master",
+                "#hash_cc9e5dd3893defb": true
+            },
+            {
+                "#ref": "zombie_legs",
+                "#hash_cc9e5dd3893defb": true
+            }
+        ],
+        "#idle_vfx_label": "powerup_on",
+        "#drop_height_offset": 40,
+        "#hash_2ba0ca9fa5ed1fba": 4,
+        "#grabbed_vfx_duration": 0.6,
+        "#drop_event_incremental_number_per_player": 3,
+        "#hash_fde516927a257974": -210,
+        "#showsplash": true,
+        "#model_drop_delay_max": 1.5,
+        "#model_drop_delay_min": 0.1,
+        "#hash_b3bf16041ccae401": 0.3,
+        "#model_drop_delay_distance_inner": 8,
+        "#model_drop_delay_distance_outer": 160,
+        "#ammo_spacing_max": 2,
+        "#ammo_spacing_min": 1
+    }
+}
