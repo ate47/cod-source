@@ -1,0 +1,2384 @@
+[
+	{
+		"name": "cp_zm_zod_holdout_intensity_01",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 2, 2, 3, 3, 4, 5 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 4, 5, 6, 7 ],
+				"threep": [ 0, 2, 2, 3, 3, 5, 6, 7, 7, 9 ],
+				"fourp": [ 1, 2, 3, 4, 6, 6, 7, 7, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 2 ,
+						"twop": 1.5 ,
+						"threep": 1.25,
+						"fourp": 1
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 3, 3 ],
+						"twop": [ 5, 5 ],
+						"threep": [ 7, 7 ],
+						"fourp": [ 9, 9 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 25, 30 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_holdout_intensity_02",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 2, 2, 3, 3, 4, 5 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 4, 5, 6, 7 ],
+				"threep": [ 0, 2, 2, 3, 3, 5, 6, 7, 7, 9 ],
+				"fourp": [ 1, 2, 3, 4, 6, 6, 7, 7, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 1.25,
+						"twop": 1,
+						"threep": 0.5,
+						"fourp": 0.25
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 4, 4 ],
+						"twop": [ 8, 8 ],
+						"threep": [ 12, 12 ],
+						"fourp": [ 15, 15 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.025,
+						"incremental_spawn_chance": 0.025,
+						"spawn_chance_increment": 0.01,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 1 ],
+								"twop": [ 1, 1, 1, 2, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 3, 3, 4 ]
+							} 
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 25, 30 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_holdout_intensity_03",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 2, 2, 3, 3, 4, 5 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 4, 5, 6, 7 ],
+				"threep": [ 0, 2, 2, 3, 3, 5, 6, 7, 7, 9 ],
+				"fourp": [ 1, 2, 3, 4, 6, 6, 7, 7, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 1,
+						"twop": 0.25,
+						"threep": 0.25,
+						"fourp": 0.2
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 5, 5 ],
+						"twop": [ 11, 11 ],
+						"threep": [ 16, 16 ],
+						"fourp": [ 19, 19 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.05,
+						"incremental_spawn_chance": 0.05,
+						"spawn_chance_increment": 0.01,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 1 ],
+								"twop": [ 1, 1, 1, 2, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 3, 3, 4 ]
+							} 
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 25, 30 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_holdout_intensity_04",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 2, 2, 3, 3, 4, 5 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 4, 5, 6, 7 ],
+				"threep": [ 0, 2, 2, 3, 3, 5, 6, 7, 7, 9 ],
+				"fourp": [ 1, 2, 3, 4, 6, 6, 7, 7, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.75,
+						"twop": 0.25,
+						"threep": 0.2,
+						"fourp": 0.15
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 6, 6 ],
+						"twop": [ 14, 14 ],
+						"threep": [ 20, 20 ],
+						"fourp": [ 24, 24 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"count": [ 1, 3 ]
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.05,
+						"incremental_spawn_chance": 0.05,
+						"spawn_chance_increment": 0.025,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 2, 2 ],
+								"twop": [ 1, 1, 2, 2, 2, 3 ],
+								"threep": [ 1, 2, 2, 3, 3, 4 ],
+								"fourp": [ 2, 3, 3, 4, 4, 5 ]
+							}  
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 20, 25 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_holdout_screamer",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 2, 2, 3, 3, 4, 5 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 4, 5, 6, 7 ],
+				"threep": [ 0, 2, 2, 3, 3, 5, 6, 7, 7, 9 ],
+				"fourp": [ 1, 2, 3, 4, 6, 6, 7, 7, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 1.25,
+						"twop": 1,
+						"threep": 0.5,
+						"fourp": 0.25
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 4, 4 ],
+						"twop": [ 8, 8 ],
+						"threep": [ 12, 12 ],
+						"fourp": [ 15, 15 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"count": [ 10000, 10000 ]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 15, 45 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_soul_capture_intensity_01",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 2, 2, 3, 3, 4, 5 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 4, 5, 6, 7 ],
+				"threep": [ 0, 2, 2, 3, 3, 5, 6, 7, 7, 9 ],
+				"fourp": [ 1, 2, 3, 4, 6, 6, 7, 7, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.2 ,
+						"twop": 0.2 ,
+						"threep": 0.2,
+						"fourp": 0.2
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 4, 4 ],
+						"twop": [ 10, 10 ],
+						"threep": [ 13, 13 ],
+						"fourp": [ 16, 16 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.05,
+						"incremental_spawn_chance": 0.05,
+						"spawn_chance_increment": 0.01,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 0, 0, 0, 1, 1, 1 ],
+								"twop": [ 0, 1, 1, 1, 1, 2 ],
+								"threep": [ 1, 1, 1, 2, 2, 2 ],
+								"fourp": [ 1, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 25, 30 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_soul_capture_intensity_02",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 2, 2, 3, 3, 4, 5 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 4, 5, 6, 7 ],
+				"threep": [ 0, 2, 2, 3, 3, 5, 6, 7, 7, 9 ],
+				"fourp": [ 1, 2, 3, 4, 6, 6, 7, 7, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.2 ,
+						"twop": 0.2 ,
+						"threep": 0.2,
+						"fourp": 0.2
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 5, 5 ],
+						"twop": [ 11, 11 ],
+						"threep": [ 16, 16 ],
+						"fourp": [ 20, 20 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"count": [ 1, 3 ]
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.05,
+						"incremental_spawn_chance": 0.05,
+						"spawn_chance_increment": 0.01,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 0, 1, 1, 1, 1, 1 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 1, 2, 3, 3 ],
+								"fourp": [ 2, 2, 2, 3, 3, 4 ]
+							}  
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}   
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 25, 30 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_soul_capture_intensity_03",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 2, 2, 3, 3, 4, 5 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 4, 5, 6, 7 ],
+				"threep": [ 0, 2, 2, 3, 3, 5, 6, 7, 7, 9 ],
+				"fourp": [ 1, 2, 3, 4, 6, 6, 7, 7, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.2 ,
+						"twop": 0.2 ,
+						"threep": 0.2,
+						"fourp": 0.2
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 6, 6 ],
+						"twop": [ 15, 15 ],
+						"threep": [ 19, 19 ],
+						"fourp": [ 24, 24 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"count": [ 2, 3 ]
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.05,
+						"incremental_spawn_chance": 0.05,
+						"spawn_chance_increment": 0.025,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 2, 2 ],
+								"twop": [ 1, 1, 2, 2, 2, 3 ],
+								"threep": [ 1, 2, 2, 3, 3, 4 ],
+								"fourp": [ 2, 3, 3, 4, 4, 5 ]
+							}  
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 25, 30 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_exfil_intensity_01",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+				"twop": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+				"threep": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+				"fourp": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.2 ,
+						"twop": 0.2 ,
+						"threep": 0.1,
+						"fourp": 0.1
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 9, 9 ],
+						"twop": [ 16, 16 ],
+						"threep": [ 23, 23 ],
+						"fourp": [ 28, 28 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 1000, 1000 ]
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.025,
+						"incremental_spawn_chance": 0.025,
+						"spawn_chance_increment": 0.01,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 1 ],
+								"twop": [ 1, 1, 1, 2, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 3, 3, 4 ]
+							} 
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 15, 20 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_exfil_intensity_02",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+				"twop": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+				"threep": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+				"fourp": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.2 ,
+						"twop": 0.2 ,
+						"threep": 0.1,
+						"fourp": 0.1
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 9, 9 ],
+						"twop": [ 16, 16 ],
+						"threep": [ 23, 23 ],
+						"fourp": [ 28, 28 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.05,
+						"incremental_spawn_chance": 0.025,
+						"spawn_chance_increment": 0.01,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 1 ],
+								"twop": [ 1, 1, 1, 2, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 3, 3, 4 ]
+							} 
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 15, 20 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_exfil_intensity_03",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+				"twop": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+				"threep": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+				"fourp": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.2 ,
+						"twop": 0.2 ,
+						"threep": 0.1,
+						"fourp": 0.1
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 11, 11 ],
+						"twop": [ 18, 18 ],
+						"threep": [ 25, 25 ],
+						"fourp": [ 30, 30 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.1,
+						"incremental_spawn_chance": 0.025,
+						"spawn_chance_increment": 0.01,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 1 ],
+								"twop": [ 1, 1, 1, 2, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 3, 3, 4 ]
+							} 
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 15, 20 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_exfil_final",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+				"twop": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+				"threep": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+				"fourp": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.1 ,
+						"twop": 0.1 ,
+						"threep": 0.1,
+						"fourp": 0.1
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 13, 13 ],
+						"twop": [ 21, 21 ],
+						"threep": [ 28, 28 ],
+						"fourp": [ 32, 32 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.6,
+						"incremental_spawn_chance": 0.1,
+						"spawn_chance_increment": 0.01,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 1 ],
+								"twop": [ 2, 2, 2, 2, 2, 2 ],
+								"threep": [ 2, 2, 2, 3, 3, 3 ],
+								"fourp": [ 2, 2, 3, 3, 4, 4 ]
+							} 
+						]
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.1,
+						"incremental_spawn_chance": 0.1,
+						"spawn_chance_increment": 0.01,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 2, 2 ],
+								"twop": [ 1, 2, 2, 2, 3, 4 ],
+								"threep": [ 2, 2, 3, 3, 4, 4 ],
+								"fourp": [ 2, 3, 3, 4, 4, 5 ]
+							} 
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}   
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 15, 20 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_orb_follow_travel_intensity_01",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 3, 4, 5, 6 ],
+				"threep": [ 0, 1, 2, 4, 4, 5, 5, 6, 6, 8 ],
+				"fourp": [ 1, 2, 3, 5, 5, 7, 7, 9, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 2 ,
+						"twop": 1.5 ,
+						"threep": 1.25,
+						"fourp": 1
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 2, 2 ],
+						"twop": [ 4, 4 ],
+						"threep": [ 6, 6 ],
+						"fourp": [ 8, 8 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 0, 0 ],
+								"twop": [ 0, 1 ],
+								"threep": [ 1, 1 ],
+								"fourp": [ 1, 2 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 25, 30 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_orb_follow_travel_intensity_02",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 3, 4, 5, 6 ],
+				"threep": [ 0, 1, 2, 4, 4, 5, 5, 6, 6, 8 ],
+				"fourp": [ 1, 2, 3, 5, 5, 7, 7, 9, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 1.5 ,
+						"twop": 0.75 ,
+						"threep": 0.5,
+						"fourp": 0.25
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 4, 4 ],
+						"twop": [ 9, 9 ],
+						"threep": [ 13, 13 ],
+						"fourp": [ 17, 17 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"count": [ 1, 1 ]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 25, 30 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_orb_follow_travel_intensity_03",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 3, 4, 5, 6 ],
+				"threep": [ 0, 1, 2, 4, 4, 5, 5, 6, 6, 8 ],
+				"fourp": [ 1, 2, 3, 5, 5, 7, 7, 9, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.5 ,
+						"twop": 0.25 ,
+						"threep": 0.2,
+						"fourp": 0.2
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 6, 6 ],
+						"twop": [ 13, 13 ],
+						"threep": [ 18, 18 ],
+						"fourp": [ 23, 23 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"count": [ 1, 2 ]
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.05,
+						"incremental_spawn_chance": 0.05,
+						"spawn_chance_increment": 0.025,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 1 ],
+								"twop": [ 1, 1, 2, 2, 2, 3 ],
+								"threep": [ 1, 2, 2, 3, 3, 4 ],
+								"fourp": [ 2, 3, 3, 4, 4, 5 ]
+							}  
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 25, 30 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_orb_follow_travel_intensity_02_simple",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 3, 4, 5, 6 ],
+				"threep": [ 0, 1, 2, 4, 4, 5, 5, 6, 6, 8 ],
+				"fourp": [ 1, 2, 3, 5, 5, 7, 7, 9, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 1.5 ,
+						"twop": 0.75 ,
+						"threep": 0.5,
+						"fourp": 0.25
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 4, 4 ],
+						"twop": [ 9, 9 ],
+						"threep": [ 13, 13 ],
+						"fourp": [ 17, 17 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 1000, 1000 ]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 0, 0 ],
+								"twop": [ 0, 0 ],
+								"threep": [ 0, 0 ],
+								"fourp": [ 0, 0 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 25, 30 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_orb_follow_travel_intensity_03_simple",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 3, 4, 5, 6 ],
+				"threep": [ 0, 1, 2, 4, 4, 5, 5, 6, 6, 8 ],
+				"fourp": [ 1, 2, 3, 5, 5, 7, 7, 9, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.5 ,
+						"twop": 0.25 ,
+						"threep": 0.2,
+						"fourp": 0.2
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 6, 6 ],
+						"twop": [ 13, 13 ],
+						"threep": [ 18, 18 ],
+						"fourp": [ 23, 23 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 1000, 1000 ]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 0, 0 ],
+								"twop": [ 0, 0 ],
+								"threep": [ 0, 0 ],
+								"fourp": [ 0, 0 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 25, 30 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+		{
+		"name": "cp_zm_zod_assault_intensity_01",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 2, 2, 3, 3, 4, 5 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 4, 5, 6, 7 ],
+				"threep": [ 0, 1, 2, 3, 3, 5, 6, 7, 7, 9 ],
+				"fourp": [ 1, 2, 3, 4, 6, 6, 7, 7, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.2 ,
+						"twop": 0.2 ,
+						"threep": 0.2,
+						"fourp": 0.2
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 5, 5 ],
+						"twop": [ 8, 8 ],
+						"threep": [ 10, 10 ],
+						"fourp": [ 13, 13 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.05,
+						"incremental_spawn_chance": 0.05,
+						"spawn_chance_increment": 0.01,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 0, 0, 0, 1, 1, 1 ],
+								"twop": [ 0, 1, 1, 1, 1, 2 ],
+								"threep": [ 1, 1, 1, 2, 2, 2 ],
+								"fourp": [ 1, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 25, 30 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_assault_intensity_02",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 2, 2, 3, 3, 4, 5 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 4, 5, 6, 7 ],
+				"threep": [ 0, 1, 2, 3, 3, 5, 6, 7, 7, 9 ],
+				"fourp": [ 1, 2, 3, 4, 6, 6, 7, 7, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.2 ,
+						"twop": 0.2 ,
+						"threep": 0.2,
+						"fourp": 0.2
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 5, 5 ],
+						"twop": [ 9, 9 ],
+						"threep": [ 11, 11 ],
+						"fourp": [ 15, 15 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"count": [ 1, 3 ]
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.05,
+						"incremental_spawn_chance": 0.05,
+						"spawn_chance_increment": 0.01,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 0, 1, 1, 1, 1, 1 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 1, 2, 3, 3 ],
+								"fourp": [ 2, 2, 2, 3, 3, 4 ]
+							}  
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 25, 30 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_assault_intensity_03",
+		"updateInterval": 0.5,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 2, 2, 3, 3, 4, 5 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 4, 5, 6, 7 ],
+				"threep": [ 0, 1, 2, 3, 3, 5, 6, 7, 7, 9 ],
+				"fourp": [ 1, 2, 3, 4, 6, 6, 7, 7, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.2 ,
+						"twop": 0.2 ,
+						"threep": 0.2,
+						"fourp": 0.2
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 6, 6 ],
+						"twop": [ 11, 11 ],
+						"threep": [ 13, 13 ],
+						"fourp": [ 18, 18 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"count": [ 2, 3 ]
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.05,
+						"incremental_spawn_chance": 0.05,
+						"spawn_chance_increment": 0.025,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 2, 2 ],
+								"twop": [ 1, 1, 2, 2, 2, 3 ],
+								"threep": [ 1, 2, 2, 3, 3, 4 ],
+								"fourp": [ 2, 3, 3, 4, 4, 5 ]
+							}  
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 25, 30 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_domination_first_intensity",
+		"updateInterval": 1,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 1, 1, 1, 2, 2, 2, 3, 3 ],
+				"twop": [ 0, 1, 1, 2, 2, 3, 3, 4, 5, 6 ],
+				"threep": [ 0, 1, 2, 4, 4, 5, 5, 6, 6, 8 ],
+				"fourp": [ 1, 2, 3, 5, 5, 7, 7, 9, 9, 11 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 2 ,
+						"twop": 1.5 ,
+						"threep": 1.25,
+						"fourp": 1
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 2, 2 ],
+						"twop": [ 4, 4 ],
+						"threep": [ 6, 6 ],
+						"fourp": [ 8, 8 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"count": [ 1, 2 ],
+						"force_spawn_chance": 1
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"force_spawn_chance": 0.9,
+						"base_spawn_chance": 0.05,
+						"incremental_spawn_chance": 0.05,
+						"spawn_chance_increment": 0.025,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 1 ],
+								"twop": [ 1, 1, 2, 2, 2, 3 ],
+								"threep": [ 1, 2, 2, 3, 3, 4 ],
+								"fourp": [ 2, 3, 3, 4, 4, 5 ]
+							}  
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"force_spawn_chance": 0.8,
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 25, 30 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_domination_final_intensity_01",
+		"updateInterval": 0.2,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 8, 12 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 ],
+				"twop": [ 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 ],
+				"threep": [ 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 ],
+				"fourp": [ 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.1 ,
+						"twop": 0.1 ,
+						"threep": 0.1,
+						"fourp": 0.1
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 30, 30 ],
+						"twop": [ 30, 30 ],
+						"threep": [ 30, 30 ],
+						"fourp": [ 30, 30 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"count": [ 1, 2 ],
+						"force_spawn_chance": 1
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.05,
+						"incremental_spawn_chance": 0.05,
+						"spawn_chance_increment": 0.025,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 1 ],
+								"twop": [ 1, 1, 2, 2, 2, 3 ],
+								"threep": [ 1, 2, 2, 3, 3, 4 ],
+								"fourp": [ 2, 3, 3, 4, 4, 5 ]
+							}  
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 15, 20 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_domination_final_intensity_02",
+		"updateInterval": 0.2,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 10, 15 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 ],
+				"twop": [ 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 ],
+				"threep": [ 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 ],
+				"fourp": [ 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.07 ,
+						"twop": 0.07 ,
+						"threep": 0.07 ,
+						"fourp": 0.07 ,
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 30, 30 ],
+						"twop": [ 30, 30 ],
+						"threep": [ 30, 30 ],
+						"fourp": [ 30, 30 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"count": [ 1, 2 ],
+						"force_spawn_chance": 1
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.5,
+						"incremental_spawn_chance": 0.05,
+						"spawn_chance_increment": 0.025,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 1 ],
+								"twop": [ 1, 1, 2, 2, 2, 3 ],
+								"threep": [ 1, 2, 2, 3, 3, 4 ],
+								"fourp": [ 2, 3, 3, 4, 4, 5 ]
+							}  
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 10, 15 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_domination_final_intensity_03",
+		"updateInterval": 0.2,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 12, 17 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 ],
+				"twop": [ 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 ],
+				"threep": [ 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 ],
+				"fourp": [ 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.05 ,
+						"twop": 0.05 ,
+						"threep": 0.05 ,
+						"fourp": 0.05 ,
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 30, 30 ],
+						"twop": [ 30, 30 ],
+						"threep": [ 30, 30 ],
+						"fourp": [ 30, 30 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 10000, 10000 ]
+					},
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"count": [ 1, 2 ],
+						"force_spawn_chance": 1
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 1,
+						"incremental_spawn_chance": 0.05,
+						"spawn_chance_increment": 0.025,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 1 ],
+								"twop": [ 1, 1, 2, 2, 2, 3 ],
+								"threep": [ 1, 2, 2, 3, 3, 4 ],
+								"fourp": [ 2, 3, 3, 4, 4, 5 ]
+							}  
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}    
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 1, 1 ],
+								"twop": [ 1, 2 ],
+								"threep": [ 1, 2 ],
+								"fourp": [ 2, 3 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 10, 15 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	{
+		"name": "cp_zm_zod_domination_intensity_final_special",
+		"updateInterval": 1,
+		"minTimeBetweenSpawns": 3,
+		"maxActive": [ 1, 1 ],
+		"zombieRoundMaxActive":
+		[
+			{
+				"onep": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+				"twop": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+				"threep": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+				"fourp": [ 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 ],
+			}
+		],
+		"waves":
+		[
+			{
+				"minTimeBetweenSpawns":
+				[
+					{
+						"onep": 0.1 ,
+						"twop": 0.1 ,
+						"threep": 0.1,
+						"fourp": 0.1
+					}
+				],
+				"maxActive":
+				[
+					{
+						"onep": [ 1, 1 ],
+						"twop": [ 1, 1 ],
+						"threep": [ 1, 1 ],
+						"fourp": [ 1, 1 ]
+					}
+				],
+				"aiTypes":
+				[
+					{
+						"type": "enemy_base_zombie_cp",
+						"count": [ 1, 1 ]
+					},
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"count": [ 1, 1 ],
+						"force_appear_round": 1,
+						"force_spawn_chance": 1,
+					},
+					{
+						"type": "enemy_zombie_juggernaut_cp",
+						"count": [ 1, 1 ],
+						"force_appear_round": 2,
+						"force_spawn_chance": 0.9,
+						"base_spawn_chance": 1,
+						"incremental_spawn_chance": 1,
+						"spawn_chance_increment": 1,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 1 ],
+								"twop": [ 1, 1, 1, 1, 1, 1 ],
+								"threep": [ 1, 1, 1, 1, 1, 1 ],
+								"fourp": [ 1, 1, 1, 1, 1, 1 ]
+							}  
+						]
+					},
+					{
+						"type": "enemy_zombie_trickster_cp",
+						"count": [ 1, 1 ],
+						"force_spawn_chance": 0.8,
+						"base_spawn_chance": 0.02,
+						"incremental_spawn_chance": 0.02,
+						"spawn_chance_increment": 0.05,
+						"difficulty_scaling_count": 
+						[ 
+							{
+								"onep": [ 1, 1, 1, 1, 1, 2 ],
+								"twop": [ 1, 1, 1, 1, 2, 2 ],
+								"threep": [ 1, 1, 2, 2, 2, 3 ],
+								"fourp": [ 2, 2, 2, 2, 3, 3 ]
+							}  
+						]
+					}
+				],
+				"spawnEventTriggers":
+				[
+					{
+						"type": "enemy_zombie_screamer_cp",
+						"distance_check": 1,
+						"count":
+						[
+							{
+								"onep": [ 0, 0 ],
+								"twop": [ 0, 0 ],
+								"threep": [ 0, 0 ],
+								"fourp": [ 0, 0 ],
+							}
+						],
+						"conditions":
+						[
+							{
+								"type": "elapsedTime",
+								"seconds": [ 15, 20 ]
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+]

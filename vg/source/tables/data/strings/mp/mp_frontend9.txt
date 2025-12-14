@@ -1,0 +1,5354 @@
+   1	dyn_canteen
+   2	j_string_23_03
+   3	j_dish_l
+   4	ps_mp_mvphl_lucas_hits_01
+   5	fx_playfxontag, vfx/s4/blood/fatality_blood_screen_01, j_head
+   6	BrowInrDn_00_L
+   7	slow_14_200
+   8	j_holder
+   9	j_pedal_clutch
+  10	show
+  11	j_string_52
+  12	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_knee_le
+  13	ps_mp_execution_dog_standandprone_bloodpool_maul_01
+  14	j_corner_7_b
+  15	ps_mp_exec_greenbay_prone_fire_02
+  16	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_shoulder_ri
+  17	j_spas_strap_rare_02
+  18	j_grp_wristwatch_second
+  19	j_ump_sling_06
+  20	CornerPull_10_L
+  21	CornerPull_14_L
+  22	dof_4.8_67_050_050
+  23	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_01, j_proc_spinelower2
+  24	j_paper_02
+  25	change_fov_absolute,60_0
+  26	dof_5_68_050_050
+  27	Squint_03_R
+  28	Squint_06_L
+  29	dof_4_129_010_010
+  30	fx_stopfxontag, vfx/s4/blood/fatality_blood_head_03, j_head
+  31	j_nasolabial_ri_2
+  32	fx_stopfxontag, vfx/s4/blood/fatality_blood_beatrice_cleaver_rnr, j_head
+  33	j_knee_ri
+  34	j_chalkboard_00
+  35	dof_2.8_29_010_010
+  36	dof_4_78_050_050
+  37	tag_cambone
+  38	j_holderarm1
+  39	tag_wheel_mid_right_0
+  40	ps_mp_mvphl_roland_knuckles_02
+  41	tag_cover_panel_08_dst
+  42	dof_20_15_10_10
+  43	s4_jpn_rock_ruins_basalt_piece_128
+  44	j_coord_09
+  45	fx_playfxontag, vfx/s4/blood/fatality_blood_head_05, j_shoulder_le
+  46	dof_5.6_85_010_010
+  47	LookDn_09_R
+  48	fx_playfxontag, vfx/s4/blood/fatality_blood_anna_icepick_hit_02, tag_knife_fx
+  49	test_gunsmith_ammo_standing_02bneeeww1
+  50	ps_generic_death_execution
+  51	ps_mp_execution_daniel_stand_shovelstab
+  52	dof_3.3_38_010_010
+  53	equipmtovfxworld
+  54	dof_5.6_43_050_050
+  55	dyn_chain_r_03
+  56	j_b_17
+  57	j_sword_arm_r
+  58	j_cover_right_03
+  59	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_thotel_wv, tag_brass
+  60	ps_mp_exec_shuriken_01_prone_hit_03
+  61	tag_tread_ri_28
+  62	dof_4.5_42_0_0
+  63	ps_mp_potm_lewis_foley_01
+  64	tag_left_wing_fx
+  65	dof_4.0_40_0_0
+  66	dof_3.1_60_100_100
+  67	dof_3.5_30_400_2004
+  68	change_fov_absolute,61,333
+  69	NoseWrinkle_00_L
+  70	NoseWrinkle_03_R
+  71	fx_playfxontag, vfx/s4/blood/fatality_blood_head_02.vfx, j_knee_ri
+  72	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_posy.vfx, j_shoulder_ri
+  73	j_levator_le_1
+  74	jnt_piece_59
+  75	jnt_piece_64
+  76	j_neck
+  77	dyn_chain_l_01_dog
+  78	dyn_sling_28
+  79	blendmap_mask_24_4
+  80	UprLidDn_02_R
+  81	j_cosmetic_1
+  82	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_proc_lift_clavicle_le
+  83	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_pullout_01, j_spine4
+  84	dof_2.8_51_0_0
+  85	mkg_hanging_vines_15
+  86	j_strap_53
+  87	dof_2.2_36_0_0
+  88	UprLidRaise_03_R
+  89	UprLidRaise_01_L
+  90	fx_playfxontag, vfx/s4/blood/fatality_blood_hit_negy_rnr, j_proc_hip_lift_le
+  91	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_dummy_knee_dist
+  92	j_string_155
+  93	dof_3.3_24_010_010
+  94	ps_mp_exec_kenosha_stand_foley_03
+  95	ps_mp_potm_taeyoung_foley_02
+  96	LookUp_06_R
+  97	LookUp_03_L
+  98	dof_4_92_010_010
+  99	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_ankle_le
+ 100	s4_wood_log_06b_vines_dry
+ 101	init_stage0
+ 102	ps_exec_lion_01_prone_foley_01
+ 103	j_mid_ri_1_elf
+ 104	dof_3.4_55_050_050
+ 105	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_02, j_proc_spine4
+ 106	j_strap_130
+ 107	dof_20_20_0_0
+ 108	change_fov,50,300
+ 109	fx_playfxontag, vfx/s4/character/_misc/fatality_mouth_blood_spit, j_head
+ 110	j_teres_ri_umbrella
+ 111	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_axe_pullout_lrg.vfx, j_spineupper
+ 112	active_pest_4
+ 113	hide,j_bottle_des
+ 114	ps_mp_mvphl_generic_nunchucks_stomp_a_01
+ 115	dof_5_51_0_0
+ 116	vfx/s4/level/el_alamein/smoke_plume_fire_distant_xlg_1
+ 117	dof_5_62_030_030
+ 118	
+ 119	fx_stopfxontag, vfx/s4/blood/fatality_blood_daniel_shovel_rnr, j_spineupper
+ 120	fx_playfxontag, vfx/s4/weapon/_muzzle/shtgn/lindia98/weap_muz_lindia98_m_wv, tag_flash_umbrella
+ 121	UprLipRaise_01_R
+ 122	j_dish_r
+ 123	j_carry_handle
+ 124	fx_playfxontag, vfx/s4/dust/dust_imp_ground, tag_origin
+ 125	slow_10_100
+ 126	weap_p226_clipin_plr
+ 127	j_metapinky_le_1
+ 128	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_02, j_knee_le
+ 129	pristine
+ 130	j_shoulder_le_umbrella
+ 131	fx_playfxontag, vfx/s4/blood/fatality_blood_back_hit_01, j_wristfronttwist1_le
+ 132	j_ring_le_1_elf
+ 133	dof_4_85_000_000
+ 134	JawOpenLock_00_L
+ 135	fx_stopfxontag, vfx/s4/trail/fatality_glaive_trail, tag_weapon_left
+ 136	ps_exec_lion_01_stand_hit_02
+ 137	jaw_jnt
+ 138	change_fov,85,100
+ 139	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_blood_head_pop.vfx, j_head
+ 140	j_metamid_ri_1
+ 141	ps_mp_mvphl_generic_assault_hits_01
+ 142	change_fov_absolute,40,0
+ 143	scriptable_s4_jpn_vase_04_destp
+ 144	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_elbow_ri
+ 145	fx_playfxontag, vfx/s4/dust/fatality_simple_impact, tag_eye
+ 146	ps_mp_exec_florence_01_stand_bf_01
+ 147	dof_5_31_050_050
+ 148	j_wire_01
+ 149	j_clavicle_ri_pet
+ 150	j_clavicle_ri_lep
+ 151	dof_3.4_60_001_001
+ 152	j_elbowdq_ri
+ 153	dof_4_80_010_010
+ 154	dof_5_74_030_030
+ 155	blade_grip_top
+ 156	Squint_02_L
+ 157	Squint_03_L
+ 158	ps_mp_mvphl_shigenori_hits_01
+ 159	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_florence_rotor_wash, tag_origin
+ 160	j_head_end
+ 161	fx_playfxontag, vfx/s4/blood/fatality_blood_hit_negy_rnr, j_proc_spineupperlift
+ 162	slow_25_200
+ 163	dof_4.5_30_050_050
+ 164	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_ankle_le
+ 165	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01, j_knee_le
+ 166	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_sniper01_pist_shej, tag_weapon_left
+ 167	tag_holo
+ 168	fx_playfxontag, vfx/s4/blood/fatality_blood_daniel_shovel_rnr2.vfx, tag_fx
+ 169	j_kneedq_le_umbrella
+ 170	dof_3.3_46_0_0
+ 171	ps_mp_execution_arthur_stand_stab_a
+ 172	cc_xm_destroyontag,wm_leta_gen_satchel_charge_00,tag_accessory_right
+ 173	l_lipmid0_jnt
+ 174	fx_playfxontag, vfx/s4/blood/fatality_blood_wound_decal, j_neck
+ 175	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_drip, j_kukri
+ 176	squintSL_elf
+ 177	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, l_lipupper0_jnt_dog
+ 178	j_index_ri_4
+ 179	jnt_piece_5
+ 180	dof_2.8_45_010_010
+ 181	j_coord_10
+ 182	j_insidegum
+ 183	j_thumb_ri_2_umbrella
+ 184	ps_exec_generic_doublemace_01_prone_hits_03
+ 185	ps_mp_execution_shigenori_stand_whoosh_b
+ 186	fx_playfxontag, vfx/s4/blood/fatality_electrocution_01, j_spineupper
+ 187	fx_playfxontag, vfx/s4/character/_misc/vfx_greenbay_blue_fire_breath_rnr, j_head
+ 188	fx_playfxontag, vfx/s4/blood/fatality_blood_kata_gut_shige_rnr, j_spineupper
+ 189	stage4
+ 190	dof_2.8_41_200_200
+ 191	fx_playfxontag, vfx/s4/blood/fatality_blood_wade_fakedecal, j_gun
+ 192	fx_playfxontag, vfx/s4/character/_misc/fatality_spit_mouth_01, j_neck
+ 193	fx_stopfxontag, vfx/s4/blood/fatality_blood_chest_strong, j_spineupper
+ 194	ps_mp_execution_wellington_prone_gore_02
+ 195	neck1_jnt_dog
+ 196	ps_mp_execution_ikenna_standing_foley_01
+ 197	ps_mp_exec_greenbay_stand_foley_02
+ 198	fx_playfxontag, vfx/s4/dust/fatality_dust_fall_imp, j_mainroot
+ 199	fx_playfxontag, vfx/s4/blood/fatality_blood_krampus_arm_l_rnr, j_shoulder_le
+ 200	tag_tread_le_36
+ 201	j_b_02
+ 202	j_b_19
+ 203	j_b_21
+ 204	tag_stowed_hip_rear
+ 205	fx_playfxontag, vfx/s4/blood/fatality_blood_head_11.vfx, j_head
+ 206	ps_mp_execution_constanze_stand_whoosh_d
+ 207	j_coord_012
+ 208	j_coord_036
+ 209	tag_tread_ri_13
+ 210	tag_tread_ri_43
+ 211	ps_mp_exec_nunchuck_01_stand_foley_01
+ 212	j_strings_l_02
+ 213	dof_5_103_050_050
+ 214	tongueend_jnt
+ 215	j_pedal_gas
+ 216	s4_jpn_rock_ruins_base_piece_b
+ 217	fx_playfxontag, vfx/s4/blood/fatality_blood_taeyoung_mouth_01, j_head
+ 218	jnt_piece_18
+ 219	jnt_piece_43
+ 220	jnt_piece_57
+ 221	j_bottle
+ 222	j_hip_le_umbrella
+ 223	dyn_sling_07
+ 224	dyn_sling_13
+ 225	dof_4.8_38_010_010
+ 226	r_ripmid0_jnt
+ 227	dof_4_105_050_050
+ 228	fx_stopfxontag, vfx/s4/character/_mtx/s5/death/mtx_ultra_death_ex_hands, j_wrist_ri
+ 229	fx_playfxontag, vfx/s4/blood/fatality_blood_elf_stab_hit_01, j_proc_lift_clavicle_ri
+ 230	j_stripper_04
+ 231	j_fhr40_lgn_strap_01
+ 232	tag_right_tail_fx
+ 233	ik_out_start_left_hand
+ 234	ps_exec_taeyoung_01_stand_hits_02
+ 235	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, j_dummy_sling_spine
+ 236	tag_stock_attach
+ 237	anger
+ 238	j_strap_66
+ 239	j_strap_70
+ 240	j_strap_81
+ 241	l_lipupper2_jnt
+ 242	ps_mp_execution_elf_01_stand_vox_stab
+ 243	UprLidRaise_03_L
+ 244	LookRight_04_L
+ 245	LookRight_08_L
+ 246	dof_4_123_050_050
+ 247	j_string_147
+ 248	j_wristwatch_second
+ 249	ps_mp_mvphl_generic_woodaxe_hits_01
+ 250	LookUp_05_R
+ 251	dof_3.5_55_0_0
+ 252	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_snoop_cig_lit.vfx, tag_weapon_left
+ 253	dof_3.5_36_050_050
+ 254	j_clavicle_le
+ 255	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_wristfronttwist1_ri_elf
+ 256	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_head
+ 257	j_spineupper_umbrella
+ 258	ps_exec_generic_doublemace_01_stand_bf_01
+ 259	fx_killfxontag, vfx/s4/weapon/_muzzle/smg/vfx_muz_smg_s_norefrac, tag_tip
+ 260	fx_playfxontag, vfx/s4/character/_mtx/s5/wellington/mtx_well_portal_pop_01, j_mainroot_umbrella
+ 261	ps_mp_mvphl_generic_explosives_hits_01
+ 262	dof_2.8_36_300_300
+ 263	ps_mp_potm_lucas_slowmo_02
+ 264	tag_camera_scripted_umbrella
+ 265	change_fov,50,.05
+ 266	fx_killfxontag, vfx/s4/character/_misc/vfx_greenbay_blue_fire_head, j_head
+ 267	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_foot_dust_kick, j_shoulder_ri
+ 268	ps_mp_execution_wellington_prone_teleport_enter_01
+ 269	tag_stowed_chest
+ 270	j_clavicle_ri_umbrella
+ 271	ps_mp_potm_generic_nunchucks_end_01
+ 272	fx_playfxontag, vfx/s4/blood/fatality_blood_screen_04_notooth, j_helmet
+ 273	on
+ 274	anger_elf
+ 275	prone_right_lift
+ 276	dof_3.4_44_001_001
+ 277	j_string_81
+ 278	j_ar57_strap_02
+ 279	j_dev_strap_02
+ 280	fx_stopfxontag, vfx/s4/blood/fatality_blood_head_04, tag_eye
+ 281	j_dyn_sack_01
+ 282	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_char_hand, j_wrist_ri
+ 283	dof_2.8_64_100_100
+ 284	CornerPull_00_L
+ 285	CornerPull_09_R
+ 286	ps_mp_mvphl_generic_aztec_foley_01
+ 287	base_foliage_hanging_vine_combined_01
+ 288	CornerPull_10_R
+ 289	j_hiptwist_le_umbrella
+ 290	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_hit, j_head
+ 291	j_shoulder_le_pet
+ 292	ps_mp_exec_smoke_01_prone_hits_01
+ 293	ps_mp_mvphl_gustavo_hits_01
+ 294	ps_mp_mvphl_generic_spearshield_hits_01
+ 295	j_b_x_02
+ 296	tag_camera_scripted_pet
+ 297	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_clavicle_ri
+ 298	j_mouthcorner_le
+ 299	j_cheek_le_2
+ 300	slow_20_100
+ 301	hide,j_briefcase_umbrella
+ 302	hur_rocks_single_med_04_moss_lod0
+ 303	fx_playfxontag, vfx/s4/blood/fatality_blood_splurt_01, j_clavicle_le
+ 304	j_b_i_os_00
+ 305	fx_playfxontag, vfx/s4/weapon/_mtx/s2/muzzle/weap_muz_mtx_s2_aromeo43_s_wv, tag_flash
+ 306	dyn_pouch_kr
+ 307	active_famine_0
+ 308	fx_playfxontag, vfx/s4/blood/fatality_blood_polina_knife_rnr, j_wrist_ri
+ 309	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_spine4
+ 310	fx_playfxontag, vfx/s4/blood/fatality_blood_polina_knife_rnr, j_kukri
+ 311	j_chain_root
+ 312	ps_exec_lion_01_prone_hit_04
+ 313	tag_acog_2
+ 314	fx_playfxontag, vfx/s4/weapon/_explosion/vfx_explo_satchel_charge, j_gun
+ 315	dyn_stacking_loop_root
+ 316	UprLipDepress_01_L
+ 317	ps_mp_execution_exert_react_sml
+ 318	j_thumb_ri_2
+ 319	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, j_wristfronttwist1_le
+ 320	j_bottle_03
+ 321	tag_wheel_mid_left_1
+ 322	fx_playfxontag, vfx/s4/explosion/vfx_codmas_present_pom_exp, j_gun
+ 323	dyn_stacking_loop_00
+ 324	dof_2.8_58_100_100
+ 325	tag_tread_le_11
+ 326	dof_5.6_50_0_0
+ 327	j_bullet_01
+ 328	tongue3_jnt
+ 329	fx_playfxontag, vfx/s4/blood/dogget_exec_chrome_decal_02, j_wrist_le
+ 330	j_spine4_elf
+ 331	fx_playfxontag, vfx/s4/weapon/_impact/flesh/vfx_s4_imp_flesh_fatal_head_med_dismb, j_wrist_le
+ 332	j_frontsight
+ 333	LookDnProg_R
+ 334	j_dummy_slingcenteraim
+ 335	j_coord_056
+ 336	j_strap_9
+ 337	tag_tread_ri_07
+ 338	tag_tread_ri_33
+ 339	dof_6_73_0_0
+ 340	j_strings_m_00
+ 341	fx_playfxontag, vfx/s4/blood/fatality_blood_aot_weap_rnr, j_sword_l
+ 342	fx_playfxontag, vfx/s4/sparks/vfx_fatality_lny_imp, tag_origin
+ 343	jnt_piece_23
+ 344	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_03, j_neck
+ 345	j_index_le_3_umbrella
+ 346	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_halima_pom, tag_brass
+ 347	j_dyn_backpack_01
+ 348	mesh_gunbench_flat
+ 349	UprLidDn_03_R
+ 350	ps_mp_execution_exert_effort_lrg
+ 351	j_sword_arm_l_front
+ 352	dof_4_61_010_010
+ 353	ps_mp_mvphl_butcher_stingers
+ 354	body_damage_medium
+ 355	slow_5_300
+ 356	dof_5.6_81_0_0
+ 357	ps_mp_exec_mateo_01_stand_bf_02
+ 358	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp, j_gun
+ 359	j_charginghandleassist
+ 360	dof_2.8_30_500_500
+ 361	j_strap_14
+ 362	j_strap_22
+ 363	UprLidRaise_01_R
+ 364	LookRight_00_L
+ 365	ps_wfoly_plr_sn_kilo98_drop_01
+ 366	fx_stopfxontag, vfx/s4/character/_misc/fatality_impact_dust_01, j_head
+ 367	j_string_103
+ 368	ps_mp_mvphl_lucas_02_weapon_swing_01
+ 369	ps_exec_bodyfall
+ 370	dof_4_144_050_050
+ 371	me_food_spice_sack_tall_01
+ 372	ps_exec_generic_spearshield_01_prone_foley_02
+ 373	ps_mp_mvphl_butcher_disarm
+ 374	j_04
+ 375	hide_corpse
+ 376	j_ball_le
+ 377	ps_mp_exec_thomas_01_prone_bf
+ 378	tag_reflector_arm_ri
+ 379	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_tracer_florence, tag_origin
+ 380	j_strap_104
+ 381	melee_knife_stab
+ 382	dof_4.0_48_050_050
+ 383	j_webbing_le_3
+ 384	tag_cosmetic
+ 385	tag_ik_loc_le_parentconstraint1
+ 386	j_spoon
+ 387	j_mid_ri_3_pet
+ 388	ps_s4_mvphl_arthur_stab_01
+ 389	bullet_02
+ 390	ps_mp_execution_elf_01_stand_stab
+ 391	dof_3.3_61_010_010
+ 392	j_wrist_le_lep
+ 393	j_proc_wristfronttwist1_acc5_le
+ 394	ps_mp_execution_generic_wolf_01_standing_exec_foley_01
+ 395	fx_playfxontag, vfx/s4/blood/fatality_blood_lucas_sledge_rnr, j_gun
+ 396	dof_4.5_16_050_050
+ 397	j_corner_3_b
+ 398	dof_2.8_67_100_100
+ 399	dof_4.0_108_020_020
+ 400	ps_mp_potm_lewis_slowmo_02
+ 401	CornerPull_04_L
+ 402	BrowInrDn_BrowLower_L
+ 403	fx_stopfxontag, vfx/s4/blood/fatality_blood_tiburon_shot_01, j_spinelower_lift
+ 404	dof_5_59_000_000
+ 405	fx_playfxontag, vfx/s4/blood/fatality_blood_aot_weap_hit_noflash, j_sword_r
+ 406	dof_2.8_24_1.0_1.0
+ 407	j_dummy_sling_clavicle
+ 408	ps_mp_exec_gustavo_01_prone_out_02
+ 409	j_head_lep
+ 410	fx_stopfxontag, vfx/s4/pom/_misc/fatality_lion_smoke_blow_02, j_head
+ 411	dof_4_280_050_050
+ 412	ps_mp_mvphl_isabella_foley_01
+ 413	tongue2_jnt
+ 414	neck0_jnt
+ 415	cc_xm_createontag, wm_chalk_00, tag_accessory_left
+ 416	plant
+ 417	fx_playfxontag, vfx/s4/character/_misc/fatality_impact_dust_01, j_head
+ 418	fingers_in_end_left_hand
+ 419	cc_xm_destroyontag, wm_zweihander_00, tag_weapon_left
+ 420	fx_playfxontag, vfx/s4/dust/fatality_simple_impact, j_ball_ri_lep
+ 421	j_coil_02
+ 422	fx_playfxontag, vfx/s4/dust/fatality_dust_fall_imp_02, j_ankle_le
+ 423	fx_playfxontag, vfx/s4/dust/fatality_dust_fall_imp_02, j_ankle_ri
+ 424	hide,j_shotgun_umbrella
+ 425	ps_mp_exec_gustavo_01_stand_bf_01
+ 426	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_leprechaun_rainbow.vfx, tag_origin
+ 427	jnt_piece_7
+ 428	fx_playfxontag, vfx/s4/blood/fatality_blood_taeyoung_mouth_04, j_ball_ri
+ 429	fx_playfxontag, vfx/s4/explosion/vfx_fatality_satchel_charge_air.vfx, tag_fx
+ 430	tag_camera_scripted
+ 431	j_coord_24
+ 432	j_coord_12
+ 433	ps_exec_generic_doublemace_01_prone_hits_01
+ 434	day_rubble_concrete_pile_04_var_a_dust
+ 435	dof_3.8_80_001_001
+ 436	ps_exec_lion_01_stand_foley_02
+ 437	j_frame_top
+ 438	fx_playfxontag, vfx/s4/dust/fatality_simple_impact.vfx, tag_fx
+ 439	j_ar57_lgn_strap_08
+ 440	fx_playfxontag, vfx/s4/blood/fatality_blood_isabella_weap_rnr, j_neck
+ 441	smirk
+ 442	j_eyelash_bot_ri_1
+ 443	vie_foliage_elephant_ear_01_a
+ 444	j_tongue_1
+ 445	j_wrist_ri_dog
+ 446	dof_3.4_26_300_300
+ 447	s4_foliage_silver_lady_fern_01
+ 448	ps_mp_execution_ikenna_standing_foley_03
+ 449	j_levator_ri_2
+ 450	dof_3.4_25_001_001
+ 451	tag_tread_le_34
+ 452	fx_playfxontag, vfx/s4/blood/fatality_blood_daniel_shovel_decal.vfx, tag_fx
+ 453	fx_playfxontag, vfx/s4/blood/fatality_doggett_head_stab, j_head
+ 454	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, j_proc_stowed_chest
+ 455	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_hit_small, j_elbow_le
+ 456	j_coord_014
+ 457	j_coord_034
+ 458	j_switch_turn
+ 459	tag_tread_ri_09
+ 460	tag_tread_ri_11
+ 461	dof_4.0_137_050_050
+ 462	ps_exec_generic_doublemace_01_stand_foley_02
+ 463	fx_playfxontag, vfx/s4/trail/fatality_aot_mvp_swordtrail, j_sword_l
+ 464	fx_playfxontag, vfx/s4/smoke/fatality_gunfu_smoke_rnr, j_head
+ 465	weap_1911_empty_fast_lift_plr
+ 466	base
+ 467	fx_stopfxontag, vfx/s4/weapon/_shell/weap_shej_stango44_wv, (null)
+ 468	fx_playfxontag, vfx/s4/weapon/_impact/flesh/vfx_imp_flesh_med, j_wrist_ri
+ 469	j_strings_l_00
+ 470	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_foot_dust_kick.vfx, j_ball_ri
+ 471	j_upperlip
+ 472	dof_5.6_71_010_010
+ 473	fx_stopfxontag, vfx/s4/blood/fatality_shield_impact_dust_01, tag_fx
+ 474	ps_mp_mvphl_lucas_02_foley_02
+ 475	change_fov_absolute.60,0
+ 476	jnt_piece_41
+ 477	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_leprechaun_sparkle_star.vfx, tag_origin
+ 478	dyn_sling_05
+ 479	dyn_sling_15
+ 480	tag_origin
+ 481	tag_wiper_fl
+ 482	ndy_mud_clump_edge_128_a
+ 483	loadout_specialist_patch_3
+ 484	UprLidDn_04_L
+ 485	fx_stopfxontag, vfx/s4/blood/fatality_blood_neck_hit_simple, j_neck
+ 486	j_stripper_02
+ 487	j_fhr40_lgn_strap_03
+ 488	mp_hub_allies_brit_flood_light_stand_02
+ 489	fx_stopfxontag, vfx/code/impacts/riotshield_viewmodel_hit, tag_fx
+ 490	ps_exec_generic_champagne_01_stand_bf_01
+ 491	s4_jpn_bgv_foliage_hanging_vines_09
+ 492	fx_playfxontag, vfx/s4/blood/fatality_blood_shige_neck_rnr, j_neck
+ 493	dof_4_160_050_050
+ 494	fx_playfxontag, vfx/s4/blood/fatality_kenosha_prone_drag_dust.vfx, j_proc_spinelift
+ 495	effects
+ 496	j_strap_83
+ 497	j_strap_64
+ 498	j_strap_72
+ 499	j_hopper_lid
+ 500	slow_12_300
+ 501	UprLidRaise_00_R
+ 502	j_string_145
+ 503	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_helmet
+ 504	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_small, j_knee_ri
+ 505	tag_ik_foot_loc_ri_dog
+ 506	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, tag_origin
+ 507	ps_mp_execution_aztec_01_stand_throat_cut_01
+ 508	ps_mp_execution_solange_stand_foley
+ 509	j_swarmandle
+ 510	j_shouldertwist_le_umbrella
+ 511	j_index_le_1_pet
+ 512	j_satchel_charge
+ 513	MouthLeft_01_L
+ 514	MouthLeft_05_L
+ 515	dof_5_77_200_200
+ 516	l_footend_jnt_dog
+ 517	ps_mp_potm_generic_shotgun_hits_01
+ 518	j_metaindex_ri_1_pet
+ 519	vehiclemoveshake
+ 520	j_mid_le_3
+ 521	ps_exec_grab_mid
+ 522	j_briefcase_umbrella
+ 523	j_wristfronttwist1_ri_umbrella
+ 524	ps_mp_mvphl_wellington_foley
+ 525	s4_jpn_bgv_foliage_hanging_vines_04_wnd
+ 526	cc_xm_createontag, s4_rus_crate_set_03, tag_inhand
+ 527	s4_jpn_rock_ruins_basalt_piece_sml_64
+ 528	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_01, tag_eye
+ 529	ps_mp_execution_shigenori_stand_stab
+ 530	fx_stopfxontag, vfx/s4/fluid/fluid_champagne_splash_01, j_wrist_ri
+ 531	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_02, j_ball_ri
+ 532	ndy_lighter_01_open
+ 533	CornerPull_02_R
+ 534	ps_mp_execution_lewis_01_stab2_01
+ 535	j_mag_x_release
+ 536	j_ring_le_1
+ 537	fx_playfxontag, vfx/s4/smoke/fatality_smoketrail_aot_rnr, j_sword_r
+ 538	j_shoulder_le_elf
+ 539	dof_4_58_010_010
+ 540	combat_elf
+ 541	ps_exec_generic_doublemace_01_prone_foley_03
+ 542	j_package_b
+ 543	ps_mp_potm_anna_hits_02
+ 544	tag_detach
+ 545	j_mag_follower
+ 546	mkg_hanging_vines_17_wnd
+ 547	j_metamid_ri_1_elf
+ 548	mp_dm_spawn
+ 549	j_eak_lgn_strap_01
+ 550	ps_mp_execution_dog_standandprone_bloodpool_jump_01
+ 551	dof_3.3_44_010_010
+ 552	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_ball_le
+ 553	jnt_piece_0
+ 554	ps_exec_generic_spearshield_01_prone_hits_02
+ 555	j_metamid_le_1_pet
+ 556	ps_mp_execution_wellington_prone_foley_02
+ 557	j_coord_00
+ 558	ps_mp_exec_mateo_01_stand_hits_01
+ 559	fx_stopfxontag, vfx/s4/blood/fatality_blood_isabella_weap_rnr, j_neck
+ 560	j_bolt_02
+ 561	dof_2.8_44_200_200
+ 562	dof_22_60_100_100
+ 563	mplobby
+ 564	stage3
+ 565	ps_mp_execution_roland_stand_foley
+ 566	fx_stopfxontag, vfx/s4/dust/vfx_rifle_ground_dust_imp, j_shoulder_le
+ 567	LookDn_03_L
+ 568	j_elbow_ri_lep
+ 569	s4_jpn_bgv_foliage_hanging_vines_03_wnd
+ 570	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_01, j_hiptwist_le
+ 571	ps_mp_execution_constanze_stand_gunhit
+ 572	ps_mp_execution_generic_katana_slice2_01
+ 573	ps_mp_potm_lewis_aim_01
+ 574	j_thumb_le_2_pet
+ 575	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_head
+ 576	dof_3.5_48_00_00
+ 577	fx_playfxontag, vfx/s4/blood/fatality_blood_decal_sparse, j_head
+ 578	ps_mp_execution_generic_katana_slice1_01
+ 579	j_b_24
+ 580	j_b_05
+ 581	s4_jpn_lobby_tree_group_02
+ 582	ps_mp_execution_constanze_stand_whoosh_a
+ 583	j_coord_022
+ 584	tag_tread_ri_18
+ 585	ps_mp_mvphl_generic_aztec_headstrike_01
+ 586	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_neck
+ 587	j_eak_strap_03
+ 588	MouthRight_04_R
+ 589	tag_left_inner_prop
+ 590	fx_playfxontag, vfx/s4/weapon/_heat/weap_wh_ptrs41_v_note, tag_flash
+ 591	trail
+ 592	fx_stopfxontag, vfx/s4/blood/vfx_pom_muskegon_glowing_eyes.vfx, j_head
+ 593	fx_playfxontag, vfx/iw8_mp/muzflash/vfx_shej_sn_762x54_v, tag_brass
+ 594	jnt_piece_46
+ 595	jnt_piece_50
+ 596	j_neck_lep
+ 597	JawOpen_00_L
+ 598	dyn_sling_21
+ 599	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_mainroot
+ 600	j_thumb_le_1_elf
+ 601	s4_jpn_rock_ruins_base_single_x128_01
+ 602	dof_4_98_050_050
+ 603	fx_stopfxontag, vfx/s4/blood/fatality_blood_head_06_nodecal, j_head
+ 604	ps_mp_execution_roland_stand_eyegouge
+ 605	dof_2.8_25_0_0
+ 606	ps_mp_mvphl_solange_hits_02
+ 607	s4_jpn_bgv_foliage_hanging_vines_18
+ 608	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_tyankee11_wv, tag_brass
+ 609	dof_3.5_94_0_0
+ 610	j_string_11_03
+ 611	j_strap_96
+ 612	j_strap_40
+ 613	j_ring_le_3_umbrella
+ 614	tag_weapon
+ 615	j_string_142
+ 616	ps_s5_mvp_death_stg44_01
+ 617	ps_mp_mvphl_generic_zweihander_hits_02
+ 618	s4_crate_wood_small_02
+ 619	ps_mp_potm_generic_champagne_slowmo_01
+ 620	j_forehead_le_1
+ 621	fx_playfxontag, vfx/s4/dust/fatality_simple_impact.vfx, j_gun
+ 622	fx_playfxontag, vfx/s4/blood/fatality_blood_head_10.vfx, j_head
+ 623	j_clavicle_ri
+ 624	j_index_le_3_pet
+ 625	fx_stopfxontag, vfx/s4/dust/fatality_dust_swipe_01.vfx, j_ball_le
+ 626	l_tailend_jnt
+ 627	ps_mp_exec_nunchuck_01_stand_hit_01
+ 628	active_death_2
+ 629	dyn_tie_01_umbrella
+ 630	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_leprechaun_sparkle_star.vfx, tag_origin
+ 631	j_strap_139
+ 632	j_strap_144
+ 633	ps_mp_potm_halima_decap_02
+ 634	ps_mp_exec_bearhug_stand_foley_03
+ 635	mp_tdm_spawn_axis_start
+ 636	dof_4_57_010_010
+ 637	ps_sfx_radioactive_shower_splash
+ 638	fx_playfxontag, vfx/s4/blood/fatality_blood_stomp, tag_origin
+ 639	MouthLeft_04_L
+ 640	ladder_stop_left_top
+ 641	tag_aim_pivot
+ 642	j_spas_strap_lgn_02
+ 643	j_drive_sproket_kr
+ 644	l_frontlegend_jnt
+ 645	j_ankle_ri_elf
+ 646	tread_guide_top_front_left
+ 647	fx_playfxontag, vfx/s4/blood/fatality_blood_beatrice_cleaver_trail, j_wrist_ri
+ 648	l_tail1_jnt_dog
+ 649	dof_2.8_12_010_010
+ 650	ps_mp_execution_death_prone_grabs_01
+ 651	ladder_stop_right_mid
+ 652	j_pin_b
+ 653	j_knee_le_umbrella
+ 654	dof_20_100_00_0
+ 655	j_plunger
+ 656	dyn_light
+ 657	ps_mp_mvphl_roland_hits_01
+ 658	j_vaccine
+ 659	hide,j_mainroot_lep
+ 660	dof_2.8_35_1.0_1.0
+ 661	ps_mp_mvphl_wade_impact_a_02
+ 662	fx_stopfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02_rnr, j_wristfronttwist1_le
+ 663	tag_elo
+ 664	fx_playfxontag, vfx/s4/weapon/_muzzle/pis/luniform08/weap_muz_luniform08_m_wv, tag_flash
+ 665	lookRight_elf
+ 666	j_heart_pulse_00
+ 667	dof_4_120_050_050
+ 668	tag_cover_panel_01_dst
+ 669	ps_wpn_mike1911_plr_reload_charge_empty
+ 670	j_sword_arm_r_front
+ 671	steamFXFloor
+ 672	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_penetrate_01, j_head
+ 673	squintSL
+ 674	tag_sprocket_back_left
+ 675	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02_rnr.vfx, tag_clip
+ 676	day_rubble_concrete_pile_04_var_a
+ 677	s4_jpn_rock_ruins_ledge_128
+ 678	dof_2_53_010_010
+ 679	ps_mp_exec_thomas_01_stand_hit_03
+ 680	BrowInrRaise_UprlidDn_L
+ 681	s4_jpn_basalt_rock_ruins_wall_x64_b_01
+ 682	fx_stopfxontag, vfx/s4/blood/fatality_blood_zwei_weap_rnr, j_gun
+ 683	fx_stopfxontag, vfx/s4/character/_misc/vfx_lion_blunt_idle_lit, tag_accessory_left
+ 684	l_tail2_jnt_dog
+ 685	dof_4.0_82_001_001
+ 686	fx_playfxontag, vfx/s4/dust/fatality_simple_impact.vfx, j_wrist_le
+ 687	ps_mp_mvphl_generic_katana_hits_01
+ 688	dyn_ear_02_l_04_umbrella
+ 689	fx_playfxontag, vfx/s4/sparks/fatality_spark_burst_gpu, j_gun
+ 690	j_coord_16
+ 691	j_coord_20
+ 692	j_wristwatch_hour
+ 693	ps_mp_execution_ikenna_prone_foley_03
+ 694	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_shoulder_ri
+ 695	ps_mp_execution_shigenori_stand_whoosh_d
+ 696	hide,tag_knife_attach2_elf
+ 697	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_assault_shirt_brush.vfx, j_mainroot
+ 698	fx_stopfxontag, vfx/s4/character/_misc/vfx_famine_blood_swarm_ls_rnr, tag_origin
+ 699	LookDn_00_L
+ 700	LookDn_01_L
+ 701	j_ar57_lgn_strap_04
+ 702	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_ankle_le
+ 703	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_02, j_spine4
+ 704	ps_mp_potm_constanze_slowmo_02
+ 705	dof_3.3_90_050_050
+ 706	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_dummy_sling_clavicle
+ 707	j_cover_left_01
+ 708	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01, j_wrist_ri
+ 709	tag_tread_le_30
+ 710	tag_tread_le_06
+ 711	j_b_08
+ 712	ps_mp_potm_daniel_hits_02
+ 713	ps_mp_execution_lucas_stand_hammerhit_b
+ 714	j_strings_mid_01
+ 715	LookDnProg_L
+ 716	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_02, tag_stock_hide
+ 717	j_c4_knob
+ 718	j_coord_018
+ 719	j_coord_046
+ 720	dof_5.6_90_100_100
+ 721	tag_ik_loc_ri_pointconstraint1
+ 722	tag_tread_ri_15
+ 723	dof_4_90_0_0
+ 724	WEAPON PUSHBACK GUN
+ 725	fx_playfxontag, vfx/s4/blood/fatality_taeyoung_dust_impact.vfx, j_spine4
+ 726	tag_scope
+ 727	MouthRight_05_L
+ 728	dof_5_45_0_0
+ 729	change_fov,14,0
+ 730	NoseWrinkle_06_R
+ 731	j_magrel
+ 732	fx_stopfxontag, vfx/s4/weapon/_muzzle/pis/mike1911/weap_muz_mike1911_m_v, tag_flash
+ 733	dof_4.5_50_050_050
+ 734	j_thumb_le_3_lep
+ 735	jnt_piece_16
+ 736	jnt_piece_31
+ 737	dyn_ear_02_r_04_umbrella
+ 738	ps_mp_execution_generic_krampus_bodyfall
+ 739	fx_playfxontag, vfx/s4/dust/fatality_dust_clap.vfx, j_wrist_ri
+ 740	dyn_sling_01
+ 741	j_thumb_le_1_pet
+ 742	j_knee_le_elf
+ 743	UprLidDn_03_L
+ 744	cc_xm_createontag, s4_rus_bottle_glass_03, tag_weapon_left
+ 745	ps_mp_mvphl_anna_hits_01
+ 746	j_dyn_hat_01_elf
+ 747	fx_stopfxontag, vfx/s4/blood/fatality_blood_head_05, j_spineupper
+ 748	j_strap_87
+ 749	j_strap_76
+ 750	j_strap_60
+ 751	tag_helmetlight
+ 752	UprLidRaise_05_R
+ 753	j_string_149
+ 754	j_string_135
+ 755	dof_5.6_102_00_00
+ 756	fx_playfxontag, vfx/s4/character/_misc/fatality_lep_spawn_rnr02, tag_origin
+ 757	dof_2.8_20_100_100
+ 758	j_sling_spine
+ 759	dof_13_28_010_010
+ 760	fx_playfxontag, vfx/s4/blood/fatality_blood_daniel_shovel_rnr, j_spinelower
+ 761	j_b_012
+ 762	j_mid_ri_2_elf
+ 763	dof_4_64_010_010
+ 764	j_stango44
+ 765	ps_mp_exec_shuriken_01_stand_hit_03
+ 766	slow_15_200
+ 767	LwrLipDepress_01_R
+ 768	ps_mp_potm_polina_hits_02
+ 769	j_corner_6
+ 770	dof_2.8_65_050_050
+ 771	ps_mp_potm_generic_hits_01
+ 772	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_spine4
+ 773	fx_playfxontag, vfx/s4/character/_mtx/s4/famine/mtx_ultra_famine_shoulder_l_st3.vfx, tag_reflector_arm_le
+ 774	j_bolt_rear
+ 775	j_strap_149
+ 776	j_metamid_le_1
+ 777	primary_blanket_a
+ 778	j_index_ri_1_umbrella
+ 779	fx_playfxontag, vfx/s4/blood/fatality_blood_gut_hit, j_proc_spine4
+ 780	dyn_flashlight
+ 781	ps_s4_mp_exec_grab_mid
+ 782	j_ankle_ri_dog
+ 783	fx_playfxontag, vfx/s4/character/_misc/vfx_fatality_pestilence_dismember, j_head
+ 784	j_pin_bend_up
+ 785	ps_mp_execution_lewis_01_stab1_01
+ 786	j_scabbard
+ 787	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_foot_dust_kick, j_ball_ri
+ 788	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_spear_02, j_gun
+ 789	show,j_shotgun_umbrella
+ 790	dof_3.4_40_001_001
+ 791	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02, j_ball_ri_lep
+ 792	dof_4_75_010_010
+ 793	tread_guide_top_front_right
+ 794	j_ring_le_3
+ 795	CornerPull_11_R
+ 796	ps_mp_exec_nunchuck_01_stand_stow
+ 797	ps_mp_execution_beatrice_stand_foley
+ 798	ps_mp_mvphl_generic_axeshield_hits_01
+ 799	NoseOpen_R
+ 800	ps_exec_generic_doublemace_01_prone_foley_01
+ 801	j_escrima
+ 802	change_fov_absolute,46,333
+ 803	ps_mp_exec_kenosha_stand_victim_foley_02
+ 804	blink_R
+ 805	fx_stopfxontag, vfx/s4/sparks/fatality_spark_burst_gpu, tag_fx
+ 806	JawDrop_00_L
+ 807	j_barrel_animate
+ 808	j_strings_r_00
+ 809	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_hamila_liquid_screen.vfx, tag_origin
+ 810	codmas_fx
+ 811	lookDn_elf
+ 812	j_index_ri_1
+ 813	jnt_piece_2
+ 814	ps_s4_exec_explosive_detonator_grab
+ 815	j_proc_spinelower3
+ 816	j_coord_06
+ 817	ps_mp_exec_mateo_01_stand_hits_03
+ 818	fx_playfxontag, vfx/s4/weapon/_muzzle/lmg/dpapa27/weap_muz_dpapa27_lg_wv.vfx, tag_flash
+ 819	fx_playfxontag, vfx/s4/weapon/_impact/flesh/vfx_imp_flesh_dismember.vfx, j_shoulder_le
+ 820	fx_playfxontag, vfx/iw8/level/frontend/vfx_fe_legendary_crate_open.vfx, tag_origin
+ 821	j_m1_cmn_strap_02
+ 822	stage1
+ 823	slow_100_050
+ 824	dof_2.8_38_00001_00001
+ 825	dof_5_42_0_0
+ 826	ps_mp_execution_beatrice_stand_whoosh_c
+ 827	j_temple_le
+ 828	gunbench_lgt_fire_01
+ 829	j_hiptwist_le_elf
+ 830	dof_2.8_55_100_100
+ 831	fx_playfxontag, vfx/s4/dust/fatality_dust_fall_imp.vfx, j_proc_spinelower2
+ 832	lookUp
+ 833	j_eyeball_ri
+ 834	tag_tread_le_45
+ 835	j_pinky_ri_3_lep
+ 836	j_b_07
+ 837	j_b_22
+ 838	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_tyankee11_shigi_pom_2, tag_brass
+ 839	JawLeft
+ 840	j_coord_033
+ 841	tag_tread_ri_40
+ 842	ps_mp_exec_shuriken_01_stand_bf
+ 843	fx_playfxontag, vfx/s4/sparks/vfx_fatality_lny_fuse, j_b_28
+ 844	wlf_foliage_s2_gc_pineneedles_03
+ 845	ps_exec_knife_stab_metal
+ 846	fx_playfxontag, vfx/s4/blood/fatality_blood_head_04, tag_wrist_attach_le
+ 847	fx_playfxontag, vfx/s4/weapon/_muzzle/pis/mike1911/weap_muz_mike1911_s_wv, tag_flash
+ 848	NoseWrinkle_05_L
+ 849	j_b_i_00
+ 850	jnt_piece_52
+ 851	jnt_piece_44
+ 852	fx_stopfxontag, vfx/s4/weapon/_muzzle/ar/stango44/weap_muz_stango44_lg_wv, tag_flash
+ 853	no_stage
+ 854	ps_mp_execution_padmavati_stand_slash
+ 855	tag_accessory_right
+ 856	fx_stopfxontag, vfx/s4/blood/fatality_blood_beatrice_cleaver_rnr, j_spineupper
+ 857	dyn_sling_23
+ 858	dof_3.4_35_050_050
+ 859	blendmap_mask_29_1
+ 860	tag_taclight
+ 861	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_blood_head_pop.vfx, j_head
+ 862	j_metapinky_le_1_elf
+ 863	fx_playfxontag, vfx/s4/blood/fatality_blood_beatrice_cleaver_rnr02, j_head
+ 864	j_fhr40_lgn_strap_04
+ 865	tag_fx
+ 866	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_throat_slash.vfx, j_neck
+ 867	ps_exec_lion_01_prone_bf_01
+ 868	ps_mp_execution_halima_stand_whoosh_a
+ 869	j_string_11_01
+ 870	j_strap_94
+ 871	j_strap_42
+ 872	LookLeft_01_L
+ 873	ps_mp_execution_aztec_01_stand_foley_02
+ 874	ps_mp_potm_generic_coldone_02
+ 875	fx_playfxontag, vfx/s4/blood/fatality_blood_head_02.vfx, tag_eye
+ 876	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_01, j_spinelower
+ 877	j_mid_le_1_pet
+ 878	LookUp_04_L
+ 879	dof_5_62_050_050
+ 880	j_hip_le_dog
+ 881	fx_playfxontag, vfx/s4/dust/fatality_dust_stomp_02, j_wrist_ri
+ 882	j_mag_release_button
+ 883	destroystart
+ 884	ps_mp_exec_nunchuck_01_stand_hit_03
+ 885	active_death_4
+ 886	dof_4_165_50_50
+ 887	dof__3.5_50_200
+ 888	j_strap_142
+ 889	dof_3.3_95_050_050
+ 890	j_proc_clavicle_le_lep
+ 891	ps_mp_exec_bearhug_stand_foley_01
+ 892	ps_exec_gear_mvmt_long_heavy
+ 893	fx_playfxontag, vfx/s4/blood/fatality_blood_daniel_shovel_rnr2, tag_fx
+ 894	j_ring_ri_1_umbrella
+ 895	j_mid_le_2_lep
+ 896	j_string_23_02
+ 897	dof_4.8_52_050_050
+ 898	BrowOutrRaise_UprlidDn_R
+ 899	UprLipRaise_02_L
+ 900	ps_mp_mvphl_padmavati_hits_02
+ 901	dof_5_76_0_0
+ 902	l_eyebrow0_jnt
+ 903	l_frontlegend_jnt_dog
+ 904	fx_playfxontag, vfx/s4/blood/fatality_blood_taeyoung_mouth_05, j_head
+ 905	j_wrist_le_dog
+ 906	ps_mp_mvphl_palmer_gun
+ 907	shock_elf
+ 908	j_string_67
+ 909	hide,j_mainroot_umbrella
+ 910	ps_mp_potm_generic_glaive_hits_01
+ 911	j_groinprotector
+ 912	dof_4_87_050_050
+ 913	ps_exec_baton_swing_fast
+ 914	fx_playfxontag, vfx/s4/blood/fatality_blood_head_02, j_head
+ 915	j_ump_sling_07
+ 916	dof_3.4_50_200_200
+ 917	j_paper_03
+ 918	change_fov_absolute,60,0
+ 919	lowerLipDn
+ 920	ps_mp_execution_ikenna_standing_victim_foley_02
+ 921	j_nasolabial_ri_3
+ 922	fx_playfxontag, vfx/s4/weapon/_muzzle/mr/m1golf/weap_muz_m1golf_lg_wv, tag_flash
+ 923	ps_mp_exec_mateo_01_prone_foley_01
+ 924	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_axe_pullout_lrg, j_head
+ 925	j_crotch_lep
+ 926	j_shield
+ 927	dof_3.4_85_050_050
+ 928	dof_4_55_050_050
+ 929	r_ear0_jnt_dog
+ 930	j_belt_08
+ 931	jnt_piece_8
+ 932	dof_4.8_53_010_010
+ 933	fx_playfxontag, vfx/s4/trail/fatality_glaive_trail, j_gun
+ 934	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_01, j_wrist_ri
+ 935	ps_mp_execution_pestilence_stand_fall
+ 936	j_coord_08
+ 937	ps_mp_execution_solange_stand_stab_b
+ 938	dof_4_60_50_50
+ 939	fx_playfxontag, vfx/s4/weapon/_muzzle/lmg/bromeo37/weap_muz_bromeo37_xlg_wv, tag_flash
+ 940	dof_2.8_32_800_800
+ 941	ps_mp_execution_isabella_01a_attack1
+ 942	polysurface1197
+ 943	dof_5_64_030_030
+ 944	m1_j_accs_03
+ 945	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_03, tag_eye
+ 946	j_proc_hip_lift_ri
+ 947	ps_mp_mvphl_generic_nunchucks_impact_01
+ 948	dyn_chain_r_02
+ 949	j_b_16
+ 950	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_clavicle_ri
+ 951	dof_3.4_150_050_050
+ 952	ps_mp_exec_shuriken_01_prone_hit_02
+ 953	tag_tread_ri_29
+ 954	ps_mp_potm_lewis_foley_02
+ 955	j_magrel_right
+ 956	j_pinky_ri_2_elf
+ 957	ps_mp_potm_thomas_hits_02
+ 958	MouthRight_07_L
+ 959	dof_4_43_050_050
+ 960	l_lipupper2_jnt_dog
+ 961	dof_5_130_0_0
+ 962	jnt_piece_58
+ 963	jnt_piece_65
+ 964	ps_exec_generic_explosives_02_stand_hits_04
+ 965	fx_playfxontag, vfx/s4/weapon/_muzzle/shtgn/mike97/weap_muz_mike97_m_wv, tag_flash
+ 966	dof_4_99_010_010
+ 967	j_ik_foot_root_dog
+ 968	j_pinky_ri_1_umbrella
+ 969	s4_foliage_spotted_dumbcane_01
+ 970	ps_mp_potm_lucas_foley_02
+ 971	destroyend
+ 972	ps_mp_mvphl_beatrice_slice1_02
+ 973	j_spring_f
+ 974	hide,j_mag2
+ 975	fx_playfxontag, vfx/s4/blood/fatality_blood_head_04, tag_eye
+ 976	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_02, j_head
+ 977	change_fov,45,100
+ 978	dof_22_60_010_010
+ 979	dof_4.5_45_0_0
+ 980	fx_playfxontag, vfx/s4/weapon/_muzzle/ar/asierra44/weap_muz_asierra44_m_wv, tag_flash
+ 981	j_strap_48
+ 982	j_strap_52
+ 983	LookLeft_00_R
+ 984	LookRight_00_R
+ 985	j_string_161
+ 986	ps_mp_exec_kenosha_stand_foley_02
+ 987	glass
+ 988	fx_playfxontag, vfx/s4/pom/_impact/vfx_pom_imp_spear_shield_01, j_shield
+ 989	j_hood
+ 990	j_ring_ri_2
+ 991	j_mid_ri_2_pet
+ 992	dof_5_140_010_010
+ 993	ps_mp_potm_generic_rpg_foley
+ 994	init_stage3
+ 995	dof_3.4_62_050_050
+ 996	blendmap_mask_9_2
+ 997	ps_mp_exec_florence_01_stand_hits_03
+ 998	j_proc_spinelower_lift
+ 999	j_strap_129
+1000	j_strap_131
+1001	fx_playfxontag, vfx/s4/blood/fatality_blood_decal_negy, j_knee_ri
+1002	dof_3.3_85_010_010
+1003	j_dyn_hat_02_elf
+1004	fx_stopfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02_rnr, j_knee_le
+1005	fx_stopfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02_rnr, j_knee_ri
+1006	MouthLeft_06_R
+1007	dof_4.5_40_050_050
+1008	dof_2.0_33_100_100
+1009	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_posy, j_head
+1010	j_stake_center_02
+1011	j_mid_ri_3_lep
+1012	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_tracers_tiburon, tag_flash
+1013	fx_stopfxontag, vfx/s4/weapon/_trail/vfx_trail_dist_katana, tag_fx
+1014	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_florence_smoke_drift, tag_origin
+1015	dof_3.4_168_001_001
+1016	active_roland_war_1
+1017	fx_killfxontag, vfx/s4/blood/vfx_pom_muskegon_fire_01.vfx, tag_origin
+1018	fx_stopfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, j_spine4
+1019	fx_killfxontag, vfx/s4/pom/_misc/vfx_pom_tracer_florence, tag_origin
+1020	ChinRaise_07_R
+1021	MouthPress_00_L
+1022	fx_playfxontag, vfx/s4/weapon/_muzzle/lmg/bromeo37/weap_muz_bromeo37_m_wv, tag_flash
+1023	dyn_chain_r_03_dog
+1024	j_corner_1_b
+1025	j_prop_large
+1026	dof_4_60_010_010
+1027	fx_stopfxontag, vfx/s4/blood/fatality_blood_head_01, j_head
+1028	hide,j_mainroot_dog
+1029	CornerPull_01_R
+1030	fx_stopfxontag, vfx/s4/weapon/_trail/vfx_trail_dist_katana, j_wrist_le
+1031	c12_targeting_hud_close
+1032	j_heart_pulse_03
+1033	change_fov_absolute,61,0
+1034	fx_stopfxontag, vfx/s4/blood/fatality_kenosha_prone_drag_dust.vfx, j_proc_spinelift
+1035	Squint_01_R
+1036	fx_playfxontag, vfx/s4/blood/vfx_cold_one_beer_foam, j_gun
+1037	j_thumb_ri_3_pet
+1038	dof_4.0_112_050_050
+1039	fx_playfxontag, vfx/s4/blood/fatality_blood_back_hit_01, j_wrist_ri
+1040	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_ankle_ri
+1041	fx_playfxontag, vfx/s4/blood/fatality_blood_zwei_hit_02, j_head
+1042	hide,j_remote_box
+1043	j_forwardassist
+1044	fx_playfxontag, vfx/s4/trail/fatality_taeyoung_kick_dist, j_wrist_ri
+1045	fx_stopfxontag, vfx/s4/blood/fatality_blood_polina_knife_rnr, j_kukri
+1046	j_lip_bot
+1047	r_ripbottom0_jnt_dog
+1048	s4_jpn_rock_ruins_base_double_x64_01
+1049	tag_right_outer_prop
+1050	s4_ger_tph_mud_clumps_01
+1051	dof_3.3_32_020_020
+1052	vfx/s4/level/dome/dome_fire_lrg_01
+1053	ps_mp_mvphl_generic_nunchucks_whoosh_b_01
+1054	fx_playfxontag, vfx/s4/blood/vfx_pom_gunbench_mag, tag_origin
+1055	fx_playfxontag, vfx/s4/blood/fatality_blood_shigenori_katana_rnr, tag_fx
+1056	LookDn_02_R
+1057	j_ar57_lgn_strap_03
+1058	tag_top2
+1059	fx_playfxontag, vfx/s4/character/_misc/fatality_lep_coin_hit, tag_eye
+1060	ps_mp_mvphl_beatrice_foley_02
+1061	smoke_plume_fire_distant_xlg_1
+1062	j_elbow_ri_umbrella
+1063	dof_3.3_92_010_010
+1064	tag_tread_le_05
+1065	tag_tread_le_26
+1066	change_fov,45,0
+1067	ps_mp_potm_daniel_hits_01
+1068	j_index_le_4
+1069	j_strings_mid_02
+1070	j_chain_01
+1071	j_elbow_le
+1072	j_coord_043
+1073	dof_4_103_050_050
+1074	tag_tread_ri_00
+1075	ik_out_start_right_hand
+1076	j_feedpaws_int
+1077	dof_3.4_113_001_001
+1078	ps_mp_exec_florence_01_prone_hits_03
+1079	fx_playfxontag, vfx/s4/blood/fatality_blood_decal_sparse, j_shield
+1080	MouthRight_07_R
+1081	j_lip_inside_ri_1
+1082	ps_mp_potm_generic_axe_hits_01
+1083	dof_3.4_60_050_050
+1084	fx_playfxontag, vfx/s4/blood/fatality_blood_lion_fakedecal, tag_knife_fx
+1085	jnt_piece_13
+1086	jnt_piece_36
+1087	jnt_piece_48
+1088	fx_playfxontag, vfx/s4/blood/fatality_blood_butcher_shot_01, j_clavicle_ri
+1089	blendmap_mask_11_3
+1090	j_pinky_le_1_elf
+1091	dof_3.4_58_300_300
+1092	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_05, j_wrist_le
+1093	j_knee_le_lep
+1094	tag_ik_backfoot_loc_ri_dog
+1095	j_lip_bot_ri_3
+1096	dof_5.6_113_010_010
+1097	dof_4_67_050_050
+1098	dof_3.4_31_001_001
+1099	tag_ik_wrist_loc_le
+1100	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_lucas_pom_wv, tag_brass
+1101	ps_mp_execution_pestilence_prone_fall
+1102	dof_5_28_000_000
+1103	tag_cover_panel_07
+1104	ps_mp_execution_daniel_laststand_shovelpull
+1105	j_strap_13
+1106	j_strap_34
+1107	LookLeft_08_R
+1108	j_proc_hip_lift_aim_le
+1109	j_proc_hip_lift_aim_ri
+1110	ps_mp_mvphl_taeyoung_foley_01
+1111	foliage_s2_roots_thin_01_lod0
+1112	dof_4.8_122_050_050
+1113	LookRight_07_L
+1114	r_frontleg0_jnt
+1115	j_string_108
+1116	fx_stopfxontag, vfx/s4/character/_misc/vfx_greenbay_blue_fire_breath, j_head
+1117	j_sonic_strap_05
+1118	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_posx_noscreen, tag_eye
+1119	dof_5_54_000_000
+1120	dof_4_94_050_050
+1121	dof_4_80_0_0
+1122	j_mid_le_3_elf
+1123	fx_playfxontag, vfx/s4/character/_misc/char_shell_blast, tag_fx
+1124	fx_playfxontag, vfx/s4/dust/vfx_rifle_ground_dust_imp, j_shoulder_le
+1125	fx_playfxontag, vfx/s4/blood/fatality_blood_solange_axe_rnr, j_gun
+1126	fx_playfxontag, vfx/s4/blood/fatality_blood_head_notrail, j_head
+1127	ps_mp_potm_polina_hits_01
+1128	fx_playfxontag, vfx/s4/blood/fatality_blood_knife_decal, j_kukri
+1129	j_corner_3
+1130	j_strap_103
+1131	j_strap_118
+1132	change_fov,50,200
+1133	j_pallet
+1134	dof_8_42_010_010
+1135	dyn_ear_02_r_02_umbrella
+1136	dof_2.8_30_100_100
+1137	primary_blanket_b
+1138	MouthLeft_03_R
+1139	MouthLeft_06_L
+1140	blink_R_elf
+1141	ps_mp_execution_lucas_famine_scales_of_justice
+1142	j_string_23_00
+1143	dyn_kettle_l_01
+1144	j_axe
+1145	j_stock_pivot_00
+1146	fx_playfxontag, vfx/s4/blood/fatality_blood_head_06.vfx, j_wrist_le
+1147	fx_playfxontag, vfx/s4/blood/fatality_blood_glaive_hit_rnr, j_gun
+1148	dof_4_71_050_050
+1149	j_string_61
+1150	ChinRaise_02_L
+1151	ChinRaise_03_L
+1152	airburst
+1153	fx_stopfxontag, vfx/s4/blood/fatality_blood_decal_mouth_02, j_neck
+1154	vfx_frontend_plane_dogfight_ch
+1155	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_03, tag_origin
+1156	bloodpool
+1157	dof_4.5_45_2.0_2.0
+1158	ps_mp_exec_greenbay_prone_fire_01
+1159	j_ammo_box_lid_00
+1160	dof_2.8_108_050_050
+1161	j_metapinky_ri_1_elf
+1162	j_mag_bullet_belt_root
+1163	tag_tip
+1164	j_ump_sling_05
+1165	fx_playfxontag, vfx/s4/smoke/fatality_smoketrail_aot_rnr, j_sword_l
+1166	j_paper_05
+1167	dof_20_22_100_100
+1168	j_proc_wristfronttwist1_acc1_le
+1169	dof_4_48_000_000
+1170	tag_trunk
+1171	ladder_stop_right
+1172	fx_stopfxontag, vfx/s4/character/_misc/vfx_greenbay_screen_flash, tag_origin
+1173	ps_s4_exec_explosive_boom
+1174	slow_20_.05
+1175	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_01, tag_wrist_attach_le
+1176	ps_exec_generic_spearshield_01_stand_hits_01
+1177	j_teres_ri_elf
+1178	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01.vfx, j_head
+1179	j_string_34_03
+1180	dof_5_42_030_030
+1181	dof_3.4_35_001_001
+1182	slow_50_500
+1183	j_holderarm2
+1184	foliage_s2_gc_pineneedles_08_lod0
+1185	dof_3.5_27_200_200
+1186	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_aot_wall_rnr, tag_origin
+1187	dyn_pick_01
+1188	fx_playfxontag, vfx/s4/character/_misc/fatality_gunfu_cig_lit, j_me_blunt
+1189	fx_playfxontag, vfx/s4/blood/fatality_blood_knife_decal, tag_knife_fx
+1190	tag_dyn_start
+1191	j_shouldertwist_le_lep
+1192	j_riotshield_offset
+1193	slow_100_200
+1194	dof_2.8_78_200_200
+1195	LookDn_03_R
+1196	ps_mp_potm_halima_parry_02
+1197	ps_mp_execution_isabella_01a_attack3
+1198	fx_playfxontag, vfx/iw8/level/frontend/vfx_frontend_footstep_dust.vfx, j_ankle_ri
+1199	fx_playfxontag, vfx/s4/weapon/_muzzle/shtgn/becho/weap_muz_becho_m_wv, tag_flash
+1200	cc_xm_createontag, vm_equip_gen_prop_cigar_00, tag_weapon_left
+1201	inactive
+1202	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_noscreen, tag_fx
+1203	fx_playfxontag, vfx/s4/blood/fatality_blood_screen_03, j_head
+1204	j_b_14
+1205	dof_4.5_44_100_100
+1206	j_spine4_dog
+1207	tag_sight_off2
+1208	j_coord_024
+1209	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_05, j_knee_ri
+1210	me_food_spice_sack_tall_spilled_01
+1211	dof_2.8_71_200_200
+1212	j_eak_strap_05
+1213	dof_2.8_35_100_100
+1214	dof_2.8_65_200_200
+1215	fx_playfxontag, vfx/s4/blood/fatality_blood_head_06, j_spineupper
+1216	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_spurt_negz, j_neck
+1217	j_thumb_le_3_pet
+1218	j_levator_le_2
+1219	jnt_piece_67
+1220	ps_mp_execution_generic_wolf_01_prone_wolf_teeth_01
+1221	j_pinky_le_1_pet
+1222	s4_foliage_spotted_dumbcane_03
+1223	blendmap_mask_21_3
+1224	ps_mp_mvphl_beatrice_slice2_02
+1225	fx_playfxontag, vfx/s4/blood/fatality_blood_solange_axe_rnr2, j_animation_joint
+1226	UprLidDn_04_R
+1227	j_cosmetic_2
+1228	JawBack
+1229	fx_stopfxontag, vfx/s4/character/_misc/fatality_impact_01, j_proc_stowed_chest
+1230	dof_3.3_40_010_010
+1231	dof_3.4_50_050_050
+1232	fx_stopfxontag, vfx/s4/blood/vfx_coldone_beer_bottle_open, j_gun
+1233	WEAPON VIOLENCE GUN
+1234	s4_jpn_bgv_foliage_hanging_vines_04
+1235	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_blood_stomp.vfx, j_head
+1236	j_proc_spinelift
+1237	r_ear0_jnt
+1238	j_strap_50
+1239	scriptable_vfx_frontend_mp_battle_preview
+1240	fx_playfxontag, vfx/s4/blood/vfx_fatality_pestilence_breath, j_head
+1241	UprLidRaise_05_L
+1242	ps_mp_potm_taeyoung_foley_01
+1243	ps_s4_mp_exec_gear_mvmt_long_light
+1244	j_hip_le_lep
+1245	j_me_blunt
+1246	ps_mp_potm_mateo_hits_01
+1247	cc_xm_destroyontag, s4_rus_bottle_glass_03, tag_weapon_left
+1248	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02_nodecal, j_neck
+1249	j_strap_137
+1250	ps_mp_execution_death_prone_end_01
+1251	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_foot_dust_kick, j_shoulder_le
+1252	MouthLeft_01_R
+1253	j_spas_strap_lgn_08
+1254	jawend_jnt
+1255	dof_4_30_0_0
+1256	fx_playfxontag, vfx/s4/blood/fatality_blood_screen_light, j_head
+1257	j_kbm4_strap_09
+1258	fx_playfxontag, vfx/s4/character/_mtx/s5/death/mtx_ultra_death_ex_hell_portal, tag_origin
+1259	dof_4_89_050_050
+1260	s4_afr_rock_pile_02b
+1261	ps_mp_exec_florence_01_prone_bf_01
+1262	active_roland_war_3
+1263	ps_mp_mvphl_beatrice_hits_01
+1264	tag_sight_off
+1265	change_fov_absolute,40,400
+1266	ChinRaise_06_R
+1267	dyn_ear_02_r_01_umbrella
+1268	fx_playfxontag, vfx/s4/blood/fatality_blood_lewis_weap_rnr, tag_inhand
+1269	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_decal, j_head
+1270	tag_carry_attach
+1271	j_proc_pinky_ri_1
+1272	exec_weapon_hide
+1273	ladder_stop_right_top
+1274	dof_2.8_25_010_010
+1275	hur_rocks_single_med_05_moss_lod0
+1276	j_firesel
+1277	dof_4_81_050_050
+1278	CornerPull_12_L
+1279	CornerPull_13_L
+1280	fx_playfxontag, vfx/s4/debris/vfx_debris_spray_sml.vfx, j_ball_ri
+1281	dof_2.8_50_200_200
+1282	j_heart_pulse_01
+1283	j_blade
+1284	Squint_06_R
+1285	dof_3.5_82_200_200
+1286	l_tail3_jnt
+1287	BrowLower_01_L
+1288	dof_2.8_53_100_100
+1289	j_mid_ri_1
+1290	pplane1
+1291	ps_exec_knife_slice_shing
+1292	ps_mp_mvphl_constanze_hits_02
+1293	ps_mp_mvphl_ikenna_fatality_kurki_01_hits
+1294	change_fov_absolute,35,0
+1295	fx_playfxontag, vfx/s4/weapon/_muzzle/smg/vfx_muz_smg_s, tag_flash
+1296	dof_4_47_010_010
+1297	weap_1911_reload_magout_plr
+1298	fx_playfxontag, vfx/s4/character/_misc/vfx_fatality_famine_dismember, j_head
+1299	dof_3.3_55_0_0
+1300	fx_playfxontag, vfx/s4/dust/fatality_dust_clap.vfx, tag_sling
+1301	j_coord_17
+1302	j_coord_23
+1303	dyn_tie_03_umbrella
+1304	bodyfall small
+1305	ps_mp_execution_ikenna_prone_foley_02
+1306	dof_12_22_00_00
+1307	browsDn
+1308	dof_5_65_030_030
+1309	dof_4.0_38_000_000
+1310	ps_mp_execution_shigenori_stand_whoosh_e
+1311	LookDn_09_L
+1312	j_ar57_lgn_strap_05
+1313	cc_xm_destroyontag, s4_rus_crate_set_03, tag_inhand
+1314	fx_playfxontag, vfx/s4/blood/fatality_blood_kata_weap_rnr, j_gun
+1315	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, j_ankle_le
+1316	fx_playfxontag, vfx/s4/blood/fatality_halima_wrist_decal, j_elbow_le
+1317	dyn_chain_l_09
+1318	j_dish_r_aim
+1319	ps_mp_mvphl_generic_nunchucks_kick_a_01
+1320	BrowInrRaise_BrowLower_R
+1321	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_drip, j_head
+1322	tag_tread_le_07
+1323	tag_tread_le_24
+1324	fx_playfxontag, vfx/s4/blood/fatality_blood_kata_hit, j_proc_spinelower2
+1325	tag_stowed_back
+1326	j_b_09
+1327	l_shoulderhelper1_jnt
+1328	j_strings_mid_00
+1329	j_chain_03
+1330	l_eyelidupper0_jnt
+1331	fx_playfxontag, vfx/s4/blood/fatality_blood_beatrice_fakedecal, j_wrist_ri
+1332	j_coord_045
+1333	j_coord_019
+1334	tag_tread_ri_14
+1335	slow_30_300
+1336	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_proc_lift_clavicle_ri
+1337	ps_mp_mvphl_isabella_kneekick_01
+1338	slow_stopanim
+1339	ps_mp_execution_beatrice_stand_slash
+1340	j_anim_pin_leaf_1
+1341	dof_3.3_81_050_050
+1342	j_metaindex_le_1_lep
+1343	ps_wpn_mike1911_plr_reload_fpo
+1344	dof_5_57_100_100
+1345	NoseWrinkle_03_L
+1346	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02, j_dummy_slingcenteraim
+1347	dyn_rounds_f
+1348	r_leg_Pv_CTRL_line_bShape_pvLine
+1349	ps_mp_potm_generic_riotshield_grenade
+1350	dof_3.5_82_0_0
+1351	fx_playfxontag, vfx/s4/weapon/_muzzle/ar/bromeopg/weap_muz_bromeopg_lg_wv, tag_flash
+1352	jnt_piece_11
+1353	jnt_piece_30
+1354	fx_stopfxontag, vfx/s4/dust/fatality_dust_fall_imp.vfx, j_spine4
+1355	tag_sling
+1356	dof_5_65_010_010
+1357	j_shotgun
+1358	j_helmet
+1359	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_hit_05, j_wrist_le
+1360	dov_5_138_065_065
+1361	ps_mp_mvphl_anna_hits_02
+1362	dof_4_56_050_050
+1363	j_dev_sight_cord_1
+1364	fx_playfxontag, vfx/s4/pom/_misc/vfx_doggett_smk, tag_origin
+1365	fire_spray
+1366	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_dummy_sling_spine
+1367	j_strap_61
+1368	LookLeft_01_R
+1369	UprLidRaise_02_L
+1370	j_pinky_le_2_pet
+1371	j_sonic_strap_07
+1372	fx_playfxontag, vfx/s4/weapon/_muzzle/pis/mike1911/weap_muz_mike1911_m_v, tag_tip
+1373	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_hit_02_offset, j_shouldertwist_le
+1374	fingers_out_end_left_hand
+1375	fingers_out_end_right_hand
+1376	fx_playfxontag, vfx/iw8/level/frontend/vfx_fe_rare_crate_open.vfx, tag_origin
+1377	j_b_015
+1378	change_fov_absolute,60,333
+1379	ps_mp_exec_shuriken_01_stand_hit_02
+1380	ps_exec_grab_release
+1381	blendmap_mask_1_1
+1382	j_corner_5
+1383	tag_sprocket_front_left
+1384	j_strap_148
+1385	j_proc_clavicle_le_elf
+1386	dof_4.4_96_010_010
+1387	j_eyelash_top_ri_1
+1388	j_m8_strap_01
+1389	MouthLeft_07_L
+1390	j_teres_le
+1391	ps_mp_execution_arthur_stand_bladepull_b
+1392	dof_4.8_68_010_010
+1393	fx_playfxontag, vfx/s4/blood/fatality_blood_beatrice_cleaver_rnr, j_head
+1394	UprLipRaise_00_R
+1395	UprLipRaise_03_L
+1396	j_proc_spineupperlift
+1397	j_gun
+1398	j_cap
+1399	j_feedarm_feedpaw_linkage_pivot
+1400	dof_3.3_37_010_010
+1401	tag_door_front_left
+1402	j_ring_ri_2_lep
+1403	fov_reset_1
+1404	hide,j_wire_03
+1405	r_ripbottom1_jnt
+1406	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_axe_pullout_lrg, j_spineupper
+1407	tag_sight_on2
+1408	j_ring_le_1_pet
+1409	j_spas_strap_cmn_top
+1410	ChinRaise_08_L
+1411	fx_playfxontag, vfx/s4/blood/fatality_blood_head_knife_hit_nodecal, j_head
+1412	dof_2.8_99_0_0
+1413	fx_stopfxontag, vfx/s4/blood/fatality_blood_beatrice_cleaver_rnr, j_clavicle_ri
+1414	l_ear1_jnt
+1415	fx_stopfxontag, vfx/s4/weapon/_shell/weap_shej_stango44_wv, tag_brass
+1416	fx_stopfxontag, vfx/s4/pom/_misc/vfx_wrench_swoop_01, tag_inhand
+1417	j_paper_06
+1418	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_stab_ballistic_ypos.vfx, j_shoulder_ri
+1419	Squint_00_R
+1420	j_spineupper
+1421	j_slidelock
+1422	change_fov,46,3000
+1423	ps_mp_execution_ikenna_standing_victim_foley_01
+1424	j_chambered_round_os
+1425	ps_mp_mvphl_butcher_shot_02
+1426	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_constanze_pom, tag_brass
+1427	ps_mp_execution_daniel_laststand_shovelhit
+1428	damagelight
+1429	ps_mp_potm_halima_02_hits_02
+1430	ps_mp_execution_shigenori_stand_foley
+1431	j_string_34_02
+1432	dof_3.3_60_0_0
+1433	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_02, j_neck
+1434	dyn_pick_02
+1435	ps_mp_exec_greenbay_prone_foley_03
+1436	dof_3.4_30_050_050
+1437	dof_2.8_55_300_300
+1438	ps_mp_mvphl_wade_bat_02
+1439	s4_foliage_kidney_weeds_02
+1440	fx_stopfxontag, vfx/s4/trail/vfx_trail_dist_shuriken, j_rafhatchet
+1441	LookDn_05_R
+1442	j_metaring_ri_1_pet
+1443	show,j_mainroot_umbrella
+1444	dyn_chain_r_04_dog
+1445	change_fov,65,0
+1446	dyn_chain_l_07_dog
+1447	fx_playfxontag, vfx/s4/blood/fatality_blood_screen_full, tag_origin
+1448	cc_xm_destroyontag, wm_shield_00, tag_weapon_left
+1449	l_earend_jnt
+1450	dof_4_43_50_50
+1451	change_fov,58,0
+1452	j_wristwatch_minute
+1453	lookDn
+1454	j_mace_l
+1455	tag_tread_le_42
+1456	j_b_13
+1457	dyn_sling_anchor
+1458	fx_playfxontag, vfx/s4/blood/fatality_blood_screen_light, j_helmet
+1459	j_coord_027
+1460	j_coord_038
+1461	wlf_foliage_s2_gc_pineneedles_08
+1462	tag_shield_back
+1463	dof_4_120_000_000
+1464	ps_mp_potm_shigenori_foley_02
+1465	dof_5_88_030_030
+1466	stop_ragdoll_anim
+1467	ps_mp_execution_constanze_stand_hit
+1468	j_eak_strap_06
+1469	MouthRight_08_R
+1470	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_dummy_knee_dist
+1471	NoseWrinkle_04_L
+1472	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_energy_buildup.vfx, j_head
+1473	propeller_blade_03
+1474	jnt_piece_60
+1475	dof_5.6_130_050_050
+1476	dof_4_79_010_010
+1477	dof_2.8_32_600_600
+1478	dof_3.4_70_050_050
+1479	dyn_sling_19
+1480	dyn_sling_24
+1481	fx_stopfxontag, vfx/s4/blood/vfx_muskegon_red_embers_burst.vfx, j_head
+1482	blendmap_mask_21_2
+1483	dof_22_67_0_0
+1484	gesture_blend_in_start
+1485	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_knee_ri
+1486	fx_playfxontag, vfx/s4/blood/fatality_blood_halima_knife_decal, j_gun
+1487	ps_exec_gear_mvmt_midlength_heavy
+1488	s4_jpn_bgv_foliage_hanging_vines_05
+1489	dof_4_17_50_50
+1490	j_strap_93
+1491	LookLeft_07_R
+1492	ps_mp_execution_death_prone_start_01
+1493	LookRight_05_R
+1494	ps_exec_taeyoung_01_prone_hits_03
+1495	dof_5_87_000_000
+1496	j_ring_ri_1
+1497	j_taclight
+1498	fx_playfxontag, vfx/s4/sparks/vfx_lny_pom1, tag_origin
+1499	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_posy, j_knee_ri
+1500	j_proc_lift_clavicle_le_lep
+1501	fx_stopfxontag, vfx/misc/vfx_pom_imp_wood_solid_xsml, tag_weapon_left
+1502	dof_6_75_0_0
+1503	show,j_bottle_des
+1504	lowspeed
+1505	dyn_tie_04_umbrella
+1506	fx_playfxontag, vfx/s4/blood/fatality_blood_anna_spurt, tag_knife_fx
+1507	fx_playfxontag, vfx/s4/character/_misc/vfx_famine_dog_swarm, spine4_jnt_dog
+1508	JawBackLock_L
+1509	j_strap_134
+1510	j_switch_ignition_cover
+1511	dof_3.5_31_00_00
+1512	ChinTension_00_R
+1513	j_spas_strap_lgn_09
+1514	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, tag_wrist_attach_le
+1515	dof_3.5_77_200_200
+1516	fx_playfxontag, vfx/s4/blood/fatality_blood_drops_01, j_sword_arm_l_front
+1517	tag_seat_4
+1518	j_ring_ri_2_elf
+1519	BrowInrDn_01_L
+1520	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_throat_slash.vfx, j_neck
+1521	dof_5_50_030_030
+1522	ps_mp_potm_generic_gunfu_hits_02
+1523	j_wrist_le_pet
+1524	j_ring_le_1_lep
+1525	ps_mp_execution_halima_stand_foley
+1526	tag_cover_panel_04_dst
+1527	j_string_40
+1528	ndy_rock_set_med_01_lod0
+1529	ps_exec_generic_spearshield_01_stand_foley_03
+1530	ps_mp_potm_solange_hits_02
+1531	fx_playfxontag, vfx/s4/blood/fatality_blood_head_05_nodecal, j_head
+1532	dof_2.8_38_200_200
+1533	tag_clip
+1534	dof_5_26_050_050
+1535	dof_3.4_30_300_300
+1536	ps_mp_execution_generic_krampus_head_grab
+1537	s4_jpn_volcanic_cliff_09_c
+1538	j_spas_strap_rare_05
+1539	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_halima_rnr, j_wrist_ri
+1540	dof_4_160_0_0
+1541	dof_3.3_46_050_050
+1542	fx_playfxontag, vfx/s4/blood/fatality_blood_butcher_headbutt_01, j_head
+1543	j_elbowdq_le
+1544	mkg_water_hyacinth_01
+1545	Squint_01_L
+1546	Squint_05_L
+1547	tag_stowed_chest2
+1548	slow_20_300
+1549	r_ripbottom1_jnt_dog
+1550	j_ring_le_1_umbrella
+1551	ps_mp_mvphl_isabella_gun_01
+1552	change_fov,50,1000
+1553	dof_2.8_28_200_200
+1554	BrowLower_UprlidDn_L
+1555	WEAPON CONTROL VIEW
+1556	test_gunsmith_ammo_side_01
+1557	l_lipbottom0_jnt
+1558	equipmtovfxview
+1559	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_florence_smoke_drift, tag_origin
+1560	dyn_pouch_fr
+1561	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, tag_helmetlight
+1562	show,j_briefcase_umbrella
+1563	j_belt_00
+1564	j_index_ri_2_elf
+1565	ps_mp_execution_arizona_stand_teleport_01
+1566	ps_exec_generic_champagne_01_stand_foley_03
+1567	vie_fan_palm_01_b
+1568	ps_mp_exec_thomas_01_prone_hit_03
+1569	ps_mp_exec_mateo_01_prone_hits_01
+1570	dof_2.8_107_010_010
+1571	ps_mp_mvphl_lucas_02_finalstrike_01
+1572	dof_4_42_010_010
+1573	ps_mp_mvphl_generic_nunchucks_whoosh_a_01
+1574	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_smktrail_rocket_1, tag_rocket
+1575	j_nasolabial_le_1
+1576	dof_4.5_43_100_100
+1577	r_arm_r_Pv_CTRL_line_bShape_pvLine
+1578	fx_playfxontag, vfx/s4/blood/fatality_blood_aot_hit, j_proc_lift_clavicle_le
+1579	fx_playfxontag, vfx/s4/smoke/fatality_gunfu_cig_puff, j_me_blunt
+1580	j_mainroot_elf
+1581	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_axe_pullout_lrg, j_spine4
+1582	dof_10_38_200_200
+1583	ps_wpn_mike1911_plr_reload_magin_empty
+1584	tag_tread_le_17
+1585	j_pinky_ri_3_elf
+1586	j_bipod_piv_l
+1587	dof_5_90_050_050
+1588	dof_3.3_29_010_010
+1589	j_spineupper_elf
+1590	dof_3.3_162_010_010
+1591	fx_playfxontag, vfx/s4/blood/fatality_blood_wound_decal, j_spine4
+1592	j_cover_right_04
+1593	fx_stopfxontag, vfx/s4/blood/fatality_blood_arm_spurt, j_spine4
+1594	j_strap_3
+1595	tag_tread_ri_21
+1596	tag_tread_ri_39
+1597	dof_2.8_36_200_200
+1598	fx_playfxontag, vfx/s4/weapon/_explosion/vfx_explo_satchel_charge, tag_fx
+1599	ps_mp_execution_aztec_01_prone_gunstrike_01
+1600	ps_mp_execution_wellington_prone_shot_01
+1601	blade_grip_bottom
+1602	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02_offset, j_spine4
+1603	tag_driver
+1604	NoseWrinkle_02_L
+1605	ps_mp_potm_beatrice_hits_01
+1606	j_wristfronttwist1_le_umbrella
+1607	j_head_umbrella
+1608	jnt_piece_29
+1609	j_clavicle_le_umbrella
+1610	tag_weapon_right
+1611	fx_playfxontag, vfx/s4/character/_mtx/s5/arizona/mtx_ariz_portal_01_rnr, tag_origin
+1612	j_animation_joint
+1613	ps_mp_execution_karambit_stand_blade_and_hits_01
+1614	UprLidDn_00_R
+1615	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_01, j_shouldertwist_ri
+1616	dof_3.1_43_100_100
+1617	j_pinky_le_3_elf
+1618	j_metaindex_le_1
+1619	tag_cover_panel_08
+1620	ps_mp_execution_solange_stand_whoosh_b
+1621	j_strap_24
+1622	j_webbing_ri_3
+1623	ps_mp_execution_aztec_01_prone_foley_02
+1624	ps_mp_execution_padmavati_stand_stab
+1625	LookRight_04_R
+1626	dyn_kettle_r_01
+1627	j_pinky_ri_2_umbrella
+1628	j_string_110
+1629	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01_nodecal, tag_eye
+1630	fx_playfxontag, vfx/s4/blood/fatality_blood_head_05_notrail, j_head
+1631	LookUp_07_L
+1632	fx_stopfxontag, vfx/s4/blood/fatality_blood_neck_spurt_negz, j_neck
+1633	j_lip_top_ri_4
+1634	fx_stopfxontag, vfx/s4/blood/vfx_cold_one_beer_foam, j_gun
+1635	j_02
+1636	j_brow_ri_3
+1637	dof_3.4_67_001_001
+1638	fx_playfxontag, vfx/s4/blood/fatality_blood_head_02, tag_eye
+1639	j_thumb_le_2
+1640	ps_mp_exec_gustavo_01_stand_foley_in_01
+1641	LwrLipDepress_00_L
+1642	LwrLipDepress_02_R
+1643	ps_mp_execution_death_prone_magic_01
+1644	j_strap_115
+1645	j_strap_121
+1646	dof_4_211_050_050
+1647	j_capsule
+1648	scriptable_vfx_s4_mp_lobby_codmas_loadout
+1649	smileSR
+1650	tag_wheel_center_middle_right
+1651	ps_mp_execution_karambit_stand_foley_02
+1652	dof_3.2_50_0_0
+1653	tag_canister_tip
+1654	dof_4_36_050_050
+1655	tag_ik_target_right_dog
+1656	dof_1.8_24_0_0
+1657	j_ankle_ri_lep
+1658	j_proc_clavicle_ri_umbrella
+1659	ps_mp_potm_generic_katana_hits_01
+1660	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_bromeopg_wv, tag_brass
+1661	ps_mp_potm_shigenori_swordout_02
+1662	j_string_51
+1663	ChinRaise_06_L
+1664	bullets_on
+1665	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01_nodecal, j_neck
+1666	j_corner_6_b
+1667	dof_4_100_000_000
+1668	fx_stopfxontag, vfx/s4/character/_mtx/s5/death/mtx_ultra_death_bullet_impact_rnr, j_spineupper
+1669	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_01, (null)
+1670	CornerPull_05_L
+1671	j_spas_strap_rare_03
+1672	j_enbloc
+1673	tag_wheel_center_front_left
+1674	j_ump_sling_01
+1675	j_paper_01
+1676	change_fov_absolute,64,0
+1677	tag_aim_animated
+1678	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_ptrs41_wv2, tag_brass
+1679	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_mike1911_wv.vfx, tag_brass
+1680	dof_4_84_050_050
+1681	dof_5_49_030_030
+1682	fx_playfxontag, vfx/s4/blood/fatality_blood_head_04, j_head
+1683	j_nose_tip
+1684	slow_40_100
+1685	slow_40_800
+1686	j_pelvishelper_le
+1687	j_nasolabial_ri_1
+1688	j_proc_shoulder_ri_umbrella
+1689	ps_mp_mvphl_florence_hits_01
+1690	fx_playfxontag, vfx/s4/character/_mtx/s4/famine/mtx_ultra_famine_shoulder_r_st3.vfx, tag_reflector_arm_ri
+1691	j_teres_ri_lep
+1692	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_kenosha_ambient_env, tag_origin
+1693	tag_wheel_mid_right_1
+1694	fx_stopfxontag, vfx/s4/blood/fatality_greenbay_stomp_rnr, j_ball_ri
+1695	tag_guard_attach
+1696	dyn_antlers_01
+1697	j_metamid_le_1_umbrella
+1698	j_safety
+1699	ps_mp_execution_pestilence_prone_foley
+1700	ps_mp_exec_florence_01_stand_foley_01
+1701	dof_4.5_43_050_050
+1702	fx_playfxontag, vfx/s4/dust/fatality_dust_stomp_02.vfx, j_ankle_le
+1703	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_ankle_ri
+1704	fx_playfxontag, vfx/s4/character/_misc/fatality_impact_01, j_dummy_sling_spine
+1705	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_posx, j_neck
+1706	m1_j_accs_01
+1707	fx_stopfxontag, vfx/s4/character/_misc/vfx_greenbay_blue_embers_burst, j_head
+1708	change_fov,50,0
+1709	BrowInrRaise_BrowLower_L
+1710	j_chalk_00
+1711	dof_3.5_60_0_0
+1712	ps_bodyfall_head
+1713	fx_stopfxontag, vfx/s4/weapon/_muzzle/pis/mike1911/weap_muz_mike1911_m_v, tag_tip
+1714	j_cover_right_02
+1715	dyn_chain_l_09_dog
+1716	fx_stopfxontag, vfx/s4/dust/fatality_dust_fall_imp_02, j_ankle_le
+1717	j_coord_028
+1718	j_strap_5
+1719	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_02, j_head
+1720	secondary_blanket_b
+1721	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, j_wrist_le
+1722	j_shuriken_02
+1723	j_shifter
+1724	ps_mp_mvphl_ikenna_fatality_kurki_01_victim_foley
+1725	propeller_blade_04
+1726	ps_mp_mvphl_taeyoung_hits_02
+1727	test_gunsmith_ammo_standing_01
+1728	j_thumb_le_1_umbrella
+1729	ps_mp_mvphl_arizona_foley
+1730	fx_playfxontag, vfx/s4/character/_mtx/s4/famine/mtx_ultra_famine_knee_r_st3.vfx, j_knee_ri
+1731	j_spas_strap_cmn_08
+1732	change_fov_absolute,85,3000
+1733	tag_ik_wrist_loc_ri
+1734	ps_mp_potm_kenosha_foley_01
+1735	j_ball_ri_elf
+1736	j_strap_54
+1737	j_strap_98
+1738	ps_mp_potm_shigenori_swordaway_02
+1739	dof_4.8_103_010_010
+1740	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_slash_trail.vfx, j_wrist_ri
+1741	j_helmet_dog
+1742	j_metaindex_le_1_umbrella
+1743	ps_exec_taeyoung_01_stand_foley_01
+1744	j_lip_top_ri_2
+1745	fx_playfxontag, vfx/s4/blood/tiburon_fatality_impact_01, j_shoulder_ri
+1746	r_ripupper0_jnt
+1747	j_mid_le_3_pet
+1748	init_stage1
+1749	j_thumb_le_4
+1750	ladder_stop_left
+1751	ps_mp_execution_elf_01_stand_stabfast
+1752	ps_mp_execution_daniel_prone_shovelhit
+1753	ps_mp_exec_florence_01_stand_hits_01
+1754	hatch_hydraulics_top_jnt
+1755	j_strap_133
+1756	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_greenbay_slam, tag_origin
+1757	dof_4.5_18_0_0
+1758	r_frontleg1_jnt
+1759	dof_3.5_50_0_0
+1760	j_ankle_le_lep
+1761	dof_3.3_75_050_050
+1762	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_proc_stowed_chest
+1763	lipRaise_elf
+1764	tag_reticle_invis
+1765	tag_seat_5
+1766	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_wrist_ri
+1767	fx_stopfxontag, vfx/s4/dust/fatality_impact_const_rnr, tag_bipod_attach
+1768	ps_mp_potm_generic_gunfu_hits_01
+1769	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01, j_spine4
+1770	j_string_41
+1771	dof_4_15_100_100
+1772	footstep_left_large
+1773	ps_exec_generic_spearshield_01_stand_foley_02
+1774	tag_body
+1775	ps_mp_potm_solange_hits_01
+1776	ps_mp_potm_halima_foley_02
+1777	j_periorbital_le_1
+1778	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02, j_head
+1779	tag_cover_panel_02_dst
+1780	CornerPull_08_L
+1781	j_ump_sling_10
+1782	r_footend_jnt
+1783	ps_mp_potm_butcher_shots
+1784	dyn_antlerknot_01
+1785	Squint_07_R
+1786	j_ch_lever
+1787	j_c4_clacker
+1788	vo_mp_mps4_potm_obut_killeveryone
+1789	change_fov_absolute,30,0
+1790	ps_mp_execution_daniel_prone_foley
+1791	fx_stopfxontag, vfx/s4/character/_misc/fatality_impact_01, j_shoulder_ri
+1792	dof_16_45_200_200
+1793	dof_4_34_050_050
+1794	j_belt_01
+1795	dof_4_120_030_030
+1796	ps_mp_execution_halima_stand_stab_a
+1797	dof_3.5_48_0_0
+1798	ps_mp_exec_greenbay_stand_fire_02
+1799	ps_exec_generic_champagne_01_stand_foley_02
+1800	ps_mp_exec_thomas_01_prone_hit_02
+1801	ps_mp_exec_mateo_01_prone_hits_02
+1802	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_shtgn_smoke_wh, tag_flash
+1803	tag_headlight_left
+1804	dof_22_29.301_200_200
+1805	squintSR_elf
+1806	ps_mp_execution_generic_hockeystick_02_standing_exec_weapon_01
+1807	j_wrist_ri_elf
+1808	stopped
+1809	ps_mp_mvphl_generic_firecracker_hits_01
+1810	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_hit_screen, j_neck
+1811	fx_stopfxontag, vfx/s4/character/_misc/vfx_famine_blood_swarm, tag_origin
+1812	j_thumb_le_2_elf
+1813	dof_2.8_34_0_0
+1814	tag_tread_le_14
+1815	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_victim_laser_burn.vfx, j_neck
+1816	dof_3.5_38_0_0
+1817	ps_mp_exec_kenosha_prone_toss_02
+1818	ps_mp_execution_wellington_stand_slash_01
+1819	j_coord_053
+1820	loadout_tactical
+1821	j_strap_2
+1822	tag_tread_ri_20
+1823	slow_30_200
+1824	fx_playfxontag, vfx/s4/smoke/smk_light_scrn_01, tag_flash
+1825	ps_mp_mvphl_lion_hits_01
+1826	MouthRight_02_R
+1827	j_ch_slide
+1828	dof_5_56_50_50
+1829	jnt_piece_28
+1830	fx_playfxontag, vfx/s4/blood/fatality_blood_decal_mouth_02, j_neck
+1831	j_thumb_le_1_lep
+1832	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_face_smash_grnd.vfx, j_neck
+1833	fx_playfxontag, vfx/s4/character/_misc/char_cig_lit_thom_rnr, j_wrist_ri
+1834	j_proc_spine4
+1835	fx_playfxontag, vfx/s4/blood/fatality_blood_head_ground, j_head
+1836	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_knife_stab.vfx, j_chest
+1837	fx_playfxontag, vfx/s4/character/_mtx/s5/wellington/mtx_well_portal_ls_01_rnr, tag_origin
+1838	fx_playfxontag, vfx/s4/blood/fatality_blood_head_08, j_helmet
+1839	r_ripupper2_jnt
+1840	cc_xm_createontag, wm_m1bravo_mag_00, tag_weapon_left
+1841	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_mgolf42_wv, tag_brass
+1842	fx_playfxontag, vfx/s4/blood/vfx_muskegon_red_embers_burst.vfx, j_head
+1843	j_strap_27
+1844	LookLeft_02_R
+1845	j_webbing_ri_2
+1846	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_hit_02_offset, (null)
+1847	tag_rocket
+1848	j_string_111
+1849	dof_3.4_97_050_050
+1850	dof_5.6_73_1000_1000
+1851	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_strong.vfx, j_head
+1852	j_03
+1853	r_eyebrow0_jnt
+1854	j_mainroot
+1855	j_brow_ri_2
+1856	ps_mp_execution_wellington_prone_slash_01
+1857	fx_playfx(vfx/s4/blood/fatality_blood_screen_light.vfx)(0.000000,0.000000,0.000000)(0.0000,0.0000,0.0000)(0.0000,0.0000,0.0000)
+1858	j_eyeball_ri_lep
+1859	ps_mp_mvphl_arizona_electric
+1860	ps_mp_exec_thomas_01_stand_foley
+1861	j_index_le_1_elf
+1862	fingers_out_start_left_hand
+1863	j_strap_114
+1864	j_strap_126
+1865	j_oprod
+1866	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, j_spine4
+1867	dof_2.2_63_010_010
+1868	fx_stopfxontag, vfx/s4/blood/vfx_pom_gunbench_mag, tag_origin
+1869	fx_stopfxontag, vfx/s4/blood/fatality_blood_drops_01, j_gun
+1870	hide,j_satchel_charge
+1871	UprLipRaise_01_L
+1872	j_lid
+1873	dof_4.0_146_100_100
+1874	dof_2_40_0_0
+1875	fx_playfxontag, vfx/s4/blood/fatality_blood_aot_mvp_hit, j_proc_lift_clavicle_le
+1876	openidle
+1877	dof_5_68_0_0
+1878	dof_4_40_050_050
+1879	ps_exec_generic_doublemace_01_stand_hits_03
+1880	fs_death
+1881	fx_stopfxontag, vfx/s4/character/_misc/vfx_blue_fire_eye_glow, tag_eye
+1882	j_ankle_ri_umbrella
+1883	j_spas_strap_rare_01
+1884	gesture_blend_out_end
+1885	fx_playfxontag, vfx/s4/blood/fatality_blood_head_02.vfx, tag_stock_attach
+1886	j_ump_sling_03
+1887	CornerPull_11_L
+1888	ps_mp_execution_pestilence_stand_foley
+1889	dof_2.8_32_300_300
+1890	fx_playfxontag, vfx/s4/blood/fatality_blood_shige_neck_spurt, j_neck
+1891	dof_2.8_76_200_200
+1892	fx_playfxontag, vfx/s4/blood/fatality_blood_drops_01, j_gun
+1893	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_imp_assault_01.vfx, tag_origin
+1894	ps_mp_mvphl_wellington_stinger
+1895	vehicledamageshakeheavy
+1896	fx_playfxontag, vfx/s4/blood/fatality_blood_rafhatchet_rnr, j_gun
+1897	j_thumb_ri_3_elf
+1898	dof_4_93_50_50
+1899	j_neck_umbrella
+1900	dof_4.5_70_2.0_2.0
+1901	tag_engine_left
+1902	dof_2.8_28_0_0
+1903	s4_jpn_basalt_rock_ruins_wall_x64_a_01
+1904	ps_exec_generic_explosives_02_prone_foley_01
+1905	dyn_pouch_kl
+1906	bodyfall_torso
+1907	ps_mp_execution_wellington_stand_foley_02
+1908	j_belt_04
+1909	dof_3.4_27_100_100
+1910	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_pis_exit.vfx, j_head
+1911	dof_4.0_115_050_050
+1912	j_brow_le_2
+1913	j_shoulder_ri_pet
+1914	j_bottle_09
+1915	dof_4_277_050_050
+1916	j_dust_cover
+1917	j_shield_le
+1918	j_shield_ri
+1919	dof_3.4_55_200_200
+1920	ps_exec_knife_slice_metal
+1921	ps_exec_gear_mvmt_quick_heavy
+1922	j_strap_7
+1923	tag_tread_ri_25
+1924	ps_s4_mvphl_arthur_blood_01
+1925	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_posz, j_neck
+1926	ps_mp_execution_solange_stand_bladepull_a
+1927	NoseWrinkle_01_L
+1928	j_shuriken_00
+1929	dyn_barrel_ring_00
+1930	fx_playfxontag, vfx/s4/blood/fatality_blood_back_hit_01, j_proc_spinelower2
+1931	fx_playfxontag, vfx/s4/weapon/_mtx/s2/shell/weap_shej_mtx_s2_aromeo43_wv, tag_brass
+1932	s4_jpn_field_grass_01_lod
+1933	ps_mp_execution_elf_01_foley_stand
+1934	fx_stopfxontag, vfx/s4/blood/fatality_blood_head_06, j_dummy_slingcenteraim
+1935	j_spas_strap_cmn_06
+1936	tag_trigger_attach
+1937	ps_mp_execution_generic_pistol_01_slice
+1938	fx_playfxontag, vfx/s4/dust/fatality_dust_swipe_01.vfx, j_ball_ri
+1939	ps_mp_execution_francis_01_slice_01
+1940	dof_3.5_159_200_200
+1941	hide
+1942	ps_mp_mvphl_wade_hits_01
+1943	j_strap_56
+1944	LookRight_06_L
+1945	fx_playfxontag, vfx/s4/blood/fatality_blood_decal_posz, j_knee_ri
+1946	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_knife_stab.vfx, j_chest
+1947	LookUp_09_R
+1948	fx_stopfxontag, vfx/s4/blood/fatality_birds_flying_v_rnr, tag_origin
+1949	dof_22_34_0_0
+1950	dof_1.4_79_050_050
+1951	init_stage7
+1952	ps_exec_lion_01_prone_foley_02
+1953	change_fov_absolute,80,500
+1954	tag_rear_tail_fx
+1955	change_fov,85,0
+1956	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, j_spinelower
+1957	l_frontleg3_jnt
+1958	slow_70_500
+1959	fx_playfxontag, vfx/s4/blood/fatality_blood_padmavati_machete_rnr, j_gun
+1960	dof_22_41_0_0
+1961	change_fov,40,333
+1962	fx_playfxontag, vfx/s4/blood/fatality_blood_zwei_gut, j_spinelower_lift
+1963	fx_playfxontag, vfx/s4/blood/vfx_fatality_toxic_gas_body, j_shoulder_le
+1964	dof_2.8_60_100_100
+1965	active_pest_1
+1966	ps_mp_execution_aztec_01_stand_neck_stab_01
+1967	j_ankle_le_dog
+1968	tag_mouth_fx_dog
+1969	dof_4.4_74_010_010
+1970	j_mid_le_2
+1971	JawOpenLock_00_R
+1972	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_proc_dummy_spinelift
+1973	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_small, j_elbow_le
+1974	change_fov_absolute,50,0
+1975	change_fov_absolute,45,0
+1976	fx_stopfxontag, vfx/s4/pom/_misc/fatality_aot_dust_grnd_hit, tag_origin
+1977	j_knee_ri_lep
+1978	ps_mp_potm_butcher_stingers
+1979	j_holderbase1
+1980	fx_playfxontag, vfx/s4/character/_misc/vfx_greenbay_blue_fire_breath, j_head
+1981	dof_5_110_030_030
+1982	ps_exec_gun_drop
+1983	j_pin_bend_down
+1984	ps_mp_potm_gustavo_hits_02
+1985	fx_playfxontag, vfx/s4/blood/fatality_blood_head_impact_ground, j_head
+1986	ps_mp_exec_mateo_01_stand_foley_03
+1987	fx_playfxontag, vfx/s4/blood/fatality_blood_decal_posy, j_spine4
+1988	Squint_04_R
+1989	viewmodel_medium
+1990	dyn_ear_02_l_01_umbrella
+1991	j_head_elf
+1992	j_package_a
+1993	test_gunsmith_ammo_standing_02bneeeww
+1994	dof_4_130_0_0
+1995	dof_2.8_50_100_100
+1996	pucker_elf
+1997	fx_playfxontag, vfx/s4/blood/fatality_blood_decal_negy, j_spine4
+1998	fx_playfxontag, vfx/s4/explosion/vfx_fatality_satchel_charge.vfx, tag_fx
+1999	j_metamid_ri_1_umbrella
+2000	ps_mp_execution_elf_01_vox_jump
+2001	dof_3.5_70_050_050
+2002	footstep_left_small
+2003	j_sling_pivot
+2004	j_metamid_le_1_lep
+2005	ps_exec_generic_spearshield_01_prone_hits_03
+2006	j_coord_01
+2007	ps_mp_potm_arthur_hits_01
+2008	fx_playfxontag, vfx/s4/blood/fatality_blood_lucas_sledge, tag_origin
+2009	j_m1_cmn_strap_07
+2010	pucker
+2011	stage2
+2012	tag_lighter_fx
+2013	j_metaring_ri_1_lep
+2014	UprLipDepress_01_R
+2015	ps_mp_mvphl_arthur_hits_01
+2016	tag_detach_l
+2017	j_spinelower_lep
+2018	dof_3.3_40_0_0
+2019	j_proc_shoulder_le_umbrella
+2020	j_index_ri_3_lep
+2021	dof_4_88_010_010
+2022	j_b_04
+2023	j_b_27
+2024	fx_stopfxontag, vfx/s4/dust/fatality_dust_fall_imp_02, j_ankle_ri
+2025	ps_mp_execution_constanze_stand_whoosh_b
+2026	j_coord_023
+2027	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_02, j_neck
+2028	tag_tread_ri_45
+2029	tag_tread_ri_19
+2030	dof_20_30_100_100
+2031	r_shoulderhelper0_jnt
+2032	wlf_foliage_s2_gc_pineneedles_04
+2033	fx_playfxontag, vfx/s4/weapon/_impact/flesh/vfx_imp_flesh_dismember.vfx, j_head
+2034	fx_playfxontag, vfx/s4/smoke/fatality_gunfu_screen_smoke, j_head
+2035	j_metapinky_ri_1
+2036	dof_3.5_40_00_00
+2037	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_small, j_head
+2038	dof_22_60_0_0
+2039	MouthRight_06_L
+2040	j_insidegum_ri_1
+2041	jnt_piece_51
+2042	fx_stopfxontag, vfx/s4/blood/fatality_blood_neck_spurt, j_neck
+2043	ps_exec_generic_explosives_02_stand_hits_03
+2044	cc_xm_destroyontag, wm_chalk_00, tag_accessory_left
+2045	dof_5.6_45_010_010
+2046	dyn_sling_20
+2047	fx_playfxontag, vfx/s4/character/_misc/vfx_greenbay_blue_fire_imp, j_head
+2048	active3
+2049	ps_exec_generic_explosives_02_prone_hits_01
+2050	s4_jpn_rock_ruins_basalt_piece_damage_64
+2051	ps_mp_exec_shuriken_01_stand_foley_01
+2052	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_ambient_env, tag_origin
+2053	tag_ik_backfoot_loc_le
+2054	dof_3.3_65_050_050
+2055	ps_mp_execution_francis_01_grabslam_01
+2056	loadout_perk_patch_2
+2057	dof_4_60_050_050
+2058	dof_4_110_050_050
+2059	ps_mp_execution_ikenna_prone_victim_foley_01
+2060	fx_stopfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02, j_groinprotector
+2061	s4_jpn_bgv_foliage_hanging_vines_19
+2062	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_foot_dust_kick, tag_ik_foot_loc_ri
+2063	fx_playfxontag, vfx/s4/pom/_misc/fatality_lion_smoke_sparks_fling.vfx, tag_weapon_left
+2064	JawLeftLock_R
+2065	j_string_11_02
+2066	fx_stopfxontag, vfx/s4/character/_misc/vfx_greenbay_blue_fire_breath_rnr, j_head
+2067	j_strap_47
+2068	j_strap_97
+2069	LookLeft_03_R
+2070	fx_playfxontag, vfx/s4/weapon/_impact/flesh/vfx_imp_flesh_sml, tag_eye
+2071	LookUp_01_R
+2072	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_01, j_neck
+2073	ps_wpn_satchel_charge_detonate
+2074	j_wristfronttwist1_le_lep
+2075	fx_playfxontag, vfx/misc/vfx_pom_imp_wood_solid_xsml, tag_weapon_left
+2076	j_eyelash_bot_le_2
+2077	change_fov,90,0
+2078	ps_exec_taeyoung_01_prone_foley_01
+2079	active_death_1
+2080	dof_5_73_0_0
+2081	dof_2.8_46_400_400
+2082	fx_playfxontag, vfx/iw8/level/frontend/vfx_frontend_crate_rev_purple.vfx, tag_origin
+2083	j_dish_r_anchor
+2084	tag_cover_panel_07_dst
+2085	j_strap_138
+2086	j_strap_145
+2087	ps_mp_exec_bearhug_stand_foley_02
+2088	j_hipholster_le
+2089	j_ring_le_3_elf
+2090	fx_playfxontag, vfx/s4/sparks/fatality_spark_burst_gpu, tag_fx
+2091	fx_playfxontag, vfx/s4/weapon/_muzzle/smg/vfx_muz_smg_s_note2, tag_flash
+2092	ladder_stop_left_low
+2093	fx_playfxontag, vfx/s4/blood/fatality_blood_shuriken_pulse, j_shuriken_02
+2094	dof_3.4_80_001_001
+2095	j_spas_strap_lgn_05
+2096	ps_mp_execution_arthur_stand_bladepull_a
+2097	tag_brass_umbrella
+2098	j_thumb_ri_1_elf
+2099	j_box
+2100	ps_exec_gear_mvmt_kick
+2101	j_feedtray
+2102	hide,j_wire_02
+2103	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_01.vfx, j_head
+2104	j_proc_spinelower_swivel_lift
+2105	fx_stopfxontag, vfx/s4/dust/fatality_simple_impact.vfx, j_gun
+2106	dof_2_35_050_050
+2107	dof_5.6_323_050_050
+2108	j_string_63
+2109	show,j_mainroot_elf
+2110	j_corner_8_b
+2111	fx_playfxontag, vfx/s4/blood/fatality_blood_beatrice_cleaver_rnr02, j_clavicle_ri
+2112	dof_3.5_48_050_050
+2113	tag_flash_umbrella
+2114	j_wire_root
+2115	ps_mp_exec_shuriken_01_prone_foley_01
+2116	j_holderbase2
+2117	dof_4_63_050_050
+2118	CornerPull_01_L
+2119	fx_stopfxontag, vfx/s4/character/_misc/fatality_impact_01, j_dummy_sling_spine
+2120	fx_stopfxontag, vfx/s4/blood/fatality_blood_tiburon_shot_01, j_spine4
+2121	fx_playfxontag, vfx/s4/weapon/_trail/vfx_trail_dist_katana, j_wrist_le
+2122	fx_playfxontag, vfx/s4/weapon/_trail/vfx_trail_dist_katana, j_wrist_ri
+2123	tag_door_front_right_parentconstraint1
+2124	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_03, j_neck
+2125	fx_playfxontag, vfx/s4/blood/fatality_blood_zwei_hit_02, j_neck
+2126	tag_wheel_middle_left
+2127	fx_playfxontag, vfx/s4/weapon/_muzzle/smg/owhiskey/weap_muz_owhiskey_m_wv, tag_taclight
+2128	fx_playfxontag, vfx/s4/blood/fatality_hockeystick_slash_trail, tag_fx
+2129	fx_playfxontag, vfx/s4/weapon/_muzzle/ar/asierra44/weap_muz_asierra44_lg_wv, tag_flash
+2130	ps_mp_potm_constanze_swing_02
+2131	dof_22_74_0_0
+2132	ps_mp_potm_lion_hits_01
+2133	ps_mp_mvphl_butcher_shot_01
+2134	ps_exec_generic_spearshield_01_stand_hits_03
+2135	j_metaring_le_1
+2136	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_mpapa40_wv, tag_brass
+2137	j_string_34_01
+2138	tag_wheel_middle_right
+2139	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_face_smash_grnd.vfx, j_hip_proc_le
+2140	fx_playfxontag, vfx/s4/blood/fatality_blood_chest_strong_nomist, j_proc_dummy_spinelift
+2141	fx_playfxontag, vfx/s4/blood/fatality_blood_arm_spurt, j_spine4
+2142	ps_mp_exec_greenbay_prone_foley_02
+2143	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_strong, j_bonesaw
+2144	dof_2.8_58_0_0
+2145	fx_playfxontag, vfx/s4/smoke/smk_light_wispy_imp_01, tag_origin
+2146	j_beach_towel
+2147	tag_brass
+2148	ps_mp_mvphl_butcher_slice
+2149	fx_playfxontag, vfx/s4/character/_misc/vfx_famine_blood_swarm_ls_rnr, tag_origin
+2150	dof_2.4_52_010_010
+2151	j_hip_ri_umbrella
+2152	fx_playfxontag, vfx/iw8/level/frontend/vfx_frontend_crate_rev_yellow_mi.vfx, tag_origin
+2153	combat
+2154	j_shoulder_ri_dog
+2155	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_hit_simple, j_neck
+2156	dof_5_114_050_050
+2157	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_stab_body_left_pull.vfx, j_neck
+2158	s4_usa_tent_set_frame_04_fabric_middle_01
+2159	tag_tread_le_43
+2160	j_pinky_ri_3_pet
+2161	j_bike
+2162	j_elbow_le_elf
+2163	j_b_12
+2164	j_b_28
+2165	fx_killfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, j_wristfronttwist1_le
+2166	dyn_pouch_r
+2167	j_coord_039
+2168	j_coord_026
+2169	dof_5.6_72_010_010
+2170	dof_4.0_65_0_0
+2171	dof_3.5_20_001_001
+2172	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_05, j_clavicle_le
+2173	ps_mp_mvp_highlights_pestilence_acid
+2174	j_eak_strap_07
+2175	MouthRight_02_L
+2176	MouthRight_03_L
+2177	CornerPull_Right
+2178	ps_mp_potm_generic_nunchucks_start_01
+2179	fx_playfxontag, vfx/s4/weapon/_trail/vfx_trail_dist_katana, tag_fx
+2180	dof_4_36_000_000
+2181	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_groinprotector
+2182	j_uppergum
+2183	fx_playfxontag, vfx/s4/fluid/fluid_champagne_splash_01, j_wrist_ri
+2184	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_knee_ri
+2185	propeller_blade_02
+2186	weap_1911_fast_lift_plr
+2187	fx_stopfxontag, vfx/s4/blood/fatality_blood_tiburon_shot_01, j_spineupper
+2188	jnt_piece_61
+2189	ps_mp_execution_arizona_stand_mp40_01
+2190	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, j_proc_lift_clavicle_ri
+2191	ps_exec_gear_mvmt_complex_heavy
+2192	ps_mp_mvphl_beatrice_slice3_02
+2193	dyn_sling_25
+2194	dyn_sling_18
+2195	j_mag_c_handle
+2196	tag_sprocket_front_right
+2197	ps_exec_generic_explosives_02_prone_hits_02
+2198	fx_playfxontag, vfx/s4/blood/fatality_blood_anna_stab_eye.vfx, tag_eye
+2199	j_cosmetic_4
+2200	dof_2.8_36_0_0
+2201	fx_stopfxontag, vfx/s4/blood/fatality_blood_head_06, j_head
+2202	fx_playfxontag, vfx/s4/weapon/_mtx/s5/muzzle/weap_muz_mtx_s5_fromeo57_502_wv, tag_flash_umbrella
+2203	ps_mp_mvphl_thomas_hits_01
+2204	loadout_perk_patch_1
+2205	slow_100_35
+2206	ps_mp_execution_ikenna_prone_victim_foley_02
+2207	WEAPON VIOLENCE VIEW ORG
+2208	dof_5_135_030_030
+2209	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_mateo_rnr, j_neck
+2210	dof_5.6_63_0_0
+2211	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02, j_ankle_le
+2212	fx_playfxontag, vfx/s4/character/_mtx/s4/famine/mtx_ultra_famine_mvp_heart_01, j_heart
+2213	j_strap_44
+2214	j_strap_79
+2215	j_strap_88
+2216	j_strap_92
+2217	j_string_150
+2218	ps_exec_taeyoung_01_prone_hits_02
+2219	ps_mp_potm_constanze_twirl_02
+2220	j_head
+2221	prone_right_hit
+2222	j_ring_ri_3_elf
+2223	ps_mp_mvphl_butcher_01_foley_01
+2224	ps_mp_execution_elf_01_portal_in
+2225	j_eyelash_bot_le_1
+2226	weap_1911_fast_end_plr
+2227	tag_show_broken_glass
+2228	ps_exec_taeyoung_01_prone_foley_02
+2229	dof_3.5_40_200_200
+2230	dof_5_40_010_010
+2231	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, tag_origin
+2232	ps_mp_potm_generic_firecracker_hits_01
+2233	j_strap_135
+2234	neck0_jnt_dog
+2235	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02_rnr.vfx, j_knee_ri
+2236	cc_xm_destroyontag, wm_leta_usa_frag_mk2, tag_weapon_left
+2237	fx_playfxontag, vfx/s4/dust/vfx_rifle_ground_dust_imp, j_head
+2238	ps_mp_execution_aztec_01_prone_throat_cut_01
+2239	fx_playfxontag, vfx/s4/dust/fatality_dust_stomp_03, j_ball_ri
+2240	j_spas_strap_lgn_06
+2241	j_beer_bottle_cap
+2242	fx_stopfxontag, vfx/s4/blood/fatality_blood_splurt_01, j_clavicle_le
+2243	BrowOutrRaise_UprlidDn_L
+2244	fx_playfxontag, vfx/s4/blood/tiburon_fatality_impact_01, j_neck
+2245	j_pin
+2246	slow_10_200
+2247	dof_5_96_050_050
+2248	ps_mp_mvphl_generic_aztec_neckgrab_01
+2249	l_frontleg4_jnt
+2250	ps_mp_potm_generic_present_foley_01
+2251	fx_stopfxontag, vfx/s4/dust/fatality_dust_clap, j_ankle_le
+2252	j_mid_le_1
+2253	dof_4_76_50_50
+2254	ps_mp_execution_shigenori_stand_bladepull
+2255	fx_stopfxontag, vfx/s4/explosion/vfx_fatality_satchel_charge_air.vfx, tag_fx
+2256	ChinRaise_05_R
+2257	fx_playfxontag, vfx/s4/fluid/fluid_champagne_spray_02, tag_fx
+2258	fx_playfxontag, vfx/s4/blood/vfx_pom_muskegon_fire_01.vfx, tag_origin
+2259	fx_playfxontag, vfx/s4/character/_mtx/s5/arizona/mtx_ariz_portal_ls_01_rnr, tag_origin
+2260	browRaise_elf
+2261	j_corner_2_b
+2262	j_mag_release_paddle
+2263	j_pivot
+2264	ps_mp_mvphl_roland_knife_02
+2265	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, tag_carry_attach
+2266	pile4_var_a
+2267	fx_stopfxontag, vfx/s4/weapon/_tracer/vfx_tracer_pom_halima, tag_origin
+2268	CornerPull_07_L
+2269	r_eyelidbottom0_jnt
+2270	fx_stopfxontag, vfx/s4/character/_misc/vfx_greenbay_blue_fire_head, j_head
+2271	dof_3.5_93_010_010
+2272	j_furrow_ri
+2273	CornerPull_12_R
+2274	ps_mp_potm_gustavo_hits_01
+2275	j_clavicle_ri_elf
+2276	gesture_blend_in
+2277	ps_mp_exec_mateo_01_stand_foley_02
+2278	blinkSL
+2279	slow_20_400
+2280	body_damage_heavy
+2281	BrowLower_UprlidDn_R
+2282	dof_3.5_35_00_00
+2283	fx_playfxontag, vfx/s4/sparks/vfx_fatality_lny_light, tag_origin
+2284	dof_3.2_49_0_0
+2285	j_antislide_ik
+2286	j_eak_lgn_strap_03
+2287	fx_playfxontag, vfx/s4/blood/fatality_blood_head_05, j_spineupper
+2288	fx_playfxontag, vfx/s4/dust/vfx_rifle_ground_dust_imp, tag_sling
+2289	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_02, j_bonesaw
+2290	j_coord_19
+2291	j_coord_02
+2292	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, j_head
+2293	ps_mp_execution_daniel_stand_shovelpull
+2294	j_m1_cmn_strap_06
+2295	fx_playfxontag, vfx/s4/blood/fatality_blood_decal_negy, j_neck
+2296	hide,tag_offscreen
+2297	damageengine
+2298	j_lip_bot_le_4
+2299	j_grp_wristwatch_hour
+2300	hide,j_scabbard
+2301	death
+2302	fx_playfxontag, vfx/s4/character/_misc/fatality_lep_coin_hit_rnr, tag_origin
+2303	j_proc_shoulder_ri_lep
+2304	j_shoulder_ri_elf
+2305	dof_3.5_128_200_200
+2306	deploy
+2307	dof_3.3_35_0_0
+2308	tag_tread_le_41
+2309	j_elbow_le_dog
+2310	dyn_chain_r_04
+2311	j_b_10
+2312	j_b_26
+2313	dof_3.3_24_0_0
+2314	j_spine4_lep
+2315	dyn_tie_02_umbrella
+2316	j_steering_wheel
+2317	j_coord_020
+2318	tag_tread_ri_44
+2319	wlf_foliage_s2_gc_pineneedles_07
+2320	j_shouldertwist_le
+2321	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_mike97_wv, tag_brass
+2322	tag_lion_blunt_right
+2323	r_backleg0_jnt
+2324	body
+2325	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_leprechaun_sparkle_pop.vfx, tag_origin
+2326	j_eak_strap_01
+2327	cc_xm_destroyontag, wm_fsierra_knife_00, tag_accessory_right
+2328	fx_playfxontag, vfx/s4/blood/fatality_blood_head_06.vfx, j_head
+2329	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_slash_trail.vfx, j_wrist_ri
+2330	mag_casing
+2331	tag_playerhelmet
+2332	jnt_piece_63
+2333	tag_brakelight_right
+2334	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_knee_le
+2335	ps_exec_generic_explosives_02_stand_hits_02
+2336	l_lipbottom1_jnt_dog
+2337	dof_3.4_81_001_001
+2338	dyn_sling_27
+2339	active2
+2340	UprLidDn_01_R
+2341	hide,j_shuriken_02
+2342	j_mag_rel
+2343	j_elbow_le_umbrella
+2344	hatch_hydraulics_bottom_jnt
+2345	loadout_perk_patch_3
+2346	r_eyelidbottom0_jnt_dog
+2347	j_proc_lift_clavicle_ri_umbrella
+2348	LwrLidRaise_L
+2349	ps_mp_execution_beatrice_stand_bladepull_b
+2350	j_strap_90
+2351	j_strap_46
+2352	LookLeft_00_L
+2353	j_index_le_2_elf
+2354	fx_playfxontag, vfx/s4/dust/dust_debris_trail_sml, tag_origin
+2355	scriptable_vfx_frontend_mp_lobby_gunsmith
+2356	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_01, j_wrist_ri
+2357	j_clavicle_le_elf
+2358	ps_exec_taeyoung_01_prone_hits_04
+2359	LookUp_00_L
+2360	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_shoulder_le
+2361	dof_2.8_48_005_005
+2362	j_pedal_brake
+2363	dof__3.5_45_0
+2364	r_frontleg4_jnt
+2365	j_wristfronttwist1_le_elf
+2366	j_index_le_3_lep
+2367	j_ignition
+2368	tag_ik_loc_le_mover
+2369	active_death_0
+2370	ps_mp_exec_smoke_01_stand_hits_02
+2371	tag_bipod_attach
+2372	blendmap_mask_9_4
+2373	blendmap_mask_3_2
+2374	j_scales
+2375	j_strap_146
+2376	wp_burning
+2377	MouthLeft_02_R
+2378	ps_mp_mvphl_generic_shuriken_hits_01
+2379	ps_mp_mvphl_generic_nunchucks_chains_01
+2380	j_spas_strap_lgn_04
+2381	s4_jpn_rock_ruins_basalt_piece_64
+2382	UprLipRaise_04_R
+2383	j_nvg
+2384	fx_killfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, dyn_stacking_loop_root
+2385	j_ball_ri_umbrella
+2386	dof_5_33_010_010
+2387	fx_playfxontag, vfx/s4/trail/fatality_glaive_trail, tag_weapon_left
+2388	s4_jpn_mud_clump_edge_128_a
+2389	j_ejection_port
+2390	dof_2.8_47_100_100
+2391	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_lazer_mouth_muskegon, j_head
+2392	j_string_70
+2393	change_fov_absolute,57,0
+2394	change_fov_absolute,58,0
+2395	ps_mp_exec_gustavo_01_stand_foley_out_01
+2396	dof_4_82_050_050
+2397	tag_grenade_launcher
+2398	CornerPull_03_R
+2399	CornerPull_08_R
+2400	weap_p226_clipout_plr
+2401	fx_playfxontag, vfx/s4/character/_mtx/s4/famine/mtx_ultra_famine_eyes_st3.vfx, tag_eye
+2402	j_ring_le_2
+2403	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_foot_dust_kick, j_shoulder_ri
+2404	tag_ads
+2405	tag_weapon_chest
+2406	tag_wheel_center_front_right
+2407	jawOpen_elf
+2408	ps_mp_execution_generic_pistol_01_rack_pistol
+2409	ps_exec_helmet_impact
+2410	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_mike1911_wv, tag_brass
+2411	ps_mp_exec_mateo_01_stand_foley_01
+2412	Squint_05_R
+2413	j_mirror
+2414	ps_exec_generic_doublemace_01_prone_foley_02
+2415	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_groinprotector
+2416	ps_s4_mp_step_land_concrete
+2417	ps_mp_exec_smoke_01_prone_foley_01
+2418	fx_playfxontag, vfx/s4/blood/fatality_blood_decal_posy, j_neck
+2419	dof_2.8_36_010_010
+2420	j_eak_lgn_strap_06
+2421	j_strings_r_01
+2422	change_fov_absolute_40,0
+2423	jnt_piece_1
+2424	dof_2.8_35_050_050
+2425	j_proc_spinelower2
+2426	ps_exec_generic_spearshield_01_prone_hits_01
+2427	dof_4_25_0_0
+2428	j_coord_07
+2429	ps_mp_potm_francis_foley_01
+2430	dead
+2431	dof_2.8_70_0_0
+2432	j_m1_cmn_strap_01
+2433	stage0
+2434	LookDn_00_R
+2435	j_lip_bot_le_1
+2436	j_elbow_ri_pet
+2437	s4_jpn_bamboo_trees_02
+2438	j_b_os_00
+2439	j_spinelower_elf
+2440	ps_exec_generic_explosives_02_prone_bf_01
+2441	fx_playfxontag, vfx/s4/blood/fatality_blood_decal_posy, j_sword_arm_r_front
+2442	dof_3.4_54_001_001
+2443	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02, j_groinprotector
+2444	fx_playfxontag, vfx/s4/blood/fatality_blood_head_10, j_head
+2445	tag_tread_le_44
+2446	j_bipod_piv_r
+2447	j_b_25
+2448	j_b_06
+2449	j_dummy_knee_dist
+2450	s4_jpn_lobby_tree_group_01
+2451	j_coord_032
+2452	fx_playfxontag, vfx/s4/dust/fatality_weapon_nunchuck_spin, j_gun
+2453	fx_playfxontag, vfx/s4/dust/vfx_dust_hand_imp, j_wrist_le
+2454	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_drip, j_dummy_sling_spine
+2455	dome_fire_lrg_01
+2456	dof_3.3_23_0_0
+2457	NoseWrinkle_02_R
+2458	fx_playfxontag, vfx/s4/blood/fatality_greenbay_stomp_rnr, j_ball_ri
+2459	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_negz, j_head
+2460	jnt_piece_47
+2461	jnt_piece_53
+2462	show,j_bottle
+2463	ps_mp_potm_generic_nunchucks_foley_01
+2464	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_neck
+2465	dof_4.4_37_010_010
+2466	vehicledamageshakelight
+2467	ps_mp_potm_butcher_02_misc
+2468	dyn_sling_22
+2469	tag_wheel_extra_right
+2470	r_footend_jnt_dog
+2471	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_drip, j_proc_spineupperlift
+2472	dof_4_200_050_050
+2473	melee_attack_sfx
+2474	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02_rnr, j_elbow_le
+2475	j_fhr40_lgn_strap_05
+2476	j_remote_box
+2477	r_shoulderhelper1_jnt
+2478	dof_2.8_43_200_200
+2479	ps_mp_mvphl_solange_hits_01
+2480	s4_jpn_bgv_foliage_hanging_vines_03
+2481	fx_stopfxontag, vfx/s4/dust/fatality_simple_impact.vfx, j_ball_le
+2482	dof_2.8_54_100_100
+2483	j_charginghandle
+2484	scriptable_fire_flicker_large
+2485	dof_5.6_60_010_010
+2486	j_string_11_00
+2487	j_strap_41
+2488	j_strap_95
+2489	j_index_le_2_pet
+2490	ps_mp_execution_aztec_01_stand_foley_01
+2491	UprLidRaise_04_R
+2492	ps_s4_mp_exec_punch_full
+2493	ps_mp_potm_generic_coldone_01
+2494	j_string_143
+2495	j_mid_le_1_elf
+2496	smirk_elf
+2497	ps_mp_exec_kenosha_prone_foley_01
+2498	ik_out_end_right_hand
+2499	change_fov_absolute,60,650
+2500	j_ring_le_2_elf
+2501	active_death_3
+2502	c_s4_usa_m1_bayonet_01
+2503	ps_mp_exec_smoke_01_stand_hits_01
+2504	LwrLipDepress_04_R
+2505	dof_4_125_050_050
+2506	j_strap_143
+2507	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_01, j_knee_le
+2508	fx_playfxontag, vfx/s4/blood/vfx_fatality_toxic_gas_body, j_shoulder_ri
+2509	dof_5_140_0_0
+2510	ps_mp_mvphl_generic_champagne_bottle_01
+2511	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_tracer_florence, tag_origin
+2512	fx_playfxontag, vfx/s4/blood/fatality_blood_screen_04_notooth, tag_wrist_attach_le
+2513	j_spas_strap_lgn_03
+2514	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_moscar32_wv, tag_brass
+2515	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02_rnr, j_wristfronttwist1_le
+2516	s4_jpn_rock_ruins_wall_top_damage_192
+2517	fx_playfxontag, vfx/s4/blood/vfx_exec_dogget_dismember.vfx, j_head
+2518	j_kneedq_le
+2519	BrowInrDn_00_R
+2520	ps_s4_exec_explosive_place_bomb
+2521	dof_22_59_0_0
+2522	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_small, j_wrist_ri
+2523	s4_jpn_lobby_grass_group_05
+2524	chinRaise
+2525	footstep_right_large
+2526	fx_playfxontag, vfx/s4/blood/vfx_exec_dogget_dismember.vfx, j_hip_ri
+2527	scriptable_vfx_frontend_mp_store
+2528	r_eyebrow0_jnt_dog
+2529	dof_3.3_71_050_050
+2530	ChinRaise_02_R
+2531	ps_exec_lion_01_stand_hit_01
+2532	dof_5_78_010_010
+2533	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_lightning_buildup.vfx, j_mainroot
+2534	j_taclight_cap
+2535	fx_stopfxontag, vfx/s4/blood/fatality_blood_wound_decal, j_neck
+2536	change_fov_absolute,48,0
+2537	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02_rnr, j_groinprotector
+2538	j_pin_a
+2539	j_knee_ri_dog
+2540	CornerPull_09_L
+2541	ps_mp_potm_padmavati_hits_01
+2542	fx_playfxontag, vfx/s4/sparks/vfx_fatality_xmas_lights_01, tag_origin
+2543	fx_playfxontag, vfx/s4/dust/fatality_weapon_imp_shige_rnr, tag_bipod_attach
+2544	fx_playfxontag, vfx/s4/weapon/_muzzle/ar/stango44/weap_muz_stango44_lg_wv.vfx, tag_flash
+2545	j_cheek_puff_le
+2546	CornerPull_14_R
+2547	ps_exec_slide
+2548	j_ball_le_elf
+2549	fx_stopfxontag, vfx/misc/fatality_spit_scream_mouth_01, j_head
+2550	j_head_pet
+2551	fx_playfxontag, vfx/s4/blood/fatality_blood_screen_simple, j_head
+2552	j_proc_lift_clavicle_ri
+2553	fx_playfxontag, vfx/s4/blood/vfx_exec_dogget_dismember.vfx, j_shoulder_ri
+2554	dof_5_35_030_030
+2555	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_hit_screen, j_head
+2556	j_hiptwist_ri_lep
+2557	ps_mp_exec_kenosha_stand_toss_02
+2558	j_proc_wristfronttwist1_acc2_le
+2559	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_pullout_02, j_wrist_le
+2560	ps_mp_mvphl_francis_shoot_01
+2561	steamFXWall
+2562	me_food_spice_sack_short_flat_01
+2563	ps_mp_exec_gustavo_01_stand_bf_02
+2564	j_lip_top
+2565	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_hit_lewis, j_neck
+2566	j_anm_spoon
+2567	dof_2.8_28_100_100
+2568	dof_2.8_88_200_200
+2569	j_coord_13
+2570	j_coord_27
+2571	ps_mp_execution_wade_stand_foley
+2572	j_m1_cmn_strap_08
+2573	ps_exec_lion_01_stand_foley_03
+2574	ps_mp_execution_shigenori_stand_whoosh_a
+2575	dof_8_44_000_000
+2576	fx_stopfxontag, vfx/s4/pom/_misc/fatality_lion_smoke_sparks_fling.vfx, tag_weapon_left
+2577	ps_mp_execution_arizona_stand_electric_01
+2578	slow_100_300
+2579	LookDn_05_L
+2580	LookDn_07_R
+2581	dof_4_70_050_050
+2582	j_eye_lid_top_ri_1
+2583	tag_sling_attach
+2584	j_tongue_2
+2585	dof_3.3_52_0_0
+2586	ps_mp_execution_daniel_laststand_foley
+2587	ps_mp_execution_ikenna_standing_foley_02
+2588	j_levator_ri_1
+2589	dof_5.6_32_050_050
+2590	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_pullout_01, j_head
+2591	tag_tread_le_33
+2592	weap_1911_empty_fast_chamber_plr
+2593	ps_mp_execution_lucas_stand_hammerhit_a
+2594	fx_playfxontag, vfx/s4/blood/fatality_blood_lewis_weap_rnr, j_gun
+2595	j_mag_00c_release
+2596	j_coord_015
+2597	j_coord_035
+2598	j_coord_049
+2599	dof_3.3_58_050_050
+2600	fx_playfxontag, vfx/s4/blood/vfx_fatality_toxic_gas_can_exp, j_mainroot
+2601	tag_tread_ri_10
+2602	j_stake_left_02
+2603	hide,j_bottle
+2604	foliage_s2_gc_pineneedles_07_lod0
+2605	fx_playfxontag, vfx/s4/blood/fatality_blood_aot_weap_rnr, j_sword_r
+2606	mvmt_step_pre
+2607	dof_5_82_30_30
+2608	dof_4_43_0_0
+2609	s4_jpn_rock_ruins_base_piece_a
+2610	jnt_piece_15
+2611	j_wrist_le_umbrella
+2612	fx_playfxontag, vfx/s4/pom/_misc/fatality_lion_smoke_sparks.vfx, tag_weapon_left
+2613	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01, tag_helmetlight
+2614	dyn_sling_02
+2615	dyn_sling_14
+2616	ember
+2617	fx_stopfxontag, vfx/s4/character/_misc/vfx_greenbay_blue_fire_breath_rnr_02, j_head
+2618	UprLidDn_01_L
+2619	j_stripper_01
+2620	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_drip, tag_knife_fx
+2621	j_fhr40_lgn_strap_02
+2622	j_proc_mid_le_1
+2623	BrowOutrRaise_00_L
+2624	dof_4_117_000_000
+2625	ps_mp_mvphl_generic_champagne_hit_01
+2626	ps_exec_gore_heavy_splat
+2627	j_index_le_1_umbrella
+2628	j_strap_65
+2629	j_strap_75
+2630	j_strap_84
+2631	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02, j_ankle_le_lep
+2632	ps_mp_mvphl_polina_hits_02
+2633	fx_playfxontag, vfx/iw8/level/frontend/vfx_fe_common_crate_open.vfx, tag_origin
+2634	j_sonic_strap_03
+2635	r_foot0_jnt
+2636	LookUp_00_R
+2637	dof_5.6_60_000_000
+2638	ps_mp_mvphl_roland_foley_02
+2639	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_negz.vfx, j_shoulder_le
+2640	j_b_011
+2641	fx_stopfxontag, vfx/s4/dust/fatality_dust_swipe_01.vfx, j_ball_ri
+2642	change_fov, 80,0
+2643	ps_mp_execution_ikenna_standing_kukiri_03
+2644	ps_exec_knife_stab_shing
+2645	ps_mp_execution_ikenna_prone_kukiri_03
+2646	tag_body_animate
+2647	dof_5_79_030_030
+2648	j_strap_109
+2649	j_ch_catch
+2650	fx_playfxontag, vfx/s4/dust/dust_imp_ground, tag_carry_attach
+2651	fx_playfxontag, vfx/s4/blood/fatality_blood_butcher_nose_01, j_head
+2652	dof_4_240_050_050
+2653	tag_cover_panel_03_dst
+2654	j_metaring_le_1_umbrella
+2655	ps_s4_potm_generic_riotshield_whizbys
+2656	ps_mp_execution_pestilence_prone_acid
+2657	fx_playfxontag, vfx/s4/blood/fatality_blood_head_07.vfx, j_ankle_le
+2658	ps_exec_gore_medium_splat
+2659	j_kbm4_strap_01
+2660	j_root
+2661	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_02_nodecal, j_head
+2662	ps_mp_exec_gustavo_01_stand_hit_02
+2663	j_dyn_gun_02
+2664	j_eyeball_le_elf
+2665	fx_stopfxontag, vfx/s4/dust/fatality_dust_stomp_03, j_ball_ri
+2666	fx_playfxontag, vfx/s4/pom/_heat/vfx_pom_wh_mpapa40.vfx, tag_flash
+2667	j_ar57_strap_01
+2668	dof_5_30_000_000
+2669	j_dev_strap_01
+2670	j_ring_ri_1_pet
+2671	j_slide
+2672	tag_knife_attach2_elf
+2673	l_eyelidbottom0_jnt_dog
+2674	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_hit, tag_eye
+2675	ps_mp_execution_arizona_stand_foley_01
+2676	pain_elf
+2677	fx_playfxontag, vfx/s4/blood/fatality_blood_isabella_rnr, j_wrist_le
+2678	fx_stopfxontag, vfx/s4/weapon/_trail/vfx_trail_dist_katana, j_wrist_ri
+2679	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, j_wrist_le
+2680	ps_mp_mvphl_gustavo_hits_02
+2681	cc_xm_destroyontag,wm_leta_gen_satchel_charge_clacker_00,tag_weapon_left
+2682	j_index_le_2_umbrella
+2683	dof_4_66_010_010
+2684	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_axe_pullout_sml_03, j_wrist_ri
+2685	Squint_04_L
+2686	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_foot_dust_kick, j_ankle_ri
+2687	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_05.vfx, j_head
+2688	fx_playfxontag, vfx/s4/blood/fatality_blood_taeyoung_mouth_04, j_head
+2689	j_cheek_le_1
+2690	slow_20_800
+2691	hur_rocks_single_med_02_moss_lod0
+2692	fx_stopfxontag, vfx/s4/weapon/_tracer/vfx_tracer_pom_anna, tag_origin
+2693	plantstart
+2694	fx_playfxontag, vfx/s4/blood/fatality_blood_butcher_shot_01, j_proc_spine4
+2695	j_crotch_elf
+2696	gesture_blend_out_start
+2697	ps_mp_potm_generic_nunchucks_slowmo_01
+2698	ps_mp_exec_woodaxe_01_stand_hit_01
+2699	ps_mp_execution_lucas_famine_hyena_laugh
+2700	ps_exec_generic_champagne_01_stand_foley_04
+2701	dof_3.3_36_0_0
+2702	change_fov_absolute,27,999
+2703	fx_playfxontag, vfx/s4/weapon/_muzzle/vfx_codmas_muz_confetti, j_index_ri_2_elf
+2704	ps_exec_lion_01_prone_hit_03
+2705	mkg_hanging_vines_09_wnd
+2706	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_posx, j_head
+2707	dof_5_98_030_030
+2708	fx_stopfxontag, vfx/s4/dust/fatality_dust_fall_imp, j_mainroot
+2709	LookDn_06_R
+2710	dyn_chain_l_01
+2711	j_index_ri_1_lep
+2712	j_proc_lift_clavicle_ri_elf
+2713	j_thumb_ri_1
+2714	j_bottle_02
+2715	dof_2.8_64_200_200
+2716	tag_wheel_mid_left_0
+2717	j_index_ri_3_pet
+2718	dof_3.4_280_001_001
+2719	j_knife_tip
+2720	change_fov,46,0
+2721	dof_5.6_104_001_001
+2722	s4_jpn_rock_ruins_base_single_x64_01
+2723	r_eye0_jnt
+2724	scriptable_vfx_frontend_mp_lobby_animroom
+2725	dof_5_42_050_050
+2726	j_coord_055
+2727	j_strap_8
+2728	tag_tread_ri_06
+2729	tag_tread_ri_30
+2730	dof_3.4_127_050_050
+2731	dof_2.8_45_100_100
+2732	hide_j_canister
+2733	attack
+2734	MouthRight_00_L
+2735	ps_mp_potm_callum_foley_01
+2736	dof_3.3_56_010_010
+2737	ps_mp_mvphl_generic_aztec_bodyfall_01
+2738	jnt_piece_22
+2739	jnt_piece_38
+2740	dof_2.8_42_200_200
+2741	start
+2742	ps_mp_potm_isabella_01_land
+2743	blendmap_mask_12_1
+2744	blendmap_mask_15_2
+2745	tag_ik_frontfoot_loc_le
+2746	j_neck_pet
+2747	j_proc_target_clavicle_le
+2748	j_proc_target_clavicle_ri
+2749	j_charing_handle
+2750	j_shoulder_ri_umbrella
+2751	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_face_smash_grnd.vfx, j_neck
+2752	j_spas_strap_cmn_10
+2753	dyn_chain_l_03_dog
+2754	fx_playfxontag, vfx/s4/blood/fatality_blood_head_03, j_head
+2755	dof_2_80_050_050
+2756	tag_cover_panel_01
+2757	j_strap_32
+2758	j_strap_15
+2759	j_strap_69
+2760	LookLeft_04_L
+2761	ps_mp_execution_elf_01_portal_out
+2762	dof_2.4_68_010_010
+2763	j_string_102
+2764	j_wristfronttwist1_ri_elf
+2765	playeractivecamo
+2766	dof_3.3_50_050_050
+2767	dof_3.4_58_100_100
+2768	ps_exec_generic_spearshield_01_prone_foley_01
+2769	r_frontlegend_jnt_dog
+2770	j_metaindex_ri_1_umbrella
+2771	l_arm_l_Pv_CTRL_line_bShape_pvLine
+2772	j_05
+2773	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_ankle_ri
+2774	l_tail0_jnt_dog
+2775	fx_stopfxontag, vfx/s4/pom/_misc/fatality_blood_directional_axeandshield, j_wrist_ri
+2776	j_monster
+2777	j_dyn_hat_03_elf
+2778	dof_4_70_000_000
+2779	blendmap_mask_6_2
+2780	fx_playfxontag, vfx/s4/dust/vfx_dust_hand_imp, j_ankle_ri
+2781	fx_playfxontag, vfx/s4/blood/fatality_greenbay_slam_blood_rnr, tag_origin
+2782	j_strap_105
+2783	fx_playfxontag, vfx/s4/gameplay/vfx_codmas_elf_death.vfx, j_crotch_elf
+2784	j_hipholster_ri
+2785	ps_mp_execution_dog_standandprone_bloodpool_foley_01
+2786	ps_exec_generic_explosives_02_stand_foley_01
+2787	j_teres_ri
+2788	tag_turret
+2789	fx_playfxontag, vfx/s4/blood/fatality_blood_screen_03, j_eyeball_ri
+2790	tag_cover_panel_05_dst
+2791	change_fov,55,500
+2792	dof_5.6_37_050_050
+2793	j_hiptwist_le
+2794	j_ring_ri_2_pet
+2795	ps_mp_potm_doggett_01_foley
+2796	ps_mp_exec_gustavo_01_stand_hit_01
+2797	ps_mp_execution_aot_01_stand_hit_01
+2798	j_dish_l_anchor
+2799	j_feedpaw_linkage_pin_pivot
+2800	ps_s4_mp_exec_grab_pull
+2801	change_fov_absolute,55,0
+2802	ps_s5_mvp_death_magic_end_01
+2803	ps_wpn_mike1911_plr_reload_magin_tac_akimbo_r
+2804	ladder_stop_right_low
+2805	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_01, tag_fx
+2806	ps_s4_mvphl_butcher_01_gun_01
+2807	fx_playfxontag, vfx/iw8/level/frontend/vfx_frontend_crate_rev_green.vfx, tag_origin
+2808	CornerPull_04_R
+2809	fx_playfxontag, vfx/s4/character/_misc/vfx_lion_idle_smoke, j_head
+2810	ps_mp_execution_generic_hockeystick_02_prone_exec_whoosh_02
+2811	l_lipupper0_jnt_dog
+2812	j_heart_pulse_06
+2813	dof_5_21_200_200
+2814	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_spurt_negy, j_sword_arm_l_front
+2815	fx_stopfxontag, vfx/s4/explosion/vfx_fatality_satchel_charge.vfx, tag_fx
+2816	j_crotch_umbrella
+2817	j_thumb_ri_1_umbrella
+2818	fx_playfxontag, vfx/s4/sparks/fatality_spark_burst_knife_rnr, tag_knife_fx
+2819	dof_4_50_050_050
+2820	fx_playfxontag, vfx/s4/blood/fatality_blood_screen_05, tag_fx
+2821	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_shtgn_smoke_wh, tag_flash
+2822	dyn_chain_l_05_dog
+2823	tag_knife_fx_2
+2824	dof_5.6_50_100_100
+2825	j_stock_00_butt
+2826	fx_playfxontag, vfx/s4/sparks/fatality_spark_burst_sml, tag_fx
+2827	happy
+2828	j_bonesaw_umbrella
+2829	ps_mp_execution_aztec_01_prone_neck_stab_01
+2830	dof_2.8_57_050_050
+2831	equipatminefxview
+2832	j_follower
+2833	fx_playfxontag, vfx/s4/dust/fatality_dust_clap, j_ankle_le
+2834	fx_stopfxontag, vfx/s4/blood/fatality_blood_shige_neck_spurt, j_neck
+2835	j_elbow_ri_dog
+2836	dyn_chain_l_04
+2837	j_bottle_07
+2838	ps_mp_execution_wade_stand_bathit_b
+2839	dof_4_178_050_050
+2840	active_doggett_1
+2841	tag_tread_le_00
+2842	tag_tread_le_21
+2843	dof_4_282_050_050
+2844	tag_wick_fx
+2845	j_body
+2846	j_index_le_3
+2847	j_chain_06
+2848	change_fov,36,0
+2849	j_coord_040
+2850	tag_tread_ri_03
+2851	tag_tread_ri_37
+2852	tag_stowed_back2
+2853	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02_rnr, j_knee_ri
+2854	MouthRight_01_L
+2855	ps_mp_potm_callum_foley_02
+2856	fx_playfxontag, vfx/s4/character/_misc/char_shell_pile, tag_fx
+2857	j_canister
+2858	dof_2.8_57_200_200
+2859	dyn_rounds_k
+2860	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_knee_le
+2861	dof_4_68_0_0
+2862	dof_3.5_95_010_010
+2863	ps_s4_mvphl_arthur_foley_01
+2864	fx_playfxontag, vfx/s4/dust/fatality_dust_stomp_02.vfx, j_ball_ri
+2865	fx_killfxontag, vfx/s4/blood/fatality_blood_daniel_shovel_rnr2.vfx, tag_fx
+2866	ps_mp_potm_shigenori_slowmo_02
+2867	j_mid_ri_2_umbrella
+2868	dof_4.5_60_2.0_2.0
+2869	j_shoulder_le
+2870	fx_playfxontag, vfx/s4/dust/fatality_dust_imp_anna_rnr, tag_origin
+2871	ultra_operators
+2872	none
+2873	dof_4_95_050_050
+2874	tag_inhand
+2875	tag_cover_panel_02
+2876	l_frontleg1_jnt_dog
+2877	j_strap_10
+2878	j_strap_31
+2879	fx_playfxontag, vfx/s4/blood/vfx_pom_grenade_offset_01, tag_origin
+2880	fx_stopfxontag, vfx/s4/blood/fatality_blood_head_knife_hit_nodecal, j_head
+2881	dof_4_85_014_014
+2882	j_string_107
+2883	dof_20_13.5_1000_0
+2884	dof_4_100_0_0
+2885	j_08
+2886	dof_5_93_50_50
+2887	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02_offset, (null)
+2888	tag_mag_attach
+2889	fx_playfxontag, vfx/s4/blood/fatality_blood_head_08, j_head
+2890	blendmap_mask_1_4
+2891	dof_2.8_49_010_010
+2892	lipbottom0_jnt
+2893	ps_mp_mvphl_halima_hits_02
+2894	fx_playfxontag, vfx/s4/weapon/_muzzle/smg/owhiskey/weap_muz_owhiskey_m_wv, tag_flash
+2895	dof_3.4_45_050_050
+2896	fx_playfxontag, vfx/s4/blood/fatality_blood_head_05, j_head
+2897	j_strap_100
+2898	fx_playfxontag, vfx/s4/trail/vfx_trail_dist_shuriken, j_rafhatchet
+2899	fx_stopfxontag, vfx/s4/blood/fatality_blood_head_02, j_head
+2900	j_taclight_cable_03
+2901	j_chain_root_anchor
+2902	j_grenade
+2903	j_mid_le_2_elf
+2904	ps_mp_exec_smoke_01_stand_foley_01
+2905	fx_playfxontag, vfx/s4/weapon/_trail/vfx_trail_dist_katana, tag_weapon_right
+2906	dof_3.5_40_2.0_2.0
+2907	ps_mp_mvphl_doggett_01_foley_01
+2908	dof_4_145_050_050
+2909	tag_windshield_driver_front
+2910	s4_jpn_lobby_grass_group_03
+2911	dof_4_170_010_010
+2912	j_mid_ri_3_umbrella
+2913	dof_4_95_010_010
+2914	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_01, j_knee_le
+2915	l_backleg0_jnt
+2916	active_greenbay
+2917	ik_in_end_left_hand
+2918	tag_hood_left
+2919	dof_2.8_48_200_200
+2920	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_proc_lift_clavicle_le
+2921	j_hip_ri_dog
+2922	ps_mp_execution_padmavati_stand_whoosh_c
+2923	test_gunsmith_workbench_2
+2924	j_thumb_ri_3_lep
+2925	ik_in_start_right_hand
+2926	ps_mp_execution_aztec_01_stand_head_strike_01
+2927	fx_playfxontag, vfx/s4/blood/fatality_blood_zwei_hit, j_spinelower_lift
+2928	fx_stopfxontag, vfx/iw8/level/frontend/vfx_fe_legendary_crate_open.vfx, tag_origin
+2929	j_mid_ri_3
+2930	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_proc_spine4
+2931	ps_mp_exec_kenosha_prone_victim_foley_02
+2932	j_thumb_ri_3_umbrella
+2933	j_spinelower_lift
+2934	ps_mp_mvphl_muskegon_elec
+2935	ps_mp_exec_thomas_01_stand_hit_02
+2936	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_06, j_head
+2937	ps_mp_potm_isabella_02_foley
+2938	fx_playfxontag, vfx/s4/blood/fatality_blood_const_club_rnr, j_gun
+2939	dof_4_147_050_050
+2940	j_coord_15
+2941	j_coord_21
+2942	weap_1911_empty_chamber_plr
+2943	ps_exec_generic_doublemace_01_prone_hits_04
+2944	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_mike1911_elf_pom, tag_brass
+2945	j_ar57_lgn_strap_07
+2946	tag_ik_backfoot_loc_le_dog
+2947	ps_mp_execution_polina_stand_slice
+2948	j_index_ri_1_pet
+2949	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_02_nodecal, j_spine4
+2950	j_cover_left_02
+2951	dof_5.6_37_010_010
+2952	tag_tread_le_09
+2953	tag_tread_le_31
+2954	ADS SETTLE
+2955	j_box_solo
+2956	tag_weapon_left
+2957	j_coord_047
+2958	j_coord_017
+2959	tag_tread_ri_16
+2960	j_clip
+2961	ps_mp_execution_lucas_famine_body_fall_whoosh
+2962	cloth
+2963	tag_stowed_thigh
+2964	fx_playfxontag, vfx/s4/weapon/_muzzle/smg/vfx_muz_smg_s_norefrac, tag_tip
+2965	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02_rnr, j_knee_le
+2966	fx_playfxontag, vfx/s4/blood/fatality_blood_strike_simple, j_head
+2967	fx_stopfxontag, vfx/s4/blood/fatality_blood_daniel_shovel_decal.vfx, tag_fx
+2968	j_shouldertwist_ri_lep
+2969	MouthRight_03_R
+2970	dyn_chain_l_06_dog
+2971	fx_playfxontag, vfx/s4/weapon/_muzzle/lmg/mgolf42/weap_muz_mgolf42_constanze_pom_wv, tag_flash
+2972	dof_4_75_050_050
+2973	fx_stopfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, tag_accessory_left
+2974	r_backleg2_jnt
+2975	j_thumb_le_3_elf
+2976	j_lighter
+2977	dof_4.5_50_2.0_2.0
+2978	jnt_piece_17
+2979	jnt_piece_32
+2980	burning
+2981	dyn_sling_00
+2982	dyn_sling_16
+2983	j_shoulder_ri
+2984	dof_5.6_47_050_050
+2985	j_toy_plane
+2986	UprLidDn_00_L
+2987	dof_5_51_000_000
+2988	dof_5_74_000_000
+2989	fx_playfxontag, vfx/s4/blood/fatality_blood_taeyoung_mouth_02, j_head
+2990	j_dev_sight_cord_3
+2991	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_axe_pullout_sml, j_knee_le
+2992	j_strap_38
+2993	j_strap_63
+2994	j_strap_77
+2995	j_strap_86
+2996	j_string_136
+2997	j_string_148
+2998	dof_3.5_59_0_0
+2999	cc_xm_createontag, vm_mike1911_00_comp, tag_weapon_left
+3000	j_sonic_strap_01
+3001	LookUp_09_L
+3002	dof_4_169_100_100
+3003	tag_windshield_front
+3004	BrowInrRaise_00_R
+3005	j_b_013
+3006	j_index_le_3_elf
+3007	j_dyn_hat_04_elf
+3008	ps_mp_execution_ikenna_standing_kukiri_01
+3009	j_proc_lift_clavicle_le_elf
+3010	dof_5.6_99_200_200
+3011	ps_mp_execution_ikenna_prone_kukiri_01
+3012	tag_right_wing_fx
+3013	j_corner_7
+3014	UprLidDrop_R
+3015	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_mainroot
+3016	dof_3.5_30_000_000
+3017	dof_5_70_0_0
+3018	dof_3.4_25_050_050
+3019	j_visor
+3020	ps_mp_potm_constanze_hits_01
+3021	ps_mp_execution_anna_01_prone_victim_foley_01
+3022	j_m8_strap_03
+3023	fx_playfxontag, vfx/s4/weapon/_muzzle/smg/stango5/weap_muz_stango5_m_wv, tag_flash
+3024	tag_player_dog
+3025	dof_4_30_010_010
+3026	ps_mp_execution_anna_01_prone_weapon_02
+3027	UprLipRaise_05_R
+3028	fx_playfxontag, vfx/s4/dust/fatality_chalkboard_streak, tag_weapon_right
+3029	mp_tdm_spawn
+3030	dof_4_109_050_050
+3031	tag_brass_stango44
+3032	s4_zm_jpn_rock_park_01_cluster_b
+3033	j_ring
+3034	active_roland_war_0
+3035	dof_4_124_50_50
+3036	ps_s4_mp_bodyfall_torso_concrete_dry_raw
+3037	ChinRaise_00_L
+3038	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_weapon_impact.vfx, j_wristfronttwist1_le
+3039	fx_playfxontag, vfx/s4/blood/fatality_blood_beatrice_cleaver_rnr, j_clavicle_ri
+3040	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_groinprotector
+3041	dyn_strap_00_00
+3042	fx_playfxontag, vfx/s4/blood/fatality_blood_anna_icepick_hit, j_spine4
+3043	change_fov,60,800
+3044	body_damage_light
+3045	hur_rocks_single_med_01_moss_lod0
+3046	fx_playfxontag, vfx/s4/debris/vfx_debris_spray_sml.vfx, j_ball_le
+3047	j_heart_pulse_04
+3048	j_anm_pin_ring
+3049	dof_4.5_39_050_050
+3050	blink_L_elf
+3051	tag_cigar
+3052	mkg_hanging_vines_16_wnd
+3053	rdg_grass_short_lg_01_weeds_lod
+3054	blinkSR
+3055	ik_out_end_left_hand
+3056	dof_2.8_49_0_0
+3057	ps_mp_execution_daniel_stand_shovelhit
+3058	ps_mp_mvphl_generic_nunchucks_whoosh_c_01
+3059	j_index_ri_2_pet
+3060	j_metaindex_ri_1
+3061	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_axe_pullout_lrg, j_spine4
+3062	ps_mp_execution_exert_react_death
+3063	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_axe_pullout_sml, j_knee_le
+3064	fx_stopfxontag, vfx/s4/dust/vfx_rifle_ground_dust_imp, tag_sling
+3065	dof_5_102_050_050
+3066	dof_5_33_050_050
+3067	LookDn_04_L
+3068	tag_top3
+3069	dyn_sling_root
+3070	j_thumb_ri_4
+3071	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_hamila_liquid_drip.vfx, tag_origin
+3072	fx_playfxontag, vfx/s4/blood/fatality_blood_butcher_stab_hit_01, j_elbow_le
+3073	ps_mp_execution_aot_01_stand_foley
+3074	tag_tread_le_02
+3075	tag_tread_le_27
+3076	j_chain_00
+3077	j_coord_042
+3078	j_coord_058
+3079	tag_tread_ri_35
+3080	tag_tread_ri_01
+3081	dof_2.8_70_200_200
+3082	WEAPON VIOLENCE VIEW
+3083	fx_stopfxontag, vfx/s4/weapon/_trail/vfx_trail_dist_katana, tag_weapon_left
+3084	tag_body_grp
+3085	ps_mp_exec_florence_01_prone_hits_02
+3086	NoseWrinkle_05_R
+3087	ps_mp_execution_anna_01_standing_foley_02
+3088	l_ear0_jnt_dog
+3089	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_assault_shirt_brush.vfx, j_mainroot
+3090	jnt_piece_12
+3091	jnt_piece_35
+3092	jnt_piece_49
+3093	j_feather
+3094	dof_3.3_25_010_010
+3095	blendmap_mask_23_2
+3096	dof_12_60_010_010
+3097	fx_playfxontag, vfx/s4/blood/fatality_blood_shuriken_pulse_forward.vfx, j_head
+3098	j_lip_bot_ri_2
+3099	fx_playfxontag, vfx/s4/character/_mtx/s5/wellington/mtx_well_portal_01_rnr, tag_origin
+3100	j_pinky_le_3
+3101	cc_xm_createontag, wm_shield_00, tag_weapon_left
+3102	fx_playfxontag, vfx/code/impacts/riotshield_viewmodel_hit, tag_fx
+3103	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_foot_dust_kick.vfx, j_ball_ri
+3104	ps_mp_pom_ikenna_knife_work
+3105	ps_mp_mvphl_generic_gunfu_hits_02
+3106	tag_cover_panel_04
+3107	ps_mp_execution_generic_gunfu_02_foley
+3108	j_strap_12
+3109	j_strap_28
+3110	j_strap_37
+3111	scriptables
+3112	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_mike97_wv.vfx, tag_brass
+3113	LookRight_02_L
+3114	ps_mp_potm_generic_shuriken_hits_01
+3115	j_clavicle_le_pet
+3116	j_sonic_strap_04
+3117	tag_ik_foot_loc_ri
+3118	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_01, j_head
+3119	fx_playfxontag, vfx/s4/trail/fatality_taeyoung_kick_dist, j_ankle_ri
+3120	LookUp_02_R
+3121	dof_5_75_0_0
+3122	fx_playfxontag, vfx/s4/blood/fatality_blood_kata_drops, j_gun
+3123	j_b_016
+3124	j_mid_ri_2_lep
+3125	r_ripmid0_jnt_dog
+3126	fx_stopfxontag, vfx/s4/blood/fatality_dust_bat_impact.vfx, j_wrist_ri
+3127	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_victim_laser_burn.vfx, j_neck
+3128	l_frontleg1_jnt
+3129	fx_playfxontag, vfx/s4/weapon/_mtx/s2/muzzle/weap_muz_mtx_s2_kgamma40_m_wv, tag_flash
+3130	tag_lense_top
+3131	j_corner_2
+3132	frown_elf
+3133	j_strap_102
+3134	j_strap_119
+3135	j_kneedq_ri_umbrella
+3136	fx_playfxontag, vfx/s4/blood/fatality_blood_zwei_weap_rnr, j_gun
+3137	dof_2.8_90_2000_2000
+3138	ps_mp_potm_constanze_foley_02
+3139	j_dummy_sling_spine
+3140	j_taclight_cable_01
+3141	j_eyelash_top_ri_2
+3142	j_m8_strap_04
+3143	j_proc_spinelower
+3144	ps_mp_mvphl_generic_elf_hits_01
+3145	dof_3.4_65_001_001
+3146	j_pinky_le_2_umbrella
+3147	dof_5.6_81_100_100
+3148	UprLipRaise_02_R
+3149	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_hit_05, j_clavicle_le
+3150	j_kbm4_strap_08
+3151	dof_11_42_050_050
+3152	dof_3.3_63_010_010
+3153	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_02, j_knee_ri
+3154	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_01, j_neck
+3155	active_roland_war_2
+3156	fire_flicker
+3157	j_string_89
+3158	dof_3.5_90_200_200
+3159	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_knee_ri
+3160	j_mag_release
+3161	dof_4.0_82_050_050
+3162	dof_2.8_35_00001_00001
+3163	show,tag_offscreen
+3164	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp, j_mainroot
+3165	tag_yaw
+3166	j_heart_pulse_02
+3167	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_foot_dust_kick, j_ankle_ri
+3168	change_fov_absolute,65,0
+3169	j_macuahuitl
+3170	tag_camera_scripted_elf
+3171	fx_playfxontag, vfx/s4/weapon/_muzzle/smg/vfx_muz_smg_m, tag_flash
+3172	j_rafhatchet
+3173	dof_3.3_39_0_0
+3174	dof_4_48_0_0
+3175	dof_4_40_030_030
+3176	ps_mp_mvphl_constanze_hits_01
+3177	ps_exec_gear_mvmt_brush
+3178	explodewall
+3179	fx_killfxontag, vfx/s4/fire/pom_lighter_flame, tag_lighter_fx
+3180	ps_mp_potm_generic_aot_hits
+3181	tongue2_jnt_dog
+3182	fx_playfxontag, vfx/s4/sparks/vfx_lny_flint_spark, tag_lighter_fx
+3183	r_eyelidupper0_jnt
+3184	j_coord_22
+3185	fx_playfxontag, vfx/s4/smoke/fatality_gunfu_smoke_blow_rnr, j_head
+3186	fx_playfxontag, vfx/s4/blood/fatality_birds_flying_v_rnr, tag_origin
+3187	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_imp_assault_01.vfx, tag_origin
+3188	fx_playfxontag, vfx/iw8/level/frontend/vfx_frontend_crate_drop_1.vfx, tag_origin
+3189	j_ar57_lgn_strap_02
+3190	tag_top1
+3191	dyn_chain_l_08
+3192	j_temple_ri
+3193	ps_mp_potm_halima_stinger_03
+3194	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_sm, j_head
+3195	tag_tread_le_25
+3196	tag_tread_le_04
+3197	dof_3.4_20_050_050
+3198	dof_4_68_010_010
+3199	j_chain_02
+3200	ps_mp_exec_mateo_01_prone_bf_01
+3201	tag_show_glass
+3202	dof_2_61_050_050
+3203	fx_stopfxontag, vfx/s4/weapon/_mtx/s3/shell/weap_shej_mtx_s3_promeo45_wv, tag_brass
+3204	j_coord_044
+3205	slow_30_100
+3206	j_cork
+3207	dof_3.5_95_050_050
+3208	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_stango44_wv, (null)
+3209	j_c4_button_left
+3210	interruptible
+3211	j_metaindex_le_1_pet
+3212	dof_5_39_000_000
+3213	j_c4_clacker_button
+3214	jnt_piece_10
+3215	jnt_piece_37
+3216	tag_grip_hide
+3217	fingers_in_start_right_hand
+3218	ps_mp_mvphl_roland_hit_02
+3219	j_knee_le_dog
+3220	j_lip_bot_ri_4
+3221	dof_4_101_050_050
+3222	j_proc_mid_ri_1
+3223	j_pinky_le_1
+3224	dof_4_51_010_010
+3225	spine2_jnt_dog
+3226	tag_cover_panel_06
+3227	destroy
+3228	j_strap_35
+3229	LookLeft_07_L
+3230	plantend
+3231	j_string_133
+3232	dof_2_21_050_050
+3233	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01_nodecal, j_shoulder_ri
+3234	fx_playfxontag, vfx/s4/dust/fatality_aot_impact_dust_01, j_gun
+3235	j_sonic_strap_06
+3236	tag_ik_frontfoot_loc_ri_dog
+3237	tag_knife_tip
+3238	dof_4_77_010_010
+3239	fx_playfxontag, vfx/s4/character/_misc/vfx_greenbay_blue_fire_head, j_head
+3240	j_eye_lid_bot_le
+3241	j_eye_lid_bot_ri
+3242	j_hip_le
+3243	j_hip_ri
+3244	r_frontleg1_jnt_dog
+3245	ik_in_end_right_hand
+3246	ps_mp_execution_arizona_prone_electric_01
+3247	j_b_014
+3248	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, j_spineupper
+3249	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_axe_pullout_lrg, j_bonesaw
+3250	LwrLipDepress_02_L
+3251	tag_sproket_back_right
+3252	j_corner_4
+3253	fx_playfxontag, vfx/s4/blood/fatality_blood_wound_decal, j_shoulder_le
+3254	dof_3.4_54_050_050
+3255	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_posy, j_neck
+3256	turn_blend
+3257	primary_blanket_c
+3258	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_energy_buildup.vfx, j_head
+3259	j_string_23_01
+3260	fx_stopfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, j_wrist_le
+3261	ps_mp_mvphl_padmavati_hits_01
+3262	hur_rock_collection_med_sm_01_moss_lod0
+3263	fx_stopfxontag, vfx/s4/character/_misc/fatality_impact_01, tag_origin
+3264	r_frontlegend_jnt
+3265	ps_s4_exec_explosive_detonator_activate
+3266	neck1_jnt
+3267	hide,j_wire_01
+3268	dof_22_49_0_0
+3269	equipclaymorefxview
+3270	end
+3271	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02, j_spineupper
+3272	j_wristfronttwist1_le
+3273	fx_playfxontag, vfx/s4/blood/fatality_blood_glaive_directional, j_knee_ri
+3274	ADS TILT
+3275	ps_mp_exec_shuriken_01_prone_bf
+3276	change_fov,60,500
+3277	dof_3.4_49100_100
+3278	fx_playfxontag, vfx/s4/character/_misc/vfx_greenbay_screen_flash, tag_origin
+3279	activecamo
+3280	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_foot_dust_kick, j_shoulder_le
+3281	fx_stopfxontag, vfx/s4/pom/_misc/vfx_doggett_smk, tag_origin
+3282	j_ump_sling_04
+3283	j_paper_04
+3284	j_ball_le_lep
+3285	dof_3.5_60_050_050
+3286	scriptable_vfx_s4_mp_lobby_s3_operator
+3287	dof_4_37_010_010
+3288	ps_mp_execution_ikenna_standing_victim_foley_03
+3289	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_03, j_head
+3290	j_nasolabial_ri_4
+3291	tag_ik_loc_le_akimbo
+3292	ps_mp_exec_mateo_01_prone_foley_02
+3293	ps_mp_potm_padmavati_end_03
+3294	tag_ik_target_left
+3295	ps_mp_execution_roland_stand_headbutt
+3296	j_knife
+3297	j_holderarm3
+3298	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_helmet
+3299	jnt_piece_9
+3300	dyn_chain_r_05_dog
+3301	ps_mp_exec_greenbay_prone_foley_01
+3302	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_sling_pivot
+3303	viewmodel_small
+3304	ps_mp_mvphl_daniel_foley_02
+3305	fx_playfxontag, vfx/s4/blood/fatality_blood_drops_01, tag_fx
+3306	fx_stopfxontag, vfx/s4/weapon/_shell/weap_shej_mike97_wv, tag_brass
+3307	dyn_tie_05_umbrella
+3308	damageheavy
+3309	ps_mp_execution_isabella_01a_attack2
+3310	j_charging_handle
+3311	dof_2.8_110_100_100
+3312	ps_mp_execution_lucas_famine_body_fall_foley
+3313	tag_ik_loc_ri
+3314	change_fov,60,0
+3315	dof_2.8_100_200_200
+3316	j_proc_lift_clavicle_ri_lep
+3317	m1_j_accs_02
+3318	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_victim_laser_impact.vfx, j_head
+3319	j_e_00
+3320	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_ptrs41_wv, tag_brass
+3321	dyn_chain_r_01
+3322	j_b_15
+3323	dof_4_81_010_010
+3324	dyn_ear_02_l_02_umbrella
+3325	j_coord_025
+3326	ps_mp_exec_shuriken_01_prone_hit_01
+3327	j_grip_safety
+3328	j_proc_index_le_1
+3329	scriptable_vfx_s4_mp_lobby_s1_loadout
+3330	tag_mirror_left
+3331	fx_playfxontag, vfx/s4/blood/fatality_blood_pool_dust_slam_01, j_mainroot
+3332	j_shouldertwist_ri
+3333	ps_mp_potm_thomas_hits_01
+3334	j_eak_strap_04
+3335	MouthRight_08_L
+3336	cc_xm_destroyontag, vm_mike1911_00_comp, tag_weapon_left
+3337	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_florence_rotor_wash, tag_origin
+3338	j_dyn_grenade_a_01
+3339	propeller_blade_01
+3340	s4_jpn_lobby_plant_group_01
+3341	vfx/iw8/level/frontend/s3/vfx_frontend_vent_steam
+3342	jnt_piece_66
+3343	ps_mp_execution_arizona_prone_hit_01
+3344	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_shoulder_ri
+3345	camerasuport0_jnt
+3346	ps_mp_potm_generic_sniper_guns_01
+3347	lookRight
+3348	dof_3.3_106_050_050
+3349	fx_stopfxontag, vfx/s4/dust/vfx_rifle_ground_dust_imp, tag_taclight
+3350	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, j_ball_le
+3351	ps_mp_mvphl_thomas_hits_02
+3352	dof_3.4_40_050_050
+3353	dropgun
+3354	ps_mp_execution_wellington_stand_shot_01
+3355	fx_playfxontag, vfx/s4/blood/fatality_blood_taeyoung_stream, j_ankle_le
+3356	j_strap_49
+3357	j_strap_51
+3358	LookLeft_06_R
+3359	LookLeft_08_L
+3360	UprLidRaise_00_L
+3361	dof_2.8_90_200_200
+3362	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_03, j_knee_le
+3363	j_string_157
+3364	dof_4.4_34_010_010
+3365	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_sm_noscreen_rnr, j_head
+3366	ps_mp_exec_kenosha_stand_foley_01
+3367	ps_exec_taeyoung_01_prone_hits_01
+3368	j_ring_ri_3
+3369	dof_2.8_37_005_005
+3370	r_frontleg3_jnt
+3371	footstep_right_small
+3372	cc_xm_createontag, vm_mike1911_00_comp, tag_accessory_right
+3373	init_stage2
+3374	ps_mp_execution_generic_hockeystick_02_standing_exec_foley_02
+3375	LwrLipDepress_03_R
+3376	fx_playfxontag, vfx/s4/weapon/_muzzle/lmg/bromeo37/weap_muz_bromeo37_m_v, tag_flash
+3377	ps_mp_exec_florence_01_stand_hits_02
+3378	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_bromeo37_v, tag_brass
+3379	UprLidDrop_L
+3380	tag_door_front_left_parentconstraint1
+3381	j_strap_128
+3382	j_strap_136
+3383	dof_4.8_100_0_0
+3384	fx_playfxontag, vfx/s4/smoke/fatality_lion_nose_smk, tag_eye
+3385	tag_ik_frontfoot_loc_le_dog
+3386	buddycop
+3387	dof_4_108_0_0
+3388	j_bed
+3389	j_kbm4_strap_06
+3390	tag_seat_0
+3391	fx_playfxontag, vfx/s4/weapon/_mtx/s3/shell/weap_shej_mtx_s3_promeo45_wv, tag_brass
+3392	change_fov,64,300
+3393	dof_5.6_46_010_010
+3394	dof_2.8_91_010_010
+3395	j_wrist_le
+3396	dof_4_100_050_050
+3397	j_dev_strap_04
+3398	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_lightning_buildup.vfx, j_mainroot
+3399	j_hip_proc_le
+3400	viewmodel_large
+3401	j_wristfronttwist1_ri
+3402	j_barong
+3403	ps_mp_exec_florence_01_prone_foley_02
+3404	ps_mp_execution_arizona_stand_foley_02
+3405	j_periorbital_ri_3
+3406	CornerPull_00_R
+3407	l_lipbottom0_jnt_dog
+3408	tag_eye
+3409	tag_offscreen
+3410	tag_headlight_right
+3411	j_b_x_00
+3412	dof_3.3_39_010_010
+3413	NoseOpen_L
+3414	s4_jpn_volcanic_rock_rubble_01
+3415	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_shoulder_le
+3416	ps_mp_exec_bearhug_prone_foley_01
+3417	dof_6_24_1.2_200
+3418	visibility
+3419	fx_playfxontag, vfx/s4/weapon/_muzzle/vfx_codmas_muz_confetti, j_index_le_3_elf
+3420	dof_2.8_52_200_200
+3421	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_02, j_wrist_ri
+3422	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_bromeo37_wv, tag_brass
+3423	ps_mp_execution_lucas_famine_hyena_attack
+3424	tag_flash
+3425	j_pinky_ri_2
+3426	show,j_mag2
+3427	ps_mp_execution_halima_stand_stab_b
+3428	fx_playfxontag, vfx/s4/blood/fatality_blood_screen_04, j_head
+3429	active_famine_2
+3430	ps_mp_potm_florence_hits_02
+3431	dust
+3432	tag_pistol_offset
+3433	l_shoulderhelper0_jnt
+3434	j_bottle_des
+3435	dyn_chain_l_02
+3436	fx_playfxontag, vfx/s4/character/_misc/vfx_lion_blunt_idle_lit, tag_accessory_left
+3437	j_knife_02
+3438	fx_stopfxontag, vfx/s4/blood/fatality_blood_decal_negy, j_neck
+3439	fx_stopfxontag, vfx/s4/weapon/_impact/flesh/vfx_imp_flesh_lrg.vfx, j_spine4
+3440	l_ear1_jnt_dog
+3441	ps_mp_potm_generic_elf_hits_01
+3442	tag_knife_attach2
+3443	change_fov,52,0
+3444	ps_mp_exec_gustavo_01_prone_hit_02
+3445	j_bottle_01
+3446	tag_tread_le_13
+3447	dof_5_107_030_030
+3448	ps_exec_generic_spearshield_01_stand_bf_01
+3449	fx_playfxontag, vfx/s4/blood/fatality_blood_decal_posy, j_head
+3450	dof_3.3_34_010_010
+3451	spine3_jnt
+3452	ps_mp_execution_palmer_gun
+3453	j_insidegum_le_1
+3454	j_coord_050
+3455	dyn_chain_l_02_dog
+3456	j_ball_le_umbrella
+3457	dof_5_41_0_0
+3458	dof_3.4_195_050_050
+3459	j_strings_m_02
+3460	fx_playfxontag, vfx/s4/dust/vfx_dust_hand_imp, j_wrist_ri
+3461	dof_4_219_50_50
+3462	jnt_piece_25
+3463	tag_grip_attach
+3464	blendmap_mask_20_2
+3465	tag_ik_backfoot_loc_ri
+3466	mp_tdm_spawn_allies_start
+3467	ps_mp_mvphl_butcher_01_blood_01
+3468	dof_4.0_49_0_0
+3469	tongue1_jnt_dog
+3470	fx_playfxontag, vfx/s4/blood/dogget_exec_chrome_decal_01, j_wrist_le
+3471	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_foot_dust_kick, tag_ik_foot_loc_le
+3472	LwrLidRaise_R
+3473	j_ball_ri_lep
+3474	dof_3.3_53_050_050
+3475	j_strap_20
+3476	j_index_le_2_lep
+3477	LookRight_01_R
+3478	j_string_101
+3479	j_ankle_le
+3480	dof_15_95_0_0
+3481	weap_1911_empty_lift_plr
+3482	j_06
+3483	tag_cover_panel_06_dst
+3484	ps_exec_gear_mvmt_long_light
+3485	ps_mp_execution_generic_pistol_01_knife_to_gun
+3486	j_lip_top_le_3
+3487	dof_4_41_000_000
+3488	j_grp_wristwatch_minute
+3489	ps_mp_execution_arizona_prone_foley_01
+3490	dof_5_41.4_000_000
+3491	LwrLipDepress_04_L
+3492	dof_3.5_31_0_0
+3493	dof_3.5_117_200_200
+3494	ps_mp_potm_muskegon_designed
+3495	j_strap_111
+3496	j_strap_125
+3497	fx_playfxontag, vfx/s4/weapon/_muzzle/ar/chotel15/weap_muz_chotel15_solange_pom_01, tag_flash
+3498	openidledoor
+3499	exec_kill
+3500	j_ring_le_3_pet
+3501	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_hit, j_shoulder_le
+3502	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_negy, j_sword_arm_l_front
+3503	ps_exec_generic_explosives_02_stand_foley_02
+3504	j_beach_chair
+3505	tag_player
+3506	j_mid_le_2_pet
+3507	ps_mp_execution_shigenori_stand_slash
+3508	UprLipRaise_04_L
+3509	j_thumb_ri_1_lep
+3510	fx_stopfxontag, vfx/s4/dust/fatality_simple_impact.vfx, j_wrist_ri
+3511	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_01, j_head
+3512	ps_exec_gore_bone_break
+3513	j_proc_clavicle_ri_lep
+3514	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_spineupper
+3515	ChinRaise_04_R
+3516	show,j_mainroot_lep
+3517	fx_stopfxontag, vfx/s4/character/_misc/vfx_greenbay_blue_fire_imp, j_head
+3518	dof_5.6_49_0_0
+3519	fx_playfxontag, vfx/s4/blood/fatality_blood_butcher_shot_01, j_spineupper
+3520	ps_exec_generic_doublemace_01_stand_hits_02
+3521	ps_mp_mvphl_generic_smg_hits_01
+3522	j_spas_strap_rare_06
+3523	ps_exec_gore_bone_break_loud
+3524	l_eyelidupper0_jnt_dog
+3525	ps_exec_gear_mvmt_quick_light
+3526	ps_mp_potm_isabella_02_start
+3527	idle_blend
+3528	j_ump_sling_02
+3529	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_stango44_wv, tag_brass
+3530	j_shoulder_le_dog
+3531	j_hip_ri_elf
+3532	ps_exec_generic_champagne_01_stand_hits_01
+3533	ps_s4_mvphl_arthur_riser_01
+3534	ps_mp_mvphl_callum_foley_gun_stingers_01
+3535	sneer_elf
+3536	fx_playfxontag, vfx/iw8/level/frontend/vfx_fe_epic_crate_open.vfx, tag_origin
+3537	vfx/iw8/level/frontend/s3/vfx_frontend_plane_dogfight_ch
+3538	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_02, j_spinelower
+3539	dof_4_140_00_00
+3540	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_02, j_wrist_le
+3541	fx_playfxontag, vfx/s4/blood/vfx_exec_dogget_dismember.vfx, j_shoulder_le
+3542	ps_mp_potm_generic_battlepass_01
+3543	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_thotel_v, tag_brass
+3544	ps_mp_mvphl_florence_hits_02
+3545	ps_exec_generic_explosives_02_prone_foley_02
+3546	lookLeft_elf
+3547	ps_mp_execution_doggett_01_foley_01
+3548	dof_3.4_84_050_050
+3549	ps_mp_exec_woodaxe_01_stand_foley
+3550	frown
+3551	ps_mp_execution_wellington_stand_foley_01
+3552	j_belt_05
+3553	fx_playfxontag, vfx/s4/weapon/_impact/flesh/vfx_imp_flesh_lrg.vfx, j_spine4
+3554	fx_playfxontag, vfx/s4/blood/fatality_blood_screen_05, j_head
+3555	fx_playfxontag, vfx/s4/character/_misc/fatality_lep_spawn, j_crotch_lep
+3556	dof_3.4_80_100_100
+3557	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_03, tag_fx
+3558	fx_playfxontag, vfx/s4/blood/fatality_blood_y_offset, j_spine4
+3559	ps_mp_exec_florence_01_stand_foley_02
+3560	tag_ik_loc_le_orientconstraint1
+3561	j_knee_ri_umbrella
+3562	j_bottle_010
+3563	dof_4_84_000_000
+3564	ps_mp_execution_generic_pistol_01_pistol_shoot
+3565	j_brow_le_1
+3566	dof_3.6_70_100_100
+3567	dof_3.5_110_010_010
+3568	j_panel01
+3569	change_fov,55,0
+3570	cc_xm_createontag,wm_leta_gen_satchel_charge_00,tag_accessory_right
+3571	j_bottle_08
+3572	tag_tread_le_18
+3573	change_fov,40,0
+3574	fx_playfxontag, vfx/s4/blood/fatality_blood_head_06_nodecal, j_head
+3575	j_strap_6
+3576	tag_tread_ri_24
+3577	dof_3.3_72_010_010
+3578	ps_mp_potm_halima_weapon_foley_03
+3579	fx_playfxontag, vfx/s4/weapon/_muzzle/pis/mike1911/weap_muz_mike1911_lg_wv, tag_flash
+3580	secondary_blanket_a
+3581	s4_jpn_rock_ruins_debris_pile_01
+3582	dof_4_104_030_030
+3583	MouthRight_01_R
+3584	fx_playfxontag, vfx/s4/blood/fatality_blood_kata_hit, j_spine4
+3585	ps_mp_execution_daniel_prone_shovelpull
+3586	j_shuriken_01
+3587	r_ear1_jnt
+3588	fx_stopfxontag, vfx/s4/blood/fatality_blood_decal_sparse, j_shield
+3589	fx_playfxontag, vfx/s4/character/_mtx/s5/death/mtx_ultra_death_ex_hands, j_wrist_le
+3590	ps_mp_potm_lucas_hits_01
+3591	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_tyankee100_wv, tag_brass
+3592	JawOpen_00_R
+3593	dof_6_24_200
+3594	decor_gunsmith_sandbag_folded
+3595	j_metaring_le_1_lep
+3596	j_spas_strap_cmn_07
+3597	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_pis_exit.vfx, j_head
+3598	s4_jpn_bgv_foliage_hanging_vines_15
+3599	mkg_hanging_vines_19
+3600	ps_mp_execution_daniel_laststand_kick
+3601	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01_famine, j_wrist_ri
+3602	j_strap_57
+3603	ps_mp_execution_aztec_01_prone_foley_01
+3604	LookUp_05_L
+3605	hide,j_canister
+3606	j_lip_top_ri_1
+3607	init_stage4
+3608	j_thumb_le_1
+3609	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_negy, j_head
+3610	ps_mp_mvphl_roland_whoosh_02
+3611	ps_mp_execution_daniel_laststand_shovelstab
+3612	fx_playfxontag, vfx/s4/weapon/_muzzle/smg/vfx_muz_smg_s, tag_tip
+3613	tag_mouth_fx
+3614	j_spine4
+3615	dof_4_55_010_010
+3616	tag_hood_right
+3617	s4_jpn_rock_ruins_foundation_stone_a
+3618	j_strap_122
+3619	dof_5_127_050_050
+3620	tag_irons_attach
+3621	dof_4_113_050_050
+3622	ps_mp_execution_karambit_stand_foley_01
+3623	active_pest_0
+3624	j_drive_sproket_fl
+3625	dof_5.6_132_010_010
+3626	j_proc_spinelower_swivel
+3627	dof_4_50_010_010
+3628	fx_playfxontag, vfx/s4/smoke/smk_light_wispy_imp_01, j_hip_le
+3629	fx_playfxontag, vfx/s4/weapon/_impact/flesh/vfx_imp_flesh_dismember, j_head
+3630	change_fov,65,1000
+3631	tag_bayonet_attach
+3632	j_wrist_le_elf
+3633	smolder
+3634	dof_3.3_59_0_0
+3635	j_string_68
+3636	change_fov_absolute,53,0
+3637	ps_exec_lion_01_stand_hit_04
+3638	j_prop
+3639	dof_4.8_62_050_050
+3640	j_anm_pin_pull
+3641	j_knee_ri_elf
+3642	j_wire_03
+3643	CornerPull_03_L
+3644	j_proc_clavicle_ri
+3645	ps_mp_execution_arthur_stand_foley
+3646	j_furrow_le
+3647	j_hip_ri_lep
+3648	ps_mp_potm_generic_bad_idea_hits
+3649	dof_4_90_050_050
+3650	dof_2.8_40_200_200
+3651	ps_mp_execution_isabella_01b_foley
+3652	ps_iw8_deployable_cover_unfold
+3653	dof_10_20_100_100
+3654	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_snoop_cig_lit.vfx, tag_weapon_left
+3655	ps_mp_potm_tiburon_trust_me
+3656	mvmt_step_post
+3657	dof_3.3_30_0_0
+3658	j_eak_lgn_strap_04
+3659	dof_2.8_28_010_010
+3660	ps_mp_potm_isabella_01_gun
+3661	j_index_ri_2
+3662	ps_mp_execution_wellington_prone_teleport_exit_01
+3663	jnt_piece_3
+3664	dof_22_90_0_0
+3665	j_metamid_le_1_elf
+3666	ps_mp_execution_wellington_prone_foley_01
+3667	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_hit, j_neck
+3668	j_coord_05
+3669	ps_mp_exec_mateo_01_stand_hits_02
+3670	stage6
+3671	dof_5_152_000_000
+3672	dof_3.4_118_050_050
+3673	j_shouldertwist_le_elf
+3674	LookDn_08_R
+3675	j_lip_bot_le_3
+3676	tag_accessory
+3677	j_bullet_loose
+3678	dof_5_3_100_100
+3679	ps_mp_execution_beatrice_stand_whoosh_b
+3680	fx_stopfxontag, vfx/s4/weapon/_explosion/vfx_explo_satchel_charge, tag_fx
+3681	j_spinelower_pet
+3682	j_b_00
+3683	j_b_23
+3684	spine1_jnt
+3685	lipupper0_jnt
+3686	fx_playfxontag, vfx/s4/blood/fatality_blood_chest_rnr, j_spineupper
+3687	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_proc_spinelower2
+3688	j_coord_010
+3689	j_coord_030
+3690	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_m1golf_wv, tag_brass
+3691	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_machete_slash.vfx, j_spineupper
+3692	tag_tread_ri_41
+3693	j_pinky_ri_2_lep
+3694	j_crotch
+3695	lookLeft
+3696	tag_stow_back_mid_attach
+3697	dof_4_54_050_050
+3698	tag_sight_on
+3699	dof_5.6_40_010_010
+3700	jnt_piece_45
+3701	jnt_piece_55
+3702	dof_3.5_68_0_0
+3703	j_beer_bottle
+3704	ps_exec_generic_explosives_02_stand_bf_01
+3705	j_remote_box_plunger
+3706	fx_playfxontag, vfx/s4/blood/fatality_kenosha_rocks_falling.vfx, tag_origin
+3707	dyn_sling_11
+3708	tag_wheel_back_left
+3709	start_ragdoll
+3710	j_lowergum
+3711	j_fhr40_lgn_strap_07
+3712	tag_mount_pivot
+3713	j_ring_ri_2_umbrella
+3714	dof_3.3_70_050_050
+3715	ps_exec_taeyoung_01_stand_hits_04
+3716	fx_playfxontag, vfx/s4/character/_misc/vfx_fatality_famine_dismember, j_shoulder_le
+3717	plantstartdoor
+3718	dyn_gascan
+3719	ps_mp_execution_halima_stand_whoosh_b
+3720	j_strap_43
+3721	ps_mp_execution_aztec_01_stand_foley_03
+3722	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_muz_smg_nodistort, tag_flash
+3723	LookRight_03_R
+3724	LookRight_08_R
+3725	ps_mp_potm_generic_coldone_03
+3726	j_string_159
+3727	j_pinky_le_2_lep
+3728	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, l_lipbottom1_jnt_dog
+3729	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_luniform08_wv, tag_brass
+3730	j_pistol
+3731	LookUp_08_L
+3732	j_proc_spineupper
+3733	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_solange_pom_01, tag_brass
+3734	ps_mp_exec_kenosha_prone_foley_03
+3735	ps_mp_mvphl_lewis_foley_01
+3736	j_mid_le_1_umbrella
+3737	ps_mp_exec_nunchuck_01_stand_hit_02
+3738	fx_playfxontag, vfx/s4/blood/fatality_blood_head_05_nodecal_nostream, j_wrist_le
+3739	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_stango44_wv.vfx, tag_brass
+3740	ps_mp_execution_generic_krampus_arms_grab
+3741	fx_stopfxontag, vfx/s4/dust/vfx_rifle_ground_dust_imp, tag_origin
+3742	j_strap_141
+3743	j_shouldertwist_ri_umbrella
+3744	j_spas_strap_lgn_01
+3745	ps_mp_execution_elf_01_vox_portal
+3746	disable_ragdoll_anim_root
+3747	j_thumb_ri_1_pet
+3748	scriptable_vfx_frontend_mp_faction_buddy_cop
+3749	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_01, tag_fx
+3750	slow_10_040
+3751	slow_10_250
+3752	dof_4_44_010_010
+3753	pain
+3754	fx_playfxontag, vfx/s4/blood/fatality_blood_butcher_shot_01, j_shoulder_le
+3755	bullet_01
+3756	j_sword_r
+3757	deathsdoor
+3758	j_ik_foot_root
+3759	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, r_ripbottom0_jnt_dog
+3760	dof_5.0_53_0_0
+3761	dof_5_58_050_050
+3762	dof_3.4_30_001_001
+3763	change_fov_absolute,40,333
+3764	fx_stopfxontag, vfx/s4/weapon/_trail/vfx_trail_dist_katana, tag_weapon_right
+3765	j_string_77
+3766	ChinRaise_01_R
+3767	ChinRaise_05_L
+3768	j_wheel_fl
+3769	j_corner_4_b
+3770	fx_playfxontag, vfx/s4/blood/fatality_blood_isabella_weap_rnr, tag_weapon_left
+3771	smileSR_elf
+3772	tag_wheel_center_middle_left
+3773	j_wire_02
+3774	CornerPull_07_R
+3775	dof_3.5_41_050_050
+3776	foliage_s2_gc_pineneedles_08
+3777	tag_camera_scripted_lep
+3778	tag_windshield_back
+3779	ps_mp_potm_generic_present_slowmo_01
+3780	blink_L
+3781	tag_lense
+3782	j_slide_stop
+3783	ps_mp_mvphl_isabella_foley_02
+3784	tag_ik_loc_ri_orientconstraint1
+3785	j_proc_wristfronttwist1_acc3_le
+3786	fx_playfxontag, vfx/s4/blood/fatality_blood_back_hit_01, j_neck
+3787	fx_playfxontag, vfx/s4/weapon/_mtx/s4/shell/weap_shej_mtx_s4_aalpha52_wv.vfx, tag_brass
+3788	j_coil_01
+3789	j_eak_lgn_strap_05
+3790	j_strings_r_02
+3791	dof_3.4_13_050_050
+3792	j_indexbulge_le_1
+3793	j_index_ri_3
+3794	jnt_piece_4
+3795	tag_ik_loc_ri_parentconstraint1
+3796	j_coord_04
+3797	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_posz, j_head
+3798	ps_exec_generic_doublemace_01_prone_hits_02
+3799	j_mid_le_3_umbrella
+3800	fx_playfxontag, vfx/s4/character/_misc/fatality_lep_spawn_rnr, tag_origin
+3801	dof_4_50_0_0
+3802	j_switch_detonate
+3803	stage7
+3804	LookDn_02_L
+3805	j_toy_plane_large
+3806	j_lip_bot_le_2
+3807	ps_mp_execution_wellington_prone_gore_01
+3808	j_elbow_ri_elf
+3809	ps_mp_execution_beatrice_stand_whoosh_a
+3810	dof_4_65_050_050
+3811	codmas_fx_excluded
+3812	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_ambient_env, tag_origin
+3813	ps_mp_exec_greenbay_stand_foley_03
+3814	tag_tread_le_37
+3815	j_bolt
+3816	j_b_01
+3817	j_b_20
+3818	j_sword_arm_l
+3819	dof_5.6_45_0_0
+3820	change_fov,38,0
+3821	j_coord_011
+3822	j_coord_031
+3823	l_footend_jnt
+3824	tag_tread_ri_42
+3825	tread_guide_top_back_right
+3826	ps_exec_generic_doublemace_01_stand_foley_01
+3827	dof_3.5_17_0_0
+3828	foliage_s2_cob_fern_clump_03
+3829	ps_mp_execution_arizona_prone_mp40_01
+3830	UprLipRaise_ChinRaise_R
+3831	dof_2.8_55_200_200
+3832	ps_mp_potm_generic_spearshield_hits_01
+3833	jnt_piece_19
+3834	jnt_piece_42
+3835	jnt_piece_54
+3836	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_hip_le
+3837	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, dyn_stacking_loop_root
+3838	j_proc_ring_le_1
+3839	dyn_sling_06
+3840	dyn_sling_10
+3841	dof_4_78_010_010
+3842	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_pullout_drip, tag_knife_fx
+3843	UprLidDn_05_R
+3844	ps_mp_potm_butcher_foley
+3845	j_stripper_05
+3846	j_fhr40_lgn_strap_06
+3847	j_pinky_ri_1_pet
+3848	ps_s4_mvphl_butcher_01_stinger_01
+3849	fx_playfxontag, vfx/s4/blood/fatality_blood_hit_sml, tag_eye
+3850	dof_5_28_050_050
+3851	ps_exec_taeyoung_01_stand_hits_03
+3852	fx_stopfxontag, vfx/s4/trail/fatality_taeyoung_kick_dist, j_wrist_ri
+3853	ps_mp_execution_halima_stand_whoosh_c
+3854	smileSL_elf
+3855	r_frontleg2_jnt
+3856	j_strap_71
+3857	j_strap_80
+3858	fx_stopfxontag, vfx/s4/weapon/_shell/weap_shej_mpapa40_wv, tag_brass
+3859	dof_2.8_77_050_050
+3860	dof_4.4_131_050_050
+3861	j_string_146
+3862	j_string_158
+3863	dof_5_80_50_50
+3864	tag_ik_foot_loc_le
+3865	LookUp_04_R
+3866	dof_5_37_050_050
+3867	j_ring_ri_3_pet
+3868	ps_mp_exec_kenosha_prone_foley_02
+3869	ps_wpn_mike1911_plr_reload_charge_empty_akimbo_r
+3870	dof_22_43_0_0
+3871	ps_mp_execution_wellington_prone_fall_01
+3872	ps_exec_grab_heavy
+3873	j_strap_140
+3874	fx_stopfxontag, vfx/s4/blood/fatality_kenosha_rocks_falling.vfx, tag_origin
+3875	dof_4.6_57_0_0
+3876	MouthLeft_00_L
+3877	tag_knife_fx
+3878	j_ejectioncover
+3879	ps_mp_exec_thomas_01_prone_foley
+3880	ps_mp_potm_ikenna_hits_01
+3881	UprLipRaise_00_L
+3882	ps_wpn_mike1911_plr_reload_magout_tac
+3883	explode
+3884	fx_killfxontag, vfx/iw8/level/frontend/vfx_frontend_crate_rev_green.vfx, tag_origin
+3885	dof_2.8_28_005_005
+3886	explodeair
+3887	j_nunchuck_l
+3888	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_neck
+3889	dof_2.8_40_010_010
+3890	j_proc_clavicle_ri_elf
+3891	ps_mp_execution_arizona_stand_fall_01
+3892	j_string_37
+3893	dof_3.4_15_050_050
+3894	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp, j_gun
+3895	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_wecho_wv, tag_brass
+3896	dyn_strap_00_01
+3897	plantenddoor
+3898	dof_4_103_010_010
+3899	CornerPull_05_R
+3900	j_heart_pulse_05
+3901	fx_playfxontag, vfx/s4/dust/vfx_rifle_ground_dust_imp, tag_origin
+3902	flareup
+3903	l_backleg1_jnt
+3904	j_mouthcorner_ri
+3905	fx_playfxontag, vfx/s4/weapon/_trail/vfx_trail_dist_katana, tag_weapon_left
+3906	JawRightLock_R
+3907	j_gun_adjust
+3908	j_sling_loop_rear_00
+3909	j_projectile
+3910	tag_patch_02
+3911	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, j_cosmetic_4
+3912	tag_nvg_fx
+3913	dof_3.4_52_001_001
+3914	l_backleg0_jnt_dog
+3915	ps_mp_mvphl_generic_aztec_whoosh_01
+3916	dof_3.5_40_005_005
+3917	sneer
+3918	ps_kstreak_goliath_foley_deploy
+3919	exec_fire
+3920	dof_5.6_41_010_010
+3921	j_sling_clavicle
+3922	j_ar57_lgn_strap_01
+3923	tag_top4
+3924	karambit_l
+3925	dyn_chain_l_05
+3926	dof_3.3_120_050_050
+3927	fx_playfxontag, vfx/s4/weapon/_impact/flesh/vfx_imp_flesh_sml, j_sling_spine
+3928	j_cover_left_04
+3929	j_bottle_06
+3930	fx_stopfxontag, vfx/s4/blood/fatality_blood_head_10, j_head
+3931	active_doggett_0
+3932	tag_tread_le_03
+3933	tag_tread_le_20
+3934	fx_killfxontag, vfx/s4/character/_misc/fatality_gunfu_cig_lit, j_me_blunt
+3935	j_index_le_2
+3936	change_fov,30,0
+3937	j_coord_059
+3938	j_coord_041
+3939	tag_tread_ri_34
+3940	tag_tread_ri_02
+3941	tag_stowed_back3
+3942	j_chin
+3943	fx_playfxontag, vfx/s4/weapon/_muzzle/smg/mpapa40/weap_muz_mpapa40_mb_wv, tag_flash
+3944	fx_stopfxontag, vfx/s4/weapon/_shell/weap_shej_mike1911_wv, tag_brass
+3945	ps_mp_potm_francis_shoot_01
+3946	ps_mp_exec_florence_01_prone_hits_01
+3947	MouthRight_06_R
+3948	dyn_chain_l_04_dog
+3949	ps_mp_execution_anna_01_standing_foley_01
+3950	scriptable_s4_jpn_vase_01_destp
+3951	jnt_piece_34
+3952	ps_mp_mvphl_generic_champagne_foley_01
+3953	mkg_foliage_ti_plant_cordyline_fruiticosa_01_flowering
+3954	blendmap_mask_10_3
+3955	fx_stopfxontag, vfx/s4/blood/fatality_blood_screen_full, tag_origin
+3956	j_lip_bot_ri_1
+3957	dof_3.5_27_0_0
+3958	fx_playfxontag, vfx/s4/dust/dust_debris_trail_sml, j_wheel_kl
+3959	j_pinky_le_2
+3960	ps_mp_mvphl_isabella_attack1_02
+3961	ps_mp_execution_wellington_stand_gore_02
+3962	j_lever
+3963	ps_mp_mvphl_generic_gunfu_hits_01
+3964	tag_cover_panel_05
+3965	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_face_smash_grnd.vfx, j_head
+3966	dof_4_114_0_0
+3967	test_gunsmith_magazine_01
+3968	j_strap_11
+3969	j_strap_29
+3970	j_strap_36
+3971	LookLeft_05_L
+3972	ps_mp_execution_polina_stand_foley
+3973	dof_4.4_44_010_010
+3974	ps_mp_execution_lewis_01_foley_01
+3975	j_string_130
+3976	dof_2_27_050_050
+3977	ps_mp_potm_butcher_02_impact
+3978	j_sonic_strap_10
+3979	LookUp_01_L
+3980	fx_playfxontag, vfx/s4/blood/fatality_blood_beatrice_cleaver_rnr, j_spineupper
+3981	BrowInrRaise_00_L
+3982	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_02, j_groinprotector
+3983	dof_2.8_20_1.0_1.0
+3984	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01, j_shoulder_le
+3985	fx_playfxontag, vfx/s4/weapon/_tracer/vfx_tracer_pom_halima, tag_origin
+3986	dof_5_44.7_0_0
+3987	j_stock
+3988	damagemedium
+3989	j_corner_1
+3990	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_04, j_head
+3991	ps_mp_mvphl_halima_hits_01
+3992	fx_playfxontag, vfx/s4/sparks/fatality_spark_burst_rnr, j_gun
+3993	tag_reflex
+3994	j_strap_101
+3995	s4_jpn_basalt_rock_ruins_wall_x128_a_01
+3996	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_wrist_le
+3997	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_spurt_negy, j_spineupper
+3998	j_taclight_cable_02
+3999	dof_2.8_45_0_0
+4000	j_m8_strap_05
+4001	MouthLeft_08_R
+4002	fx_stopfxontag, vfx/s4/dust/dust_debris_trail_sml, j_wheel_kl
+4003	ChinTension_00_L
+4004	lipRaise
+4005	attack_elf
+4006	l_eye0_jnt_dog
+4007	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_spineupper
+4008	fx_stopfxontag, vfx/s4/character/_misc/fatality_gunfu_cig_lit, j_me_blunt
+4009	j_jaw
+4010	dof_5_49_050_050
+4011	fx_playfxontag, vfx/s4/character/_misc/vfx_greenbay_blue_fire_breath_rnr_02, j_head
+4012	j_kbm4_strap_04
+4013	tag_seat_2
+4014	tag_lense_hide
+4015	j_metaindex_ri_1_elf
+4016	fx_killfxontag, vfx/s4/weapon/_mtx/s2/muzzle/weap_muz_mtx_s2_kgamma40_m_wv, tag_flash
+4017	l_backleg2_jnt
+4018	j_dev_strap_06
+4019	WEAPON PUSHBACK VIEW
+4020	ps_mp_mvphl_lucas_02_headstrike_01
+4021	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_03, j_shoulder_ri
+4022	j_proc_shoulder_le_lep
+4023	fx_playfxontag, vfx/s4/blood/fatality_blood_chest_rnr, j_spine4
+4024	tag_engine_right
+4025	dof_2.8_30_200_200
+4026	fx_playfxontag, vfx/s4/sparks/vfx_fatality_spark_aztec_rnr, j_gun
+4027	tag_torso
+4028	j_periorbital_ri_1
+4029	j_stock_release_00
+4030	j_metapinky_ri_1_pet
+4031	j_ump_sling_09
+4032	CornerPull_13_R
+4033	tag_menu
+4034	ps_mp_potm_halima_hits_01
+4035	ps_mp_exec_bearhug_prone_foley_03
+4036	squintSR
+4037	dof_4_32_010_010
+4038	j_thumb_le_3_umbrella
+4039	j_metamid_ri_1_lep
+4040	ps_mp_execution_arizona_prone_teleport_01
+4041	dyn_pouch_fl
+4042	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_lucas_wv, j_magrel
+4043	fx_playfxontag, vfx/s4/weapon/_muzzle/pis/mike1911/weap_muz_mike1911_m_wv, tag_flash
+4044	j_belt_02
+4045	active_famine_4
+4046	dof_6_63.5_0_0
+4047	ps_mp_exec_greenbay_stand_fire_01
+4048	ps_exec_generic_champagne_01_stand_foley_01
+4049	j_ring_le_2_umbrella
+4050	j_firing_tube
+4051	l_tail2_jnt
+4052	fx_playfxontag, vfx/s4/smoke/aot_smoke_blow, j_head
+4053	ps_mp_exec_mateo_01_prone_hits_03
+4054	ps_mp_potm_lucas_shoulderwhoosh_02
+4055	s4_jpn_bgv_foliage_hanging_vines_10_wnd
+4056	dof_3.3_48_050_050
+4057	j_nasolabial_le_3
+4058	dof_5_54_100_100
+4059	ps_mp_execution_francis_01_foley_01
+4060	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, j_ankle_ri
+4061	j_ebrake
+4062	dof_2.8_46_100_100
+4063	dof_3.3_30_010_010
+4064	fx_playfxontag, vfx/s4/blood/fatality_blood_bat_impact, tag_weapon_right
+4065	ps_mp_mvphl_wade_whoosh_b_02
+4066	tag_tread_le_15
+4067	tag_tread_le_29
+4068	fx_playfxontag, vfx/s4/blood/fatality_blood_tiburon_shot_01, j_spinelower_lift
+4069	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_foot_dust_kick, j_ball_ri
+4070	fx_playfxontag, vfx/s4/blood/fatality_blood_daniel_shovel_rnr, j_spineupper
+4071	j_coord_052
+4072	tag_tread_ri_23
+4073	dof_1.8_5_00000000000001_000000000000001
+4074	cc_xm_createontag, wm_zweihander_00, tag_weapon_left
+4075	j_pinky_ri_2_pet
+4076	j_ar57_rear_strap_01
+4077	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, j_shoulder_ri
+4078	dof_3.4_100_050_050
+4079	jnt_piece_27
+4080	start_rag
+4081	weap_1911_reload_lift_plr
+4082	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_01, j_spineupper
+4083	fx_playfxontag, vfx/s4/character/_misc/char_cig_blow, j_head
+4084	ps_mp_mvphl_isabella_attack2_02
+4085	happy_elf
+4086	ps_mp_execution_polina_stand_stab_a
+4087	bodyfall large
+4088	dof_4_85_010_010
+4089	anims
+4090	j_strap_18
+4091	j_strap_26
+4092	j_webbing_ri_1
+4093	slow_12_400
+4094	UprLidRaise_02_R
+4095	LookRight_01_L
+4096	j_eyelash_top_le_1
+4097	hur_rocks_single_med_03_moss_lod0
+4098	fx_stopfxontag, vfx/s4/weapon/_muzzle/mr/m1golf/weap_muz_m1golf_lg_wv, tag_flash
+4099	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01_nodecal, j_shoulder_le
+4100	LookUp_02_L
+4101	LookUp_07_R
+4102	l_frontleg2_jnt
+4103	ps_mp_potm_generic_sniper_foley_01
+4104	WEAPON CONTROL GUN
+4105	j_00
+4106	active_polina
+4107	j_lip_top_le_1
+4108	ps_mp_execution_halima_stand_bladepull_a
+4109	LwrLipDepress_01_L
+4110	ps_mp_execution_wellington_stand_teleport_01
+4111	j_strap_113
+4112	j_strap_127
+4113	dof_2.8_34_050_050
+4114	fx_playfxontag, vfx/s4/pom/_misc/vfx_wrench_swoop_01, tag_inhand
+4115	j_hammer
+4116	ps_mp_potm_wade_03
+4117	j_external_ejector_00
+4118	tag_seat_6
+4119	j_kneedq_ri
+4120	j_sword_l
+4121	dof_4.0_89_010_010
+4122	l_frontleg0_jnt
+4123	dof_2.8_48_0_0
+4124	fx_stopfxontag, vfx/s4/dust/fatality_dust_stomp_03, j_ball_le
+4125	j_string_46
+4126	dof_3.4_42_050_050
+4127	ps_exec_generic_spearshield_01_stand_foley_01
+4128	fx_stopfxontag, vfx/s4/blood/vfx_fatality_pestilence_breath, j_head
+4129	ps_mp_mvphl_wade_foley_02
+4130	fx_playfxontag, vfx/s4/blood/fatality_blood_head_notrail, j_neck
+4131	dof_3.5_40_0_0
+4132	ps_mp_execution_lucas_stand_foley
+4133	fx_playfxontag, vfx/s4/character/_misc/fatality_impact_01, j_shoulder_ri
+4134	ps_exec_generic_doublemace_01_stand_hits_01
+4135	j_periorbital_le_2
+4136	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02_offset, j_shouldertwist_le
+4137	j_big_wrench
+4138	ps_mp_potm_butcher_02_foley
+4139	dof_3.4_57_050_050
+4140	j_spas_strap_rare_07
+4141	dof_3.5_30_1.2_1.2
+4142	fx_playfxontag, vfx/s4/blood/vfx_coldone_beer_bottle_open, j_gun
+4143	fingers_out_start_right_hand
+4144	change_fov,80,200
+4145	ps_exec_generic_champagne_01_stand_hits_02
+4146	fx_playfxontag, vfx/s4/weapon/_muzzle/pis/mike1911/weap_muz_mike1911_lg_wv, tag_weapon_left
+4147	fx_killfxontag, vfx/iw8/level/frontend/vfx_frontend_crate_rev_blue.vfx, tag_origin
+4148	ps_mp_execution_generic_pistol_01_bullet_impact
+4149	CornerPull_JawOpen_L
+4150	j_mag_collide
+4151	dof_2.2_36_010_010
+4152	change_fov,46,2000
+4153	j_mid_le_2_umbrella
+4154	fx_playfxontag, vfx/s4/blood/fatality_blood_chest_strong, j_spineupper
+4155	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_aot_wall_rnr, tag_origin
+4156	dyn_ear_02_l_03_umbrella
+4157	fx_playfxontag, vfx/s4/blood/fatality_blood_head_05_notrail, tag_eye
+4158	tag_door_front_right
+4159	j_belt_06
+4160	ps_exec_grab_pull
+4161	ps_mp_exec_thomas_01_prone_hit_01
+4162	j_teres_le_elf
+4163	ps_mp_execution_generic_krampus_arms_rip
+4164	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02, j_spinelower
+4165	LookDn_08_L
+4166	j_bottle_011
+4167	j_mainroot_pet
+4168	ps_mp_execution_generic_lights_electrocute_01
+4169	j_panel02
+4170	ps_mp_execution_pestilence_stand_acid
+4171	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_spine4
+4172	dof_4_120_010_010
+4173	r_backleg0_jnt_dog
+4174	tag_tread_le_19
+4175	change_fov,42,0
+4176	ps_s5_mvp_death_stinger_01
+4177	ps_mp_execution_arthur_stand_unsheath
+4178	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_victim_laser_impact.vfx, j_head
+4179	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, r_ripupper0_jnt_dog
+4180	ps_mp_mvphl_lewis_slice1_02
+4181	j_strap_1
+4182	tag_tread_ri_27
+4183	dof_2.8_70_100_100
+4184	fx_playfxontag, vfx/s4/weapon/_muzzle/smg/vfx_muz_smg_m.vfx, tag_flash
+4185	j_index_ri_2_umbrella
+4186	s4_jpn_bgv_foliage_tree_coconut_palm_02
+4187	ps_mp_exec_smoke_01_stand_hands_01
+4188	fx_stopfxontag, vfx/s4/debris/vfx_debris_spray_sml.vfx, j_ball_ri
+4189	j_fire_selector
+4190	dof_2.8_65_1.0_1.0
+4191	j_neck_elf
+4192	j_pinky_le_1_lep
+4193	fx_stopfxontag, vfx/s4/character/_mtx/s5/death/mtx_ultra_death_ex_hands, j_wrist_le
+4194	j_pinky_ri_1_elf
+4195	dof_4.6_102_050_050
+4196	j_mag2
+4197	mkg_hanging_vines_03
+4198	tag_wheel_center_back_right
+4199	JawLeftLock_L
+4200	fx_stopfxontag, vfx/s4/dust/dust_debris_trail_sml, tag_origin
+4201	j_strap_58
+4202	dof_6_70_0_0
+4203	dof_4_48_050_050
+4204	j_string_112
+4205	weap_1911_reload_magin_plr
+4206	LookUp_08_R
+4207	ps_wpn_mike1911_plr_reload_magin_empty_akimbo_r
+4208	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_char_chest, j_spineupper
+4209	j_hip_le_elf
+4210	ps_mp_mvphl_generic_nunchucks_stomp_b_01
+4211	j_brow_ri_1
+4212	j_mid_le_3_lep
+4213	init_stage5
+4214	j_ring_le_2_lep
+4215	j_ring_le_2_pet
+4216	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_hipholster_le
+4217	l_foot0_jnt
+4218	j_eyeball_ri_elf
+4219	vie_jungle_fern_03_a
+4220	ps_wpn_mike1911_plr_reload_magin_tac
+4221	j_strap_117
+4222	j_strap_123
+4223	s4_usa_tent_set_frame_04_fabric_side_01
+4224	j_cheek_ri_2
+4225	fx_playfxontag, vfx/s4/dust/vfx_rifle_ground_dust_imp, tag_taclight
+4226	active_pest_3
+4227	MouthLeft_08_L
+4228	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_machete_slash.vfx, j_spineupper
+4229	UprLipRaise_05_L
+4230	ps_mp_mvphl_roland_helmetgrab_02
+4231	l_leg_Pv_CTRL_line_bShape_pvLine
+4232	fx_playfxontag, vfx/iw8/level/frontend/vfx_frontend_crate_rev_blue.vfx, tag_origin
+4233	j_nut
+4234	weap_p226_chamber_plr
+4235	j_spear
+4236	browsDn_elf
+4237	tag_seat_7
+4238	dof_4.5_13.7_0_0
+4239	j_metaindex_ri_1_lep
+4240	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_weapon_impact.vfx, j_wristfronttwist1_le
+4241	dof_4_99_050_050
+4242	fx_killfxontag, vfx/s4/pom/_impact/vfx_doggett_impact, j_spine4
+4243	ChinRaise_00_R
+4244	j_proc_clavicle_le_umbrella
+4245	j_proc_wristfronttwist1_acc4_le
+4246	ps_mp_mvphl_generic_aot_hits
+4247	j_periorbital_le_3
+4248	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, tag_accessory_left
+4249	j_spas_strap_rare_04
+4250	ps_kstreak_dog_collar
+4251	ps_exec_gun_rattle_heavy
+4252	dof_8_44_00_00
+4253	ps_exec_generic_champagne_01_stand_hits_03
+4254	dof_3.4_80_050_050
+4255	dof_4_38_010_010
+4256	l_lipbottom1_jnt
+4257	dof_2.8_38_0_0
+4258	j_bonesaw
+4259	ps_mp_execution_arizona_stand_hit_01
+4260	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, j_sling_pivot
+4261	fx_playfxontag, vfx/s4/dust/fatality_dust_fall_imp.vfx, j_spine4
+4262	slow_25_300
+4263	c_s4_usa_medic_bag_01
+4264	dyn_chain_r_02_dog
+4265	j_proc_ring_ri_1
+4266	ps_bodyfall_torso
+4267	tag_ik_foot_loc_le_dog
+4268	j_knee_le
+4269	tag_silencer
+4270	dof_2.8_41_100_100
+4271	fx_playfxontag, vfx/core/shell/vfx_shej_pis_w, tag_brass
+4272	fx_stopfxontag, vfx/s4/dust/fatality_dust_fall_imp, tag_origin
+4273	fx_playfxontag, vfx/s4/character/_misc/vfx_famine_blood_swarm, tag_origin
+4274	j_belt_07
+4275	dyn_chain_l_08_dog
+4276	fx_playfxontag, vfx/s4/dust/fatality_simple_impact.vfx, j_wrist_ri
+4277	fx_playfxontag, vfx/s4/blood/vfx_fatality_pestilence_decal, j_head
+4278	dof_5_44_0_0
+4279	r_eye0_jnt_dog
+4280	l_eye0_jnt
+4281	j_visor_inner
+4282	mp_hub_allies_brit_flood_light_stand_02_lod1
+4283	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_01, j_spine4
+4284	LookDn_01_R
+4285	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_strong, j_head
+4286	dof_5_64_050_050
+4287	dof_2.8_30_0_0
+4288	tag_detach_r
+4289	j_panel03
+4290	tag_tread_le_16
+4291	dof_3.4_52_100_100
+4292	j_coord_060
+4293	tag_tread_ri_26
+4294	tag_tread_ri_38
+4295	l_lipupper0_jnt
+4296	fx_stopfxontag, vfx/s4/trail/fatality_taeyoung_kick_dist, j_ankle_ri
+4297	tag_rail_attach
+4298	j_ar57_rear_strap_02
+4299	dof_4_96_0_0
+4300	funnel
+4301	NoseWrinkle_00_R
+4302	dof_2.8_11_010_010
+4303	ps_mp_execution_polina_stand_bladepull
+4304	blendmap_mask_18_1
+4305	ps_mp_execution_karambit_stand_blade_and_hits_02
+4306	blendmap_mask_16_3
+4307	tag_ik_frontfoot_loc_ri
+4308	ps_mp_execution_exert_effort_med
+4309	j_metapinky_le_1_pet
+4310	j_metaring_le_1_elf
+4311	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_knee_le
+4312	dof_2.8_54_200_200
+4313	j_spas_strap_cmn_05
+4314	fx_playfxontag, vfx/s4/weapon/_muzzle/sr/vfx_muz_sr_xlg, tag_flash
+4315	tag_camera
+4316	<rigidroot>
+4317	cc_xm_destroyontag, vm_equip_gen_prop_cigar_00, tag_weapon_left
+4318	fx_stopfxontag, vfx/s4/blood/fatality_blood_head_01, j_wrist_ri
+4319	fx_playfxontag, vfx/s4/blood/fatality_blood_krampus_arm_r_rnr, j_shoulder_ri
+4320	dof_3.4_13_0_0
+4321	j_stake_right_02
+4322	fx_stopfxontag, vfx/s4/character/_misc/vfx_lion_idle_smoke, j_head
+4323	ps_mp_execution_solange_stand_whoosh_a
+4324	j_strap_25
+4325	j_strap_59
+4326	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_dummy_slingcenteraim
+4327	ps_mp_execution_aztec_01_prone_foley_03
+4328	LookRight_02_R
+4329	LookRight_03_L
+4330	jaw_jnt_dog
+4331	j_mid_le_1_lep
+4332	dof_3.4_38_200_200
+4333	j_hook
+4334	closedidle
+4335	deploydoor
+4336	fx_killfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, j_head
+4337	j_thumb_le_3
+4338	ps_mp_execution_halima_stand_bladepull_b
+4339	tag_phase
+4340	ps_mp_execution_lucas_famine_locust_swarm
+4341	l_frontleg0_jnt_dog
+4342	j_index_le_1_lep
+4343	j_mid_ri_1_pet
+4344	tread_guide_top_back_left
+4345	j_strap_116
+4346	j_strap_120
+4347	fx_playfxontag, vfx/s4/pom/_impact/vfx_doggett_impact, j_spine4
+4348	dof_2.8_32_050_050
+4349	active_pest_2
+4350	MouthLeft_02_L
+4351	MouthLeft_03_L
+4352	tag_cockpit
+4353	ladder_stop_left_mid
+4354	j_ties
+4355	dof_4_89_025_025
+4356	j_drive_sproket_fr
+4357	fx_playfxontag, vfx/misc/fatality_spit_scream_mouth_01, j_head
+4358	tag_windshield_passenger_front
+4359	ps_mp_execution_padmavati_stand_foley
+4360	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_gust_rnr, tag_eye
+4361	fx_playfxontag, vfx/s4/blood/vfx_exec_dogget_dismember.vfx, j_hip_le
+4362	ChinRaise_07_L
+4363	MouthPress_00_R
+4364	fx_playfxontag, vfx/code/impacts/blood_on_riotshield, tag_fx
+4365	j_cylinder
+4366	fx_stopfxontag, vfx/s4/blood/fatality_hockeystick_slash_trail, tag_fx
+4367	s4_frontend_folder_leather_01
+4368	tag_hatch_gunner
+4369	j_cheek_puff_ri
+4370	ps_mp_potm_padmavati_start_03
+4371	slow_20_200
+4372	BrowLower_00_L
+4373	j_proc_lift_clavicle_le
+4374	s4_jpn_barrel_metal_01
+4375	ps_mp_potm_anna_hits_01
+4376	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_face_smash_grnd.vfx, j_hip_proc_le
+4377	dof_3.3_59_010_010
+4378	shock
+4379	fx_playfxontag, vfx/s4/character/_misc/fatality_impact_01, j_head
+4380	j_metapinky_ri_1_umbrella
+4381	ps_exec_generic_spearshield_01_stand_hits_02
+4382	ps_mp_potm_isabella_01_twirl
+4383	j_string_34_00
+4384	j_eak_lgn_strap_02
+4385	dof_3.3_62_010_010
+4386	gun drop
+4387	fx_playfxontag, vfx/s4/weapon/_muzzle/ar/stango44/weap_muz_stango44_lg_wv, tag_flash
+4388	j_proc_index_ri_1
+4389	j_cattleprod_umbrella
+4390	j_coord_03
+4391	j_coord_18
+4392	ps_mp_potm_arthur_hits_03
+4393	dof_5_72_020_020
+4394	j_bolt_01
+4395	tongue1_jnt
+4396	j_ammo_chute
+4397	j_m1_cmn_strap_05
+4398	fx_stopfxontag, vfx/s4/blood/fatality_blood_wound_decal, j_shoulder_le
+4399	j_metapinky_le_1_umbrella
+4400	fx_playfxontag, vfx/s4/blood/fatality_blood_drops_01, j_wrist_ri
+4401	LookDn_04_R
+4402	dof_4.5_17.7_0_0
+4403	j_mainroot_dog
+4404	j_wrist_ri_pet
+4405	j_wrist_ri_lep
+4406	ps_mp_mvphl_wade_whoosh_a_02
+4407	fx_playfxontag, vfx/s4/smoke/fatality_gunfu_billow, j_proc_dummy_spinelift
+4408	change_fov,57,0
+4409	j_shoulder_ri_lep
+4410	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_mpapa40_wv, tag_brass_umbrella
+4411	tag_view
+4412	j_eyeball_le
+4413	dof_5_59_030_030
+4414	tag_tread_le_40
+4415	dyn_chain_r_05
+4416	j_b_11
+4417	j_b_29
+4418	dof_5_86_000_000
+4419	j_coord_021
+4420	dof_3.4_37_001_001
+4421	ps_mp_mvphl_lewis_slice2_02
+4422	weap_1911_fast_magin_plr
+4423	dof_3.3_34_0_0
+4424	j_metaring_ri_1
+4425	j_metaindex_le_1_elf
+4426	fx_playfxontag, vfx/s4/weapon/_muzzle/lmg/tyankee11/weap_muz_tyankee11_shigi_pom_01, tag_flash
+4427	jnt_piece_62
+4428	ps_exec_generic_explosives_02_stand_hits_01
+4429	j_ties_b
+4430	blendmap_mask_19_2
+4431	j_trigger
+4432	dyn_sling_26
+4433	blendmap_mask_24_2
+4434	fx_stopfxontag, vfx/s4/weapon/_muzzle/pis/mike1911/weap_muz_mike1911_m_wv, tag_flash
+4435	active1
+4436	ps_exec_generic_explosives_02_prone_hits_03
+4437	spine4_jnt
+4438	UprLidDn_02_L
+4439	fx_playfxontag, vfx/s4/blood/vfx_cattle_prod_elec_prod_arc, j_gun
+4440	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_02, j_clavicle_ri
+4441	fx_playfxontag, vfx/s4/blood/fatality_blood_mouth_03, j_head
+4442	ps_mp_mvphl_generic_hits_01
+4443	ps_mp_mvp_highlights_pestilence_foley
+4444	ps_mp_execution_ikenna_prone_victim_foley_03
+4445	dof_4_66_030_030
+4446	s4_jpn_bgv_foliage_hanging_vines_07
+4447	ps_mp_execution_beatrice_stand_bladepull_a
+4448	j_strap_45
+4449	j_strap_78
+4450	j_strap_89
+4451	j_strap_91
+4452	cob_mudslide_01
+4453	LookRight_07_R
+4454	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_noscreen, j_dummy_sling_spine
+4455	j_string_153
+4456	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_spurt, j_neck
+4457	nose_jnt
+4458	j_clavicle_le_lep
+4459	tag_accessory_left
+4460	change_fov,58,333
+4461	LookUp_03_R
+4462	ps_mp_execution_daniel_stand_foley
+4463	j_ring_ri_3_umbrella
+4464	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_greenbay_slam, tag_origin
+4465	fx_playfxontag, vfx/s4/weapon/_tracer/vfx_tracer_pom_anna, tag_origin
+4466	browRaise
+4467	j_wrist_ri_umbrella
+4468	ps_mp_exec_thomas_01_stand_bf
+4469	fx_playfxontag, vfx/s4/dust/fatality_dust_fall_rnr, j_ball_ri
+4470	LwrLipDepress_00_R
+4471	dof_4.0_85_050_050
+4472	fx_stopfxontag, vfx/s4/weapon/_muzzle/smg/vfx_muz_smg_s, tag_tip
+4473	ps_mp_execution_aztec_01_stand_gunstrike_01
+4474	fx_playfxontag, vfx/s4/pom/_misc/vfx_smoke_geotrail_01, tag_flash
+4475	j_strap_147
+4476	change_fov,70,1000
+4477	dof_4_47_050_050
+4478	fx_playfxontag, vfx/s4/pom/_misc/fatality_lion_smoke_blow_02, j_head
+4479	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, j_knee_le
+4480	j_loose_round
+4481	fx_killfxontag, vfx/s4/pom/_misc/vfx_pom_lazer_mouth_muskegon, j_head
+4482	j_spas_strap_lgn_07
+4483	dof_5.6_103_050_050
+4484	mpstore
+4485	UprLipRaise_06_R
+4486	j_kbm4_strap_02
+4487	fingers_in_start_left_hand
+4488	ps_mp_execution_aot_01_stand_hit_03
+4489	j_dyn_gun_01
+4490	dof_3.4_47_050_050
+4491	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_asierra44_wv, tag_brass
+4492	fx_stopfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02_rnr, j_elbow_ri
+4493	fx_playfxontag, vfx/s4/blood/fatality_blood_head_06, j_dummy_slingcenteraim
+4494	funnel_elf
+4495	fx_playfxontag, vfx/s4/character/_mtx/s5/death/mtx_ultra_death_bullet_impact_rnr, j_spineupper
+4496	dyn_knife
+4497	fx_playfxontag, vfx/s4/blood/fatality_blood_daniel_shovel_rnr, tag_fx
+4498	j_string_48
+4499	show,j_mainroot_dog
+4500	ps_mp_execution_exert_effort_yell
+4501	l_lipmid0_jnt_dog
+4502	fx_playfxontag, vfx/s4/blood/fatality_blood_r_clav_hit, j_neck
+4503	tag_sync_elf
+4504	tag_folding_grip
+4505	hide,j_mainroot_elf
+4506	dof_3.3_44_0_0
+4507	fx_playfxontag, vfx/s4/weapon/_muzzle/pis/mike1911/weap_muz_mike1911_m_v, tag_flash
+4508	cc_xm_createontag,wm_leta_gen_satchel_charge_clacker_00,tag_weapon_left
+4509	fx_playfxontag, vfx/s4/blood/fatality_blood_head_04.vfx, tag_stock_attach
+4510	j_hiptwist_ri_umbrella
+4511	BrowLower_00_R
+4512	ps_s5_mvp_death_magic_intro_01
+4513	tag_patch_01
+4514	fx_playfxontag, vfx/s4/blood/fatality_blood_lewis_fakedecal, tag_inhand
+4515	ps_mp_potm_generic_riotshield_explosion
+4516	JawDrop_00_R
+4517	j_metamid_ri_1_pet
+4518	dof_3.3_105_050_050
+4519	ps_c12_targeting_hud_close
+4520	ps_mp_execution_generic_lights_grab_01
+4521	dof_2.8_25_500_500
+4522	ps_mp_exec_woodaxe_01_stand_hit_02
+4523	tag_hybrid
+4524	fx_playfxontag, vfx/s4/blood/fatality_blood_tiburon_shot_01, j_spine4
+4525	j_coord_28
+4526	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_leprechaun_clovers_path.vfx, tag_origin
+4527	tongue3_jnt_dog
+4528	j_index_ri_3_umbrella
+4529	ps_exec_lion_01_prone_hit_02
+4530	dof_3.8_50_001_001
+4531	j_lip_inside_le_1
+4532	j_spinelower_umbrella
+4533	ps_mp_mvphl_greenbay_foley_01
+4534	dof_5_110_0_0
+4535	ps_mp_execution_death_prone_foley_01
+4536	dyn_chain_l_06
+4537	j_index_ri_1_elf
+4538	tag_ik_loc_le
+4539	fx_playfxontag, vfx/iw8/level/frontend/vfx_frontend_footstep_dust.vfx, j_ankle_le
+4540	ps_mp_potm_lewis_swordinground_02
+4541	j_bottle_05
+4542	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_proc_spinelift
+4543	fx_playfxontag, vfx/s4/blood/vfx_imp_flesh_med_a_nomist, j_head
+4544	fx_playfxontag, vfx/s4/blood/fatality_blood_screen_light.vfx, (null)
+4545	tag_tread_le_23
+4546	tag_tread_le_38
+4547	dof_4.4_61_010_010
+4548	j_bullet_03
+4549	j_index_le_1
+4550	r_ear1_jnt_dog
+4551	j_chain_04
+4552	ps_mp_potm_padmavati_02
+4553	j_coord_054
+4554	tag_tread_ri_05
+4555	tag_tread_ri_31
+4556	fx_playfxontag, vfx/s4/dust/fatality_dust_fall_imp, tag_origin
+4557	j_kukri
+4558	fx_stopfxontag, vfx/s4/pom/_misc/fatality_lion_smoke_sparks.vfx, tag_weapon_left
+4559	ps_mp_execution_generic_zweihander_01_foley
+4560	dof_2.8_22_005_005
+4561	tag_hatch_commander
+4562	j_c4_button_right
+4563	dof_3.5_50_200_200
+4564	jnt_piece_21
+4565	jnt_piece_39
+4566	fx_killfxontag, vfx/s4/weapon/_trail/vfx_trail_dist_katana, tag_fx
+4567	ik_in_start_left_hand
+4568	dof_3.3_360_010_010
+4569	dyn_sling_09
+4570	j_pinky_le_1_umbrella
+4571	s4_bgv_foliage_s2_roots_thin_01
+4572	fx_stopfxontag, vfx/s4/weapon/_explosion/vfx_explo_satchel_charge, j_gun
+4573	j_metapinky_le_1_lep
+4574	dof_3.3_46_010_010
+4575	dof_5_105_50_50
+4576	dof_4_135_010_010
+4577	j_collapsible_stock
+4578	ps_wpn_mike1911_plr_reload_magout_empty_akimbo_r
+4579	fx_playfxontag, vfx/s4/blood/fatality_blood_anna_icepick_hit, tag_knife_fx
+4580	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_spear, j_proc_spinelower2
+4581	ps_mp_execution_wellington_stand_gore_01
+4582	j_strap_16
+4583	j_strap_33
+4584	j_strap_68
+4585	dof_3.4_24_001_001
+4586	j_string_126
+4587	dof_5_50_200_200
+4588	j_sonic_strap_08
+4589	ps_mp_mvphl_generic_aztec_rip_02
+4590	j_ring_ri_3_lep
+4591	j_shothead
+4592	j_mid_ri_1_lep
+4593	j_strap_106
+4594	tag_ik_loc_le_pointconstraint1
+4595	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_leprechaun_clovers_path.vfx, tag_origin
+4596	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_kenosha_ambient_env, tag_origin
+4597	dof_2.8_55_050_050
+4598	fx_stopfxontag, vfx/s4/blood/fatality_blood_head_impact_ground, j_head
+4599	UprLipRaise_03_R
+4600	j_drive_sproket_kl
+4601	fx_playfxontag, vfx/s4/blood/fatality_blood_lewis_fakedecal, j_gun
+4602	ps_mp_mvphl_francis_foley_01
+4603	j_key
+4604	l_eyebrow0_jnt_dog
+4605	ps_mp_potm_francis_hits_02
+4606	dof_2.8_44_0_0
+4607	ps_exec_generic_doublemace_01_stand_hits_04
+4608	fx_playfxontag, vfx/s4/blood/fatality_lny_blood_rnr, tag_origin
+4609	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_hit_02_offset, j_spine4
+4610	active_palmer
+4611	weap_1911_first_raise_plr
+4612	fx_playfxontag, vfx/s4/weapon/_muzzle/shtgn/becho/weap_muz_pad_pom, tag_flash
+4613	tag_eye_dog
+4614	CornerPull_06_L
+4615	j_thumb_ri_2_elf
+4616	j_underlip
+4617	fx_playfxontag, vfx/s4/blood/fatality_blood_butcher_shot_01, j_hip_le
+4618	fx_stopfxontag, vfx/s4/dust/fatality_dust_fall_rnr, j_ball_ri
+4619	Squint_07_L
+4620	change_fov_absolute,55,333
+4621	dof_22_29.301_0_0
+4622	dof_5.6_100_010_010
+4623	slow_20_650
+4624	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02, j_wrist_ri
+4625	slow_40_300
+4626	j_feedarm_pivot
+4627	dof_4.8_26_050_050
+4628	captureidle
+4629	ps_mp_mvphl_francis_facehit_01
+4630	dof_3.5_46_0_0
+4631	j_eye_lid_top_ri
+4632	lipbottom0_jnt_dog
+4633	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_noscreen, j_wrist_le
+4634	tag_wheel_mid_right_2
+4635	dof_3.3_60_050_050
+4636	dyn_chain_r_01_dog
+4637	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02_offset, j_shoulder_le
+4638	weap_usp45_chamber_plr
+4639	j_barrel_rot
+4640	ps_mp_execution_solange_stand_stab_a
+4641	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02, tag_stowed_chest
+4642	fingers_in_end_right_hand
+4643	j_stock_release
+4644	ger_oil_lamp_01_a_dust
+4645	dof_3.3_91_050_050
+4646	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_pullout_01, j_neck
+4647	dof_5.6_40_0_0
+4648	UprLipDepress_00_R
+4649	fx_playfxontag, vfx/s4/blood/fatality_blood_head_09, j_head
+4650	fx_stopfxontag, vfx/s4/blood/fatality_blood_screen_light, j_spinelower
+4651	j_brow_le_3
+4652	ps_mp_mvphl_lewis_shoot_01
+4653	dof_20_16_10_10
+4654	j_thumb_le_2_lep
+4655	j_mace_r
+4656	ps_mp_execution_constanze_stand_foley
+4657	chinRaise_elf
+4658	j_elbow_le_pet
+4659	dof_5_31_000_000
+4660	fx_playfxontag, vfx/s4/blood/dogget_exec_chrome_decal_02, j_wrist_ri
+4661	ps_mp_potm_generic_champagne_pop_01
+4662	j_cover_right_01
+4663	change_fov,35,0
+4664	ps_exec_taeyoung_01_stand_bf_01
+4665	j_coord_029
+4666	j_strap_4
+4667	fx_playfxontag, vfx/s4/trail/fatality_aot_mvp_swordtrail, j_sword_r
+4668	dof_4_45_010_010
+4669	secondary_blanket_c
+4670	ps_mp_execution_solange_stand_bladepull_b
+4671	j_eak_strap_08
+4672	MouthRight_05_R
+4673	tag_thermal
+4674	ps_mp_execution_padmavati_stand_bladepull
+4675	mp_dom_spawn
+4676	dyn_barrel_ring_01
+4677	blendmap_mask_13_3
+4678	fx_playfxontag, vfx/s4/dust/fatality_dust_clap.vfx, j_wrist_le
+4679	weap_1911_empty_fast_magin_plr
+4680	dof_4_65_0_0
+4681	tag_wiper_fr
+4682	highspeed
+4683	tag_flatten
+4684	tag_ik_target_right
+4685	dof_4_109_010_010
+4686	j_pinky_ri_1_lep
+4687	j_spas_strap_cmn_09
+4688	r_backleg1_jnt
+4689	dof_20_43_050_050
+4690	ps_mp_mvphl_generic_glaive_hits_01
+4691	j_mag1
+4692	ps_mp_mvphl_generic_champagne_whoosh_01
+4693	ps_mp_execution_generic_pistol_01_wrist_grab
+4694	ps_mp_potm_isabella_02_finish
+4695	dyn_breadbag
+4696	dof_4_42_050_050
+4697	j_strap_99
+4698	j_strap_55
+4699	fx_stopfxontag, vfx/s4/blood/fatality_blood_screen_03, j_head
+4700	ps_exec_gore_tear
+4701	dof_4_118_050_050
+4702	LookRight_05_L
+4703	j_pinky_le_2_elf
+4704	hur_rocks_single_med_06_moss_lod0
+4705	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, tag_origin
+4706	j_lip_top_ri_3
+4707	ps_mp_execution_generic_katana_foley_01
+4708	init_stage6
+4709	j_ball_ri
+4710	ps_exec_lion_01_prone_foley_03
+4711	tag_death_fx
+4712	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_leprechaun_sparkle_pop.vfx, tag_origin
+4713	j_strap_132
+4714	ps_mp_mvphl_daniel_stabtrip_02
+4715	s4_usa_tent_set_frame_04_fabric_side_04
+4716	j_cheek_ri_1
+4717	fx_stopfxontag, vfx/s4/blood/fatality_blood_mouth_04, j_head
+4718	dof_4_126_030_030
+4719	j_ring_le_3_lep
+4720	ps_mp_potm_shigenori_hits_01
+4721	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01.vfx, tag_wrist_attach_le
+4722	j_webbing_le_2
+4723	j_shotgun_umbrella
+4724	UprLipRaise_06_L
+4725	fx_stopfxontag, vfx/s4/dust/fatality_simple_impact.vfx, j_wrist_le
+4726	dof_3.4_60_200_200
+4727	fx_playfxontag, vfx/s4/weapon/_muzzle/ar/asierra44/weap_muz_asierra44_beatrice_pom_01, tag_flash
+4728	dof_3.3_60_010_010
+4729	j_nunchuck_r
+4730	BrowInrDn_01_R
+4731	ps_mp_potm_roland_hits_01
+4732	fx_killfxontag, vfx/s4/weapon/_muzzle/smg/vfx_muz_smg_s, tag_tip
+4733	j_string_75
+4734	ps_exec_lion_01_stand_hit_03
+4735	j_ring_ri_1_elf
+4736	j_wheel_kl
+4737	j_e_belt_root
+4738	change_fov_absolute,42,0
+4739	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, j_proc_stowed_chest
+4740	j_indexbulge_ri_1
+4741	me_food_spice_sack_short_01
+4742	j_metapinky_ri_1_lep
+4743	dof_3.4_66_001_001
+4744	fx_playfxontag, vfx/s4/weapon/_muzzle/la/m1bravo/weap_muz_m1bravo_wv, tag_flash
+4745	ps_mp_mvphl_generic_nunchucks_foley_01
+4746	ps_mp_execution_aztec_01_prone_head_strike_01
+4747	ps_mp_potm_francis_stomp_01
+4748	fx_playfxontag, vfx/s4/blood/fatality_blood_beatrice_cleaver_rnr, j_wrist_ri
+4749	ps_mp_mvphl_shigenori_hits_02
+4750	j_head_dog
+4751	tag_wheel_center_back_left
+4752	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_axe_pullout_sml.vfx, j_knee_ri
+4753	j_proc_pinky_le_1
+4754	fx_playfxontag, vfx/s4/blood/fatality_blood_head_06, j_head
+4755	fx_playfxontag, vfx/s4/dust/fatality_simple_impact.vfx, j_ball_le
+4756	ps_mp_execution_arthur_stand_stab_b
+4757	ps_mp_execution_wellington_stand_teleport_exit_01
+4758	airexpl
+4759	fx_stopfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02, j_wrist_ri
+4760	jnt_piece_6
+4761	fx_killfxontag, vfx/s4/fluid/fluid_champagne_spray_02, tag_fx
+4762	spine2_jnt
+4763	tag_fin_fx
+4764	ps_exec_generic_spearshield_01_prone_hits_04
+4765	j_teres_le_lep
+4766	j_coord_11
+4767	j_coord_25
+4768	ps_mp_execution_beatrice_stand_stab_a
+4769	ps_mp_potm_generic_riotshield_foley
+4770	ps_wpn_mike1911_plr_reload_magout_empty
+4771	ps_exec_lion_01_stand_foley_01
+4772	ps_mp_execution_shigenori_stand_whoosh_c
+4773	cc_xm_destroyontag, vm_mike1911_00_comp, tag_accessory_right
+4774	stage5
+4775	UprLipDepress_00_L
+4776	j_eyelash_bot_ri_2
+4777	ps_mp_execution_exert_react_med
+4778	j_hiptwist_le_lep
+4779	r_frontleg0_jnt_dog
+4780	dof_2_36_050_050
+4781	ps_mp_exec_greenbay_stand_foley_01
+4782	fx_stopfxontag, vfx/s4/blood/fatality_blood_knife_decal, tag_knife_fx
+4783	tag_tread_le_35
+4784	dof_3.3_80_050_050
+4785	j_proc_stowed_chest
+4786	j_b_03
+4787	j_b_18
+4788	fx_playfxontag, vfx/s4/blood/vfx_exec_dogget_dismember.vfx, j_knee_ri
+4789	tag_wheel_front_left
+4790	tag_flash_stango44
+4791	j_coord_037
+4792	j_coord_013
+4793	tag_tread_ri_12
+4794	tag_tread_ri_08
+4795	ps_exec_generic_doublemace_01_stand_foley_03
+4796	dof_4_47_0_0
+4797	j_strings_l_01
+4798	MouthRight_00_R
+4799	MouthRight_04_L
+4800	fx_playfxontag, vfx/s4/blood/fatality_blood_decal_negy, j_head
+4801	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp, j_mainroot
+4802	j_stability_rod
+4803	s4_jpn_rock_ruins_base_piece_c
+4804	j_cattle_prod
+4805	ps_mp_mvphl_lucas_02_foley_01
+4806	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01, j_head
+4807	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_pullout_drip, j_kukri
+4808	jnt_piece_40
+4809	jnt_piece_56
+4810	fx_playfxontag, vfx/s4/dust/fatality_dust_stomp_02.vfx, j_ball_le
+4811	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_face_smash_grnd.vfx, j_head
+4812	j_forehead_ri_1
+4813	dof_4_95_0_0
+4814	j_mid_ri_1_umbrella
+4815	ps_mp_mvphl_arizona_stinger
+4816	fx_stopfxontag, vfx/s4/weapon/_shell/weap_shej_moscar32_wv, tag_brass
+4817	fx_stopfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, j_spineupper
+4818	fx_playfxontag, vfx/s4/blood/fatality_kenosha_fling_refrac.vfx, tag_origin
+4819	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01, tag_eye
+4820	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp, j_ball_le
+4821	dyn_sling_04
+4822	dyn_sling_12
+4823	dof_5_28_010_010
+4824	loadout_specialist_patch_2
+4825	fx_playfxontag, vfx/s4/character/_misc/fatality_impact_01, tag_origin
+4826	r_ripupper0_jnt_dog
+4827	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02_rnr, j_elbow_ri
+4828	j_stripper_03
+4829	fx_playfxontag, vfx/s4/blood/vfx_pom_muskegon_glowing_eyes.vfx, j_head
+4830	ps_mp_mvphl_callum_02
+4831	j_sling_target
+4832	j_pinky_le_3_pet
+4833	j_pinky_le_3_lep
+4834	ps_exec_taeyoung_01_stand_hits_01
+4835	dof_5_124_030_030
+4836	ps_mp_potm_lewis_shoot_01
+4837	s4_jpn_bgv_foliage_hanging_vines_08
+4838	j_pinky_le_3_umbrella
+4839	hur_rock_collection_med_sm_02_moss_lod0
+4840	dof_5_54_030_030
+4841	fx_playfxontag, vfx/s4/blood/fatality_blood_decal_posy, j_knee_ri
+4842	j_strap_67
+4843	j_strap_82
+4844	j_strap_73
+4845	LookLeft_04_R
+4846	LookLeft_06_L
+4847	tag_wrist_attach_le
+4848	j_string_144
+4849	dof_4_70_010_010
+4850	fx_playfxontag, vfx/s4/character/_mtx/s5/arizona/mtx_ariz_portal_pr_01_rnr, tag_origin
+4851	dof_2.8_60_200_200
+4852	ps_mp_mvphl_lewis_foley_02
+4853	j_latch
+4854	ps_mp_execution_generic_krampus_head_rip
+4855	LwrLipDepress_03_L
+4856	capture
+4857	r_ripupper2_jnt_dog
+4858	j_dish_l_aim
+4859	tag_barrel_attach
+4860	dof_5_60_0_0
+4861	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, j_knee_ri
+4862	ps_mp_mvphl_generic_shotgun_hits_01
+4863	MouthLeft_07_R
+4864	foliage_s2_gc_pineneedles_03_lod0
+4865	s4_jpn_rock_ruins_column_192
+4866	ps_mp_execution_arizona_prone_teleport_exit_01
+4867	dof_4_105_000_000
+4868	fx_playfxontag, vfx/s4/pom/_misc/fatality_aot_dust_grnd_hit, tag_origin
+4869	j_webbing_le_1
+4870	ps_mp_exec_smoke_01_stand_foley_02
+4871	fx_playfxontag, vfx/s4/smoke/fatality_gunfu_nose_smk, tag_eye
+4872	ps_mp_potm_roland_hits_02
+4873	s4_jpn_lobby_grass_group_04
+4874	dof_3.5_79_050_050
+4875	dof_5.4_36_050_050
+4876	fx_playfxontag, vfx/s4/blood/fatality_blood_butcher_shot_01, j_neck
+4877	off
+4878	dof_5_66_050_050
+4879	ChinRaise_04_L
+4880	lowerLipDn_elf
+4881	ps_mp_potm_generic_champagne_shake_01
+4882	BrowInrDn_BrowLower_R
+4883	j_thumb_ri_2_pet
+4884	tag_use
+4885	fx_playfxontag, vfx/s4/blood/vfx_fatality_toxic_gas_body, j_spine4
+4886	ps_mp_execution_padmavati_stand_whoosh_d
+4887	ps_exec_gear_mvmt_midlength_light
+4888	fx_stopfxontag, vfx/s4/blood/fatality_blood_taeyoung_stream, j_ankle_le
+4889	slow_40_200
+4890	tag_reticle_attach
+4891	j_mid_ri_2
+4892	dof_4_80_050_050
+4893	ps_mp_mvphl_wellington_gore
+4894	j_nvg_pivot
+4895	ps_mp_exec_thomas_01_stand_hit_01
+4896	fx_stopfxontag, vfx/s4/blood/fatality_blood_wound_decal, j_spine4
+4897	change_fov_absolute,27,0
+4898	fx_stopfxontag, vfx/s4/blood/fatality_blood_knife_decal, j_kukri
+4899	j_index_ri_2_lep
+4900	s4_zm_afr_foliage_alder_fallen_branches_01_cheap
+4901	exec_victim_weapon_show
+4902	j_coord_14
+4903	j_coord_26
+4904	ps_mp_execution_beatrice_stand_stab_b
+4905	ps_mp_execution_ikenna_prone_foley_01
+4906	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01, j_sword_arm_r_front
+4907	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_axe_pullout_sml_03, j_wrist_ri
+4908	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_posy, j_sword_arm_l_front
+4909	j_heart
+4910	fx_playfxontag, vfx/s4/character/_mtx/s4/famine/mtx_ultra_famine_body_st3.vfx, j_spine4
+4911	slow_100_100
+4912	j_ar57_lgn_strap_06
+4913	j_mag_00_clip
+4914	j_tongue_3
+4915	j_cover_left_03
+4916	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_hit_lewis_alt, j_neck
+4917	j_index_ri_3_elf
+4918	loadout_lethal
+4919	tag_tread_le_08
+4920	tag_tread_le_32
+4921	ladder_grab_left
+4922	j_elbow_le_lep
+4923	dof_2.8_42_050_050
+4924	active_thomas_mech
+4925	ps_mp_potm_isabella_02_twirl
+4926	j_handle_bars
+4927	tag_camera_dog
+4928	j_coord_016
+4929	j_coord_048
+4930	tag_tread_ri_17
+4931	dof_4.0_56_050_050
+4932	j_anim_pin_leaf_2
+4933	main_shaft
+4934	ps_mp_mvphl_daniel_shovelremove_02
+4935	ps_mp_execution_death_prone_blood_01
+4936	NoseWrinkle_01_R
+4937	jnt_piece_14
+4938	jnt_piece_33
+4939	ps_mp_mvphl_lucas_02_victim_bodyfall_01
+4940	fx_playfxontag, vfx/s4/character/_mtx/s5/death/mtx_ultra_death_ex_hands, j_wrist_ri
+4941	dyn_sling_03
+4942	dyn_sling_17
+4943	ps_mp_mvphl_francis_hits_02
+4944	loadout_specialist_patch_1
+4945	ps_wpn_mike1911_plr_reload_magout_tac_akimbo_r
+4946	dof__3.5_45_200
+4947	j_stripper_00
+4948	decor_gunsmith_sandbag_flat
+4949	j_proc_rot_clavicle_ri
+4950	j_proc_rot_clavicle_le
+4951	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_02, j_helmet
+4952	dof_4.0_33_000_000
+4953	cc_xm_createontag, wm_leta_usa_frag_mk2, tag_weapon_left
+4954	fx_playfxontag, vfx/s4/dust/fatality_dust_swipe_01.vfx, j_ball_le
+4955	fx_playfxontag, vfx/s4/character/_misc/vfx_fatality_famine_dismember, j_shoulder_ri
+4956	j_dev_sight_cord_2
+4957	dof__3.5_46_200
+4958	j_strap_39
+4959	j_strap_74
+4960	j_strap_62
+4961	j_strap_85
+4962	LookLeft_02_L
+4963	LookLeft_03_L
+4964	j_hybrid_scope
+4965	slow_12_600
+4966	j_ankle_le_umbrella
+4967	LookRight_06_R
+4968	j_string_137
+4969	fx_playfxontag, vfx/s4/blood/fatality_blood_taeyoung_mouth_03, j_head
+4970	ps_mp_mvphl_polina_hits_01
+4971	ps_exec_taeyoung_01_prone_bf_01
+4972	j_sonic_strap_02
+4973	LookUp_06_L
+4974	j_hatch_commander_locking_latch
+4975	j_b_010
+4976	r_ripbottom0_jnt
+4977	ps_mp_potm_generic_present_present_01
+4978	tag_dyn_end
+4979	ps_mp_exec_shuriken_01_stand_hit_01
+4980	ps_mp_execution_ikenna_standing_kukiri_02
+4981	tag_grip_show
+4982	ps_mp_execution_ikenna_prone_kukiri_02
+4983	j_corner_8
+4984	fx_playfxontag, vfx/s4/dust/vfx_dust_hand_imp, j_ankle_le
+4985	dof_22_47_0_0
+4986	JawBackLock_R
+4987	ps_mp_execution_shigenori_stand_gunhit
+4988	j_strap_108
+4989	fx_stopfxontag, vfx/s4/pom/_misc/vfx_smoke_geotrail_01, tag_flash
+4990	change_fov,50,500
+4991	smileSL
+4992	dof_20_20_100_100
+4993	j_m8_strap_02
+4994	tag_player_grp
+4995	dof_3.4_46_001_001
+4996	tag_ik_target_left_dog
+4997	ps_bodyfall_limb_small
+4998	j_kbm4_strap_05
+4999	active
+5000	tag_seat_3
+5001	ps_mp_mvphl_mateo_hits_01
+5002	fx_stopfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02_rnr, j_elbow_le
+5003	fx_stopfxontag, vfx/s4/weapon/_muzzle/smg/mpapa40/weap_muz_mpapa40_mb_wv, tag_flash
+5004	j_eyeball_le_lep
+5005	ChinRaise_08_R
+5006	ChinRaise_03_R
+5007	j_dev_strap_05
+5008	j_proc_shoulder_le_elf
+5009	weap_1911_reload_end_plr
+5010	fx_playfxontag, vfx/s4/blood/fatality_blood_directional_negz_famine, j_wrist_ri
+5011	tag_wheel_front_right
+5012	weap_usp45_lift_plr
+5013	CornerPull_Left
+5014	dof_5_63.5_0_0
+5015	j_periorbital_ri_2
+5016	j_thumb_ri_2_lep
+5017	j_proc_clavicle_le
+5018	ps_mp_mvp_highlights_pestilence_stinger
+5019	j_ump_sling_08
+5020	dof_5_55_030_030
+5021	fx_playfxontag, vfx/s4/dust/dust_imp_ground, tag_knife_fx
+5022	weap_1911_empty_magin_plr
+5023	fx_stopfxontag, vfx/s4/blood/vfx_cattle_prod_elec_prod_arc, j_gun
+5024	Squint_00_L
+5025	dof_3.5_47_0_0
+5026	scriptable_vfx_s4_mp_lobby_s3
+5027	ps_mp_exec_bearhug_prone_foley_02
+5028	ps_exec_generic_spearshield_01_prone_bf_01
+5029	tag_optic_mount
+5030	fx_playfxontag, vfx/s4/blood/fatality_blood_anna_pullout, tag_knife_fx
+5031	tag_left_outer_prop
+5032	j_eye_lid_top_le
+5033	BrowInrRaise_UprlidDn_R
+5034	fx_playfxontag, vfx/s4/character/_mtx/s4/famine/mtx_ultra_famine_knee_l_st3.vfx, j_knee_le
+5035	j_pinky_ri_1
+5036	j_pinky_ri_3_umbrella
+5037	change_fov_absolute,58,333
+5038	l_tail1_jnt
+5039	fx_stopfxontag, vfx/s4/dust/fatality_simple_impact.vfx, tag_fx
+5040	j_belt_03
+5041	active_famine_3
+5042	ps_mp_potm_florence_hits_01
+5043	fx_playfxontag, vfx/s4/blood/fatality_blood_screen_light, j_spinelower
+5044	fx_playfxontag, vfx/s4/weapon/_impact/flesh/vfx_imp_flesh_dismember.vfx, j_shoulder_ri
+5045	j_nasolabial_le_2
+5046	j_mainroot_umbrella
+5047	tongue0_jnt_dog
+5048	fx_playfxontag, vfx/s4/blood/fatality_shield_impact_dust_01, tag_fx
+5049	shoulderhelper0_jnt
+5050	tag_right_inner_prop
+5051	dof_5.6_52_000_000
+5052	j_knife_01
+5053	s4_jpn_rock_ruins_base_double_x128_01
+5054	ps_mp_exec_gustavo_01_prone_hit_01
+5055	j_proc_hip_lift_le
+5056	foliage_s2_gc_pineneedles_04_lod0
+5057	ps_mp_potm_generic_riotshield_stinger
+5058	tag_tread_le_12
+5059	tag_tread_le_28
+5060	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_mainroot
+5061	dof_3.4_19_050_050
+5062	fx_killfxontag, vfx/iw8/level/frontend/vfx_frontend_crate_rev_yellow_mi.vfx, tag_origin
+5063	hanging_vine_lod1
+5064	j_bullet_04
+5065	lights
+5066	dof_4.0_145_050_050
+5067	j_coord_051
+5068	tag_tread_ri_22
+5069	dof_5_52_050_050
+5070	ps_mp_execution_daniel_prone_shovelstab
+5071	j_shouldertwist_ri_elf
+5072	ps_exec_lion_01_stand_bf_01
+5073	NoseWrinkle_06_L
+5074	NoseWrinkle_04_R
+5075	jnt_piece_26
+5076	dof_20_15_2000_2000
+5077	tag_left_tail_fx
+5078	weap_1911_empty_magout_plr
+5079	JawRight
+5080	r_eyelidupper0_jnt_dog
+5081	fx_stopfxontag, vfx/s4/weapon/_muzzle/shtgn/mike97/weap_muz_mike97_m_wv, tag_flash
+5082	dyn_strap_00_root
+5083	dof_4_130_050_050
+5084	fx_playfxontag, vfx/s4/blood/dismemberment_decal_blood_01, j_spine4
+5085	exec_victim_weapon_hide
+5086	blendmap_mask_30_1
+5087	ps_mp_execution_polina_stand_stab_b
+5088	j_dyn_grenade_b_01
+5089	mkg_hanging_vines_03_wnd
+5090	j_chest
+5091	damaged
+5092	tag_loose_round
+5093	fx_playfxontag, vfx/s4/blood/vfx_exec_dogget_dismember, j_head
+5094	j_strap_19
+5095	j_strap_21
+5096	j_eyelash_top_le_2
+5097	j_string_138
+5098	j_pin_ring
+5099	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01_nodecal.vfx, j_head
+5100	j_01
+5101	j_lip_top_le_2
+5102	dof_3.5_103_010_010
+5103	TracksMesh2D
+5104	tag_reflector_arm_le
+5105	fx_playfxontag, vfx/s4/blood/fatality_blood_shige_kata_ctr, tag_fx
+5106	slow_15_100
+5107	blendmap_mask_2_4
+5108	s4_jpn_rock_ruins_step_192
+5109	dof_2_40_010_010
+5110	fx_playfxontag, vfx/s4/blood/vfx_fatality_toxic_gas_can_exp_laststand, j_mainroot
+5111	dof_4.0_102_050_050
+5112	j_strap_124
+5113	j_strap_112
+5114	tag_pitch
+5115	change_fov,50,333
+5116	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, tag_stowed_back3
+5117	fx_playfxontag, vfx/s4/dust/dust_imp_ground, j_spinelower
+5118	MouthLeft_05_R
+5119	ps_mp_mvphl_ikenna_hits_02
+5120	dof_3.5_46_200_200
+5121	dof_2_18_050_050
+5122	fx_playfxontag, vfx/s4/blood/tiburon_fatality_impact_01, tag_eye
+5123	r_earend_jnt
+5124	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_stab_body_left_pull.vfx, j_neck
+5125	fx_killfxontag, vfx/iw8/level/frontend/vfx_frontend_crate_rev_purple.vfx, tag_origin
+5126	j_kbm4_strap_03
+5127	j_mid_ri_3_elf
+5128	tag_pistolgrip_attach
+5129	fx_playfxontag, vfx/s4/blood/fatality_dust_bat_impact, j_mainroot
+5130	dof_3.3_74_0_0
+5131	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, j_mainroot
+5132	j_wrist_ri
+5133	j_string_35
+5134	ChinRaise_01_L
+5135	fx_stopfxontag, vfx/s4/dust/fatality_weapon_impact_dust_02_rnr.vfx, tag_clip
+5136	j_hip_proc_ri
+5137	j_corner_5_b
+5138	l_eyelidbottom0_jnt
+5139	dof_3.3_107_010_010
+5140	fx_playfxontag, vfx/s4/blood/fatality_blood_butcher_shot_01, j_head
+5141	CornerPull_02_L
+5142	fx_stopfxontag, vfx/s4/pom/_misc/vfx_pom_muskegon_blood_stomp.vfx, j_head
+5143	hide_j_shuriken_01
+5144	j_shoulder_le_lep
+5145	fx_playfxontag, vfx/s4/blood/fatality_blood_kata_drops, tag_fx
+5146	lookUp_elf
+5147	j_teres_le_umbrella
+5148	ps_mp_execution_generic_lights_foley_01
+5149	fx_playfxontag, vfx/s4/blood/fatality_blood_back_hit_01, j_head
+5150	Squint_02_R
+5151	dof_5_27_000_000
+5152	JawRightLock_L
+5153	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_pullout_01, j_head
+5154	BrowLower_01_R
+5155	dof_4.0_60.8_0_0
+5156	j_hiptwist_ri_elf
+5157	dof_4.5_80_2.0_2.0
+5158	tongue0_jnt
+5159	ps_exec_lion_01_prone_hit_01
+5160	j_forehead
+5161	j_chambered_round
+5162	ps_exec_gore_blood_squirt
+5163	dof_3.4_27_050_050
+5164	fx_playfxontag, vfx/s4/blood/fatality_blood_drops_01, j_wrist_le
+5165	LookDn_06_L
+5166	tag_tail
+5167	dyn_chain_l_07
+5168	dof_2.8_47_200_200
+5169	dof_5_96_0_0
+5170	j_proc_shoulder_ri_elf
+5171	j_bottle_04
+5172	ps_mp_execution_wade_stand_bathit_a
+5173	active_doggett_2
+5174	tag_tread_le_01
+5175	tag_tread_le_22
+5176	tag_tread_le_39
+5177	j_bipod_piv_c
+5178	j_bullet_02
+5179	j_spinelower
+5180	j_chain_05
+5181	fx_playfxontag, vfx/s4/blood/fatality_blood_screen_05, j_neck
+5182	tag_wheel_back_right
+5183	ps_mp_potm_generic_champagne_foley_01
+5184	dyn_pouch_l
+5185	tag_tread_ri_04
+5186	tag_tread_ri_36
+5187	jawOpen
+5188	ps_mp_execution_arizona_prone_fall_01
+5189	j_feedpaws_ext
+5190	fx_stopfxontag, vfx/s4/dust/fatality_dust_clap.vfx, tag_sling
+5191	fx_playfxontag, vfx/s4/blood/fatality_blood_decal_posy, j_sword_arm_l_front
+5192	tag_sync
+5193	jnt_piece_20
+5194	fx_stopfxontag, vfx/s4/debris/vfx_debris_spray_sml.vfx, j_ball_le
+5195	blendmap_mask_12_3
+5196	dyn_sling_08
+5197	dof_22_97_0_0
+5198	j_switch_drive
+5199	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_knee_le
+5200	BrowOutrRaise_00_R
+5201	tag_cover_panel_03
+5202	dof_5_51_030_030
+5203	j_strap_30
+5204	j_strap_17
+5205	LookLeft_05_R
+5206	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_helmet
+5207	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01, j_helmet
+5208	ps_wfoly_plr_sn_kilo98_drop_02
+5209	j_string_104
+5210	ps_mp_execution_halima_stand_gunhit
+5211	exec_weapon_show
+5212	j_wristfronttwist1_ri_lep
+5213	j_ankle_ri
+5214	j_sonic_strap_09
+5215	j_proc_dummy_spinelift
+5216	dof_4_104_050_050
+5217	dof_3.5_20_0_0
+5218	j_strap_107
+5219	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_02, j_neck
+5220	fx_playfxontag, vfx/s4/dust/fatality_impact_const_rnr, tag_bipod_attach
+5221	fx_playfxontag, vfx/s4/character/_misc/vfx_greenbay_blue_embers_burst, j_head
+5222	j_thumb_le_2_umbrella
+5223	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_hit, j_shoulder_ri
+5224	MouthLeft_00_R
+5225	fx_playfxontag, vfx/s4/weapon/_shell/weap_shej_mpapa40_wv, tag_flash_umbrella
+5226	fx_stopfxontag, vfx/s4/dust/dust_imp_ground, j_spine4
+5227	j_underchin
+5228	fx_playfxontag, vfx/s4/dust/fatality_dust_stomp_03, j_ball_le
+5229	j_ankle_le_elf
+5230	ps_mp_execution_daniel_stand_kick
+5231	spine4_jnt_dog
+5232	dof_4_93_020_020
+5233	fx_playfxontag, vfx/s4/blood/fatality_dust_bat_impact.vfx, j_wrist_ri
+5234	j_kbm4_strap_07
+5235	j_hiptwist_ri
+5236	tag_seat_1
+5237	fx_playfxontag, vfx/s4/blood/fatality_blood_stab_hit_small, j_wrist_le
+5238	dof_3.4_17_050_050
+5239	j_dev_strap_03
+5240	dof_2_31_050_050
+5241	j_ring_ri_1_lep
+5242	ps_wfoly_plr_sn_kilo98_drop_quick_01
+5243	vfx/iw8/level/frontend/s3/vfx_frontend_grate_steam
+5244	fx_playfxontag, vfx/s4/fluid/fluid_champagne_spray_01, tag_fx
+5245	dof_3.5_76_0_0
+5246	ps_mp_exec_florence_01_prone_foley_01
+5247	l_tail0_jnt
+5248	weap_1911_empty_fast_magout_plr
+5249	CornerPull_06_R
+5250	dof_4_174_050_050
+5251	j_tiny_stango44
+5252	dyn_ear_02_r_03_umbrella
+5253	l_tail3_jnt_dog
+5254	ps_mp_exec_smoke_01_prone_hits_02
+5255	ps_mp_mvphl_wade_impact_b_02
+5256	j_b_x_01
+5257	fx_playfxontag, vfx/s4/blood/fatality_blood_tiburon_shot_01, j_spineupper
+5258	lipupper0_jnt_dog
+5259	dof_5_34_200_200
+5260	j_proc_lift_clavicle_le_umbrella
+5261	factioneast
+5262	fx_playfxontag, vfx/s4/dust/fatality_weapon_impact_dust_01, j_spineupper
+5263	tag_ik_loc_ri_mover
+5264	fx_stopfxontag, vfx/s4/blood/fatality_kenosha_fling_refrac.vfx, tag_origin
+5265	j_pinky_ri_3
+5266	fx_playfxontag, vfx/s4/character/_misc/fatality_impact_01, j_proc_stowed_chest
+5267	active_famine_1
+5268	l_ear0_jnt
+5269	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_stab_ballistic_ypos.vfx, j_shoulder_ri
+5270	j_metaring_ri_1_umbrella
+5271	dof_4_41_010_010
+5272	j_nasolabial_le_4
+5273	nose_jnt_dog
+5274	dof_2.8_95_0_0
+5275	ps_mp_execution_arizona_stand_teleport_exit_01
+5276	change_fov,70,0
+5277	LookDn_07_L
+5278	weap_1911_fast_magout_plr
+5279	ndy_mud_clump_b
+5280	j_metaring_ri_1_elf
+5281	ps_mp_mvphl_daniel_hits_01
+5282	karambit_r
+5283	dyn_chain_l_03
+5284	j_mainroot_lep
+5285	spine3_jnt_dog
+5286	dof_2.8_91_0_0
+5287	j_thumb_ri_3
+5288	j_bottle_00
+5289	tag_align_gun
+5290	tag_wheel_mid_left_2
+5291	dyn_stacking_loop_01
+5292	fx_playfxontag, vfx/s4/fire/pom_lighter_flame, tag_lighter_fx
+5293	ps_mp_execution_exert_react_gurgle
+5294	tag_tread_le_10
+5295	tag_wheel_extra_left
+5296	fx_playfxontag, vfx/s4/blood/fatality_blood_beatrice_cleaver_rnr03, j_spine4
+5297	fx_stopfxontag, vfx/s4/blood/fatality_blood_chest_rnr, j_spineupper
+5298	ps_exec_generic_spearshield_01_stand_bf_02
+5299	fx_playfxontag, vfx/s4/weapon/_muzzle/mr/moscar32/weap_muz_moscar32_lg_wv, tag_flash
+5300	j_cover
+5301	j_spineupper_lep
+5302	j_spineupper_pet
+5303	j_elbow_ri
+5304	dof_3.4_36_050_050
+5305	j_coord_057
+5306	tag_tread_ri_32
+5307	dof_3.3_100_050_050
+5308	j_strings_m_01
+5309	UprLipRaise_ChinRaise_L
+5310	j_eye_lid_top_le_1
+5311	dyn_pack
+5312	ps_mp_potm_potato_aot_hits_01
+5313	neutral
+5314	fx_playfxontag, vfx/s4/character/_misc/vfx_blue_fire_eye_glow, tag_eye
+5315	dof_4.4_36_0_0
+5316	jnt_piece_24
+5317	ps_mp_potm_wade_hits_01
+5318	UprLidDn_05_L
+5319	cc_xm_destroyontag, wm_m1bravo_mag_00, tag_weapon_left
+5320	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_hip_le
+5321	j_metaring_le_1_pet
+5322	jnt_s4_mp_pom_aot_wall_chunk_full
+5323	dof_4.4_54_010_010
+5324	cc_xm_createontag, wm_fsierra_knife_00, tag_accessory_right
+5325	ps_mp_exec_mateo_01_stand_bf_01
+5326	j_spring_k
+5327	dof_10_40_050_050
+5328	idle
+5329	dof_3.4_37_050_050
+5330	ps_mp_execution_wellington_stand_fall_01
+5331	j_strap_23
+5332	dof_4_61_000_000
+5333	UprLidRaise_04_L
+5334	ladder_grab_right
+5335	s4_rus_clothing_messy_02
+5336	dof_5_65_0_0
+5337	ps_exec_generic_spearshield_01_prone_foley_03
+5338	ps_mp_mvphl_generic_aztec_rip_01
+5339	ps_exec_generic_doublemace_01_prone_bf_01
+5340	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_kenosha_exhale, j_head
+5341	fx_playfxontag, vfx/s4/blood/tiburon_fatality_impact_01, j_shoulder_le
+5342	j_07
+5343	j_lip_top_le_4
+5344	dof_4_36_030_030
+5345	fx_playfxontag, vfx/s4/blood/fatality_blood_head_01_nodecal, j_head
+5346	fx_stopfxontag, vfx/s4/blood/fatality_blood_stab_axe_pullout_lrg, j_spineupper
+5347	dof_5_55_0_0
+5348	fx_playfxontag, vfx/s4/pom/_misc/vfx_pom_hamila_liquid_bottle_smash_rnr_01.vfx, tag_origin
+5349	j_strap_110
+5350	MouthLeft_04_R
+5351	fx_playfxontag, vfx/s4/pom/_misc/fatality_blood_directional_axeandshield, j_wrist_ri
+5352	ps_mp_execution_generic_hockeystick_02_prone_victim_weapon_01
+5353	fx_playfxontag, vfx/s4/blood/fatality_blood_neck_hit, tag_fx
+5354	dof_2.8_30_050_050

@@ -1,0 +1,25 @@
+%force_cs_anim_index_match
+
+trickster_strafe : toggle( index=[strafe_forward_index], blendtime="0.1", restart="false" ) loopsync
+{
+	trickster_strafe_forward: blendspace1d( range="-180,180", blend_time="0", disable_update_while_turning_off="true",
+	coords="-90,0,90",
+	value=[strafeyaw] ) complete
+	{
+		ai_s4_zm_zombie_demon_deceiver_walk_r
+		ai_s4_zm_zombie_demon_deceiver_walk_01
+		ai_s4_zm_zombie_demon_deceiver_walk_l
+		
+	}
+
+	trickster_strafe_backward: blendspace1d( range="-180,180", blend_time="0", disable_update_while_turning_off="true",
+	coords="-180,-90,90,180",
+	value=[strafeyaw] ) complete
+	{
+		ai_s4_zm_zombie_demon_deceiver_walk_b
+		ai_s4_zm_zombie_demon_deceiver_walk_r_b
+		ai_s4_zm_zombie_demon_deceiver_walk_l_b
+		ai_s4_zm_zombie_demon_deceiver_walk_b@1
+	}
+}
+

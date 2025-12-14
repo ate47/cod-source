@@ -1,0 +1,34 @@
+{
+	"vram": [
+		{
+			"min": 0,
+			"presets": {
+				"vram_presets": "none"
+			}
+		},
+		{
+			"min": 2500,
+			"presets": {
+				"vram_presets": "low"
+			}
+		},
+		{
+			"min": 3500,
+			"presets": {
+				"vram_presets": "medium"
+			}
+		},
+		{
+			"min": 4500,
+			"presets": {
+				"vram_presets": "high"
+			}
+		},
+		{
+			"min": 6500,
+			"presets": {
+				"vram_presets": "veryHigh"
+			}
+		}
+	]
+}

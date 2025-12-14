@@ -1,0 +1,790 @@
+{
+  "presets": {
+    "gpu_presets": "veryLow"
+  },
+  "overrides": {
+    "vars": {
+      "ElevatedPriority": 1
+    }
+  },
+  "vendors": [
+    {
+      "vendor_strings": [
+        "nvidia"
+      ],
+      "cleanup_strings": [
+        "Nvidia",
+        "(OEM)",
+        "OEM",
+        "BOOST",
+        "(Pascal)",
+        " Ti ",
+        "(192-bit)",
+        "COLLECTORS EDITION",
+        "3GB",
+        "5GB",
+        "6GB",
+        "11GB",
+        "24GB"
+      ],
+      "mobile_strings": [
+        "Max-Q",
+        "Mobile"
+      ],
+      "models": [
+        {
+          "name": "GeForce RTX",
+          "presets": {
+            "gpu_presets": "high"
+          },
+          "overrides": {
+            "vars": {
+              "AsyncCompute": 1
+            }
+          },
+          "submodels": [
+            {
+              "min": 3080,
+              "presets": {
+                "gpu_presets": "veryHigh"
+              }
+            },
+            {
+              "min": 0,
+              "mobile": true,
+              "presets": {
+                "gpu_presets": "low"
+              }
+            },
+            {
+              "min": 2070,
+              "presets": {
+                "gpu_presets": "medium"
+              },
+              "mobile": true
+            },
+            {
+              "min": 3050,
+              "presets": {
+                "gpu_presets": "low"
+              },
+              "mobile": true
+            },
+            {
+              "min": 3060,
+              "presets": {
+                "gpu_presets": "medium"
+              },
+              "mobile": true
+            }
+          ]
+        },
+        {
+          "name": "GeForce GTX",
+          "presets": {
+            "gpu_presets": "veryLow"
+          },
+          "submodels": [
+            {
+              "min": 0,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 680,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 700,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 770,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 780,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 800,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 950,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 970,
+              "presets": {
+                "gpu_presets": "medium"
+              },
+              "overrides": {
+                "vars": {
+                  "AutoDetectTargetRes": 0,
+                  "VidMemScale": 0
+                }
+              }
+            },
+            {
+              "min": 980,
+              "presets": {
+                "gpu_presets": "medium"
+              },
+              "overrides": {
+                "vars": {
+                  "AutoDetectTargetRes": 0
+                }
+              }
+            },
+            {
+              "min": 1050,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 1060,
+              "presets": {
+                "gpu_presets": "medium"
+              },
+              "overrides": {
+                "vars": {
+                  "AsyncCompute": 1,
+                  "AutoDetectTargetRes": 1
+                }
+              }
+            },
+            {
+              "min": 1070,
+              "presets": {
+                "gpu_presets": "medium"
+              },
+              "overrides": {
+                "vars": {
+                  "AsyncCompute": 1
+                }
+              }
+            },
+            {
+              "min": 1080,
+              "presets": {
+                "gpu_presets": "high"
+              }
+            },
+            {
+              "min": 1650,
+              "presets": {
+                "gpu_presets": "low"
+              },
+              "overrides": {
+                "vars": {
+                  "AsyncCompute": 1
+                }
+              }
+            },
+            {
+              "min": 1660,
+              "presets": {
+                "gpu_presets": "medium"
+              },
+              "overrides": {
+                "vars": {
+                  "AsyncCompute": 1
+                }
+              }
+            },
+            {
+              "exactmatch": "TITAN",
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 0,
+              "presets": {
+                "gpu_presets": "veryLow"
+              },
+              "mobile": true
+            },
+            {
+              "min": 980,
+              "presets": {
+                "gpu_presets": "veryLow"
+              },
+              "mobile": true
+            },
+            {
+              "min": 1080,
+              "presets": {
+                "gpu_presets": "low"
+              },
+              "mobile": true
+            },
+            {
+              "min": 1650,
+              "presets": {
+                "gpu_presets": "veryLow"
+              },
+              "mobile": true
+            },
+            {
+              "min": 1660,
+              "presets": {
+                "gpu_presets": "low"
+              },
+              "mobile": true
+            },
+            {
+              "exactmatch": "TITAN Black",
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "exactmatch": "TITAN Z",
+              "presets": {
+                "gpu_presets": "low"
+              }
+            },
+            {
+              "exactmatch": "TITAN X",
+              "presets": {
+                "gpu_presets": "medium"
+              }
+            }
+          ]
+        },
+        {
+          "name": "GeForce GTS",
+          "presets": {
+            "gpu_presets": "veryLow"
+          }
+        },
+        {
+          "name": "GeForce GT",
+          "presets": {
+            "gpu_presets": "veryLow"
+          }
+        },
+        {
+          "name": "Quadro P4000",
+          "presets": {
+            "gpu_presets": "low"
+          },
+          "overrides": {
+            "vars": {
+              "AsyncCompute": 1
+            }
+          }
+        },
+        {
+          "name": "Quadro P5000",
+          "presets": {
+            "gpu_presets": "high"
+          },
+          "overrides": {
+            "vars": {
+              "AsyncCompute": 1
+            }
+          }
+        },
+        {
+          "name": "Quadro P6000",
+          "presets": {
+            "gpu_presets": "high"
+          },
+          "overrides": {
+            "vars": {
+              "AsyncCompute": 1
+            }
+          }
+        },
+        {
+          "name": "Quadro M6000",
+          "presets": {
+            "gpu_presets": "low"
+          }
+        },
+        {
+          "name": "Quadro GV",
+          "presets": {
+            "gpu_presets": "high"
+          },
+          "overrides": {
+            "vars": {
+              "AsyncCompute": 1
+            }
+          }
+        },
+        {
+          "name": "Quadro RTX",
+          "presets": {
+            "gpu_presets": "high"
+          },
+          "overrides": {
+            "vars": {
+              "AsyncCompute": 1
+            }
+          }
+        },
+        {
+          "name": "TITAN V",
+          "presets": {
+            "gpu_presets": "high"
+          },
+          "overrides": {
+            "vars": {
+              "AsyncCompute": 1
+            }
+          }
+        },
+        {
+          "name": "TITAN X (Pascal)",
+          "presets": {
+            "gpu_presets": "high"
+          },
+          "overrides": {
+            "vars": {
+              "AsyncCompute": 1
+            }
+          }
+        },
+        {
+          "name": "TITAN Xp",
+          "presets": {
+            "gpu_presets": "high"
+          },
+          "overrides": {
+            "vars": {
+              "AsyncCompute": 1
+            }
+          }
+        },
+        {
+          "name": "TITAN RTX",
+          "presets": {
+            "gpu_presets": "high"
+          },
+          "overrides": {
+            "vars": {
+              "AsyncCompute": 1
+            }
+          }
+        },
+        {
+          "name": "Titan",
+          "presets": {
+            "gpu_presets": "high"
+          },
+          "overrides": {
+            "vars": {
+              "AsyncCompute": 1
+            }
+          }
+        }
+      ]
+    },
+    {
+      "vendor_strings": [
+        "amd",
+        "ati",
+        "radeon",
+        "mobility radeon",
+        "asus"
+      ],
+      "cleanup_strings": [
+        "ASUS",
+        "AMD",
+        "ATI",
+        "(TM)",
+        "Series",
+        "Graphics",
+        "Adapter",
+        "/ HD 8500M",
+        "/ HD 7900",
+        "/ HD 9000",
+        "- Unlocked",
+        "50th Anniversary",
+        "Radeon"
+      ],
+      "mobile_strings": [
+        "Mobility",
+        "Mobile"
+      ],
+      "overrides": {
+        "vars": {
+          "AsyncCompute": 1
+        }
+      },
+      "models": [
+        {
+          "name": "Mobility",
+          "presets": {
+            "gpu_presets": "veryLow"
+          }
+        },
+        {
+          "name": "HD",
+          "presets": {
+            "gpu_presets": "veryLow"
+          },
+          "submodels": [
+            {
+              "min": 8000,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 8500,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 8950,
+              "presets": {
+                "gpu_presets": "low"
+              }
+            },
+            {
+              "min": 8990,
+              "presets": {
+                "gpu_presets": "medium"
+              }
+            },
+            {
+              "min": 0,
+              "presets": {
+                "gpu_presets": "veryLow"
+              },
+              "mobile": true
+            }
+          ]
+        },
+        {
+          "name": "R7",
+          "presets": {
+            "gpu_presets": "veryLow"
+          }
+        },
+        {
+          "name": "R9",
+          "presets": {
+            "gpu_presets": "low"
+          },
+          "submodels": [
+            {
+              "min": 200,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 270,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 280,
+              "presets": {
+                "gpu_presets": "low"
+              }
+            },
+            {
+              "min": 300,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 370,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 380,
+              "presets": {
+                "gpu_presets": "low"
+              }
+            },
+            {
+              "min": 390,
+              "presets": {
+                "gpu_presets": "low"
+              }
+            }
+          ]
+        },
+        {
+          "name": "RX Vega",
+          "presets": {
+            "gpu_presets": "high"
+          },
+          "submodels": [
+            {
+              "exactmatch": "M GH",
+              "presets": {
+                "gpu_presets": "low"
+              }
+            },
+            {
+              "exactmatch": "M GL",
+              "presets": {
+                "gpu_presets": "low"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Pro Vega",
+          "presets": {
+            "gpu_presets": "high"
+          }
+        },
+        {
+          "name": "Pro WX",
+          "presets": {
+            "gpu_presets": "veryLow"
+          },
+          "submodels": [
+            {
+              "min": 0,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 3300,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 8300,
+              "presets": {
+                "gpu_presets": "low"
+              }
+            }
+          ]
+        },
+        {
+          "name": "Vega Frontier Edition",
+          "presets": {
+            "gpu_presets": "medium"
+          }
+        },
+        {
+          "name": "RX",
+          "presets": {
+            "gpu_presets": "low"
+          },
+          "submodels": [
+            {
+              "min": 400,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 470,
+              "presets": {
+                "gpu_presets": "low"
+              },
+              "overrides": {
+                "vars": {
+                  "AutoDetectTargetRes": 0
+                }
+              }
+            },
+            {
+              "min": 480,
+              "presets": {
+                "gpu_presets": "medium"
+              },
+              "overrides": {
+                "vars": {
+                  "AutoDetectTargetRes": 0
+				}
+              }
+            },
+            {
+              "min": 500,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 560,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 570,
+              "presets": {
+                "gpu_presets": "low"
+              }
+            },
+            {
+              "min": 580,
+              "presets": {
+                "gpu_presets": "medium"
+              }
+            },
+            {
+              "min": 640,
+              "presets": {
+                "gpu_presets": "veryLow"
+              }
+            },
+            {
+              "min": 650,
+              "presets": {
+                "gpu_presets": "low"
+              }
+            },
+            {
+              "min": 5500,
+              "presets": {
+                "gpu_presets": "medium"
+              }
+            },
+            {
+              "min": 5600,
+              "presets": {
+                "gpu_presets": "medium"
+              }
+            },
+            {
+              "min": 5700,
+              "presets": {
+                "gpu_presets": "high"
+              }
+            },
+            {
+              "min": 6700,
+              "presets": {
+                "gpu_presets": "high"
+              }
+            },
+            {
+              "min": 6800,
+              "presets": {
+                "gpu_presets": "veryHigh"
+              }
+            },
+            {
+              "min": 7000,
+              "presets": {
+                "gpu_presets": "high"
+              }
+            },
+            {
+              "min": 0,
+              "presets": {
+                "gpu_presets": "veryLow"
+              },
+              "mobile": true
+            },
+            {
+              "min": 5300,
+              "presets": {
+                "gpu_presets": "veryLow"
+              },
+              "mobile": true
+            },
+            {
+              "min": 5600,
+              "presets": {
+                "gpu_presets": "veryLow"
+              },
+              "mobile": true
+            },
+            {
+              "min": 6000,
+              "presets": {
+                "gpu_presets": "low"
+              },
+              "mobile": true
+            }
+          ]
+        },
+        {
+          "name": "VII",
+          "presets": {
+            "gpu_presets": "high"
+          }
+        },
+        {
+          "exactmatch": "0x694e",
+          "comment": "RX Vega M GL",
+          "presets": {
+            "gpu_presets": "low"
+          }
+        },
+        {
+          "exactmatch": "0x694c",
+          "comment": "RX Vega M GH",
+          "presets": {
+            "gpu_presets": "low"
+          }
+        }
+      ]
+    },
+    {
+      "vendor_strings": [
+        "intel"
+      ],
+	  "cleanup_strings": [
+		"Intel",
+		"(TM)",
+		"(R)"
+	  ],
+      "models": [
+        {
+          "name": "",
+          "presets": {
+            "gpu_presets": "veryLow"
+          },
+		  "submodels": [
+				{
+				  "min": 0,
+				  "presets": {
+					"gpu_presets": "veryLow"
+				  }
+				},
+				{
+				  "min": 750,
+				  "presets": {
+					"gpu_presets": "veryLow"
+				  }
+				},
+				{
+				  "min": 770,
+				  "presets": {
+					"gpu_presets": "veryLow"
+				  }
+				}
+			]
+        }
+      ]
+    }
+  ]
+}

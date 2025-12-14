@@ -1,0 +1,17 @@
+%force_cs_anim_index_match
+
+reverse: blendspace1d( range="-180,180", blend_time="100",
+	coords="-180,-135,-90,-45,0,45,90,135,180",
+	value=[strafeyaw] ) nonloopsync complete
+	{
+		ai_s4_zm_zombie_juggernaut_strafe_trans_walk8_walk2@1
+		ai_s4_zm_zombie_juggernaut_strafe_trans_walk7_walk3
+		ai_s4_zm_zombie_juggernaut_strafe_trans_walk4_walk6
+		ai_s4_zm_zombie_juggernaut_strafe_trans_walk1_walk9
+		ai_s4_zm_zombie_juggernaut_strafe_trans_walk2_walk8
+		ai_s4_zm_zombie_juggernaut_strafe_trans_walk3_walk7
+		ai_s4_zm_zombie_juggernaut_strafe_trans_walk6_walk4
+		ai_s4_zm_zombie_juggernaut_strafe_trans_walk9_walk1
+		ai_s4_zm_zombie_juggernaut_strafe_trans_walk8_walk2
+	}
+

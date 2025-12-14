@@ -1,0 +1,14 @@
+%force_cs_anim_index_match
+
+move_loop : blendspace1d( range="0,220", blend_time="200", coords="60,115,155,196", value=[desiredspeed] ) loopsync
+{
+	civ_cctv_walk_forward01
+	civ_cctv_fast_forward01
+	jog_var:randomloop( blendtime=".2", restart="false", norepeat="true", seed=[animtime] )
+	{
+		civ_cctv_jog_forward01
+		civ_cctv_jog_forward02
+		civ_cctv_jog_forward03		
+	}
+	civ_cctv_run_forward01
+}

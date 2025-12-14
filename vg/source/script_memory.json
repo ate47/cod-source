@@ -1,0 +1,101 @@
+{
+  "_comments": [
+    "Controls for script memory for server and client script. Core mode values and gametype values (mp only) are supported.",
+    "Note: The gametype should be added as a sub object to the core mode; it will override the core mode values.",
+    "Note: The minimum is used to define how much memory is needed to load the animations at match start; acts as a clamp.",
+    "VARIABLELIST_PARENT_SIZE - number of parent variables - max: 262144, including per-player",
+    "VARIABLELIST_CHILD_SIZE - number of child variables - max: 655360, including per-player",
+    "VARIABLELIST_PARENT_SIZE_PER_PLAYER - per-player multiplier to add parent variables. Mimimum is an absolute number, not multiplier.",
+    "VARIABLELIST_PARENT_SIZE_PER_AGENT - per-agent multiplier to add parent variables. Mimimum is an absolute number, not multiplier.",
+    "VARIABLELIST_CHILD_SIZE_PER_PLAYER - per-player multiplier to add child variables. Mimimum is an absolute number, not multiplier.",
+	"VARIABLELIST_CHILD_SIZE_PER_AGENT - per-agent multiplier to add child variables. Mimimum is an absolute number, not multiplier.",
+    "SCR_DEBUG_FUNCTION_COUNT - [DEVELOPMENT ONLY] number of functions tracked for the debugger/disassembler. Can be safely increased by design as needed without ship impact.",
+    "SCR_DEBUG_FUNCTION_BUFFER_SIZE - [DEVELOPMENT ONLY] size of function buffer used by debugger/disassembler. Can be safely increased by design as needed without ship impact."
+  ],
+
+  "dev": {
+    "SCR_DEBUG_FUNCTION_COUNT": 24576,
+    "SCR_DEBUG_FUNCTION_BUFFER_SIZE": 521216
+  }
+
+  "server": {
+    "sp": {
+      "VARIABLELIST_PARENT_SIZE": 70016,
+      "VARIABLELIST_CHILD_SIZE": 163840,
+    },
+    "cp": {
+      "VARIABLELIST_PARENT_SIZE": 97366,
+      "VARIABLELIST_CHILD_SIZE": 227840,
+    },
+    "mp": {
+      "VARIABLELIST_PARENT_SIZE": 59776,
+      "VARIABLELIST_CHILD_SIZE": 143360,
+      "VARIABLELIST_PARENT_SIZE_PER_PLAYER": 512,
+      "VARIABLELIST_PARENT_SIZE_PER_AGENT": 0,
+      "VARIABLELIST_CHILD_SIZE_PER_PLAYER": 1024,
+      "VARIABLELIST_CHILD_SIZE_PER_AGENT": 0,
+      "arm": {
+        "VARIABLELIST_PARENT_SIZE": 66776,
+        "VARIABLELIST_CHILD_SIZE": 143360,
+        "VARIABLELIST_PARENT_SIZE_PER_PLAYER": 600,
+        "VARIABLELIST_PARENT_SIZE_PER_AGENT": 0,
+        "VARIABLELIST_CHILD_SIZE_PER_PLAYER": 2348,
+        "VARIABLELIST_CHILD_SIZE_PER_AGENT": 0
+      },
+      "br": {
+        "VARIABLELIST_PARENT_SIZE": 59776,
+        "VARIABLELIST_CHILD_SIZE": 346400,
+        "VARIABLELIST_PARENT_SIZE_PER_PLAYER": 512,
+        "VARIABLELIST_PARENT_SIZE_PER_AGENT": 0,
+        "VARIABLELIST_CHILD_SIZE_PER_PLAYER": 1024,
+        "VARIABLELIST_CHILD_SIZE_PER_AGENT": 0
+      },
+      "base": {
+        "VARIABLELIST_PARENT_SIZE": 97366,
+        "VARIABLELIST_CHILD_SIZE": 227840,
+        "VARIABLELIST_PARENT_SIZE_PER_PLAYER": 600,
+        "VARIABLELIST_PARENT_SIZE_PER_AGENT": 0,
+        "VARIABLELIST_CHILD_SIZE_PER_PLAYER": 2348,
+        "VARIABLELIST_CHILD_SIZE_PER_AGENT": 0
+      }
+    }
+  },
+
+  "client": {
+    "sp": {
+      "VARIABLELIST_PARENT_SIZE": 70016,
+      "VARIABLELIST_CHILD_SIZE": 163840,
+    },
+    "cp": {
+      "VARIABLELIST_PARENT_SIZE": 70016,
+      "VARIABLELIST_CHILD_SIZE": 163840,
+    },
+    "mp": {
+      "VARIABLELIST_PARENT_SIZE": 70016,
+      "VARIABLELIST_CHILD_SIZE": 163840,
+      "br": {
+        "VARIABLELIST_PARENT_SIZE": 70016,
+        "VARIABLELIST_CHILD_SIZE": 163840,
+      }
+    }
+  },
+
+  "minimum": {
+    "sp": {
+      "VARIABLELIST_PARENT_SIZE": 60,
+      "VARIABLELIST_CHILD_SIZE": 3600,
+    },
+    "cp": {
+      "VARIABLELIST_PARENT_SIZE": 500,
+      "VARIABLELIST_CHILD_SIZE": 10500,
+    },
+    "mp": {
+      "VARIABLELIST_PARENT_SIZE": 160,
+      "VARIABLELIST_CHILD_SIZE": 5600,
+      "VARIABLELIST_PARENT_SIZE_PER_PLAYER": 10240,
+      "VARIABLELIST_PARENT_SIZE_PER_AGENT": 0,
+      "VARIABLELIST_CHILD_SIZE_PER_PLAYER": 20480,
+      "VARIABLELIST_CHILD_SIZE_PER_AGENT": 0,
+    }
+  }
+}

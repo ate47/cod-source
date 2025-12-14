@@ -1,0 +1,909 @@
+///////////////////////////////////////////////////////////////////////////
+//Animation Blender
+//These assests are used int he animation blender test level to test blending of additive animations
+//This file is generated from the Animation Blender tool
+///////////////////////////////////////////////////////////////////////////
+body
+{
+	
+	
+	//hack for 4 pt strafe anims still in asm
+	sdr_cqb_strafe_slow_1
+	sdr_cqb_strafe_slow_2
+	sdr_cqb_strafe_slow_2b
+	sdr_cqb_strafe_slow_3
+	sdr_cqb_strafe_slow_4
+	sdr_cqb_strafe_slow_6
+	sdr_cqb_strafe_slow_7
+	sdr_cqb_strafe_slow_8
+	sdr_cqb_strafe_slow_9
+	
+	
+	sdr_mp_strafe_sprint_7
+	sdr_mp_strafe_sprint_9
+	
+	sdr_mp_strafe_jog_3
+	sdr_mp_strafe_jog_7_alt
+	
+//	sdr_mp_strafe_walk_3
+//	sdr_mp_strafe_walk_7_alt
+	/*
+	startblend_old: blendspace1d( range="-180,180", blend_time="200", coords="-180,-135.000,-90.000,-45,0,45,90,135,180", value=[startblend] ) loopsync
+	{
+		sdr_mp_trans_stand_jog_2		
+		sdr_mp_trans_stand_jog_3
+		sdr_mp_trans_stand_jog_6
+		sdr_mp_trans_stand_jog_9		
+		sdr_mp_trans_stand_jog_8
+		sdr_mp_trans_stand_jog_7
+		sdr_mp_trans_stand_jog_4
+		sdr_mp_trans_stand_jog_1	
+		sdr_mp_trans_stand_jog_2@1
+	}*/
+	
+	movement
+	{
+
+		sdr_com_exposed_stand_idle01
+		sdr_com_exposed_crouch_idle01
+		sdr_mp_stand_idle01 
+		sdr_mp_stand_idle02 
+		sdr_mp_stand_idle03
+		mp_prone_idle_iw6
+		sdr_mp_prone_back_idle
+		sdr_mp_prone_leftside_idle
+		sdr_mp_prone_rightside_idle
+		
+		mp_stand_2_crouch
+		mp_crouch_2_stand
+		mp_crouch_2_prone
+		mp_prone_2_crouch
+		mp_prone_2_stand
+		
+		prone_idle: blendspace1d( range="-180,180", blend_time="100",
+		coords="-180,-135,-90,-71.1,-71,-45,0,45,90,102,102.1,135,180",
+		value=[prone_idle_x] ) loopsync complete
+		{
+			sdr_mp_prone_idle_2
+			sdr_mp_prone_idle_3
+			sdr_mp_prone_idle_6
+			sdr_mp_prone_idle_6_alt
+			sdr_mp_prone_idle_9_alt
+			sdr_mp_prone_idle_9
+			sdr_mp_prone_idle_8
+			sdr_mp_prone_idle_7
+			sdr_mp_prone_idle_4
+			sdr_mp_prone_idle_4_alt
+			sdr_mp_prone_idle_1_alt
+			sdr_mp_prone_idle_1
+			sdr_mp_prone_idle_2@1
+		}
+		
+		turns
+		{
+			sdr_mp_stand_turnl
+			sdr_mp_stand_turnr
+		}
+		
+		sdr_com_strafe_to_exposed_feet_apart
+		sdr_com_strafe_to_exposed_feet_together
+		sdr_com_strafe_to_exposed_l_foot_forward
+		sdr_com_strafe_to_exposed_r_foot_forward
+		
+		
+		start_forward: blendspace2d( rangex="-180,180", rangey="0,255", blend_time="100",
+		coords="{0,188},{0,35},{0,0},{-45,188},{-90,150},{-135,131},{45,188},{90,150},{135,131},{-45,35},{-90,35},{-135,35},{45,35},{90,35},{135,35},{-45,0},{-90,0},{-135,0},{45,0},{90,0},{135,0}",
+		edges="{14,19,20},{13,18,19},{2,12,18},{2,9,15},{10,15,16},{11,16,17},{1,2,9},{9,10,15},{10,11,16},{1,2,12},{12,13,18},{13,14,19},{1,6,12},{1,3,9},{0,1,3},{0,1,6},{6,7,12},{7,12,13},{7,8,13},{8,13,14},{5,10,11},{4,5,10},{4,9,10},{3,4,9}",
+		valuex=[start_forward_x], valuey=[start_forward_y] ) nonloopsync 2 complete
+		{
+			sdr_mp_strafe_fast_start_8
+			sdr_mp_strafe_walk_start_8
+			sdr_mp_strafe_shuffle_start_8
+			sdr_mp_strafe_fast_start_9
+			sdr_mp_strafe_fast_start_6
+			sdr_mp_strafe_fast_start_3
+			sdr_mp_strafe_fast_start_7
+			sdr_mp_strafe_fast_start_4
+			sdr_mp_strafe_fast_start_1
+			sdr_mp_strafe_walk_start_9
+			sdr_mp_strafe_walk_start_6
+			sdr_mp_strafe_walk_start_3
+			sdr_mp_strafe_walk_start_7
+			sdr_mp_strafe_walk_start_4
+			sdr_mp_strafe_walk_start_1
+			sdr_mp_strafe_shuffle_start_9
+			sdr_mp_strafe_shuffle_start_6
+			sdr_mp_strafe_shuffle_start_3
+			sdr_mp_strafe_shuffle_start_7
+			sdr_mp_strafe_shuffle_start_4
+			sdr_mp_strafe_shuffle_start_1
+		}
+		
+		start_backward: blendspace2d( rangex="-180,180", rangey="0,255", blend_time="100",
+		coords="{-161,0},{-160,0},{-90,0},{-45,0},{45,0},{90,0},{135,0},{180,0},{-161,35},{-160,35},{-90,35},{-45,35},{45,35},{90,35},{135,35},{180,35},{-161,131},{-160,131},{-90,150},{-45,188},{45,188},{90,150},{135,131},{180,131}",
+		edges="{6,7,15},{5,6,14},{4,5,13},{2,3,10},{1,2,9},{2,9,10},{3,10,11},{3,4,11},{4,11,12},{4,12,13},{5,13,14},{6,14,15},{14,15,23},{14,22,23},{13,14,22},{13,21,22},{12,13,21},{12,20,21},{11,12,19},{12,19,20},{10,11,18},{9,10,17},{10,17,18},{11,18,19},{8,9,16},{9,16,17},{0,1,8},{1,8,9}",
+		valuex=[start_backward_x], valuey=[start_backward_y] ) nonloopsync 2 complete
+		{
+			sdr_mp_strafe_shuffle_start_2@1
+			sdr_mp_strafe_shuffle_start_3_alt
+			sdr_mp_strafe_shuffle_start_6@1
+			sdr_mp_strafe_shuffle_start_9@1
+			sdr_mp_strafe_shuffle_start_7_alt
+			sdr_mp_strafe_shuffle_start_4@1
+			sdr_mp_strafe_shuffle_start_1@1
+			sdr_mp_strafe_shuffle_start_2
+			sdr_mp_strafe_walk_start_2@1
+			sdr_mp_strafe_walk_start_3_alt
+			sdr_mp_strafe_walk_start_6@1
+			sdr_mp_strafe_walk_start_9@1
+			sdr_mp_strafe_walk_start_7_alt
+			sdr_mp_strafe_walk_start_4@1
+			sdr_mp_strafe_walk_start_1@1
+			sdr_mp_strafe_walk_start_2
+			sdr_mp_strafe_fast_start_2@1
+			sdr_mp_strafe_fast_start_3_alt
+			sdr_mp_strafe_fast_start_6@1
+			sdr_mp_strafe_fast_start_9@1
+			sdr_mp_strafe_fast_start_7_alt
+			sdr_mp_strafe_fast_start_4@1
+			sdr_mp_strafe_fast_start_1@1
+			sdr_mp_strafe_fast_start_2
+		}
+		
+		start_forward_crouch: blendspace2d( rangex="-180,180", rangey="0,110", blend_time="100",
+		coords="{0,90},{0,35},{0,0},{-90,70},{90,70},{-90,35},{90,35},{-90,0},{90,0},{135,0},{45,0},{-45,0},{-135,0},{135,35},{-135,35},{45,35},{-45,35},{135,80},{45,80},{-45,80},{-135,80}",
+		edges="{5,14,20},{3,5,20},{3,5,16},{3,16,19},{1,16,19},{0,1,19},{0,1,18},{1,15,18},{6,15,18},{4,6,18},{4,6,17},{6,13,17},{8,9,13},{6,8,10},{6,8,13},{6,10,15},{1,2,15},{2,10,15},{1,2,16},{2,11,16},{7,11,16},{5,7,16},{5,7,12},{5,12,14}",
+		valuex=[start_forward_crouch_x], valuey=[start_forward_crouch_y] ) nonloopsync 2 complete
+		{
+			sdr_mp_strafe_crouch_fast_start_8
+			sdr_mp_strafe_crouch_walk_start_8
+			sdr_mp_strafe_crouch_shuffle_start_8
+			sdr_mp_strafe_crouch_fast_start_6
+			sdr_mp_strafe_crouch_fast_start_4
+			sdr_mp_strafe_crouch_walk_start_6
+			sdr_mp_strafe_crouch_walk_start_4
+			sdr_mp_strafe_crouch_shuffle_start_6
+			sdr_mp_strafe_crouch_shuffle_start_4
+			sdr_mp_strafe_crouch_shuffle_start_1
+			sdr_mp_strafe_crouch_shuffle_start_7
+			sdr_mp_strafe_crouch_shuffle_start_9
+			sdr_mp_strafe_crouch_shuffle_start_3
+			sdr_mp_strafe_crouch_walk_start_1
+			sdr_mp_strafe_crouch_walk_start_3
+			sdr_mp_strafe_crouch_walk_start_7
+			sdr_mp_strafe_crouch_walk_start_9
+			sdr_mp_strafe_crouch_fast_start_1
+			sdr_mp_strafe_crouch_fast_start_7
+			sdr_mp_strafe_crouch_fast_start_9
+			sdr_mp_strafe_crouch_fast_start_3
+		}
+				
+		start_backward_crouch: blendspace2d( rangex="-180,180", rangey="0,110", blend_time="100",
+		coords="{-180,0},{180,0},{90,0},{-90,0},{-180,35},{180,35},{90,35},{-90,35},{-180,80},{180,80},{90,70},{-90,70},{135,80},{45,80},{-135,80},{-45,80},{135,35},{45,35},{-45,35},{-135,35},{135,0},{45,0},{-45,0},{-135,0}",
+		edges="{4,8,19},{8,14,19},{7,11,18},{11,15,18},{15,17,18},{13,15,17},{10,13,17},{6,10,17},{6,12,16},{6,10,12},{9,12,16},{5,9,16},{0,4,23},{4,19,23},{7,14,19},{7,11,14},{3,19,23},{3,7,19},{3,7,22},{7,18,22},{18,21,22},{17,18,21},{6,17,21},{2,6,21},{2,6,16},{2,16,20},{5,16,20},{1,5,20}",
+		valuex=[start_backward_crouch_x], valuey=[start_backward_crouch_y] ) nonloopsync 2 complete
+		{
+			sdr_mp_strafe_crouch_shuffle_start_2
+			sdr_mp_strafe_crouch_shuffle_start_2@1
+			sdr_mp_strafe_crouch_shuffle_start_4@1
+			sdr_mp_strafe_crouch_shuffle_start_6@1
+			sdr_mp_strafe_crouch_walk_start_2
+			sdr_mp_strafe_crouch_walk_start_2@1
+			sdr_mp_strafe_crouch_walk_start_4@1
+			sdr_mp_strafe_crouch_walk_start_6@1
+			sdr_mp_strafe_crouch_fast_start_2
+			sdr_mp_strafe_crouch_fast_start_2@1
+			sdr_mp_strafe_crouch_fast_start_4@1
+			sdr_mp_strafe_crouch_fast_start_6@1
+			sdr_mp_strafe_crouch_fast_start_1@1
+			sdr_mp_strafe_crouch_fast_start_7_alt
+			sdr_mp_strafe_crouch_fast_start_3_alt
+			sdr_mp_strafe_crouch_fast_start_9@1
+			sdr_mp_strafe_crouch_walk_start_1@1
+			sdr_mp_strafe_crouch_walk_start_7_alt
+			sdr_mp_strafe_crouch_walk_start_9@1
+			sdr_mp_strafe_crouch_walk_start_3_alt
+			sdr_mp_strafe_crouch_shuffle_start_1@1
+			sdr_mp_strafe_crouch_shuffle_start_7_alt
+			sdr_mp_strafe_crouch_shuffle_start_9@1
+			sdr_mp_strafe_crouch_shuffle_start_3_alt
+		}
+				
+		reverseblend: blendspace2d( rangex="-180,180", rangey="0,255", blend_time="100", 
+		coords="{-135.000,131.000},{-135.000,35.000},{-135.000,0},{135.000,131.000},{135.000,35.000},{135.000,0},{45.000,188.000},{45.000,35.000},{45.000,0},{-45.000,188.000},{-45.000,35.000},{-45.000,0},{-90.000,150.000},{-90.000,35.000},{-90.000,0},{90.000,150},{90.000,35.000},{90,0},{180,131},{180,35},{180,0},{0,188},{0,35},{0,0},{-180,131},{-180,35},{-180,0}", 
+		edges="{25,26,2},{25,2,1},{1,2,14},{1,14,13},{13,14,11},{13,11,10},{10,11,23},{10,23,22},{22,23,7},{23,7,8},{7,8,16},{8,16,17},{16,17,4},{17,4,5},{4,5,19},{19,5,20},{24,25,1},{24,1,0},{0,1,13},{0,13,12},{12,13,10},{12,10,9},{9,21,22},{21,22,6},{22,6,7},{6,7,15},{7,15,16},{15,16,3},{16,3,4},{3,4,18},{18,4,19}",
+	 	valuex=[reverseblend_x], valuey=[reverseblend_y] ) nonloopsync
+		{
+			//3
+			sdr_mp_trans_jog7_jog3_l
+			sdr_mp_trans_walk7_walk3_l
+			sdr_mp_trans_shuffle7_shuffle3_l
+			//1
+			sdr_mp_trans_jog9_jog1_l
+			sdr_mp_trans_walk9_walk1_l
+			sdr_mp_trans_shuffle9_shuffle1_l
+			//7
+			sdr_mp_trans_jog3_jog7_l
+			sdr_mp_trans_walk3_walk7_l
+			sdr_mp_trans_shuffle3_shuffle7_l
+			//9
+			sdr_mp_trans_jog1_jog9_l
+			sdr_mp_trans_walk1_walk9_l
+			sdr_mp_trans_shuffle1_shuffle9_l
+			//6
+			sdr_mp_trans_jog4_jog6_l
+			sdr_mp_trans_walk4_walk6_l
+			sdr_mp_trans_shuffle4_shuffle6_l	
+			//4
+			sdr_mp_trans_jog6_jog4_l
+			sdr_mp_trans_walk6_walk4_l
+			sdr_mp_trans_shuffle6_shuffle4_l			
+			//2
+			sdr_mp_trans_jog8_jog2_l
+			sdr_mp_trans_walk8_walk2_l
+			sdr_mp_trans_shuffle8_shuffle2_l
+			//8
+			sdr_mp_trans_jog2_jog8_l
+			sdr_mp_trans_walk2_walk8_l
+			sdr_mp_trans_shuffle2_shuffle8_l
+			//2b
+			sdr_mp_trans_jog8_jog2_lb
+			sdr_mp_trans_walk8_walk2_lb
+			sdr_mp_trans_shuffle8_shuffle2_lb
+		}
+		
+		//new move blend nodes
+		
+		move_forward: blendspace2d( rangex="-180,180", rangey="0,255", blend_time="250",
+		coords="{-135,24},{-90,19},{-45,23},{0,25},{45,24},{90,23},{135,23},{-135,56},{-90,64},{-45,65},{0,57},{45,60},{90,56},{135,52},{-135,105},{-90,116},{-45,123},{0,123},{45,123},{90,111},{135,105},{-135,250},{-90,250},{-45,250},{0,250},{45,250},{90,250},{135,250}",
+		edges="{0,1,7},{1,7,8},{2,8,9},{1,2,8},{2,3,9},{3,9,10},{3,4,10},{4,10,11},{4,5,11},{5,11,12},{5,6,12},{6,12,13},{7,8,14},{8,14,15},{8,9,15},{9,15,16},{9,10,16},{10,16,17},{10,11,17},{11,17,18},{11,12,18},{12,18,19},{12,13,19},{13,19,20},{14,15,21},{15,21,22},{15,16,22},{16,22,23},{16,17,23},{17,23,24},{17,18,24},{18,24,25},{18,19,25},{19,25,26},{19,20,26},{20,26,27}",
+		valuex=[move_forward_x], valuey=[move_forward_y] ) loopsync 1 complete
+		{
+			sdr_mp_strafe_shuffle_3
+			sdr_mp_strafe_shuffle_6
+			sdr_mp_strafe_shuffle_9
+			sdr_mp_strafe_shuffle_8
+			sdr_mp_strafe_shuffle_7
+			sdr_mp_strafe_shuffle_4
+			sdr_mp_strafe_shuffle_1
+			sdr_mp_strafe_walk_3
+			sdr_mp_strafe_walk_6
+			sdr_mp_strafe_walk_9
+			sdr_mp_strafe_walk_8
+			sdr_mp_strafe_walk_7
+			sdr_mp_strafe_walk_4
+			sdr_mp_strafe_walk_1
+			sdr_mp_strafe_fast_3
+			sdr_mp_strafe_fast_6
+			sdr_mp_strafe_fast_9
+			sdr_mp_strafe_fast_8
+			sdr_mp_strafe_fast_7
+			sdr_mp_strafe_fast_4
+			sdr_mp_strafe_fast_1
+			sdr_mp_strafe_fast_3@1
+			sdr_mp_strafe_fast_6@1
+			sdr_mp_strafe_fast_9@1
+			sdr_mp_strafe_fast_8@1
+			sdr_mp_strafe_fast_7@1
+			sdr_mp_strafe_fast_4@1
+			sdr_mp_strafe_fast_1@1
+		}
+		
+		move_forward_crouch: blendspace2d( rangex="-180,180", rangey="0,140", blend_time="250",
+		coords="{135,23},{-135,24},{90,23},{-90,19},{45,24},{0,25},{-45,23},{135,52},{-135,56},{90,56},{-90,64},{45,60},{0,57},{-45,65},{135,105},{-135,105},{90,111},{-90,116},{45,123},{0,123},{-45,123}",
+		edges="{1,3,8},{3,8,10},{3,6,10},{6,10,13},{5,6,13},{5,12,13},{4,5,12},{4,11,12},{2,4,11},{2,9,11},{0,2,9},{0,7,9},{8,10,15},{10,15,17},{10,13,17},{13,17,20},{12,13,20},{12,19,20},{11,12,19},{11,18,19},{9,11,18},{7,9,16},{9,16,18},{7,14,16}",
+		valuex=[move_forward_crouch_x], valuey=[move_forward_crouch_y] ) loopsync 1 complete
+		{
+			sdr_mp_strafe_crouch_shuffle_1
+			sdr_mp_strafe_crouch_shuffle_3
+			sdr_mp_strafe_crouch_shuffle_4
+			sdr_mp_strafe_crouch_shuffle_6
+			sdr_mp_strafe_crouch_shuffle_7
+			sdr_mp_strafe_crouch_shuffle_8
+			sdr_mp_strafe_crouch_shuffle_9
+			sdr_mp_strafe_crouch_walk_1
+			sdr_mp_strafe_crouch_walk_3
+			sdr_mp_strafe_crouch_walk_4
+			sdr_mp_strafe_crouch_walk_6
+			sdr_mp_strafe_crouch_walk_7
+			sdr_mp_strafe_crouch_walk_8
+			sdr_mp_strafe_crouch_walk_9
+			sdr_mp_strafe_crouch_fast_1
+			sdr_mp_strafe_crouch_fast_3
+			sdr_mp_strafe_crouch_fast_4
+			sdr_mp_strafe_crouch_fast_6
+			sdr_mp_strafe_crouch_fast_7
+			sdr_mp_strafe_crouch_fast_8
+			sdr_mp_strafe_crouch_fast_9
+		}
+		
+		move_backward: blendspace2d( rangex="-180,180", rangey="0,255", blend_time="250",
+		coords="{-160,19},{-90,19},{-45,24},{180,24},{45,24},{90,24},{135,19},{-160,64},{-90,64},{-45,56},{180,48},{45,56},{90,56},{135,64},{-160,116},{-90,116},{-45,111},{180,105},{45,100},{90,111},{135,116},{-160,250},{-90,250},{-45,250},{180,250},{45,250},{90,250},{135,250},{-161,252},{-161,113},{-161,56},{-161,24}",
+		edges="{0,1,7},{1,7,8},{2,8,9},{1,2,8},{4,5,11},{5,11,12},{5,6,12},{6,12,13},{7,8,14},{8,14,15},{8,9,15},{9,15,16},{11,12,18},{12,18,19},{12,13,19},{13,19,20},{14,15,21},{15,21,22},{15,16,22},{16,22,23},{18,19,25},{19,25,26},{19,20,26},{20,26,27},{2,4,9},{4,9,11},{9,11,16},{11,16,18},{16,18,23},{18,23,25},{17,24,27},{17,20,27},{3,6,13},{3,10,13},{10,13,20},{10,17,20},{0,30,31},{0,7,30},{7,29,30},{7,14,29},{14,28,29},{14,21,28}",
+		valuex=[move_backward_x], valuey=[move_backward_y] ) loopsync 1 complete
+		{
+			sdr_mp_strafe_shuffle_3_alt
+			sdr_mp_strafe_shuffle_6@1
+			sdr_mp_strafe_shuffle_9_alt
+			sdr_mp_strafe_shuffle_2
+			sdr_mp_strafe_shuffle_7_alt
+			sdr_mp_strafe_shuffle_4@1
+			sdr_mp_strafe_shuffle_1_alt
+			sdr_mp_strafe_walk_3_alt
+			sdr_mp_strafe_walk_6@1
+			sdr_mp_strafe_walk_9_alt
+			sdr_mp_strafe_walk_2
+			sdr_mp_strafe_walk_7_alt
+			sdr_mp_strafe_walk_4@1
+			sdr_mp_strafe_walk_1_alt
+			sdr_mp_strafe_fast_3_alt
+			sdr_mp_strafe_fast_6@2
+			sdr_mp_strafe_fast_9_alt
+			sdr_mp_strafe_fast_2
+			sdr_mp_strafe_fast_7_alt
+			sdr_mp_strafe_fast_4@2
+			sdr_mp_strafe_fast_1_alt
+			sdr_mp_strafe_fast_3@2
+			sdr_mp_strafe_fast_6@3
+			sdr_mp_strafe_fast_9@2
+			sdr_mp_strafe_fast_2@1
+			sdr_mp_strafe_fast_7@2
+			sdr_mp_strafe_fast_4@3
+			sdr_mp_strafe_fast_1@2
+			sdr_mp_strafe_fast_2@2
+			sdr_mp_strafe_fast_2@4
+			sdr_mp_strafe_walk_2@1
+			sdr_mp_strafe_shuffle_2@1
+		}
+		
+		move_backward_crouch: blendspace2d( rangex="-180,180", rangey="0,130", blend_time="250",
+		coords="{135,19},{180,24},{-161,24},{-160,19},{90,24},{-90,19},{45,24},{-45,24},{135,64},{180,48},{-161,56},{-160,64},{90,56},{-90,64},{45,56},{-45,56},{135,116},{180,105},{-161,113},{-160,116},{90,111},{-90,116},{45,100},{-45,111}",
+		edges="{6,7,15},{6,14,15},{14,15,23},{14,22,23},{5,7,13},{7,13,15},{13,15,21},{15,21,23},{4,6,14},{4,12,14},{0,4,12},{0,8,12},{0,1,8},{1,8,9},{8,9,16},{9,16,17},{8,12,20},{8,16,20},{12,14,22},{12,20,22},{3,5,11},{5,11,13},{2,3,10},{3,10,11},{11,13,19},{13,19,21},{10,11,18},{11,18,19}",
+		valuex=[move_backward_crouch_x], valuey=[move_backward_crouch_y] ) loopsync 1 complete
+		{
+			sdr_mp_strafe_crouch_shuffle_1@1
+			sdr_mp_strafe_crouch_shuffle_2
+			sdr_mp_strafe_crouch_shuffle_2@1
+			sdr_mp_strafe_crouch_shuffle_3_alt
+			sdr_mp_strafe_crouch_shuffle_4@1
+			sdr_mp_strafe_crouch_shuffle_6@1
+			sdr_mp_strafe_crouch_shuffle_7_alt
+			sdr_mp_strafe_crouch_shuffle_9@1
+			sdr_mp_strafe_crouch_walk_1@1
+			sdr_mp_strafe_crouch_walk_2
+			sdr_mp_strafe_crouch_walk_2@1
+			sdr_mp_strafe_crouch_walk_3_alt
+			sdr_mp_strafe_crouch_walk_4@1
+			sdr_mp_strafe_crouch_walk_6@1
+			sdr_mp_strafe_crouch_walk_7_alt
+			sdr_mp_strafe_crouch_walk_9@1
+			sdr_mp_strafe_crouch_fast_1@1
+			sdr_mp_strafe_crouch_fast_2
+			sdr_mp_strafe_crouch_fast_2@1
+			sdr_mp_strafe_crouch_fast_3_alt
+			sdr_mp_strafe_crouch_fast_4@1
+			sdr_mp_strafe_crouch_fast_6@1
+			sdr_mp_strafe_crouch_fast_7_alt
+			sdr_mp_strafe_crouch_fast_9@1
+		}
+
+		//4 point strafing - Old Assets
+		
+		moveblend_old: blendspace2d( rangex="-180,180", rangey="0,255", blend_time="500", coords="{-90.000,155.000},{-90.000,76.000},{-90.000,35.000},{-90.000,0},{90.000,155},{90.000,76},{90.000,35.000},{90,0},{180,155},{180,76},{180,35},{180,0},{0,155},{0,76},{0,35},{0,0},{-180,155},{-180,76},{-180,35},{-180,0}", edges="", valuex=[moveblend_old_x], valuey=[moveblend_old_y] ) loopsync
+		{
+			mp_base_run_6
+			mp_base_jog_6		
+			mp_base_walk_6
+			mp_base_walk_in_place_6
+			mp_base_run_4
+			mp_base_jog_4
+			mp_base_walk_4
+			mp_base_walk_in_place_4
+			mp_base_run_2
+			mp_base_jog_2
+			mp_base_walk_2
+			mp_base_walk_in_place_2
+			mp_base_run_8		
+			mp_base_jog_8
+			mp_base_walk_8
+			mp_base_walk_in_place_8
+			mp_base_run_2@1
+			mp_base_jog_2@1
+			mp_base_walk_2@1
+			mp_base_walk_in_place_2@1
+		}
+		
+		
+		//8 pt strafing
+		
+		stop_forward: blendspace2d( rangex="-180,180", rangey="0,255", blend_time="100",
+		coords="{-135,131},{-135,35},{-135,0},{135,131},{135,35},{135,0},{45,188},{45,35},{45,0},{-45,188},{-45,35},{-45,0},{-90,150},{-90,35},{-90,0},{90,150},{90,35},{90,0},{0,188},{0,35},{0,0}",
+		edges="{1,2,14},{1,14,13},{13,14,11},{13,11,10},{10,11,20},{10,20,19},{19,20,7},{20,7,8},{7,8,16},{8,16,17},{16,17,4},{17,4,5},{0,1,13},{0,13,12},{12,13,10},{12,10,9},{9,18,19},{18,19,6},{19,6,7},{6,7,15},{7,15,16},{15,16,3},{16,3,4}",
+		valuex=[stop_forward_x], valuey=[stop_forward_y] ) nonloopsync 3 complete
+		{
+			sdr_mp_strafe_fast_stop_l_3
+			sdr_mp_strafe_walk_stop_l_3
+			sdr_mp_strafe_shuffle_stop_l_3
+			sdr_mp_strafe_fast_stop_l_1
+			sdr_mp_strafe_walk_stop_l_1
+			sdr_mp_strafe_shuffle_stop_l_1
+			sdr_mp_strafe_fast_stop_l_7
+			sdr_mp_strafe_walk_stop_l_7
+			sdr_mp_strafe_shuffle_stop_l_7
+			sdr_mp_strafe_fast_stop_l_9
+			sdr_mp_strafe_walk_stop_l_9
+			sdr_mp_strafe_shuffle_stop_l_9
+			sdr_mp_strafe_fast_stop_l_6
+			sdr_mp_strafe_walk_stop_l_6
+			sdr_mp_strafe_shuffle_stop_l_6
+			sdr_mp_strafe_fast_stop_l_4
+			sdr_mp_strafe_walk_stop_l_4
+			sdr_mp_strafe_shuffle_stop_l_4
+			sdr_mp_strafe_fast_stop_l_8
+			sdr_mp_strafe_walk_stop_l_8
+			sdr_mp_strafe_shuffle_stop_l_8
+		}
+		stop_forward_r: blendspace2d( rangex="-180,180", rangey="0,255", blend_time="100",
+		coords="{-135,131},{-135,35},{-135,0},{135,131},{135,35},{135,0},{45,188},{45,35},{45,0},{-45,188},{-45,35},{-45,0},{-90,150},{-90,35},{-90,0},{90,150},{90,35},{90,0},{0,188},{0,35},{0,0}",
+		edges="{1,2,14},{1,14,13},{13,14,11},{13,11,10},{10,11,20},{10,20,19},{19,20,7},{20,7,8},{7,8,16},{8,16,17},{16,17,4},{17,4,5},{0,1,13},{0,13,12},{12,13,10},{12,10,9},{9,18,19},{18,19,6},{19,6,7},{6,7,15},{7,15,16},{15,16,3},{16,3,4}",
+		valuex=[stop_forward_x], valuey=[stop_forward_y] ) nonloopsync 3 complete
+		{
+			sdr_mp_strafe_fast_stop_r_3
+			sdr_mp_strafe_walk_stop_r_3
+			sdr_mp_strafe_shuffle_stop_r_3
+			sdr_mp_strafe_fast_stop_r_1
+			sdr_mp_strafe_walk_stop_r_1
+			sdr_mp_strafe_shuffle_stop_r_1
+			sdr_mp_strafe_fast_stop_r_7
+			sdr_mp_strafe_walk_stop_r_7
+			sdr_mp_strafe_shuffle_stop_r_7
+			sdr_mp_strafe_fast_stop_r_9
+			sdr_mp_strafe_walk_stop_r_9
+			sdr_mp_strafe_shuffle_stop_r_9
+			sdr_mp_strafe_fast_stop_r_6
+			sdr_mp_strafe_walk_stop_r_6
+			sdr_mp_strafe_shuffle_stop_r_6
+			sdr_mp_strafe_fast_stop_r_4
+			sdr_mp_strafe_walk_stop_r_4
+			sdr_mp_strafe_shuffle_stop_r_4
+			sdr_mp_strafe_fast_stop_r_8
+			sdr_mp_strafe_walk_stop_r_8
+			sdr_mp_strafe_shuffle_stop_r_8
+		}
+		stop_backward: blendspace2d( rangex="-180,180", rangey="0,255", blend_time="100",
+		coords="{-161,0},{-160,0},{-90,0},{-45,0},{45,0},{90,0},{135,0},{180,0},{-161,35},{-160,35},{-90,35},{-45,35},{45,35},{90,35},{135,35},{180,35},{-161,131},{-160,131},{-90,150},{-45,188},{45,188},{90,150},{135,131},{180,131}",
+		edges="{6,7,15},{5,6,14},{4,5,13},{2,3,10},{1,2,9},{2,9,10},{3,10,11},{3,4,11},{4,11,12},{4,12,13},{5,13,14},{6,14,15},{14,15,23},{14,22,23},{13,14,22},{13,21,22},{12,13,21},{12,20,21},{11,12,19},{12,19,20},{10,11,18},{9,10,17},{10,17,18},{11,18,19},{8,9,16},{9,16,17},{0,1,8},{1,8,9}",
+		valuex=[start_backward_x], valuey=[start_backward_y] ) nonloopsync 3 complete
+		{
+			sdr_mp_strafe_shuffle_stop_l_2@1
+			sdr_mp_strafe_shuffle_stop_l_3_alt
+			sdr_mp_strafe_shuffle_stop_l_6@1
+			sdr_mp_strafe_shuffle_stop_l_9@1
+			sdr_mp_strafe_shuffle_stop_l_7_alt
+			sdr_mp_strafe_shuffle_stop_l_4@1
+			sdr_mp_strafe_shuffle_stop_l_1@1
+			sdr_mp_strafe_shuffle_stop_l_2
+			sdr_mp_strafe_walk_stop_l_2@1
+			sdr_mp_strafe_walk_stop_l_3_alt
+			sdr_mp_strafe_walk_stop_l_6@1
+			sdr_mp_strafe_walk_stop_l_9@1
+			sdr_mp_strafe_walk_stop_l_7_alt
+			sdr_mp_strafe_walk_stop_l_4@1
+			sdr_mp_strafe_walk_stop_l_1@1
+			sdr_mp_strafe_walk_stop_l_2
+			sdr_mp_strafe_fast_stop_l_2@1
+			sdr_mp_strafe_fast_stop_l_3_alt
+			sdr_mp_strafe_fast_stop_l_6@1
+			sdr_mp_strafe_fast_stop_l_9@1
+			sdr_mp_strafe_fast_stop_l_7_alt
+			sdr_mp_strafe_fast_stop_l_4@1
+			sdr_mp_strafe_fast_stop_l_1@1
+			sdr_mp_strafe_fast_stop_l_2
+		}
+		stop_backward_r: blendspace2d( rangex="-180,180", rangey="0,255", blend_time="100",
+		coords="{-161,0},{-160,0},{-90,0},{-45,0},{45,0},{90,0},{135,0},{180,0},{-161,35},{-160,35},{-90,35},{-45,35},{45,35},{90,35},{135,35},{180,35},{-161,131},{-160,131},{-90,150},{-45,188},{45,188},{90,150},{135,131},{180,131}",
+		edges="{6,7,15},{5,6,14},{4,5,13},{2,3,10},{1,2,9},{2,9,10},{3,10,11},{3,4,11},{4,11,12},{4,12,13},{5,13,14},{6,14,15},{14,15,23},{14,22,23},{13,14,22},{13,21,22},{12,13,21},{12,20,21},{11,12,19},{12,19,20},{10,11,18},{9,10,17},{10,17,18},{11,18,19},{8,9,16},{9,16,17},{0,1,8},{1,8,9}",
+		valuex=[start_backward_x], valuey=[start_backward_y] ) nonloopsync 3 complete
+		{
+			sdr_mp_strafe_shuffle_stop_r_2@1
+			sdr_mp_strafe_shuffle_stop_r_3_alt
+			sdr_mp_strafe_shuffle_stop_r_6@1
+			sdr_mp_strafe_shuffle_stop_r_9@1
+			sdr_mp_strafe_shuffle_stop_r_7_alt
+			sdr_mp_strafe_shuffle_stop_r_4@1
+			sdr_mp_strafe_shuffle_stop_r_1@1
+			sdr_mp_strafe_shuffle_stop_r_2
+			sdr_mp_strafe_walk_stop_r_2@1
+			sdr_mp_strafe_walk_stop_r_3_alt
+			sdr_mp_strafe_walk_stop_r_6@1
+			sdr_mp_strafe_walk_stop_r_9@1
+			sdr_mp_strafe_walk_stop_r_7_alt
+			sdr_mp_strafe_walk_stop_r_4@1
+			sdr_mp_strafe_walk_stop_r_1@1
+			sdr_mp_strafe_walk_stop_r_2
+			sdr_mp_strafe_fast_stop_r_2@1
+			sdr_mp_strafe_fast_stop_r_3_alt
+			sdr_mp_strafe_fast_stop_r_6@1
+			sdr_mp_strafe_fast_stop_r_9@1
+			sdr_mp_strafe_fast_stop_r_7_alt
+			sdr_mp_strafe_fast_stop_r_4@1
+			sdr_mp_strafe_fast_stop_r_1@1
+			sdr_mp_strafe_fast_stop_r_2
+		}
+		
+		// prone set
+		
+		move_prone: blendspace1d( range="-180,180", blend_time="250",
+		coords="-180,-135,-90,-45,0,45,90,135,180",
+		value=[move_prone_x] ) loopsync complete
+		{
+			sdr_mp_prone_chest_crawl_2@1
+			sdr_mp_prone_chest_crawl_3
+			sdr_mp_prone_chest_crawl_6
+			sdr_mp_prone_chest_crawl_9
+			sdr_mp_prone_chest_crawl_8
+			sdr_mp_prone_chest_crawl_7
+			sdr_mp_prone_chest_crawl_4
+			sdr_mp_prone_chest_crawl_1
+			sdr_mp_prone_chest_crawl_2
+		}
+		
+		move_prone_back: blendspace1d( range="-180,180", blend_time="250",
+		coords="-180,-135,-90,-45,0,45,90,135,180",
+		value=[move_prone_back_x] ) loopsync complete
+		{
+			sdr_mp_prone_back_crawl_2@1
+			sdr_mp_prone_back_crawl_3
+			sdr_mp_prone_back_crawl_6
+			sdr_mp_prone_back_crawl_9
+			sdr_mp_prone_back_crawl_8
+			sdr_mp_prone_back_crawl_7
+			sdr_mp_prone_back_crawl_4
+			sdr_mp_prone_back_crawl_1
+			sdr_mp_prone_back_crawl_2
+		}
+		
+		move_prone_leftside: blendspace1d( range="-180,180", blend_time="250",
+		coords="-180,-135,-90,-45,0,45,90,135,180",
+		value=[move_prone_leftside_x] ) loopsync complete
+		{
+			sdr_mp_prone_leftside_crawl_2@1
+			sdr_mp_prone_leftside_crawl_3
+			sdr_mp_prone_leftside_crawl_6
+			sdr_mp_prone_leftside_crawl_7
+			sdr_mp_prone_leftside_crawl_8
+			sdr_mp_prone_leftside_crawl_9
+			sdr_mp_prone_leftside_crawl_4
+			sdr_mp_prone_leftside_crawl_1
+			sdr_mp_prone_leftside_crawl_2
+		}
+		
+		move_prone_rightside: blendspace1d( range="-180,180", blend_time="250",
+		coords="-180,-135,-90,-45,0,45,90,135,180",
+		value=[move_prone_rightside_x] ) loopsync complete
+		{
+			sdr_mp_prone_rightside_crawl_2@1
+			sdr_mp_prone_rightside_crawl_3
+			sdr_mp_prone_rightside_crawl_6
+			sdr_mp_prone_rightside_crawl_9
+			sdr_mp_prone_rightside_crawl_8
+			sdr_mp_prone_rightside_crawl_7
+			sdr_mp_prone_rightside_crawl_4
+			sdr_mp_prone_rightside_crawl_1
+			sdr_mp_prone_rightside_crawl_2
+		}
+		
+		start_prone: blendspace1d( range="-180,180", blend_time="250",
+		coords="-180,-135,-90,-45,0,45,90,135,180",
+		value=[start_prone_x] ) nonloopsync complete
+		{
+			sdr_mp_prone_chest_start_2@1
+			sdr_mp_prone_chest_start_3
+			sdr_mp_prone_chest_start_6
+			sdr_mp_prone_chest_start_9
+			sdr_mp_prone_chest_start_8
+			sdr_mp_prone_chest_start_7
+			sdr_mp_prone_chest_start_4
+			sdr_mp_prone_chest_start_1
+			sdr_mp_prone_chest_start_2
+		}
+		
+		start_prone_back: blendspace1d( range="-180,180", blend_time="250",
+		coords="-180,-135,-90,-45,0,45,90,135,180",
+		value=[start_prone_x] ) nonloopsync complete
+		{
+			sdr_mp_prone_back_start_2@1
+			sdr_mp_prone_back_start_3
+			sdr_mp_prone_back_start_6
+			sdr_mp_prone_back_start_9
+			sdr_mp_prone_back_start_8
+			sdr_mp_prone_back_start_7
+			sdr_mp_prone_back_start_4
+			sdr_mp_prone_back_start_1
+			sdr_mp_prone_back_start_2
+		}
+		
+		start_prone_leftside_forward: blendspace1d( range="-180,180", blend_time="250",
+		coords="-180,-135,-90,-45,0,45,90,135,180",
+		value=[start_prone_leftside_forward_x] ) nonloopsync complete
+		{
+			sdr_mp_prone_chest_start_2@2
+			sdr_mp_prone_chest_start_3@1
+			sdr_mp_prone_leftside_start_6
+			sdr_mp_prone_leftside_start_9
+			sdr_mp_prone_leftside_start_8
+			sdr_mp_prone_leftside_start_7
+			sdr_mp_prone_leftside_start_4
+			sdr_mp_prone_chest_start_1@1
+			sdr_mp_prone_chest_start_2@3
+		}
+		
+		start_prone_leftside_backward: blendspace1d( range="-180,180", blend_time="250",
+		coords="-180,-135,-90,-45,0,45,90,135,180",
+		value=[start_prone_leftside_backward_x] ) nonloopsync complete
+		{
+			sdr_mp_prone_leftside_start_2@1
+			sdr_mp_prone_leftside_start_3
+			sdr_mp_prone_back_start_6@1
+			sdr_mp_prone_back_start_9@1
+			sdr_mp_prone_back_start_8@1
+			sdr_mp_prone_back_start_7@1
+			sdr_mp_prone_back_start_4@1
+			sdr_mp_prone_leftside_start_1
+			sdr_mp_prone_leftside_start_2
+		}
+				
+		start_prone_rightside_forward: blendspace1d( range="-180,180", blend_time="250",
+		coords="-180,-135,-90,-45,0,45,90,135,180",
+		value=[start_prone_rightside_x] ) nonloopsync complete
+		{
+			sdr_mp_prone_chest_start_2@4
+			sdr_mp_prone_chest_start_3@2
+			sdr_mp_prone_rightside_start_6
+			sdr_mp_prone_rightside_start_9
+			sdr_mp_prone_rightside_start_8
+			sdr_mp_prone_rightside_start_7
+			sdr_mp_prone_rightside_start_4
+			sdr_mp_prone_chest_start_1@2
+			sdr_mp_prone_chest_start_2@5
+		}	
+		
+		start_prone_rightside_backward: blendspace1d( range="-180,180", blend_time="250",
+		coords="-180,-135,-90,-45,0,45,90,135,180",
+		value=[start_prone_rightside_backward_x] ) nonloopsync complete
+		{
+			sdr_mp_prone_rightside_start_2@1
+			sdr_mp_prone_rightside_start_3
+			sdr_mp_prone_back_start_6@2
+			sdr_mp_prone_back_start_9@2
+			sdr_mp_prone_back_start_8@2
+			sdr_mp_prone_back_start_7@2
+			sdr_mp_prone_back_start_4@2
+			sdr_mp_prone_rightside_start_1
+			sdr_mp_prone_rightside_start_2
+		}
+		
+		sdr_mp_prone_chest_stop
+		sdr_mp_prone_back_stop
+		
+		// end prone
+				
+		sdr_mp_strafe_to_exposed_feet_apart
+		sdr_mp_strafe_to_exposed_feet_together
+		sdr_mp_strafe_to_exposed_l_foot_forward
+		sdr_mp_strafe_to_exposed_r_foot_forward		
+
+		jump_scrub: scrub1d( timerange="0,20", timevalue=[jump_scrub_value] ) //complete
+		{
+			#jump_anim_slot
+		}
+		
+		jump_land_scrub: scrub1d( timerange="0,20", timevalue=[jump_land_scrub_value] ) //complete
+		{
+			#jump_land_anim_slot
+		}
+		weapon_prone_flat_scrub: scrub1d( timerange="0,360", timevalue=[weapon_aim_scrub_value] ) //complete 
+		{
+			proneflatcrap:
+			{
+				#weapon_prone_flat_anim_slot	
+			}
+	}		
+		
+	//end movement		
+	}
+	
+	slopes_add: additive
+	{
+		slopes_blend: blendspace1d( range="-180,180", blend_time="0",
+		coords="-179,-135,-90,-45,0,45,90,135,180",
+		value=[slopes_blend_value] ) nonloopsync complete
+		{
+			sdr_mp_slope_stand_2
+			sdr_mp_slope_stand_1
+			sdr_mp_slope_stand_4
+			sdr_mp_slope_stand_7
+			sdr_mp_slope_stand_8
+			sdr_mp_slope_stand_9
+			sdr_mp_slope_stand_6
+			sdr_mp_slope_stand_3
+			sdr_mp_slope_stand_2@1
+		}
+		
+		slopes_jog_blend: blendspace1d( range="-180,180", blend_time="0",
+		coords="-180,-135,-90,-45,0,45,90,135,180",
+		value=[slopes_jog_blend_value] ) complete
+		{
+			sdr_mp_slope_down_jog_2
+			sdr_mp_slope_down_jog_3
+			sdr_mp_slope_down_jog_6
+			sdr_mp_slope_down_jog_9
+			sdr_mp_slope_down_jog_8
+			sdr_mp_slope_down_jog_7
+			sdr_mp_slope_down_jog_4
+			sdr_mp_slope_down_jog_1
+			sdr_mp_slope_down_jog_2@1
+		}
+		slopes_scrub: scrub1d( timerange="1,361", timevalue=[slopes_scrub_direction] ) //complete 
+		{
+			slopescrubcrap:
+			{
+				sdr_mp_slope_down_jog_circle		
+			}
+		}
+	//end slopes	
+	}
+	
+	
+	jump_takeoff_blend: blendspace1d( range="0,220", blend_time="100",
+	coords="0,35,100,220",
+	value=[jump_takeoff_blend_x] ) nonloopsync complete
+	{
+		sdr_mp_stand_jump_takeoff
+		sdr_mp_walk_jump_takeoff
+		sdr_mp_jog_jump_takeoff
+		sdr_mp_sprint_jump_takeoff
+	}	
+	
+	jump_inair_blend: blendspace1d( range="0,220", blend_time="100",
+	coords="0,35,100,220",
+	value=[jump_inair_blend_x] ) loopsync complete
+	{
+		sdr_mp_stand_jump_air
+		sdr_mp_jog_jump_air
+		sdr_mp_walk_jump_air
+		sdr_mp_sprint_jump_air
+	}
+	
+	jump_land_blend: blendspace1d( range="0,220", blend_time="100",
+	coords="0,35,100,220",
+	value=[jump_land_blend_x] ) nonloopsync complete
+	{
+		sdr_mp_stand_jump_land
+		sdr_mp_walk_jump_land
+		sdr_mp_jog_jump_land
+		sdr_mp_sprint_jump_land
+	}
+	
+	reload: overlay
+	{
+		#reload_anim_slot
+	}
+	
+	
+	draw: overlay
+	{
+		#draw_anim_slot
+	}
+	
+
+	
+	weapon_adjust: additive
+	{
+		#weapon_adjust_anim_slot
+	}
+	
+	weapon_aim: additive
+	{
+		weapon_aim_scrub: scrub1d( timerange="0,1", timevalue=[weapon_aim_scrub_value] ) //complete 
+		{
+			crap:
+			{
+				#weapon_aim_anim_slot		
+			}
+		}		
+	}
+	
+	weapon_prone_aim_scrub: overlay scrub1d( timerange="0,360", timevalue=[weapon_aim_scrub_value] ) //complete 
+	{
+		proneaimcrap:
+		{
+			#weapon_prone_aim_anim_slot	
+		}
+	}
+	
+//	prone_aim: blendspace1d( range="-180,180", blend_time="100",
+//	coords="-180,-135,-90,-45,0,45,90,135,180",
+//	value=[prone_aim_x] ) loopsync complete
+//	{
+//		sdr_mp_aims_ar_circle_prone_2
+//		sdr_mp_aims_ar_circle_prone_3
+//		sdr_mp_aims_ar_circle_prone_6
+//		sdr_mp_aims_ar_circle_prone_9
+//		sdr_mp_aims_ar_circle_prone_8
+//		sdr_mp_aims_ar_circle_prone_7
+//		sdr_mp_aims_ar_circle_prone_4
+//		sdr_mp_aims_ar_circle_prone_1
+//		sdr_mp_aims_ar_circle_prone_2b
+//	}
+		
+	
+	fire: additive
+	{
+		#weaponfire_anim_slot
+	}
+	
+	melee: overlay
+	{
+		#melee_anim_slot
+	}
+	
+
+	
+	scripted_talking : clientonly
+	{
+		generic_talker_axis
+		generic_talker_allies
+	}
+	
+	head : clientonly
+	{
+		facial_idle_1
+	}
+	exposed_aiming 
+	{
+		aim_2 : additive
+		{
+			exposed_aim_2
+		}
+		aim_4 : additive
+		{
+			exposed_aim_4
+		}
+		aim_6 : additive
+		{
+			exposed_aim_6
+		}
+		aim_8 : additive
+		{
+			exposed_aim_8
+		}
+	}
+	
+	inner_root
+	{
+	}
+	
+}
+
+fingers:
+{
+	ik_fingers_l : clientonly overlay
+	{
+		#ik_fingers_l_anim_slot		
+	}
+	
+	ik_fingers_r: clientonly overlay
+	{
+		#ik_fingers_r_anim_slot
+	}
+}
+
+ik_foot_antislide : clientonly ik_antislide( ik_antislide_speed=[ik_antislide_speed]  )
+{
+	
+}
+
+
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,47 @@
+///////////////////////////////////////////////////////////////////////////
+//Animation Blender
+//These assests are used in the animation blender test level to test blending of additive animations
+//This file is generated from the Animation Blender tool
+///////////////////////////////////////////////////////////////////////////
+animblender
+{
+strafe_forward: blendspace2d( rangex="-180,180", rangey="0,255", blend_time="100",
+coords="{-135,24},{-90,19},{-45,23},{0,25},{45,24},{90,23},{135,23},{-135,56},{-90,64},{-45,65},{0,57},{45,60},{90,56},{135,52},{-135,105},{-90,116},{-45,123},{0,123},{45,123},{90,111},{135,105},{-135,250},{-90,250},{-45,250},{0,250},{45,250},{90,250},{135,250}",
+edges="{0,1,7},{1,7,8},{1,2,8},{2,8,9},{2,3,9},{3,9,10},{7,8,14},{8,14,15},{8,9,15},{9,15,16},{9,10,16},{10,16,17},{14,15,21},{15,21,22},{15,16,22},{16,22,23},{16,17,23},{17,23,24},{17,24,25},{17,18,25},{10,17,18},{10,11,18},{3,10,11},{3,4,11},{4,11,12},{4,5,12},{5,12,13},{5,6,13},{12,13,20},{12,19,20},{11,12,19},{11,18,19},{18,25,26},{18,19,26},{19,26,27},{19,20,27}",
+valuex=[strafe_forward_x], valuey=[strafe_forward_y] ) loopsync complete
+{
+	sdr_cqb_strafe_shuffle_3_alt
+	sdr_cqb_strafe_shuffle_6
+	sdr_cqb_strafe_shuffle_9
+	sdr_cqb_strafe_shuffle_8
+	sdr_cqb_strafe_shuffle_7
+	sdr_cqb_strafe_shuffle_4
+	sdr_cqb_strafe_shuffle_1
+	sdr_cqb_strafe_walk_3_alt
+	sdr_cqb_strafe_walk_6
+	sdr_cqb_strafe_walk_9
+	sdr_cqb_strafe_walk_8
+	sdr_cqb_strafe_walk_7
+	sdr_cqb_strafe_walk_4
+	sdr_cqb_strafe_walk_1
+	sdr_cqb_strafe_fast_3_alt
+	sdr_cqb_strafe_fast_6
+	sdr_cqb_strafe_fast_9
+	sdr_cqb_strafe_fast_8
+	sdr_cqb_strafe_fast_7
+	sdr_cqb_strafe_fast_4
+	sdr_cqb_strafe_fast_1
+	sdr_cqb_strafe_fast_3_alt_max
+	sdr_cqb_strafe_fast_6_max
+	sdr_cqb_strafe_fast_9_max
+	sdr_cqb_strafe_fast_8_max
+	sdr_cqb_strafe_fast_7_max
+	sdr_cqb_strafe_fast_4_max
+	sdr_cqb_strafe_fast_1_max
+}
+}
+crap: //a dummy node used by the asm for pre-defined slots like facial, root, etc.
+{
+}
+///////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////

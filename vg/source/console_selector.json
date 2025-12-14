@@ -1,0 +1,74 @@
+{
+  "presets": {
+    "motionBlur_presets": "medium"
+  },
+  "overrides": {
+    "vars": {
+      "AsyncCompute": 1
+    }
+  },
+  "vendors": [
+    {
+      "vendor_strings": [
+        "sony"
+      ],
+      "models": [
+        {
+          "name": "ps4",
+          "presets": {
+            "console_presets": "ps4"
+          },
+          "submodels": [
+            {
+              "exactmatch": "orbis"
+            },
+            {
+              "exactmatch": "neo"
+            }
+          ]
+        },
+        {
+          "name": "ps5",
+          "presets": {
+            "console_presets": "ps5"
+          }
+        }
+      ]
+    },
+    {
+      "vendor_strings": [
+        "microsoft"
+      ],
+      "models": [
+        {
+          "name": "xb3",
+          "presets": {
+            "console_presets": "xb3"
+          },
+          "submodels": [
+            {
+              "exactmatch": "scorpio"
+            },
+            {
+              "exactmatch": "durango"
+            }
+          ]
+        },
+        {
+          "name": "xb4",
+          "presets": {
+            "console_presets": "xb4"
+          },
+          "submodels": [
+            {
+              "exactmatch": "lockhart"
+            },
+            {
+              "exactmatch": "anaconda"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

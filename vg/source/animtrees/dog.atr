@@ -1,0 +1,368 @@
+%lod_distances ( 
+	650,	// fingers, facial anims
+	800,	// IK, antislide
+	1000,	// procedural/dynamic
+)
+
+body
+{
+	#default
+	
+	dog_idle_knob
+	{
+		iw6_dog_casualidle
+		iw6_dog_casualidle_turn_2
+		iw6_dog_casualidle_turn_4
+		iw6_dog_casualidle_turn_6
+
+		//iw6_dog_attackidle
+		//Replaced Idle, will clean out
+		s4_dog_combat_idle_a
+		s4_dog_combat_idle_b
+		s4_dog_combat_idle_c
+		s4_dog_combat_idle_d
+		
+		s4_dog_combat_bark
+		s4_dog_sniff_idle
+		
+		iw6_dog_attackidle_turn_2
+		iw6_dog_attackidle_turn_4
+		iw6_dog_attackidle_turn_6
+		iw6_dog_attackidle_bark
+
+		iw6_dog_sniff_idle
+	}
+	
+	s4_dog_combat_sharp_turn
+	{
+		s4_dog_combat_sharp_turn_1
+		s4_dog_combat_sharp_turn_2_l
+		s4_dog_combat_sharp_turn_2_r
+		s4_dog_combat_sharp_turn_3
+		s4_dog_combat_sharp_turn_4
+		s4_dog_combat_sharp_turn_6
+		
+		//To Delete
+		//iw6_dog_run_turn_1
+		//iw6_dog_run_turn_2
+		//iw6_dog_run_turn_3
+		//iw6_dog_run_turn_4
+		//iw6_dog_run_turn_6
+		//iw6_dog_run_turn_7
+		//iw6_dog_run_turn_9
+
+		//To Delete
+		//iw6_dog_run_quickturn_1
+		//iw6_dog_run_quickturn_2
+		//iw6_dog_run_quickturn_3
+		//iw6_dog_run_quickturn_4
+		//iw6_dog_run_quickturn_6
+		//iw6_dog_run_quickturn_7
+		//iw6_dog_run_quickturn_9
+
+	}
+	
+	s4_dog_combat_stand_turn
+	{
+		s4_dog_combat_stand_turn_1
+		s4_dog_combat_stand_turn_2_l
+		s4_dog_combat_stand_turn_2_r
+		s4_dog_combat_stand_turn_3
+		s4_dog_combat_stand_turn_4
+		s4_dog_combat_stand_turn_6
+		s4_dog_combat_stand_turn_7
+		s4_dog_combat_stand_turn_9
+	}
+
+	dog_move
+	{
+		bs_dog_move: blendspace2d( rangex="1,300", rangey="-180,180", blend_time="250", //(time in Milliseconds)
+		coords="{1,0},{55,0},{56,0},{106,0},{107,0},{240,0},{245,0},{300,0},{1,-90},{55,-90},{1,90},{55,90},{1,-180},{55,-180},{1,180},{55,180},{56,-90},{106,-90},{56,90},{106,90},{56,-180},{106,-180},{56,180},{106,180},{107,-90},{240,-90},{107,90},{240,90},{107,-180},{240,-180},{107,180},{240,180},{245,-90},{300,-90},{245,90},{300,90},{245,-180},{300,-180},{245,180},{300,180}",
+		edges="{0,1,9},{0,1,11},{2,3,17},{2,3,19},{0,8,9},{8,9,13},{8,12,13},{0,10,11},{10,11,15},{10,14,15},{2,16,17},{2,18,19},{16,17,21},{16,20,21},{18,19,23},{18,22,23},{4,5,25},{4,5,27},{4,24,25},{4,26,27},{26,27,31},{26,30,31},{24,28,29},{24,25,29},{6,7,33},{6,7,35},{6,32,33},{6,34,35},{32,33,37},{32,36,37},{34,35,39},{34,38,39}",
+		valuex=[desiredspeed], valuey=[bsparam_angle_to_dest] ) loopsync complete
+		{
+			s4_dog_move_walk
+			s4_dog_move_walk@2
+			s4_dog_move_trot
+			s4_dog_move_trot@2
+			s4_dog_move_canter
+			s4_dog_move_canter@2
+			s4_dog_move_gallop
+			s4_dog_move_gallop@2
+			s4_dog_move_walk_turn_90l
+			s4_dog_move_walk_turn_90l@2
+			s4_dog_move_walk_turn_90r
+			s4_dog_move_walk_turn_90r@2
+			s4_dog_move_walk_turn_180l
+			s4_dog_move_walk_turn_180l@2
+			s4_dog_move_walk_turn_180r
+			s4_dog_move_walk_turn_180r@2
+			s4_dog_move_trot_turn_90l
+			s4_dog_move_trot_turn_90l@2
+			s4_dog_move_trot_turn_90r
+			s4_dog_move_trot_turn_90r@2
+			s4_dog_move_trot_turn_180l
+			s4_dog_move_trot_turn_180l@2
+			s4_dog_move_trot_turn_180r
+			s4_dog_move_trot_turn_180r@2
+			s4_dog_move_canter_turn_90l
+			s4_dog_move_canter_turn_90l@2
+			s4_dog_move_canter_turn_90r
+			s4_dog_move_canter_turn_90r@2
+			s4_dog_move_canter_turn_180l
+			s4_dog_move_canter_turn_180l@2
+			s4_dog_move_canter_turn_180r
+			s4_dog_move_canter_turn_180r@2
+			s4_dog_move_gallop_90l
+			s4_dog_move_gallop_90l@2
+			s4_dog_move_gallop_90r
+			s4_dog_move_gallop_90r@2
+			s4_dog_move_gallop_180l
+			s4_dog_move_gallop_180l@2
+			s4_dog_move_gallop_180r
+			s4_dog_move_gallop_180r@2
+		}
+
+		dog_run : loopsync
+		{
+			iw6_dog_run
+			iw6_dog_sprint
+		}
+
+
+		dog_walk
+		{
+			iw6_dog_walk
+			iw6_dog_fastwalk
+		}
+
+		//iw6_dog
+
+		s4_dog_combat_arrival
+		{
+			s4_dog_combat_arrival_1
+			s4_dog_combat_arrival_2
+			s4_dog_combat_arrival_3
+			s4_dog_combat_arrival_4
+			s4_dog_combat_arrival_6
+			s4_dog_combat_arrival_7
+			s4_dog_combat_arrival_8
+			s4_dog_combat_arrival_9
+			
+			//To Delete
+			//iw6_dog_attackidle_runin_1
+			//iw6_dog_attackidle_runin_2
+			//iw6_dog_attackidle_runin_3
+			//iw6_dog_attackidle_runin_4
+			//iw6_dog_attackidle_runin_6
+			//iw6_dog_attackidle_runin_7
+			//iw6_dog_attackidle_runin_8
+			//iw6_dog_attackidle_runin_9
+
+		}
+
+		s4_dog_combat_exit
+		{
+			s4_dog_combat_exit_1
+			s4_dog_combat_exit_2
+			s4_dog_combat_exit_3
+			s4_dog_combat_exit_4
+			s4_dog_combat_exit_6
+			s4_dog_combat_exit_7
+			s4_dog_combat_exit_8
+			s4_dog_combat_exit_9
+			
+			//To Delete
+			//iw6_dog_attackidle_runout_1
+			//iw6_dog_attackidle_runout_2
+			//iw6_dog_attackidle_runout_3
+			//iw6_dog_attackidle_runout_4
+			//iw6_dog_attackidle_runout_6
+			//iw6_dog_attackidle_runout_7
+			//iw6_dog_attackidle_runout_8
+			//iw6_dog_attackidle_runout_9
+		}
+
+
+		s4_dog_pain_reaction
+		{
+			//iw6_dog_alertidle_pain_4
+			//iw6_dog_alertidle_pain_6
+			//iw6_dog_run_pain_4
+			//iw6_dog_run_pain_6
+			s4_dog_stand_pain_2
+			s4_dog_stand_pain_4
+			s4_dog_stand_pain_6
+			s4_dog_stand_pain_8
+		}
+		
+	}
+	
+	death
+	{
+		//iw6_dog_death_4
+		//iw6_dog_death_6
+		s4_dog_death_2_a
+		s4_dog_death_2_b
+		s4_dog_death_4
+		s4_dog_death_6
+		s4_dog_death_8
+		s4_dog_death_explosive_2
+		s4_dog_death_explosive_4
+		s4_dog_death_explosive_6
+		s4_dog_death_explosive_8
+		s4_dog_death_flame
+		
+		s4_dog_move_death_r
+		s4_dog_move_death_l
+	}
+
+	//german_shepherd_run_jump_40
+	//german_shepherd_run_jump_window_40
+	//german_shepherd_run_pain
+	german_shepherd_run_flashbang_b
+	//german_shepherd_traverse_down_40
+	//german_shepherd_traverse_up_40
+	german_shepherd_sleeping
+	german_shepherd_wakeup_slow
+	german_shepherd_wakeup_fast
+	
+	s4_dog_traversal
+	{
+	//Old iw6 Assets clean out when done
+	//iw6_dog_traverse_down_24
+	//iw6_dog_traverse_over_24
+	//iw6_dog_traverse_over_36
+	//iw6_dog_traverse_up_24
+	//iw6_dog_traverse_up_40
+	//iw6_dog_traverse_down_40
+	//iw6_dog_traverse_up_70
+	//iw6_dog_traverse_down_70
+	
+	//TEMP Placeholder
+	s4_placeholder_dog_traverse_down_70
+	s4_placeholder_dog_traverse_over_36
+	s4_placeholder_dog_traverse_up_70
+	
+	//Over
+	s4_dog_traverse_canter_step_over
+	s4_dog_traverse_canter_step_over_intro
+	s4_dog_traverse_canter_vault_over_sm
+	s4_dog_traverse_canter_vault_over_sm_intro
+	s4_dog_traverse_canter_vault_over_md_a
+	s4_dog_traverse_canter_vault_over_md_a_intro
+	s4_dog_traverse_canter_vault_over_md_b
+	s4_dog_traverse_canter_vault_over_md_b_intro
+	s4_dog_traverse_canter_vault_over_lg
+	s4_dog_traverse_canter_vault_over_lg_intro
+	s4_dog_traverse_canter_vault_over_xlg
+	s4_dog_traverse_canter_vault_over_xlg_intro
+	s4_dog_traverse_walk_step_over
+	s4_dog_traverse_walk_step_over_intro
+	s4_dog_traverse_walk_vault_over_sm
+	s4_dog_traverse_walk_vault_over_sm_intro
+	s4_dog_traverse_walk_vault_over_md
+	s4_dog_traverse_walk_vault_over_md_intro
+	
+	//Mantle Up
+	s4_dog_traverse_canter_mantle_up_sm
+	s4_dog_traverse_canter_mantle_up_sm_intro
+	s4_dog_traverse_canter_mantle_up_md
+	s4_dog_traverse_canter_mantle_up_md_intro
+	s4_dog_traverse_canter_mantle_up_lg
+	s4_dog_traverse_canter_mantle_up_lg_intro
+	
+	//Down
+	s4_dog_traverse_canter_mantle_down_sm
+	s4_dog_traverse_canter_mantle_down_sm_intro
+	s4_dog_traverse_canter_mantle_down_md
+	s4_dog_traverse_canter_mantle_down_md_intro
+	s4_dog_traverse_canter_mantle_down_lg
+	s4_dog_traverse_canter_mantle_down_lg_intro
+	
+	//Jump Across
+	s4_dog_traverse_canter_jump_across
+	s4_dog_traverse_canter_jump_across_intro
+	
+	
+	}
+	
+	s4_dog_kill
+	{
+	s4_dog_attack_leap_f
+	s4_dog_attack_med_f
+	s4_dog_attack_short_f
+	s4_dog_attack_stand_f
+	//iw6_dog_kill_back_quick_1
+	//iw6_dog_kill_front_quick_1
+	//iw6_dog_kill_left_quick_1
+	//iw6_dog_kill_right_quick_1
+	}
+	
+	//Additive Dog Slope Blendspace
+	//
+	//Includes Both pitch and roll up to 45 degrees in any direction (30 in diagonal)
+	slope : additive
+	{	
+			slope_pitch_roll_blendspace: blendspace2d( rangex="-45,45", rangey="-45,45", blend_time="250",//(time in Milliseconds)
+			coords="{45,0},{33,0},{30,-30},{30,30},{0,-33},{0,-45},{-10,0},{10,0},{0,10},{0,-10},{0,0},{0,33},{0,45},{-33,0},{-30,-30},{-30,30},{-45,0}",
+			edges="{1,0,3},{1,0,2},{16,13,14},{16,13,15},{11,15,12},{3,11,12},{4,14,5},{2,4,5},{4,9,14},{2,4,9},{6,13,14},{6,13,15},{8,11,15},{3,8,11},{1,2,7},{1,3,7},{2,7,9},{6,9,14},{6,8,15},{3,7,8},{6,8,10},{7,8,10},{7,9,10},{6,9,10}",
+			valuex=[groundslopepitch], valuey=[groundsloperoll] ) complete
+			{
+				s4_dog_move_slope_up_lg
+				s4_dog_move_slope_up_sm
+				s4_dog_move_slope_up_right_sm
+				s4_dog_move_slope_up_left_sm
+				s4_dog_move_slope_right_sm
+				s4_dog_move_slope_right_lg
+				s4_dog_move_slope_level
+				s4_dog_move_slope_level@1
+				s4_dog_move_slope_level@2
+				s4_dog_move_slope_level@3
+				s4_dog_move_slope_level@4
+				s4_dog_move_slope_left_sm
+				s4_dog_move_slope_left_lg
+				s4_dog_move_slope_down_sm
+				s4_dog_move_slope_down_right_sm
+				s4_dog_move_slope_down_left_sm
+				s4_dog_move_slope_down_lg
+			}
+	}
+	
+	
+}
+
+head
+{
+}
+
+goat
+{
+	mp_faridah_infil_goat_1
+	mp_faridah_infil_goat_2
+	mp_faridah_infil_goat_3
+	mp_faridah_infil_goat_4
+	mp_faridah_infil_goat_5
+	mp_faridah_infil_dog_01
+}
+
+//prologue
+
+s4_prl_bark_dog
+s4_prl_train_jumpscare_dog01
+s4_prl_train_pacing_dog01
+
+
+// Post-process nodes  [Copied from generic_human.atr]
+
+ik_node : ik_node ( ) lod_cull(1)
+{
+}
+
+ragdoll : public clientauth ragdoll (ragdoll_handle=[entity_ragdoll_handle])
+{
+}
+
+proc_node : public proc_node () lod_cull(2)
+{	
+}

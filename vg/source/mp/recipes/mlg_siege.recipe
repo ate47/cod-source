@@ -1,0 +1,360 @@
+gametype = siege
+commonOption.timeLimit = 2.000000
+commonOption.scoreLimit = 1
+commonOption.roundLimit = 0
+commonOption.winLimit = 4
+commonOption.roundSwitch = 1
+commonOption.winByTwoEnabled = 0
+commonOption.winByTwoMaxRounds = 8
+
+commonOption.allowKillstreaks = 1
+commonOption.allowPerks = 1
+commonOption.allowSupers = 1
+commonOption.superFastChargeRate = 1
+commonOption.superPointsMod = 1
+commonOption.doubleJumpEnabled = 1
+commonOption.wallRunEnabled = 1
+commonOption.forceRespawn = 1
+commonOption.showKillcam = 1
+commonOption.healthRegen = 5.000000
+commonOption.maxHealth = 100.000000
+commonOption.numLives = 1
+commonOption.spectateModeAllowed = 1
+commonOption.interactiveMapDisabled = 0
+commonOption.dynamicMapElementsDisabled = 1
+commonOption.ffPunishLimit = 2
+commonOption.spectate3rdAllowed = 1
+commonOption.teamAssignmentAllowed = 1
+commonOption.tacticalMode = 0
+commonOption.bulletBounce = 0
+commonOption.disableSuppressiveFire = 1
+commonOption.disableCombatFog = 1
+commonOption.disableDestructibleWalls = 0
+
+siegeData.rushTimer = 1
+siegeData.rushTimerAmount = 45.00000
+siegeData.sharedRushTimer = 0
+siegeData.preCapPoints = 0
+siegeData.capRate = 7.5
+
+//=======================================================================================================================================
+
+//Weapon Categories(not functional)
+commonOption.weaponClassRestricted.weapon_assault = 0
+commonOption.weaponClassRestricted.weapon_smg = 0
+commonOption.weaponClassRestricted.weapon_shotgun = 1
+commonOption.weaponClassRestricted.weapon_lmg = 1
+commonOption.weaponClassRestricted.weapon_dmr = 0
+commonOption.weaponClassRestricted.weapon_sniper = 0
+commonOption.weaponClassRestricted.weapon_pistol = 0
+commonOption.weaponClassRestricted.weapon_projectile = 1
+commonOption.weaponClassRestricted.weapon_melee = 1
+commonOption.weaponClassRestricted.weapon_melee2 = 0
+
+//ARs
+commonOption.weaponRestricted.s4_ar_asierra44 = 0
+commonOption.weaponRestricted.s4_ar_bromeopg = 0
+commonOption.weaponRestricted.s4_ar_chotel15 = 0
+commonOption.weaponRestricted.s4_ar_balpha = 0
+commonOption.weaponRestricted.s4_ar_chotel41 = 0
+commonOption.weaponRestricted.s4_ar_stango44 = 0
+commonOption.weaponRestricted.s4_ar_voscar = 0
+commonOption.weaponRestricted.s4_ar_fecho = 0
+
+//SMGs
+commonOption.weaponRestricted.s4_sm_thotel = 0
+commonOption.weaponRestricted.s4_sm_tyankee100 = 0
+commonOption.weaponRestricted.s4_sm_stango5 = 0
+commonOption.weaponRestricted.s4_sm_mpapa40 = 0
+commonOption.weaponRestricted.s4_sm_ppapa41 = 0
+commonOption.weaponRestricted.s4_sm_owhiskey = 0
+
+//Shotguns
+commonOption.weaponRestricted.s4_sh_becho = 1
+commonOption.weaponRestricted.s4_sh_bromeo5 = 1
+commonOption.weaponRestricted.s4_sh_lindia98 = 1
+commonOption.weaponRestricted.s4_sh_mike97 = 1
+
+//LMGs
+commonOption.weaponRestricted.s4_mg_dpapa27 = 1
+commonOption.weaponRestricted.s4_mg_bromeo37 = 1
+commonOption.weaponRestricted.s4_mg_mgolf42 = 1
+commonOption.weaponRestricted.s4_mg_tyankee11 = 1
+
+//Marksman Rifles
+commonOption.weaponRestricted.s4_mr_m1golf = 0
+commonOption.weaponRestricted.s4_mr_svictor40 = 0
+commonOption.weaponRestricted.s4_mr_gecho43 = 0
+
+//Sniper Rifles
+commonOption.weaponRestricted.s4_mr_moscar = 0
+commonOption.weaponRestricted.s4_mr_aromeo99 = 0
+commonOption.weaponRestricted.s4_mr_kalpha98 = 0
+
+//Melee
+commonOption.weaponRestricted.s4_me_rindigo = 1
+commonOption.weaponRestricted.s4_me_knife = 0
+
+//Pistols
+commonOption.weaponRestricted.s4_pi_luniform08 = 0
+commonOption.weaponRestricted.s4_pi_mike1911 = 0
+commonOption.weaponRestricted.s4_pi_malpha96 = 0
+commonOption.weaponRestricted.s4_pi_ttango33 = 0
+commonOption.weaponRestricted.s4_pi_wecho = 0
+
+//Launchers
+commonOption.weaponRestricted.s4_la_m1bravo = 1
+commonOption.weaponRestricted.s4_la_palpha = 1
+commonOption.weaponRestricted.s4_la_mkilo1 = 1
+commonOption.weaponRestricted.s4_la_palpha42 = 1
+commonOption.weaponRestricted.s4_la_mkilo1_mp = 1
+
+//ATTACHMENTS AVAILABLE AT THE BOTTOM SECTION OF THIS FILE
+
+//Lethals
+commonOption.equipmentRestricted.equip_frag = 0
+commonOption.equipmentRestricted.equip_gammon_bomb = 0
+commonOption.equipmentRestricted.equip_c4 = 1
+commonOption.equipmentRestricted.equip_molotov = 1
+commonOption.equipmentRestricted.equip_thermite = 1
+commonOption.equipmentRestricted.equip_throwing_knife = 1
+
+//Tacticals
+commonOption.equipmentRestricted.equip_concussion = 0
+commonOption.equipmentRestricted.equip_smoke = 0
+commonOption.equipmentRestricted.equip_gas_grenade = 1
+commonOption.equipmentRestricted.equip_adrenaline = 1
+commonOption.equipmentRestricted.equip_decoy = 1
+commonOption.equipmentRestricted.equip_at_mine_stun = 1
+
+//S4 Perks
+commonOption.perkRestricted.specialty_scout = 1
+commonOption.perkRestricted.specialty_vanguard = 0
+commonOption.perkRestricted.specialty_low_profile = 1
+commonOption.perkRestricted.specialty_coolheaded = 0
+commonOption.perkRestricted.specialty_dauntless = 1
+commonOption.perkRestricted.specialty_tac_mask = 0
+commonOption.perkRestricted.specialty_surveillance = 1
+commonOption.perkRestricted.specialty_tactical_recon = 0
+commonOption.perkRestricted.specialty_code_breaker = 1
+commonOption.perkRestricted.specialty_huntmaster = 1
+commonOption.perkRestricted.specialty_piercing_vision = 1
+commonOption.perkRestricted.specialty_asdic = 0
+commonOption.perkRestricted.specialty_munitions_2 = 1
+commonOption.perkRestricted.specialty_van_demolition = 1
+commonOption.perkRestricted.specialty_tactician = 1
+commonOption.perkRestricted.specialty_hustle = 0
+commonOption.perkRestricted.specialty_van_lightweight = 0
+commonOption.perkRestricted.specialty_scavenger_plus = 0
+
+//S4 Killstreaks
+commonOption.killstreakRestricted.intel = 1
+commonOption.killstreakRestricted.lmg_streak = 1
+commonOption.killstreakRestricted.airdrop = 1
+commonOption.killstreakRestricted.counter_spy_plane = 1
+commonOption.killstreakRestricted.uav = 1
+commonOption.killstreakRestricted.glide_bomb = 0
+commonOption.killstreakRestricted.guard_dog = 1
+commonOption.killstreakRestricted.mortar_barrage = 1
+commonOption.killstreakRestricted.precision_airstrike = 0	
+commonOption.killstreakRestricted.warmachine = 1
+commonOption.killstreakRestricted.toma_strike = 0
+commonOption.killstreakRestricted.airdrop_multiple = 1
+commonOption.killstreakRestricted.juggernaut = 1
+commonOption.killstreakRestricted.white_phosphorus = 1
+commonOption.killstreakRestricted.attack_dogs = 1
+commonOption.killstreakRestricted.air_superiority = 1
+commonOption.killstreakRestricted.directional_uav = 1
+commonOption.killstreakRestricted.ball_turret_gunner = 1
+commonOption.killstreakRestricted.paratroopers = 1
+commonOption.killstreakRestricted.nuke = 1
+
+//Field Upgrades
+commonOption.superRestricted.super_equipment_resupply_drop = 0
+commonOption.superRestricted.super_tac_insert = 1
+commonOption.superRestricted.super_preserve_killstreak_drop = 1
+commonOption.superRestricted.super_steel_bib = 1
+commonOption.superRestricted.super_pac_sentry = 1
+commonOption.superRestricted.super_field_mic = 1
+commonOption.superRestricted.super_jammer = 1
+commonOption.superRestricted.super_tac_cover = 1
+commonOption.superRestricted.super_deadsilence = 0
+
+//=======================================================================================================================================
+
+//S4 Attachments
+//Attachments Optics															//1 OPTIC MISSING
+commonOption.attachmentRestricted.acog = 0
+commonOption.attachmentRestricted.acog2 = 0
+commonOption.attachmentRestricted.acog4 = 0
+commonOption.attachmentRestricted.holo = 0
+commonOption.attachmentRestricted.holo2 = 0
+commonOption.attachmentRestricted.holo3 = 0
+commonOption.attachmentRestricted.hybrid = 0
+commonOption.attachmentRestricted.hybrid2 = 0
+commonOption.attachmentRestricted.hybrid4 = 0
+commonOption.attachmentRestricted.reflex = 0
+commonOption.attachmentRestricted.reflex2 = 0
+commonOption.attachmentRestricted.reflex3 = 0
+commonOption.attachmentRestricted.reflex4 = 0
+commonOption.attachmentRestricted.reflex5 = 0
+commonOption.attachmentRestricted.reflexmini = 0
+commonOption.attachmentRestricted.reflexmini2 = 0
+commonOption.attachmentRestricted.reflexmini3 = 0
+commonOption.attachmentRestricted.scope = 0
+commonOption.attachmentRestricted.scopelight = 0
+commonOption.attachmentRestricted.scopenorail = 0
+commonOption.attachmentRestricted.scopenvg = 1
+commonOption.attachmentRestricted.vzscope = 0
+commonOption.attachmentRestricted.vzscope2 = 0
+commonOption.attachmentRestricted.ironsight = 0
+
+//Attachments Muzzles
+commonOption.attachmentRestricted.brake = 0
+commonOption.attachmentRestricted.silencer = 1
+commonOption.attachmentRestricted.silencer2 = 1
+commonOption.attachmentRestricted.choke = 0
+commonOption.attachmentRestricted.comp = 0
+commonOption.attachmentRestricted.flashhider = 0
+commonOption.attachmentRestricted.muzzlecust = 0
+
+//Attachments Barrels
+commonOption.attachmentRestricted.barcust = 0
+commonOption.attachmentRestricted.barcust2 = 0
+commonOption.attachmentRestricted.barcustnoguard = 0
+commonOption.attachmentRestricted.barextra = 0
+commonOption.attachmentRestricted.barlight = 0
+commonOption.attachmentRestricted.barlong = 0
+commonOption.attachmentRestricted.barmid = 0
+commonOption.attachmentRestricted.barshort = 0
+commonOption.attachmentRestricted.barshortnoguard = 0
+commonOption.attachmentRestricted.barsil = 0
+commonOption.attachmentRestricted.barsil2 = 0
+
+//Attachments Fore Grips
+commonOption.attachmentRestricted.bipod = 0
+commonOption.attachmentRestricted.gripang = 0
+commonOption.attachmentRestricted.gripangpro = 0
+commonOption.attachmentRestricted.gripcust = 0
+commonOption.attachmentRestricted.gripcust2 = 0
+commonOption.attachmentRestricted.gripvert = 0
+commonOption.attachmentRestricted.gripvertpro = 0
+commonOption.attachmentRestricted.melee = 0
+commonOption.attachmentRestricted.strap = 0
+commonOption.attachmentRestricted.ubcust1 = 0
+
+//Attachments Magazines
+commonOption.attachmentRestricted.ammo_overpacked = 0
+commonOption.attachmentRestricted.calar = 0
+commonOption.attachmentRestricted.calcust = 0
+commonOption.attachmentRestricted.calcust2 = 0
+commonOption.attachmentRestricted.calcustmags = 0
+commonOption.attachmentRestricted.calcustmags2 = 0
+commonOption.attachmentRestricted.calsmg = 0
+commonOption.attachmentRestricted.calsmgdrums = 0
+commonOption.attachmentRestricted.calsnpr = 0
+commonOption.attachmentRestricted.drums = 0
+commonOption.attachmentRestricted.smags = 0
+commonOption.attachmentRestricted.vertmags = 0
+commonOption.attachmentRestricted.vertmags2 = 0
+commonOption.attachmentRestricted.xmags = 0
+commonOption.attachmentRestricted.xmagslrg = 0
+//Extra Pellets Shotguns (Missing)												//NEED TO FIND IDENTIFIER
+
+//Attachments Ammo Types
+commonOption.attachmentRestricted.ammocust1 = 0
+commonOption.attachmentRestricted.ammomod_impact = 0							//MIGHT BE A DUPLICATE/UNUSED
+commonOption.attachmentRestricted.ammomod_incendiary = 1
+commonOption.attachmentRestricted.ammo_packedpowder_pump = 0
+commonOption.attachmentRestricted.ammomod_slow = 0								//MIGHT BE A DUPLICATE/UNUSED
+commonOption.attachmentRestricted.ammomod_wound = 0
+commonOption.attachmentRestricted.bulap = 0
+commonOption.attachmentRestricted.buldamage = 0
+commonOption.attachmentRestricted.bulsilent = 1
+commonOption.attachmentRestricted.fmj = 0
+
+
+//Attachments Rear Grips
+commonOption.attachmentRestricted.pistolgrip01 = 0
+commonOption.attachmentRestricted.pistolgrip02 = 0
+commonOption.attachmentRestricted.pistolgrip03 = 0
+commonOption.attachmentRestricted.pistolgrip04 = 0
+commonOption.attachmentRestricted.pistolgrip05 = 0
+commonOption.attachmentRestricted.pistolgrip06 = 0
+commonOption.attachmentRestricted.pistolgrip07 = 0
+commonOption.attachmentRestricted.pistolgrip08 = 0
+commonOption.attachmentRestricted.pistolgrip09 = 0
+commonOption.attachmentRestricted.pistolgrip10 = 0
+
+//Attachments Stocks
+commonOption.attachmentRestricted.stockcust = 0
+commonOption.attachmentRestricted.stockfold = 0
+commonOption.attachmentRestricted.stockh = 0
+commonOption.attachmentRestricted.stockl = 0
+commonOption.attachmentRestricted.stockmarks = 0
+commonOption.attachmentRestricted.stockno = 0
+commonOption.attachmentRestricted.stockpad = 0
+commonOption.attachmentRestricted.stocks = 0
+commonOption.attachmentRestricted.stockskel = 0
+commonOption.attachmentRestricted.stockt = 0
+commonOption.attachmentRestricted.stockweight = 0
+
+//Attachments Triggers (Pistols only)
+commonOption.attachmentRestricted.trigcust = 0
+commonOption.attachmentRestricted.trigcust02 = 0
+commonOption.attachmentRestricted.trigcust03 = 0
+commonOption.attachmentRestricted.trigcust04 = 0
+commonOption.attachmentRestricted.trigcust05 = 0
+
+//Attachments Gun Perks
+commonOption.attachmentRestricted.gunperk_acquisition = 0
+commonOption.attachmentRestricted.gunperk_acrobatic = 0
+commonOption.attachmentRestricted.gunperk_akimbo = 1
+commonOption.attachmentRestricted.gunperk_assassin = 0							//MIGHT BE A DUPLICATE/UNUSED
+commonOption.attachmentRestricted.gunperk_awareness = 0
+commonOption.attachmentRestricted.gunperk_brace = 0
+commonOption.attachmentRestricted.gunperk_defender = 0
+commonOption.attachmentRestricted.gunperk_disable = 0
+commonOption.attachmentRestricted.gunperk_discard = 0
+commonOption.attachmentRestricted.gunperk_driller = 0
+commonOption.attachmentRestricted.gunperk_fleet = 0
+commonOption.attachmentRestricted.gunperk_fastmelee = 0
+commonOption.attachmentRestricted.fastreload = 0
+commonOption.attachmentRestricted.gunperk_focus = 0
+commonOption.attachmentRestricted.gunperk_frenzy = 0
+commonOption.attachmentRestricted.gunperk_gungho = 0
+commonOption.attachmentRestricted.gunperk_hardmelee = 0
+commonOption.attachmentRestricted.gunperk_hardscope = 0
+commonOption.attachmentRestricted.gunperk_headhunter = 0
+commonOption.attachmentRestricted.gunperk_hipaim = 0							//MIGHT BE A DUPLICATE/UNUSED
+commonOption.attachmentRestricted.gunperk_holdbreath = 0
+commonOption.attachmentRestricted.gunperk_icyveins = 0
+commonOption.attachmentRestricted.maxammo = 0
+commonOption.attachmentRestricted.gunperk_mechanic = 0
+commonOption.attachmentRestricted.gunperk_mobile = 0							//MIGHT BE A DUPLICATE/UNUSED
+commonOption.attachmentRestricted.gunperk_momentum = 0
+commonOption.attachmentRestricted.gunperk_nervesofsteel = 0
+commonOption.attachmentRestricted.gunperk_onhand = 0
+commonOption.attachmentRestricted.gunperk_panic = 0
+commonOption.attachmentRestricted.gunperk_perfectionist = 0
+commonOption.attachmentRestricted.gunperk_pressure = 0
+commonOption.attachmentRestricted.gunperk_quick = 0
+commonOption.attachmentRestricted.gunperk_quickscope = 0
+commonOption.attachmentRestricted.gunperk_reach = 0
+commonOption.attachmentRestricted.gunperk_shellshock = 0
+commonOption.attachmentRestricted.gunperk_shrouded = 0
+commonOption.attachmentRestricted.gunperk_silentfocus = 0
+commonOption.attachmentRestricted.gunperk_spotter = 0
+commonOption.attachmentRestricted.gunperk_steady = 0
+commonOption.attachmentRestricted.gunperk_steadyaim = 0							//MIGHT BE A DUPLICATE/UNUSED
+commonOption.attachmentRestricted.gunperk_stripped = 0							//MIGHT BE A DUPLICATE/UNUSED
+commonOption.attachmentRestricted.gunperk_surplus = 0
+commonOption.attachmentRestricted.gunperk_surveil = 0							//MIGHT BE A DUPLICATE/UNUSED
+commonOption.attachmentRestricted.gunperk_tightgrip = 0
+commonOption.attachmentRestricted.gunperk_unmarked = 0
+commonOption.attachmentRestricted.gunperk_vital = 0
+commonOption.attachmentRestricted.gunperk_wreck = 0
+commonOption.attachmentRestricted.gunperk_xp = 0								//MIGHT BE A DUPLICATE/UNUSED
+
+commonOption.killstreakCost.precision_airstrike = 6
+commonOption.killstreakCost.glide_bomb = 5

@@ -1,0 +1,13 @@
+%force_cs_anim_index_match
+
+gesture_root : overlay unnormalized toggle( index=[gestureindex], clearonnotetrack="finish", clearwhendone="true", restart="true", notifyname="gesture" )
+{
+	civ_ges_exposed_stand_beckon_8
+	civ_ges_exposed_stand_beckon_9
+	civ_ges_exposed_stand_beckon_6
+	civ_ges_exposed_stand_beckon_3
+	civ_ges_exposed_stand_beckon_2
+	civ_ges_exposed_stand_beckon_1
+	civ_ges_exposed_stand_beckon_4
+	civ_ges_exposed_stand_beckon_7
+}

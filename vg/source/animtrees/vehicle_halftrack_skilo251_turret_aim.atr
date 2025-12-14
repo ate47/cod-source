@@ -1,0 +1,8 @@
+%force_cs_anim_index_match
+
+vehicle_halftrack_skilo251_turret_aim : blendspace1d( range="-25,25", blend_time="50", coords="-25,0,25", value=[aim_pitch] )
+{
+		hm_grnd_org_turret_crouch_aim_8
+		hm_grnd_org_turret_crouch_aim_5
+		hm_grnd_org_turret_crouch_aim_2
+}

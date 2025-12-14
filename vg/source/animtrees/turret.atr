@@ -1,0 +1,98 @@
+
+scripted
+{
+	s4_prl_lucas_blowup_halftrack_tankturret
+	s4_prl_lucas_blowup_halftrack_tankturret_idle
+
+}
+
+
+testing
+{
+	cp_raid_intro_decho1_turret_top_getin
+	cp_raid_intro_decho1_turret_top_idle
+	cp_raid_intro_decho1_turret_weapon_getin
+	s4_sum_bombing_idle_turret
+	z_boat_weapon_turret_patrol_idle_fire_test
+	z_boat_weapon_turret_patrol_idle_fire_test_loop
+	mg_50cal_turret_raise_test
+	mg_50cal_turret_raise_test_loop
+
+}
+
+
+
+// ========= turret viewmodel anim start ===========================================
+// NOTE: DO NOT ADD SCRIPTED ANIMATIONS TO THIS 'clientauth' section!!!
+turret_gdt_anims : clientauth
+{
+	mg_50cal_turret_raise
+	mg_50cal_turret_idle
+	mg_50cal_turret_fire	
+	z_boat_weapon_turret_patrol_idle_fire
+	
+	//Turret: 5palpha38
+	s4_btry_5palpha_turret_idle
+	s4_btry_5palpha_turret_fire
+	
+}
+// ========= turret viewmodel anim end ===========================================
+
+
+
+s4_systems_turret
+{
+	
+	//Enters
+	s4_sdr_com_exposed_stand_idle_to_turret_crouch_weapon
+	s4_sdr_com_exposed_stand_idle_to_turret_stand_weapon
+	
+	//Exits
+	s4_turret_crouch_to_exposed_stand_idle_weapon
+	s4_turret_stand_to_exposed_stand_idle_weapon
+	
+	//Deaths
+	s4_turret_crouch_death_head_a_weapon
+	s4_turret_crouch_death_left_arm_a_weapon
+	s4_turret_crouch_death_left_leg_a_weapon
+	s4_turret_crouch_death_right_arm_a_weapon
+	s4_turret_crouch_death_right_leg_a_weapon
+	s4_turret_crouch_death_torso_lower_a_weapon
+	s4_turret_stand_death_head_a_weapon
+	s4_turret_stand_death_left_leg_a_weapon
+	s4_turret_stand_death_right_leg_a_weapon
+	s4_turret_stand_death_torso_lower_a_weapon
+	s4_turret_stand_death_torso_upper_a_weapon
+	s4_turret_stand_death_torso_upper_b_weapon
+	s4_turret_stand_death_torso_upper_c_weapon
+	
+	//Pains
+	s4_turret_crouch_pain_left_arm_a_weapon
+	s4_turret_crouch_pain_right_arm_a_weapon
+	s4_turret_crouch_pain_torso_upper_a_weapon
+	s4_turret_crouch_pain_torso_upper_b_weapon
+	s4_turret_stand_pain_head_a_weapon
+	s4_turret_stand_pain_left_arm_a_weapon
+	s4_turret_stand_pain_left_leg_a_weapon
+	s4_turret_stand_pain_right_arm_a_weapon
+	s4_turret_stand_pain_right_leg_a_weapon
+	
+	//Vehicles
+	//Halftrack Skilo251
+	s4_halftrack_skilo215_gunner_front_enter_2_weapon
+	s4_halftrack_skilo215_gunner_front_enter_4_weapon
+	s4_halftrack_skilo215_gunner_front_enter_6_weapon
+	s4_halftrack_skilo215_gunner_front_exit_4_weapon
+	s4_halftrack_skilo215_gunner_front_exit_6_weapon
+	s4_halftrack_skilo251_turret_enter_2_weapon
+	s4_halftrack_skilo251_turret_exit_4_weapon
+	
+	
+	//Car Tyankee82
+	s4_car_tyankee82_gunner_front_enter_4_weapon
+	s4_car_tyankee82_gunner_front_enter_6_weapon
+	s4_car_tyankee82_gunner_front_exit_4_weapon
+	s4_car_tyankee82_gunner_front_exit_6_weapon
+	
+}
+

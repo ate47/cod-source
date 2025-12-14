@@ -1,0 +1,274 @@
+{
+	"gpu_presets": [
+		{
+			"level": "veryHigh",
+			"vars": {
+				"AutoDetectTargetRes": 4,
+				"TextureFiltering": 3,
+				"SubDivisionLimit": 3,
+				"LimitOfSubdomain": 3,
+				"TessellationLevel": 1,
+				"SkinnedCorpseLimit": 2,
+				"VidMemScale": 1,
+				"LightMapPixelPerTexel": 3,
+				"MaxLightmapLevel": 3,
+				"RoundRobinPrioritySpotShadows": 2,
+				"ReflectionProbeLightingStagesPerFrame": 2,
+				"LodScale": 3,
+				"HalfResEffect": 1,
+				"Marks": 1,
+				"PostAA": 1,
+				"SSRMode": 3,
+				"MbEnableA": 1,
+				"Ssao": 3,
+				"DepthOfField": 1,
+				"SceneResDynamic": 1,
+				"ScreenSpaceShadowQuality": 2,
+				"SunShadowCascades": 1,
+				"SpotShadowQuality": 1,
+				"ParticleQualityLevel": 3,
+				"VolumetricQualityLevel": 2,
+				"GTAOQuality": 3,
+				"SMAAQuality": 3,
+				"LodQualityDrop": 1,
+				"ClutterMaxDist": 1,
+				"LodHQDistance":  1,
+				"ShaderQuality": 0
+			}
+		},
+		{
+			"level": "high",
+			"limits": {
+				"vars": {
+					"ShadowTileResolution": 2
+				}
+			},
+			"vars": {
+				"AutoDetectTargetRes": 2,
+				"TextureFiltering": 3,
+				"SubDivisionLimit": 3,
+				"LimitOfSubdomain": 3,
+				"TessellationLevel": 1,
+				"SkinnedCorpseLimit": 2,
+				"VidMemScale": 1,
+				"LightMapPixelPerTexel": 3,
+				"MaxLightmapLevel": 3,
+				"RoundRobinPrioritySpotShadows": 2,
+				"ReflectionProbeLightingStagesPerFrame": 2,
+				"LodScale": 2,
+				"HalfResEffect": 1,
+				"Marks": 1,
+				"PostAA": 1,
+				"SSRMode": 1,
+				"MbEnableA": 1,
+				"Ssao": 3,
+				"DepthOfField": 1,
+				"SceneResDynamic": 1,
+				"ScreenSpaceShadowQuality": 2,
+				"SunShadowCascades": 1,
+				"SpotShadowQuality": 1,
+				"ParticleQualityLevel": 3,
+				"VolumetricQualityLevel": 2,
+				"GTAOQuality": 1,
+				"SMAAQuality": 1,
+				"LodQualityDrop": 1,
+				"ClutterMaxDist": 1,
+				"LodHQDistance": 1,
+				"ShaderQuality": 0
+			}
+		},
+		{
+			"level": "medium",
+			"limits": {
+				"vars": {
+					"ShadowTileResolution": 2,
+					"Picmip": 2
+				}
+			},
+			"vars": {
+				"AutoDetectTargetRes": 2,
+				"TextureFiltering": 2,
+				"SubDivisionLimit": 2,
+				"LimitOfSubdomain": 2,
+				"TessellationLevel": 1,
+				"SkinnedCorpseLimit": 1,
+				"VidMemScale": 1,
+				"LightMapPixelPerTexel": 2,
+				"MaxLightmapLevel": 2,
+				"RoundRobinPrioritySpotShadows": 1,
+				"ReflectionProbeLightingStagesPerFrame": 1,
+				"LodScale": 2,
+				"HalfResEffect": 1,
+				"Marks": 1,
+				"PostAA": 0,
+				"SSRMode": 0,
+				"MbEnableA": 0,
+				"Ssao": 0,
+				"DepthOfField": 0,
+				"SceneResDynamic": 1,
+				"ScreenSpaceShadowQuality": 1,
+				"SunShadowCascades": 1,
+				"SpotShadowQuality": 0,
+				"ParticleQualityLevel": 2,
+				"VolumetricQualityLevel": 1,
+				"GTAOQuality": 0,
+				"SMAAQuality": 1,
+				"LodQualityDrop": 0,
+				"ClutterMaxDist": 1,
+				"LodHQDistance": 0,
+				"ShaderQuality": 0
+			}
+		},
+		{
+			"level": "low",
+			"limits": {
+				"vars": {
+					"ShadowTileResolution": 1,
+					"Picmip": 1
+				}
+			},
+			"vars": {
+				"AutoDetectTargetRes": 0,
+				"TextureFiltering": 1,
+				"SubDivisionLimit": 1,
+				"LimitOfSubdomain": 1,
+				"TessellationLevel": 1,
+				"SkinnedCorpseLimit": 1,
+				"VidMemScale": 1,
+				"LightMapPixelPerTexel": 1,
+				"MaxLightmapLevel": 1,
+				"RoundRobinPrioritySpotShadows": 0,
+				"ReflectionProbeLightingStagesPerFrame": 0,
+				"LodScale": 0,
+				"HalfResEffect": 0,
+				"Marks": 1,
+				"PostAA": 0,
+				"SSRMode": 0,
+				"MbEnableA": 0,
+				"Ssao": 0,
+				"DepthOfField": 0,
+				"SceneResDynamic": 1,
+				"ScreenSpaceShadowQuality": 0,
+				"SunShadowCascades": 0,
+				"SpotShadowQuality": 0,
+				"ParticleQualityLevel": 1,
+				"VolumetricQualityLevel": 0,
+				"GTAOQuality": 0,
+				"SMAAQuality": 0,
+				"LodQualityDrop": 0,
+				"ClutterMaxDist": 0,
+				"LodHQDistance": 0,
+				"ShaderQuality": 0
+			}
+		},
+		{
+			"level": "veryLow",
+			"limits": {
+				"vars": {
+					"ShadowTileResolution": 1,
+					"Picmip": 1
+				}
+			},
+			"vars": {
+				"AutoDetectTargetRes": 0,
+				"TextureFiltering": 0,
+				"SubDivisionLimit": 0,
+				"LimitOfSubdomain": 0,
+				"TessellationLevel": 0,
+				"SkinnedCorpseLimit": 0,
+				"VidMemScale": 1,
+				"LightMapPixelPerTexel": 0,
+				"MaxLightmapLevel": 0,
+				"RoundRobinPrioritySpotShadows": 0,
+				"ReflectionProbeLightingStagesPerFrame": 0,
+				"LodScale": 0,
+				"HalfResEffect": 0,
+				"Marks": 0,
+				"PostAA": 0,
+				"SSRMode": 0,
+				"MbEnableA": 0,
+				"Ssao": 0,
+				"DepthOfField": 0,
+				"SceneResDynamic": 1,
+				"ScreenSpaceShadowQuality": 0,
+				"SunShadowCascades": 0,
+				"SpotShadowQuality": 0,
+				"ParticleQualityLevel": 0,
+				"VolumetricQualityLevel": 0,
+				"GTAOQuality": 0,
+				"SMAAQuality": 0,
+				"LodQualityDrop": 0,
+				"ClutterMaxDist": 0,
+				"LodHQDistance": 0,
+				"ShaderQuality": 1
+			}
+		}
+	],
+	"vram_presets": [
+		{
+			"level": "veryHigh",
+			"vars": {
+				"UsePrebuiltSpotShadow": 1,
+				"UsePrebuiltSunShadowArchived": 1,
+				"ShadowTileResolution": 4,
+				"Picmip": 3,
+				"SpotCacheSize": 3,
+				"MaxComputeParticle": 2,
+				"SunvisDistantShadowClipmapResolution": 1,
+				"VirtualTexturingMemLargeMode": 1
+			}
+		},
+		{
+			"level": "high",
+			"vars": {
+				"UsePrebuiltSpotShadow": 1,
+				"UsePrebuiltSunShadowArchived": 1,
+				"ShadowTileResolution": 3,
+				"Picmip": 3,
+				"SpotCacheSize": 2,
+				"MaxComputeParticle": 1,
+				"SunvisDistantShadowClipmapResolution": 1,
+				"VirtualTexturingMemLargeMode": 1
+			}
+		},
+		{
+			"level": "medium",
+			"vars": {
+				"UsePrebuiltSpotShadow": 1,
+				"UsePrebuiltSunShadowArchived": 1,
+				"ShadowTileResolution": 2,
+				"Picmip": 2,
+				"SpotCacheSize": 1,
+				"MaxComputeParticle": 1,
+				"SunvisDistantShadowClipmapResolution": 1,
+				"VirtualTexturingMemLargeMode": 0
+			}
+		},
+		{
+			"level": "low",
+			"vars": {
+				"UsePrebuiltSpotShadow": 1,
+				"UsePrebuiltSunShadowArchived": 1,
+				"ShadowTileResolution": 1,
+				"Picmip": 1,
+				"SpotCacheSize": 1,
+				"MaxComputeParticle": 0,
+				"SunvisDistantShadowClipmapResolution": 1,
+				"VirtualTexturingMemLargeMode": 0
+			}
+		},
+		{
+			"level": "none",
+			"vars": {
+				"UsePrebuiltSpotShadow": 1,
+				"UsePrebuiltSunShadowArchived": 1,
+				"ShadowTileResolution": 0,
+				"Picmip": 0,
+				"SpotCacheSize": 0,
+				"MaxComputeParticle": 0,
+				"SunvisDistantShadowClipmapResolution": 0,
+				"VirtualTexturingMemLargeMode": 0
+			}
+		}
+	]
+}

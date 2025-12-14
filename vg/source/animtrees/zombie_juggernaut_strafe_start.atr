@@ -1,0 +1,16 @@
+%force_cs_anim_index_match
+
+startblend: blendspace1d( range="-180,180", blend_time="100",
+	coords="-180,-135,-90,-45,0,45,90,135,180",
+	value=[strafeyaw] ) nonloopsync complete
+	{
+		ai_s4_zm_zombie_juggernaut_strafe_walk_start_2@1
+		ai_s4_zm_zombie_juggernaut_strafe_walk_start_3
+		ai_s4_zm_zombie_juggernaut_strafe_walk_start_6
+		ai_s4_zm_zombie_juggernaut_strafe_walk_start_9
+		ai_s4_zm_zombie_juggernaut_strafe_walk_start_8
+		ai_s4_zm_zombie_juggernaut_strafe_walk_start_7
+		ai_s4_zm_zombie_juggernaut_strafe_walk_start_4
+		ai_s4_zm_zombie_juggernaut_strafe_walk_start_1
+		ai_s4_zm_zombie_juggernaut_strafe_walk_start_2
+	}

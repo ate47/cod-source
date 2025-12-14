@@ -1,0 +1,31 @@
+%force_cs_anim_index_match
+
+move_loop : loopsync blendspace2d( rangex="-100,100", rangey="0,170", blend_time="100",
+coords="{-85,170},{0,170},{85,170},{-85,113},{0,113},{85,113},{-85,40},{0,40},{85,40}",
+edges="{0,3,4},{0,1,4},{1,2,4},{2,4,5},{3,6,7},{3,4,7},{4,5,7},{5,7,8}",
+valuex=[leanyaw],valuey=[desiredspeed] ) 
+{
+	jug_com_lean_l_run_8
+	jug_com_strafe_run_8
+	jug_com_lean_r_run_8
+	jug_com_jog_lean_l_8
+	jug_com_strafe_jog_8
+	jug_com_jog_lean_r_8
+	jug_com_walk_lean_l_8
+	jug_com_walk_8
+	jug_com_walk_lean_r_8
+}
+
+/*
+jug_com_lean_l_run_8 
+jug_com_strafe_run_8 
+jug_com_lean_r_run_8 
+
+jug_com_jog_lean_l_8 
+jug_com_strafe_jog_8 
+jug_com_jog_lean_r_8 
+
+jug_com_walk_lean_l_8
+jug_com_walk_8		 
+jug_com_walk_lean_r_8
+*/

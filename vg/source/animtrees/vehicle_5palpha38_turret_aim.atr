@@ -1,0 +1,40 @@
+%force_cs_anim_index_match
+/*
+vehicle_5palpha38_turret_aim : blendspace1d( range="-25,25", blend_time="50", coords="-25,0,25", value=[aim_pitch] )
+{
+    turret_btry_5palpha38_driver_aim_15down
+    {
+        s4_btry_5palpha38_d01_aim_down_8_left_15_guy01
+        s4_btry_5palpha38_d01_aim_down_8_center_guy01
+        s4_btry_5palpha38_d01_aim_down_8_right_15_guy01
+    }
+    turret_btry_5palpha38_driver_aim_level
+    {
+        s4_btry_5palpha38_d01_aim_level_left_15_guy01
+        s4_btry_5palpha38_d01_aim_level_center_guy01
+        s4_btry_5palpha38_d01_aim_level_right_15_guy01
+    }
+    turret_btry_5palpha38_driver_aim_15up
+    {
+        s4_btry_5palpha38_d01_aim_up_8_left_15_guy01
+        s4_btry_5palpha38_d01_aim_up_8_center_guy01
+        s4_btry_5palpha38_d01_aim_up_8_right_15_guy01
+    }
+}
+*/
+vehicle_5palpha38_turret_aim: blendspace2d( rangex="-15,15", rangey="-8,8", blend_time="50",
+coords="{0,0},{-15,0},{15,0},{0,8},{-15,8},{15,8},{0,-8},{-15,-8},{15,-8}",
+edges="",
+valuex=[aim_yaw], valuey=[aim_pitch] )
+{
+	s4_btry_5palpha38_d01_aim_level_center_guy01
+	s4_btry_5palpha38_d01_aim_level_right_15_guy01
+	s4_btry_5palpha38_d01_aim_level_left_15_guy01
+	s4_btry_5palpha38_d01_aim_down_8_center_guy01
+	s4_btry_5palpha38_d01_aim_down_8_right_15_guy01
+	s4_btry_5palpha38_d01_aim_down_8_left_15_guy01
+	s4_btry_5palpha38_d01_aim_up_8_center_guy01
+	s4_btry_5palpha38_d01_aim_up_8_right_15_guy01
+	s4_btry_5palpha38_d01_aim_up_8_left_15_guy01
+	
+}

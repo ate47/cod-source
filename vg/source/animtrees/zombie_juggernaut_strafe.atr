@@ -1,0 +1,32 @@
+%force_cs_anim_index_match
+
+juggernaut_strafe : toggle( index=[strafe_forward_index], blendtime="0.1", restart="false" ) loopsync
+{
+	juggernaut_strafe_forward: blendspace1d( range="-180,180", blend_time="0", disable_update_while_turning_off="true",
+	coords="-135,-90,-45,0,45,90,135",
+	value=[strafeyaw] ) complete
+	{
+		ai_s4_zm_zombie_juggernaut_strafe_walk_loop_3
+		ai_s4_zm_zombie_juggernaut_strafe_walk_loop_6
+		ai_s4_zm_zombie_juggernaut_strafe_walk_loop_9
+		ai_s4_zm_zombie_juggernaut_strafe_walk_loop_8
+		ai_s4_zm_zombie_juggernaut_strafe_walk_loop_7
+		ai_s4_zm_zombie_juggernaut_strafe_walk_loop_4
+		ai_s4_zm_zombie_juggernaut_strafe_walk_loop_1
+	}
+	
+	juggernaut_strafe_backward: blendspace1d( range="-180,180", blend_time="0", disable_update_while_turning_off="true",
+	coords="-180,-135,-90,-45,45,90,135,180",
+	value=[strafeyaw] ) complete
+	{
+		ai_s4_zm_zombie_juggernaut_strafe_walk_loop_2bckwrd
+		ai_s4_zm_zombie_juggernaut_strafe_walk_loop_3bckwrd
+		ai_s4_zm_zombie_juggernaut_strafe_walk_loop_6bckwrd
+		ai_s4_zm_zombie_juggernaut_strafe_walk_loop_9bckwrd
+		ai_s4_zm_zombie_juggernaut_strafe_walk_loop_7bckwrd
+		ai_s4_zm_zombie_juggernaut_strafe_walk_loop_4bckwrd
+		ai_s4_zm_zombie_juggernaut_strafe_walk_loop_1bckwrd
+		ai_s4_zm_zombie_juggernaut_strafe_walk_loop_2bckwrd@1
+	}
+}
+

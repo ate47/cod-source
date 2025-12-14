@@ -1,0 +1,40 @@
+%force_cs_anim_index_match
+
+move_loop : blendspace1d( range="60,220", blend_time="200", coords="60,150,190", value=[desiredspeed] ) loopsync
+{
+	walk: randomloop( blendtime=".2", restart="false", norepeat="true", seed=[animtime] )
+	{
+		civ_pnc_walk_forward01
+		civ_pnc_walk_forward02
+		civ_pnc_walk_forward03
+		civ_pnc_walk_forward04
+		civ_pnc_walk_forward05
+		civ_pnc_walk_forward06
+	}	
+	
+	jog: randomloop( blendtime=".2", restart="false", norepeat="true", seed=[animtime] )
+	{
+		civ_pnc_jog_forward01
+		civ_pnc_jog_forward02
+		civ_pnc_jog_forward03
+		civ_pnc_jog_forward04
+		civ_pnc_jog_forward05
+		civ_pnc_jog_forward06
+		civ_pnc_jog_forward08
+		civ_pnc_jog_forward09
+		civ_pnc_jog_forward10
+	}
+	
+	run: randomloop( blendtime=".2", restart="false", norepeat="true", seed=[animtime] )
+	{
+		civ_pnc_run_forward03
+		civ_pnc_run_forward05
+		civ_pnc_run_forward06
+		civ_pnc_run_forward07
+		civ_pnc_run_forward08
+		civ_pnc_run_forward09
+		civ_pnc_run_forward10
+		civ_pnc_run_forward11
+	}
+	
+}

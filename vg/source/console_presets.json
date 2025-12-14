@@ -1,0 +1,90 @@
+{
+	"console_presets": [
+		{
+			"level": "ps4",
+			"vars": {
+				"LodScale": 2,
+				"SssPDFExceedance": 0,
+				"SssRadiusScale": 0,
+				"ClutterFlattenPercentage": 1,
+				"ClutterLodScale": 2,
+				"DisplacementDistance": 0,
+				"DisplacementPixelCoverage": 0,
+				"VrsQualityThreshold": 0,
+				"ShaderLODSecondarySpecularLQ": 0,
+				"SpotShadowQuality": 0,
+				"SSRMode": 0,
+				"DynamicSpot": 0,
+				"DynamicOmniLightLimit": 0,
+				"SceneResDynamic": 0
+			}
+		},
+		{
+			"level": "ps5",
+			"vars": {
+				"LodScale": 3,
+				"SssPDFExceedance": 0,
+				"SssRadiusScale": 0,
+				"ClutterFlattenPercentage": 1,
+				"ClutterLodScale": 1,
+				"DisplacementDistance": 1,
+				"DisplacementPixelCoverage": 1,
+				"VrsQualityThreshold": 1,
+				"ShaderLODSecondarySpecularLQ": 0,
+				"SpotShadowQuality": 1,
+				"SSRMode": 2,
+				"DynamicSpot": 1,
+				"DynamicOmniLightLimit": 1,
+				"SceneResDynamic": 0
+			}
+		},
+		{
+			"level": "xb3",
+			"vars": {
+				"LodScale": 1,
+				"SssPDFExceedance": 0,
+				"SssRadiusScale": 0,
+				"ClutterFlattenPercentage": 1,
+				"ClutterLodScale": 0,
+				"DisplacementDistance": 0,
+				"DisplacementPixelCoverage": 0,
+				"VrsQualityThreshold": 0,
+				"ShaderLODSecondarySpecularLQ": 0,
+				"SpotShadowQuality": 0,
+				"SSRMode": 0,
+				"DynamicSpot": 0,
+				"DynamicOmniLightLimit": 0,
+				"SceneResDynamic": 0
+			}
+		},
+		{
+			"level": "xb4",
+			"vars": {
+				"LodScale": 2,
+				"SssPDFExceedance": 1,
+				"SssRadiusScale": 1,
+				"ClutterFlattenPercentage": 0,
+				"ClutterLodScale": 2,
+				"DisplacementDistance": 0,
+				"DisplacementPixelCoverage": 2,
+				"VrsQualityThreshold": 0,
+				"ShaderLODSecondarySpecularLQ": 1,
+				"SpotShadowQuality": 1,
+				"SSRMode": 2,
+				"DynamicSpot": 1,
+				"DynamicOmniLightLimit": 1,
+				"SceneResDynamic": 0
+			}
+		}
+	],
+	"motionBlur_presets": [
+		{
+			"level": "medium",
+			"vars": {
+				"MotionBlur": 1,
+				"MotionBlurVelocityScale": 0,
+				"MotionBlurScaleVM": 0
+			}
+		}
+	]
+}

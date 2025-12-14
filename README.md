@@ -8,6 +8,7 @@ This repository stores the data obtained by the [ate47/atian-cod-tools](https://
 | --------------------- | --------- |
 | Black Ops 4           | `bo4`     |
 | Black Ops Cold War    | `cw`      |
+| Vanguard              | `vg`      |
 | Modern Warfare II     | `mwii`    |
 | Modern Warfare II SP  | `mwiisp`  |
 | Modern Warfare III    | `mwiii`   |
