@@ -1,0 +1,10 @@
+%force_cs_anim_index_match
+
+cas_kill_run_n_gun : blendspace1d( range="-180,180", blend_time="500", coords="-180,-90,0,90,180", value=[aim_yaw] ) loopsync complete
+{
+	sdr_cas_kill_rungun_br
+	sdr_cas_kill_rungun_r
+	sdr_cas_kill_walk
+	sdr_cas_kill_rungun_l
+	sdr_cas_kill_rungun_bl
+}

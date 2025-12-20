@@ -1,0 +1,12 @@
+%force_cs_anim_index_match
+
+casual_move_loop : blendspace1d( range="50,190", blend_time="200", coords="50,170,190", value=[desiredspeed] ) loopsync
+{
+   civvie_random_move_at_50 : randomloop( blendtime="0.2", restart="false", norepeat="true", seed=[animtime] )
+   {
+       civ_cinderblock_guy_walk_forward_01
+       civ_cinderblock_guy_walk_forward_02
+   }
+   civ_casual_run_a
+   civ_casual_run_b
+}

@@ -1,0 +1,250 @@
+  0	disable_ragdoll_anim_root
+  1	end
+  2	exec_fire
+  3	exec_gear_mvmt_midlength_light,j_mainroot
+  4	exec_gear_mvmt_midlength_light,j_wrist_le
+  5	exec_gore_hack,j_neck
+  6	exec_gun_rattle_light,tag_weapon_right
+  7	exec_kill
+  8	exec_victim_weapon_hide
+  9	exec_weapon_show
+ 10	fingers_out_end_left_hand
+ 11	fingers_out_end_right_hand
+ 12	fingers_out_start_left_hand
+ 13	fingers_out_start_right_hand
+ 14	footstep_left_large
+ 15	footstep_left_small
+ 16	footstep_right_large
+ 17	footstep_right_small
+ 18	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_shoulder_le
+ 19	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_shot_imp_head_pr.vfx, j_knee_le
+ 20	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_shovel_hit_back.vfx, j_shoulder_ri
+ 21	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_027_pis_headshot_prone.vfx, j_head
+ 22	fx_playfxontag, vfx/iw8_mp/muzflash/vfx_muz_pis_w.vfx, tag_flash
+ 23	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_shoulder_le
+ 24	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_shot_imp_head_pr.vfx, j_knee_le
+ 25	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_shovel_hit_back.vfx, j_shoulder_ri
+ 26	ik_out_end_left_hand
+ 27	ik_out_end_right_hand
+ 28	ik_out_start_left_hand
+ 29	ik_out_start_right_hand
+ 30	j_ankle_le
+ 31	j_ankle_ri
+ 32	j_ball_le
+ 33	j_ball_ri
+ 34	j_brow_le_1
+ 35	j_brow_le_2
+ 36	j_brow_le_3
+ 37	j_brow_ri_1
+ 38	j_brow_ri_2
+ 39	j_brow_ri_3
+ 40	j_cheek_le_1
+ 41	j_cheek_le_2
+ 42	j_cheek_puff_le
+ 43	j_cheek_puff_ri
+ 44	j_cheek_ri_1
+ 45	j_cheek_ri_2
+ 46	j_chest
+ 47	j_chin
+ 48	j_clavicle_le
+ 49	j_clavicle_ri
+ 50	j_elbow_le
+ 51	j_elbow_ri
+ 52	j_eye_lid_bot_le
+ 53	j_eye_lid_bot_ri
+ 54	j_eye_lid_top_le
+ 55	j_eye_lid_top_le_1
+ 56	j_eye_lid_top_ri
+ 57	j_eye_lid_top_ri_1
+ 58	j_eyeball_le
+ 59	j_eyeball_ri
+ 60	j_eyelash_bot_le_1
+ 61	j_eyelash_bot_le_2
+ 62	j_eyelash_bot_ri_1
+ 63	j_eyelash_bot_ri_2
+ 64	j_eyelash_top_le_1
+ 65	j_eyelash_top_le_2
+ 66	j_eyelash_top_ri_1
+ 67	j_eyelash_top_ri_2
+ 68	j_forehead
+ 69	j_forehead_le_1
+ 70	j_forehead_ri_1
+ 71	j_furrow_le
+ 72	j_furrow_ri
+ 73	j_gun
+ 74	j_head
+ 75	j_helmet
+ 76	j_hip_le
+ 77	j_hip_ri
+ 78	j_index_le_1
+ 79	j_index_le_2
+ 80	j_index_le_3
+ 81	j_index_ri_1
+ 82	j_index_ri_2
+ 83	j_index_ri_3
+ 84	j_insidegum
+ 85	j_insidegum_le_1
+ 86	j_insidegum_ri_1
+ 87	j_jaw
+ 88	j_knee_le
+ 89	j_knee_ri
+ 90	j_levator_le_1
+ 91	j_levator_le_2
+ 92	j_levator_ri_1
+ 93	j_levator_ri_2
+ 94	j_lip_bot
+ 95	j_lip_bot_le_1
+ 96	j_lip_bot_le_2
+ 97	j_lip_bot_le_3
+ 98	j_lip_bot_le_4
+ 99	j_lip_bot_ri_1
+100	j_lip_bot_ri_2
+101	j_lip_bot_ri_3
+102	j_lip_bot_ri_4
+103	j_lip_inside_le_1
+104	j_lip_inside_ri_1
+105	j_lip_top
+106	j_lip_top_le_1
+107	j_lip_top_le_2
+108	j_lip_top_le_3
+109	j_lip_top_le_4
+110	j_lip_top_ri_1
+111	j_lip_top_ri_2
+112	j_lip_top_ri_3
+113	j_lip_top_ri_4
+114	j_lowergum
+115	j_mainroot
+116	j_metaindex_le_1
+117	j_metaindex_ri_1
+118	j_metamid_le_1
+119	j_metamid_ri_1
+120	j_metapinky_le_1
+121	j_metapinky_ri_1
+122	j_metaring_le_1
+123	j_metaring_ri_1
+124	j_mid_le_1
+125	j_mid_le_2
+126	j_mid_le_3
+127	j_mid_ri_1
+128	j_mid_ri_2
+129	j_mid_ri_3
+130	j_mouthcorner_le
+131	j_mouthcorner_ri
+132	j_nasolabial_le_1
+133	j_nasolabial_le_2
+134	j_nasolabial_le_3
+135	j_nasolabial_le_4
+136	j_nasolabial_ri_1
+137	j_nasolabial_ri_2
+138	j_nasolabial_ri_3
+139	j_nasolabial_ri_4
+140	j_neck
+141	j_nose_tip
+142	j_nvg
+143	j_periorbital_le_1
+144	j_periorbital_le_2
+145	j_periorbital_le_3
+146	j_periorbital_ri_1
+147	j_periorbital_ri_2
+148	j_periorbital_ri_3
+149	j_pinky_le_1
+150	j_pinky_le_2
+151	j_pinky_le_3
+152	j_pinky_ri_1
+153	j_pinky_ri_2
+154	j_pinky_ri_3
+155	j_pistol
+156	j_ring_le_1
+157	j_ring_le_2
+158	j_ring_le_3
+159	j_ring_ri_1
+160	j_ring_ri_2
+161	j_ring_ri_3
+162	j_shield_le
+163	j_shield_ri
+164	j_shoulder_le
+165	j_shoulder_ri
+166	j_slide
+167	j_spine4
+168	j_spinelower
+169	j_spineupper
+170	j_temple_le
+171	j_temple_ri
+172	j_thumb_le_1
+173	j_thumb_le_2
+174	j_thumb_le_3
+175	j_thumb_ri_1
+176	j_thumb_ri_2
+177	j_thumb_ri_3
+178	j_tomahawk
+179	j_tongue_1
+180	j_tongue_2
+181	j_tongue_3
+182	j_trigger
+183	j_underchin
+184	j_underlip
+185	j_uppergum
+186	j_upperlip
+187	j_wrist_le
+188	j_wrist_ri
+189	ps_bodyfall_head
+190	ps_bodyfall_limb_small
+191	ps_bodyfall_torso
+192	ps_exec_baton_swing_fast,j_wrist_le
+193	ps_exec_baton_swing_mid,j_wrist_le
+194	ps_exec_baton_swing_slow,j_wrist_le
+195	ps_exec_bodyfall,j_mainroot
+196	ps_exec_finger_gun_draw,j_wrist_ri
+197	ps_exec_gear_mvmt_brush,j_head
+198	ps_exec_gear_mvmt_brush,j_spineupper
+199	ps_exec_gear_mvmt_brush,j_wrist_le
+200	ps_exec_gear_mvmt_complex_heavy
+201	ps_exec_gear_mvmt_complex_heavy,j_wrist_le
+202	ps_exec_gear_mvmt_complex_heavy,j_wrist_ri
+203	ps_exec_gear_mvmt_long_heavy,j_mainroot
+204	ps_exec_gear_mvmt_long_light,j_mainroot
+205	ps_exec_gear_mvmt_midlength_heavy,j_knee_le
+206	ps_exec_gear_mvmt_midlength_heavy,j_spineupper
+207	ps_exec_gear_mvmt_midlength_heavy,j_wrist_le
+208	ps_exec_gear_mvmt_midlength_heavy,j_wrist_ri
+209	ps_exec_gear_mvmt_midlength_light,j_mainroot
+210	ps_exec_gear_mvmt_midlength_light,j_wrist_le
+211	ps_exec_gear_mvmt_midlength_light,j_wrist_ri
+212	ps_exec_gear_mvmt_quick_light,j_ankle_ri
+213	ps_exec_gore_blood_squirt,j_knee_le
+214	ps_exec_gore_blood_squirt,j_neck
+215	ps_exec_gore_hack,j_neck
+216	ps_exec_gore_hack,j_wrist_le
+217	ps_exec_gore_medium_splat,j_neck
+218	ps_exec_gore_tear,j_neck
+219	ps_exec_grab_face,j_wrist_le
+220	ps_exec_grab_face,j_wrist_ri
+221	ps_exec_grab_heavy,j_wrist_le
+222	ps_exec_grab_heavy,j_wrist_ri
+223	ps_exec_grab_mid,j_wrist_le
+224	ps_exec_grab_pull_hatchet,j_wrist_le
+225	ps_exec_grab_release,j_wrist_le
+226	ps_exec_gun_drop,tag_weapon_right
+227	ps_exec_gun_hit_heavy,j_wrist_ri
+228	ps_exec_gun_rattle_light,j_wrist_ri
+229	ps_exec_hatchet_hack_loud,j_wrist_le
+230	ps_exec_knife_stab_metal,j_neck
+231	ps_exec_pistol_fire_mech,j_wrist_ri
+232	ps_generic_death_execution,j_head
+233	ps_generic_pain_enemy,j_head
+234	start_ragdoll
+235	stop_ragdoll_anim
+236	tag_accessory_left
+237	tag_accessory_right
+238	tag_brass
+239	tag_flash
+240	tag_fx
+241	tag_ik_foot_loc_le
+242	tag_ik_foot_loc_ri
+243	tag_ik_loc_le
+244	tag_ik_loc_ri
+245	tag_inhand
+246	tag_sync
+247	tag_weapon_left
+248	tag_weapon_right
+249	tag_wick_fx

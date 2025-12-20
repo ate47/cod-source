@@ -1,0 +1,474 @@
+  0	anim_facial = death
+  1	anim_facial = pain
+  2	anim_facial = scared
+  3	anim_movement = stop
+  4	blade
+  5	body_animate_joint
+  6	carried_remove_fov_user_scale_override
+  7	end
+  8	explosion1
+  9	father_mayhem_1_end
+ 10	father_mayhem_1_start
+ 11	father_mayhem_2_end
+ 12	father_mayhem_2_start
+ 13	father_mayhem_3_end
+ 14	father_mayhem_3_start
+ 15	father_mayhem_4_end
+ 16	father_mayhem_4_start
+ 17	father_mayhem_5_end
+ 18	father_mayhem_5_start
+ 19	fx_exploder( glass_and_blood )
+ 20	fx_playfxontag, vfx_htown_bur_farah_legdust, j_chest
+ 21	fx_playfxontag, vfx_htown_jet_trail, tag_engine_right
+ 22	fx_playfxontag, vfx_htown_saw_sparks, tag_origin
+ 23	fx_playfxontag, vfx_htown_veh_headlight_palfa_left, tag_light_front_left
+ 24	fx_playfxontag, vfx_htown_veh_headlight_palfa_right, tag_light_front_right
+ 25	fx_playfxontag, vfx_htown_veh_taillight_palfa_left, tag_light_back_left
+ 26	fx_playfxontag, vfx_htown_veh_taillight_palfa_left_braking, tag_light_back_left
+ 27	fx_playfxontag, vfx_htown_veh_taillight_palfa_right, tag_light_back_right
+ 28	fx_playfxontag, vfx_htown_veh_taillight_palfa_right_braking, tag_light_back_right
+ 29	fx_playfxontag, vfx_vehicle_treadfx_dirt_constant, tag_wheel_back_left
+ 30	fx_playfxontag, vfx_vehicle_treadfx_dirt_constant, tag_wheel_back_right
+ 31	fx_playfxontag, vfx_vehicle_treadfx_dirt_constant, tag_wheel_front_left
+ 32	fx_playfxontag, vfx_vehicle_treadfx_dirt_constant, tag_wheel_front_right
+ 33	fx_stopfxontag, vfx_htown_saw_sparks, tag_origin
+ 34	fx_stopfxontag, vfx_htown_veh_taillight_palfa_left_braking, tag_light_back_left
+ 35	fx_stopfxontag, vfx_htown_veh_taillight_palfa_right_braking, tag_light_back_right
+ 36	fx_stopfxontag, vfx_vehicle_treadfx_dirt_constant, tag_wheel_back_left
+ 37	fx_stopfxontag, vfx_vehicle_treadfx_dirt_constant, tag_wheel_back_right
+ 38	fx_stopfxontag, vfx_vehicle_treadfx_dirt_constant, tag_wheel_front_left
+ 39	fx_stopfxontag, vfx_vehicle_treadfx_dirt_constant, tag_wheel_front_right
+ 40	j_ankle_le
+ 41	j_ankle_ri
+ 42	j_ball_le
+ 43	j_ball_ri
+ 44	j_block_extra_01
+ 45	j_brow_le_1
+ 46	j_brow_le_2
+ 47	j_brow_le_3
+ 48	j_brow_ri_1
+ 49	j_brow_ri_2
+ 50	j_brow_ri_3
+ 51	j_cheek_le_1
+ 52	j_cheek_le_2
+ 53	j_cheek_puff_le
+ 54	j_cheek_puff_ri
+ 55	j_cheek_ri_1
+ 56	j_cheek_ri_2
+ 57	j_chest
+ 58	j_chin
+ 59	j_chunk_extra_02
+ 60	j_clavicle_le
+ 61	j_clavicle_ri
+ 62	j_concrete_block_01
+ 63	j_concrete_block_02
+ 64	j_concrete_extra_01
+ 65	j_concrete_extra_02
+ 66	j_concrete_extra_03
+ 67	j_concrete_extra_04
+ 68	j_concrete_large_04
+ 69	j_concrete_large_05
+ 70	j_concrete_large_06
+ 71	j_concrete_large_08
+ 72	j_concrete_large_09
+ 73	j_concrete_large_10
+ 74	j_concrete_med_01
+ 75	j_concrete_med_03
+ 76	j_concrete_med_04
+ 77	j_concrete_med_05
+ 78	j_concrete_med_06
+ 79	j_concrete_med_07
+ 80	j_concrete_med_08
+ 81	j_concrete_med_09
+ 82	j_concrete_small_01
+ 83	j_concrete_small_010
+ 84	j_concrete_small_011
+ 85	j_concrete_small_012
+ 86	j_concrete_small_013
+ 87	j_concrete_small_02
+ 88	j_concrete_small_03
+ 89	j_concrete_small_04
+ 90	j_concrete_small_05
+ 91	j_concrete_small_06
+ 92	j_concrete_small_07
+ 93	j_concrete_small_08
+ 94	j_concrete_small_09
+ 95	j_concrete_small_far_01
+ 96	j_concrete_small_far_02
+ 97	j_concrete_small_far_03
+ 98	j_concrete_small_far_04
+ 99	j_concrete_small_far_05
+100	j_concrete_small_far_06
+101	j_crotch
+102	j_elbow_le
+103	j_elbow_ri
+104	j_elbowdq_le
+105	j_elbowdq_ri
+106	j_eye_lid_bot_le
+107	j_eye_lid_bot_ri
+108	j_eye_lid_top_le
+109	j_eye_lid_top_le_1
+110	j_eye_lid_top_ri
+111	j_eye_lid_top_ri_1
+112	j_eyeball_le
+113	j_eyeball_ri
+114	j_eyelash_bot_le_1
+115	j_eyelash_bot_le_2
+116	j_eyelash_bot_ri_1
+117	j_eyelash_bot_ri_2
+118	j_eyelash_top_le_1
+119	j_eyelash_top_le_2
+120	j_eyelash_top_ri_1
+121	j_eyelash_top_ri_2
+122	j_forehead
+123	j_forehead_le_1
+124	j_forehead_ri_1
+125	j_furrow_le
+126	j_furrow_ri
+127	j_groinprotector
+128	j_gun
+129	j_head
+130	j_helmet
+131	j_hip_le
+132	j_hip_ri
+133	j_hiptwist_le
+134	j_hiptwist_ri
+135	j_index_le_1
+136	j_index_le_2
+137	j_index_le_3
+138	j_index_le_4
+139	j_index_ri_1
+140	j_index_ri_2
+141	j_index_ri_3
+142	j_index_ri_4
+143	j_insidegum
+144	j_insidegum_le_1
+145	j_insidegum_ri_1
+146	j_jaw
+147	j_knee_le
+148	j_knee_ri
+149	j_kneedq_le
+150	j_kneedq_ri
+151	j_levator_le_1
+152	j_levator_le_2
+153	j_levator_ri_1
+154	j_levator_ri_2
+155	j_lip_bot
+156	j_lip_bot_le_1
+157	j_lip_bot_le_2
+158	j_lip_bot_le_3
+159	j_lip_bot_le_4
+160	j_lip_bot_ri_1
+161	j_lip_bot_ri_2
+162	j_lip_bot_ri_3
+163	j_lip_bot_ri_4
+164	j_lip_inside_le_1
+165	j_lip_inside_ri_1
+166	j_lip_top
+167	j_lip_top_le_1
+168	j_lip_top_le_2
+169	j_lip_top_le_3
+170	j_lip_top_le_4
+171	j_lip_top_ri_1
+172	j_lip_top_ri_2
+173	j_lip_top_ri_3
+174	j_lip_top_ri_4
+175	j_lowergum
+176	j_mainroot
+177	j_metaindex_le_1
+178	j_metaindex_ri_1
+179	j_metal_sheet_01
+180	j_metal_sheet_02
+181	j_metamid_le_1
+182	j_metamid_ri_1
+183	j_metapinky_le_1
+184	j_metapinky_ri_1
+185	j_metaring_le_1
+186	j_metaring_ri_1
+187	j_mid_le_1
+188	j_mid_le_2
+189	j_mid_le_3
+190	j_mid_ri_1
+191	j_mid_ri_2
+192	j_mid_ri_3
+193	j_mouthcorner_le
+194	j_mouthcorner_ri
+195	j_nasolabial_le_1
+196	j_nasolabial_le_2
+197	j_nasolabial_le_3
+198	j_nasolabial_le_4
+199	j_nasolabial_ri_1
+200	j_nasolabial_ri_2
+201	j_nasolabial_ri_3
+202	j_nasolabial_ri_4
+203	j_neck
+204	j_nose_tip
+205	j_nvg
+206	j_periorbital_le_1
+207	j_periorbital_le_2
+208	j_periorbital_le_3
+209	j_periorbital_ri_1
+210	j_periorbital_ri_2
+211	j_periorbital_ri_3
+212	j_pinky_le_1
+213	j_pinky_le_2
+214	j_pinky_le_3
+215	j_pinky_ri_1
+216	j_pinky_ri_2
+217	j_pinky_ri_3
+218	j_rebar_01
+219	j_rebar_010
+220	j_rebar_011
+221	j_rebar_012
+222	j_rebar_013
+223	j_rebar_014
+224	j_rebar_015
+225	j_rebar_016
+226	j_rebar_02
+227	j_rebar_03
+228	j_rebar_04
+229	j_rebar_05
+230	j_rebar_06
+231	j_rebar_07
+232	j_rebar_08
+233	j_rebar_09
+234	j_ring_le_1
+235	j_ring_le_2
+236	j_ring_le_3
+237	j_ring_ri_1
+238	j_ring_ri_2
+239	j_ring_ri_3
+240	j_shield_le
+241	j_shield_ri
+242	j_shoulder_le
+243	j_shoulder_ri
+244	j_shouldertwist_le
+245	j_shouldertwist_ri
+246	j_spine4
+247	j_spinelower
+248	j_spineupper
+249	j_temple_le
+250	j_temple_ri
+251	j_thumb_le_1
+252	j_thumb_le_2
+253	j_thumb_le_3
+254	j_thumb_le_4
+255	j_thumb_ri_1
+256	j_thumb_ri_2
+257	j_thumb_ri_3
+258	j_thumb_ri_4
+259	j_tile_small_01
+260	j_tile_small_02
+261	j_tile_small_03
+262	j_tile_small_04
+263	j_tile_small_05
+264	j_tile_small_06
+265	j_tile_small_07
+266	j_tile_small_08
+267	j_tongue_1
+268	j_tongue_2
+269	j_tongue_3
+270	j_underchin
+271	j_underlip
+272	j_uppergum
+273	j_upperlip
+274	j_webbing_le_1
+275	j_webbing_le_2
+276	j_webbing_ri_1
+277	j_webbing_ri_2
+278	j_wrist_le
+279	j_wrist_ri
+280	j_wristfronttwist1_le
+281	j_wristfronttwist1_ri
+282	main_rotor_jnt
+283	me_store_grocery_mobile_stand_tray_02
+284	medical_corpse_bodybag_01
+285	medical_corpse_bodybag_02
+286	nd_mayhem_end
+287	nd_mayhem_start
+288	normalize_carried_angles
+289	prop_bear_lod0
+290	ps_dx_vom_re1_carried_start_streetrun_80_shortened
+291	ps_scn_hometown_buried_saw_rebar
+292	ps_scn_hometown_carried_main_01_lr
+293	ps_scn_hometown_carried_main_02_lr
+294	ps_scn_hometown_carried_main_03_lr
+295	ps_scn_hometown_carried_main_04_lr
+296	ps_scn_hometown_carried_main_05_lr
+297	ps_scn_hometown_carried_unearth_01_lr
+298	ps_scn_hometown_carried_unearth_02_lr
+299	ps_scn_hometown_carried_unearth_03_lr
+300	ps_scn_hometown_carried_unearth_04_lr
+301	ps_scn_hometown_carried_unearth_05_lr
+302	ps_scn_hometown_heli_flyby_01
+303	ps_scn_hometown_mig_flyby
+304	ps_scn_ht_intro_crowd_applause
+305	ps_scn_ht_intro_crowd_small_clap
+306	ps_scn_ht_intro_crowd_worried
+307	scripted_fire
+308	start_alley_jumpers
+309	start_scripted_background_vo
+310	stop anim
+311	tag_accessory_01
+312	tag_accessory_02
+313	tag_accessory_left
+314	tag_accessory_right
+315	tag_ads
+316	tag_back_left_flame_1
+317	tag_back_left_wheel_fx
+318	tag_back_right_flame_1
+319	tag_back_right_wheel_fx
+320	tag_body
+321	tag_body_animate
+322	tag_cambone
+323	tag_camera
+324	tag_death_fx
+325	tag_deathfx
+326	tag_detach
+327	tag_door_back_left
+328	tag_door_back_right
+329	tag_door_front_left
+330	tag_door_front_right
+331	tag_door_lf_hint_outside
+332	tag_door_lr_hint_inside
+333	tag_door_lr_hint_outside
+334	tag_door_rear_left
+335	tag_door_rear_right
+336	tag_door_rf_hint_outside
+337	tag_door_rr_hint_outside
+338	tag_door_trunk_left
+339	tag_door_trunk_right
+340	tag_driver
+341	tag_engine_fx_left
+342	tag_engine_fx_right
+343	tag_engine_left
+344	tag_engine_right
+345	tag_exhaust
+346	tag_flash
+347	tag_front_left_flame_1
+348	tag_front_left_wheel_fx
+349	tag_front_right_flame_1
+350	tag_front_right_wheel_fx
+351	tag_gas_cap
+352	tag_guy1
+353	tag_guy2
+354	tag_guy3
+355	tag_guy4
+356	tag_guy5
+357	tag_guy6
+358	tag_hood
+359	tag_ik_foot_loc_le
+360	tag_ik_foot_loc_ri
+361	tag_inhand
+362	tag_knife_attach2
+363	tag_left_alamo_missile
+364	tag_left_aphid_missile
+365	tag_left_archer_missile
+366	tag_left_wingtip
+367	tag_light_back_left
+368	tag_light_back_left_2
+369	tag_light_back_left_fx
+370	tag_light_back_right
+371	tag_light_back_right_2
+372	tag_light_back_right_fx
+373	tag_light_front_left
+374	tag_light_front_left_2
+375	tag_light_front_left_fx
+376	tag_light_front_right
+377	tag_light_front_right_2
+378	tag_light_front_right_fx
+379	tag_mid_left_wheel_fx
+380	tag_mid_right_wheel_fx
+381	tag_middle_left_flame_1
+382	tag_middle_right_flame_1
+383	tag_mirror_left
+384	tag_mirror_right
+385	tag_mudflap_left
+386	tag_mudflap_right
+387	tag_oil_fx
+388	tag_origin
+389	tag_origin_animate
+390	tag_passenger
+391	tag_pilot
+392	tag_player
+393	tag_right_alamo_missile
+394	tag_right_aphid_missile
+395	tag_right_archer_missile
+396	tag_right_wingtip
+397	tag_shield_back
+398	tag_stowed_back
+399	tag_stowed_hip_rear
+400	tag_stowed_thigh
+401	tag_sync
+402	tag_top_left_flame_1
+403	tag_top_right_flame_1
+404	tag_torso
+405	tag_trunk
+406	tag_trunk_hint_outside
+407	tag_view
+408	tag_weapon
+409	tag_weapon_chest
+410	tag_weapon_left
+411	tag_weapon_right
+412	tag_wheel_back_left
+413	tag_wheel_back_right
+414	tag_wheel_center_back_left
+415	tag_wheel_center_back_right
+416	tag_wheel_center_front_left
+417	tag_wheel_center_front_right
+418	tag_wheel_center_middle_left
+419	tag_wheel_center_middle_right
+420	tag_wheel_front_left
+421	tag_wheel_front_left_stear
+422	tag_wheel_front_right
+423	tag_wheel_front_right_stear
+424	tag_wheel_middle_left
+425	tag_wheel_middle_right
+426	tag_window_back_left
+427	tag_window_back_right
+428	tag_window_front_left
+429	tag_window_front_left_fx
+430	tag_window_front_right
+431	tag_window_front_right_fx
+432	tag_windshield_back
+433	tag_windshield_back2
+434	tag_windshield_back_fx
+435	tag_windshield_back_fx2
+436	tag_windshield_front
+437	tag_windshield_front2
+438	tag_windshield_front_fx
+439	tag_windshield_front_fx2
+440	tag_wiper_left
+441	tag_wiper_right
+442	vo_dx_vom_dad_alley_sneak_10
+443	vo_dx_vom_dad_alley_sneak_30
+444	vo_dx_vom_dad_alley_sneak_40
+445	vo_dx_vom_dad_carried_start_attack_50
+446	vo_dx_vom_dad_carried_start_reunited_100
+447	vo_dx_vom_dad_carried_start_reunited_130
+448	vo_dx_vom_dad_carried_start_reunited_150
+449	vo_dx_vom_dad_carried_start_reunited_60
+450	vo_dx_vom_dad_carried_start_reunited_80
+451	vo_dx_vom_dad_carried_start_streetrun_100
+452	vo_dx_vom_dad_carried_start_streetrun_120
+453	vo_dx_vom_dad_carried_start_streetrun_40
+454	vo_dx_vom_dad_carried_start_streetrun_400
+455	vo_dx_vom_dad_carried_start_streetrun_420
+456	vo_dx_vom_dad_carried_start_streetrun_450
+457	vo_dx_vom_far_alley_sneak_20
+458	vo_dx_vom_far_carried_start_attack_35
+459	vo_dx_vom_far_carried_start_rescue_100
+460	vo_dx_vom_far_carried_start_reunited_160
+461	vo_dx_vom_far_carried_start_reunited_70
+462	vo_dx_vom_far_carried_start_reunited_90
+463	vo_dx_vom_far_carried_start_streetrun_440
+464	vo_dx_vom_far_carried_start_streetrun_90
+465	vo_dx_vom_re3_carried_start_reunited_40
+466	vo_dx_vom_sha_carried_start_attack_20
+467	vo_dx_vom_sha_carried_start_attack_40
+468	vo_dx_vom_sha_carried_start_streetrun_390
+469	vo_dx_vom_sha_carried_start_streetrun_410
+470	vo_dx_vom_sha_carried_start_streetrun_430
+471	we_left_him_to_study
+472	wh4_mayhem_end
+473	wh4_mayhem_start

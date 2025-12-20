@@ -1,0 +1,39 @@
+%force_cs_anim_index_match
+
+gesture_root : toggle ( index=[gestureindex], clearonnotetrack="finish", clearwhendone="true", restart="true", blendtime=0.2, notifyname="gesture" ) unnormalized
+{
+	hadir_yth_ges_locomotion_beckon_8
+	hadir_yth_ges_locomotion_beckon_9
+	hadir_yth_ges_locomotion_beckon_6
+	hadir_yth_ges_locomotion_beckon_3
+	hadir_yth_ges_locomotion_beckon_2
+	hadir_yth_ges_locomotion_beckon_1
+	hadir_yth_ges_locomotion_beckon_4
+	hadir_yth_ges_locomotion_beckon_7
+	civ_ges_locomotion_beckon_01_l
+	civ_ges_locomotion_beckon_02_l
+	civ_ges_locomotion_beckon_03_l
+	civ_ges_locomotion_beckon_01_r
+	civ_ges_locomotion_beckon_02_r
+	civ_ges_locomotion_beckon_03_r
+	civ_ges_locomotion_look_01_l	
+	civ_ges_locomotion_look_02_l
+	civ_ges_locomotion_look_03_l
+	civ_ges_locomotion_look_01_r
+	civ_ges_locomotion_look_02_r
+	civ_ges_locomotion_look_03_r	
+	hadir_yth_ges_locomotion_look_8
+	hadir_yth_ges_locomotion_look_9
+	hadir_yth_ges_locomotion_look_6
+	hadir_yth_ges_locomotion_look_3
+	hadir_yth_ges_locomotion_look_2
+	hadir_yth_ges_locomotion_look_1
+	hadir_yth_ges_locomotion_look_4
+	hadir_yth_ges_locomotion_look_7
+	hadir_yth_ges_locomotion_cough_01
+	hadir_yth_ges_locomotion_cough_02
+	hadir_yth_ges_locomotion_cough_03
+	hadir_yth_ges_move_branch_01
+	hadir_yth_ges_move_branch_02
+	hadir_yth_ges_move_branch_03
+}

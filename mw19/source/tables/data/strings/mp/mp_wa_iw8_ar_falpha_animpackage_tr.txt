@@ -1,0 +1,300 @@
+  0	charging_handle_jnt
+  1	charging_handlel_jnt
+  2	charging_handler_jnt
+  3	end
+  4	fingers_in_end_left_hand
+  5	fingers_in_end_right_hand
+  6	fingers_in_start_left_hand
+  7	fingers_in_start_right_hand
+  8	fingers_out_end_left_hand
+  9	fingers_out_end_right_hand
+ 10	fingers_out_start_left_hand
+ 11	fingers_out_start_right_hand
+ 12	footstep_left_small
+ 13	footstep_right_small
+ 14	ik_in_end_left_hand
+ 15	ik_in_end_right_hand
+ 16	ik_in_start_left_hand
+ 17	ik_in_start_right_hand
+ 18	ik_out_end_left_hand
+ 19	ik_out_end_right_hand
+ 20	ik_out_start_left_hand
+ 21	ik_out_start_right_hand
+ 22	interruptible
+ 23	j_ammo1
+ 24	j_ammo2
+ 25	j_ammo3
+ 26	j_ammo4
+ 27	j_ankle_le
+ 28	j_ankle_ri
+ 29	j_ar57_lgn_strap_01
+ 30	j_ar57_lgn_strap_02
+ 31	j_ar57_lgn_strap_03
+ 32	j_ar57_lgn_strap_04
+ 33	j_ar57_lgn_strap_05
+ 34	j_ar57_lgn_strap_06
+ 35	j_ar57_lgn_strap_07
+ 36	j_ar57_lgn_strap_08
+ 37	j_ar57_lgn_strap_09
+ 38	j_ar57_lgn_strap_10
+ 39	j_ar57_rear_strap_01
+ 40	j_ar57_rear_strap_02
+ 41	j_ar57_strap_01
+ 42	j_ar57_strap_02
+ 43	j_b_01
+ 44	j_b_02
+ 45	j_b_03
+ 46	j_b_04
+ 47	j_b_05
+ 48	j_b_06
+ 49	j_b_07
+ 50	j_b_08
+ 51	j_b_09
+ 52	j_b_10
+ 53	j_b_11
+ 54	j_b_12
+ 55	j_b_13
+ 56	j_b_14
+ 57	j_b_15
+ 58	j_b_16
+ 59	j_b_17
+ 60	j_b_18
+ 61	j_ball_le
+ 62	j_ball_ri
+ 63	j_bipod_left
+ 64	j_bipod_left_hide
+ 65	j_bipod_right
+ 66	j_bipod_right_hide
+ 67	j_chamber
+ 68	j_charging_handle
+ 69	j_charging_handle_02
+ 70	j_charging_latch_02
+ 71	j_charging_slide_02
+ 72	j_chest
+ 73	j_clavicle_le
+ 74	j_clavicle_ri
+ 75	j_coil
+ 76	j_crotch
+ 77	j_elbow_le
+ 78	j_elbow_ri
+ 79	j_elbowdq_le
+ 80	j_elbowdq_ri
+ 81	j_grenade
+ 82	j_grenade_empty
+ 83	j_groinprotector
+ 84	j_gun
+ 85	j_head
+ 86	j_helmet
+ 87	j_hip_le
+ 88	j_hip_ri
+ 89	j_hiptwist_le
+ 90	j_hiptwist_ri
+ 91	j_hybrid_scope
+ 92	j_index_le_1
+ 93	j_index_le_2
+ 94	j_index_le_3
+ 95	j_index_le_4
+ 96	j_index_ri_1
+ 97	j_index_ri_2
+ 98	j_index_ri_3
+ 99	j_index_ri_4
+100	j_knee_le
+101	j_knee_ri
+102	j_kneedq_le
+103	j_kneedq_ri
+104	j_lgn_charging_handlel_jnt
+105	j_lgn_charging_handler_jnt
+106	j_lgn_mag_release
+107	j_loose_round_01
+108	j_loose_round_02
+109	j_loose_round_03
+110	j_mag1
+111	j_mag2
+112	j_mag_release
+113	j_magnifier_lever
+114	j_mainroot
+115	j_metaindex_le_1
+116	j_metaindex_ri_1
+117	j_metamid_le_1
+118	j_metamid_ri_1
+119	j_metapinky_le_1
+120	j_metapinky_ri_1
+121	j_metaring_le_1
+122	j_metaring_ri_1
+123	j_mid_le_1
+124	j_mid_le_2
+125	j_mid_le_3
+126	j_mid_ri_1
+127	j_mid_ri_2
+128	j_mid_ri_3
+129	j_neck
+130	j_nvg
+131	j_oprod
+132	j_pinky_le_1
+133	j_pinky_le_2
+134	j_pinky_le_3
+135	j_pinky_ri_1
+136	j_pinky_ri_2
+137	j_pinky_ri_3
+138	j_ring_le_1
+139	j_ring_le_2
+140	j_ring_le_3
+141	j_ring_ri_1
+142	j_ring_ri_2
+143	j_ring_ri_3
+144	j_safety
+145	j_selector
+146	j_shield_le
+147	j_shield_ri
+148	j_shoulder_le
+149	j_shoulder_ri
+150	j_shouldertwist_le
+151	j_shouldertwist_ri
+152	j_slingmount
+153	j_spine4
+154	j_spinelower
+155	j_spineupper
+156	j_thumb_le_1
+157	j_thumb_le_2
+158	j_thumb_le_3
+159	j_thumb_le_4
+160	j_thumb_ri_1
+161	j_thumb_ri_2
+162	j_thumb_ri_3
+163	j_thumb_ri_4
+164	j_trigger
+165	j_visor
+166	j_visor_inner
+167	j_webbing_le_1
+168	j_webbing_le_2
+169	j_webbing_ri_1
+170	j_webbing_ri_2
+171	j_wrist_le
+172	j_wrist_ri
+173	j_wristfronttwist1_le
+174	j_wristfronttwist1_ri
+175	mag_eject
+176	magazine0_jnt
+177	magazine1_jnt
+178	melee_attack_sfx
+179	mvmt_step_post
+180	mvmt_step_pre
+181	ps_weap_ar_idle_1_plr
+182	ps_weap_ar_idle_2_plr
+183	ps_weap_ar_idle_3_plr
+184	ps_weap_ar_idle_4_01_plr
+185	ps_weap_ar_idle_4_02_plr
+186	ps_weap_ar_idle_4_03_plr
+187	ps_weap_falpha_selector_off
+188	ps_weap_falpha_selector_on
+189	ps_wfoly_plr_ar_falpha_drop_01
+190	ps_wfoly_plr_ar_falpha_drop_quick_01
+191	ps_wfoly_plr_ar_falpha_drop_quick_toprailcust_01
+192	ps_wfoly_plr_ar_falpha_drop_quick_toprailcust_02
+193	ps_wfoly_plr_ar_falpha_drop_toprailcust_01
+194	ps_wfoly_plr_ar_falpha_drop_toprailcust_02
+195	ps_wfoly_plr_ar_falpha_gl_drop_01
+196	ps_wfoly_plr_ar_falpha_gl_drop_02
+197	ps_wfoly_plr_ar_falpha_gl_fromgrenade_01
+198	ps_wfoly_plr_ar_falpha_gl_fromgrenade_02
+199	ps_wfoly_plr_ar_falpha_gl_raise_01
+200	ps_wfoly_plr_ar_falpha_gl_raise_02
+201	ps_wfoly_plr_ar_falpha_gl_reload_01
+202	ps_wfoly_plr_ar_falpha_gl_reload_02
+203	ps_wfoly_plr_ar_falpha_gl_reload_03
+204	ps_wfoly_plr_ar_falpha_gl_reload_04
+205	ps_wfoly_plr_ar_falpha_gl_reload_05
+206	ps_wfoly_plr_ar_falpha_gl_reload_06
+207	ps_wfoly_plr_ar_falpha_gl_reload_07
+208	ps_wfoly_plr_ar_falpha_gl_reload_fast_01
+209	ps_wfoly_plr_ar_falpha_gl_reload_fast_02
+210	ps_wfoly_plr_ar_falpha_gl_reload_fast_03
+211	ps_wfoly_plr_ar_falpha_gl_reload_fast_04
+212	ps_wfoly_plr_ar_falpha_gl_reload_fast_05
+213	ps_wfoly_plr_ar_falpha_gl_reload_fast_06
+214	ps_wfoly_plr_ar_falpha_gl_reload_fast_07
+215	ps_wfoly_plr_ar_falpha_gl_togrenade_01
+216	ps_wfoly_plr_ar_falpha_gl_togrenade_02
+217	ps_wfoly_plr_ar_falpha_hybrid_scope_side_off
+218	ps_wfoly_plr_ar_falpha_hybrid_scope_side_on
+219	ps_wfoly_plr_ar_falpha_hybrid_scope_snap_closed
+220	ps_wfoly_plr_ar_falpha_hybrid_scope_snap_open
+221	ps_wfoly_plr_ar_falpha_hybrid_scope_top_in
+222	ps_wfoly_plr_ar_falpha_hybrid_scope_top_out
+223	ps_wfoly_plr_ar_falpha_idle_active_01
+224	ps_wfoly_plr_ar_falpha_idle_active_02
+225	ps_wfoly_plr_ar_falpha_idle_active_03
+226	ps_wfoly_plr_ar_falpha_idle_active_04
+227	ps_wfoly_plr_ar_falpha_idle_active_05
+228	ps_wfoly_plr_ar_falpha_inspect_01
+229	ps_wfoly_plr_ar_falpha_inspect_02
+230	ps_wfoly_plr_ar_falpha_inspect_03
+231	ps_wfoly_plr_ar_falpha_inspect_04
+232	ps_wfoly_plr_ar_falpha_inspect_05
+233	ps_wfoly_plr_ar_falpha_raise_01
+234	ps_wfoly_plr_ar_falpha_raise_quick_01
+235	ps_wfoly_plr_ar_falpha_raise_quick_toprailcust_01
+236	ps_wfoly_plr_ar_falpha_raise_quick_toprailcust_02
+237	ps_wfoly_plr_ar_falpha_raise_toprailcust_01
+238	ps_wfoly_plr_ar_falpha_raise_toprailcust_02
+239	ps_wfoly_plr_ar_falpha_reload_01
+240	ps_wfoly_plr_ar_falpha_reload_02
+241	ps_wfoly_plr_ar_falpha_reload_03
+242	ps_wfoly_plr_ar_falpha_reload_04
+243	ps_wfoly_plr_ar_falpha_reload_05
+244	ps_wfoly_plr_ar_falpha_reload_empty_01
+245	ps_wfoly_plr_ar_falpha_reload_empty_02
+246	ps_wfoly_plr_ar_falpha_reload_empty_03
+247	ps_wfoly_plr_ar_falpha_reload_empty_04
+248	ps_wfoly_plr_ar_falpha_reload_empty_05
+249	ps_wfoly_plr_ar_falpha_reload_empty_fast_01
+250	ps_wfoly_plr_ar_falpha_reload_empty_fast_02
+251	ps_wfoly_plr_ar_falpha_reload_empty_fast_03
+252	ps_wfoly_plr_ar_falpha_reload_empty_fast_04
+253	ps_wfoly_plr_ar_falpha_reload_empty_fast_05
+254	ps_wfoly_plr_ar_falpha_reload_empty_fast_06
+255	ps_wfoly_plr_ar_falpha_reload_empty_xmag_01
+256	ps_wfoly_plr_ar_falpha_reload_empty_xmag_03
+257	ps_wfoly_plr_ar_falpha_reload_empty_xmag_04
+258	ps_wfoly_plr_ar_falpha_reload_empty_xmag_05
+259	ps_wfoly_plr_ar_falpha_reload_empty_xmag_06
+260	ps_wfoly_plr_ar_falpha_reload_empty_xmag_fast_01
+261	ps_wfoly_plr_ar_falpha_reload_empty_xmag_fast_03
+262	ps_wfoly_plr_ar_falpha_reload_empty_xmag_fast_04
+263	ps_wfoly_plr_ar_falpha_reload_empty_xmag_fast_05
+264	ps_wfoly_plr_ar_falpha_reload_empty_xmag_fast_06
+265	ps_wfoly_plr_ar_falpha_reload_fast_01
+266	ps_wfoly_plr_ar_falpha_reload_fast_02
+267	ps_wfoly_plr_ar_falpha_reload_fast_03
+268	ps_wfoly_plr_ar_falpha_reload_fast_04
+269	ps_wfoly_plr_ar_falpha_reload_fast_05
+270	tag_accessory_left
+271	tag_accessory_right
+272	tag_acog_2
+273	tag_ads
+274	tag_cambone
+275	tag_camera
+276	tag_elo
+277	tag_folding_grip
+278	tag_grenade_launcher
+279	tag_hybrid
+280	tag_ik_loc_le
+281	tag_ik_loc_le_foregrip
+282	tag_ik_loc_le_launcher
+283	tag_ik_loc_le_shotgun
+284	tag_ik_loc_ri
+285	tag_knife_attach2
+286	tag_phase
+287	tag_player
+288	tag_playerhelmet
+289	tag_shtgn_attach
+290	tag_sync
+291	tag_thermal
+292	tag_torso
+293	tag_view
+294	tag_weapon
+295	tag_weapon_left
+296	tag_weapon_right
+297	viewmodel_large
+298	viewmodel_medium
+299	viewmodel_small

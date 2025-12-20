@@ -1,0 +1,526 @@
+  0	tag_sync
+  1	j_mainroot
+  2	tag_ik_foot_loc_le
+  3	tag_ik_foot_loc_ri
+  4	j_shield_ri
+  5	j_hip_le
+  6	j_hip_ri
+  7	j_spinelower
+  8	j_knee_le
+  9	j_knee_ri
+ 10	j_spineupper
+ 11	j_ankle_le
+ 12	j_ball_le
+ 13	j_ankle_ri
+ 14	j_ball_ri
+ 15	j_spine4
+ 16	j_clavicle_ri
+ 17	j_chest
+ 18	j_neck
+ 19	j_clavicle_le
+ 20	tag_inhand
+ 21	j_shoulder_le
+ 22	tag_weapon_left
+ 23	tag_weapon_right
+ 24	j_shoulder_ri
+ 25	j_head
+ 26	j_elbow_le
+ 27	j_wrist_le
+ 28	j_shield_le
+ 29	tag_accessory_left
+ 30	j_metapinky_le_1
+ 31	j_metaring_le_1
+ 32	j_metamid_le_1
+ 33	j_metaindex_le_1
+ 34	j_thumb_le_1
+ 35	j_pinky_le_1
+ 36	j_ring_le_1
+ 37	j_mid_le_1
+ 38	j_index_le_1
+ 39	j_thumb_le_2
+ 40	j_index_le_2
+ 41	j_index_le_3
+ 42	j_mid_le_2
+ 43	j_mid_le_3
+ 44	j_pinky_le_2
+ 45	j_pinky_le_3
+ 46	j_ring_le_2
+ 47	j_ring_le_3
+ 48	j_thumb_le_3
+ 49	j_elbow_ri
+ 50	j_wrist_ri
+ 51	j_metamid_ri_1
+ 52	j_metaring_ri_1
+ 53	j_metapinky_ri_1
+ 54	j_thumb_ri_1
+ 55	tag_accessory_right
+ 56	j_metaindex_ri_1
+ 57	j_index_ri_1
+ 58	j_mid_ri_1
+ 59	j_ring_ri_1
+ 60	j_thumb_ri_2
+ 61	j_pinky_ri_1
+ 62	j_index_ri_2
+ 63	j_index_ri_3
+ 64	j_mid_ri_2
+ 65	j_mid_ri_3
+ 66	j_pinky_ri_2
+ 67	j_pinky_ri_3
+ 68	j_ring_ri_2
+ 69	j_ring_ri_3
+ 70	j_thumb_ri_3
+ 71	j_underchin
+ 72	j_underlip
+ 73	j_uppergum
+ 74	j_upperlip
+ 75	j_jaw
+ 76	j_brow_le_1
+ 77	j_brow_le_2
+ 78	j_brow_le_3
+ 79	j_brow_ri_1
+ 80	j_brow_ri_2
+ 81	j_brow_ri_3
+ 82	j_cheek_le_1
+ 83	j_cheek_le_2
+ 84	j_cheek_puff_le
+ 85	j_cheek_puff_ri
+ 86	j_cheek_ri_1
+ 87	j_cheek_ri_2
+ 88	j_chin
+ 89	j_eye_lid_bot_le
+ 90	j_eye_lid_bot_ri
+ 91	j_eye_lid_top_le
+ 92	j_eye_lid_top_le_1
+ 93	j_eye_lid_top_ri
+ 94	j_eye_lid_top_ri_1
+ 95	j_eyeball_le
+ 96	j_eyeball_ri
+ 97	j_eyelash_bot_le_1
+ 98	j_eyelash_bot_le_2
+ 99	j_eyelash_bot_ri_1
+100	j_eyelash_bot_ri_2
+101	j_eyelash_top_le_1
+102	j_eyelash_top_le_2
+103	j_eyelash_top_ri_1
+104	j_eyelash_top_ri_2
+105	j_forehead
+106	j_forehead_le_1
+107	j_forehead_ri_1
+108	j_furrow_le
+109	j_furrow_ri
+110	j_insidegum
+111	j_insidegum_le_1
+112	j_insidegum_ri_1
+113	j_levator_le_1
+114	j_levator_le_2
+115	j_levator_ri_1
+116	j_levator_ri_2
+117	j_lip_bot
+118	j_lip_bot_le_1
+119	j_lip_bot_le_2
+120	j_lip_bot_le_3
+121	j_lip_bot_le_4
+122	j_lip_bot_ri_1
+123	j_lip_bot_ri_2
+124	j_lip_bot_ri_3
+125	j_lip_bot_ri_4
+126	j_lip_inside_le_1
+127	j_lip_inside_ri_1
+128	j_lip_top
+129	j_lip_top_le_1
+130	j_lip_top_le_2
+131	j_lip_top_le_3
+132	j_lip_top_le_4
+133	j_lip_top_ri_1
+134	j_lip_top_ri_2
+135	j_lip_top_ri_3
+136	j_lip_top_ri_4
+137	j_lowergum
+138	j_mouthcorner_le
+139	j_mouthcorner_ri
+140	j_nasolabial_le_1
+141	j_nasolabial_le_2
+142	j_nasolabial_le_3
+143	j_nasolabial_le_4
+144	j_nasolabial_ri_1
+145	j_nasolabial_ri_2
+146	j_nasolabial_ri_3
+147	j_nasolabial_ri_4
+148	j_nose_tip
+149	j_periorbital_le_1
+150	j_periorbital_le_2
+151	j_periorbital_le_3
+152	j_periorbital_ri_1
+153	j_periorbital_ri_2
+154	j_periorbital_ri_3
+155	j_temple_le
+156	j_temple_ri
+157	j_helmet
+158	j_tongue_1
+159	j_tongue_2
+160	j_tongue_3
+161	end
+162	j_gun
+163	j_nvg
+164	tag_player
+165	origin_animate_jnt
+166	tag_body
+167	body_animate_jnt
+168	tag_fastrope_le
+169	tag_fastrope_ri
+170	tag_turret_npc
+171	elevator_jnt
+172	fastrope_base_le_jnt
+173	fastrope_base_ri_jnt
+174	fastrope_clasp_ri_jnt
+175	fastrope_hook_le_jnt
+176	fastrope_hook_ri_jnt
+177	front_wheel_door_l_jnt
+178	front_wheel_door_r_jnt
+179	j_ceiling_cable_01
+180	j_seat_material_le
+181	j_seat_material_ri
+182	main_rotor_jnt
+183	side_door_front1_l_jnt
+184	side_door_front1_r_jnt
+185	side_door_front2_l_jnt
+186	side_door_front2_r_jnt
+187	side_door_l_jnt
+188	side_door_r_jnt
+189	tag_deathfx
+190	tag_detach
+191	tag_detach_left
+192	tag_detach_left_offset
+193	tag_detach_right
+194	tag_doorgun
+195	tag_doorgun_player
+196	tag_driver
+197	tag_engine_left
+198	tag_engine_right
+199	tag_fastrope_hook
+200	tag_fastrope_hook_ri
+201	tag_flash
+202	tag_ground
+203	tag_gun_l
+204	tag_gun_r
+205	tag_guy0
+206	tag_guy1
+207	tag_guy2
+208	tag_guy3
+209	tag_guy4
+210	tag_guy5
+211	tag_guy6
+212	tag_guy7
+213	tag_guy8
+214	tag_guy9
+215	tag_headlight_l
+216	tag_headlight_r
+217	tag_interior
+218	tag_junk
+219	tag_light_l_wing
+220	tag_light_r_wing
+221	tag_light_belly
+222	tag_light_cargo01
+223	tag_light_cargo02
+224	tag_light_cockpit01
+225	tag_light_l_navi
+226	tag_light_l_navi001
+227	tag_light_tail
+228	tag_light_top_body
+229	tag_passenger
+230	tag_pilot1
+231	tag_pilot2
+232	tag_player1
+233	tag_player2
+234	tag_playerride
+235	tail_rotor_jnt
+236	wheel_front_l_aim_jnt
+237	wheel_front_l_aim_loc
+238	wheel_front_l_base_jnt
+239	wheel_front_l_jnt
+240	wheel_front_r_aim_jnt
+241	wheel_front_r_aim_loc
+242	wheel_front_r_base_jnt
+243	wheel_front_r_jnt
+244	wheel_rear_base_jnt
+245	wheel_rear_jnt
+246	wheel_root_l
+247	wheel_root_r
+248	tag_main_rotor_motion
+249	tag_main_rotor_static
+250	tag_tail_rotor_motion
+251	tag_tail_rotor_static
+252	fastrope_clasp_le_jnt
+253	j_ceiling_cable_02
+254	j_interior_hand_ring1
+255	j_interior_hand_ring2
+256	j_interior_hand_ring3
+257	j_interior_hand_ring4
+258	j_interior_hand_ring5
+259	j_interior_hand_ring6
+260	j_seat_belt_01_le
+261	j_seat_belt_01_ri
+262	j_seat_material_end_le
+263	j_seat_material_end_ri
+264	j_tied_cable_01
+265	j_tied_cable_02
+266	j_tied_cable_03
+267	j_tied_cable_04
+268	j_wall_cable_01_le
+269	j_wall_cable_01_ri
+270	j_wall_cable_02_le
+271	j_wall_cable_02_ri
+272	j_wall_cable_03_le
+273	j_wall_cable_03_ri
+274	seat0_le_jnt
+275	seat0_ri_jnt
+276	seat1_le_jnt
+277	seat1_ri_jnt
+278	seat2_le_jnt
+279	seat2_ri_jnt
+280	seat3_le_jnt
+281	seat3_ri_jnt
+282	seat4_le_jnt
+283	seat4_ri_jnt
+284	j_interior_hand_ring1_end
+285	j_interior_hand_ring2_end
+286	j_interior_hand_ring3_end
+287	j_interior_hand_ring4_end
+288	j_interior_hand_ring5_end
+289	j_interior_hand_ring6_end
+290	j_seat_belt_02_le
+291	j_seat_belt_02_ri
+292	j_seat_belt_03_le
+293	j_seat_belt_03_ri
+294	j_rope_1
+295	j_rope_10
+296	j_rope_100
+297	j_rope_101
+298	j_rope_102
+299	j_rope_103
+300	j_rope_104
+301	j_rope_105
+302	j_rope_106
+303	j_rope_107
+304	j_rope_108
+305	j_rope_109
+306	j_rope_11
+307	j_rope_110
+308	j_rope_111
+309	j_rope_112
+310	j_rope_113
+311	j_rope_114
+312	j_rope_115
+313	j_rope_116
+314	j_rope_117
+315	j_rope_118
+316	j_rope_119
+317	j_rope_12
+318	j_rope_120
+319	j_rope_121
+320	j_rope_122
+321	j_rope_123
+322	j_rope_124
+323	j_rope_125
+324	j_rope_126
+325	j_rope_127
+326	j_rope_128
+327	j_rope_129
+328	j_rope_13
+329	j_rope_130
+330	j_rope_131
+331	j_rope_132
+332	j_rope_133
+333	j_rope_134
+334	j_rope_135
+335	j_rope_136
+336	j_rope_137
+337	j_rope_138
+338	j_rope_139
+339	j_rope_14
+340	j_rope_140
+341	j_rope_141
+342	j_rope_142
+343	j_rope_143
+344	j_rope_144
+345	j_rope_145
+346	j_rope_146
+347	j_rope_147
+348	j_rope_148
+349	j_rope_149
+350	j_rope_15
+351	j_rope_150
+352	j_rope_151
+353	j_rope_152
+354	j_rope_153
+355	j_rope_154
+356	j_rope_155
+357	j_rope_156
+358	j_rope_157
+359	j_rope_158
+360	j_rope_159
+361	j_rope_16
+362	j_rope_160
+363	j_rope_161
+364	j_rope_162
+365	j_rope_163
+366	j_rope_164
+367	j_rope_165
+368	j_rope_166
+369	j_rope_167
+370	j_rope_168
+371	j_rope_169
+372	j_rope_17
+373	j_rope_170
+374	j_rope_171
+375	j_rope_172
+376	j_rope_173
+377	j_rope_174
+378	j_rope_175
+379	j_rope_176
+380	j_rope_177
+381	j_rope_178
+382	j_rope_179
+383	j_rope_18
+384	j_rope_180
+385	j_rope_181
+386	j_rope_182
+387	j_rope_183
+388	j_rope_184
+389	j_rope_185
+390	j_rope_186
+391	j_rope_187
+392	j_rope_188
+393	j_rope_189
+394	j_rope_19
+395	j_rope_190
+396	j_rope_191
+397	j_rope_192
+398	j_rope_193
+399	j_rope_194
+400	j_rope_195
+401	j_rope_196
+402	j_rope_197
+403	j_rope_198
+404	j_rope_199
+405	j_rope_2
+406	j_rope_20
+407	j_rope_200
+408	j_rope_21
+409	j_rope_22
+410	j_rope_23
+411	j_rope_24
+412	j_rope_25
+413	j_rope_26
+414	j_rope_27
+415	j_rope_28
+416	j_rope_29
+417	j_rope_3
+418	j_rope_30
+419	j_rope_31
+420	j_rope_32
+421	j_rope_33
+422	j_rope_34
+423	j_rope_35
+424	j_rope_36
+425	j_rope_37
+426	j_rope_38
+427	j_rope_39
+428	j_rope_4
+429	j_rope_40
+430	j_rope_41
+431	j_rope_42
+432	j_rope_43
+433	j_rope_44
+434	j_rope_45
+435	j_rope_46
+436	j_rope_47
+437	j_rope_48
+438	j_rope_49
+439	j_rope_5
+440	j_rope_50
+441	j_rope_51
+442	j_rope_52
+443	j_rope_53
+444	j_rope_54
+445	j_rope_55
+446	j_rope_56
+447	j_rope_57
+448	j_rope_58
+449	j_rope_59
+450	j_rope_6
+451	j_rope_60
+452	j_rope_61
+453	j_rope_62
+454	j_rope_63
+455	j_rope_64
+456	j_rope_65
+457	j_rope_66
+458	j_rope_67
+459	j_rope_68
+460	j_rope_69
+461	j_rope_7
+462	j_rope_70
+463	j_rope_71
+464	j_rope_72
+465	j_rope_73
+466	j_rope_74
+467	j_rope_75
+468	j_rope_76
+469	j_rope_77
+470	j_rope_78
+471	j_rope_79
+472	j_rope_8
+473	j_rope_80
+474	j_rope_81
+475	j_rope_82
+476	j_rope_83
+477	j_rope_84
+478	j_rope_85
+479	j_rope_86
+480	j_rope_87
+481	j_rope_88
+482	j_rope_89
+483	j_rope_9
+484	j_rope_90
+485	j_rope_91
+486	j_rope_92
+487	j_rope_93
+488	j_rope_94
+489	j_rope_95
+490	j_rope_96
+491	j_rope_97
+492	j_rope_98
+493	j_rope_99
+494	j_hiptwist_le
+495	j_hiptwist_ri
+496	j_shouldertwist_le
+497	j_shouldertwist_ri
+498	j_wristfronttwist1_le
+499	j_crotch
+500	j_kneedq_le
+501	j_kneedq_ri
+502	j_elbowdq_le
+503	j_elbowdq_ri
+504	j_wristfronttwist1_ri
+505	j_groinprotector
+506	tag_view
+507	tag_ads
+508	tag_cambone
+509	tag_torso
+510	tag_camera
+511	tag_weapon
+512	j_webbing_le_1
+513	j_webbing_le_2
+514	j_index_le_4
+515	j_thumb_le_4
+516	j_webbing_ri_1
+517	tag_knife_attach2
+518	j_webbing_ri_2
+519	j_index_ri_4
+520	j_thumb_ri_4
+521	guy0_aboard
+522	guy1_aboard
+523	guy2_aboard
+524	delete_me
+525	slamtoblack

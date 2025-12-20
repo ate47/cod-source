@@ -1,0 +1,269 @@
+  0	charging_handle_jnt
+  1	charging_handlel_jnt
+  2	charging_handler_jnt
+  3	end
+  4	fingers_in_end_left_hand
+  5	fingers_in_end_right_hand
+  6	fingers_in_start_left_hand
+  7	fingers_in_start_right_hand
+  8	fingers_out_end_left_hand
+  9	fingers_out_end_right_hand
+ 10	fingers_out_start_left_hand
+ 11	fingers_out_start_right_hand
+ 12	footstep_left_small
+ 13	footstep_right_small
+ 14	ik_in_end_left_hand
+ 15	ik_in_end_right_hand
+ 16	ik_in_start_left_hand
+ 17	ik_in_start_right_hand
+ 18	ik_out_end_left_hand
+ 19	ik_out_end_right_hand
+ 20	ik_out_start_left_hand
+ 21	ik_out_start_right_hand
+ 22	j_ankle_le
+ 23	j_ankle_ri
+ 24	j_ar57_lgn_strap_01
+ 25	j_ar57_lgn_strap_02
+ 26	j_ar57_lgn_strap_03
+ 27	j_ar57_lgn_strap_04
+ 28	j_ar57_lgn_strap_05
+ 29	j_ar57_lgn_strap_06
+ 30	j_ar57_lgn_strap_07
+ 31	j_ar57_lgn_strap_08
+ 32	j_ar57_lgn_strap_09
+ 33	j_ar57_lgn_strap_10
+ 34	j_ar57_rear_strap_01
+ 35	j_ar57_rear_strap_02
+ 36	j_ar57_strap_01
+ 37	j_ar57_strap_02
+ 38	j_b_01
+ 39	j_b_02
+ 40	j_b_03
+ 41	j_b_04
+ 42	j_b_05
+ 43	j_b_06
+ 44	j_b_07
+ 45	j_b_08
+ 46	j_b_09
+ 47	j_b_10
+ 48	j_b_11
+ 49	j_b_12
+ 50	j_b_13
+ 51	j_b_14
+ 52	j_b_15
+ 53	j_b_16
+ 54	j_b_17
+ 55	j_b_18
+ 56	j_ball_le
+ 57	j_ball_ri
+ 58	j_bullet_01
+ 59	j_bullet_02
+ 60	j_chamber
+ 61	j_charginghandle_grip
+ 62	j_charginghandle_rod
+ 63	j_chest
+ 64	j_clavicle_le
+ 65	j_clavicle_ri
+ 66	j_coil
+ 67	j_crotch
+ 68	j_ejectcover
+ 69	j_elbow_le
+ 70	j_elbow_ri
+ 71	j_elbowdq_le
+ 72	j_elbowdq_ri
+ 73	j_grenade
+ 74	j_grenade_empty
+ 75	j_groinprotector
+ 76	j_gun
+ 77	j_head
+ 78	j_helmet
+ 79	j_hip_le
+ 80	j_hip_ri
+ 81	j_hiptwist_le
+ 82	j_hiptwist_ri
+ 83	j_hybrid_scope
+ 84	j_index_le_1
+ 85	j_index_le_2
+ 86	j_index_le_3
+ 87	j_index_le_4
+ 88	j_index_ri_1
+ 89	j_index_ri_2
+ 90	j_index_ri_3
+ 91	j_index_ri_4
+ 92	j_knee_le
+ 93	j_knee_ri
+ 94	j_kneedq_le
+ 95	j_kneedq_ri
+ 96	j_lever
+ 97	j_lgn_charging_handlel_jnt
+ 98	j_lgn_charging_handler_jnt
+ 99	j_lgn_mag_release
+100	j_loose_round
+101	j_mag1
+102	j_mag2
+103	j_magnifier
+104	j_magrelease
+105	j_mainroot
+106	j_metaindex_le_1
+107	j_metaindex_ri_1
+108	j_metamid_le_1
+109	j_metamid_ri_1
+110	j_metapinky_le_1
+111	j_metapinky_ri_1
+112	j_metaring_le_1
+113	j_metaring_ri_1
+114	j_mid_le_1
+115	j_mid_le_2
+116	j_mid_le_3
+117	j_mid_ri_1
+118	j_mid_ri_2
+119	j_mid_ri_3
+120	j_neck
+121	j_nvg
+122	j_pinky_le_1
+123	j_pinky_le_2
+124	j_pinky_le_3
+125	j_pinky_ri_1
+126	j_pinky_ri_2
+127	j_pinky_ri_3
+128	j_ring_le_1
+129	j_ring_le_2
+130	j_ring_le_3
+131	j_ring_ri_1
+132	j_ring_ri_2
+133	j_ring_ri_3
+134	j_safety
+135	j_shield_le
+136	j_shield_ri
+137	j_shoulder_le
+138	j_shoulder_ri
+139	j_shouldertwist_le
+140	j_shouldertwist_ri
+141	j_spine4
+142	j_spinelower
+143	j_spineupper
+144	j_thumb_le_1
+145	j_thumb_le_2
+146	j_thumb_le_3
+147	j_thumb_le_4
+148	j_thumb_ri_1
+149	j_thumb_ri_2
+150	j_thumb_ri_3
+151	j_thumb_ri_4
+152	j_trigger
+153	j_visor
+154	j_visor_inner
+155	j_webbing_le_1
+156	j_webbing_le_2
+157	j_webbing_ri_1
+158	j_webbing_ri_2
+159	j_wrist_le
+160	j_wrist_ri
+161	j_wristfronttwist1_le
+162	j_wristfronttwist1_ri
+163	mag_eject
+164	magazine0_jnt
+165	magazine1_jnt
+166	melee_attack_sfx
+167	mvmt_step_post
+168	mvmt_step_pre
+169	ps_weap_ar_asierra12_selector_off
+170	ps_weap_ar_asierra12_selector_on
+171	ps_weap_ar_idle_1_plr
+172	ps_weap_ar_idle_2_plr
+173	ps_weap_ar_idle_3_plr
+174	ps_weap_ar_idle_4_01_plr
+175	ps_weap_ar_idle_4_02_plr
+176	ps_weap_ar_idle_4_03_plr
+177	ps_wfoly_plr_ar_asierra12_drop_01
+178	ps_wfoly_plr_ar_asierra12_drop_quick_01
+179	ps_wfoly_plr_ar_asierra12_gl_drop_01
+180	ps_wfoly_plr_ar_asierra12_gl_fromgrenade_01
+181	ps_wfoly_plr_ar_asierra12_gl_raise_01
+182	ps_wfoly_plr_ar_asierra12_gl_reload_01
+183	ps_wfoly_plr_ar_asierra12_gl_reload_02
+184	ps_wfoly_plr_ar_asierra12_gl_reload_03
+185	ps_wfoly_plr_ar_asierra12_gl_reload_04
+186	ps_wfoly_plr_ar_asierra12_gl_reload_05
+187	ps_wfoly_plr_ar_asierra12_gl_reload_06
+188	ps_wfoly_plr_ar_asierra12_gl_reload_07
+189	ps_wfoly_plr_ar_asierra12_gl_reload_fast_01
+190	ps_wfoly_plr_ar_asierra12_gl_reload_fast_02
+191	ps_wfoly_plr_ar_asierra12_gl_reload_fast_03
+192	ps_wfoly_plr_ar_asierra12_gl_reload_fast_04
+193	ps_wfoly_plr_ar_asierra12_gl_reload_fast_05
+194	ps_wfoly_plr_ar_asierra12_gl_reload_fast_06
+195	ps_wfoly_plr_ar_asierra12_gl_reload_fast_07
+196	ps_wfoly_plr_ar_asierra12_gl_togrenade_01
+197	ps_wfoly_plr_ar_asierra12_hybrid_scope_side_off
+198	ps_wfoly_plr_ar_asierra12_hybrid_scope_side_on
+199	ps_wfoly_plr_ar_asierra12_hybrid_scope_top_in
+200	ps_wfoly_plr_ar_asierra12_hybrid_scope_top_out
+201	ps_wfoly_plr_ar_asierra12_inspect_01
+202	ps_wfoly_plr_ar_asierra12_inspect_02
+203	ps_wfoly_plr_ar_asierra12_inspect_03
+204	ps_wfoly_plr_ar_asierra12_inspect_04
+205	ps_wfoly_plr_ar_asierra12_inspect_05
+206	ps_wfoly_plr_ar_asierra12_raise_01
+207	ps_wfoly_plr_ar_asierra12_raise_quick_01
+208	ps_wfoly_plr_ar_asierra12_reload_01
+209	ps_wfoly_plr_ar_asierra12_reload_02
+210	ps_wfoly_plr_ar_asierra12_reload_03
+211	ps_wfoly_plr_ar_asierra12_reload_04
+212	ps_wfoly_plr_ar_asierra12_reload_045
+213	ps_wfoly_plr_ar_asierra12_reload_05
+214	ps_wfoly_plr_ar_asierra12_reload_empty_01
+215	ps_wfoly_plr_ar_asierra12_reload_empty_02
+216	ps_wfoly_plr_ar_asierra12_reload_empty_03
+217	ps_wfoly_plr_ar_asierra12_reload_empty_04
+218	ps_wfoly_plr_ar_asierra12_reload_empty_05
+219	ps_wfoly_plr_ar_asierra12_reload_empty_055
+220	ps_wfoly_plr_ar_asierra12_reload_empty_06
+221	ps_wfoly_plr_ar_asierra12_reload_empty_07
+222	ps_wfoly_plr_ar_asierra12_reload_empty_08
+223	ps_wfoly_plr_ar_asierra12_reload_empty_fast_01
+224	ps_wfoly_plr_ar_asierra12_reload_empty_fast_02
+225	ps_wfoly_plr_ar_asierra12_reload_empty_fast_03
+226	ps_wfoly_plr_ar_asierra12_reload_empty_fast_04
+227	ps_wfoly_plr_ar_asierra12_reload_empty_fast_045
+228	ps_wfoly_plr_ar_asierra12_reload_empty_fast_05
+229	ps_wfoly_plr_ar_asierra12_reload_empty_fast_06
+230	ps_wfoly_plr_ar_asierra12_reload_empty_fast_07
+231	ps_wfoly_plr_ar_asierra12_reload_fast_01
+232	ps_wfoly_plr_ar_asierra12_reload_fast_02
+233	ps_wfoly_plr_ar_asierra12_reload_fast_03
+234	ps_wfoly_plr_ar_asierra12_reload_fast_04
+235	ps_wfoly_plr_ar_asierra12_reload_fast_045
+236	ps_wfoly_plr_ar_asierra12_reload_fast_05
+237	ps_wfoly_plr_ar_asierra12_settle_01
+238	tag_accessory_left
+239	tag_accessory_right
+240	tag_acog_2
+241	tag_ads
+242	tag_cambone
+243	tag_camera
+244	tag_elo
+245	tag_folding_grip
+246	tag_grenade_launcher
+247	tag_hybrid
+248	tag_ik_loc_le
+249	tag_ik_loc_le_foregrip
+250	tag_ik_loc_le_launcher
+251	tag_ik_loc_le_shotgun
+252	tag_ik_loc_ri
+253	tag_knife_attach2
+254	tag_phase
+255	tag_player
+256	tag_playerhelmet
+257	tag_shtgn_attach
+258	tag_sync
+259	tag_thermal
+260	tag_torso
+261	tag_view
+262	tag_weapon
+263	tag_weapon_left
+264	tag_weapon_right
+265	viewmodel_large
+266	viewmodel_medium
+267	viewmodel_small
+268	wpfoly_acog_ads_toggle_off

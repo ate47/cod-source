@@ -1,0 +1,242 @@
+  0	bullets_on
+  1	end
+  2	fingers_in_end_left_hand
+  3	fingers_in_end_right_hand
+  4	fingers_in_start_left_hand
+  5	fingers_in_start_right_hand
+  6	fingers_out_end_left_hand
+  7	fingers_out_end_right_hand
+  8	fingers_out_start_left_hand
+  9	fingers_out_start_right_hand
+ 10	footstep_left_small
+ 11	footstep_right_small
+ 12	hide,tag_offscreen
+ 13	ik_in_end_left_hand
+ 14	ik_in_end_right_hand
+ 15	ik_in_start_left_hand
+ 16	ik_in_start_right_hand
+ 17	ik_out_end_left_hand
+ 18	ik_out_end_right_hand
+ 19	ik_out_start_left_hand
+ 20	ik_out_start_right_hand
+ 21	interruptible
+ 22	j_action
+ 23	j_action_housing
+ 24	j_action_safety
+ 25	j_ankle_le
+ 26	j_ankle_ri
+ 27	j_b_00
+ 28	j_b_01
+ 29	j_b_02
+ 30	j_b_03
+ 31	j_b_04
+ 32	j_b_05
+ 33	j_b_os_00
+ 34	j_b_os_01
+ 35	j_b_os_02
+ 36	j_b_os_03
+ 37	j_b_os_04
+ 38	j_ball_le
+ 39	j_ball_ri
+ 40	j_bolt
+ 41	j_bolt_base
+ 42	j_bolt_body
+ 43	j_bolt_catch
+ 44	j_bolt_latch
+ 45	j_bullet_loose
+ 46	j_charging_handle
+ 47	j_charginghandle
+ 48	j_chest
+ 49	j_clavicle_le
+ 50	j_clavicle_ri
+ 51	j_clip
+ 52	j_clip_strip
+ 53	j_clip_strip_os
+ 54	j_collapsible_stock
+ 55	j_crotch
+ 56	j_dust_cover
+ 57	j_ejection_port
+ 58	j_elbow_le
+ 59	j_elbow_ri
+ 60	j_elbowdq_le
+ 61	j_elbowdq_ri
+ 62	j_firing_pin
+ 63	j_follower
+ 64	j_grenade
+ 65	j_groinprotector
+ 66	j_gun
+ 67	j_hammer
+ 68	j_head
+ 69	j_helmet
+ 70	j_hip_le
+ 71	j_hip_ri
+ 72	j_hiptwist_le
+ 73	j_hiptwist_ri
+ 74	j_horn_401
+ 75	j_index_le_1
+ 76	j_index_le_2
+ 77	j_index_le_3
+ 78	j_index_le_4
+ 79	j_index_ri_1
+ 80	j_index_ri_2
+ 81	j_index_ri_3
+ 82	j_index_ri_4
+ 83	j_knee_le
+ 84	j_knee_ri
+ 85	j_kneedq_le
+ 86	j_kneedq_ri
+ 87	j_loose_round
+ 88	j_mag1
+ 89	j_mag2
+ 90	j_mag_00_clip
+ 91	j_mag_release_button
+ 92	j_mag_release_paddle
+ 93	j_magnifier
+ 94	j_magrel
+ 95	j_mainroot
+ 96	j_metaindex_le_1
+ 97	j_metaindex_ri_1
+ 98	j_metamid_le_1
+ 99	j_metamid_ri_1
+100	j_metapinky_le_1
+101	j_metapinky_ri_1
+102	j_metaring_le_1
+103	j_metaring_ri_1
+104	j_mid_le_1
+105	j_mid_le_2
+106	j_mid_le_3
+107	j_mid_ri_1
+108	j_mid_ri_2
+109	j_mid_ri_3
+110	j_neck
+111	j_nvg
+112	j_pinky_le_1
+113	j_pinky_le_2
+114	j_pinky_le_3
+115	j_pinky_ri_1
+116	j_pinky_ri_2
+117	j_pinky_ri_3
+118	j_ring_le_1
+119	j_ring_le_2
+120	j_ring_le_3
+121	j_ring_ri_1
+122	j_ring_ri_2
+123	j_ring_ri_3
+124	j_safety
+125	j_shield_le
+126	j_shield_ri
+127	j_shoulder_le
+128	j_shoulder_ri
+129	j_shouldertwist_le
+130	j_shouldertwist_ri
+131	j_sling_01
+132	j_sling_02
+133	j_sling_03
+134	j_sling_04
+135	j_sling_05
+136	j_sling_06
+137	j_spine4
+138	j_spinelower
+139	j_spineupper
+140	j_stock_release
+141	j_swivel_pivot_v2
+142	j_swivel_ring_v2
+143	j_thumb_le_1
+144	j_thumb_le_2
+145	j_thumb_le_3
+146	j_thumb_le_4
+147	j_thumb_ri_1
+148	j_thumb_ri_2
+149	j_thumb_ri_3
+150	j_thumb_ri_4
+151	j_trigger
+152	j_visor
+153	j_visor_inner
+154	j_webbing_le_1
+155	j_webbing_le_2
+156	j_webbing_ri_1
+157	j_webbing_ri_2
+158	j_wrist_le
+159	j_wrist_ri
+160	j_wristfronttwist1_le
+161	j_wristfronttwist1_ri
+162	loose_round_00
+163	loose_round_01
+164	melee_attack_sfx
+165	mvmt_step_post
+166	mvmt_step_pre
+167	ps_wfoly_plr_sn_kilo98_drop_01
+168	ps_wfoly_plr_sn_kilo98_drop_02
+169	ps_wfoly_plr_sn_kilo98_drop_quick_01
+170	ps_wfoly_plr_sn_kilo98_raise_01
+171	ps_wfoly_plr_sn_kilo98_raise_quick_01
+172	ps_wpn_gbl_plr_inspect_mvmnt_med
+173	ps_wpn_gbl_plr_inspect_mvmnt_sml
+174	ps_wpn_gbl_plr_inspect_settle
+175	ps_wpn_gbl_plr_inspect_sn_bolt_close
+176	ps_wpn_gbl_plr_inspect_sn_bolt_open
+177	ps_wpn_gbl_plr_sight_toggle_off
+178	ps_wpn_gbl_plr_sight_toggle_on
+179	ps_wpn_moscar_plr_reload_clipin_empty
+180	ps_wpn_moscar_plr_reload_clipin_tac
+181	ps_wpn_moscar_plr_reload_close_empty
+182	ps_wpn_moscar_plr_reload_close_noclip
+183	ps_wpn_moscar_plr_reload_close_tac
+184	ps_wpn_moscar_plr_reload_cycle
+185	ps_wpn_moscar_plr_reload_cycle_empty_ext
+186	ps_wpn_moscar_plr_reload_cycle_empty_fast
+187	ps_wpn_moscar_plr_reload_magin_empty_ext
+188	ps_wpn_moscar_plr_reload_magin_empty_fast
+189	ps_wpn_moscar_plr_reload_magin_tac_ext
+190	ps_wpn_moscar_plr_reload_magin_tac_fast
+191	ps_wpn_moscar_plr_reload_magout_empty_ext
+192	ps_wpn_moscar_plr_reload_magout_empty_fast
+193	ps_wpn_moscar_plr_reload_magout_tac_ext
+194	ps_wpn_moscar_plr_reload_magout_tac_fast
+195	ps_wpn_moscar_plr_reload_open_empty
+196	ps_wpn_moscar_plr_reload_open_noclip
+197	ps_wpn_moscar_plr_reload_open_tac
+198	ps_wpn_moscar_plr_reload_roundin_noclip
+199	ps_wpn_moscar_ultra_dino_inspect_foley_01
+200	ps_wpn_moscar_ultra_dino_inspect_foley_02
+201	ps_wpn_moscar_ultra_dino_inspect_foley_03
+202	ps_wpn_moscar_ultra_dino_inspect_foley_04
+203	ps_wpn_moscar_ultra_dino_inspect_foley_05
+204	ps_wpn_moscar_ultra_dino_inspect_sweetener_01
+205	show,tag_offscreen
+206	show_full_magazine
+207	tag_accessory_left
+208	tag_accessory_right
+209	tag_ads
+210	tag_barrel_attach
+211	tag_bayonet_attach
+212	tag_bipod_attach
+213	tag_cambone
+214	tag_camera
+215	tag_grenade_launcher
+216	tag_holo
+217	tag_ik_loc_le
+218	tag_ik_loc_le_mover
+219	tag_ik_loc_ri
+220	tag_ik_loc_ri_mover
+221	tag_knife_attach2
+222	tag_loose_round
+223	tag_mag_attach
+224	tag_offscreen
+225	tag_player
+226	tag_playerhelmet
+227	tag_silencer
+228	tag_sling
+229	tag_stock_attach
+230	tag_sync
+231	tag_taclight
+232	tag_tip
+233	tag_torso
+234	tag_trigger_attach
+235	tag_view
+236	tag_weapon
+237	tag_weapon_left
+238	tag_weapon_right
+239	viewmodel_large
+240	viewmodel_medium
+241	viewmodel_small

@@ -1,0 +1,917 @@
+  0	<rigidroot>
+  1	anim_facial = death
+  2	anim_facial = gas_death
+  3	anim_facial = idle
+  4	anim_facial = pain
+  5	anim_facial = scared
+  6	anim_movement = run
+  7	anim_movement = stop
+  8	anim_movement = walk
+  9	bag_canvas_01_verticle
+ 10	bag_canvas_01_verticle_row
+ 11	barrier_traffic_concrete_block_01
+ 12	body_animate_jnt
+ 13	body_animate_joint
+ 14	building_awning_rusted_metal_corrugated_64
+ 15	building_awning_tarp_64x32x64_03
+ 16	building_cable_post_wood_pole_30_feet
+ 17	building_tarps_doorways_cloth_03_red
+ 18	building_tarps_doorways_cloth_04_red
+ 19	building_wall_window_brick_01
+ 20	carboard_chinese_bunch_b_lod0
+ 21	clocktower_topsection_01
+ 22	crate_plastic_01_large_green
+ 23	crest_bottom
+ 24	crest_bottom_tip
+ 25	crest_top
+ 26	crest_top_tip
+ 27	death
+ 28	debris_corrugated_panels_metal_white
+ 29	debris_corrugated_panels_plastic_green
+ 30	decor_bicycles_01
+ 31	decor_bicycles_01_tire
+ 32	decor_boxes_01
+ 33	door_01_jt
+ 34	door_02_jt
+ 35	door_03_jt
+ 36	door_04_jt
+ 37	end
+ 38	exit_grab_note
+ 39	father_mayhem_1_end
+ 40	father_mayhem_1_start
+ 41	father_mayhem_2_end
+ 42	father_mayhem_2_start
+ 43	father_mayhem_3_end
+ 44	father_mayhem_3_start
+ 45	father_mayhem_4_end
+ 46	father_mayhem_4_start
+ 47	father_mayhem_5_end
+ 48	father_mayhem_5_start
+ 49	fingers_in_end_right_hand
+ 50	fingers_in_start_right_hand
+ 51	fingers_out_end_right_hand
+ 52	fingers_out_start_right_hand
+ 53	fire
+ 54	footstep_left_small
+ 55	footstep_right_small
+ 56	fx_exploder( grabass )
+ 57	fx_playfxontag, vfx_deathfx_bloodpool_01, j_head
+ 58	fx_playfxontag, vfx_deathfx_bloodpool_01, tag_eye
+ 59	fx_playfxontag, vfx_htown_dirt_poof, j_ball_le
+ 60	fx_playfxontag, vfx_htown_dirt_poof, j_ball_ri
+ 61	fx_playfxontag, vfx_imp_flesh_lrg_exit, tag_eye
+ 62	fx_playfxontag, vfx_imp_flesh_lrg_exit_01_01, tag_eye
+ 63	fx_playfxontag, vfx_imp_flesh_lrg_exit_02_01, tag_eye
+ 64	fx_playfxontag, vfx_imp_flesh_lrg_exit_03_01, tag_eye
+ 65	fx_playfxontag, vfx_imp_flesh_lrg_exit_04_01, j_head
+ 66	fx_playfxontag, vfx_imp_flesh_lrg_exit_05_01, tag_eye
+ 67	fx_playfxontag, vfx_imp_flesh_lrg_exit_2, j_head
+ 68	fx_playfxontag, vfx_imp_flesh_lrg_exit_2, tag_eye
+ 69	fx_playfxontag, vfx_imp_flesh_lrg_exit_3, j_clavicle_le
+ 70	fx_playfxontag, vfx_imp_flesh_lrg_exit_3, j_head
+ 71	fx_playfxontag, vfx_imp_flesh_lrg_exit_3, tag_eye
+ 72	fx_playfxontag, vfx_imp_flesh_lrg_exit_4, tag_eye
+ 73	fx_playfxontag, vfx_imp_flesh_lrg_exit_5, tag_eye
+ 74	fx_playfxontag, vfx_imp_flesh_med, j_shoulder_ri
+ 75	fx_playfxontag, vfx_vehicle_treadfx_dirt_constant, tag_wheel_front_left
+ 76	fx_playfxontag, vfx_vehicle_treadfx_dirt_constant, tag_wheel_front_right
+ 77	fx_stop_exploder( (null) )
+ 78	fx_stopfxontag, blood pool, j_head
+ 79	fx_stopfxontag, vfx_deathfx_bloodpool_01, j_head
+ 80	fx_stopfxontag, vfx_deathfx_bloodpool_01, tag_eye
+ 81	fx_stopfxontag, vfx_htown_dirt_poof, j_ball_le
+ 82	fx_stopfxontag, vfx_htown_dirt_poof, j_ball_ri
+ 83	fx_stopfxontag, vfx_imp_flesh_lrg_exit, tag_eye
+ 84	fx_stopfxontag, vfx_imp_flesh_lrg_exit_01_01, tag_eye
+ 85	fx_stopfxontag, vfx_imp_flesh_lrg_exit_02_01, tag_eye
+ 86	fx_stopfxontag, vfx_imp_flesh_lrg_exit_03_01, tag_eye
+ 87	fx_stopfxontag, vfx_imp_flesh_lrg_exit_04_01, j_head
+ 88	fx_stopfxontag, vfx_imp_flesh_lrg_exit_05_01, tag_eye
+ 89	fx_stopfxontag, vfx_imp_flesh_lrg_exit_2, j_head
+ 90	fx_stopfxontag, vfx_imp_flesh_lrg_exit_2, tag_eye
+ 91	fx_stopfxontag, vfx_imp_flesh_lrg_exit_3, j_clavicle_le
+ 92	fx_stopfxontag, vfx_imp_flesh_lrg_exit_3, j_head
+ 93	fx_stopfxontag, vfx_imp_flesh_lrg_exit_3, tag_eye
+ 94	fx_stopfxontag, vfx_imp_flesh_lrg_exit_4, tag_eye
+ 95	fx_stopfxontag, vfx_imp_flesh_lrg_exit_5, tag_eye
+ 96	fx_stopfxontag, vfx_imp_flesh_med, j_shoulder_ri
+ 97	fx_stopfxontag, vfx_vehicle_treadfx_dirt_constant, tag_wheel_front_left
+ 98	fx_stopfxontag, vfx_vehicle_treadfx_dirt_constant, tag_wheel_front_right
+ 99	hand_place_left
+100	hand_place_right
+101	head
+102	head_tip
+103	ht_off
+104	ht_on
+105	ik_in_end_left_hand
+106	ik_in_end_right_hand
+107	ik_in_start_left_hand
+108	ik_in_start_right_hand
+109	ik_out_end_left_hand
+110	ik_out_end_right_hand
+111	ik_out_start_left_hand
+112	ik_out_start_right_hand
+113	j_ankle_le
+114	j_ankle_ri
+115	j_ball_le
+116	j_ball_ri
+117	j_brow_le_1
+118	j_brow_le_2
+119	j_brow_le_3
+120	j_brow_ri_1
+121	j_brow_ri_2
+122	j_brow_ri_3
+123	j_cheek_le_1
+124	j_cheek_le_2
+125	j_cheek_puff_le
+126	j_cheek_puff_ri
+127	j_cheek_ri_1
+128	j_cheek_ri_2
+129	j_chest
+130	j_chin
+131	j_clavicle_le
+132	j_clavicle_ri
+133	j_crotch
+134	j_elbow_le
+135	j_elbow_ri
+136	j_elbowdq_le
+137	j_elbowdq_ri
+138	j_eye_lid_bot_le
+139	j_eye_lid_bot_ri
+140	j_eye_lid_top_le
+141	j_eye_lid_top_le_1
+142	j_eye_lid_top_ri
+143	j_eye_lid_top_ri_1
+144	j_eyeball_le
+145	j_eyeball_ri
+146	j_eyelash_bot_le_1
+147	j_eyelash_bot_le_2
+148	j_eyelash_bot_ri_1
+149	j_eyelash_bot_ri_2
+150	j_eyelash_top_le_1
+151	j_eyelash_top_le_2
+152	j_eyelash_top_ri_1
+153	j_eyelash_top_ri_2
+154	j_forehead
+155	j_forehead_le_1
+156	j_forehead_ri_1
+157	j_furrow_le
+158	j_furrow_ri
+159	j_gasmask_1
+160	j_gasmask_2
+161	j_gasmask_3
+162	j_gasmask_4
+163	j_groinprotector
+164	j_gun
+165	j_head
+166	j_helmet
+167	j_hip_le
+168	j_hip_ri
+169	j_hiptwist_le
+170	j_hiptwist_ri
+171	j_index_le_1
+172	j_index_le_2
+173	j_index_le_3
+174	j_index_le_4
+175	j_index_ri_1
+176	j_index_ri_2
+177	j_index_ri_3
+178	j_index_ri_4
+179	j_insidegum
+180	j_insidegum_le_1
+181	j_insidegum_ri_1
+182	j_jaw
+183	j_knee_le
+184	j_knee_ri
+185	j_kneedq_le
+186	j_kneedq_ri
+187	j_lanyard_1
+188	j_lanyard_2
+189	j_lanyard_3
+190	j_lanyard_4
+191	j_lanyard_5
+192	j_lanyard_6
+193	j_lanyard_7
+194	j_levator_le_1
+195	j_levator_le_2
+196	j_levator_ri_1
+197	j_levator_ri_2
+198	j_lip_bot
+199	j_lip_bot_le_1
+200	j_lip_bot_le_2
+201	j_lip_bot_le_3
+202	j_lip_bot_le_4
+203	j_lip_bot_ri_1
+204	j_lip_bot_ri_2
+205	j_lip_bot_ri_3
+206	j_lip_bot_ri_4
+207	j_lip_inside_le_1
+208	j_lip_inside_ri_1
+209	j_lip_top
+210	j_lip_top_le_1
+211	j_lip_top_le_2
+212	j_lip_top_le_3
+213	j_lip_top_le_4
+214	j_lip_top_ri_1
+215	j_lip_top_ri_2
+216	j_lip_top_ri_3
+217	j_lip_top_ri_4
+218	j_lowergum
+219	j_mainroot
+220	j_metaindex_le_1
+221	j_metaindex_ri_1
+222	j_metamid_le_1
+223	j_metamid_ri_1
+224	j_metapinky_le_1
+225	j_metapinky_ri_1
+226	j_metaring_le_1
+227	j_metaring_ri_1
+228	j_mid_le_1
+229	j_mid_le_2
+230	j_mid_le_3
+231	j_mid_ri_1
+232	j_mid_ri_2
+233	j_mid_ri_3
+234	j_mouthcorner_le
+235	j_mouthcorner_ri
+236	j_nasolabial_le_1
+237	j_nasolabial_le_2
+238	j_nasolabial_le_3
+239	j_nasolabial_le_4
+240	j_nasolabial_ri_1
+241	j_nasolabial_ri_2
+242	j_nasolabial_ri_3
+243	j_nasolabial_ri_4
+244	j_neck
+245	j_nose_tip
+246	j_nvg
+247	j_periorbital_le_1
+248	j_periorbital_le_2
+249	j_periorbital_le_3
+250	j_periorbital_ri_1
+251	j_periorbital_ri_2
+252	j_periorbital_ri_3
+253	j_pinky_le_1
+254	j_pinky_le_2
+255	j_pinky_le_3
+256	j_pinky_ri_1
+257	j_pinky_ri_2
+258	j_pinky_ri_3
+259	j_proc_spinelower_swivel
+260	j_ring_le_1
+261	j_ring_le_2
+262	j_ring_le_3
+263	j_ring_ri_1
+264	j_ring_ri_2
+265	j_ring_ri_3
+266	j_shield_le
+267	j_shield_ri
+268	j_shoulder_le
+269	j_shoulder_ri
+270	j_shouldertwist_le
+271	j_shouldertwist_ri
+272	j_sling_1
+273	j_sling_10
+274	j_sling_11
+275	j_sling_12
+276	j_sling_13
+277	j_sling_14
+278	j_sling_15
+279	j_sling_16
+280	j_sling_17
+281	j_sling_18
+282	j_sling_19
+283	j_sling_2
+284	j_sling_20
+285	j_sling_21
+286	j_sling_22
+287	j_sling_23
+288	j_sling_24
+289	j_sling_3
+290	j_sling_4
+291	j_sling_5
+292	j_sling_6
+293	j_sling_7
+294	j_sling_8
+295	j_sling_9
+296	j_snap
+297	j_spine4
+298	j_spinelower
+299	j_spineupper
+300	j_temple_le
+301	j_temple_ri
+302	j_thumb_le_1
+303	j_thumb_le_2
+304	j_thumb_le_3
+305	j_thumb_le_4
+306	j_thumb_ri_1
+307	j_thumb_ri_2
+308	j_thumb_ri_3
+309	j_thumb_ri_4
+310	j_tongue_1
+311	j_tongue_2
+312	j_tongue_3
+313	j_underchin
+314	j_underlip
+315	j_uppergum
+316	j_upperlip
+317	j_webbing_le_1
+318	j_webbing_le_2
+319	j_webbing_ri_1
+320	j_webbing_ri_2
+321	j_wrist_le
+322	j_wrist_ri
+323	j_wristfronttwist1_le
+324	j_wristfronttwist1_ri
+325	jaw_jnt
+326	jawend_jnt
+327	l_ankle
+328	l_backleg0_jnt
+329	l_backleg1_jnt
+330	l_backleg2_jnt
+331	l_ball
+332	l_ear0_jnt
+333	l_ear1_jnt
+334	l_earend_jnt
+335	l_eye0_jnt
+336	l_foot0_jnt
+337	l_footend_jnt
+338	l_frontleg0_jnt
+339	l_frontleg1_jnt
+340	l_frontleg2_jnt
+341	l_frontleg3_jnt
+342	l_frontleg4_jnt
+343	l_frontlegend_jnt
+344	l_hip
+345	l_hip_base
+346	l_knee
+347	l_lipupper0_jnt
+348	l_lipupper2_jnt
+349	l_shoulderhelper0_jnt
+350	l_shoulderhelper1_jnt
+351	l_tail0_jnt
+352	l_tail1_jnt
+353	l_tail2_jnt
+354	l_tail3_jnt
+355	l_tailend_jnt
+356	l_toe
+357	l_wing1
+358	l_wing2
+359	l_wing3
+360	l_wing4
+361	lipupper0_jnt
+362	me_door_shop_double_frame_01
+363	me_door_shop_left_01
+364	me_door_shop_right_01
+365	me_door_shop_right_02
+366	me_door_shop_single_frame_01
+367	mvmt_step_post
+368	mvmt_step_pre
+369	neck
+370	neck0_jnt
+371	neck1_jnt
+372	normalize_carried_angles
+373	nose_jnt
+374	p7_conduit_metal_1_body_joint_t_lod0
+375	p7_conduit_metal_1_body_lod0
+376	pasted__uk_house_door_interior_frame_02_old_36w
+377	ps_est_cy_031_dead_bodies_a_dead01_01,j_spineupper
+378	ps_est_cy_031_dead_bodies_a_dead01_02,j_spineupper
+379	ps_est_cy_031_dead_bodies_a_enmy01_01,j_spineupper
+380	ps_est_cy_031_dead_bodies_a_enmy01_02
+381	ps_est_cy_031_dead_bodies_a_enmy01_03,j_spineupper
+382	ps_est_cy_031_dead_bodies_a_enmy01_04,j_spineupper
+383	ps_est_cy_031_dead_bodies_a_enmy01_05,j_spineupper
+384	ps_est_cy_031_dead_bodies_a_enmy01_06
+385	ps_est_cy_031_dead_bodies_a_enmy01_07,j_spineupper
+386	ps_est_cy_031_dead_bodies_b_dead01_01,j_spineupper
+387	ps_est_cy_031_dead_bodies_b_dead01_02,j_spineupper
+388	ps_est_cy_031_dead_bodies_b_enmy01_01,j_spineupper
+389	ps_est_cy_031_dead_bodies_b_enmy01_02,j_spineupper
+390	ps_est_cy_031_dead_bodies_b_enmy01_03
+391	ps_est_cy_031_dead_bodies_b_enmy01_04,j_spineupper
+392	ps_est_cy_031_dead_bodies_b_enmy01_05,j_spineupper
+393	ps_est_cy_031_dead_bodies_c_dead01_01,j_spineupper
+394	ps_est_cy_031_dead_bodies_c_dead01_02,j_spineupper
+395	ps_est_cy_031_dead_bodies_c_enmy01_01,j_spineupper
+396	ps_est_cy_031_dead_bodies_c_enmy01_02
+397	ps_est_cy_031_dead_bodies_c_enmy01_03,j_spineupper
+398	ps_est_cy_031_dead_bodies_c_enmy01_04,j_spineupper
+399	ps_est_cy_031_dead_bodies_c_enmy01_05
+400	ps_est_cy_031_dead_bodies_c_enmy01_06,j_spineupper
+401	ps_est_cy_031_dead_bodies_d_dead01_01,j_spineupper
+402	ps_est_cy_031_dead_bodies_d_dead01_02,j_spineupper
+403	ps_est_cy_031_dead_bodies_d_enmy01_01,j_spineupper
+404	ps_est_cy_031_dead_bodies_d_enmy01_02,j_spineupper
+405	ps_est_cy_031_dead_bodies_d_enmy01_03
+406	ps_est_cy_031_dead_bodies_d_enmy01_04,j_spineupper
+407	ps_est_cy_031_dead_bodies_d_enmy01_05
+408	ps_est_cy_031_dead_bodies_d_enmy01_06,j_spineupper
+409	ps_est_cy_031_dead_bodies_e_dead01_01,j_spineupper
+410	ps_est_cy_031_dead_bodies_e_dead01_02,j_spineupper
+411	ps_est_cy_031_dead_bodies_e_dead01_03,j_spineupper
+412	ps_est_cy_031_dead_bodies_e_dead01_04,j_spineupper
+413	ps_est_cy_031_dead_bodies_e_enmy01_01,j_spineupper
+414	ps_est_cy_031_dead_bodies_e_enmy01_02,j_spineupper
+415	ps_est_cy_031_dead_bodies_e_enmy01_03
+416	ps_est_cy_031_dead_bodies_e_enmy01_04,j_spineupper
+417	ps_est_cy_031_dead_bodies_e_enmy01_05
+418	ps_est_cy_031_dead_bodies_e_enmy01_06,j_spineupper
+419	ps_est_cy_031_dead_bodies_e_enmy01_07,j_spineupper
+420	ps_est_cy_031_dead_bodies_e_enmy01_08,j_spineupper
+421	ps_est_cy_031_dead_bodies_e_enmy01_09
+422	ps_est_cy_031_dead_bodies_e_enmy01_10,j_spineupper
+423	ps_htf_esc_010_boost_door_exitb_01
+424	ps_htf_esc_010_boost_door_exitb_02
+425	ps_htf_esc_010_hadir_body_moment_01
+426	ps_htf_esc_010_hadir_gate_enter_01
+427	ps_htf_esc_010_hadir_gate_enter_02
+428	ps_htf_esc_010_hadir_gate_exit_01,j_spineupper
+429	ps_htf_esc_010_hadir_gate_exit_02
+430	ps_htf_esc_010_hadir_gate_exit_03,j_spineupper
+431	ps_htf_esc_010_hadir_gate_exit_04
+432	ps_htf_esc_010_hadir_gate_exit_05,j_spineupper
+433	ps_htf_esc_010_hadir_gate_exit_06
+434	ps_htf_esc_010_hadir_gate_exit_07
+435	ps_htf_esc_010_hadir_gate_nag_01,j_spineupper
+436	ps_htf_esc_010_hadir_gate_nag_02,j_spineupper
+437	ps_htf_esc_010_hadir_gate_nag_03,j_spineupper
+438	ps_htf_esc_010_hadir_run_gate_01
+439	ps_htf_esc_010_hadir_run_gate_02
+440	ps_htf_esc_010_hadir_to_tunnel_01
+441	ps_htf_esc_010_hadir_to_tunnel_02,j_spineupper
+442	ps_htf_esc_010_hadir_to_tunnel_03
+443	ps_htf_esc_010_hadir_to_tunnel_04
+444	ps_htf_esc_010_hadir_to_tunnel_05,j_spineupper
+445	ps_htf_esc_010_hadir_to_tunnel_06
+446	ps_htf_esc_010_hadir_to_tunnel_07
+447	ps_htf_esc_010_hadir_tunnel_crawl_01,j_spineupper
+448	ps_htf_esc_010_hadir_tunnel_crawl_02
+449	ps_htf_esc_010_hadir_tunnel_crawl_03,j_spineupper
+450	ps_htf_esc_010_hadir_tunnel_crawl_04
+451	ps_htf_esc_010_hadir_tunnel_crawl_05,j_spineupper
+452	ps_htf_esc_010_hadir_tunnel_crawl_06
+453	ps_htf_esc_010_hadir_tunnel_crawl_07,j_spineupper
+454	ps_htf_esc_010_hadir_tunnel_crawl_08
+455	ps_htf_esc_010_hadir_tunnel_idle_01
+456	ps_htf_esc_010_hadir_tunnel_nag_01
+457	ps_htf_esc_015_victim_executions_01_enemy1_01
+458	ps_htf_esc_015_victim_executions_01_enemy1_02,j_spineupper
+459	ps_htf_esc_015_victim_executions_01_enemy1_03,j_spineupper
+460	ps_htf_esc_015_victim_executions_01_enemy1_04
+461	ps_htf_esc_015_victim_executions_01_enemy1_05
+462	ps_htf_esc_015_victim_executions_01_enemy1_06,j_spineupper
+463	ps_htf_esc_015_victim_executions_01_enemy1_07,j_spineupper
+464	ps_htf_esc_015_victim_executions_01_enemy1_08,j_spineupper
+465	ps_htf_esc_015_victim_executions_01_enemy1_09
+466	ps_htf_esc_015_victim_executions_01_enemy1_10,j_spineupper
+467	ps_htf_esc_015_victim_executions_01_enemy1_11
+468	ps_htf_esc_015_victim_executions_01_enemy1_exit_01
+469	ps_htf_esc_015_victim_executions_01_enemy1_exit_02
+470	ps_htf_esc_015_victim_executions_01_enemy2_01,j_spineupper
+471	ps_htf_esc_015_victim_executions_01_enemy2_02
+472	ps_htf_esc_015_victim_executions_01_enemy2_03,j_spineupper
+473	ps_htf_esc_015_victim_executions_01_enemy2_04,j_spineupper
+474	ps_htf_esc_015_victim_executions_01_enemy2_05
+475	ps_htf_esc_015_victim_executions_01_enemy2_06
+476	ps_htf_esc_015_victim_executions_01_enemy2_07,j_spineupper
+477	ps_htf_esc_015_victim_executions_01_enemy2_08
+478	ps_htf_esc_015_victim_executions_01_enemy2_09,j_spineupper
+479	ps_htf_esc_015_victim_executions_01_enemy2_10
+480	ps_htf_esc_015_victim_executions_01_enemy2_11,j_spineupper
+481	ps_htf_esc_015_victim_executions_01_enemy2_exit_01
+482	ps_htf_esc_015_victim_executions_01_enemy2_exit_02
+483	ps_htf_esc_015_victim_executions_02_enemy1_01,j_spineupper
+484	ps_htf_esc_015_victim_executions_02_enemy1_02
+485	ps_htf_esc_015_victim_executions_02_enemy1_03,j_spineupper
+486	ps_htf_esc_015_victim_executions_02_enemy1_04
+487	ps_htf_esc_015_victim_executions_02_enemy1_05
+488	ps_htf_esc_015_victim_executions_02_enemy1_06
+489	ps_htf_esc_015_victim_executions_02_enemy1_07,j_spineupper
+490	ps_htf_esc_015_victim_executions_02_enemy1_08
+491	ps_htf_esc_015_victim_executions_02_enemy2_01
+492	ps_htf_esc_015_victim_executions_02_enemy2_02,j_spineupper
+493	ps_htf_esc_015_victim_executions_02_enemy2_03,j_spineupper
+494	ps_htf_esc_015_victim_executions_02_enemy2_04
+495	ps_htf_esc_015_victim_executions_02_enemy2_05,j_spineupper
+496	ps_htf_esc_015_victim_executions_02_enemy2_06
+497	ps_htf_esc_015_victim_executions_02_enemy2_07,j_spineupper
+498	ps_htf_esc_015_victim_executions_02_enemy2_08
+499	ps_htf_esc_020_grabexit_civ_01,j_spineupper
+500	ps_htf_esc_020_grabexit_civ_02
+501	ps_htf_esc_020_grabexit_civ_03,j_spineupper
+502	ps_htf_esc_020_grabexit_enter_hadir_01
+503	ps_htf_esc_020_grabexit_enter_hadir_02
+504	ps_htf_esc_020_grabexit_hadir_01
+505	ps_htf_esc_020_grabexit_hadir_02,j_spineupper
+506	ps_htf_esc_020_grabexit_hadir_03,j_spineupper
+507	ps_htf_esc_020_grabexit_hadir_04
+508	ps_htf_esc_020_grabexit_hadir_05,j_spineupper
+509	ps_htf_esc_020_grabexit_hadir_06
+510	ps_htf_esc_020_grabexit_hadir_07
+511	ps_htf_esc_020_grabexit_hadir_08,j_spineupper
+512	ps_htf_esc_020_grabexit_hadir_09,j_spineupper
+513	ps_htf_esc_020_grabexit_hadir_10
+514	ps_htf_esc_020_grabexit_hadir_11,j_spineupper
+515	ps_htf_esc_020_grabexit_idle_hadir_01
+516	ps_htf_esc_020_grabexit_nag_hadir_01
+517	ps_htf_esc_gas_execution01_civ01_01,j_spineupper
+518	ps_htf_esc_gas_execution01_soldier01_01
+519	ps_htf_esc_gas_execution01_soldier01_02,j_spineupper
+520	ps_htf_esc_gas_execution01_soldier01_03,j_spineupper
+521	ps_htf_esc_gas_execution01_soldier01_04
+522	ps_htf_esc_gas_execution01_soldier01_05
+523	ps_htf_esc_gas_execution02_civ01_01
+524	ps_htf_esc_gas_execution02_soldier01_01
+525	ps_htf_esc_gas_execution02_soldier01_02,j_spineupper
+526	ps_htf_esc_gas_execution02_soldier01_03,j_spineupper
+527	ps_htf_esc_gas_execution02_soldier01_04
+528	ps_htf_esc_gas_execution02_soldier01_05
+529	ps_htf_esc_gas_execution02_soldier01_06
+530	ps_htf_esc_gas_execution03_civ01_01
+531	ps_htf_esc_gas_execution03_soldier01_01
+532	ps_htf_esc_gas_execution03_soldier01_02,j_spineupper
+533	ps_htf_esc_gas_execution03_soldier01_03,j_spineupper
+534	ps_htf_esc_gas_execution03_soldier01_04,j_spineupper
+535	ps_htf_esc_gas_execution03_soldier01_05
+536	ps_htf_ff_hf_010_scenea_father_01
+537	ps_htf_ff_hf_010_scenea_father_02
+538	ps_htf_ff_hf_010_scenea_idleb_father_01
+539	ps_htf_ff_hf_010_scenea_nagb_father_01
+540	ps_htf_pop_010_hole_enter_hadir_01,j_spineupper
+541	ps_htf_pop_010_hole_enter_hadir_02
+542	ps_htf_pop_010_hole_enter_hadir_03
+543	ps_htf_pop_010_hole_enter_hadir_04
+544	ps_htf_pop_010_hole_enter_hadir_05,j_spineupper
+545	ps_htf_pop_010_hole_exit_hadir_01,j_spineupper
+546	ps_htf_pop_010_hole_exit_hadir_02,j_spineupper
+547	ps_htf_pop_010_hole_exit_hadir_03
+548	ps_htf_pop_010_hole_exit_hadir_04,j_spineupper
+549	ps_htf_pop_010_hole_exit_hadir_05
+550	ps_htf_pop_010_hole_exit_hadir_06,j_spineupper
+551	ps_htf_pop_010_hole_exit_hadir_07
+552	ps_scn_hometown_house_father_door_open
+553	ps_scn_hometown_russian_gas_truck_pullup
+554	ps_scn_ht_intro_crowd_applause
+555	ps_scn_ht_intro_crowd_small_clap
+556	ps_scn_ht_intro_crowd_worried
+557	ps_sh_infl_060_execution_scene_terry2_01,j_spineupper
+558	ps_sh_infl_060_execution_scene_terry2_02,j_spineupper
+559	ps_sh_infl_060_execution_scene_terry2_03,j_spineupper
+560	pvo_dx_vom_far_gas_exit_alley_70
+561	pvo_dx_vom_far_gas_exit_alley_72
+562	r_ankle
+563	r_backleg0_jnt
+564	r_backleg1_jnt
+565	r_backleg2_jnt
+566	r_ball
+567	r_ear0_jnt
+568	r_ear1_jnt
+569	r_earend_jnt
+570	r_eye0_jnt
+571	r_foot0_jnt
+572	r_footend_jnt
+573	r_frontleg0_jnt
+574	r_frontleg1_jnt
+575	r_frontleg2_jnt
+576	r_frontleg3_jnt
+577	r_frontleg4_jnt
+578	r_frontlegend_jnt
+579	r_hip
+580	r_hip_base
+581	r_knee
+582	r_ripupper0_jnt
+583	r_ripupper2_jnt
+584	r_shoulderhelper0_jnt
+585	r_shoulderhelper1_jnt
+586	r_toe
+587	r_wing1
+588	r_wing2
+589	r_wing3
+590	r_wing4
+591	roof_asbestos_sheet_128x128_plane_01
+592	scripted_fire
+593	shoulderhelper0_jnt
+594	spine2_jnt
+595	spine3_jnt
+596	spine4_jnt
+597	start_alley_jumpers
+598	stop anim
+599	tag_accessory_left
+600	tag_accessory_right
+601	tag_ads
+602	tag_body
+603	tag_body_animate
+604	tag_cambone
+605	tag_camera
+606	tag_detach
+607	tag_door_back_left
+608	tag_door_back_right
+609	tag_door_front_left
+610	tag_door_front_right
+611	tag_door_rear_left
+612	tag_door_rear_right
+613	tag_drive_mesh_01_001
+614	tag_drive_mesh_01_002
+615	tag_drive_mesh_01_003
+616	tag_drive_mesh_01_004
+617	tag_drive_mesh_01_005
+618	tag_drive_mesh_01_006
+619	tag_drive_mesh_01_007
+620	tag_drive_mesh_01_008
+621	tag_drive_mesh_01_009
+622	tag_drive_mesh_01_010
+623	tag_drive_mesh_01_011
+624	tag_drive_mesh_01_012
+625	tag_drive_mesh_01_013
+626	tag_drive_mesh_01_014
+627	tag_drive_mesh_01_015
+628	tag_drive_mesh_01_016
+629	tag_drive_mesh_01_017
+630	tag_drive_mesh_01_018
+631	tag_drive_mesh_01_019
+632	tag_drive_mesh_01_020
+633	tag_drive_mesh_01_021
+634	tag_drive_mesh_01_022
+635	tag_drive_mesh_01_023
+636	tag_drive_mesh_01_024
+637	tag_drive_mesh_01_025
+638	tag_drive_mesh_01_026
+639	tag_drive_mesh_01_027
+640	tag_drive_mesh_01_028
+641	tag_drive_mesh_01_029
+642	tag_drive_mesh_01_030
+643	tag_drive_mesh_01_031
+644	tag_drive_mesh_01_032
+645	tag_drive_mesh_01_033
+646	tag_drive_mesh_01_034
+647	tag_drive_mesh_01_035
+648	tag_drive_mesh_01_036
+649	tag_drive_mesh_01_037
+650	tag_drive_mesh_01_038
+651	tag_drive_mesh_01_039
+652	tag_drive_mesh_01_040
+653	tag_drive_mesh_01_041
+654	tag_drive_mesh_01_042
+655	tag_drive_mesh_01_043
+656	tag_drive_mesh_01_044
+657	tag_drive_mesh_01_045
+658	tag_drive_mesh_01_046
+659	tag_drive_mesh_01_047
+660	tag_drive_mesh_01_048
+661	tag_drive_mesh_01_049
+662	tag_drive_mesh_01_050
+663	tag_drive_mesh_01_051
+664	tag_drive_mesh_01_052
+665	tag_drive_mesh_01_053
+666	tag_drive_mesh_01_054
+667	tag_drive_mesh_01_055
+668	tag_drive_mesh_01_056
+669	tag_drive_mesh_01_057
+670	tag_drive_mesh_01_058
+671	tag_drive_mesh_01_059
+672	tag_drive_mesh_01_060
+673	tag_drive_mesh_01_061
+674	tag_drive_mesh_01_062
+675	tag_drive_mesh_01_063
+676	tag_drive_mesh_01_064
+677	tag_drive_mesh_01_065
+678	tag_drive_mesh_01_066
+679	tag_drive_mesh_01_067
+680	tag_drive_mesh_01_068
+681	tag_drive_mesh_01_069
+682	tag_drive_mesh_01_070
+683	tag_drive_mesh_01_071
+684	tag_drive_mesh_01_072
+685	tag_drive_mesh_01_073
+686	tag_drive_mesh_01_074
+687	tag_drive_mesh_01_075
+688	tag_drive_mesh_01_076
+689	tag_drive_mesh_01_077
+690	tag_drive_mesh_01_078
+691	tag_drive_mesh_01_079
+692	tag_drive_mesh_01_080
+693	tag_drive_mesh_01_081
+694	tag_drive_mesh_01_082
+695	tag_drive_mesh_01_083
+696	tag_drive_mesh_01_084
+697	tag_drive_mesh_01_085
+698	tag_drive_mesh_01_086
+699	tag_drive_mesh_01_087
+700	tag_drive_mesh_01_088
+701	tag_drive_mesh_01_089
+702	tag_drive_mesh_01_090
+703	tag_drive_mesh_01_091
+704	tag_drive_mesh_01_092
+705	tag_drive_mesh_01_093
+706	tag_drive_mesh_01_094
+707	tag_drive_mesh_01_095
+708	tag_drive_mesh_01_096
+709	tag_drive_mesh_01_097
+710	tag_drive_mesh_01_098
+711	tag_drive_mesh_01_099
+712	tag_drive_mesh_01_100
+713	tag_drive_mesh_01_101
+714	tag_drive_mesh_01_102
+715	tag_drive_mesh_01_103
+716	tag_drive_mesh_01_104
+717	tag_drive_mesh_01_105
+718	tag_drive_mesh_01_106
+719	tag_drive_mesh_01_107
+720	tag_drive_mesh_01_108
+721	tag_drive_mesh_01_109
+722	tag_drive_mesh_01_110
+723	tag_drive_mesh_02_001
+724	tag_drive_mesh_02_002
+725	tag_drive_mesh_02_003
+726	tag_drive_mesh_02_004
+727	tag_drive_mesh_02_005
+728	tag_drive_mesh_02_006
+729	tag_drive_mesh_02_007
+730	tag_drive_mesh_02_008
+731	tag_drive_mesh_02_009
+732	tag_drive_mesh_02_010
+733	tag_drive_mesh_02_011
+734	tag_drive_mesh_02_012
+735	tag_drive_mesh_02_013
+736	tag_drive_mesh_02_014
+737	tag_drive_mesh_02_015
+738	tag_drive_mesh_02_016
+739	tag_drive_mesh_02_017
+740	tag_drive_mesh_02_018
+741	tag_drive_mesh_02_019
+742	tag_drive_mesh_02_020
+743	tag_drive_mesh_02_021
+744	tag_drive_mesh_02_022
+745	tag_drive_mesh_02_023
+746	tag_drive_mesh_02_024
+747	tag_drive_mesh_02_025
+748	tag_drive_mesh_02_026
+749	tag_drive_mesh_02_027
+750	tag_drive_mesh_02_028
+751	tag_drive_mesh_02_029
+752	tag_drive_mesh_02_030
+753	tag_drive_mesh_02_031
+754	tag_drive_mesh_02_032
+755	tag_drive_mesh_02_033
+756	tag_drive_mesh_02_034
+757	tag_drive_mesh_02_035
+758	tag_drive_mesh_02_036
+759	tag_drive_mesh_02_037
+760	tag_drive_mesh_02_038
+761	tag_drive_mesh_02_039
+762	tag_drive_mesh_02_040
+763	tag_drive_mesh_02_041
+764	tag_drive_mesh_02_042
+765	tag_drive_mesh_02_043
+766	tag_drive_mesh_02_044
+767	tag_drive_mesh_02_045
+768	tag_drive_mesh_02_046
+769	tag_drive_mesh_02_047
+770	tag_drive_mesh_02_048
+771	tag_drive_mesh_02_049
+772	tag_drive_mesh_02_050
+773	tag_drive_mesh_03_001
+774	tag_drive_mesh_03_002
+775	tag_drive_mesh_03_003
+776	tag_drive_mesh_03_004
+777	tag_drive_mesh_03_005
+778	tag_drive_mesh_03_006
+779	tag_drive_mesh_03_007
+780	tag_drive_mesh_03_008
+781	tag_drive_mesh_03_009
+782	tag_drive_mesh_03_010
+783	tag_drive_mesh_03_011
+784	tag_drive_mesh_03_012
+785	tag_drive_mesh_03_013
+786	tag_drive_mesh_03_014
+787	tag_drive_mesh_03_015
+788	tag_drive_mesh_03_016
+789	tag_drive_mesh_03_017
+790	tag_drive_mesh_03_018
+791	tag_drive_mesh_03_019
+792	tag_drive_mesh_03_020
+793	tag_drive_mesh_03_021
+794	tag_drive_mesh_03_022
+795	tag_drive_mesh_03_023
+796	tag_drive_mesh_03_024
+797	tag_drive_mesh_03_025
+798	tag_drive_mesh_03_026
+799	tag_drive_mesh_03_027
+800	tag_drive_mesh_03_028
+801	tag_drive_mesh_03_029
+802	tag_drive_mesh_03_030
+803	tag_drive_mesh_03_031
+804	tag_drive_mesh_03_032
+805	tag_drive_mesh_03_033
+806	tag_drive_mesh_03_034
+807	tag_drive_mesh_03_035
+808	tag_drive_mesh_03_036
+809	tag_drive_mesh_03_037
+810	tag_drive_mesh_03_038
+811	tag_drive_mesh_03_039
+812	tag_drive_mesh_03_040
+813	tag_drive_mesh_03_041
+814	tag_drive_mesh_03_042
+815	tag_drive_mesh_03_043
+816	tag_drive_mesh_03_044
+817	tag_drive_mesh_03_045
+818	tag_drive_mesh_03_046
+819	tag_drive_mesh_03_047
+820	tag_drive_mesh_03_048
+821	tag_drive_mesh_03_049
+822	tag_drive_mesh_03_050
+823	tag_drive_mesh_03_051
+824	tag_drive_mesh_03_052
+825	tag_drive_mesh_03_053
+826	tag_drive_mesh_03_054
+827	tag_driver
+828	tag_engine_fx_left
+829	tag_exhaust
+830	tag_eye
+831	tag_gas_cap
+832	tag_grill
+833	tag_hood
+834	tag_ik_foot_loc_le
+835	tag_ik_foot_loc_ri
+836	tag_inhand
+837	tag_interior_bench_left
+838	tag_interior_bench_middle
+839	tag_interior_bench_right
+840	tag_knife_attach2
+841	tag_light_back_left
+842	tag_light_back_right
+843	tag_light_front_left
+844	tag_light_front_right
+845	tag_main_rotor_static
+846	tag_mirror_left
+847	tag_mirror_right
+848	tag_mouth_fx
+849	tag_origin
+850	tag_origin_animate
+851	tag_passenger
+852	tag_player
+853	tag_playerhelmet
+854	tag_stowed_thigh
+855	tag_sync
+856	tag_tail_rotor_static
+857	tag_torso
+858	tag_trunk
+859	tag_view
+860	tag_weapon
+861	tag_weapon_chest
+862	tag_weapon_left
+863	tag_weapon_right
+864	tag_wheel_back_left
+865	tag_wheel_back_right
+866	tag_wheel_center_back_left
+867	tag_wheel_center_back_right
+868	tag_wheel_center_front_left
+869	tag_wheel_center_front_right
+870	tag_wheel_front_left
+871	tag_wheel_front_right
+872	tag_window_back_left
+873	tag_window_back_left_corner
+874	tag_window_back_right
+875	tag_window_back_right_corner
+876	tag_window_front_left
+877	tag_window_front_right
+878	tag_windshield_back
+879	tag_windshield_front
+880	tail
+881	tail_tip
+882	tongue0_jnt
+883	tongue1_jnt
+884	tongue2_jnt
+885	tongue3_jnt
+886	tongueend_jnt
+887	uk_building_exterior_concrete_stairs_worn_03
+888	uk_plaster_brick_pillar_01
+889	vo_dx_vom_cvm1_gas_exit_alley_30
+890	vo_dx_vom_dad_alley_sneak_10
+891	vo_dx_vom_dad_alley_sneak_30
+892	vo_dx_vom_dad_alley_sneak_40
+893	vo_dx_vom_dad_carried_start_attack_50
+894	vo_dx_vom_dad_carried_start_reunited_100
+895	vo_dx_vom_dad_carried_start_reunited_130
+896	vo_dx_vom_dad_carried_start_reunited_150
+897	vo_dx_vom_dad_carried_start_reunited_60
+898	vo_dx_vom_dad_carried_start_reunited_80
+899	vo_dx_vom_dad_carried_start_streetrun_100
+900	vo_dx_vom_dad_carried_start_streetrun_120
+901	vo_dx_vom_dad_carried_start_streetrun_40
+902	vo_dx_vom_dad_carried_start_streetrun_400
+903	vo_dx_vom_dad_carried_start_streetrun_420
+904	vo_dx_vom_dad_carried_start_streetrun_450
+905	vo_dx_vom_had_gas_exit_alley_10
+906	vo_dx_vom_had_gas_exit_alley_40
+907	vo_dx_vom_had_gas_exit_alley_50
+908	vo_dx_vom_had_gas_exit_alley_60
+909	vo_dx_vom_had_gas_exit_alley_80
+910	wheel_front_l_jnt
+911	wheel_front_r_jnt
+912	window_cover_set_wood_shutters_01_48_white
+913	window_exterior_metal_bar_a_1
+914	window_exterior_metal_bar_d_1
+915	window_exterior_metal_bar_e_1
+916	window_ornate_stone_01_8

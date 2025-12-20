@@ -1,0 +1,258 @@
+  0	disable_ragdoll_anim_root
+  1	end
+  2	exec_kill
+  3	exec_weapon_hide
+  4	exec_weapon_show
+  5	fingers_out_end_left_hand
+  6	fingers_out_end_right_hand
+  7	fingers_out_start_left_hand
+  8	fingers_out_start_right_hand
+  9	footstep_left_large
+ 10	footstep_left_small
+ 11	footstep_right_large
+ 12	footstep_right_small
+ 13	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_famine_blood_swarm.vfx, tag_origin
+ 14	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_famine_blood_swarm_ls_rnr.vfx, tag_origin
+ 15	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_famine_blood_swarm_pr_rnr.vfx, tag_origin
+ 16	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_famine_dismember.vfx, j_head
+ 17	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_famine_dismember.vfx, j_shoulder_le
+ 18	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_famine_dismember.vfx, j_shoulder_ri
+ 19	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_famine_dog_swarm.vfx, spine4_jnt_dog
+ 20	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_blood_decal_runner_01.vfx, j_spine4
+ 21	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_famine_blood_swarm.vfx, tag_origin
+ 22	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_famine_blood_swarm_ls_rnr.vfx, tag_origin
+ 23	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_famine_blood_swarm_pr_rnr.vfx, tag_origin
+ 24	generic_death_execution
+ 25	hide,j_mainroot_dog
+ 26	ik_out_end_left_hand
+ 27	ik_out_end_right_hand
+ 28	ik_out_start_left_hand
+ 29	ik_out_start_right_hand
+ 30	j_ankle_le
+ 31	j_ankle_le_dog
+ 32	j_ankle_ri
+ 33	j_ankle_ri_dog
+ 34	j_ball_le
+ 35	j_ball_ri
+ 36	j_brow_le_1
+ 37	j_brow_le_2
+ 38	j_brow_le_3
+ 39	j_brow_ri_1
+ 40	j_brow_ri_2
+ 41	j_brow_ri_3
+ 42	j_cheek_le_1
+ 43	j_cheek_le_2
+ 44	j_cheek_puff_le
+ 45	j_cheek_puff_ri
+ 46	j_cheek_ri_1
+ 47	j_cheek_ri_2
+ 48	j_chest
+ 49	j_chin
+ 50	j_clavicle_le
+ 51	j_clavicle_ri
+ 52	j_elbow_le
+ 53	j_elbow_le_dog
+ 54	j_elbow_ri
+ 55	j_elbow_ri_dog
+ 56	j_eye_lid_bot_le
+ 57	j_eye_lid_bot_ri
+ 58	j_eye_lid_top_le
+ 59	j_eye_lid_top_le_1
+ 60	j_eye_lid_top_ri
+ 61	j_eye_lid_top_ri_1
+ 62	j_eyeball_le
+ 63	j_eyeball_ri
+ 64	j_eyelash_bot_le_1
+ 65	j_eyelash_bot_le_2
+ 66	j_eyelash_bot_ri_1
+ 67	j_eyelash_bot_ri_2
+ 68	j_eyelash_top_le_1
+ 69	j_eyelash_top_le_2
+ 70	j_eyelash_top_ri_1
+ 71	j_eyelash_top_ri_2
+ 72	j_forehead
+ 73	j_forehead_le_1
+ 74	j_forehead_ri_1
+ 75	j_furrow_le
+ 76	j_furrow_ri
+ 77	j_gun
+ 78	j_gun_adjust
+ 79	j_head
+ 80	j_head_dog
+ 81	j_helmet
+ 82	j_hip_le
+ 83	j_hip_le_dog
+ 84	j_hip_ri
+ 85	j_hip_ri_dog
+ 86	j_index_le_1
+ 87	j_index_le_2
+ 88	j_index_le_3
+ 89	j_index_ri_1
+ 90	j_index_ri_2
+ 91	j_index_ri_3
+ 92	j_insidegum
+ 93	j_insidegum_le_1
+ 94	j_insidegum_ri_1
+ 95	j_jaw
+ 96	j_knee_le
+ 97	j_knee_le_dog
+ 98	j_knee_ri
+ 99	j_knee_ri_dog
+100	j_levator_le_1
+101	j_levator_le_2
+102	j_levator_ri_1
+103	j_levator_ri_2
+104	j_lip_bot
+105	j_lip_bot_le_1
+106	j_lip_bot_le_2
+107	j_lip_bot_le_3
+108	j_lip_bot_le_4
+109	j_lip_bot_ri_1
+110	j_lip_bot_ri_2
+111	j_lip_bot_ri_3
+112	j_lip_bot_ri_4
+113	j_lip_inside_le_1
+114	j_lip_inside_ri_1
+115	j_lip_top
+116	j_lip_top_le_1
+117	j_lip_top_le_2
+118	j_lip_top_le_3
+119	j_lip_top_le_4
+120	j_lip_top_ri_1
+121	j_lip_top_ri_2
+122	j_lip_top_ri_3
+123	j_lip_top_ri_4
+124	j_lowergum
+125	j_mainroot
+126	j_mainroot_dog
+127	j_metaindex_le_1
+128	j_metaindex_ri_1
+129	j_metamid_le_1
+130	j_metamid_ri_1
+131	j_metapinky_le_1
+132	j_metapinky_ri_1
+133	j_metaring_le_1
+134	j_metaring_ri_1
+135	j_mid_le_1
+136	j_mid_le_2
+137	j_mid_le_3
+138	j_mid_ri_1
+139	j_mid_ri_2
+140	j_mid_ri_3
+141	j_mouthcorner_le
+142	j_mouthcorner_ri
+143	j_nasolabial_le_1
+144	j_nasolabial_le_2
+145	j_nasolabial_le_3
+146	j_nasolabial_le_4
+147	j_nasolabial_ri_1
+148	j_nasolabial_ri_2
+149	j_nasolabial_ri_3
+150	j_nasolabial_ri_4
+151	j_neck
+152	j_nose_tip
+153	j_periorbital_le_1
+154	j_periorbital_le_2
+155	j_periorbital_le_3
+156	j_periorbital_ri_1
+157	j_periorbital_ri_2
+158	j_periorbital_ri_3
+159	j_pinky_le_1
+160	j_pinky_le_2
+161	j_pinky_le_3
+162	j_pinky_ri_1
+163	j_pinky_ri_2
+164	j_pinky_ri_3
+165	j_ring_le_1
+166	j_ring_le_2
+167	j_ring_le_3
+168	j_ring_ri_1
+169	j_ring_ri_2
+170	j_ring_ri_3
+171	j_shield_le
+172	j_shield_ri
+173	j_shoulder_le
+174	j_shoulder_le_dog
+175	j_shoulder_ri
+176	j_shoulder_ri_dog
+177	j_spine4
+178	j_spinelower
+179	j_spineupper
+180	j_temple_le
+181	j_temple_ri
+182	j_thumb_le_1
+183	j_thumb_le_2
+184	j_thumb_le_3
+185	j_thumb_ri_1
+186	j_thumb_ri_2
+187	j_thumb_ri_3
+188	j_tongue_1
+189	j_tongue_2
+190	j_tongue_3
+191	j_underchin
+192	j_underlip
+193	j_uppergum
+194	j_upperlip
+195	j_wrist_le
+196	j_wrist_le_dog
+197	j_wrist_ri
+198	j_wrist_ri_dog
+199	jaw_jnt_dog
+200	l_backleg0_jnt_dog
+201	l_frontleg0_jnt_dog
+202	l_frontleg1_jnt_dog
+203	l_lipupper0_jnt_dog
+204	l_lipupper2_jnt_dog
+205	l_tail0_jnt_dog
+206	l_tail1_jnt_dog
+207	l_tail2_jnt_dog
+208	l_tail3_jnt_dog
+209	lipupper0_jnt_dog
+210	neck0_jnt_dog
+211	neck1_jnt_dog
+212	nose_jnt_dog
+213	ps_bodyfall_head
+214	ps_bodyfall_limb_small
+215	ps_bodyfall_torso
+216	ps_exec_bodyfall
+217	ps_exec_s4_cloth_heavy_up
+218	ps_exec_s4_cloth_light
+219	ps_exec_s4_cloth_whoosh
+220	ps_exec_s4_famine_body_fall_foley
+221	ps_exec_s4_famine_body_fall_whoosh
+222	ps_exec_s4_famine_hyena_attack
+223	ps_exec_s4_famine_hyena_laugh
+224	ps_exec_s4_famine_locust_swarm
+225	ps_exec_s4_gen_death
+226	ps_exec_s4_land
+227	ps_exec_s4_mvmt_brush
+228	ps_exec_s4_mvmt_long_heavy
+229	ps_exec_s4_mvmt_midlength_light
+230	r_backleg0_jnt_dog
+231	r_frontleg0_jnt_dog
+232	r_frontleg1_jnt_dog
+233	r_ripbottom0_jnt_dog
+234	r_ripupper0_jnt_dog
+235	r_ripupper2_jnt_dog
+236	spine2_jnt_dog
+237	spine3_jnt_dog
+238	spine4_jnt_dog
+239	start_ragdoll
+240	stop_ragdoll_anim
+241	tag_accessory_left
+242	tag_accessory_right
+243	tag_camera_dog
+244	tag_eye_dog
+245	tag_ik_backfoot_loc_le_dog
+246	tag_ik_backfoot_loc_ri_dog
+247	tag_ik_foot_loc_le
+248	tag_ik_foot_loc_ri
+249	tag_ik_frontfoot_loc_le_dog
+250	tag_ik_frontfoot_loc_ri_dog
+251	tag_inhand
+252	tag_mouth_fx_dog
+253	tag_sync
+254	tag_weapon_left
+255	tag_weapon_right
+256	tongue0_jnt_dog
+257	tongue1_jnt_dog

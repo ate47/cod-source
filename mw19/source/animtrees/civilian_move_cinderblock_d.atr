@@ -1,0 +1,13 @@
+%force_cs_anim_index_match
+
+move_loop : blendspace1d( range="50,220", blend_time="200", coords="56,120,150,160,170,180,190,200", value=[desiredspeed] ) loopsync
+{
+	civ_cinderblock_guyD_walk_block_forward	 //56
+	civ_stl_fast_forward01	 //63
+	civ_pnc_jog_forward01	 //150
+	civ_pnc_jog_forward02	 //160
+	civ_pnc_run_twitch06	 //170
+	civ_pnc_jog_forward03	 //180
+	civ_pnc_run_twitch02	 //190
+	civ_pnc_run_forward02	 //200
+}

@@ -1,0 +1,10 @@
+%force_cs_anim_index_match
+
+move_loop : loopsync blendspace1d( range="-90,90", blend_time="100",
+	coords="-90,0,90",
+	value=[leanyaw] )
+{
+	sdr_cqb_lean_r_fast
+	sdr_cqb_strafe_fast_8
+	sdr_cqb_lean_l_fast
+}

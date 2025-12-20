@@ -1,0 +1,21 @@
+%force_cs_anim_index_match
+
+move_loop: blendspace2d( rangex="-1,1", rangey="0,250", blend_time="100",
+coords="{0,56},{1,56},{-1,56},{0,70},{1,70},{-1,70},{0,120},{1,120},{-1,120},{0,220},{1,220},{-1,220}",
+edges="{0,3,4},{0,1,4},{0,3,5},{0,2,5},{3,6,7},{3,4,7},{3,6,8},{3,5,8},{6,9,10},{6,7,10},{6,9,11}",
+valuex=[civilian_focus], valuey=[desiredspeed] ) loopsync
+{
+	dad_stl_walk_forward01
+	dad_stl_walk_forward_r
+	dad_stl_walk_forward_l
+	dad_stl_fast_forward01
+	dad_stl_fast_forward_r
+	dad_stl_fast_forward_l
+	dad_stl_jog_forward01
+	dad_stl_jog_forward_r
+	dad_stl_jog_forward_l
+	dad_stl_run_forward01
+	dad_stl_run_forward_r
+	dad_stl_run_forward_l
+}
+

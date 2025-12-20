@@ -1,0 +1,292 @@
+  0	disable_ragdoll_anim_root
+  1	dyn_cosmetic_1
+  2	dyn_cosmetic_2
+  3	dyn_cosmetic_3
+  4	dyn_cosmetic_4
+  5	dyn_cosmetic_5
+  6	dyn_cosmetic_6
+  7	dyn_cosmetic_l_end
+  8	dyn_cosmetic_r_end
+  9	dyn_tie_01
+ 10	dyn_tie_02
+ 11	dyn_tie_03
+ 12	dyn_tie_04
+ 13	dyn_tie_05
+ 14	end
+ 15	exec_kill
+ 16	exec_weapon_show
+ 17	fingers_out_end_left_hand
+ 18	fingers_out_end_right_hand
+ 19	fingers_out_start_left_hand
+ 20	fingers_out_start_right_hand
+ 21	footstep_left_large
+ 22	footstep_left_small
+ 23	footstep_right_large
+ 24	footstep_right_small
+ 25	fx_playfxontag, vfx/iw8/weap/_impact/flesh/vfx_imp_flesh_fatal_head_med.vfx, j_head
+ 26	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_face_smash_grnd.vfx, j_head
+ 27	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_mainroot
+ 28	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_well_portal_01_rnr.vfx, tag_origin
+ 29	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_well_portal_ls_01_rnr.vfx, tag_origin
+ 30	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_well_portal_pop_01.vfx, j_mainroot_umbrella
+ 31	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_well_portal_pr_01_rnr.vfx, tag_origin
+ 32	fx_playfxontag, vfx/iw8_mp/muzflash/vfx_muz_shtgn_w.vfx, tag_flash_umbrella
+ 33	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_mainroot
+ 34	generic_death_execution
+ 35	ik_out_end_left_hand
+ 36	ik_out_end_right_hand
+ 37	ik_out_start_left_hand
+ 38	ik_out_start_right_hand
+ 39	j_ankle_le
+ 40	j_ankle_le_umbrella
+ 41	j_ankle_ri
+ 42	j_ankle_ri_umbrella
+ 43	j_ball_le
+ 44	j_ball_le_umbrella
+ 45	j_ball_ri
+ 46	j_ball_ri_umbrella
+ 47	j_bonesaw_umbrella
+ 48	j_brow_le_1
+ 49	j_brow_le_2
+ 50	j_brow_le_3
+ 51	j_brow_ri_1
+ 52	j_brow_ri_2
+ 53	j_brow_ri_3
+ 54	j_cheek_le_1
+ 55	j_cheek_le_2
+ 56	j_cheek_puff_le
+ 57	j_cheek_puff_ri
+ 58	j_cheek_ri_1
+ 59	j_cheek_ri_2
+ 60	j_chest
+ 61	j_chin
+ 62	j_clavicle_le
+ 63	j_clavicle_le_umbrella
+ 64	j_clavicle_ri
+ 65	j_clavicle_ri_umbrella
+ 66	j_elbow_le
+ 67	j_elbow_le_umbrella
+ 68	j_elbow_ri
+ 69	j_elbow_ri_umbrella
+ 70	j_eye_lid_bot_le
+ 71	j_eye_lid_bot_ri
+ 72	j_eye_lid_top_le
+ 73	j_eye_lid_top_le_1
+ 74	j_eye_lid_top_ri
+ 75	j_eye_lid_top_ri_1
+ 76	j_eyeball_le
+ 77	j_eyeball_ri
+ 78	j_eyelash_bot_le_1
+ 79	j_eyelash_bot_le_2
+ 80	j_eyelash_bot_ri_1
+ 81	j_eyelash_bot_ri_2
+ 82	j_eyelash_top_le_1
+ 83	j_eyelash_top_le_2
+ 84	j_eyelash_top_ri_1
+ 85	j_eyelash_top_ri_2
+ 86	j_forehead
+ 87	j_forehead_le_1
+ 88	j_forehead_ri_1
+ 89	j_furrow_le
+ 90	j_furrow_ri
+ 91	j_gun
+ 92	j_gun_adjust
+ 93	j_head
+ 94	j_head_umbrella
+ 95	j_helmet
+ 96	j_hip_le
+ 97	j_hip_le_umbrella
+ 98	j_hip_ri
+ 99	j_hip_ri_umbrella
+100	j_index_le_1
+101	j_index_le_1_umbrella
+102	j_index_le_2
+103	j_index_le_2_umbrella
+104	j_index_le_3
+105	j_index_le_3_umbrella
+106	j_index_ri_1
+107	j_index_ri_1_umbrella
+108	j_index_ri_2
+109	j_index_ri_2_umbrella
+110	j_index_ri_3
+111	j_index_ri_3_umbrella
+112	j_insidegum
+113	j_insidegum_le_1
+114	j_insidegum_ri_1
+115	j_jaw
+116	j_knee_le
+117	j_knee_le_umbrella
+118	j_knee_ri
+119	j_knee_ri_umbrella
+120	j_kneedq_le_umbrella
+121	j_kneedq_ri_umbrella
+122	j_levator_le_1
+123	j_levator_le_2
+124	j_levator_ri_1
+125	j_levator_ri_2
+126	j_lip_bot
+127	j_lip_bot_le_1
+128	j_lip_bot_le_2
+129	j_lip_bot_le_3
+130	j_lip_bot_le_4
+131	j_lip_bot_ri_1
+132	j_lip_bot_ri_2
+133	j_lip_bot_ri_3
+134	j_lip_bot_ri_4
+135	j_lip_inside_le_1
+136	j_lip_inside_ri_1
+137	j_lip_top
+138	j_lip_top_le_1
+139	j_lip_top_le_2
+140	j_lip_top_le_3
+141	j_lip_top_le_4
+142	j_lip_top_ri_1
+143	j_lip_top_ri_2
+144	j_lip_top_ri_3
+145	j_lip_top_ri_4
+146	j_lowergum
+147	j_mainroot
+148	j_mainroot_umbrella
+149	j_metaindex_le_1
+150	j_metaindex_le_1_umbrella
+151	j_metaindex_ri_1
+152	j_metaindex_ri_1_umbrella
+153	j_metamid_le_1
+154	j_metamid_le_1_umbrella
+155	j_metamid_ri_1
+156	j_metamid_ri_1_umbrella
+157	j_metapinky_le_1
+158	j_metapinky_le_1_umbrella
+159	j_metapinky_ri_1
+160	j_metapinky_ri_1_umbrella
+161	j_metaring_le_1
+162	j_metaring_le_1_umbrella
+163	j_metaring_ri_1
+164	j_metaring_ri_1_umbrella
+165	j_mid_le_1
+166	j_mid_le_1_umbrella
+167	j_mid_le_2
+168	j_mid_le_2_umbrella
+169	j_mid_le_3
+170	j_mid_le_3_umbrella
+171	j_mid_ri_1
+172	j_mid_ri_1_umbrella
+173	j_mid_ri_2
+174	j_mid_ri_2_umbrella
+175	j_mid_ri_3
+176	j_mid_ri_3_umbrella
+177	j_mouthcorner_le
+178	j_mouthcorner_ri
+179	j_nasolabial_le_1
+180	j_nasolabial_le_2
+181	j_nasolabial_le_3
+182	j_nasolabial_le_4
+183	j_nasolabial_ri_1
+184	j_nasolabial_ri_2
+185	j_nasolabial_ri_3
+186	j_nasolabial_ri_4
+187	j_neck
+188	j_neck_umbrella
+189	j_nose_tip
+190	j_periorbital_le_1
+191	j_periorbital_le_2
+192	j_periorbital_le_3
+193	j_periorbital_ri_1
+194	j_periorbital_ri_2
+195	j_periorbital_ri_3
+196	j_pinky_le_1
+197	j_pinky_le_1_umbrella
+198	j_pinky_le_2
+199	j_pinky_le_2_umbrella
+200	j_pinky_le_3
+201	j_pinky_le_3_umbrella
+202	j_pinky_ri_1
+203	j_pinky_ri_1_umbrella
+204	j_pinky_ri_2
+205	j_pinky_ri_2_umbrella
+206	j_pinky_ri_3
+207	j_pinky_ri_3_umbrella
+208	j_proc_clavicle_le_umbrella
+209	j_proc_clavicle_ri_umbrella
+210	j_proc_lift_clavicle_le_umbrella
+211	j_proc_lift_clavicle_ri_umbrella
+212	j_ring_le_1
+213	j_ring_le_1_umbrella
+214	j_ring_le_2
+215	j_ring_le_2_umbrella
+216	j_ring_le_3
+217	j_ring_le_3_umbrella
+218	j_ring_ri_1
+219	j_ring_ri_1_umbrella
+220	j_ring_ri_2
+221	j_ring_ri_2_umbrella
+222	j_ring_ri_3
+223	j_ring_ri_3_umbrella
+224	j_shield_le
+225	j_shield_ri
+226	j_shotgun_umbrella
+227	j_shoulder_le
+228	j_shoulder_le_umbrella
+229	j_shoulder_ri
+230	j_shoulder_ri_umbrella
+231	j_shouldertwist_le_umbrella
+232	j_shouldertwist_ri_umbrella
+233	j_spine4
+234	j_spine4_umbrella
+235	j_spinelower
+236	j_spinelower_umbrella
+237	j_spineupper
+238	j_spineupper_umbrella
+239	j_temple_le
+240	j_temple_ri
+241	j_thumb_le_1
+242	j_thumb_le_1_umbrella
+243	j_thumb_le_2
+244	j_thumb_le_2_umbrella
+245	j_thumb_le_3
+246	j_thumb_le_3_umbrella
+247	j_thumb_ri_1
+248	j_thumb_ri_1_umbrella
+249	j_thumb_ri_2
+250	j_thumb_ri_2_umbrella
+251	j_thumb_ri_3
+252	j_thumb_ri_3_umbrella
+253	j_tongue_1
+254	j_tongue_2
+255	j_tongue_3
+256	j_underchin
+257	j_underlip
+258	j_uppergum
+259	j_upperlip
+260	j_wrist_le
+261	j_wrist_le_umbrella
+262	j_wrist_ri
+263	j_wrist_ri_umbrella
+264	ps_bodyfall_head
+265	ps_bodyfall_limb_small
+266	ps_bodyfall_torso
+267	ps_exec_s4_gen_pain,j_head
+268	ps_exec_s4_wellington_fall_01,j_spineupper
+269	ps_exec_s4_wellington_foley_01,j_spineupper
+270	ps_exec_s4_wellington_foley_02,j_mainroot
+271	ps_exec_s4_wellington_foley_02,j_spineupper
+272	ps_exec_s4_wellington_gore_01,j_neck
+273	ps_exec_s4_wellington_gore_02,j_head
+274	ps_exec_s4_wellington_shot_01,tag_flash_umbrella
+275	ps_exec_s4_wellington_slash_01,j_wrist_ri
+276	ps_exec_s4_wellington_teleport_enter_01, j_mainroot_umbrella
+277	ps_exec_s4_wellington_teleport_enter_01,j_mainroot_umbrella
+278	ps_exec_s4_wellington_teleport_exit_01, j_mainroot_umbrella
+279	ps_exec_s4_wellington_teleport_exit_01,j_mainroot_umbrella
+280	start_ragdoll
+281	stop_ragdoll_anim
+282	tag_accessory_left
+283	tag_accessory_right
+284	tag_camera_scripted_umbrella
+285	tag_flash_umbrella
+286	tag_ik_foot_loc_le
+287	tag_ik_foot_loc_ri
+288	tag_inhand
+289	tag_sync
+290	tag_weapon_left
+291	tag_weapon_right

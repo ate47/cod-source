@@ -1,0 +1,809 @@
+  1	
+  2	1
+  3	2
+  4	3
+  5	4
+  6	<rigidroot>
+  7	accessory_bumper_stopper
+  8	accessory_buoy_old_red_01
+  9	afr_steel_ladder
+ 10	antenna_cell_01
+ 11	average5
+ 12	barrier_industrial_railing_128
+ 13	barrier_industrial_railing_32
+ 14	barrier_industrial_railing_32_corner_in
+ 15	barrier_industrial_railing_32_corner_out
+ 16	barrier_industrial_railing_64
+ 17	base
+ 18	beacon_life_preserver_hook
+ 19	bi_base
+ 20	bi_l
+ 21	bi_r
+ 22	boat_life_saver_01
+ 23	bottom_geo
+ 24	box_wooden_grenade_02
+ 25	building_hanging_tarps_03_blue
+ 26	building_hanging_tarps_03_white
+ 27	building_hanging_tarps_04_blue
+ 28	building_hanging_tarps_04_white
+ 29	ch_crate24x32
+ 30	ch_crate48x64_open
+ 31	ch_crate72x64_open
+ 32	com_barrel_white
+ 33	com_pallet_2
+ 34	construction_container_crane_arm_01
+ 35	construction_container_crane_cabin_01
+ 36	construction_container_crane_cabin_02
+ 37	construction_container_crane_catwalk_04
+ 38	construction_container_crane_catwalk_05
+ 39	construction_container_crane_foot_01
+ 40	construction_container_crane_foot_02
+ 41	construction_container_crane_hook_01
+ 42	construction_metal_corner_caution
+ 43	container_barrel_plastic_01_closed
+ 44	debris_junk_tire_01
+ 45	decor_lion_statue_01_sml_gold_01
+ 46	decor_plumbing_pipes_vm_01_256
+ 47	decor_plumbing_pipes_vm_01_32
+ 48	decor_plumbing_pipes_vm_01_64
+ 49	decor_rope_thick_coiled_01
+ 50	decor_wooden_crate_01
+ 51	door_cargoship_metal_frame_01
+ 52	door_industrial_metal_mp_03_grey
+ 53	ee_buildings_industrial_radiotower_01_microwave_antenna
+ 54	ee_decor_painting_a_admiral_02_lrg
+ 55	ee_electrical_rooftop_antennae_a
+ 56	ee_fixture_shower_faucet_valve_01_destr
+ 57	ee_headframe_hoist_drum_01
+ 58	ee_headframe_metal_support_01
+ 59	ee_light_mount_ext_ind_cage_02_runner_red_on
+ 60	ee_light_mounted_exterior_industrial_caged_02
+ 61	ee_light_mounted_exterior_industrial_caged_02_on_warm
+ 62	ee_lighting_string_light_caged_01_on_lm
+ 63	ee_military_chemical_canister_double_01
+ 64	ee_military_chemical_missile_stacked_01
+ 65	ee_painting_small_01
+ 66	ee_pipe_01_128_light_brown
+ 67	ee_pipe_01_256_light_brown
+ 68	ee_pipe_01_clamps
+ 69	ee_pipe_04_valve_02_rust
+ 70	ee_pipe_05_256
+ 71	ee_pipe_05_32
+ 72	ee_pipe_05_64
+ 73	ee_pipe_05_valve_01
+ 74	ee_sign_frame_post_base_black
+ 75	ee_sign_train_car_01
+ 76	ee_sign_train_car_02
+ 77	ee_structural_reservoir_01_post_01
+ 78	ee_structural_reservoir_01_wallx128
+ 79	ee_structural_reservoir_01_wallx32
+ 80	ee_structural_reservoir_01_wallx64
+ 81	ee_trim_rubber_dock_bumper_01
+ 82	ee_wires_headframe_01
+ 83	electrical_conduit_set_electrical_box_03
+ 84	electrical_tower_01
+ 85	electrical_tower_01_lod0shape
+ 86	electrical_wires_jumbled_a_128_notape
+ 87	electrical_wires_jumbled_a_96_simple
+ 88	end
+ 89	equipment_cable_spool_01
+ 90	floor_grate_catwalk_metal_02
+ 91	fx_playfxontag, vfx/iw8/weap/_impact/snowball/vfx_snowball_pickup, j_thumb_ri_4
+ 92	fx_stopfxontag, vfx/iw8/weap/_impact/snowball/vfx_snowball_pickup, j_thumb_ri_4
+ 93	handle
+ 94	hardware_plywood_bare_01
+ 95	hardware_plywood_bare_01_24
+ 96	hardware_plywood_bare_01_48_dyn
+ 97	hardware_plywood_osb_bare_01_48
+ 98	hide
+ 99	ik_out_end_right_hand
+100	ik_out_start_right_hand
+101	industrial_conduit_metal_2_brace_support
+102	j_ankle_le
+103	j_ankle_ri
+104	j_ball_le
+105	j_ball_ri
+106	j_chest
+107	j_clavicle_le
+108	j_clavicle_ri
+109	j_corner_1
+110	j_corner_1_b
+111	j_corner_2
+112	j_corner_2_b
+113	j_corner_3
+114	j_corner_3_b
+115	j_corner_4
+116	j_corner_4_b
+117	j_corner_5
+118	j_corner_5_b
+119	j_corner_6
+120	j_corner_6_b
+121	j_corner_7
+122	j_corner_7_b
+123	j_corner_8
+124	j_corner_8_b
+125	j_crotch
+126	j_elbow_le
+127	j_elbow_ri
+128	j_elbowdq_le
+129	j_elbowdq_ri
+130	j_flamecloth1
+131	j_flamecloth2
+132	j_flamecloth3
+133	j_flamecloth4
+134	j_flamecloth5
+135	j_groinprotector
+136	j_gun
+137	j_head
+138	j_helmet
+139	j_hip_le
+140	j_hip_ri
+141	j_hiptwist_le
+142	j_hiptwist_ri
+143	j_index_le_1
+144	j_index_le_2
+145	j_index_le_3
+146	j_index_le_4
+147	j_index_ri_1
+148	j_index_ri_2
+149	j_index_ri_3
+150	j_index_ri_4
+151	j_knee_le
+152	j_knee_ri
+153	j_kneedq_le
+154	j_kneedq_ri
+155	j_mainroot
+156	j_metaindex_le_1
+157	j_metaindex_ri_1
+158	j_metamid_le_1
+159	j_metamid_ri_1
+160	j_metapinky_le_1
+161	j_metapinky_ri_1
+162	j_metaring_le_1
+163	j_metaring_ri_1
+164	j_mid_le_1
+165	j_mid_le_2
+166	j_mid_le_3
+167	j_mid_ri_1
+168	j_mid_ri_2
+169	j_mid_ri_3
+170	j_neck
+171	j_nvg
+172	j_package_a
+173	j_package_b
+174	j_pallet
+175	j_pinky_le_1
+176	j_pinky_le_2
+177	j_pinky_le_3
+178	j_pinky_ri_1
+179	j_pinky_ri_2
+180	j_pinky_ri_3
+181	j_ring_le_1
+182	j_ring_le_2
+183	j_ring_le_3
+184	j_ring_ri_1
+185	j_ring_ri_2
+186	j_ring_ri_3
+187	j_shield_le
+188	j_shield_ri
+189	j_shoulder_le
+190	j_shoulder_ri
+191	j_shouldertwist_le
+192	j_shouldertwist_ri
+193	j_spine4
+194	j_spinelower
+195	j_spineupper
+196	j_spoke_inner_le
+197	j_spoke_inner_ri
+198	j_spoke_le
+199	j_spoke_outer_le
+200	j_spoke_outer_ri
+201	j_spoke_ri
+202	j_strap_1
+203	j_strap_10
+204	j_strap_100
+205	j_strap_101
+206	j_strap_102
+207	j_strap_103
+208	j_strap_104
+209	j_strap_105
+210	j_strap_106
+211	j_strap_107
+212	j_strap_108
+213	j_strap_109
+214	j_strap_11
+215	j_strap_110
+216	j_strap_111
+217	j_strap_112
+218	j_strap_113
+219	j_strap_114
+220	j_strap_115
+221	j_strap_116
+222	j_strap_117
+223	j_strap_118
+224	j_strap_119
+225	j_strap_12
+226	j_strap_120
+227	j_strap_121
+228	j_strap_122
+229	j_strap_123
+230	j_strap_124
+231	j_strap_125
+232	j_strap_126
+233	j_strap_127
+234	j_strap_128
+235	j_strap_129
+236	j_strap_13
+237	j_strap_130
+238	j_strap_131
+239	j_strap_132
+240	j_strap_133
+241	j_strap_134
+242	j_strap_135
+243	j_strap_136
+244	j_strap_137
+245	j_strap_138
+246	j_strap_139
+247	j_strap_14
+248	j_strap_140
+249	j_strap_141
+250	j_strap_142
+251	j_strap_143
+252	j_strap_144
+253	j_strap_145
+254	j_strap_146
+255	j_strap_147
+256	j_strap_148
+257	j_strap_149
+258	j_strap_15
+259	j_strap_16
+260	j_strap_17
+261	j_strap_18
+262	j_strap_19
+263	j_strap_2
+264	j_strap_20
+265	j_strap_21
+266	j_strap_22
+267	j_strap_23
+268	j_strap_24
+269	j_strap_25
+270	j_strap_26
+271	j_strap_27
+272	j_strap_28
+273	j_strap_29
+274	j_strap_3
+275	j_strap_30
+276	j_strap_31
+277	j_strap_32
+278	j_strap_33
+279	j_strap_34
+280	j_strap_35
+281	j_strap_36
+282	j_strap_37
+283	j_strap_38
+284	j_strap_39
+285	j_strap_4
+286	j_strap_40
+287	j_strap_41
+288	j_strap_42
+289	j_strap_43
+290	j_strap_44
+291	j_strap_45
+292	j_strap_46
+293	j_strap_47
+294	j_strap_48
+295	j_strap_49
+296	j_strap_5
+297	j_strap_50
+298	j_strap_51
+299	j_strap_52
+300	j_strap_53
+301	j_strap_54
+302	j_strap_55
+303	j_strap_56
+304	j_strap_57
+305	j_strap_58
+306	j_strap_59
+307	j_strap_6
+308	j_strap_60
+309	j_strap_61
+310	j_strap_62
+311	j_strap_63
+312	j_strap_64
+313	j_strap_65
+314	j_strap_66
+315	j_strap_67
+316	j_strap_68
+317	j_strap_69
+318	j_strap_7
+319	j_strap_70
+320	j_strap_71
+321	j_strap_72
+322	j_strap_73
+323	j_strap_74
+324	j_strap_75
+325	j_strap_76
+326	j_strap_77
+327	j_strap_78
+328	j_strap_79
+329	j_strap_8
+330	j_strap_80
+331	j_strap_81
+332	j_strap_82
+333	j_strap_83
+334	j_strap_84
+335	j_strap_85
+336	j_strap_86
+337	j_strap_87
+338	j_strap_88
+339	j_strap_89
+340	j_strap_9
+341	j_strap_90
+342	j_strap_91
+343	j_strap_92
+344	j_strap_93
+345	j_strap_94
+346	j_strap_95
+347	j_strap_96
+348	j_strap_97
+349	j_strap_98
+350	j_strap_99
+351	j_string_101
+352	j_string_102
+353	j_string_103
+354	j_string_104
+355	j_string_107
+356	j_string_108
+357	j_string_110
+358	j_string_111
+359	j_string_112
+360	j_string_126
+361	j_string_130
+362	j_string_133
+363	j_string_135
+364	j_string_136
+365	j_string_137
+366	j_string_138
+367	j_string_142
+368	j_string_143
+369	j_string_144
+370	j_string_145
+371	j_string_146
+372	j_string_147
+373	j_string_148
+374	j_string_149
+375	j_string_150
+376	j_string_153
+377	j_string_155
+378	j_string_157
+379	j_string_158
+380	j_string_159
+381	j_string_161
+382	j_string_35
+383	j_string_37
+384	j_string_40
+385	j_string_41
+386	j_string_46
+387	j_string_48
+388	j_string_51
+389	j_string_52
+390	j_string_61
+391	j_string_63
+392	j_string_67
+393	j_string_68
+394	j_string_70
+395	j_string_75
+396	j_string_77
+397	j_string_81
+398	j_string_89
+399	j_tarp_1
+400	j_tarp_2
+401	j_tarp_3
+402	j_tarp_4
+403	j_tarp_5
+404	j_thumb_le_1
+405	j_thumb_le_2
+406	j_thumb_le_3
+407	j_thumb_le_4
+408	j_thumb_ri_1
+409	j_thumb_ri_2
+410	j_thumb_ri_3
+411	j_thumb_ri_4
+412	j_ties
+413	j_ties_b
+414	j_top_le
+415	j_top_ri
+416	j_visor
+417	j_visor_inner
+418	j_webbing_le_1
+419	j_webbing_le_2
+420	j_webbing_ri_1
+421	j_webbing_ri_2
+422	j_wrist_le
+423	j_wrist_ri
+424	j_wristfronttwist1_le
+425	j_wristfronttwist1_ri
+426	j_zmb_glowstick_bottom
+427	j_zmb_glowstick_top
+428	jump_across_100
+429	jump_down_136
+430	jump_down_160
+431	jump_down_40
+432	jump_down_80
+433	jump_up_40
+434	jump_up_80
+435	left
+436	light_box_01
+437	light_box_01_on
+438	lm_accessory_gold_bar_stack_a_01
+439	me_construction_plank_bridge_a_07
+440	me_construction_plank_bridge_a_17
+441	me_door_hatch_door_01
+442	me_door_hatch_roof_01
+443	me_light_ceiling_fluorescent_tube_cage
+444	me_machinery_oil_tank_a_03
+445	me_machinery_oil_tank_a_03_distant_rusted
+446	me_pottery_jar_small_01
+447	me_pottery_vase_ornate_01
+448	me_pottery_vase_ornate_02
+449	metal_chain_01_draped_02
+450	metal_chain_01_ground
+451	metal_chain_01_hanging_s1_f1
+452	metal_chain_01_hanging_s1_f2
+453	metal_chain_01_hanging_s1_f3
+454	metal_chain_01_hanging_s1_f4
+455	metal_chain_01_hanging_s1_f5
+456	mg01
+457	military_ammo_restock
+458	military_ammo_restock_location
+459	military_carepackage_01_uncommon
+460	military_crate_large_stackable_01
+461	military_crate_large_stackable_02
+462	military_crate_slim_stackable_01
+463	mout_catwalk_railing_128_worn
+464	mout_catwalk_railing_32_worn
+465	mout_catwalk_railing_64
+466	mout_catwalk_railing_64_worn
+467	mout_catwalk_support_brace_x_128x128
+468	mout_catwalk_support_brace_x_128x64
+469	mout_container_wall_128
+470	mp_arena_spawn
+471	mp_arena_spawn_allies_start
+472	mp_arena_spawn_axis_start
+473	mp_ctf_spawn
+474	mp_ctf_spawn_allies_start
+475	mp_ctf_spawn_axis_start
+476	mp_cyber_spawn_allies
+477	mp_cyber_spawn_axis
+478	mp_dm_spawn
+479	mp_dm_spawn_start
+480	mp_dom_spawn
+481	mp_dom_spawn_allies_start
+482	mp_dom_spawn_axis_start
+483	mp_sd_spawn_attacker
+484	mp_sd_spawn_defender
+485	mp_tdm_spawn
+486	mp_tdm_spawn_allies_start
+487	mp_tdm_spawn_axis_start
+488	object01
+489	oil_drum_big_01
+490	p7_conduit_metal_2_brace_support_lod0
+491	p7_crate_wood_01
+492	p7_crate_wood_01_open_lid
+493	p7_pottery_terracotta_a_tan
+494	pf2_auto2108
+495	pf399_auto715
+496	pf399_auto716
+497	pf3_auto715
+498	pf3_auto716
+499	pf404_auto715
+500	pf404_auto716
+501	pf411_auto2108
+502	pf412_auto2108
+503	pf420_auto715
+504	pf420_auto716
+505	pf421_auto715
+506	pf421_auto716
+507	pf422_auto2108
+508	pf425_auto2108
+509	pf426_auto2108
+510	pf427_auto2108
+511	pf428_auto2108
+512	pf429_auto715
+513	pf429_auto716
+514	pf430_auto715
+515	pf430_auto716
+516	pf431_auto715
+517	pf431_auto716
+518	pf432_auto715
+519	pf432_auto716
+520	pf433_auto715
+521	pf433_auto716
+522	pf435_auto2108
+523	pf436_auto2108
+524	pf438_auto2108
+525	pf439_auto2108
+526	pf441_auto2108
+527	pf442_auto2108
+528	pf444_auto2108
+529	pf445_auto2108
+530	pf446_auto2108
+531	pf447_auto715
+532	pf447_auto716
+533	pf448_auto715
+534	pf448_auto716
+535	pf449_auto2108
+536	pf451_auto2108
+537	pf452_auto2108
+538	pf454_auto2108
+539	pf455_auto2108
+540	pf456_auto2108
+541	pf457_auto2108
+542	pf459_auto2108
+543	pf460_auto2108
+544	pf462_auto2108
+545	pf463_auto2108
+546	pf465_auto2108
+547	pf466_auto2108
+548	pf468_auto2108
+549	pf469_auto2108
+550	pf471_auto2108
+551	pf472_auto2108
+552	pf474_auto2108
+553	pf475_auto2108
+554	pf476_auto715
+555	pf476_auto716
+556	pf477_auto715
+557	pf477_auto716
+558	pf478_auto715
+559	pf478_auto716
+560	pf480_auto2108
+561	pf481_auto2108
+562	pf482_auto715
+563	pf482_auto716
+564	pf483_auto715
+565	pf483_auto716
+566	pf485_auto2108
+567	pf486_auto2108
+568	pf487_auto2108
+569	pf488_auto715
+570	pf488_auto716
+571	pf490_auto2108
+572	pf491_auto2108
+573	pf493_auto2108
+574	pf494_auto2108
+575	pf496_auto2108
+576	pf497_auto2108
+577	pf498_auto2108
+578	pf500_auto2108
+579	pf501_auto2108
+580	pf503_auto2108
+581	pf504_auto2108
+582	pf506_auto2108
+583	pf507_auto2108
+584	pf509_auto2108
+585	pf510_auto2108
+586	pf512_auto2108
+587	pf513_auto2108
+588	pf515_auto2108
+589	pf516_auto2108
+590	pf518_auto2108
+591	pf519_auto2108
+592	pf520_auto715
+593	pf520_auto716
+594	pf521_auto715
+595	pf521_auto716
+596	pf522_auto2108
+597	pf523_auto2108
+598	pf525_auto2108
+599	pf526_auto2108
+600	pf528_auto2108
+601	pf529_auto2108
+602	pf531_auto2108
+603	pf532_auto2108
+604	pf533_auto715
+605	pf533_auto716
+606	pf535_auto2108
+607	pf536_auto2108
+608	pf538_auto2108
+609	pf539_auto2108
+610	pf540_auto2108
+611	pf541_auto2108
+612	pf542_auto2108
+613	pf543_auto2108
+614	pf544_auto2108
+615	pf546_auto2108
+616	pf547_auto2108
+617	pf549_auto2108
+618	pf550_auto2108
+619	pf551_auto2108
+620	pf552_auto2108
+621	pf553_auto2108
+622	pf555_auto2108
+623	pf556_auto2108
+624	pf558_auto2108
+625	pf559_auto2108
+626	pf560_auto2108
+627	pf561_auto2108
+628	pf562_auto2108
+629	pf563_auto2108
+630	pf564_auto2108
+631	pf565_auto2108
+632	pf566_auto2108
+633	pf568_auto2108
+634	pf569_auto2108
+635	pf571_auto2108
+636	pf572_auto2108
+637	pf574_auto2108
+638	pf575_auto2108
+639	pf576_auto2108
+640	pf578_auto2108
+641	pf579_auto2108
+642	pf580_auto715
+643	pf580_auto716
+644	pf581_auto715
+645	pf581_auto716
+646	pf582_auto2108
+647	pf583_auto2108
+648	pf585_auto2108
+649	pf586_auto2108
+650	pf588_auto2108
+651	pf589_auto2108
+652	pf591_auto2108
+653	pf592_auto2108
+654	pf593_auto2108
+655	pf5_auto2108
+656	pf6_auto2108
+657	polysurface19
+658	ps_weap_snowball_pin_plr
+659	right
+660	scriptable_com_junktire
+661	scriptable_com_paintcan
+662	scriptable_decor_containers_01_small_blue
+663	scriptable_decor_plastic_buckets_01_small_blue
+664	scriptable_food_cans_bottles_and_jars_can_02
+665	scriptable_glass_beer_bottle_fn_01
+666	scriptable_metal_chain_01_hanging
+667	scriptable_milk_crate_iw6
+668	scriptable_un_military_backpack_01
+669	scriptable_usmc_military_backpack_01
+670	scriptable_vfx_animals_rat
+671	sd_equipment_bombsite_crate_d
+672	splash listener
+673	steel_ladderlod0
+674	storage_haybale_01
+675	storage_shipping_container_20ft_02
+676	storage_shipping_container_20ft_03
+677	storage_shipping_container_20ft_05
+678	storage_shipping_container_20ft_bottom_01
+679	storage_shipping_container_20ft_closed_green_wet
+680	storage_shipping_container_20ft_logo_01_blue_wet
+681	storage_shipping_container_door_left_wet
+682	storage_shipping_container_door_right_capping2
+683	storage_shipping_container_door_right_red
+684	storage_shipping_container_frame_closed_blue_wet
+685	storage_shipping_container_frame_open_red_wet
+686	street_metal_sewer_lid_04
+687	structural_bracket_iron_rusted_32_90_01
+688	structural_bracket_iron_rusted_32_90_01_painted
+689	structural_bracket_iron_rusted_32_l_01
+690	structural_bracket_iron_rusted_32_l_02
+691	structural_bracket_iron_rusted_32_t_01
+692	structural_bracket_iron_rusted_32_t_01_painted
+693	structural_bracket_iron_rusted_32_thin_01
+694	structural_bracket_iron_rusted_32_x_01
+695	structural_bracket_iron_rusted_junction_01
+696	structural_bracket_iron_rusted_junction_02
+697	tag_1
+698	tag_aim
+699	tag_aim_animated
+700	tag_aim_pivot
+701	tag_butt
+702	tag_cambone
+703	tag_camera
+704	tag_door_handle
+705	tag_dummy
+706	tag_emp_fx
+707	tag_flash
+708	tag_fx
+709	tag_ik_loc_le
+710	tag_ik_loc_le_orientconstraint1
+711	tag_ik_loc_le_pointconstraint1
+712	tag_ik_loc_ri
+713	tag_ik_loc_ri_orientconstraint1
+714	tag_ik_loc_ri_pointconstraint1
+715	tag_light
+716	tag_origin
+717	tag_pivot
+718	tag_player
+719	tag_playerhelmet
+720	tag_skyhook_attach
+721	tag_skyhook_side_attach
+722	tag_snowball_fx
+723	tag_stowed_back
+724	tag_sync
+725	tag_top1
+726	tag_top2
+727	tag_top3
+728	tag_top4
+729	tag_torso
+730	tag_use
+731	tag_view
+732	tag_weapon
+733	tag_weapon_left
+734	tag_weapon_right
+735	tarp_mp_faridah_06
+736	toy_plush_lochness_monster_01
+737	toy_stuffed_animal_bunny_01
+738	toy_stuffed_animal_duck_01
+739	toy_stuffed_animal_elephant_01
+740	toy_stuffed_animal_giraffe_01
+741	toy_stuffed_animal_monkey_01
+742	toy_stuffed_animal_unicorn_01
+743	traverse
+744	uk_gas_tank_thin_cylinder_2
+745	uk_house_gutter_head_cap_01
+746	uk_house_gutter_head_cap_01_tin
+747	uk_house_gutter_support_01
+748	uk_house_gutter_support_01_tin
+749	uk_machinery_pulley_hoist_jib_crane_01_crane_wall_mount
+750	uk_machinery_pulley_hoist_jib_crane_01_hinge
+751	uk_machinery_pulley_hoist_jib_crane_01_wire_ball_hook
+752	uk_shipping_crate_wood_closed_01
+753	uk_shipping_crate_wood_open_side_01
+754	uk_shipping_crate_wood_side_panel_01
+755	uk_sign_container_radioactive_01
+756	uk_storage_wall_light_01
+757	uk_storage_wall_light_01_cage
+758	uk_storage_wall_light_01_on_cool_lm
+759	un_chain_hook_winch_yellow
+760	un_chain_hook_winch_yellow_chain
+761	un_metal_steel_support_tubing_beam_8x4x128_raw_metal
+762	un_military_backpack_01
+763	un_military_duffle_bag_01
+764	useable_off
+765	useable_on
+766	veh8_mil_air_mindia8_spotlight
+767	vfx/iw8_mp/equipment/c4/vfx_gen_c4_exp2_ch
+768	vfx/iw8_mp/gen_amb/vfx_birds_circling
+769	vfx/iw8_mp/gen_amb/vfx_rat_p2p
+770	vfx/iw8_mp/level/cargo/vfx_aurora_borealis
+771	vfx/iw8_mp/level/cargo/vfx_cargo_blinking_red_light
+772	vfx/iw8_mp/level/cargo/vfx_cargo_box_light_flare
+773	vfx/iw8_mp/level/cargo/vfx_cargo_box_light_flare2
+774	vfx/iw8_mp/level/cargo/vfx_cargo_bulb_light_flare
+775	vfx/iw8_mp/level/cargo/vfx_cargo_bulb_light_flare_red
+776	vfx/iw8_mp/level/cargo/vfx_cargo_cloud_canopy
+777	vfx/iw8_mp/level/cargo/vfx_cargo_crane_light_flare
+778	vfx/iw8_mp/level/cargo/vfx_cargo_mist_move_slow
+779	vfx/iw8_mp/level/cargo/vfx_cargo_nav_light_green
+780	vfx/iw8_mp/level/cargo/vfx_cargo_nav_light_red
+781	vfx/iw8_mp/level/cargo/vfx_cargo_water_drips_line_2
+782	vfx/iw8_mp/level/cargo/vfx_cargo_water_splash
+783	vfx/iw8_mp/level/cargo/vfx_cargo_window_light_on
+784	vfx/iw8_mp/level/cargo/vfx_cargo_window_light_on2
+785	vfx_aurora_borealis
+786	vfx_birds_circling
+787	vfx_cargo_blinking_red_light
+788	vfx_cargo_box_light_flare
+789	vfx_cargo_box_light_flare2
+790	vfx_cargo_bulb_light_flare
+791	vfx_cargo_bulb_light_flare_red
+792	vfx_cargo_cloud_canopy
+793	vfx_cargo_crane_light_flare
+794	vfx_cargo_mist_move_slow
+795	vfx_cargo_nav_light_green
+796	vfx_cargo_nav_light_red
+797	vfx_cargo_water_drips_line_2
+798	vfx_cargo_water_splash
+799	vfx_cargo_window_light_on
+800	vfx_cargo_window_light_on2
+801	vfx_gen_c4_exp2_ch
+802	vfx_rat_p2p
+803	viewmodel_medium
+804	viewmodel_small
+805	weapon_wm_la_juliet_missile
+806	weapon_zd30_glowstick_wm_lit
+807	wires_electrical_set_ground_01
+808	wires_electrical_set_hanging_03
+809	wood

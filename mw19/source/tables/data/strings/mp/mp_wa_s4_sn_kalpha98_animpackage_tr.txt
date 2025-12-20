@@ -1,0 +1,245 @@
+  0	bullets_on
+  1	end
+  2	fingers_in_end_left_hand
+  3	fingers_in_end_right_hand
+  4	fingers_in_start_left_hand
+  5	fingers_in_start_right_hand
+  6	fingers_out_end_left_hand
+  7	fingers_out_end_right_hand
+  8	fingers_out_start_left_hand
+  9	fingers_out_start_right_hand
+ 10	footstep_left_small
+ 11	footstep_right_small
+ 12	fx_killfxontag, vfx/s4/weapon/_mtx/s3/misc/vfx_misc_mtx_s3_kalpha98_v301, tag_barrel_attach
+ 13	hide,tag_offscreen
+ 14	ik_in_end_left_hand
+ 15	ik_in_end_right_hand
+ 16	ik_in_start_left_hand
+ 17	ik_in_start_right_hand
+ 18	ik_out_end_left_hand
+ 19	ik_out_end_right_hand
+ 20	ik_out_start_left_hand
+ 21	ik_out_start_right_hand
+ 22	interruptible
+ 23	j_action
+ 24	j_action_housing
+ 25	j_action_safety
+ 26	j_ankle_le
+ 27	j_ankle_ri
+ 28	j_b_00
+ 29	j_b_01
+ 30	j_b_02
+ 31	j_b_03
+ 32	j_b_04
+ 33	j_b_05
+ 34	j_b_os_00
+ 35	j_b_os_01
+ 36	j_b_os_02
+ 37	j_b_os_03
+ 38	j_b_os_04
+ 39	j_ball_le
+ 40	j_ball_ri
+ 41	j_bolt
+ 42	j_bolt_base
+ 43	j_bolt_catch
+ 44	j_bolt_latch
+ 45	j_bullet_loose
+ 46	j_charging_handle
+ 47	j_charginghandle
+ 48	j_chest
+ 49	j_clavicle_le
+ 50	j_clavicle_ri
+ 51	j_clip
+ 52	j_clip_strip
+ 53	j_clip_strip_os
+ 54	j_collapsible_stock
+ 55	j_crotch
+ 56	j_dust_cover
+ 57	j_ejection_port
+ 58	j_elbow_le
+ 59	j_elbow_ri
+ 60	j_elbowdq_le
+ 61	j_elbowdq_ri
+ 62	j_firing_pin
+ 63	j_follower
+ 64	j_grenade
+ 65	j_groinprotector
+ 66	j_gun
+ 67	j_hammer
+ 68	j_head
+ 69	j_helmet
+ 70	j_hip_le
+ 71	j_hip_ri
+ 72	j_hiptwist_le
+ 73	j_hiptwist_ri
+ 74	j_index_le_1
+ 75	j_index_le_2
+ 76	j_index_le_3
+ 77	j_index_le_4
+ 78	j_index_ri_1
+ 79	j_index_ri_2
+ 80	j_index_ri_3
+ 81	j_index_ri_4
+ 82	j_knee_le
+ 83	j_knee_ri
+ 84	j_kneedq_le
+ 85	j_kneedq_ri
+ 86	j_loose_round
+ 87	j_mag1
+ 88	j_mag2
+ 89	j_mag_release_button
+ 90	j_mag_release_paddle
+ 91	j_magnifier
+ 92	j_magrel
+ 93	j_mainroot
+ 94	j_metaindex_le_1
+ 95	j_metaindex_ri_1
+ 96	j_metamid_le_1
+ 97	j_metamid_ri_1
+ 98	j_metapinky_le_1
+ 99	j_metapinky_ri_1
+100	j_metaring_le_1
+101	j_metaring_ri_1
+102	j_mid_le_1
+103	j_mid_le_2
+104	j_mid_le_3
+105	j_mid_ri_1
+106	j_mid_ri_2
+107	j_mid_ri_3
+108	j_neck
+109	j_nvg
+110	j_pinky_le_1
+111	j_pinky_le_2
+112	j_pinky_le_3
+113	j_pinky_ri_1
+114	j_pinky_ri_2
+115	j_pinky_ri_3
+116	j_ring_le_1
+117	j_ring_le_2
+118	j_ring_le_3
+119	j_ring_ri_1
+120	j_ring_ri_2
+121	j_ring_ri_3
+122	j_safety
+123	j_shield_le
+124	j_shield_ri
+125	j_shoulder_le
+126	j_shoulder_ri
+127	j_shouldertwist_le
+128	j_shouldertwist_ri
+129	j_sling_01
+130	j_sling_02
+131	j_sling_03
+132	j_sling_04
+133	j_sling_05
+134	j_sling_06
+135	j_spine4
+136	j_spinelower
+137	j_spineupper
+138	j_stock_release
+139	j_swivel_pivot_v2
+140	j_swivel_ring_v2
+141	j_thumb_le_1
+142	j_thumb_le_2
+143	j_thumb_le_3
+144	j_thumb_le_4
+145	j_thumb_ri_1
+146	j_thumb_ri_2
+147	j_thumb_ri_3
+148	j_thumb_ri_4
+149	j_trigger
+150	j_visor
+151	j_visor_inner
+152	j_webbing_le_1
+153	j_webbing_le_2
+154	j_webbing_ri_1
+155	j_webbing_ri_2
+156	j_wrist_le
+157	j_wrist_ri
+158	j_wristfronttwist1_le
+159	j_wristfronttwist1_ri
+160	loose_round_00
+161	loose_round_01
+162	melee_attack_sfx
+163	mvmt_step_post
+164	mvmt_step_pre
+165	ps_wfoly_plr_sn_kilo98_drop_01
+166	ps_wfoly_plr_sn_kilo98_drop_02
+167	ps_wfoly_plr_sn_kilo98_raise_01
+168	ps_wpn_gbl_plr_inspect_mvmnt_med
+169	ps_wpn_gbl_plr_inspect_mvmnt_sml
+170	ps_wpn_gbl_plr_inspect_settle
+171	ps_wpn_gbl_plr_inspect_sn_bolt_close
+172	ps_wpn_gbl_plr_inspect_sn_bolt_open
+173	ps_wpn_gbl_plr_sight_toggle_off
+174	ps_wpn_gbl_plr_sight_toggle_on
+175	ps_wpn_kalpha98_plr_reload_clipin_empty
+176	ps_wpn_kalpha98_plr_reload_clipin_tac1
+177	ps_wpn_kalpha98_plr_reload_clipin_tac2
+178	ps_wpn_kalpha98_plr_reload_clipin_tac3
+179	ps_wpn_kalpha98_plr_reload_clipin_tac4
+180	ps_wpn_kalpha98_plr_reload_close_empty
+181	ps_wpn_kalpha98_plr_reload_close_empty_ext
+182	ps_wpn_kalpha98_plr_reload_close_noclip
+183	ps_wpn_kalpha98_plr_reload_close_tac1
+184	ps_wpn_kalpha98_plr_reload_close_tac2
+185	ps_wpn_kalpha98_plr_reload_close_tac3
+186	ps_wpn_kalpha98_plr_reload_close_tac4
+187	ps_wpn_kalpha98_plr_reload_cycle
+188	ps_wpn_kalpha98_plr_reload_cycle_empty_fast
+189	ps_wpn_kalpha98_plr_reload_magin_empty_ext
+190	ps_wpn_kalpha98_plr_reload_magin_empty_fast
+191	ps_wpn_kalpha98_plr_reload_magin_tac_ext
+192	ps_wpn_kalpha98_plr_reload_magin_tac_fast
+193	ps_wpn_kalpha98_plr_reload_magout_empty_ext
+194	ps_wpn_kalpha98_plr_reload_magout_empty_fast
+195	ps_wpn_kalpha98_plr_reload_magout_tac_ext
+196	ps_wpn_kalpha98_plr_reload_magout_tac_fast
+197	ps_wpn_kalpha98_plr_reload_open_empty
+198	ps_wpn_kalpha98_plr_reload_open_empty_ext
+199	ps_wpn_kalpha98_plr_reload_open_noclip
+200	ps_wpn_kalpha98_plr_reload_open_tac1
+201	ps_wpn_kalpha98_plr_reload_open_tac2
+202	ps_wpn_kalpha98_plr_reload_open_tac3
+203	ps_wpn_kalpha98_plr_reload_open_tac4
+204	ps_wpn_kalpha98_plr_reload_roundin_noclip
+205	show_full_magazine
+206	tag_accessory_left
+207	tag_accessory_right
+208	tag_ads
+209	tag_barrel_attach
+210	tag_bayonet_attach
+211	tag_bipod_attach
+212	tag_cambone
+213	tag_camera
+214	tag_folding_grip
+215	tag_grenade_launcher
+216	tag_holo
+217	tag_ik_loc_le
+218	tag_ik_loc_le_akimbo
+219	tag_ik_loc_le_foregrip
+220	tag_ik_loc_le_mover
+221	tag_ik_loc_ri
+222	tag_ik_loc_ri_mover
+223	tag_knife_attach2
+224	tag_loose_round
+225	tag_mag_attach
+226	tag_offscreen
+227	tag_player
+228	tag_playerhelmet
+229	tag_silencer
+230	tag_sling
+231	tag_stock_attach
+232	tag_sync
+233	tag_taclight
+234	tag_tip
+235	tag_torso
+236	tag_trigger_attach
+237	tag_view
+238	tag_weapon
+239	tag_weapon_left
+240	tag_weapon_right
+241	vfx_start
+242	viewmodel_large
+243	viewmodel_medium
+244	viewmodel_small

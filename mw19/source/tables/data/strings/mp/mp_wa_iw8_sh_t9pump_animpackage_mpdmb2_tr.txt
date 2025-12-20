@@ -1,0 +1,237 @@
+  0	end
+  1	fingers_in_end_left_hand
+  2	fingers_in_end_right_hand
+  3	fingers_in_start_left_hand
+  4	fingers_in_start_right_hand
+  5	fingers_out_end_left_hand
+  6	fingers_out_end_right_hand
+  7	fingers_out_start_left_hand
+  8	fingers_out_start_right_hand
+  9	footstep_left_small
+ 10	footstep_right_small
+ 11	fx_killfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_rad_liquid.vfx, tag_sling
+ 12	fx_playfxontag, vfx/core/shell/vfx_shej_shtgn_char725_v, tag_brass
+ 13	fx_playfxontag, vfx/core/shell/vfx_shej_shtgn_char725_v, tag_brass_2
+ 14	fx_playfxontag, vfx/core/shell/vfx_shej_shtgn_hauerr77_v, (null)
+ 15	fx_playfxontag, vfx/core/shell/vfx_shej_shtgn_hauerr77_v, tag_brass
+ 16	fx_playfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_rad_liquid.vfx, tag_sling
+ 17	fx_playfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_rad_sparkles.vfx, tag_sling
+ 18	fx_playfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_rad_steam.vfx, tag_sling
+ 19	fx_playfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_rad_steam_01.vfx, tag_sling
+ 20	fx_playfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_rad_steam_burst_01.vfx, tag_sling
+ 21	fx_playfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_rad_steam_burst_02.vfx, tag_sling
+ 22	fx_playfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_rad_steam_side_01.vfx, tag_sling
+ 23	fx_playfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_rad_steam_side_02.vfx, tag_sling
+ 24	hide,tag_offscreen
+ 25	ik_in_end_left_hand
+ 26	ik_in_end_right_hand
+ 27	ik_in_start_left_hand
+ 28	ik_in_start_right_hand
+ 29	ik_out_end_left_hand
+ 30	ik_out_end_right_hand
+ 31	ik_out_start_left_hand
+ 32	ik_out_start_right_hand
+ 33	interruptible
+ 34	j_ankle_le
+ 35	j_ankle_ri
+ 36	j_backleg_ankle_le_animate
+ 37	j_backleg_ball_le_animate
+ 38	j_backleg_knee_le_animate
+ 39	j_ball_le
+ 40	j_ball_ri
+ 41	j_barrel
+ 42	j_breakaction
+ 43	j_chest
+ 44	j_clavicle_le
+ 45	j_clavicle_ri
+ 46	j_crotch
+ 47	j_ejectorbottom
+ 48	j_ejectortop
+ 49	j_elbow_le
+ 50	j_elbow_ri
+ 51	j_elbowdq_le
+ 52	j_elbowdq_ri
+ 53	j_groinprotector
+ 54	j_guard
+ 55	j_guard_pump
+ 56	j_gun
+ 57	j_head
+ 58	j_helmet
+ 59	j_hip_le
+ 60	j_hip_ri
+ 61	j_hiptwist_le
+ 62	j_hiptwist_ri
+ 63	j_index_le_1
+ 64	j_index_le_2
+ 65	j_index_le_3
+ 66	j_index_le_4
+ 67	j_index_ri_1
+ 68	j_index_ri_2
+ 69	j_index_ri_3
+ 70	j_index_ri_4
+ 71	j_knee_le
+ 72	j_knee_ri
+ 73	j_kneedq_le
+ 74	j_kneedq_ri
+ 75	j_loose_round
+ 76	j_mag1
+ 77	j_mag2
+ 78	j_mainroot
+ 79	j_metaindex_le_1
+ 80	j_metaindex_ri_1
+ 81	j_metamid_le_1
+ 82	j_metamid_ri_1
+ 83	j_metapinky_le_1
+ 84	j_metapinky_ri_1
+ 85	j_metaring_le_1
+ 86	j_metaring_ri_1
+ 87	j_mid_le_1
+ 88	j_mid_le_2
+ 89	j_mid_le_3
+ 90	j_mid_ri_1
+ 91	j_mid_ri_2
+ 92	j_mid_ri_3
+ 93	j_neck
+ 94	j_nvg
+ 95	j_pinky_le_1
+ 96	j_pinky_le_2
+ 97	j_pinky_le_3
+ 98	j_pinky_ri_1
+ 99	j_pinky_ri_2
+100	j_pinky_ri_3
+101	j_rat_backleg_ankle_ri_animate
+102	j_rat_backleg_ball_ri_animate
+103	j_rat_backleg_hip_le_animate
+104	j_rat_backleg_hip_ri_animate
+105	j_rat_backleg_knee_ri_animate
+106	j_rat_ear_le_animate
+107	j_rat_ear_ri_animate
+108	j_rat_frontleg_ankle_le_animate
+109	j_rat_frontleg_ankle_ri
+110	j_rat_frontleg_ball_le_animate
+111	j_rat_frontleg_ball_ri
+112	j_rat_frontleg_hip_le_animate
+113	j_rat_frontleg_hip_ri
+114	j_rat_frontleg_knee_le_animate
+115	j_rat_frontleg_knee_ri
+116	j_rat_head_animate
+117	j_rat_neck_animate
+118	j_rat_nose_animate
+119	j_rat_pba_animate
+120	j_rat_spine1_animate
+121	j_rat_spine2_animate
+122	j_rat_tail1_animate
+123	j_rat_tail2_animate
+124	j_rat_tail3_animate
+125	j_rat_tail4_animate
+126	j_ring_front_pba
+127	j_ring_le_1
+128	j_ring_le_2
+129	j_ring_le_3
+130	j_ring_ri_1
+131	j_ring_ri_2
+132	j_ring_ri_3
+133	j_safety
+134	j_shell1
+135	j_shell1_fired
+136	j_shell2
+137	j_shell2_fired
+138	j_shield_le
+139	j_shield_ri
+140	j_shoulder_le
+141	j_shoulder_ri
+142	j_shouldertwist_le
+143	j_shouldertwist_ri
+144	j_spine4
+145	j_spinelower
+146	j_spineupper
+147	j_thumb_le_1
+148	j_thumb_le_2
+149	j_thumb_le_3
+150	j_thumb_le_4
+151	j_thumb_ri_1
+152	j_thumb_ri_2
+153	j_thumb_ri_3
+154	j_thumb_ri_4
+155	j_trigger
+156	j_visor
+157	j_visor_inner
+158	j_webbing_le_1
+159	j_webbing_le_2
+160	j_webbing_ri_1
+161	j_webbing_ri_2
+162	j_wrist_le
+163	j_wrist_ri
+164	j_wristfronttwist1_le
+165	j_wristfronttwist1_ri
+166	melee_attack_sfx
+167	mvmt_step_post
+168	mvmt_step_pre
+169	ps_wfoly_plr_sh_charlie725_reload_01
+170	ps_wfoly_plr_sh_charlie725_reload_02
+171	ps_wfoly_plr_sh_charlie725_reload_03
+172	ps_wfoly_plr_sh_charlie725_reload_04
+173	ps_wfoly_plr_sh_charlie725_reload_05
+174	ps_wfoly_plr_sh_charlie725_reload_06
+175	ps_wfoly_plr_sh_charlie725_reload_empty_01
+176	ps_wfoly_plr_sh_charlie725_reload_empty_02
+177	ps_wfoly_plr_sh_charlie725_reload_empty_03
+178	ps_wfoly_plr_sh_charlie725_reload_empty_04
+179	ps_wfoly_plr_sh_charlie725_reload_empty_045
+180	ps_wfoly_plr_sh_charlie725_reload_empty_05
+181	ps_wfoly_plr_sh_charlie725_reload_empty_06
+182	ps_wfoly_plr_shpump_cloth_shotgun_load
+183	ps_wfoly_plr_shpump_distillery_inspect_pt1
+184	ps_wfoly_plr_shpump_distillery_inspect_pt10
+185	ps_wfoly_plr_shpump_distillery_inspect_pt11
+186	ps_wfoly_plr_shpump_distillery_inspect_pt2
+187	ps_wfoly_plr_shpump_distillery_inspect_pt3
+188	ps_wfoly_plr_shpump_distillery_inspect_pt4
+189	ps_wfoly_plr_shpump_distillery_inspect_pt5
+190	ps_wfoly_plr_shpump_distillery_inspect_pt6
+191	ps_wfoly_plr_shpump_distillery_inspect_pt7
+192	ps_wfoly_plr_shpump_distillery_inspect_pt8
+193	ps_wfoly_plr_shpump_distillery_inspect_pt9
+194	ps_wfoly_plr_shpump_inspect_pt1
+195	ps_wfoly_plr_shpump_inspect_pt2
+196	ps_wfoly_plr_shpump_inspect_pt3
+197	ps_wfoly_plr_shpump_inspect_pump_back
+198	ps_wfoly_plr_shpump_inspect_pump_forward
+199	ps_wfoly_plr_shpump_long_rattle
+200	ps_wfoly_plr_shpump_lower
+201	ps_wfoly_plr_shpump_pump_back
+202	ps_wfoly_plr_shpump_pump_forward
+203	ps_wfoly_plr_shpump_pump_rattle
+204	ps_wfoly_plr_shpump_raise
+205	ps_wfoly_plr_shpump_shell_in
+206	ps_wfoly_t9_common_cloth_shotgun_end
+207	ps_wfoly_t9_common_cloth_shotgun_start
+208	show,tag_offscreen
+209	tag_accessory_left
+210	tag_accessory_right
+211	tag_ads
+212	tag_bottle_animate
+213	tag_cambone
+214	tag_camera
+215	tag_clip
+216	tag_flash
+217	tag_ik_loc_le
+218	tag_ik_loc_ri
+219	tag_knife_attach2
+220	tag_meter_bottom_animate
+221	tag_meter_top_01_animate
+222	tag_meter_top_02_animate
+223	tag_player
+224	tag_playerhelmet
+225	tag_rat
+226	tag_sling
+227	tag_spigot_animate
+228	tag_sync
+229	tag_torso
+230	tag_view
+231	tag_weapon
+232	tag_weapon_left
+233	tag_weapon_right
+234	viewmodel_large
+235	viewmodel_medium
+236	viewmodel_small

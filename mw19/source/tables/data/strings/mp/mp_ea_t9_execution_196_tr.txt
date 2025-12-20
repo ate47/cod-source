@@ -1,0 +1,216 @@
+  0	disable_ragdoll_anim_root
+  1	end
+  2	exec_kill
+  3	exec_weapon_show
+  4	fingers_out_end_left_hand
+  5	fingers_out_end_right_hand
+  6	fingers_out_start_left_hand
+  7	fingers_out_start_right_hand
+  8	footstep_left_large
+  9	footstep_left_small
+ 10	footstep_right_large
+ 11	footstep_right_small
+ 12	fx_killfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_between_hands.vfx, j_wrist_le
+ 13	fx_killfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_between_hands_right.vfx, j_wrist_ri
+ 14	fx_killfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_victim_death_exp.vfx, j_spine4
+ 15	fx_playfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_between_hands.vfx, j_wrist_le
+ 16	fx_playfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_between_hands_right.vfx, j_wrist_ri
+ 17	fx_playfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_hands.vfx, j_wrist_le
+ 18	fx_playfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_hands.vfx, j_wrist_ri
+ 19	fx_playfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_orb_exp.vfx, j_wrist_le
+ 20	fx_playfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_soul_escape.vfx, tag_origin
+ 21	fx_playfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_victim_death_exp.vfx, j_spine4
+ 22	fx_playfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_victim_soul_suck_01.vfx, j_spine4
+ 23	fx_playfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_victim_soul_transfer.vfx, j_spine4
+ 24	fx_playfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_victim_soul_transfer02.vfx, tag_origin
+ 25	fx_stopfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_hands.vfx, j_wrist_le
+ 26	fx_stopfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_hands.vfx, j_wrist_ri
+ 27	fx_stopfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_orb_exp.vfx, j_wrist_le
+ 28	fx_stopfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_soul_escape.vfx, tag_origin
+ 29	fx_stopfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_victim_death_exp.vfx, j_spine4
+ 30	fx_stopfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_victim_soul_suck_01.vfx, j_spine4
+ 31	fx_stopfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_victim_soul_transfer.vfx, j_spine4
+ 32	fx_stopfxontag, vfx/iw8_br/gameplay/hween2/vfx_execute_victim_soul_transfer02.vfx, tag_origin
+ 33	generic_death_execution
+ 34	ik_out_end_left_hand
+ 35	ik_out_end_right_hand
+ 36	ik_out_start_left_hand
+ 37	ik_out_start_right_hand
+ 38	j_ankle_le
+ 39	j_ankle_ri
+ 40	j_ball_le
+ 41	j_ball_ri
+ 42	j_brow_le_1
+ 43	j_brow_le_2
+ 44	j_brow_le_3
+ 45	j_brow_ri_1
+ 46	j_brow_ri_2
+ 47	j_brow_ri_3
+ 48	j_cheek_le_1
+ 49	j_cheek_le_2
+ 50	j_cheek_puff_le
+ 51	j_cheek_puff_ri
+ 52	j_cheek_ri_1
+ 53	j_cheek_ri_2
+ 54	j_chest
+ 55	j_chin
+ 56	j_clavicle_le
+ 57	j_clavicle_ri
+ 58	j_elbow_le
+ 59	j_elbow_ri
+ 60	j_eye_lid_bot_le
+ 61	j_eye_lid_bot_ri
+ 62	j_eye_lid_top_le
+ 63	j_eye_lid_top_le_1
+ 64	j_eye_lid_top_ri
+ 65	j_eye_lid_top_ri_1
+ 66	j_eyeball_le
+ 67	j_eyeball_ri
+ 68	j_eyelash_bot_le_1
+ 69	j_eyelash_bot_le_2
+ 70	j_eyelash_bot_ri_1
+ 71	j_eyelash_bot_ri_2
+ 72	j_eyelash_top_le_1
+ 73	j_eyelash_top_le_2
+ 74	j_eyelash_top_ri_1
+ 75	j_eyelash_top_ri_2
+ 76	j_forehead
+ 77	j_forehead_le_1
+ 78	j_forehead_ri_1
+ 79	j_furrow_le
+ 80	j_furrow_ri
+ 81	j_gun
+ 82	j_gun_adjust
+ 83	j_head
+ 84	j_helmet
+ 85	j_hip_le
+ 86	j_hip_ri
+ 87	j_index_le_1
+ 88	j_index_le_2
+ 89	j_index_le_3
+ 90	j_index_ri_1
+ 91	j_index_ri_2
+ 92	j_index_ri_3
+ 93	j_insidegum
+ 94	j_insidegum_le_1
+ 95	j_insidegum_ri_1
+ 96	j_jaw
+ 97	j_knee_le
+ 98	j_knee_ri
+ 99	j_levator_le_1
+100	j_levator_le_2
+101	j_levator_ri_1
+102	j_levator_ri_2
+103	j_lip_bot
+104	j_lip_bot_le_1
+105	j_lip_bot_le_2
+106	j_lip_bot_le_3
+107	j_lip_bot_le_4
+108	j_lip_bot_ri_1
+109	j_lip_bot_ri_2
+110	j_lip_bot_ri_3
+111	j_lip_bot_ri_4
+112	j_lip_inside_le_1
+113	j_lip_inside_ri_1
+114	j_lip_top
+115	j_lip_top_le_1
+116	j_lip_top_le_2
+117	j_lip_top_le_3
+118	j_lip_top_le_4
+119	j_lip_top_ri_1
+120	j_lip_top_ri_2
+121	j_lip_top_ri_3
+122	j_lip_top_ri_4
+123	j_lowergum
+124	j_mainroot
+125	j_metaindex_le_1
+126	j_metaindex_ri_1
+127	j_metamid_le_1
+128	j_metamid_ri_1
+129	j_metapinky_le_1
+130	j_metapinky_ri_1
+131	j_metaring_le_1
+132	j_metaring_ri_1
+133	j_mid_le_1
+134	j_mid_le_2
+135	j_mid_le_3
+136	j_mid_ri_1
+137	j_mid_ri_2
+138	j_mid_ri_3
+139	j_mouthcorner_le
+140	j_mouthcorner_ri
+141	j_nasolabial_le_1
+142	j_nasolabial_le_2
+143	j_nasolabial_le_3
+144	j_nasolabial_le_4
+145	j_nasolabial_ri_1
+146	j_nasolabial_ri_2
+147	j_nasolabial_ri_3
+148	j_nasolabial_ri_4
+149	j_neck
+150	j_nose_tip
+151	j_periorbital_le_1
+152	j_periorbital_le_2
+153	j_periorbital_le_3
+154	j_periorbital_ri_1
+155	j_periorbital_ri_2
+156	j_periorbital_ri_3
+157	j_pinky_le_1
+158	j_pinky_le_2
+159	j_pinky_le_3
+160	j_pinky_ri_1
+161	j_pinky_ri_2
+162	j_pinky_ri_3
+163	j_ring_le_1
+164	j_ring_le_2
+165	j_ring_le_3
+166	j_ring_ri_1
+167	j_ring_ri_2
+168	j_ring_ri_3
+169	j_shield_le
+170	j_shield_ri
+171	j_shoulder_le
+172	j_shoulder_ri
+173	j_spine4
+174	j_spinelower
+175	j_spineupper
+176	j_temple_le
+177	j_temple_ri
+178	j_thumb_le_1
+179	j_thumb_le_2
+180	j_thumb_le_3
+181	j_thumb_ri_1
+182	j_thumb_ri_2
+183	j_thumb_ri_3
+184	j_tongue_1
+185	j_tongue_2
+186	j_tongue_3
+187	j_underchin
+188	j_underlip
+189	j_uppergum
+190	j_upperlip
+191	j_wrist_le
+192	j_wrist_ri
+193	ps_bodyfall_head
+194	ps_bodyfall_limb_small
+195	ps_bodyfall_torso
+196	ps_exec_ghost_ls_01
+197	ps_exec_ghost_ls_02
+198	ps_exec_ghost_ls_03
+199	ps_exec_ghost_pr_01
+200	ps_exec_ghost_pr_02
+201	ps_exec_ghost_stnd_01
+202	ps_exec_ghost_stnd_02
+203	ps_exec_ghost_stnd_03
+204	ps_generic_death_execution
+205	ps_generic_pain_enemy
+206	start_ragdoll
+207	stop_ragdoll_anim
+208	tag_accessory_left
+209	tag_accessory_right
+210	tag_ik_foot_loc_le
+211	tag_ik_foot_loc_ri
+212	tag_inhand
+213	tag_sync
+214	tag_weapon_left
+215	tag_weapon_right

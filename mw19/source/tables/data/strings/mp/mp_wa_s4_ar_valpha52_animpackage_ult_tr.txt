@@ -1,0 +1,172 @@
+  0	bullets_on
+  1	end
+  2	fingers_in_end_left_hand
+  3	fingers_in_end_right_hand
+  4	fingers_in_start_left_hand
+  5	fingers_in_start_right_hand
+  6	fingers_out_end_left_hand
+  7	fingers_out_end_right_hand
+  8	fingers_out_start_left_hand
+  9	fingers_out_start_right_hand
+ 10	footstep_left_small
+ 11	footstep_right_small
+ 12	fx_killfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_death_jaw_v.vfx, j_skull_jaw
+ 13	fx_killfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_death_skull_v.vfx, j_skull
+ 14	fx_killfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_death_weap_v.vfx, tag_sling
+ 15	fx_playfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_death_jaw_v.vfx, j_skull_jaw
+ 16	fx_playfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_death_skull_v.vfx, j_skull
+ 17	fx_playfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_death_weap_v.vfx, tag_sling
+ 18	hide,j_skull
+ 19	hide,j_skull_jaw
+ 20	ik_in_end_left_hand
+ 21	ik_in_end_right_hand
+ 22	ik_in_start_left_hand
+ 23	ik_in_start_right_hand
+ 24	ik_out_end_left_hand
+ 25	ik_out_end_right_hand
+ 26	ik_out_start_left_hand
+ 27	ik_out_start_right_hand
+ 28	interruptible
+ 29	j_b_00
+ 30	j_b_01
+ 31	j_b_02
+ 32	j_bolt
+ 33	j_charginghandle
+ 34	j_clavicle_le
+ 35	j_clavicle_ri
+ 36	j_dust_cover
+ 37	j_elbow_le
+ 38	j_elbow_ri
+ 39	j_follower
+ 40	j_gun
+ 41	j_index_le_1
+ 42	j_index_le_2
+ 43	j_index_le_3
+ 44	j_index_ri_1
+ 45	j_index_ri_2
+ 46	j_index_ri_3
+ 47	j_mag1
+ 48	j_mag2
+ 49	j_magnifier
+ 50	j_magrel
+ 51	j_mainroot
+ 52	j_metaindex_le_1
+ 53	j_metaindex_ri_1
+ 54	j_metamid_le_1
+ 55	j_metamid_ri_1
+ 56	j_metapinky_le_1
+ 57	j_metapinky_ri_1
+ 58	j_metaring_le_1
+ 59	j_metaring_ri_1
+ 60	j_mid_le_1
+ 61	j_mid_le_2
+ 62	j_mid_le_3
+ 63	j_mid_ri_1
+ 64	j_mid_ri_2
+ 65	j_mid_ri_3
+ 66	j_pinky_le_1
+ 67	j_pinky_le_2
+ 68	j_pinky_le_3
+ 69	j_pinky_ri_1
+ 70	j_pinky_ri_2
+ 71	j_pinky_ri_3
+ 72	j_ring_le_1
+ 73	j_ring_le_2
+ 74	j_ring_le_3
+ 75	j_ring_ri_1
+ 76	j_ring_ri_2
+ 77	j_ring_ri_3
+ 78	j_safety
+ 79	j_shoulder_le
+ 80	j_shoulder_ri
+ 81	j_shouldertwist_le
+ 82	j_shouldertwist_ri
+ 83	j_skull
+ 84	j_skull_jaw
+ 85	j_spine4
+ 86	j_spinelower
+ 87	j_spineupper
+ 88	j_thumb_le_1
+ 89	j_thumb_le_2
+ 90	j_thumb_le_3
+ 91	j_thumb_ri_1
+ 92	j_thumb_ri_2
+ 93	j_thumb_ri_3
+ 94	j_trigger
+ 95	j_wrist_le
+ 96	j_wrist_ri
+ 97	j_wristfronttwist1_le
+ 98	j_wristfronttwist1_ri
+ 99	melee_attack_sfx
+100	mvmt_step_post
+101	mvmt_step_pre
+102	ps_wfoly_plr_sn_kilo98_drop_01
+103	ps_wfoly_plr_sn_kilo98_drop_02
+104	ps_wfoly_plr_sn_kilo98_drop_quick_01
+105	ps_wpn_gbl_plr_sight_toggle_off
+106	ps_wpn_gbl_plr_sight_toggle_on
+107	ps_wpn_valpha52_501_insp_foley_01
+108	ps_wpn_valpha52_501_insp_foley_02
+109	ps_wpn_valpha52_501_insp_foley_03
+110	ps_wpn_valpha52_501_insp_gun_foley_01
+111	ps_wpn_valpha52_501_insp_gun_foley_02
+112	ps_wpn_valpha52_501_insp_gun_foley_03
+113	ps_wpn_valpha52_501_insp_gun_foley_04
+114	ps_wpn_valpha52_501_insp_hits_01
+115	ps_wpn_valpha52_501_insp_hits_02
+116	ps_wpn_valpha52_501_insp_hits_03
+117	ps_wpn_valpha52_501_insp_hits_04
+118	ps_wpn_valpha52_501_insp_hits_05
+119	ps_wpn_valpha52_501_insp_hits_06
+120	ps_wpn_valpha52_501_insp_hits_07
+121	ps_wpn_valpha52_plr_pullout_base_01
+122	ps_wpn_valpha52_plr_pullout_quick_01
+123	ps_wpn_valpha52_plr_reload_01_a
+124	ps_wpn_valpha52_plr_reload_01_b
+125	ps_wpn_valpha52_plr_reload_02
+126	ps_wpn_valpha52_plr_reload_03
+127	ps_wpn_valpha52_plr_reload_04
+128	ps_wpn_valpha52_plr_reload_ext_01
+129	ps_wpn_valpha52_plr_reload_ext_02
+130	ps_wpn_valpha52_plr_reload_ext_03_a
+131	ps_wpn_valpha52_plr_reload_ext_03_b
+132	ps_wpn_valpha52_plr_reload_ext_04
+133	ps_wpn_valpha52_plr_reload_ext_05
+134	ps_wpn_valpha52_plr_reload_fmag_01_a
+135	ps_wpn_valpha52_plr_reload_fmag_01_b
+136	ps_wpn_valpha52_plr_reload_fmag_02
+137	ps_wpn_valpha52_plr_reload_fmag_03
+138	ps_wpn_valpha52_plr_reload_fmag_04
+139	ps_wpn_valpha52_plr_reload_fmag_05
+140	show,j_skull
+141	show,j_skull_jaw
+142	tag_accessory_left
+143	tag_accessory_right
+144	tag_ads
+145	tag_barrel_attach
+146	tag_bayonet_attach
+147	tag_bipod_attach
+148	tag_cambone
+149	tag_camera
+150	tag_ik_loc_le
+151	tag_ik_loc_le_mover
+152	tag_ik_loc_ri
+153	tag_ik_loc_ri_mover
+154	tag_knife_attach2
+155	tag_mag_attach
+156	tag_offscreen
+157	tag_player
+158	tag_silencer
+159	tag_sling
+160	tag_stock_attach
+161	tag_sync
+162	tag_taclight
+163	tag_tip
+164	tag_torso
+165	tag_view
+166	tag_weapon
+167	tag_weapon_left
+168	tag_weapon_right
+169	viewmodel_large
+170	viewmodel_medium
+171	viewmodel_small

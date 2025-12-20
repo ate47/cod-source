@@ -1,0 +1,275 @@
+  0	end
+  1	fingers_in_end_left_hand
+  2	fingers_in_end_right_hand
+  3	fingers_in_start_left_hand
+  4	fingers_in_start_right_hand
+  5	fingers_out_end_left_hand
+  6	fingers_out_end_right_hand
+  7	fingers_out_start_left_hand
+  8	fingers_out_start_right_hand
+  9	footstep_left_small
+ 10	footstep_right_small
+ 11	ik_in_end_left_hand
+ 12	ik_in_end_right_hand
+ 13	ik_in_start_left_hand
+ 14	ik_in_start_right_hand
+ 15	ik_out_end_left_hand
+ 16	ik_out_end_right_hand
+ 17	ik_out_start_left_hand
+ 18	ik_out_start_right_hand
+ 19	interruptible
+ 20	j_ankle_le
+ 21	j_ankle_ri
+ 22	j_ball_le
+ 23	j_ball_ri
+ 24	j_bolt
+ 25	j_bullet01
+ 26	j_bullet02
+ 27	j_bullet03
+ 28	j_chamber
+ 29	j_chest
+ 30	j_clavicle_le
+ 31	j_clavicle_ri
+ 32	j_crotch
+ 33	j_dustcover
+ 34	j_elbow_le
+ 35	j_elbow_ri
+ 36	j_elbowdq_le
+ 37	j_elbowdq_ri
+ 38	j_follower
+ 39	j_grenade
+ 40	j_grenade_empty
+ 41	j_groinprotector
+ 42	j_gun
+ 43	j_head
+ 44	j_helmet
+ 45	j_hip_le
+ 46	j_hip_ri
+ 47	j_hiptwist_le
+ 48	j_hiptwist_ri
+ 49	j_hybrid_scope
+ 50	j_index_le_1
+ 51	j_index_le_2
+ 52	j_index_le_3
+ 53	j_index_le_4
+ 54	j_index_ri_1
+ 55	j_index_ri_2
+ 56	j_index_ri_3
+ 57	j_index_ri_4
+ 58	j_knee_le
+ 59	j_knee_ri
+ 60	j_kneedq_le
+ 61	j_kneedq_ri
+ 62	j_lever
+ 63	j_mag1
+ 64	j_mag2
+ 65	j_magnifier_lever
+ 66	j_magrelease
+ 67	j_mainroot
+ 68	j_metaindex_le_1
+ 69	j_metaindex_ri_1
+ 70	j_metamid_le_1
+ 71	j_metamid_ri_1
+ 72	j_metapinky_le_1
+ 73	j_metapinky_ri_1
+ 74	j_metaring_le_1
+ 75	j_metaring_ri_1
+ 76	j_mid_le_1
+ 77	j_mid_le_2
+ 78	j_mid_le_3
+ 79	j_mid_ri_1
+ 80	j_mid_ri_2
+ 81	j_mid_ri_3
+ 82	j_neck
+ 83	j_nvg
+ 84	j_pinky_le_1
+ 85	j_pinky_le_2
+ 86	j_pinky_le_3
+ 87	j_pinky_ri_1
+ 88	j_pinky_ri_2
+ 89	j_pinky_ri_3
+ 90	j_ring_le_1
+ 91	j_ring_le_2
+ 92	j_ring_le_3
+ 93	j_ring_ri_1
+ 94	j_ring_ri_2
+ 95	j_ring_ri_3
+ 96	j_selector_switch
+ 97	j_shield_le
+ 98	j_shield_ri
+ 99	j_shoulder_le
+100	j_shoulder_ri
+101	j_shouldertwist_le
+102	j_shouldertwist_ri
+103	j_spine4
+104	j_spinelower
+105	j_spineupper
+106	j_thumb_le_1
+107	j_thumb_le_2
+108	j_thumb_le_3
+109	j_thumb_le_4
+110	j_thumb_ri_1
+111	j_thumb_ri_2
+112	j_thumb_ri_3
+113	j_thumb_ri_4
+114	j_trigger
+115	j_visor
+116	j_visor_inner
+117	j_webbing_le_1
+118	j_webbing_le_2
+119	j_webbing_ri_1
+120	j_webbing_ri_2
+121	j_wrist_le
+122	j_wrist_ri
+123	j_wristfronttwist1_le
+124	j_wristfronttwist1_ri
+125	mag_eject
+126	melee_attack_sfx
+127	mvmt_step_post
+128	mvmt_step_pre
+129	ps_weap_ar_idle_1_plr
+130	ps_weap_ar_idle_2_plr
+131	ps_weap_ar_idle_3_plr
+132	ps_weap_ar_idle_4_01_plr
+133	ps_weap_ar_idle_4_02_plr
+134	ps_weap_ar_idle_4_03_plr
+135	ps_wfoly_plr_ar_galima_drop_01
+136	ps_wfoly_plr_ar_galima_drop_quick_01
+137	ps_wfoly_plr_ar_galima_fire_switch_off_01
+138	ps_wfoly_plr_ar_galima_fire_switch_on_01
+139	ps_wfoly_plr_ar_galima_gl_drop_01
+140	ps_wfoly_plr_ar_galima_gl_drop_quick_01
+141	ps_wfoly_plr_ar_galima_gl_from_grenade_01
+142	ps_wfoly_plr_ar_galima_gl_raise_01
+143	ps_wfoly_plr_ar_galima_gl_raise_quick_01
+144	ps_wfoly_plr_ar_galima_gl_reload_01
+145	ps_wfoly_plr_ar_galima_gl_reload_02
+146	ps_wfoly_plr_ar_galima_gl_reload_03
+147	ps_wfoly_plr_ar_galima_gl_reload_04
+148	ps_wfoly_plr_ar_galima_gl_reload_05
+149	ps_wfoly_plr_ar_galima_gl_reload_06
+150	ps_wfoly_plr_ar_galima_gl_reload_07
+151	ps_wfoly_plr_ar_galima_gl_reload_fast_01
+152	ps_wfoly_plr_ar_galima_gl_reload_fast_02
+153	ps_wfoly_plr_ar_galima_gl_reload_fast_03
+154	ps_wfoly_plr_ar_galima_gl_reload_fast_04
+155	ps_wfoly_plr_ar_galima_gl_reload_fast_05
+156	ps_wfoly_plr_ar_galima_gl_reload_fast_06
+157	ps_wfoly_plr_ar_galima_gl_reload_fast_07
+158	ps_wfoly_plr_ar_galima_gl_to_grenade_01
+159	ps_wfoly_plr_ar_galima_hybrid_scope_side_off
+160	ps_wfoly_plr_ar_galima_hybrid_scope_side_on
+161	ps_wfoly_plr_ar_galima_hybrid_scope_top_in
+162	ps_wfoly_plr_ar_galima_hybrid_scope_top_out
+163	ps_wfoly_plr_ar_galima_hybrid_toggle_off_01
+164	ps_wfoly_plr_ar_galima_hybrid_toggle_on_01
+165	ps_wfoly_plr_ar_galima_inspect_01
+166	ps_wfoly_plr_ar_galima_inspect_02
+167	ps_wfoly_plr_ar_galima_inspect_03
+168	ps_wfoly_plr_ar_galima_inspect_04
+169	ps_wfoly_plr_ar_galima_inspect_05
+170	ps_wfoly_plr_ar_galima_mk01_drop_01
+171	ps_wfoly_plr_ar_galima_mk01_drop_quick_01
+172	ps_wfoly_plr_ar_galima_mk01_from_ubshtgn_01
+173	ps_wfoly_plr_ar_galima_mk01_raise_quick_01
+174	ps_wfoly_plr_ar_galima_mk01_to_ubshtgn_01
+175	ps_wfoly_plr_ar_galima_raise_01
+176	ps_wfoly_plr_ar_galima_raise_quick_01
+177	ps_wfoly_plr_ar_galima_reload_01
+178	ps_wfoly_plr_ar_galima_reload_02
+179	ps_wfoly_plr_ar_galima_reload_03
+180	ps_wfoly_plr_ar_galima_reload_04
+181	ps_wfoly_plr_ar_galima_reload_05
+182	ps_wfoly_plr_ar_galima_reload_06
+183	ps_wfoly_plr_ar_galima_reload_empty_01
+184	ps_wfoly_plr_ar_galima_reload_empty_02
+185	ps_wfoly_plr_ar_galima_reload_empty_03
+186	ps_wfoly_plr_ar_galima_reload_empty_04
+187	ps_wfoly_plr_ar_galima_reload_empty_05
+188	ps_wfoly_plr_ar_galima_reload_empty_06
+189	ps_wfoly_plr_ar_galima_reload_empty_07
+190	ps_wfoly_plr_ar_galima_reload_empty_fast_01
+191	ps_wfoly_plr_ar_galima_reload_empty_fast_02
+192	ps_wfoly_plr_ar_galima_reload_empty_fast_03
+193	ps_wfoly_plr_ar_galima_reload_empty_fast_04
+194	ps_wfoly_plr_ar_galima_reload_empty_fast_05
+195	ps_wfoly_plr_ar_galima_reload_fast_01
+196	ps_wfoly_plr_ar_galima_reload_fast_02
+197	ps_wfoly_plr_ar_galima_reload_fast_03
+198	ps_wfoly_plr_ar_galima_reload_fast_04
+199	ps_wfoly_plr_ar_galima_reload_smags_01
+200	ps_wfoly_plr_ar_galima_reload_smags_02
+201	ps_wfoly_plr_ar_galima_reload_smags_03
+202	ps_wfoly_plr_ar_galima_reload_smags_04
+203	ps_wfoly_plr_ar_galima_reload_smags_05
+204	ps_wfoly_plr_ar_galima_reload_smags_empty_01
+205	ps_wfoly_plr_ar_galima_reload_smags_empty_02
+206	ps_wfoly_plr_ar_galima_reload_smags_empty_03
+207	ps_wfoly_plr_ar_galima_reload_smags_empty_04
+208	ps_wfoly_plr_ar_galima_reload_smags_empty_05
+209	ps_wfoly_plr_ar_galima_reload_smags_empty_06
+210	ps_wfoly_plr_ar_galima_reload_smags_empty_fast_01
+211	ps_wfoly_plr_ar_galima_reload_smags_empty_fast_02
+212	ps_wfoly_plr_ar_galima_reload_smags_empty_fast_03
+213	ps_wfoly_plr_ar_galima_reload_smags_empty_fast_04
+214	ps_wfoly_plr_ar_galima_reload_smags_empty_fast_05
+215	ps_wfoly_plr_ar_galima_reload_smags_fast_01
+216	ps_wfoly_plr_ar_galima_reload_smags_fast_02
+217	ps_wfoly_plr_ar_galima_reload_smags_fast_03
+218	ps_wfoly_plr_ar_galima_reload_smags_fast_04
+219	ps_wfoly_plr_ar_galima_reload_smags_fast_05
+220	ps_wfoly_plr_ar_galima_reload_smags_fast_06
+221	ps_wfoly_plr_ar_galima_reload_xmags_01
+222	ps_wfoly_plr_ar_galima_reload_xmags_02
+223	ps_wfoly_plr_ar_galima_reload_xmags_03
+224	ps_wfoly_plr_ar_galima_reload_xmags_04
+225	ps_wfoly_plr_ar_galima_reload_xmags_05
+226	ps_wfoly_plr_ar_galima_reload_xmags_06
+227	ps_wfoly_plr_ar_galima_reload_xmags_07
+228	ps_wfoly_plr_ar_galima_reload_xmags_empty_01
+229	ps_wfoly_plr_ar_galima_reload_xmags_empty_02
+230	ps_wfoly_plr_ar_galima_reload_xmags_empty_03
+231	ps_wfoly_plr_ar_galima_reload_xmags_empty_04
+232	ps_wfoly_plr_ar_galima_reload_xmags_empty_05
+233	ps_wfoly_plr_ar_galima_reload_xmags_empty_055
+234	ps_wfoly_plr_ar_galima_reload_xmags_empty_06
+235	ps_wfoly_plr_ar_galima_reload_xmags_empty_07
+236	ps_wfoly_plr_ar_galima_reload_xmags_empty_fast_01
+237	ps_wfoly_plr_ar_galima_reload_xmags_empty_fast_02
+238	ps_wfoly_plr_ar_galima_reload_xmags_empty_fast_03
+239	ps_wfoly_plr_ar_galima_reload_xmags_empty_fast_04
+240	ps_wfoly_plr_ar_galima_reload_xmags_empty_fast_05
+241	ps_wfoly_plr_ar_galima_reload_xmags_empty_fast_06
+242	ps_wfoly_plr_ar_galima_reload_xmags_fast_01
+243	ps_wfoly_plr_ar_galima_reload_xmags_fast_02
+244	ps_wfoly_plr_ar_galima_reload_xmags_fast_03
+245	ps_wfoly_plr_ar_galima_reload_xmags_fast_04
+246	ps_wfoly_plr_ar_galima_reload_xmags_fast_05
+247	ps_wfoly_plr_ar_galima_reload_xmags_fast_06
+248	tag_accessory_left
+249	tag_accessory_right
+250	tag_ads
+251	tag_cambone
+252	tag_camera
+253	tag_clip
+254	tag_grenade_launcher
+255	tag_hybrid
+256	tag_ik_loc_le
+257	tag_ik_loc_le_foregrip
+258	tag_ik_loc_le_launcher
+259	tag_ik_loc_le_shotgun
+260	tag_ik_loc_ri
+261	tag_knife_attach2
+262	tag_mag_attach
+263	tag_player
+264	tag_playerhelmet
+265	tag_sling
+266	tag_sync
+267	tag_torso
+268	tag_view
+269	tag_weapon
+270	tag_weapon_left
+271	tag_weapon_right
+272	viewmodel_large
+273	viewmodel_medium
+274	viewmodel_small

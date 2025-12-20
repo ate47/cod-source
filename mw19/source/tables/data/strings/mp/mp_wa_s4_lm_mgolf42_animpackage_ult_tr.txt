@@ -1,0 +1,268 @@
+  0	bullet0_jnt
+  1	bullet10_jnt
+  2	bullet11_jnt
+  3	bullet1_jnt
+  4	bullet2_jnt
+  5	bullet3_jnt
+  6	bullet4_jnt
+  7	bullet5_jnt
+  8	bullet6_jnt
+  9	bullet7_jnt
+ 10	bullet8_jnt
+ 11	bullet9_jnt
+ 12	bulletcover_jnt
+ 13	bullets_on
+ 14	end
+ 15	fingers_in_end_left_hand
+ 16	fingers_in_end_right_hand
+ 17	fingers_in_start_left_hand
+ 18	fingers_in_start_right_hand
+ 19	fingers_out_end_left_hand
+ 20	fingers_out_end_right_hand
+ 21	fingers_out_start_left_hand
+ 22	fingers_out_start_right_hand
+ 23	footstep_left_small
+ 24	footstep_right_small
+ 25	ik_in_end_left_hand
+ 26	ik_in_end_right_hand
+ 27	ik_in_start_left_hand
+ 28	ik_in_start_right_hand
+ 29	ik_out_end_left_hand
+ 30	ik_out_end_right_hand
+ 31	ik_out_start_left_hand
+ 32	ik_out_start_right_hand
+ 33	interruptible
+ 34	j_ankle_le
+ 35	j_ankle_ri
+ 36	j_b_00
+ 37	j_b_01
+ 38	j_b_02
+ 39	j_b_03
+ 40	j_b_04
+ 41	j_b_05
+ 42	j_b_06
+ 43	j_b_07
+ 44	j_b_08
+ 45	j_b_x_00
+ 46	j_b_x_01
+ 47	j_b_x_02
+ 48	j_b_x_03
+ 49	j_b_x_04
+ 50	j_b_x_05
+ 51	j_b_x_06
+ 52	j_b_x_07
+ 53	j_b_x_08
+ 54	j_b_x_09
+ 55	j_ball_le
+ 56	j_ball_ri
+ 57	j_bipod_piv_c
+ 58	j_bipod_piv_l
+ 59	j_bipod_piv_r
+ 60	j_body
+ 61	j_bolt
+ 62	j_bullet_01
+ 63	j_bullet_02
+ 64	j_bullet_03
+ 65	j_bullet_04
+ 66	j_bullet_05
+ 67	j_ch_catch
+ 68	j_ch_lever
+ 69	j_ch_slide
+ 70	j_chambered_round
+ 71	j_charging_handle
+ 72	j_chest
+ 73	j_clavicle_le
+ 74	j_clavicle_ri
+ 75	j_cover
+ 76	j_crank
+ 77	j_crotch
+ 78	j_e_belt_root
+ 79	j_elbow_le
+ 80	j_elbow_ri
+ 81	j_elbowdq_le
+ 82	j_elbowdq_ri
+ 83	j_feedarm_feedpaw_linkage_pivot
+ 84	j_feedarm_pivot
+ 85	j_feedpaw_linkage_pin_pivot
+ 86	j_feedpaws_ext
+ 87	j_feedpaws_int
+ 88	j_feedtray
+ 89	j_groinprotector
+ 90	j_gun
+ 91	j_handle
+ 92	j_head
+ 93	j_helmet
+ 94	j_hip_le
+ 95	j_hip_ri
+ 96	j_hiptwist_le
+ 97	j_hiptwist_ri
+ 98	j_index_le_1
+ 99	j_index_le_2
+100	j_index_le_3
+101	j_index_le_4
+102	j_index_ri_1
+103	j_index_ri_2
+104	j_index_ri_3
+105	j_index_ri_4
+106	j_knee_le
+107	j_knee_ri
+108	j_kneedq_le
+109	j_kneedq_ri
+110	j_lever
+111	j_lid_release
+112	j_mag1
+113	j_mag2
+114	j_mag_00c_release
+115	j_mag_bullet_belt_root
+116	j_mag_handle
+117	j_mag_handle_secondary
+118	j_mag_lever
+119	j_mag_lever_secondary
+120	j_mag_x_feedtray_extension
+121	j_mag_x_lid
+122	j_mag_x_release
+123	j_magnifier
+124	j_mainroot
+125	j_metaindex_le_1
+126	j_metaindex_ri_1
+127	j_metamid_le_1
+128	j_metamid_ri_1
+129	j_metapinky_le_1
+130	j_metapinky_ri_1
+131	j_metaring_le_1
+132	j_metaring_ri_1
+133	j_mid_le_1
+134	j_mid_le_2
+135	j_mid_le_3
+136	j_mid_ri_1
+137	j_mid_ri_2
+138	j_mid_ri_3
+139	j_neck
+140	j_nvg
+141	j_pinky_le_1
+142	j_pinky_le_2
+143	j_pinky_le_3
+144	j_pinky_ri_1
+145	j_pinky_ri_2
+146	j_pinky_ri_3
+147	j_reload
+148	j_ring_le_1
+149	j_ring_le_2
+150	j_ring_le_3
+151	j_ring_ri_1
+152	j_ring_ri_2
+153	j_ring_ri_3
+154	j_safety
+155	j_shield_le
+156	j_shield_ri
+157	j_shoulder_le
+158	j_shoulder_ri
+159	j_shouldertwist_le
+160	j_shouldertwist_ri
+161	j_spine4
+162	j_spinelower
+163	j_spineupper
+164	j_spring_f
+165	j_spring_k
+166	j_thumb_le_1
+167	j_thumb_le_2
+168	j_thumb_le_3
+169	j_thumb_le_4
+170	j_thumb_ri_1
+171	j_thumb_ri_2
+172	j_thumb_ri_3
+173	j_thumb_ri_4
+174	j_trigger
+175	j_visor
+176	j_visor_inner
+177	j_webbing_le_1
+178	j_webbing_le_2
+179	j_webbing_ri_1
+180	j_webbing_ri_2
+181	j_wrist_le
+182	j_wrist_ri
+183	j_wristfronttwist1_le
+184	j_wristfronttwist1_ri
+185	mag_release_jnt
+186	melee_attack_sfx
+187	mvmt_step_post
+188	mvmt_step_pre
+189	ps_wfoly_plr_ar_mike4_hybrid_scope_snap_open
+190	ps_wfoly_plr_sn_kilo98_drop_01
+191	ps_wfoly_plr_sn_kilo98_drop_02
+192	ps_wfoly_plr_sn_kilo98_drop_quick_01
+193	ps_wfoly_plr_sn_kilo98_raise_01
+194	ps_wfoly_plr_sn_kilo98_raise_quick_01
+195	ps_wpn_gbl_plr_inspect_mvmnt_lrg
+196	ps_wpn_gbl_plr_inspect_mvmnt_med
+197	ps_wpn_gbl_plr_inspect_mvmnt_sml
+198	ps_wpn_gbl_plr_inspect_settle
+199	ps_wpn_gbl_plr_sight_toggle_on
+200	ps_wpn_mgolf42_plr_reload_beltin_empty
+201	ps_wpn_mgolf42_plr_reload_beltin_empty_fast
+202	ps_wpn_mgolf42_plr_reload_beltin_tac
+203	ps_wpn_mgolf42_plr_reload_beltin_tac_fast
+204	ps_wpn_mgolf42_plr_reload_beltout_tac
+205	ps_wpn_mgolf42_plr_reload_beltout_tac_fast
+206	ps_wpn_mgolf42_plr_reload_charge_empty
+207	ps_wpn_mgolf42_plr_reload_charge_empty_fast
+208	ps_wpn_mgolf42_plr_reload_close_empty
+209	ps_wpn_mgolf42_plr_reload_close_empty_fast
+210	ps_wpn_mgolf42_plr_reload_close_tac
+211	ps_wpn_mgolf42_plr_reload_close_tac_fast
+212	ps_wpn_mgolf42_plr_reload_magin_empty
+213	ps_wpn_mgolf42_plr_reload_magin_tac
+214	ps_wpn_mgolf42_plr_reload_magout_empty
+215	ps_wpn_mgolf42_plr_reload_magout_tac
+216	ps_wpn_mgolf42_plr_reload_open_empty
+217	ps_wpn_mgolf42_plr_reload_open_empty_fast
+218	ps_wpn_mgolf42_plr_reload_open_tac
+219	ps_wpn_mgolf42_plr_reload_open_tac_fast
+220	ps_wpn_mgolf42_ultra_merc_inspect_foley_01
+221	ps_wpn_mgolf42_ultra_merc_inspect_foley_02
+222	ps_wpn_mgolf42_ultra_merc_inspect_foley_03
+223	ps_wpn_mgolf42_ultra_merc_inspect_foley_04
+224	ps_wpn_mgolf42_ultra_merc_inspect_sweetener_01
+225	ps_wpn_mgolf42_ultra_merc_inspect_sweetener_02
+226	tag_accessory_left
+227	tag_accessory_right
+228	tag_acog_2
+229	tag_ads
+230	tag_barrel_attach
+231	tag_bayonet_attach
+232	tag_bipod_attach
+233	tag_cambone
+234	tag_camera
+235	tag_clip
+236	tag_elo
+237	tag_grenade_launcher
+238	tag_grip
+239	tag_holo
+240	tag_hybrid
+241	tag_ik_loc_le
+242	tag_ik_loc_le_mover
+243	tag_ik_loc_ri
+244	tag_ik_loc_ri_mover
+245	tag_knife_attach2
+246	tag_loose_round
+247	tag_mag_attach
+248	tag_phase
+249	tag_player
+250	tag_playerhelmet
+251	tag_reflex
+252	tag_scope
+253	tag_silencer
+254	tag_sling
+255	tag_sync
+256	tag_taclight
+257	tag_thermal
+258	tag_tip
+259	tag_torso
+260	tag_view
+261	tag_weapon
+262	tag_weapon_left
+263	tag_weapon_right
+264	viemwodel_medium
+265	viewmodel_large
+266	viewmodel_medium
+267	viewmodel_small

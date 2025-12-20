@@ -1,0 +1,184 @@
+  0	end
+  1	fingers_in_end_left_hand
+  2	fingers_in_end_right_hand
+  3	fingers_in_start_left_hand
+  4	fingers_in_start_right_hand
+  5	fingers_out_end_left_hand
+  6	fingers_out_end_right_hand
+  7	fingers_out_start_left_hand
+  8	fingers_out_start_right_hand
+  9	footstep_left_small
+ 10	footstep_right_small
+ 11	ik_in_end_left_hand
+ 12	ik_in_end_right_hand
+ 13	ik_in_start_left_hand
+ 14	ik_in_start_right_hand
+ 15	ik_out_end_left_hand
+ 16	ik_out_end_right_hand
+ 17	ik_out_start_left_hand
+ 18	ik_out_start_right_hand
+ 19	interruptible
+ 20	j_ankle_le
+ 21	j_ankle_ri
+ 22	j_b_01
+ 23	j_ball_le
+ 24	j_ball_ri
+ 25	j_bolt
+ 26	j_bolt_release
+ 27	j_charginghandle
+ 28	j_charginghandleassist
+ 29	j_chest
+ 30	j_clavicle_le
+ 31	j_clavicle_ri
+ 32	j_crotch
+ 33	j_ejectioncover
+ 34	j_elbow_le
+ 35	j_elbow_ri
+ 36	j_elbowdq_le
+ 37	j_elbowdq_ri
+ 38	j_firesel
+ 39	j_follower
+ 40	j_forwardassist
+ 41	j_forwardassist_v2
+ 42	j_frontsight
+ 43	j_groinprotector
+ 44	j_gun
+ 45	j_head
+ 46	j_helmet
+ 47	j_hip_le
+ 48	j_hip_ri
+ 49	j_hiptwist_le
+ 50	j_hiptwist_ri
+ 51	j_hybrid_scope
+ 52	j_index_le_1
+ 53	j_index_le_2
+ 54	j_index_le_3
+ 55	j_index_le_4
+ 56	j_index_ri_1
+ 57	j_index_ri_2
+ 58	j_index_ri_3
+ 59	j_index_ri_4
+ 60	j_knee_le
+ 61	j_knee_ri
+ 62	j_kneedq_le
+ 63	j_kneedq_ri
+ 64	j_mag1
+ 65	j_mag2
+ 66	j_mag_release
+ 67	j_magrel
+ 68	j_magrel_right
+ 69	j_mainroot
+ 70	j_metaindex_le_1
+ 71	j_metaindex_ri_1
+ 72	j_metamid_le_1
+ 73	j_metamid_ri_1
+ 74	j_metapinky_le_1
+ 75	j_metapinky_ri_1
+ 76	j_metaring_le_1
+ 77	j_metaring_ri_1
+ 78	j_mid_le_1
+ 79	j_mid_le_2
+ 80	j_mid_le_3
+ 81	j_mid_ri_1
+ 82	j_mid_ri_2
+ 83	j_mid_ri_3
+ 84	j_mike4_bolt
+ 85	j_neck
+ 86	j_nvg
+ 87	j_pinky_le_1
+ 88	j_pinky_le_2
+ 89	j_pinky_le_3
+ 90	j_pinky_ri_1
+ 91	j_pinky_ri_2
+ 92	j_pinky_ri_3
+ 93	j_ring_le_1
+ 94	j_ring_le_2
+ 95	j_ring_le_3
+ 96	j_ring_ri_1
+ 97	j_ring_ri_2
+ 98	j_ring_ri_3
+ 99	j_safety
+100	j_shield_le
+101	j_shield_ri
+102	j_shoulder_le
+103	j_shoulder_ri
+104	j_shouldertwist_le
+105	j_shouldertwist_ri
+106	j_spine4
+107	j_spinelower
+108	j_spineupper
+109	j_stock
+110	j_taclight
+111	j_thumb_le_1
+112	j_thumb_le_2
+113	j_thumb_le_3
+114	j_thumb_le_4
+115	j_thumb_ri_1
+116	j_thumb_ri_2
+117	j_thumb_ri_3
+118	j_thumb_ri_4
+119	j_trigger
+120	j_visor
+121	j_visor_inner
+122	j_webbing_le_1
+123	j_webbing_le_2
+124	j_webbing_ri_1
+125	j_webbing_ri_2
+126	j_wrist_le
+127	j_wrist_ri
+128	j_wristfronttwist1_le
+129	j_wristfronttwist1_ri
+130	melee_attack_sfx
+131	mvmt_step_post
+132	mvmt_step_pre
+133	ps_wfoly_plr_trfastburst_inspect_01
+134	ps_wfoly_plr_trfastburst_inspect_02
+135	ps_wfoly_plr_trfastburst_inspect_03
+136	ps_wfoly_plr_trfastburst_inspect_04
+137	ps_wfoly_plr_trfastburst_inspect_05
+138	ps_wfoly_plr_trfastburst_inspect_06
+139	ps_wfoly_plr_trfastburst_inspect_07
+140	ps_wfoly_plr_trfastburst_reload_empty_charging_handle
+141	ps_wfoly_plr_trfastburst_reload_empty_charging_handle_start
+142	ps_wfoly_plr_trfastburst_reload_empty_end
+143	ps_wfoly_plr_trfastburst_reload_empty_mag_in
+144	ps_wfoly_plr_trfastburst_reload_empty_mag_in_drum
+145	ps_wfoly_plr_trfastburst_reload_empty_mag_in_start
+146	ps_wfoly_plr_trfastburst_reload_empty_mag_out
+147	ps_wfoly_plr_trfastburst_reload_empty_mag_out_drum
+148	ps_wfoly_plr_trfastburst_reload_empty_start
+149	ps_wfoly_plr_trfastburst_reload_end
+150	ps_wfoly_plr_trfastburst_reload_mag_in
+151	ps_wfoly_plr_trfastburst_reload_mag_in_drum
+152	ps_wfoly_plr_trfastburst_reload_mag_out
+153	ps_wfoly_plr_trfastburst_reload_mag_out_drum
+154	ps_wfoly_plr_trfastburst_reload_start
+155	ps_wfoly_tr_fastburst_drop
+156	ps_wfoly_tr_fastburst_drop_quick
+157	ps_wfoly_tr_fastburst_raise
+158	ps_wfoly_tr_fastburst_raise_quick
+159	tag_accessory_left
+160	tag_accessory_right
+161	tag_ads
+162	tag_cambone
+163	tag_camera
+164	tag_charging_handle_animate
+165	tag_hybrid
+166	tag_ik_loc_le
+167	tag_ik_loc_le_foregrip
+168	tag_ik_loc_ri
+169	tag_mag_hide
+170	tag_mag_show
+171	tag_mag_show2
+172	tag_player
+173	tag_playerhelmet
+174	tag_sling
+175	tag_sync
+176	tag_torso
+177	tag_view
+178	tag_weapon
+179	tag_weapon_left
+180	tag_weapon_right
+181	viewmodel_large
+182	viewmodel_medium
+183	viewmodel_small

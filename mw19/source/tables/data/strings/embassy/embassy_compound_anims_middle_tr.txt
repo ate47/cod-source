@@ -1,0 +1,964 @@
+  0	BrowInrDn_00_L
+  1	BrowInrDn_00_R
+  2	BrowInrDn_01_L
+  3	BrowInrDn_01_R
+  4	BrowInrDn_BrowLower_L
+  5	BrowInrDn_BrowLower_R
+  6	BrowInrRaise_00_L
+  7	BrowInrRaise_00_R
+  8	BrowInrRaise_BrowLower_L
+  9	BrowInrRaise_BrowLower_R
+ 10	BrowInrRaise_UprlidDn_L
+ 11	BrowInrRaise_UprlidDn_R
+ 12	BrowLower_00_L
+ 13	BrowLower_00_R
+ 14	BrowLower_01_L
+ 15	BrowLower_01_R
+ 16	BrowLower_UprlidDn_L
+ 17	BrowLower_UprlidDn_R
+ 18	BrowOutrRaise_00_L
+ 19	BrowOutrRaise_00_R
+ 20	BrowOutrRaise_UprlidDn_L
+ 21	BrowOutrRaise_UprlidDn_R
+ 22	CheekBlow_B_L
+ 23	CheekBlow_B_R
+ 24	CheekBlow_T_L
+ 25	CheekBlow_T_R
+ 26	CheekRaise_00_L
+ 27	CheekRaise_00_R
+ 28	CheekRaise_01_L
+ 29	CheekRaise_01_R
+ 30	CheekRaise_02_L
+ 31	CheekRaise_02_R
+ 32	CheekRaise_03_L
+ 33	CheekRaise_03_R
+ 34	ChinRaise_00_L
+ 35	ChinRaise_00_R
+ 36	ChinRaise_01_L
+ 37	ChinRaise_01_R
+ 38	ChinRaise_02_L
+ 39	ChinRaise_02_R
+ 40	ChinRaise_03_L
+ 41	ChinRaise_03_R
+ 42	ChinRaise_04_L
+ 43	ChinRaise_04_R
+ 44	ChinRaise_05_L
+ 45	ChinRaise_05_R
+ 46	ChinRaise_06_L
+ 47	ChinRaise_06_R
+ 48	ChinRaise_07_L
+ 49	ChinRaise_07_R
+ 50	ChinRaise_08_L
+ 51	ChinRaise_08_R
+ 52	CornerDepress_00_L
+ 53	CornerDepress_00_R
+ 54	CornerDepress_01_L
+ 55	CornerDepress_01_R
+ 56	CornerDepress_02_L
+ 57	CornerDepress_02_R
+ 58	CornerDepress_03_L
+ 59	CornerDepress_03_R
+ 60	CornerDepress_04_L
+ 61	CornerDepress_04_R
+ 62	CornerRaise_00_R
+ 63	CornerRaise_01_R
+ 64	CornerRaise_02_R
+ 65	CornerRaise_03_R
+ 66	CornerRaise_04_R
+ 67	CornerSharp_00_L
+ 68	CornerSharp_00_R
+ 69	Dimple_00_L
+ 70	Dimple_00_R
+ 71	Dimple_01_L
+ 72	Dimple_01_R
+ 73	Dimple_02_L
+ 74	Dimple_02_R
+ 75	Dimple_03_L
+ 76	Dimple_03_R
+ 77	EyeSqz_L
+ 78	EyeSqz_R
+ 79	Funnel_00_L
+ 80	Funnel_00_R
+ 81	Funnel_01_L
+ 82	Funnel_01_R
+ 83	Funnel_02_L
+ 84	Funnel_02_R
+ 85	Funnel_03_L
+ 86	Funnel_03_R
+ 87	Funnel_04_L
+ 88	Funnel_04_R
+ 89	Funnel_05_L
+ 90	Funnel_05_R
+ 91	Funnel_06_L
+ 92	Funnel_06_R
+ 93	Funnel_07_L
+ 94	Funnel_07_R
+ 95	Funnel_Close_L
+ 96	Funnel_Close_R
+ 97	JawDrop_00_L
+ 98	JawDrop_00_R
+ 99	JawFrwrd
+100	JawFrwrdLock_L
+101	JawFrwrdLock_R
+102	JawLeft
+103	JawLeftLock_L
+104	JawLeftLock_R
+105	JawOpenLock_00_L
+106	JawOpenLock_00_R
+107	JawOpen_00_L
+108	JawOpen_00_R
+109	JawRight
+110	JawRightLock_L
+111	JawRightLock_R
+112	LidTight_00_L
+113	LidTight_00_R
+114	LidTight_01_L
+115	LidTight_01_R
+116	LidTight_02_L
+117	LidTight_02_R
+118	LidTight_03_L
+119	LidTight_03_R
+120	LidTight_04_L
+121	LidTight_04_R
+122	LidTight_05_L
+123	LidTight_05_R
+124	LidTight_06_L
+125	LidTight_06_R
+126	LipBite_BL
+127	LipBite_BR
+128	LipBite_TL
+129	LipBite_TR
+130	LipFat_03_L
+131	LipFat_03_R
+132	LipInrFat_00_L
+133	LipInrFat_00_R
+134	LipInrFat_01_L
+135	LipInrFat_01_R
+136	LipRollIn_00_L
+137	LipRollIn_00_R
+138	LipRollIn_01_L
+139	LipRollIn_01_R
+140	LipRollIn_02_L
+141	LipRollIn_02_R
+142	LipRollIn_03_L
+143	LipRollIn_03_R
+144	LipRollIn_04_L
+145	LipRollIn_04_R
+146	LipRollIn_05_L
+147	LipRollIn_05_R
+148	LipRollIn_06_L
+149	LipRollIn_06_R
+150	LipRollIn_07_L
+151	LipRollIn_07_R
+152	LipRollIn_ChinRaise_BL
+153	LipRollIn_ChinRaise_BR
+154	LipRollIn_ChinRaise_TL
+155	LipRollIn_ChinRaise_TR
+156	LipRollIn_JawOpen_BL
+157	LipRollIn_JawOpen_BR
+158	LipRollIn_JawOpen_TL
+159	LipRollIn_JawOpen_TR
+160	LipRollIn_Prog2_BL
+161	LipRollIn_Prog2_BR
+162	LipRollIn_Prog2_TL
+163	LipRollIn_Prog2_TR
+164	LookDnProg_L
+165	LookDnProg_R
+166	LookDn_00_L
+167	LookDn_00_R
+168	LookDn_01_L
+169	LookDn_01_R
+170	LookDn_02_L
+171	LookDn_02_R
+172	LookDn_03_L
+173	LookDn_03_R
+174	LookDn_04_L
+175	LookDn_04_R
+176	LookDn_05_L
+177	LookDn_05_R
+178	LookDn_06_L
+179	LookDn_06_R
+180	LookDn_07_L
+181	LookDn_07_R
+182	LookDn_08_L
+183	LookDn_08_R
+184	LookDn_09_L
+185	LookDn_09_R
+186	LookLeft_00_L
+187	LookLeft_00_R
+188	LookLeft_01_L
+189	LookLeft_01_R
+190	LookLeft_02_L
+191	LookLeft_02_R
+192	LookLeft_03_L
+193	LookLeft_03_R
+194	LookLeft_04_L
+195	LookLeft_04_R
+196	LookLeft_05_L
+197	LookLeft_05_R
+198	LookLeft_06_L
+199	LookLeft_06_R
+200	LookLeft_07_L
+201	LookLeft_07_R
+202	LookLeft_08_L
+203	LookLeft_08_R
+204	LookRight_00_L
+205	LookRight_00_R
+206	LookRight_01_L
+207	LookRight_01_R
+208	LookRight_02_L
+209	LookRight_02_R
+210	LookRight_03_L
+211	LookRight_03_R
+212	LookRight_04_L
+213	LookRight_04_R
+214	LookRight_05_L
+215	LookRight_05_R
+216	LookRight_06_L
+217	LookRight_06_R
+218	LookRight_07_L
+219	LookRight_07_R
+220	LookRight_08_L
+221	LookRight_08_R
+222	LookUp_00_L
+223	LookUp_00_R
+224	LookUp_01_L
+225	LookUp_01_R
+226	LookUp_02_L
+227	LookUp_02_R
+228	LookUp_03_L
+229	LookUp_03_R
+230	LookUp_04_L
+231	LookUp_04_R
+232	LookUp_05_L
+233	LookUp_05_R
+234	LookUp_06_L
+235	LookUp_06_R
+236	LookUp_07_L
+237	LookUp_07_R
+238	LookUp_08_L
+239	LookUp_08_R
+240	LookUp_09_L
+241	LookUp_09_R
+242	LwrLidDn_L
+243	LwrLidDn_R
+244	LwrLidRaise_L
+245	LwrLidRaise_R
+246	LwrLipDepress_00_L
+247	LwrLipDepress_00_R
+248	LwrLipDepress_01_L
+249	LwrLipDepress_01_R
+250	LwrLipDepress_02_L
+251	LwrLipDepress_02_R
+252	LwrLipDepress_03_L
+253	LwrLipDepress_03_R
+254	LwrLipDepress_04_L
+255	LwrLipDepress_04_R
+256	LwrLip_Left
+257	LwrLip_Right
+258	MouthLeft_00_L
+259	MouthLeft_00_R
+260	MouthLeft_01_L
+261	MouthLeft_01_R
+262	MouthLeft_02_L
+263	MouthLeft_02_R
+264	MouthLeft_03_L
+265	MouthLeft_03_R
+266	MouthLeft_04_L
+267	MouthLeft_04_R
+268	MouthLeft_05_L
+269	MouthLeft_05_R
+270	MouthLeft_06_L
+271	MouthLeft_06_R
+272	MouthLeft_07_L
+273	MouthLeft_07_R
+274	MouthLeft_08_L
+275	MouthLeft_08_R
+276	MouthPress_00_L
+277	MouthPress_00_R
+278	MouthRight_00_L
+279	MouthRight_00_R
+280	MouthRight_01_L
+281	MouthRight_01_R
+282	MouthRight_02_L
+283	MouthRight_02_R
+284	MouthRight_03_L
+285	MouthRight_03_R
+286	MouthRight_04_L
+287	MouthRight_04_R
+288	MouthRight_05_L
+289	MouthRight_05_R
+290	MouthRight_06_L
+291	MouthRight_06_R
+292	MouthRight_07_L
+293	MouthRight_07_R
+294	MouthRight_08_L
+295	MouthRight_08_R
+296	MouthTight_00_L
+297	MouthTight_00_R
+298	MouthTight_01_L
+299	MouthTight_01_R
+300	MouthTight_02_L
+301	MouthTight_02_R
+302	MouthTight_03_L
+303	MouthTight_03_R
+304	MouthTight_04_L
+305	MouthTight_04_R
+306	MouthTight_05_L
+307	MouthTight_05_R
+308	MouthTight_06_L
+309	MouthTight_06_R
+310	MouthTight_07_L
+311	MouthTight_07_R
+312	MouthTight_08_L
+313	MouthTight_08_R
+314	NlDeep_00_L
+315	NlDeep_00_R
+316	NlDeep_01_L
+317	NlDeep_01_R
+318	NlDeep_02_L
+319	NlDeep_02_R
+320	NoseClose_L
+321	NoseClose_R
+322	NoseOpen_L
+323	NoseOpen_R
+324	NoseWrinkle_00_L
+325	NoseWrinkle_00_R
+326	NoseWrinkle_01_L
+327	NoseWrinkle_01_R
+328	NoseWrinkle_02_L
+329	NoseWrinkle_02_R
+330	NoseWrinkle_03_L
+331	NoseWrinkle_03_R
+332	NoseWrinkle_04_L
+333	NoseWrinkle_04_R
+334	NoseWrinkle_05_L
+335	NoseWrinkle_05_R
+336	NoseWrinkle_06_L
+337	NoseWrinkle_06_R
+338	Pucker_00_L
+339	Pucker_00_R
+340	Pucker_01_L
+341	Pucker_01_R
+342	Pucker_02_L
+343	Pucker_02_R
+344	Pucker_03_L
+345	Pucker_03_R
+346	Pucker_04_L
+347	Pucker_04_R
+348	Pucker_05_L
+349	Pucker_05_R
+350	Pucker_06_L
+351	Pucker_06_R
+352	Pucker_07_L
+353	Pucker_07_R
+354	Pucker_Funnel_BL
+355	Pucker_Funnel_BR
+356	Pucker_Funnel_TL
+357	Pucker_Funnel_TR
+358	Squint_00_L
+359	Squint_00_R
+360	Squint_01_L
+361	Squint_01_R
+362	Squint_02_L
+363	Squint_02_R
+364	Squint_03_L
+365	Squint_03_R
+366	Squint_04_L
+367	Squint_04_R
+368	Squint_05_L
+369	Squint_05_R
+370	Squint_06_L
+371	Squint_06_R
+372	Squint_07_L
+373	Squint_07_R
+374	StickyLips1_L
+375	StickyLips1_R
+376	StickyLips2_L
+377	StickyLips2_R
+378	StickyLips3_L
+379	StickyLips3_R
+380	Stretch_00_L
+381	Stretch_00_R
+382	Stretch_01_L
+383	Stretch_01_R
+384	Stretch_02_L
+385	Stretch_02_R
+386	Stretch_03_L
+387	Stretch_03_R
+388	Stretch_04_L
+389	Stretch_04_R
+390	Stretch_05_L
+391	Stretch_05_R
+392	Stretch_06_L
+393	Stretch_06_R
+394	Stretch_07_L
+395	Stretch_07_R
+396	Stretch_08_L
+397	Stretch_08_R
+398	Stretch_09_L
+399	Stretch_09_R
+400	Stretch_10_L
+401	Stretch_10_R
+402	Stretch_Close_L
+403	Stretch_Close_R
+404	Stretch_JawOpen_L
+405	Stretch_JawOpen_R
+406	Stretch_Left
+407	Stretch_Right
+408	Suck_L
+409	Suck_R
+410	Tight_L
+411	Tight_R
+412	TracksMesh2D
+413	UprLidDn_00_L
+414	UprLidDn_00_R
+415	UprLidDn_01_L
+416	UprLidDn_01_R
+417	UprLidDn_02_L
+418	UprLidDn_02_R
+419	UprLidDn_03_L
+420	UprLidDn_03_R
+421	UprLidDn_04_L
+422	UprLidDn_04_R
+423	UprLidDn_05_L
+424	UprLidDn_05_R
+425	UprLidDrop_L
+426	UprLidDrop_R
+427	UprLidRaise_00_L
+428	UprLidRaise_00_R
+429	UprLidRaise_01_L
+430	UprLidRaise_01_R
+431	UprLidRaise_02_L
+432	UprLidRaise_02_R
+433	UprLidRaise_03_L
+434	UprLidRaise_03_R
+435	UprLidRaise_04_L
+436	UprLidRaise_04_R
+437	UprLidRaise_05_L
+438	UprLidRaise_05_R
+439	UprLipDepress_00_L
+440	UprLipDepress_00_R
+441	UprLipDepress_01_L
+442	UprLipDepress_01_R
+443	UprLipRaise_00_L
+444	UprLipRaise_00_R
+445	UprLipRaise_01_L
+446	UprLipRaise_01_R
+447	UprLipRaise_02_L
+448	UprLipRaise_02_R
+449	UprLipRaise_03_L
+450	UprLipRaise_03_R
+451	UprLipRaise_04_L
+452	UprLipRaise_04_R
+453	UprLipRaise_05_L
+454	UprLipRaise_05_R
+455	UprLipRaise_06_L
+456	UprLipRaise_06_R
+457	UprLipRaise_ChinRaise_L
+458	UprLipRaise_ChinRaise_R
+459	UprLipRaise_Close_L
+460	UprLipRaise_Close_R
+461	UprLip_Right
+462	anim_coverpose = cover_crouch
+463	anim_facial = idle
+464	anim_facial = talk
+465	anim_movement = run
+466	anim_movement_gun_pose_override = run_gun_down
+467	anim_pose = crouch
+468	bodyfall large
+469	bodyfall small
+470	draw_pistol
+471	dropgun
+472	end
+473	fire
+474	footstep_left_large
+475	footstep_left_small
+476	footstep_right_large
+477	footstep_right_small
+478	fx_exploder( triage_bloodpool_1 )
+479	fx_playfxontag, vfx/iw8/level/embassy/vfx_embassy_mayh_scaffolding_a.vfx, tag_origin
+480	fx_playfxontag, vfx/iw8/level/embassy/vfx_embassy_mayh_scaffolding_b.vfx, tag_origin
+481	fx_playfxontag, vfx/iw8/level/embassy/vfx_embassy_mayh_scaffolding_c.vfx, tag_origin
+482	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_scaffolding_fire_a_debris.vfx, scaff_b_track_004
+483	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_scaffolding_fire_a_debris.vfx, scaff_track_003
+484	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_scaffolding_fire_a_debris.vfx, scaff_track_005
+485	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_scaffolding_fire_a_debris.vfx, scaff_track_007
+486	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_scaffolding_fire_b_debris.vfx, scaff_b_track_001
+487	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_scaffolding_fire_b_debris.vfx, scaff_c_track_001
+488	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_scaffolding_fire_b_debris.vfx, scaff_c_track_002
+489	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_scaffolding_fire_c_debris.vfx, scaff_b_track_007
+490	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_scaffolding_fire_c_debris.vfx, scaff_b_track_011
+491	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_scaffolding_fire_c_debris.vfx, scaff_c_track_006
+492	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_scaffolding_fire_c_debris.vfx, scaff_c_track_010
+493	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_tarp_fire_a_med.vfx, tarp_b_track_001
+494	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_tarp_fire_a_med.vfx, tarp_b_track_002
+495	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_tarp_fire_a_med.vfx, tarp_b_track_004
+496	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_tarp_fire_a_med.vfx, tarp_b_track_005
+497	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_tarp_fire_a_med.vfx, tarp_c_track_001
+498	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_tarp_fire_a_med.vfx, tarp_c_track_002
+499	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_tarp_fire_a_med.vfx, tarp_c_track_003
+500	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_tarp_fire_a_med.vfx, tarp_c_track_006
+501	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_tarp_fire_a_med.vfx, tarp_track_001
+502	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_tarp_fire_a_med.vfx, tarp_track_003
+503	fx_playfxontag, vfx/iw8/prop/scriptables/vfx_tarp_fire_a_med.vfx, tarp_track_005
+504	fx_playfxontag, vfx_fire_ontag_lrg_high, j_chest
+505	fx_playfxontag, vfx_fire_ontag_med_high, j_hip_proc_le
+506	fx_playfxontag, vfx_technical_brakelight, tag_light_back_left
+507	fx_playfxontag, vfx_technical_brakelight, tag_light_back_right
+508	fx_playfxontag, vfx_triage_blood_pool_2, j_spine4
+509	fx_playfxontag, vfx_triage_bullet_impact, j_clavicle_le
+510	fx_playfxontag, vfx_triage_bullet_impact, j_spine4
+511	fx_playfxontag, vfx_triage_drag_blood_smears, tag_sync
+512	fx_playfxontag, vfx_truck_dust, tag_trunk
+513	fx_playfxontag, vfx_truck_headlight_lensflare2, tag_light_front_right
+514	fx_playfxontag, vfx_truck_headlight_lensflare3, tag_light_front_left
+515	fx_stopfxontag, vfx_technical_brakelight, tag_light_back_left
+516	fx_stopfxontag, vfx_technical_brakelight, tag_light_back_right
+517	fx_stopfxontag, vfx_truck_dust, tag_trunk
+518	fx_stopfxontag, vfx_truck_headlight_lensflare2, tag_light_front_right
+519	fx_stopfxontag, vfx_truck_headlight_lensflare3, tag_light_front_left
+520	grab_glowstick
+521	green_beam_hint
+522	ht_off
+523	ht_on
+524	ik_in_end_left_hand
+525	ik_in_end_right_hand
+526	ik_in_start_left_hand
+527	ik_in_start_right_hand
+528	ik_out_end_left_hand
+529	ik_out_end_right_hand
+530	ik_out_start_left_hand
+531	ik_out_start_right_hand
+532	j_ankle_le
+533	j_ankle_ri
+534	j_ball_le
+535	j_ball_ri
+536	j_base
+537	j_bipod_btm
+538	j_bipod_top
+539	j_brow_le_1
+540	j_brow_le_2
+541	j_brow_le_3
+542	j_brow_ri_1
+543	j_brow_ri_2
+544	j_brow_ri_3
+545	j_center_part09
+546	j_chain_01
+547	j_chain_02
+548	j_cheek_le_1
+549	j_cheek_le_2
+550	j_cheek_puff_le
+551	j_cheek_puff_ri
+552	j_cheek_ri_1
+553	j_cheek_ri_2
+554	j_chest
+555	j_chin
+556	j_clavicle_le
+557	j_clavicle_ri
+558	j_crotch
+559	j_elbow_le
+560	j_elbow_ri
+561	j_elbowdq_le
+562	j_elbowdq_ri
+563	j_eye_lid_bot_le
+564	j_eye_lid_bot_ri
+565	j_eye_lid_top_le
+566	j_eye_lid_top_le_1
+567	j_eye_lid_top_ri
+568	j_eye_lid_top_ri_1
+569	j_eyeball_le
+570	j_eyeball_ri
+571	j_eyelash_bot_le_1
+572	j_eyelash_bot_le_2
+573	j_eyelash_bot_ri_1
+574	j_eyelash_bot_ri_2
+575	j_eyelash_top_le_1
+576	j_eyelash_top_le_2
+577	j_eyelash_top_ri_1
+578	j_eyelash_top_ri_2
+579	j_forehead
+580	j_forehead_le_1
+581	j_forehead_ri_1
+582	j_front_legs
+583	j_furrow_le
+584	j_furrow_ri
+585	j_groinprotector
+586	j_gun
+587	j_head
+588	j_helmet
+589	j_hinge
+590	j_hip_le
+591	j_hip_ri
+592	j_hiptwist_le
+593	j_hiptwist_ri
+594	j_index_le_1
+595	j_index_le_2
+596	j_index_le_3
+597	j_index_le_4
+598	j_index_ri_1
+599	j_index_ri_2
+600	j_index_ri_3
+601	j_index_ri_4
+602	j_insidegum
+603	j_insidegum_le_1
+604	j_insidegum_ri_1
+605	j_jaw
+606	j_knee_le
+607	j_knee_ri
+608	j_kneedq_le
+609	j_kneedq_ri
+610	j_l_leg_btm
+611	j_l_leg_top
+612	j_leg01_clamp
+613	j_legs_ctr
+614	j_levator_le_1
+615	j_levator_le_2
+616	j_levator_ri_1
+617	j_levator_ri_2
+618	j_lip_bot
+619	j_lip_bot_le_1
+620	j_lip_bot_le_2
+621	j_lip_bot_le_3
+622	j_lip_bot_le_4
+623	j_lip_bot_ri_1
+624	j_lip_bot_ri_2
+625	j_lip_bot_ri_3
+626	j_lip_bot_ri_4
+627	j_lip_inside_le_1
+628	j_lip_inside_ri_1
+629	j_lip_top
+630	j_lip_top_le_1
+631	j_lip_top_le_2
+632	j_lip_top_le_3
+633	j_lip_top_le_4
+634	j_lip_top_ri_1
+635	j_lip_top_ri_2
+636	j_lip_top_ri_3
+637	j_lip_top_ri_4
+638	j_lowergum
+639	j_mag1
+640	j_mag2
+641	j_mainroot
+642	j_metaindex_le_1
+643	j_metaindex_ri_1
+644	j_metamid_le_1
+645	j_metamid_ri_1
+646	j_metapinky_le_1
+647	j_metapinky_ri_1
+648	j_metaring_le_1
+649	j_metaring_ri_1
+650	j_mid_le_1
+651	j_mid_le_2
+652	j_mid_le_3
+653	j_mid_ri_1
+654	j_mid_ri_2
+655	j_mid_ri_3
+656	j_mortar_shell
+657	j_mouthcorner_le
+658	j_mouthcorner_ri
+659	j_nasolabial_le_1
+660	j_nasolabial_le_2
+661	j_nasolabial_le_3
+662	j_nasolabial_le_4
+663	j_nasolabial_ri_1
+664	j_nasolabial_ri_2
+665	j_nasolabial_ri_3
+666	j_nasolabial_ri_4
+667	j_neck
+668	j_nose_tip
+669	j_nvg
+670	j_nvg_2
+671	j_origin_animate
+672	j_periorbital_le_1
+673	j_periorbital_le_2
+674	j_periorbital_le_3
+675	j_periorbital_ri_1
+676	j_periorbital_ri_2
+677	j_periorbital_ri_3
+678	j_pinky_le_1
+679	j_pinky_le_2
+680	j_pinky_le_3
+681	j_pinky_ri_1
+682	j_pinky_ri_2
+683	j_pinky_ri_3
+684	j_pivot
+685	j_r_leg_btm
+686	j_r_leg_top
+687	j_ring_le_1
+688	j_ring_le_2
+689	j_ring_le_3
+690	j_ring_ri_1
+691	j_ring_ri_2
+692	j_ring_ri_3
+693	j_shaft_btm
+694	j_shaft_top
+695	j_shaft_tube_02
+696	j_shield_le
+697	j_shield_ri
+698	j_shoulder_le
+699	j_shoulder_ri
+700	j_shouldertwist_le
+701	j_shouldertwist_ri
+702	j_spine4
+703	j_spinelower
+704	j_spineupper
+705	j_temple_le
+706	j_temple_ri
+707	j_thumb_le_1
+708	j_thumb_le_2
+709	j_thumb_le_3
+710	j_thumb_le_4
+711	j_thumb_ri_1
+712	j_thumb_ri_2
+713	j_thumb_ri_3
+714	j_thumb_ri_4
+715	j_tongue_1
+716	j_tongue_2
+717	j_tongue_3
+718	j_underchin
+719	j_underlip
+720	j_uppergum
+721	j_upperlip
+722	j_webbing_le_1
+723	j_webbing_le_2
+724	j_webbing_ri_1
+725	j_webbing_ri_2
+726	j_wrist_le
+727	j_wrist_ri
+728	j_wristfronttwist1_le
+729	j_wristfronttwist1_ri
+730	kill_me
+731	l_arm_l_Pv_CTRL_line_bShape_pvLine
+732	l_leg_Pv_CTRL_line_bShape_pvLine
+733	mayhem_end
+734	mayhem_start
+735	mortar_add_fov_user_scale
+736	mortar_remove_fov_user_scale
+737	mvmt_step_post
+738	mvmt_step_pre
+739	nag
+740	pistol_pickup
+741	ps_emb_def_010_intro_run_alex
+742	ps_emb_def_010_intro_run_farah_01
+743	ps_emb_def_010_intro_run_farah_02
+744	ps_emb_def_010_intro_run_farah_03
+745	ps_emb_def_010_intro_run_price_01
+746	ps_emb_def_010_intro_run_price_02
+747	ps_emb_def_010_intro_run_price_03
+748	ps_emb_def_020_rooftop_ally01_01
+749	ps_emb_def_020_rooftop_ally01_02
+750	ps_emb_def_020_rooftop_ally01_03
+751	ps_emb_def_020_rooftop_ally01_04
+752	ps_emb_def_020_rooftop_ally01_05
+753	ps_emb_def_020_rooftop_ally02_01
+754	ps_emb_def_020_rooftop_ally02_02
+755	ps_emb_def_020_rooftop_ally02_03
+756	ps_emb_def_020_rooftop_ally02_04
+757	ps_emb_def_020_rooftop_ally02_05
+758	ps_emb_def_020_rooftop_farah_01
+759	ps_emb_def_020_rooftop_farah_02
+760	ps_emb_def_020_rooftop_farah_03
+761	ps_emb_def_020_rooftop_farah_04
+762	ps_emb_def_020_rooftop_price_01
+763	ps_emb_def_020_rooftop_price_02
+764	ps_emb_def_020_rooftop_price_03
+765	ps_emb_def_020_rooftop_price_04
+766	ps_emb_def_025_lull_start_ally01_01
+767	ps_emb_def_025_lull_start_ally01_02,j_spineupper
+768	ps_emb_def_025_lull_start_ally01_03,j_spineupper
+769	ps_emb_def_025_lull_start_ally02_01
+770	ps_emb_def_025_lull_start_ally02_02,j_spineupper
+771	ps_emb_def_025_lull_start_ally02_03,j_spineupper
+772	ps_emb_def_025_lull_start_farah_01
+773	ps_emb_def_025_lull_start_farah_02,j_spineupper
+774	ps_emb_def_025_lull_start_farah_03,j_spineupper
+775	ps_emb_def_025_lull_start_price_01
+776	ps_emb_def_025_lull_start_price_02,j_spineupper
+777	ps_emb_def_025_lull_start_price_03,j_spineupper
+778	ps_emb_def_050_triage_enter_civ01_01,j_spineupper
+779	ps_emb_def_050_triage_enter_civ01_02
+780	ps_emb_def_050_triage_enter_civ01_03,j_spineupper
+781	ps_emb_def_050_triage_enter_civ01_04
+782	ps_emb_def_050_triage_enter_civ01_05
+783	ps_emb_def_050_triage_enter_price_01,j_spineupper
+784	ps_emb_def_050_triage_enter_price_02
+785	ps_emb_def_050_triage_enter_price_03
+786	ps_emb_def_050_triage_enter_price_04
+787	ps_emb_def_050_triage_enter_price_05,j_spineupper
+788	ps_emb_def_050_triage_enter_price_06
+789	ps_emb_def_050_triage_enter_price_07,j_spineupper
+790	ps_emb_def_050_triage_enter_price_08
+791	ps_emb_def_050_triage_enter_price_09
+792	ps_emb_def_050_triage_enter_price_10,j_spineupper
+793	ps_emb_def_050_triage_enter_price_11
+794	ps_emb_def_050_triage_enter_price_12
+795	ps_emb_def_050_triage_ladder_climb_price_01,j_spineupper
+796	ps_emb_def_050_triage_ladder_climb_price_02
+797	ps_emb_def_050_triage_ladder_climb_price_03
+798	ps_emb_def_050_triage_ladder_climb_price_04
+799	ps_emb_def_050_triage_pre_enter_price_01,j_spineupper
+800	ps_emb_def_050_triage_pre_enter_price_02
+801	ps_emb_def_050_triage_pre_enter_price_03
+802	ps_emb_def_050_triage_pre_enter_price_04
+803	ps_emb_def_050_triage_scene_exit_civ01_01
+804	ps_emb_def_050_triage_scene_exit_civ01_02,j_spineupper
+805	ps_emb_def_050_triage_scene_exit_civ01_03,j_spineupper
+806	ps_emb_def_050_triage_scene_exit_civ01_04,j_spineupper
+807	ps_emb_def_050_triage_scene_player_lr_01
+808	ps_emb_def_050_triage_scene_player_lr_02
+809	ps_emb_def_050_triage_scene_price_01,j_spineupper
+810	ps_emb_def_050_triage_scene_price_02
+811	ps_emb_def_050_triage_scene_price_03,j_spineupper
+812	ps_emb_def_050_triage_scene_price_04,j_spineupper
+813	ps_emb_def_050_triage_scene_price_05
+814	ps_emb_def_050_triage_scene_price_06,j_spineupper
+815	ps_emb_def_050_triage_scene_price_07
+816	ps_emb_def_050_triage_scene_price_08,j_spineupper
+817	ps_emb_def_050_triage_scene_price_09,j_spineupper
+818	ps_emb_def_050_triage_scene_price_10,j_spineupper
+819	ps_emb_def_050_triage_scene_price_11
+820	ps_emb_def_050_triage_scene_price_12
+821	ps_emb_def_050_triage_scene_price_13
+822	ps_emb_def_050_triage_scene_price_14
+823	ps_emb_def_050_triage_scene_price_15
+824	ps_emb_def_050_triage_scene_price_16
+825	ps_emb_def_050_triage_scene_price_17
+826	ps_emb_def_050_triage_scene_price_18
+827	ps_emb_def_050_triage_scene_price_19
+828	ps_emb_def_055_ladder_ally_01,j_spineupper
+829	ps_emb_def_055_ladder_ally_02
+830	ps_emb_def_055_ladder_ally_03
+831	ps_emb_def_055_ladder_ally_04
+832	ps_emb_def_055_ladder_farah_01,j_spineupper
+833	ps_emb_def_055_ladder_farah_02
+834	ps_emb_def_055_ladder_farah_03
+835	ps_emb_def_055_ladder_farah_04
+836	ps_emb_def_055_ladder_farah_05,j_spineupper
+837	ps_emb_def_055_ladder_farah_06
+838	ps_emb_def_055_ladder_farah_07
+839	ps_weap_mortar_load
+840	pvo_dx_vom_kyle_defend_resupply_180
+841	pvo_dx_vom_kyle_defend_resupply_200
+842	r_arm_r_Pv_CTRL_line_bShape_pvLine
+843	r_leg_Pv_CTRL_line_bShape_pvLine
+844	sd_dx_vom_pri_defend_roof_60
+845	sr_dx_vom_alx_defend_resupply_220
+846	start_shooting
+847	stop anim
+848	tag_accessory_left
+849	tag_accessory_right
+850	tag_ads
+851	tag_bed1
+852	tag_bed2
+853	tag_bed_center
+854	tag_body
+855	tag_body_animate
+856	tag_body_animate_scripted
+857	tag_body_scripted
+858	tag_bumper_front_1
+859	tag_cab1
+860	tag_cab2
+861	tag_cambone
+862	tag_camera
+863	tag_detach
+864	tag_door_back_left
+865	tag_door_back_right
+866	tag_door_front_left
+867	tag_door_front_right
+868	tag_driver
+869	tag_engine_fx_left
+870	tag_exhaust
+871	tag_fx
+872	tag_gas_cap
+873	tag_grill
+874	tag_hood
+875	tag_ik_foot_loc_le
+876	tag_ik_foot_loc_ri
+877	tag_ik_loc_le_seat_0
+878	tag_ik_loc_ri_seat_0
+879	tag_inhand
+880	tag_knife_attach2
+881	tag_light_back_left
+882	tag_light_back_left_2
+883	tag_light_back_right
+884	tag_light_back_right_2
+885	tag_light_front_left
+886	tag_light_front_left_2
+887	tag_light_front_right
+888	tag_light_front_right_2
+889	tag_mirror_left
+890	tag_mirror_right
+891	tag_origin
+892	tag_origin_animate
+893	tag_passenger
+894	tag_passenger2
+895	tag_passenger3
+896	tag_passenger4
+897	tag_passenger5
+898	tag_passenger6
+899	tag_passenger7
+900	tag_player
+901	tag_seat_0
+902	tag_seat_1
+903	tag_seat_2
+904	tag_seat_3
+905	tag_seat_4
+906	tag_seat_5
+907	tag_seat_enter_0
+908	tag_seat_enter_1
+909	tag_seat_enter_2
+910	tag_seat_enter_3
+911	tag_seat_enter_4
+912	tag_seat_enter_5
+913	tag_seat_exit_0
+914	tag_seat_exit_1
+915	tag_seat_exit_2
+916	tag_seat_exit_3
+917	tag_seat_exit_4
+918	tag_seat_exit_5
+919	tag_shield_back
+920	tag_steering_axis
+921	tag_steering_jnt
+922	tag_stowed_back
+923	tag_stowed_hip_rear
+924	tag_sync
+925	tag_torso
+926	tag_trunk
+927	tag_turret_base
+928	tag_view
+929	tag_weapon
+930	tag_weapon_chest
+931	tag_weapon_left
+932	tag_weapon_right
+933	tag_wheel_back_left
+934	tag_wheel_back_left_scripted
+935	tag_wheel_back_right
+936	tag_wheel_back_right_scripted
+937	tag_wheel_center_back_left
+938	tag_wheel_center_back_right
+939	tag_wheel_center_front_left
+940	tag_wheel_center_front_right
+941	tag_wheel_front_left
+942	tag_wheel_front_left_scripted
+943	tag_wheel_front_right
+944	tag_wheel_front_right_scripted
+945	tag_window_back_left
+946	tag_window_back_right
+947	tag_window_front_left
+948	tag_window_front_right
+949	tag_windshield_back
+950	tag_windshield_front
+951	toss_glowstick
+952	vo_dx_vom_alx_defend_intro_40
+953	vo_dx_vom_far_defend_roof_30
+954	vo_dx_vom_far_embassy_roof_32
+955	vo_dx_vom_pri_defend_intro_30
+956	vo_dx_vom_pri_defend_resupply_170
+957	vo_dx_vom_pri_defend_resupply_190
+958	vo_dx_vom_pri_defend_resupply_210
+959	vo_dx_vom_pri_defend_resupply_230
+960	vo_dx_vom_pri_defend_roof_40
+961	vo_dx_vom_us1_defend_roof_10
+962	vo_dx_vom_us1_embassy_roof_31
+963	vo_dx_vom_us2_defend_roof_20

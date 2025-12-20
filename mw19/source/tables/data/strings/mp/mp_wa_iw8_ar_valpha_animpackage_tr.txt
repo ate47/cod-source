@@ -1,0 +1,321 @@
+  0	end
+  1	fingers_in_end_left_hand
+  2	fingers_in_end_right_hand
+  3	fingers_in_start_left_hand
+  4	fingers_in_start_right_hand
+  5	fingers_out_end_left_hand
+  6	fingers_out_end_right_hand
+  7	fingers_out_start_left_hand
+  8	fingers_out_start_right_hand
+  9	footstep_left_small
+ 10	footstep_right_small
+ 11	ik_in_end_left_hand
+ 12	ik_in_end_right_hand
+ 13	ik_in_start_left_hand
+ 14	ik_in_start_right_hand
+ 15	ik_out_end_left_hand
+ 16	ik_out_end_right_hand
+ 17	ik_out_start_left_hand
+ 18	ik_out_start_right_hand
+ 19	interruptible
+ 20	j_ankle_le
+ 21	j_ankle_ri
+ 22	j_ball_le
+ 23	j_ball_ri
+ 24	j_bolt
+ 25	j_bolt_release
+ 26	j_bolthandle
+ 27	j_bullet01
+ 28	j_bullet02
+ 29	j_bullet1
+ 30	j_bullet2
+ 31	j_bullet3
+ 32	j_bullet4
+ 33	j_bullet_01
+ 34	j_bullet_02
+ 35	j_bullet_03
+ 36	j_bullet_04
+ 37	j_bullet_05
+ 38	j_bullet_06
+ 39	j_bullet_07
+ 40	j_bullet_08
+ 41	j_bullet_09
+ 42	j_bullet_10
+ 43	j_bullet_11
+ 44	j_bullet_12
+ 45	j_bullet_13
+ 46	j_bullet_14
+ 47	j_bullet_15
+ 48	j_bullet_16
+ 49	j_bullet_17
+ 50	j_bullet_18
+ 51	j_bullet_19
+ 52	j_bullet_20
+ 53	j_bullet_21
+ 54	j_bullet_22
+ 55	j_bullet_23
+ 56	j_bullet_24
+ 57	j_bullet_25
+ 58	j_bullet_26
+ 59	j_bullet_27
+ 60	j_bullet_28
+ 61	j_bullet_29
+ 62	j_bullet_30
+ 63	j_bump_rel
+ 64	j_cap1
+ 65	j_cap_switch
+ 66	j_chamber
+ 67	j_charging_handle
+ 68	j_charginghandle
+ 69	j_charginghandle_le
+ 70	j_charginghandle_ri
+ 71	j_chest
+ 72	j_clavicle_le
+ 73	j_clavicle_ri
+ 74	j_crotch
+ 75	j_ejectioncover
+ 76	j_elbow_le
+ 77	j_elbow_ri
+ 78	j_elbowdq_le
+ 79	j_elbowdq_ri
+ 80	j_fireselect
+ 81	j_follower
+ 82	j_groinprotector
+ 83	j_gun
+ 84	j_head
+ 85	j_helmet
+ 86	j_hip_le
+ 87	j_hip_ri
+ 88	j_hiptwist_le
+ 89	j_hiptwist_ri
+ 90	j_hybrid_scope
+ 91	j_index_le_1
+ 92	j_index_le_2
+ 93	j_index_le_3
+ 94	j_index_le_4
+ 95	j_index_ri_1
+ 96	j_index_ri_2
+ 97	j_index_ri_3
+ 98	j_index_ri_4
+ 99	j_knee_le
+100	j_knee_ri
+101	j_kneedq_le
+102	j_kneedq_ri
+103	j_mag1
+104	j_mag2
+105	j_mag_follower
+106	j_mag_release
+107	j_magnifier_lever
+108	j_magrel_right
+109	j_magrelease
+110	j_mainroot
+111	j_metaindex_le_1
+112	j_metaindex_ri_1
+113	j_metamid_le_1
+114	j_metamid_ri_1
+115	j_metapinky_le_1
+116	j_metapinky_ri_1
+117	j_metaring_le_1
+118	j_metaring_ri_1
+119	j_mid_le_1
+120	j_mid_le_2
+121	j_mid_le_3
+122	j_mid_ri_1
+123	j_mid_ri_2
+124	j_mid_ri_3
+125	j_neck
+126	j_nvg
+127	j_pinky_le_1
+128	j_pinky_le_2
+129	j_pinky_le_3
+130	j_pinky_ri_1
+131	j_pinky_ri_2
+132	j_pinky_ri_3
+133	j_ring1
+134	j_ring2
+135	j_ring_le_1
+136	j_ring_le_2
+137	j_ring_le_3
+138	j_ring_ri_1
+139	j_ring_ri_2
+140	j_ring_ri_3
+141	j_safety
+142	j_shield_le
+143	j_shield_ri
+144	j_shoulder_le
+145	j_shoulder_ri
+146	j_shouldertwist_le
+147	j_shouldertwist_ri
+148	j_spine4
+149	j_spinelower
+150	j_spineupper
+151	j_stock_ring_v2
+152	j_thumb_le_1
+153	j_thumb_le_2
+154	j_thumb_le_3
+155	j_thumb_le_4
+156	j_thumb_ri_1
+157	j_thumb_ri_2
+158	j_thumb_ri_3
+159	j_thumb_ri_4
+160	j_trigger
+161	j_visor
+162	j_visor_inner
+163	j_webbing_le_1
+164	j_webbing_le_2
+165	j_webbing_ri_1
+166	j_webbing_ri_2
+167	j_wrist_le
+168	j_wrist_ri
+169	j_wristfronttwist1_le
+170	j_wristfronttwist1_ri
+171	mag_eject
+172	melee_attack_sfx
+173	mvmt_step_post
+174	mvmt_step_pre
+175	ps_weap_ar_idle_1_plr
+176	ps_weap_ar_idle_2_plr
+177	ps_weap_ar_idle_3_plr
+178	ps_weap_ar_idle_4_01_plr
+179	ps_weap_ar_idle_4_02_plr
+180	ps_weap_ar_idle_4_03_plr
+181	ps_wfoly_plr_ar_valpha_drop_01
+182	ps_wfoly_plr_ar_valpha_drop_quick_01
+183	ps_wfoly_plr_ar_valpha_hybrid_scope_side_off
+184	ps_wfoly_plr_ar_valpha_hybrid_scope_side_on
+185	ps_wfoly_plr_ar_valpha_hybrid_scope_snap_closed
+186	ps_wfoly_plr_ar_valpha_hybrid_scope_snap_open
+187	ps_wfoly_plr_ar_valpha_hybrid_scope_top_in
+188	ps_wfoly_plr_ar_valpha_hybrid_scope_top_out
+189	ps_wfoly_plr_ar_valpha_inspect_01
+190	ps_wfoly_plr_ar_valpha_inspect_02
+191	ps_wfoly_plr_ar_valpha_inspect_03
+192	ps_wfoly_plr_ar_valpha_inspect_04
+193	ps_wfoly_plr_ar_valpha_inspect_05
+194	ps_wfoly_plr_ar_valpha_inspect_06
+195	ps_wfoly_plr_ar_valpha_inspect_07
+196	ps_wfoly_plr_ar_valpha_inspect_08
+197	ps_wfoly_plr_ar_valpha_inspect_smag_01
+198	ps_wfoly_plr_ar_valpha_inspect_smag_02
+199	ps_wfoly_plr_ar_valpha_inspect_smag_03
+200	ps_wfoly_plr_ar_valpha_inspect_smag_04
+201	ps_wfoly_plr_ar_valpha_inspect_smag_05
+202	ps_wfoly_plr_ar_valpha_inspect_smag_06
+203	ps_wfoly_plr_ar_valpha_inspect_smag_07
+204	ps_wfoly_plr_ar_valpha_inspect_smag_08
+205	ps_wfoly_plr_ar_valpha_inspect_xmag_01
+206	ps_wfoly_plr_ar_valpha_inspect_xmag_02
+207	ps_wfoly_plr_ar_valpha_inspect_xmag_03
+208	ps_wfoly_plr_ar_valpha_inspect_xmag_04
+209	ps_wfoly_plr_ar_valpha_inspect_xmag_05
+210	ps_wfoly_plr_ar_valpha_inspect_xmag_06
+211	ps_wfoly_plr_ar_valpha_inspect_xmag_07
+212	ps_wfoly_plr_ar_valpha_inspect_xmag_08
+213	ps_wfoly_plr_ar_valpha_inspect_xmag_09
+214	ps_wfoly_plr_ar_valpha_raise_01
+215	ps_wfoly_plr_ar_valpha_raise_quick_01
+216	ps_wfoly_plr_ar_valpha_reload_01
+217	ps_wfoly_plr_ar_valpha_reload_02
+218	ps_wfoly_plr_ar_valpha_reload_03
+219	ps_wfoly_plr_ar_valpha_reload_04
+220	ps_wfoly_plr_ar_valpha_reload_05
+221	ps_wfoly_plr_ar_valpha_reload_06
+222	ps_wfoly_plr_ar_valpha_reload_07
+223	ps_wfoly_plr_ar_valpha_reload_empty_01
+224	ps_wfoly_plr_ar_valpha_reload_empty_02
+225	ps_wfoly_plr_ar_valpha_reload_empty_03
+226	ps_wfoly_plr_ar_valpha_reload_empty_04
+227	ps_wfoly_plr_ar_valpha_reload_empty_05
+228	ps_wfoly_plr_ar_valpha_reload_empty_06
+229	ps_wfoly_plr_ar_valpha_reload_empty_07
+230	ps_wfoly_plr_ar_valpha_reload_empty_08
+231	ps_wfoly_plr_ar_valpha_reload_fast_01
+232	ps_wfoly_plr_ar_valpha_reload_fast_02
+233	ps_wfoly_plr_ar_valpha_reload_fast_03
+234	ps_wfoly_plr_ar_valpha_reload_fast_04
+235	ps_wfoly_plr_ar_valpha_reload_fast_05
+236	ps_wfoly_plr_ar_valpha_reload_fast_empty_01
+237	ps_wfoly_plr_ar_valpha_reload_fast_empty_02
+238	ps_wfoly_plr_ar_valpha_reload_fast_empty_03
+239	ps_wfoly_plr_ar_valpha_reload_fast_empty_04
+240	ps_wfoly_plr_ar_valpha_reload_fast_empty_05
+241	ps_wfoly_plr_ar_valpha_reload_fast_empty_06
+242	ps_wfoly_plr_ar_valpha_reload_smag_01
+243	ps_wfoly_plr_ar_valpha_reload_smag_02
+244	ps_wfoly_plr_ar_valpha_reload_smag_03
+245	ps_wfoly_plr_ar_valpha_reload_smag_04
+246	ps_wfoly_plr_ar_valpha_reload_smag_05
+247	ps_wfoly_plr_ar_valpha_reload_smag_06
+248	ps_wfoly_plr_ar_valpha_reload_smag_empty_01
+249	ps_wfoly_plr_ar_valpha_reload_smag_empty_02
+250	ps_wfoly_plr_ar_valpha_reload_smag_empty_03
+251	ps_wfoly_plr_ar_valpha_reload_smag_empty_04
+252	ps_wfoly_plr_ar_valpha_reload_smag_empty_05
+253	ps_wfoly_plr_ar_valpha_reload_smag_empty_06
+254	ps_wfoly_plr_ar_valpha_reload_smag_empty_07
+255	ps_wfoly_plr_ar_valpha_reload_smag_empty_08
+256	ps_wfoly_plr_ar_valpha_reload_smag_fast_01
+257	ps_wfoly_plr_ar_valpha_reload_smag_fast_02
+258	ps_wfoly_plr_ar_valpha_reload_smag_fast_03
+259	ps_wfoly_plr_ar_valpha_reload_smag_fast_04
+260	ps_wfoly_plr_ar_valpha_reload_smag_fast_05
+261	ps_wfoly_plr_ar_valpha_reload_smag_fast_empty_01
+262	ps_wfoly_plr_ar_valpha_reload_smag_fast_empty_02
+263	ps_wfoly_plr_ar_valpha_reload_smag_fast_empty_03
+264	ps_wfoly_plr_ar_valpha_reload_smag_fast_empty_04
+265	ps_wfoly_plr_ar_valpha_reload_smag_fast_empty_05
+266	ps_wfoly_plr_ar_valpha_reload_smag_fast_empty_06
+267	ps_wfoly_plr_ar_valpha_reload_xmag_01
+268	ps_wfoly_plr_ar_valpha_reload_xmag_02
+269	ps_wfoly_plr_ar_valpha_reload_xmag_03
+270	ps_wfoly_plr_ar_valpha_reload_xmag_04
+271	ps_wfoly_plr_ar_valpha_reload_xmag_05
+272	ps_wfoly_plr_ar_valpha_reload_xmag_06
+273	ps_wfoly_plr_ar_valpha_reload_xmag_07
+274	ps_wfoly_plr_ar_valpha_reload_xmag_empty_01
+275	ps_wfoly_plr_ar_valpha_reload_xmag_empty_02
+276	ps_wfoly_plr_ar_valpha_reload_xmag_empty_03
+277	ps_wfoly_plr_ar_valpha_reload_xmag_empty_04
+278	ps_wfoly_plr_ar_valpha_reload_xmag_empty_05
+279	ps_wfoly_plr_ar_valpha_reload_xmag_empty_06
+280	ps_wfoly_plr_ar_valpha_reload_xmag_empty_07
+281	ps_wfoly_plr_ar_valpha_reload_xmag_fast_01
+282	ps_wfoly_plr_ar_valpha_reload_xmag_fast_02
+283	ps_wfoly_plr_ar_valpha_reload_xmag_fast_03
+284	ps_wfoly_plr_ar_valpha_reload_xmag_fast_04
+285	ps_wfoly_plr_ar_valpha_reload_xmag_fast_05
+286	ps_wfoly_plr_ar_valpha_reload_xmag_fast_empty_01
+287	ps_wfoly_plr_ar_valpha_reload_xmag_fast_empty_02
+288	ps_wfoly_plr_ar_valpha_reload_xmag_fast_empty_03
+289	ps_wfoly_plr_ar_valpha_reload_xmag_fast_empty_04
+290	ps_wfoly_plr_ar_valpha_reload_xmag_fast_empty_05
+291	ps_wfoly_plr_ar_valpha_reload_xmag_fast_empty_06
+292	ps_wfoly_plr_ar_valpha_selectsemi_off_01
+293	ps_wfoly_plr_ar_valpha_selectsemi_off_02
+294	ps_wfoly_plr_ar_valpha_selectsemi_on_01
+295	ps_wfoly_plr_ar_valpha_selectsemi_on_02
+296	show_full_magazine
+297	tag_accessory_left
+298	tag_accessory_right
+299	tag_ads
+300	tag_cambone
+301	tag_camera
+302	tag_clip
+303	tag_hybrid
+304	tag_ik_loc_le
+305	tag_ik_loc_le_foregrip
+306	tag_ik_loc_ri
+307	tag_knife_attach2
+308	tag_mag_attach
+309	tag_player
+310	tag_playerhelmet
+311	tag_sling
+312	tag_sync
+313	tag_torso
+314	tag_view
+315	tag_weapon
+316	tag_weapon_left
+317	tag_weapon_right
+318	viewmodel_large
+319	viewmodel_medium
+320	viewmodel_small

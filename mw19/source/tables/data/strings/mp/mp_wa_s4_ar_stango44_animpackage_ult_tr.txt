@@ -1,0 +1,161 @@
+  0	bullets_on
+  1	end
+  2	fingers_in_end_left_hand
+  3	fingers_in_end_right_hand
+  4	fingers_in_start_left_hand
+  5	fingers_in_start_right_hand
+  6	fingers_out_end_left_hand
+  7	fingers_out_end_right_hand
+  8	fingers_out_start_left_hand
+  9	fingers_out_start_right_hand
+ 10	footstep_left_small
+ 11	footstep_right_small
+ 12	fx_killfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_fsword.vfx, tag_barrel_attach
+ 13	fx_playfxontag, vfx/iw8/weap/_cosmetic/vfx_inspect_fsword.vfx, tag_barrel_attach
+ 14	hide,tag_offscreen
+ 15	ik_in_end_left_hand
+ 16	ik_in_end_right_hand
+ 17	ik_in_start_left_hand
+ 18	ik_in_start_right_hand
+ 19	ik_out_end_left_hand
+ 20	ik_out_end_right_hand
+ 21	ik_out_start_left_hand
+ 22	ik_out_start_right_hand
+ 23	interruptible
+ 24	j_b_00
+ 25	j_b_01
+ 26	j_b_02
+ 27	j_bolt
+ 28	j_charginghandle
+ 29	j_clavicle_le
+ 30	j_clavicle_ri
+ 31	j_dust_cover
+ 32	j_elbow_le
+ 33	j_elbow_ri
+ 34	j_firesel
+ 35	j_follower
+ 36	j_gun
+ 37	j_index_le_1
+ 38	j_index_le_2
+ 39	j_index_le_3
+ 40	j_index_ri_1
+ 41	j_index_ri_2
+ 42	j_index_ri_3
+ 43	j_mag1
+ 44	j_mag2
+ 45	j_maginfier_dial
+ 46	j_magnifier
+ 47	j_magnifier_button
+ 48	j_magrel
+ 49	j_mainroot
+ 50	j_metaindex_le_1
+ 51	j_metaindex_ri_1
+ 52	j_metamid_le_1
+ 53	j_metamid_ri_1
+ 54	j_metapinky_le_1
+ 55	j_metapinky_ri_1
+ 56	j_metaring_le_1
+ 57	j_metaring_ri_1
+ 58	j_mid_le_1
+ 59	j_mid_le_2
+ 60	j_mid_le_3
+ 61	j_mid_ri_1
+ 62	j_mid_ri_2
+ 63	j_mid_ri_3
+ 64	j_nydar_button
+ 65	j_pinky_le_1
+ 66	j_pinky_le_2
+ 67	j_pinky_le_3
+ 68	j_pinky_ri_1
+ 69	j_pinky_ri_2
+ 70	j_pinky_ri_3
+ 71	j_ring_le_1
+ 72	j_ring_le_2
+ 73	j_ring_le_3
+ 74	j_ring_ri_1
+ 75	j_ring_ri_2
+ 76	j_ring_ri_3
+ 77	j_safety
+ 78	j_shoulder_le
+ 79	j_shoulder_ri
+ 80	j_shouldertwist_le
+ 81	j_shouldertwist_ri
+ 82	j_spine4
+ 83	j_spinelower
+ 84	j_spineupper
+ 85	j_thumb_le_1
+ 86	j_thumb_le_2
+ 87	j_thumb_le_3
+ 88	j_thumb_ri_1
+ 89	j_thumb_ri_2
+ 90	j_thumb_ri_3
+ 91	j_trigger
+ 92	j_wrist_le
+ 93	j_wrist_ri
+ 94	j_wristfronttwist1_le
+ 95	j_wristfronttwist1_ri
+ 96	melee_attack_sfx
+ 97	mvmt_step_post
+ 98	mvmt_step_pre
+ 99	ps_wfoly_plr_sn_kilo98_drop_01
+100	ps_wfoly_plr_sn_kilo98_drop_02
+101	ps_wfoly_plr_sn_kilo98_drop_quick_01
+102	ps_wfoly_plr_sn_kilo98_raise_01
+103	ps_wfoly_plr_sn_kilo98_raise_quick_01
+104	ps_wpn_ar_insp_flames_a
+105	ps_wpn_ar_insp_flames_b
+106	ps_wpn_ar_insp_lrg_a
+107	ps_wpn_ar_insp_lrg_b
+108	ps_wpn_ar_insp_med_a
+109	ps_wpn_ar_insp_shldr_a
+110	ps_wpn_gbl_plr_sight_toggle_off
+111	ps_wpn_gbl_plr_sight_toggle_on
+112	ps_wpn_stango44_plr_fireselect_off
+113	ps_wpn_stango44_plr_fireselect_on
+114	ps_wpn_stango44_plr_reload_charge_01
+115	ps_wpn_stango44_plr_reload_charge_empty_fast
+116	ps_wpn_stango44_plr_reload_magin_empty_01
+117	ps_wpn_stango44_plr_reload_magin_empty_ext_01
+118	ps_wpn_stango44_plr_reload_magin_empty_fast
+119	ps_wpn_stango44_plr_reload_magin_tac_01
+120	ps_wpn_stango44_plr_reload_magin_tac_ext_01
+121	ps_wpn_stango44_plr_reload_magin_tac_fast
+122	ps_wpn_stango44_plr_reload_magout_empty_01
+123	ps_wpn_stango44_plr_reload_magout_empty_ext_01
+124	ps_wpn_stango44_plr_reload_magout_empty_fast
+125	ps_wpn_stango44_plr_reload_magout_tac_01
+126	ps_wpn_stango44_plr_reload_magout_tac_ext_01
+127	ps_wpn_stango44_plr_reload_magout_tac_fast
+128	show,tag_offscreen
+129	tag_accessory_left
+130	tag_accessory_right
+131	tag_ads
+132	tag_barrel_attach
+133	tag_bayonet_attach
+134	tag_bipod_attach
+135	tag_cambone
+136	tag_camera
+137	tag_glass_ads2
+138	tag_ik_loc_le
+139	tag_ik_loc_le_mover
+140	tag_ik_loc_ri
+141	tag_ik_loc_ri_mover
+142	tag_knife_attach2
+143	tag_mag_attach
+144	tag_offscreen
+145	tag_player
+146	tag_silencer
+147	tag_sling
+148	tag_stock_attach
+149	tag_sync
+150	tag_taclight
+151	tag_tip
+152	tag_torso
+153	tag_view
+154	tag_weapon
+155	tag_weapon_left
+156	tag_weapon_right
+157	viewmodel_large
+158	viewmodel_medium
+159	viewmodel_small
+160	viewmodle_small

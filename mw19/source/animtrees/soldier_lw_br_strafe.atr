@@ -1,0 +1,31 @@
+%force_cs_anim_index_match
+		
+	strafe : toggle( index=[strafe_forward_index], blendtime="0.2", restart="false" ) loopsync
+	{
+		strafe_forward: blendspace1d( range="-180,180", blend_time="100", disable_update_while_turning_off="true",
+		coords="-135,-90,-45,0,45,90,135",
+		value=[strafeyaw] )
+		{
+			sdr_cqb_strafe_fast_3_alt
+			sdr_cqb_strafe_fast_6
+			sdr_cqb_strafe_fast_9
+			sdr_cqb_strafe_fast_8
+			sdr_cqb_strafe_fast_7
+			sdr_cqb_strafe_fast_4
+			sdr_cqb_strafe_fast_1
+		}
+		
+		strafe_backward: blendspace1d( range="-180,180", blend_time="100", disable_update_while_turning_off="true",
+		coords="-180,-135,-90,-45,45,90,135,180",
+		value=[strafeyaw] )
+		{
+			sdr_cqb_strafe_fast_2
+			sdr_cqb_strafe_fast_3
+			sdr_cqb_strafe_fast_6b
+			sdr_cqb_strafe_fast_9_alt
+			sdr_cqb_strafe_fast_7_alt
+			sdr_cqb_strafe_fast_4b
+			sdr_cqb_strafe_fast_1_alt
+			sdr_cqb_strafe_fast_2@1
+		}
+	}

@@ -1,0 +1,44 @@
+%force_cs_anim_index_match
+
+gesture_root : overlay unnormalized toggle( index=[gestureindex], clearonnotetrack="finish", clearwhendone="true", restart="true", notifyname="gesture" )
+{
+	hadir_yth_ges_exposed_beckon_08
+	hadir_yth_ges_exposed_beckon_09
+	hadir_yth_ges_exposed_beckon_06
+	hadir_yth_ges_exposed_beckon_03
+	hadir_yth_ges_exposed_beckon_02
+	hadir_yth_ges_exposed_beckon_01
+	hadir_yth_ges_exposed_beckon_04
+	hadir_yth_ges_exposed_beckon_07
+	
+	hadir_yth_ges_exposed_stop_08
+	hadir_yth_ges_exposed_stop_09
+	hadir_yth_ges_exposed_stop_06
+	hadir_yth_ges_exposed_stop_03
+	hadir_yth_ges_exposed_stop_02
+	hadir_yth_ges_exposed_stop_01
+	hadir_yth_ges_exposed_stop_04
+	hadir_yth_ges_exposed_stop_07
+	
+	hadir_yth_ges_exposed_look_08
+	hadir_yth_ges_exposed_look_09
+	hadir_yth_ges_exposed_look_06
+	hadir_yth_ges_exposed_look_03
+	hadir_yth_ges_exposed_look_02
+	hadir_yth_ges_exposed_look_01
+	hadir_yth_ges_exposed_look_04
+	hadir_yth_ges_exposed_look_07
+	
+	hadir_yth_get_down_01
+	hadir_yth_get_down_02
+	hadir_yth_get_down_03
+	hadir_yth_get_down_04
+	hadir_yth_get_down_06
+	hadir_yth_get_down_07
+	hadir_yth_get_down_08
+	hadir_yth_get_down_09
+	
+	hadir_yth_look_up_02
+	hadir_yth_ges_exposed_cough_01
+	
+}

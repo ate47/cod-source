@@ -1,0 +1,309 @@
+  1	<rigidroot>
+  2	active
+  3	antenna_rot_base_joint
+  4	antenna_rot_mid_joint
+  5	antenna_wires_joint_01
+  6	antenna_wires_joint_02
+  7	antenna_wires_joint_03
+  8	antenna_wires_joint_04
+  9	antenna_wires_joint_05
+ 10	antenna_wires_joint_06
+ 11	antenna_wires_joint_07
+ 12	antenna_wires_joint_08
+ 13	arrow_effects
+ 14	ascender
+ 15	average5
+ 16	begin_firing
+ 17	blade_hide
+ 18	blade_show
+ 19	bodyfalllarge
+ 20	contact
+ 21	debris_bullet_casing_308
+ 22	end
+ 23	facial_override
+ 24	falling
+ 25	ik_in_end_left_hand
+ 26	ik_out_start_left_hand
+ 27	j_ankle_le
+ 28	j_ankle_ri
+ 29	j_antenna_rot_tip_joint
+ 30	j_antenna_rot_top_joint
+ 31	j_ball_le
+ 32	j_ball_ri
+ 33	j_canopy_left_back
+ 34	j_canopy_left_front
+ 35	j_canopy_left_mid
+ 36	j_canopy_mid
+ 37	j_canopy_mid_back
+ 38	j_canopy_mid_front
+ 39	j_canopy_right_back
+ 40	j_canopy_right_front
+ 41	j_canopy_right_mid
+ 42	j_chest
+ 43	j_clavicle_le
+ 44	j_clavicle_ri
+ 45	j_crotch
+ 46	j_dogtag
+ 47	j_elbow_le
+ 48	j_elbow_ri
+ 49	j_elbowdq_le
+ 50	j_elbowdq_ri
+ 51	j_eyeball_le
+ 52	j_eyeball_ri
+ 53	j_groinprotector
+ 54	j_grp_wristwatch_hour
+ 55	j_grp_wristwatch_minute
+ 56	j_grp_wristwatch_second
+ 57	j_gun
+ 58	j_head
+ 59	j_head_end
+ 60	j_helmet
+ 61	j_hip_le
+ 62	j_hip_ri
+ 63	j_hiptwist_le
+ 64	j_hiptwist_ri
+ 65	j_index_le_0
+ 66	j_index_le_1
+ 67	j_index_le_2
+ 68	j_index_le_3
+ 69	j_index_le_4
+ 70	j_index_ri_0
+ 71	j_index_ri_1
+ 72	j_index_ri_2
+ 73	j_index_ri_3
+ 74	j_index_ri_4
+ 75	j_indexbulge_le_1
+ 76	j_indexbulge_ri_1
+ 77	j_jaw
+ 78	j_knee_le
+ 79	j_knee_ri
+ 80	j_kneedq_le
+ 81	j_kneedq_ri
+ 82	j_laptop_tray
+ 83	j_mainroot
+ 84	j_me_blunt
+ 85	j_metaindex_le_1
+ 86	j_metaindex_ri_1
+ 87	j_metamid_le_1
+ 88	j_metamid_ri_1
+ 89	j_metapinky_le_1
+ 90	j_metapinky_ri_1
+ 91	j_metaring_le_1
+ 92	j_metaring_ri_1
+ 93	j_mid_le_0
+ 94	j_mid_le_1
+ 95	j_mid_le_2
+ 96	j_mid_le_3
+ 97	j_mid_ri_0
+ 98	j_mid_ri_1
+ 99	j_mid_ri_2
+100	j_mid_ri_3
+101	j_neck
+102	j_nvg
+103	j_nvg_pivot
+104	j_pilot_chute
+105	j_pin
+106	j_pin_bend_down
+107	j_pin_bend_up
+108	j_pinky_le_0
+109	j_pinky_le_1
+110	j_pinky_le_2
+111	j_pinky_le_3
+112	j_pinky_ri_0
+113	j_pinky_ri_1
+114	j_pinky_ri_2
+115	j_pinky_ri_3
+116	j_pinkypalm_le
+117	j_pinkypalm_ri
+118	j_proc_index_le_1
+119	j_proc_index_ri_1
+120	j_proc_mid_le_1
+121	j_proc_mid_ri_1
+122	j_proc_pinky_le_1
+123	j_proc_pinky_ri_1
+124	j_proc_ring_le_1
+125	j_proc_ring_ri_1
+126	j_proc_spinelower2
+127	j_proc_wristfronttwist1_acc1_le
+128	j_proc_wristfronttwist1_acc2_le
+129	j_proc_wristfronttwist1_acc3_le
+130	j_proc_wristfronttwist1_acc4_le
+131	j_proc_wristfronttwist1_acc5_le
+132	j_ring
+133	j_ring_le_0
+134	j_ring_le_1
+135	j_ring_le_2
+136	j_ring_le_3
+137	j_ring_ri_0
+138	j_ring_ri_1
+139	j_ring_ri_2
+140	j_ring_ri_3
+141	j_ringpalm_le
+142	j_ringpalm_ri
+143	j_rocket_attach_bot_fx_3
+144	j_rocket_attach_lt_fx_4
+145	j_rocket_attach_rt_fx_2
+146	j_rocket_attach_top_fx_1
+147	j_rocket_exhaust_fx1
+148	j_rocket_exhaust_fx2
+149	j_rocket_exhaust_fx3
+150	j_rocket_exhaust_fx4
+151	j_shield_le
+152	j_shield_ri
+153	j_shoulder_le
+154	j_shoulder_ri
+155	j_shouldertwist_le
+156	j_shouldertwist_ri
+157	j_sleave_reshape_bottom_le_1
+158	j_sleave_reshape_bottom_le_2
+159	j_sleave_reshape_top_le_1
+160	j_sleave_reshape_top_le_2
+161	j_sleave_reshape_top_le_3
+162	j_sleave_reshape_top_ri_1
+163	j_sleave_reshape_top_ri_2
+164	j_sleave_reshape_top_ri_3
+165	j_sleeveanim_back_01_le
+166	j_sleeveanim_back_01_ri
+167	j_sleeveanim_back_02_le
+168	j_sleeveanim_back_02_ri
+169	j_sleeveanim_back_03_le
+170	j_sleeveanim_back_03_ri
+171	j_sleeveanim_back_04_le
+172	j_sleeveanim_back_04_ri
+173	j_sleeveanim_back_05_le
+174	j_sleeveanim_back_05_ri
+175	j_sleeveanim_front_01_le
+176	j_sleeveanim_front_01_ri
+177	j_sleeveanim_front_02_le
+178	j_sleeveanim_front_02_ri
+179	j_sleeveanim_front_03_le
+180	j_sleeveanim_front_03_ri
+181	j_sleeveanim_front_04_le
+182	j_sleeveanim_front_04_ri
+183	j_sleeveanim_front_05_le
+184	j_sleeveanim_front_05_ri
+185	j_sleeveanim_mid_01_le
+186	j_sleeveanim_mid_01_ri
+187	j_sleeveanim_mid_02_le
+188	j_sleeveanim_mid_02_ri
+189	j_sleeveanim_mid_03_le
+190	j_sleeveanim_mid_03_ri
+191	j_sleeveanim_mid_04_le
+192	j_sleeveanim_mid_04_ri
+193	j_sleeveanim_mid_05_le
+194	j_sleeveanim_mid_05_ri
+195	j_slider_hinge
+196	j_spine4
+197	j_spinelower
+198	j_spineupper
+199	j_spoon
+200	j_strap1_le
+201	j_strap1_ri
+202	j_strap2_le
+203	j_strap2_ri
+204	j_strap3_le
+205	j_strap3_ri
+206	j_strap4_le
+207	j_strap4_ri
+208	j_teres_le
+209	j_teres_ri
+210	j_thumb_le_0
+211	j_thumb_le_1
+212	j_thumb_le_2
+213	j_thumb_le_3
+214	j_thumb_le_4
+215	j_thumb_ri_0
+216	j_thumb_ri_1
+217	j_thumb_ri_2
+218	j_thumb_ri_3
+219	j_thumb_ri_4
+220	j_visor
+221	j_visor_inner
+222	j_webbing_le
+223	j_webbing_le_1
+224	j_webbing_le_2
+225	j_webbing_le_3
+226	j_webbing_ri
+227	j_webbing_ri_1
+228	j_webbing_ri_2
+229	j_webbing_ri_3
+230	j_wrist_le
+231	j_wrist_ri
+232	j_wristfronttwist1_le
+233	j_wristfronttwist1_ri
+234	j_wristtwist_le
+235	j_wristtwist_ri
+236	j_wristwatch_hour
+237	j_wristwatch_minute
+238	j_wristwatch_second
+239	land
+240	ledge
+241	melee_contact_lower
+242	melee_contact_upper
+243	melee_knife_stab_lower_plr
+244	melee_knife_stab_upper_plr
+245	melee_lower_pullout
+246	melee_start_lower
+247	melee_start_upper
+248	melee_upper_pullout
+249	melee_upper_push
+250	military_debris_bullet_casing_223
+251	military_debris_bullet_casing_39mm
+252	military_debris_bullet_casing_45_70
+253	miss
+254	noprompt
+255	off
+256	on
+257	origin_animate_jnt
+258	pcylinder5
+259	polysurface2
+260	polysurface80488
+261	pplane1
+262	ps_mp_iw8_hq_crate_close_antenna,antenna_rot_mid_joint
+263	ps_mp_iw8_hq_crate_close_laptop,screen_joint
+264	ps_mp_iw8_hq_crate_open_antenna,antenna_rot_mid_joint
+265	ps_mp_iw8_hq_crate_open_idle_antenna,antenna_rot_mid_joint
+266	ps_mp_iw8_hq_crate_open_laptop,screen_joint
+267	psphere1
+268	scale_1
+269	scale_2
+270	scale_3
+271	scale_4
+272	scale_5
+273	scale_6
+274	scale_7
+275	screen_joint
+276	shell1
+277	start_blend
+278	start_ragdoll
+279	tag_accessory
+280	tag_accessory_left
+281	tag_accessory_right
+282	tag_ads
+283	tag_cambone
+284	tag_camera
+285	tag_camera_scripted
+286	tag_carry_attach
+287	tag_fx
+288	tag_gasmask
+289	tag_gasmask2
+290	tag_ik_foot_loc_le
+291	tag_ik_foot_loc_ri
+292	tag_ik_loc_le
+293	tag_ik_loc_ri
+294	tag_inhand
+295	tag_knife_attach2
+296	tag_menu
+297	tag_nvg_fx
+298	tag_origin
+299	tag_player
+300	tag_playerhelmet
+301	tag_stowed_thigh
+302	tag_sync
+303	tag_torso
+304	tag_view
+305	tag_weapon
+306	tag_weapon_left
+307	tag_weapon_right
+308	tag_wrist_attach_le
+309	vfx_shell_fired

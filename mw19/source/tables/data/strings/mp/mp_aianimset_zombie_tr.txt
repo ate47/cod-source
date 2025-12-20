@@ -1,0 +1,173 @@
+  0	align
+  1	anim_movement=stop
+  2	attack_swing
+  3	bodyfall_hvy
+  4	bodyfall_med
+  5	code_move
+  6	death
+  7	dism_crawl_hands_left
+  8	dism_crawl_hands_right
+  9	dism_crawl_left
+ 10	dism_crawl_right
+ 11	end
+ 12	finish
+ 13	flex_height_down_bottom
+ 14	flex_height_down_end
+ 15	flex_height_down_start
+ 16	flex_height_start
+ 17	flex_height_up_end
+ 18	flex_height_up_start
+ 19	flex_height_up_top
+ 20	footstep_left_large
+ 21	footstep_left_small
+ 22	footstep_right_large
+ 23	footstep_right_small
+ 24	footstep_run_left
+ 25	footstep_run_right
+ 26	footstep_sprint_left
+ 27	footstep_sprint_right
+ 28	footstep_walk_left
+ 29	footstep_walk_right
+ 30	fx_playfxontag, vfx/iw8_br/gameplay/zombie_ai/vfx_zai_gut_drip.vfx, tag_accessory_left
+ 31	fx_playfxontag, vfx/iw8_br/gameplay/zombie_ai/vfx_zai_gut_drip.vfx, tag_accessory_right
+ 32	fx_playfxontag, vfx/iw8_br/gameplay/zombie_ai/vfx_zai_gut_grab.vfx, tag_accessory_left
+ 33	fx_playfxontag, vfx/iw8_br/gameplay/zombie_ai/vfx_zai_gut_grab.vfx, tag_accessory_right
+ 34	fx_stopfxontag, vfx/iw8_br/gameplay/zombie_ai/vfx_zai_gut_drip.vfx, tag_accessory_left
+ 35	fx_stopfxontag, vfx/iw8_br/gameplay/zombie_ai/vfx_zai_gut_drip.vfx, tag_accessory_right
+ 36	fx_stopfxontag, vfx/iw8_br/gameplay/zombie_ai/vfx_zai_gut_grab.vfx, tag_accessory_left
+ 37	fx_stopfxontag, vfx/iw8_br/gameplay/zombie_ai/vfx_zai_gut_grab.vfx, tag_accessory_right
+ 38	gutgo
+ 39	gutgrab
+ 40	hit
+ 41	j_ankle_le
+ 42	j_ankle_ri
+ 43	j_ball_le
+ 44	j_ball_ri
+ 45	j_chest
+ 46	j_clavicle_le
+ 47	j_clavicle_ri
+ 48	j_crotch
+ 49	j_elbow_le
+ 50	j_elbow_ri
+ 51	j_elbowdq_le
+ 52	j_elbowdq_ri
+ 53	j_groinprotector
+ 54	j_gun
+ 55	j_gun_adjust
+ 56	j_head
+ 57	j_helmet
+ 58	j_hip_le
+ 59	j_hip_ri
+ 60	j_hiptwist_le
+ 61	j_hiptwist_ri
+ 62	j_index_le_1
+ 63	j_index_le_2
+ 64	j_index_le_3
+ 65	j_index_ri_1
+ 66	j_index_ri_2
+ 67	j_index_ri_3
+ 68	j_jaw
+ 69	j_knee_le
+ 70	j_knee_ri
+ 71	j_kneedq_le
+ 72	j_kneedq_ri
+ 73	j_mainroot
+ 74	j_metaindex_le_1
+ 75	j_metaindex_ri_1
+ 76	j_metamid_le_1
+ 77	j_metamid_ri_1
+ 78	j_metapinky_le_1
+ 79	j_metapinky_ri_1
+ 80	j_metaring_le_1
+ 81	j_metaring_ri_1
+ 82	j_mid_le_1
+ 83	j_mid_le_2
+ 84	j_mid_le_3
+ 85	j_mid_ri_1
+ 86	j_mid_ri_2
+ 87	j_mid_ri_3
+ 88	j_neck
+ 89	j_nvg
+ 90	j_pinky_le_1
+ 91	j_pinky_le_2
+ 92	j_pinky_le_3
+ 93	j_pinky_ri_1
+ 94	j_pinky_ri_2
+ 95	j_pinky_ri_3
+ 96	j_ring_le_1
+ 97	j_ring_le_2
+ 98	j_ring_le_3
+ 99	j_ring_ri_1
+100	j_ring_ri_2
+101	j_ring_ri_3
+102	j_shield_le
+103	j_shield_ri
+104	j_shoulder_le
+105	j_shoulder_ri
+106	j_shouldertwist_le
+107	j_shouldertwist_ri
+108	j_spine4
+109	j_spinelower
+110	j_spineupper
+111	j_thumb_le_1
+112	j_thumb_le_2
+113	j_thumb_le_3
+114	j_thumb_ri_1
+115	j_thumb_ri_2
+116	j_thumb_ri_3
+117	j_wrist_le
+118	j_wrist_ri
+119	j_wristfronttwist1_le
+120	j_wristfronttwist1_ri
+121	ps_iw7_cp_zom_run_traverse_down_384_01_75
+122	ps_iw7_cp_zom_walk_traverse_down_128_01_90
+123	ps_iw7_cp_zom_walk_traverse_down_128_out_50_01_94
+124	ps_iw7_cp_zom_walk_traverse_down_384_01_98
+125	ps_iw7_cp_zom_walk_traverse_down_56_01_62
+126	ps_iw7_cp_zom_walk_traverse_down_56_out_50_01_90
+127	ps_zmb_attack_swipe_ai
+128	ps_zmb_climb_foley
+129	ps_zmb_crawler_drag
+130	ps_zmb_crawler_hand
+131	ps_zmb_crawler_hand,j_wrist_le
+132	ps_zmb_crawler_hand,j_wrist_ri
+133	ps_zmb_crawler_turn
+134	ps_zmb_npc_breath_ai_gut_throw
+135	ps_zmb_npc_breath_ai_idle_growl
+136	ps_zmb_npc_breath_ai_idle_growl_long
+137	ps_zmb_npc_breath_ai_idle_walk_exh
+138	ps_zmb_npc_breath_ai_idle_walk_inh
+139	ps_zmb_npc_breath_ai_idle_walk_mixed
+140	ps_zmb_npc_breath_ai_melee
+141	ps_zmb_npc_breath_ai_run
+142	ps_zmb_npc_breath_ai_run_stop
+143	ps_zmb_npc_breath_ai_sprint
+144	ps_zmb_npc_breath_ai_sprint,j_head
+145	ps_zmb_npc_crawler_growl
+146	ps_zmb_npc_death_ai_generic
+147	ps_zmb_npc_pain_ai
+148	ps_zmb_spawn_foley
+149	ps_zmb_throw_gutgrab
+150	start_ragdoll
+151	stopanim
+152	tag_accessory_left
+153	tag_accessory_right
+154	tag_ik_foot_loc_le
+155	tag_ik_foot_loc_ri
+156	tag_inhand
+157	tag_shield_back
+158	tag_stowed_back
+159	tag_stowed_hip_rear
+160	tag_stowed_thigh
+161	tag_sync
+162	tag_weapon_chest
+163	tag_weapon_left
+164	tag_weapon_right
+165	traverse_jump_end
+166	traverse_jump_start
+167	zmb_bodyfall_large
+168	zmb_bodyfall_small
+169	zmb_crawl_fast
+170	zmb_crawl_slow
+171	zmb_run
+172	zmb_walk

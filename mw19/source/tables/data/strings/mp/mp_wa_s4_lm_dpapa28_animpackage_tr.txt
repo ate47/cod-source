@@ -1,0 +1,271 @@
+  0	bullet0_jnt
+  1	bullet10_jnt
+  2	bullet11_jnt
+  3	bullet1_jnt
+  4	bullet2_jnt
+  5	bullet3_jnt
+  6	bullet4_jnt
+  7	bullet5_jnt
+  8	bullet6_jnt
+  9	bullet7_jnt
+ 10	bullet8_jnt
+ 11	bullet9_jnt
+ 12	bulletcover_jnt
+ 13	bullets_on
+ 14	end
+ 15	fingers_in_end_left_hand
+ 16	fingers_in_end_right_hand
+ 17	fingers_in_start_left_hand
+ 18	fingers_in_start_right_hand
+ 19	fingers_out_end_left_hand
+ 20	fingers_out_end_right_hand
+ 21	fingers_out_start_left_hand
+ 22	fingers_out_start_right_hand
+ 23	footstep_left_small
+ 24	footstep_right_small
+ 25	ik_in_end_left_hand
+ 26	ik_in_end_right_hand
+ 27	ik_in_start_left_hand
+ 28	ik_in_start_right_hand
+ 29	ik_out_end_left_hand
+ 30	ik_out_end_right_hand
+ 31	ik_out_start_left_hand
+ 32	ik_out_start_right_hand
+ 33	interruptible
+ 34	j_ankle_le
+ 35	j_ankle_ri
+ 36	j_b_00
+ 37	j_b_01
+ 38	j_b_02
+ 39	j_b_03
+ 40	j_b_04
+ 41	j_b_05
+ 42	j_b_06
+ 43	j_b_07
+ 44	j_b_08
+ 45	j_b_f_00
+ 46	j_b_f_01
+ 47	j_b_f_02
+ 48	j_b_f_03
+ 49	j_b_f_04
+ 50	j_b_f_05
+ 51	j_b_f_06
+ 52	j_b_f_07
+ 53	j_b_f_08
+ 54	j_b_f_09
+ 55	j_b_f_10
+ 56	j_b_f_11
+ 57	j_b_f_12
+ 58	j_b_f_13
+ 59	j_b_f_14
+ 60	j_b_f_lead
+ 61	j_b_lead_00
+ 62	j_b_x_00
+ 63	j_b_x_01
+ 64	j_b_x_02
+ 65	j_b_x_03
+ 66	j_b_x_04
+ 67	j_b_x_05
+ 68	j_b_x_06
+ 69	j_b_x_07
+ 70	j_b_x_08
+ 71	j_b_x_09
+ 72	j_ball_le
+ 73	j_ball_ri
+ 74	j_bipod_piv_c
+ 75	j_bipod_piv_l
+ 76	j_bipod_piv_r
+ 77	j_body
+ 78	j_bolt
+ 79	j_bullet_01
+ 80	j_bullet_02
+ 81	j_bullet_03
+ 82	j_bullet_04
+ 83	j_bullet_05
+ 84	j_ch_catch
+ 85	j_ch_lever
+ 86	j_ch_slide
+ 87	j_chambered_round
+ 88	j_charging_handle
+ 89	j_charginghandle
+ 90	j_chest
+ 91	j_clavicle_le
+ 92	j_clavicle_ri
+ 93	j_cover
+ 94	j_crotch
+ 95	j_e_belt_root
+ 96	j_elbow_le
+ 97	j_elbow_ri
+ 98	j_elbowdq_le
+ 99	j_elbowdq_ri
+100	j_feedarm_feedpaw_linkage_pivot
+101	j_feedarm_pivot
+102	j_feedpaw_linkage_pin_pivot
+103	j_feedpaws_ext
+104	j_feedpaws_int
+105	j_feedtray
+106	j_firesel
+107	j_groinprotector
+108	j_gun
+109	j_handle
+110	j_head
+111	j_helmet
+112	j_hip_le
+113	j_hip_ri
+114	j_hiptwist_le
+115	j_hiptwist_ri
+116	j_index_le_1
+117	j_index_le_2
+118	j_index_le_3
+119	j_index_le_4
+120	j_index_ri_1
+121	j_index_ri_2
+122	j_index_ri_3
+123	j_index_ri_4
+124	j_knee_le
+125	j_knee_ri
+126	j_kneedq_le
+127	j_kneedq_ri
+128	j_lever
+129	j_lid_release
+130	j_mag1
+131	j_mag2
+132	j_mag_00c_release
+133	j_mag_bullet_belt_root
+134	j_mag_cover
+135	j_mag_f_cover_pivot
+136	j_mag_handle
+137	j_mag_handle_secondary
+138	j_mag_lever
+139	j_mag_lever_secondary
+140	j_mag_x_feedtray_extension
+141	j_mag_x_lid
+142	j_mag_x_release
+143	j_magnifier
+144	j_magrel
+145	j_magrel2
+146	j_mainroot
+147	j_metaindex_le_1
+148	j_metaindex_ri_1
+149	j_metamid_le_1
+150	j_metamid_ri_1
+151	j_metapinky_le_1
+152	j_metapinky_ri_1
+153	j_metaring_le_1
+154	j_metaring_ri_1
+155	j_mid_le_1
+156	j_mid_le_2
+157	j_mid_le_3
+158	j_mid_ri_1
+159	j_mid_ri_2
+160	j_mid_ri_3
+161	j_neck
+162	j_nvg
+163	j_pinky_le_1
+164	j_pinky_le_2
+165	j_pinky_le_3
+166	j_pinky_ri_1
+167	j_pinky_ri_2
+168	j_pinky_ri_3
+169	j_reload
+170	j_ring_le_1
+171	j_ring_le_2
+172	j_ring_le_3
+173	j_ring_ri_1
+174	j_ring_ri_2
+175	j_ring_ri_3
+176	j_safety
+177	j_shield_le
+178	j_shield_ri
+179	j_shoulder_le
+180	j_shoulder_ri
+181	j_shouldertwist_le
+182	j_shouldertwist_ri
+183	j_spine4
+184	j_spinelower
+185	j_spineupper
+186	j_spring_f
+187	j_spring_k
+188	j_thumb_le_1
+189	j_thumb_le_2
+190	j_thumb_le_3
+191	j_thumb_le_4
+192	j_thumb_ri_1
+193	j_thumb_ri_2
+194	j_thumb_ri_3
+195	j_thumb_ri_4
+196	j_trigger
+197	j_visor
+198	j_visor_inner
+199	j_webbing_le_1
+200	j_webbing_le_2
+201	j_webbing_ri_1
+202	j_webbing_ri_2
+203	j_wrist_le
+204	j_wrist_ri
+205	j_wristfronttwist1_le
+206	j_wristfronttwist1_ri
+207	mag_release_jnt
+208	melee_attack_sfx
+209	mvmt_step_post
+210	mvmt_step_pre
+211	ps_wfoly_plr_sn_kilo98_drop_01
+212	ps_wfoly_plr_sn_kilo98_drop_02
+213	ps_wfoly_plr_sn_kilo98_drop_quick_01
+214	ps_wfoly_plr_sn_kilo98_raise_01
+215	ps_wfoly_plr_sn_kilo98_raise_quick_01
+216	ps_wpn_dpapa27_plr_reload_clear_empty
+217	ps_wpn_dpapa27_plr_reload_magin_empty
+218	ps_wpn_dpapa27_plr_reload_magin_empty_fast
+219	ps_wpn_dpapa27_plr_reload_magin_tac
+220	ps_wpn_dpapa27_plr_reload_magin_tac_fast
+221	ps_wpn_dpapa27_plr_reload_magout_empty
+222	ps_wpn_dpapa27_plr_reload_magout_empty_fast
+223	ps_wpn_dpapa27_plr_reload_magout_tac
+224	ps_wpn_dpapa27_plr_reload_magout_tac_fast
+225	ps_wpn_gbl_plr_inspect_mvmnt_med
+226	ps_wpn_gbl_plr_inspect_settle
+227	ps_wpn_gbl_plr_sight_toggle_off
+228	ps_wpn_gbl_plr_sight_toggle_on
+229	show_full_magazine
+230	tag_accessory_left
+231	tag_accessory_right
+232	tag_acog_2
+233	tag_ads
+234	tag_barrel_attach
+235	tag_bayonet_attach
+236	tag_bipod_attach
+237	tag_cambone
+238	tag_camera
+239	tag_clip
+240	tag_elo
+241	tag_grenade_launcher
+242	tag_grip
+243	tag_hybrid
+244	tag_ik_loc_le
+245	tag_ik_loc_le_mover
+246	tag_ik_loc_ri
+247	tag_ik_loc_ri_mover
+248	tag_irons_attach
+249	tag_knife_attach2
+250	tag_loose_round
+251	tag_mag_attach
+252	tag_optic_mount
+253	tag_phase
+254	tag_player
+255	tag_playerhelmet
+256	tag_reflex
+257	tag_silencer
+258	tag_sling
+259	tag_sync
+260	tag_taclight
+261	tag_thermal
+262	tag_tip
+263	tag_torso
+264	tag_view
+265	tag_weapon
+266	tag_weapon_left
+267	tag_weapon_right
+268	viewmodel_large
+269	viewmodel_medium
+270	viewmodel_small

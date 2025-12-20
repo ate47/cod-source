@@ -1,0 +1,321 @@
+  0	disable_ragdoll_anim_root
+  1	end
+  2	exec_kill
+  3	exec_weapon_show
+  4	fingers_out_end_left_hand
+  5	fingers_out_end_right_hand
+  6	fingers_out_start_left_hand
+  7	fingers_out_start_right_hand
+  8	footstep_left_large
+  9	footstep_left_small
+ 10	footstep_right_large
+ 11	footstep_right_small
+ 12	fx_playfxontag, vfx/iw8/weap/_impact/flesh/vfx_imp_flesh_fatal_head_med_dismb.vfx, j_head
+ 13	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_axe_hit_neck.vfx, hellhound_tag_mouth_fx
+ 14	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_axe_hit_prone_front.vfx, hellhound_tag_mouth_fx
+ 15	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_axe_pull_prone.vfx, hellhound_tag_mouth_fx
+ 16	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_axe_pull_prone_front.vfx, hellhound_tag_mouth_fx
+ 17	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_chest_stab.vfx, hellhound_tag_mouth_fx
+ 18	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throatb.vfx, hellhound_tag_mouth_fx
+ 19	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throatb.vfx, j_head
+ 20	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throatb.vfx, j_neck
+ 21	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_ankle_ri
+ 22	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_ball_le
+ 23	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_elbow_le
+ 24	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_elbow_ri
+ 25	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_knee_le
+ 26	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp_light.vfx, j_hip_ri
+ 27	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_stab_ballistic_yneg.vfx, hellhound_tag_mouth_fx
+ 28	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_048_contact_dust_light.vfx, j_ball_le
+ 29	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_048_contact_dust_light.vfx, j_ball_ri
+ 30	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_048_contact_dust_light.vfx, j_elbow_ri
+ 31	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_plague_body_aura.vfx, hellhound_j_spine4
+ 32	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_plague_breath.vfx, hellhound_tag_mouth_fx
+ 33	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_plague_paw_aura.vfx, hellhound_j_ball_le
+ 34	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_plague_paw_aura.vfx, hellhound_j_ball_mid_le
+ 35	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_plague_paw_aura.vfx, hellhound_j_ball_mid_ri
+ 36	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_plague_paw_aura.vfx, hellhound_j_ball_ri
+ 37	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_plague_paw_aura.vfx, hellhound_j_palm_le
+ 38	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_plague_paw_aura.vfx, hellhound_j_palm_ri
+ 39	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_trailing_blood.vfx, j_head
+ 40	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_axe_hit_neck.vfx, hellhound_tag_mouth_fx
+ 41	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_axe_hit_prone_front.vfx, hellhound_tag_mouth_fx
+ 42	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_axe_pull_prone.vfx, hellhound_tag_mouth_fx
+ 43	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_axe_pull_prone_front.vfx, hellhound_tag_mouth_fx
+ 44	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_chest_stab.vfx, hellhound_tag_mouth_fx
+ 45	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throatb.vfx, hellhound_tag_mouth_fx
+ 46	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throatb.vfx, j_head
+ 47	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throatb.vfx, j_neck
+ 48	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_ankle_ri
+ 49	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_ball_le
+ 50	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_elbow_le
+ 51	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_elbow_ri
+ 52	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_knee_le
+ 53	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp_light.vfx, j_hip_ri
+ 54	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_stab_ballistic_yneg.vfx, hellhound_tag_mouth_fx
+ 55	fx_stopfxontag, vfx/iw8_mp/executions/vfx_t9_048_contact_dust_light.vfx, j_ball_le
+ 56	fx_stopfxontag, vfx/iw8_mp/executions/vfx_t9_048_contact_dust_light.vfx, j_ball_ri
+ 57	fx_stopfxontag, vfx/iw8_mp/executions/vfx_t9_048_contact_dust_light.vfx, j_elbow_ri
+ 58	fx_stopfxontag, vfx/iw8_mp/executions/vfx_t9_trailing_blood.vfx, j_head
+ 59	hellhound_j_ankle_le
+ 60	hellhound_j_ankle_ri
+ 61	hellhound_j_ball_le
+ 62	hellhound_j_ball_mid_le
+ 63	hellhound_j_ball_mid_ri
+ 64	hellhound_j_ball_ri
+ 65	hellhound_j_dog_jaw
+ 66	hellhound_j_elbow_le
+ 67	hellhound_j_elbow_ri
+ 68	hellhound_j_eyeball_le
+ 69	hellhound_j_eyeball_ri
+ 70	hellhound_j_eyebrow_top_le
+ 71	hellhound_j_eyelid_bottom_le
+ 72	hellhound_j_eyelid_top_le
+ 73	hellhound_j_flesh_tear_01
+ 74	hellhound_j_flesh_tear_02
+ 75	hellhound_j_flesh_tear_03
+ 76	hellhound_j_flesh_tear_04
+ 77	hellhound_j_flesh_tear_05
+ 78	hellhound_j_flesh_tear_06
+ 79	hellhound_j_head
+ 80	hellhound_j_helmet
+ 81	hellhound_j_hip_base_le
+ 82	hellhound_j_hip_base_ri
+ 83	hellhound_j_hip_le
+ 84	hellhound_j_hip_ri
+ 85	hellhound_j_knee_le
+ 86	hellhound_j_knee_ri
+ 87	hellhound_j_lip_top_le
+ 88	hellhound_j_mainroot
+ 89	hellhound_j_mouth_drool
+ 90	hellhound_j_neck
+ 91	hellhound_j_neck_end
+ 92	hellhound_j_nose
+ 93	hellhound_j_palm_end_le
+ 94	hellhound_j_palm_end_ri
+ 95	hellhound_j_palm_le
+ 96	hellhound_j_palm_mid_le
+ 97	hellhound_j_palm_mid_ri
+ 98	hellhound_j_palm_ri
+ 99	hellhound_j_pelvis
+100	hellhound_j_shoulder_base_le
+101	hellhound_j_shoulder_base_ri
+102	hellhound_j_shoulder_le
+103	hellhound_j_shoulder_ri
+104	hellhound_j_shouldercountertwist_le
+105	hellhound_j_shouldercountertwist_ri
+106	hellhound_j_spine1
+107	hellhound_j_spine2
+108	hellhound_j_spine3
+109	hellhound_j_spine4
+110	hellhound_j_tail0
+111	hellhound_j_tail1
+112	hellhound_j_tail2
+113	hellhound_j_tail3
+114	hellhound_j_tail_base
+115	hellhound_j_toe_le
+116	hellhound_j_toe_ri
+117	hellhound_j_wrist_le
+118	hellhound_j_wrist_ri
+119	hellhound_le_ear
+120	hellhound_le_ear_end
+121	hellhound_ri_ear
+122	hellhound_ri_ear_end
+123	hellhound_tag_eye
+124	hellhound_tag_mouth_fx
+125	ik_out_end_left_hand
+126	ik_out_end_right_hand
+127	ik_out_start_left_hand
+128	ik_out_start_right_hand
+129	j_ankle_le
+130	j_ankle_ri
+131	j_ball_le
+132	j_ball_ri
+133	j_brow_le_1
+134	j_brow_le_2
+135	j_brow_le_3
+136	j_brow_ri_1
+137	j_brow_ri_2
+138	j_brow_ri_3
+139	j_cheek_le_1
+140	j_cheek_le_2
+141	j_cheek_puff_le
+142	j_cheek_puff_ri
+143	j_cheek_ri_1
+144	j_cheek_ri_2
+145	j_chest
+146	j_chin
+147	j_clavicle_le
+148	j_clavicle_ri
+149	j_elbow_le
+150	j_elbow_ri
+151	j_exec_prop_smoke
+152	j_eye_lid_bot_le
+153	j_eye_lid_bot_ri
+154	j_eye_lid_top_le
+155	j_eye_lid_top_le_1
+156	j_eye_lid_top_ri
+157	j_eye_lid_top_ri_1
+158	j_eyeball_le
+159	j_eyeball_ri
+160	j_eyelash_bot_le_1
+161	j_eyelash_bot_le_2
+162	j_eyelash_bot_ri_1
+163	j_eyelash_bot_ri_2
+164	j_eyelash_top_le_1
+165	j_eyelash_top_le_2
+166	j_eyelash_top_ri_1
+167	j_eyelash_top_ri_2
+168	j_forehead
+169	j_forehead_le_1
+170	j_forehead_ri_1
+171	j_furrow_le
+172	j_furrow_ri
+173	j_gun
+174	j_gun_adjust
+175	j_head
+176	j_helmet
+177	j_hip_le
+178	j_hip_ri
+179	j_index_le_1
+180	j_index_le_2
+181	j_index_le_3
+182	j_index_ri_1
+183	j_index_ri_2
+184	j_index_ri_3
+185	j_insidegum
+186	j_insidegum_le_1
+187	j_insidegum_ri_1
+188	j_jaw
+189	j_knee_le
+190	j_knee_ri
+191	j_levator_le_1
+192	j_levator_le_2
+193	j_levator_ri_1
+194	j_levator_ri_2
+195	j_lip_bot
+196	j_lip_bot_le_1
+197	j_lip_bot_le_2
+198	j_lip_bot_le_3
+199	j_lip_bot_le_4
+200	j_lip_bot_ri_1
+201	j_lip_bot_ri_2
+202	j_lip_bot_ri_3
+203	j_lip_bot_ri_4
+204	j_lip_inside_le_1
+205	j_lip_inside_ri_1
+206	j_lip_top
+207	j_lip_top_le_1
+208	j_lip_top_le_2
+209	j_lip_top_le_3
+210	j_lip_top_le_4
+211	j_lip_top_ri_1
+212	j_lip_top_ri_2
+213	j_lip_top_ri_3
+214	j_lip_top_ri_4
+215	j_lowergum
+216	j_mainroot
+217	j_metaindex_le_1
+218	j_metaindex_ri_1
+219	j_metamid_le_1
+220	j_metamid_ri_1
+221	j_metapinky_le_1
+222	j_metapinky_ri_1
+223	j_metaring_le_1
+224	j_metaring_ri_1
+225	j_mid_le_1
+226	j_mid_le_2
+227	j_mid_le_3
+228	j_mid_ri_1
+229	j_mid_ri_2
+230	j_mid_ri_3
+231	j_mouthcorner_le
+232	j_mouthcorner_ri
+233	j_nasolabial_le_1
+234	j_nasolabial_le_2
+235	j_nasolabial_le_3
+236	j_nasolabial_le_4
+237	j_nasolabial_ri_1
+238	j_nasolabial_ri_2
+239	j_nasolabial_ri_3
+240	j_nasolabial_ri_4
+241	j_neck
+242	j_nose_tip
+243	j_nvg
+244	j_periorbital_le_1
+245	j_periorbital_le_2
+246	j_periorbital_le_3
+247	j_periorbital_ri_1
+248	j_periorbital_ri_2
+249	j_periorbital_ri_3
+250	j_pinky_le_1
+251	j_pinky_le_2
+252	j_pinky_le_3
+253	j_pinky_ri_1
+254	j_pinky_ri_2
+255	j_pinky_ri_3
+256	j_ring_le_1
+257	j_ring_le_2
+258	j_ring_le_3
+259	j_ring_ri_1
+260	j_ring_ri_2
+261	j_ring_ri_3
+262	j_shield_le
+263	j_shield_ri
+264	j_shoulder_le
+265	j_shoulder_ri
+266	j_spine4
+267	j_spinelower
+268	j_spineupper
+269	j_temple_le
+270	j_temple_ri
+271	j_thumb_le_1
+272	j_thumb_le_2
+273	j_thumb_le_3
+274	j_thumb_ri_1
+275	j_thumb_ri_2
+276	j_thumb_ri_3
+277	j_tongue_1
+278	j_tongue_2
+279	j_tongue_3
+280	j_underchin
+281	j_underlip
+282	j_uppergum
+283	j_upperlip
+284	j_wrist_le
+285	j_wrist_ri
+286	ps_exec_baton_impact_back
+287	ps_exec_baton_impact_body
+288	ps_exec_baton_impact_head
+289	ps_exec_dirt_scuff
+290	ps_exec_gear_mvmt_brush
+291	ps_exec_gear_mvmt_complex_heavy
+292	ps_exec_gear_mvmt_long_heavy
+293	ps_exec_gear_mvmt_long_light
+294	ps_exec_gear_mvmt_midlength_heavy
+295	ps_exec_gear_mvmt_midlength_light
+296	ps_exec_gear_mvmt_quick_heavy
+297	ps_exec_gore_bone_break_loud
+298	ps_exec_gore_heavy_splat
+299	ps_exec_gore_tear
+300	ps_exec_gun_drop,tag_weapon_right
+301	ps_exec_gun_rattle_heavy,tag_weapon_right
+302	ps_exec_hatchet_hack_loud
+303	ps_exec_plaguehound_01
+304	ps_exec_plaguehound_02
+305	ps_exec_plaguehound_03
+306	ps_exec_plaguehound_04
+307	ps_exec_slide
+308	ps_generic_death_execution
+309	ps_generic_pain_enemy
+310	ps_mp_execution_animal_000_dog_prone_whistle
+311	start_ragdoll
+312	stop_ragdoll_anim
+313	tag_accessory_left
+314	tag_accessory_right
+315	tag_ik_foot_loc_le
+316	tag_ik_foot_loc_ri
+317	tag_inhand
+318	tag_sync
+319	tag_weapon_left
+320	tag_weapon_right

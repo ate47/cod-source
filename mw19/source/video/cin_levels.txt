@@ -1,0 +1,25 @@
+
+// You can specify particular movies to play for particular maps
+// by using a line like this per map:
+// getmapname <name_of_map> strcmp ! if <name_of_movie_to_play> play then
+
+// This is the obfuscated version of com_loadingSavegame
+NLQPKTSRLS getdvar
+0 strcmp !
+if
+	// We're not loading a save game
+
+	// sp_ getmapname strcat
+	// _cine_intro strcat
+	// play
+	
+	// Just play this for when we devmap / mission select / resume game -- note: blackframe_short really just enduces filler.bik to be used
+	getmapname proxywar strcmp !
+
+	if
+		sp_proxywar_cine_intro play
+	then
+		blackframe_short play
+
+then
+	blackframe_short play

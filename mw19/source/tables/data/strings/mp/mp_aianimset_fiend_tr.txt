@@ -1,0 +1,174 @@
+  0	align
+  1	anim_movement=stop
+  2	attack_swing
+  3	bodyfall_hvy
+  4	bodyfall_med
+  5	code_move
+  6	death
+  7	dism_crawl_hands_left
+  8	dism_crawl_hands_right
+  9	dism_crawl_left
+ 10	dism_crawl_right
+ 11	end
+ 12	finish
+ 13	flex_height_down_bottom
+ 14	flex_height_down_end
+ 15	flex_height_down_start
+ 16	flex_height_start
+ 17	flex_height_up_end
+ 18	flex_height_up_start
+ 19	flex_height_up_top
+ 20	footstep_left_large
+ 21	footstep_left_small
+ 22	footstep_right_large
+ 23	footstep_right_small
+ 24	footstep_run_left
+ 25	footstep_run_right
+ 26	footstep_sprint_left
+ 27	footstep_sprint_right
+ 28	footstep_walk_left
+ 29	footstep_walk_right
+ 30	gutgo
+ 31	gutgrab
+ 32	hit
+ 33	j_ankle_le
+ 34	j_ankle_ri
+ 35	j_ball_le
+ 36	j_ball_ri
+ 37	j_chest
+ 38	j_clavicle_le
+ 39	j_clavicle_ri
+ 40	j_crotch
+ 41	j_elbow_le
+ 42	j_elbow_ri
+ 43	j_elbowdq_le
+ 44	j_elbowdq_ri
+ 45	j_groinprotector
+ 46	j_gun
+ 47	j_gun_adjust
+ 48	j_head
+ 49	j_helmet
+ 50	j_hip_le
+ 51	j_hip_ri
+ 52	j_hiptwist_le
+ 53	j_hiptwist_ri
+ 54	j_index_le_1
+ 55	j_index_le_2
+ 56	j_index_le_3
+ 57	j_index_ri_1
+ 58	j_index_ri_2
+ 59	j_index_ri_3
+ 60	j_jaw
+ 61	j_knee_le
+ 62	j_knee_ri
+ 63	j_kneedq_le
+ 64	j_kneedq_ri
+ 65	j_mainroot
+ 66	j_metaindex_le_1
+ 67	j_metaindex_ri_1
+ 68	j_metamid_le_1
+ 69	j_metamid_ri_1
+ 70	j_metapinky_le_1
+ 71	j_metapinky_ri_1
+ 72	j_metaring_le_1
+ 73	j_metaring_ri_1
+ 74	j_mid_le_1
+ 75	j_mid_le_2
+ 76	j_mid_le_3
+ 77	j_mid_ri_1
+ 78	j_mid_ri_2
+ 79	j_mid_ri_3
+ 80	j_neck
+ 81	j_nvg
+ 82	j_pinky_le_1
+ 83	j_pinky_le_2
+ 84	j_pinky_le_3
+ 85	j_pinky_ri_1
+ 86	j_pinky_ri_2
+ 87	j_pinky_ri_3
+ 88	j_ring_le_1
+ 89	j_ring_le_2
+ 90	j_ring_le_3
+ 91	j_ring_ri_1
+ 92	j_ring_ri_2
+ 93	j_ring_ri_3
+ 94	j_shield_le
+ 95	j_shield_ri
+ 96	j_shoulder_le
+ 97	j_shoulder_ri
+ 98	j_shouldertwist_le
+ 99	j_shouldertwist_ri
+100	j_spine4
+101	j_spinelower
+102	j_spineupper
+103	j_thumb_le_1
+104	j_thumb_le_2
+105	j_thumb_le_3
+106	j_thumb_ri_1
+107	j_thumb_ri_2
+108	j_thumb_ri_3
+109	j_wrist_le
+110	j_wrist_ri
+111	j_wristfronttwist1_le
+112	j_wristfronttwist1_ri
+113	krampus_roar_end
+114	krampus_roar_start
+115	ps_br_krampus_snowball_throw_whoosh,j_wrist_le
+116	ps_br_krampus_snowball_throw_whoosh,j_wrist_ri
+117	ps_iw7_cp_zom_run_traverse_down_384_01_75
+118	ps_iw7_cp_zom_walk_traverse_down_128_01_90
+119	ps_iw7_cp_zom_walk_traverse_down_128_out_50_01_94
+120	ps_iw7_cp_zom_walk_traverse_down_384_01_98
+121	ps_iw7_cp_zom_walk_traverse_down_56_01_62
+122	ps_iw7_cp_zom_walk_traverse_down_56_out_50_01_90
+123	ps_krampus_exec_s4_cloth_whoosh,j_wrist_le
+124	ps_krampus_exec_s4_cloth_whoosh,j_wrist_ri
+125	ps_mp_krampus_exert_breath_long
+126	ps_mp_krampus_exert_breath_short
+127	ps_mp_krampus_exert_breath_short_chance
+128	ps_mp_krampus_exert_large
+129	ps_mp_krampus_exert_laugh_chance
+130	ps_mp_krampus_exert_roar
+131	ps_mp_krampus_exert_small
+132	ps_mp_krampus_footsteps
+133	ps_mp_krampus_footsteps_soft
+134	ps_zmb_attack_swipe_ai
+135	ps_zmb_climb_foley
+136	ps_zmb_crawler_drag
+137	ps_zmb_crawler_hand
+138	ps_zmb_crawler_hand,j_wrist_le
+139	ps_zmb_crawler_hand,j_wrist_ri
+140	ps_zmb_crawler_turn
+141	ps_zmb_npc_breath_ai_idle_walk_exh
+142	ps_zmb_npc_breath_ai_idle_walk_inh
+143	ps_zmb_npc_breath_ai_idle_walk_mixed
+144	ps_zmb_npc_breath_ai_melee
+145	ps_zmb_npc_breath_ai_run
+146	ps_zmb_npc_breath_ai_run_stop
+147	ps_zmb_npc_breath_ai_sprint
+148	ps_zmb_npc_crawler_growl
+149	ps_zmb_npc_death_ai_generic
+150	ps_zmb_npc_pain_ai
+151	ps_zmb_spawn_foley
+152	stopanim
+153	tag_accessory_left
+154	tag_accessory_right
+155	tag_ik_foot_loc_le
+156	tag_ik_foot_loc_ri
+157	tag_inhand
+158	tag_shield_back
+159	tag_stowed_back
+160	tag_stowed_hip_rear
+161	tag_stowed_thigh
+162	tag_sync
+163	tag_weapon_chest
+164	tag_weapon_left
+165	tag_weapon_right
+166	traverse_jump_end
+167	traverse_jump_start
+168	zmb_bodyfall_large
+169	zmb_bodyfall_small
+170	zmb_crawl_fast
+171	zmb_crawl_slow
+172	zmb_run
+173	zmb_walk

@@ -1,0 +1,314 @@
+  0	anim_alertness = aiming
+  1	anim_gunhand = right
+  2	anim_movement = "stop"
+  3	anim_pose = "crouch"
+  4	anim_pose = back
+  5	anim_pose = crouch
+  6	anim_pose = feet_apart
+  7	anim_pose = feet_together
+  8	anim_pose = foot_l_forward
+  9	anim_pose = foot_r_forward
+ 10	anim_pose = prone
+ 11	anim_pose = stand
+ 12	attach clip left
+ 13	bodyfall large
+ 14	bodyfall small
+ 15	bodyfalllarge
+ 16	branch_window_end
+ 17	branch_window_start
+ 18	break glass
+ 19	burn_vfx_death_start
+ 20	burn_vfx_pain_start_arm_l
+ 21	burn_vfx_pain_start_arm_r
+ 22	code_move
+ 23	corner
+ 24	detach clip left
+ 25	disable_ragdoll_anim_root
+ 26	door_open
+ 27	door_touch
+ 28	drop clip
+ 29	dropgun
+ 30	end
+ 31	face_enemy
+ 32	face_goal
+ 33	face_goal_end
+ 34	fingers_out_end_right_hand
+ 35	fingers_out_start_right_hand
+ 36	finish
+ 37	finish_early
+ 38	fire
+ 39	footstep_left_large
+ 40	footstep_left_small
+ 41	footstep_right_large
+ 42	footstep_right_small
+ 43	grenade_left
+ 44	grenade_right
+ 45	grenade_throw
+ 46	gun drop
+ 47	gun_2_chest
+ 48	ik_in_end_left_hand
+ 49	ik_in_end_right_hand
+ 50	ik_in_start_left_hand
+ 51	ik_in_start_right_hand
+ 52	ik_out_end_left_hand
+ 53	ik_out_end_right_hand
+ 54	ik_out_start_left_hand
+ 55	ik_out_start_right_hand
+ 56	j_ankle_le
+ 57	j_ankle_ri
+ 58	j_antislide_ik
+ 59	j_ball_le
+ 60	j_ball_ri
+ 61	j_brow_le_1
+ 62	j_brow_le_2
+ 63	j_brow_le_3
+ 64	j_brow_ri_1
+ 65	j_brow_ri_2
+ 66	j_brow_ri_3
+ 67	j_canopy_left_back
+ 68	j_canopy_left_front
+ 69	j_canopy_left_mid
+ 70	j_canopy_mid
+ 71	j_canopy_mid_back
+ 72	j_canopy_mid_front
+ 73	j_canopy_right_back
+ 74	j_canopy_right_front
+ 75	j_canopy_right_mid
+ 76	j_cheek_le_1
+ 77	j_cheek_le_2
+ 78	j_cheek_puff_le
+ 79	j_cheek_puff_ri
+ 80	j_cheek_ri_1
+ 81	j_cheek_ri_2
+ 82	j_chest
+ 83	j_chin
+ 84	j_clavicle_le
+ 85	j_clavicle_ri
+ 86	j_crotch
+ 87	j_elbow_le
+ 88	j_elbow_ri
+ 89	j_elbowdq_le
+ 90	j_elbowdq_ri
+ 91	j_eye_lid_bot_le
+ 92	j_eye_lid_bot_ri
+ 93	j_eye_lid_top_le
+ 94	j_eye_lid_top_le_1
+ 95	j_eye_lid_top_ri
+ 96	j_eye_lid_top_ri_1
+ 97	j_eyeball_le
+ 98	j_eyeball_ri
+ 99	j_eyelash_bot_le_1
+100	j_eyelash_bot_le_2
+101	j_eyelash_bot_ri_1
+102	j_eyelash_bot_ri_2
+103	j_eyelash_top_le_1
+104	j_eyelash_top_le_2
+105	j_eyelash_top_ri_1
+106	j_eyelash_top_ri_2
+107	j_forehead
+108	j_forehead_le_1
+109	j_forehead_ri_1
+110	j_furrow_le
+111	j_furrow_ri
+112	j_groinprotector
+113	j_gun
+114	j_handle_top_le
+115	j_handle_top_ri
+116	j_head
+117	j_helmet
+118	j_hip_le
+119	j_hip_ri
+120	j_hiptwist_le
+121	j_hiptwist_ri
+122	j_index_le_1
+123	j_index_le_2
+124	j_index_le_3
+125	j_index_ri_1
+126	j_index_ri_2
+127	j_index_ri_3
+128	j_insidegum
+129	j_insidegum_le_1
+130	j_insidegum_ri_1
+131	j_jaw
+132	j_knee_le
+133	j_knee_ri
+134	j_kneedq_le
+135	j_kneedq_ri
+136	j_levator_le_1
+137	j_levator_le_2
+138	j_levator_ri_1
+139	j_levator_ri_2
+140	j_lip_bot
+141	j_lip_bot_le_1
+142	j_lip_bot_le_2
+143	j_lip_bot_le_3
+144	j_lip_bot_le_4
+145	j_lip_bot_ri_1
+146	j_lip_bot_ri_2
+147	j_lip_bot_ri_3
+148	j_lip_bot_ri_4
+149	j_lip_inside_le_1
+150	j_lip_inside_ri_1
+151	j_lip_top
+152	j_lip_top_le_1
+153	j_lip_top_le_2
+154	j_lip_top_le_3
+155	j_lip_top_le_4
+156	j_lip_top_ri_1
+157	j_lip_top_ri_2
+158	j_lip_top_ri_3
+159	j_lip_top_ri_4
+160	j_lowergum
+161	j_mainroot
+162	j_metaindex_le_1
+163	j_metaindex_ri_1
+164	j_metamid_le_1
+165	j_metamid_ri_1
+166	j_metapinky_le_1
+167	j_metapinky_ri_1
+168	j_metaring_le_1
+169	j_metaring_ri_1
+170	j_mid_le_1
+171	j_mid_le_2
+172	j_mid_le_3
+173	j_mid_ri_1
+174	j_mid_ri_2
+175	j_mid_ri_3
+176	j_mouthcorner_le
+177	j_mouthcorner_ri
+178	j_nasolabial_le_1
+179	j_nasolabial_le_2
+180	j_nasolabial_le_3
+181	j_nasolabial_le_4
+182	j_nasolabial_ri_1
+183	j_nasolabial_ri_2
+184	j_nasolabial_ri_3
+185	j_nasolabial_ri_4
+186	j_neck
+187	j_nose_tip
+188	j_nvg
+189	j_nvg_2
+190	j_periorbital_le_1
+191	j_periorbital_le_2
+192	j_periorbital_le_3
+193	j_periorbital_ri_1
+194	j_periorbital_ri_2
+195	j_periorbital_ri_3
+196	j_pilot_chute
+197	j_pilot_chutebase
+198	j_pinky_le_1
+199	j_pinky_le_2
+200	j_pinky_le_3
+201	j_pinky_ri_1
+202	j_pinky_ri_2
+203	j_pinky_ri_3
+204	j_ring_le_1
+205	j_ring_le_2
+206	j_ring_le_3
+207	j_ring_ri_1
+208	j_ring_ri_2
+209	j_ring_ri_3
+210	j_shield_le
+211	j_shield_ri
+212	j_shoulder_le
+213	j_shoulder_ri
+214	j_shouldertwist_le
+215	j_shouldertwist_ri
+216	j_spine4
+217	j_spinelower
+218	j_spineupper
+219	j_strap1_le
+220	j_strap1_ri
+221	j_strap2_le
+222	j_strap2_ri
+223	j_strap3_le
+224	j_strap3_ri
+225	j_strap4_le
+226	j_strap4_ri
+227	j_strap5_le
+228	j_strap5_ri
+229	j_temple_le
+230	j_temple_ri
+231	j_thumb_le_1
+232	j_thumb_le_2
+233	j_thumb_le_3
+234	j_thumb_le_4
+235	j_thumb_ri_1
+236	j_thumb_ri_2
+237	j_thumb_ri_3
+238	j_thumb_ri_4
+239	j_tongue_1
+240	j_tongue_2
+241	j_tongue_3
+242	j_underchin
+243	j_underlip
+244	j_uppergum
+245	j_upperlip
+246	j_webbing_le_1
+247	j_webbing_le_2
+248	j_webbing_ri_1
+249	j_webbing_ri_2
+250	j_wrist_le
+251	j_wrist_ri
+252	j_wristfronttwist1_le
+253	j_wristfronttwist1_ri
+254	land
+255	load_shell
+256	melee_attack_sfx
+257	model_swap
+258	mvmt_step_post
+259	mvmt_step_pre
+260	origin_animate_jnt
+261	pain_can_end
+262	pistol_pickup
+263	pistol_putaway
+264	ps_bodyfall_head
+265	ps_bodyfall_limb_large
+266	ps_bodyfall_limb_small
+267	ps_bodyfall_torso
+268	ps_wfoly_ar_reload_npc_charge
+269	ps_wfoly_ar_reload_npc_in
+270	ps_wfoly_ar_reload_npc_out
+271	ps_wfoly_pi_reload_npc_in
+272	ps_wfoly_pi_reload_npc_out
+273	ps_wfoly_sh_reload_npc_loop
+274	rechamber
+275	reload done
+276	reload start
+277	start reload
+278	start_aim
+279	start_ragdoll
+280	stop
+281	stop anim
+282	stop_ragdoll_anim
+283	tag_accessory_left
+284	tag_accessory_right
+285	tag_ik_foot_loc_le
+286	tag_ik_foot_loc_ri
+287	tag_ik_loc_le
+288	tag_ik_loc_le_foregrip
+289	tag_ik_loc_le_launcher
+290	tag_ik_loc_ri
+291	tag_inhand
+292	tag_player
+293	tag_shield_back
+294	tag_sling
+295	tag_stowed_hip_rear
+296	tag_sync
+297	tag_weapon_chest
+298	tag_weapon_left
+299	tag_weapon_right
+300	traverse_align
+301	traverse_death
+302	traverse_drop
+303	warp_across_end
+304	warp_across_start
+305	warp_arrival_end
+306	warp_arrival_start
+307	warp_down_end
+308	warp_down_start
+309	warp_exit_end
+310	warp_exit_start
+311	warp_up_apex
+312	warp_up_end
+313	warp_up_start

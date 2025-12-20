@@ -1,0 +1,721 @@
+  0	j_spine4
+  1	j_neck
+  2	j_head
+  3	j_clavicle_le
+  4	j_clavicle_ri
+  5	j_proc_rot_clavicle_le
+  6	j_proc_rot_clavicle_ri
+  7	j_brow_le_1
+  8	j_brow_le_2
+  9	j_brow_le_3
+ 10	j_brow_ri_1
+ 11	j_brow_ri_2
+ 12	j_brow_ri_3
+ 13	j_cheek_le_1
+ 14	j_cheek_le_2
+ 15	j_cheek_puff_le
+ 16	j_cheek_puff_ri
+ 17	j_cheek_ri_1
+ 18	j_cheek_ri_2
+ 19	j_chin
+ 20	j_eye_lid_bot_le
+ 21	j_eye_lid_bot_ri
+ 22	j_eye_lid_top_le
+ 23	j_eye_lid_top_le_1
+ 24	j_eye_lid_top_ri
+ 25	j_eye_lid_top_ri_1
+ 26	j_eyeball_le
+ 27	j_eyeball_ri
+ 28	j_eyelash_bot_le_1
+ 29	j_eyelash_bot_le_2
+ 30	j_eyelash_bot_ri_1
+ 31	j_eyelash_bot_ri_2
+ 32	j_eyelash_top_le_1
+ 33	j_eyelash_top_le_2
+ 34	j_eyelash_top_ri_1
+ 35	j_eyelash_top_ri_2
+ 36	j_forehead
+ 37	j_forehead_le_1
+ 38	j_forehead_ri_1
+ 39	j_furrow_le
+ 40	j_furrow_ri
+ 41	j_insidegum
+ 42	j_insidegum_le_1
+ 43	j_insidegum_ri_1
+ 44	j_levator_le_1
+ 45	j_levator_le_2
+ 46	j_levator_ri_1
+ 47	j_levator_ri_2
+ 48	j_lip_bot
+ 49	j_lip_bot_le_1
+ 50	j_lip_bot_le_2
+ 51	j_lip_bot_le_3
+ 52	j_lip_bot_le_4
+ 53	j_lip_bot_ri_1
+ 54	j_lip_bot_ri_2
+ 55	j_lip_bot_ri_3
+ 56	j_lip_bot_ri_4
+ 57	j_lip_inside_le_1
+ 58	j_lip_inside_ri_1
+ 59	j_lip_top
+ 60	j_lip_top_le_1
+ 61	j_lip_top_le_2
+ 62	j_lip_top_le_3
+ 63	j_lip_top_le_4
+ 64	j_lip_top_ri_1
+ 65	j_lip_top_ri_2
+ 66	j_lip_top_ri_3
+ 67	j_lip_top_ri_4
+ 68	j_lowergum
+ 69	j_mouthcorner_le
+ 70	j_mouthcorner_ri
+ 71	j_nasolabial_le_1
+ 72	j_nasolabial_le_2
+ 73	j_nasolabial_le_3
+ 74	j_nasolabial_le_4
+ 75	j_nasolabial_ri_1
+ 76	j_nasolabial_ri_2
+ 77	j_nasolabial_ri_3
+ 78	j_nasolabial_ri_4
+ 79	j_nose_tip
+ 80	j_periorbital_le_1
+ 81	j_periorbital_le_2
+ 82	j_periorbital_le_3
+ 83	j_periorbital_ri_1
+ 84	j_periorbital_ri_2
+ 85	j_periorbital_ri_3
+ 86	j_temple_le
+ 87	j_temple_ri
+ 88	j_tongue_1
+ 89	j_underchin
+ 90	j_underlip
+ 91	j_uppergum
+ 92	j_upperlip
+ 93	j_tongue_2
+ 94	j_tongue_3
+ 95	j_jaw
+ 96	Blink_L
+ 97	Blink_R
+ 98	BrowInrDn_00_L
+ 99	BrowInrDn_00_R
+100	BrowInrDn_01_L
+101	BrowInrDn_01_R
+102	BrowInrDn_BrowLower_L
+103	BrowInrDn_BrowLower_R
+104	BrowInrRaise_00_L
+105	BrowInrRaise_00_R
+106	BrowInrRaise_BrowInrDn_L
+107	BrowInrRaise_BrowInrDn_R
+108	BrowInrRaise_BrowLower_L
+109	BrowInrRaise_BrowLower_R
+110	BrowInrRaise_UprlidDn_L
+111	BrowInrRaise_UprlidDn_R
+112	BrowLower_00_L
+113	BrowLower_00_R
+114	BrowLower_01_L
+115	BrowLower_01_R
+116	BrowLower_UprlidDn_L
+117	BrowLower_UprlidDn_R
+118	BrowOutrDn_00_L
+119	BrowOutrDn_00_R
+120	BrowOutrDn_01_L
+121	BrowOutrDn_01_R
+122	BrowOutrRaise_00_L
+123	BrowOutrRaise_00_R
+124	BrowOutrRaise_UprlidDn_L
+125	BrowOutrRaise_UprlidDn_R
+126	CheekBlow_B_L
+127	CheekBlow_B_R
+128	CheekBlow_T_L
+129	CheekBlow_T_R
+130	CheekRaise_00_L
+131	CheekRaise_00_R
+132	CheekRaise_01_L
+133	CheekRaise_01_R
+134	CheekRaise_02_L
+135	CheekRaise_02_R
+136	CheekRaise_03_L
+137	CheekRaise_03_R
+138	ChinDepress_00_L
+139	ChinDepress_00_R
+140	ChinRaise_00_L
+141	ChinRaise_00_R
+142	ChinRaise_01_L
+143	ChinRaise_01_R
+144	ChinRaise_02_L
+145	ChinRaise_02_R
+146	ChinRaise_03_L
+147	ChinRaise_03_R
+148	ChinRaise_04_L
+149	ChinRaise_04_R
+150	ChinRaise_05_L
+151	ChinRaise_05_R
+152	ChinRaise_06_L
+153	ChinRaise_06_R
+154	ChinRaise_07_L
+155	ChinRaise_07_R
+156	ChinRaise_08_L
+157	ChinRaise_08_R
+158	ChinRaise_Flat_BL
+159	ChinRaise_Flat_BR
+160	ChinRaise_Flat_TL
+161	ChinRaise_Flat_TR
+162	ChinTension_00_L
+163	ChinTension_00_R
+164	CornerDepress_00_L
+165	CornerDepress_00_R
+166	CornerDepress_01_L
+167	CornerDepress_01_R
+168	CornerDepress_02_L
+169	CornerDepress_02_R
+170	CornerDepress_03_L
+171	CornerDepress_03_R
+172	CornerDepress_04_L
+173	CornerDepress_04_R
+174	CornerPull_00_L
+175	CornerPull_00_R
+176	CornerPull_01_L
+177	CornerPull_01_R
+178	CornerPull_02_L
+179	CornerPull_02_R
+180	CornerPull_03_L
+181	CornerPull_03_R
+182	CornerPull_04_L
+183	CornerPull_04_R
+184	CornerPull_05_L
+185	CornerPull_05_R
+186	CornerPull_06_L
+187	CornerPull_06_R
+188	CornerPull_07_L
+189	CornerPull_07_R
+190	CornerPull_08_L
+191	CornerPull_08_R
+192	CornerPull_09_L
+193	CornerPull_09_R
+194	CornerPull_10_L
+195	CornerPull_10_R
+196	CornerPull_11_L
+197	CornerPull_11_R
+198	CornerPull_12_L
+199	CornerPull_12_R
+200	CornerPull_13_L
+201	CornerPull_13_R
+202	CornerPull_14_L
+203	CornerPull_14_R
+204	CornerPull_JawOpen_L
+205	CornerPull_JawOpen_R
+206	CornerPull_Left
+207	CornerPull_LwrLipDepress_L
+208	CornerPull_LwrLipDepress_R
+209	CornerPull_Right
+210	CornerRaise_00_L
+211	CornerRaise_00_R
+212	CornerRaise_01_L
+213	CornerRaise_01_R
+214	CornerRaise_02_L
+215	CornerRaise_02_R
+216	CornerRaise_03_L
+217	CornerRaise_03_R
+218	CornerRaise_04_L
+219	CornerRaise_04_R
+220	CornerRound_00_L
+221	CornerRound_00_R
+222	CornerSharp_00_L
+223	CornerSharp_00_R
+224	Dimple_00_L
+225	Dimple_00_R
+226	Dimple_01_L
+227	Dimple_01_R
+228	Dimple_02_L
+229	Dimple_02_R
+230	Dimple_03_L
+231	Dimple_03_R
+232	EyeSqz_L
+233	EyeSqz_R
+234	Funnel_00_L
+235	Funnel_00_R
+236	Funnel_01_L
+237	Funnel_01_R
+238	Funnel_02_L
+239	Funnel_02_R
+240	Funnel_03_L
+241	Funnel_03_R
+242	Funnel_04_L
+243	Funnel_04_R
+244	Funnel_05_L
+245	Funnel_05_R
+246	Funnel_06_L
+247	Funnel_06_R
+248	Funnel_07_L
+249	Funnel_07_R
+250	Funnel_Close_L
+251	Funnel_Close_R
+252	Funnel_Prog_BL
+253	Funnel_Prog_BR
+254	Funnel_Prog_TL
+255	Funnel_Prog_TR
+256	HeadSlide
+257	JawBack
+258	JawBackLock_L
+259	JawBackLock_R
+260	JawClench_L
+261	JawClench_R
+262	JawDrop_00_L
+263	JawDrop_00_R
+264	JawFrwrd
+265	JawFrwrdLock_L
+266	JawFrwrdLock_R
+267	JawLeft
+268	JawLeftLock_L
+269	JawLeftLock_R
+270	JawOpenLock_00_L
+271	JawOpenLock_00_R
+272	JawOpen_00_L
+273	JawOpen_00_R
+274	JawRight
+275	JawRightLock_L
+276	JawRightLock_R
+277	LidTight_00_L
+278	LidTight_00_R
+279	LidTight_01_L
+280	LidTight_01_R
+281	LidTight_02_L
+282	LidTight_02_R
+283	LidTight_03_L
+284	LidTight_03_R
+285	LidTight_04_L
+286	LidTight_04_R
+287	LidTight_05_L
+288	LidTight_05_R
+289	LidTight_06_L
+290	LidTight_06_R
+291	LidTight_UprLidDn_L
+292	LidTight_UprLidDn_R
+293	LipBite_BL
+294	LipBite_BR
+295	LipBite_TL
+296	LipBite_TR
+297	LipFat_00_L
+298	LipFat_00_R
+299	LipFat_01_L
+300	LipFat_01_R
+301	LipFat_02_L
+302	LipFat_02_R
+303	LipFat_03_L
+304	LipFat_03_R
+305	LipFat_04_L
+306	LipFat_04_R
+307	LipInrFat_00_L
+308	LipInrFat_00_R
+309	LipInrFat_01_L
+310	LipInrFat_01_R
+311	LipRollIn_00_L
+312	LipRollIn_00_R
+313	LipRollIn_01_L
+314	LipRollIn_01_R
+315	LipRollIn_02_L
+316	LipRollIn_02_R
+317	LipRollIn_03_L
+318	LipRollIn_03_R
+319	LipRollIn_04_L
+320	LipRollIn_04_R
+321	LipRollIn_05_L
+322	LipRollIn_05_R
+323	LipRollIn_06_L
+324	LipRollIn_06_R
+325	LipRollIn_07_L
+326	LipRollIn_07_R
+327	LipRollIn_ChinRaise_BL
+328	LipRollIn_ChinRaise_BR
+329	LipRollIn_ChinRaise_TL
+330	LipRollIn_ChinRaise_TR
+331	LipRollIn_JawOpen_BL
+332	LipRollIn_JawOpen_BR
+333	LipRollIn_JawOpen_TL
+334	LipRollIn_JawOpen_TR
+335	LipRollIn_Prog2_BL
+336	LipRollIn_Prog2_BR
+337	LipRollIn_Prog2_TL
+338	LipRollIn_Prog2_TR
+339	LipThin_01_L
+340	LipThin_01_R
+341	LipThin_02_L
+342	LipThin_02_R
+343	LookDnProg_L
+344	LookDnProg_R
+345	LookDn_00_L
+346	LookDn_00_R
+347	LookDn_01_L
+348	LookDn_01_R
+349	LookDn_02_L
+350	LookDn_02_R
+351	LookDn_03_L
+352	LookDn_03_R
+353	LookDn_04_L
+354	LookDn_04_R
+355	LookDn_05_L
+356	LookDn_05_R
+357	LookDn_06_L
+358	LookDn_06_R
+359	LookDn_07_L
+360	LookDn_07_R
+361	LookDn_08_L
+362	LookDn_08_R
+363	LookDn_09_L
+364	LookDn_09_R
+365	LookLeft_00_L
+366	LookLeft_00_R
+367	LookLeft_01_L
+368	LookLeft_01_R
+369	LookLeft_02_L
+370	LookLeft_02_R
+371	LookLeft_03_L
+372	LookLeft_03_R
+373	LookLeft_04_L
+374	LookLeft_04_R
+375	LookLeft_05_L
+376	LookLeft_05_R
+377	LookLeft_06_L
+378	LookLeft_06_R
+379	LookLeft_07_L
+380	LookLeft_07_R
+381	LookLeft_08_L
+382	LookLeft_08_R
+383	LookRight_00_L
+384	LookRight_00_R
+385	LookRight_01_L
+386	LookRight_01_R
+387	LookRight_02_L
+388	LookRight_02_R
+389	LookRight_03_L
+390	LookRight_03_R
+391	LookRight_04_L
+392	LookRight_04_R
+393	LookRight_05_L
+394	LookRight_05_R
+395	LookRight_06_L
+396	LookRight_06_R
+397	LookRight_07_L
+398	LookRight_07_R
+399	LookRight_08_L
+400	LookRight_08_R
+401	LookUp_00_L
+402	LookUp_00_R
+403	LookUp_01_L
+404	LookUp_01_R
+405	LookUp_02_L
+406	LookUp_02_R
+407	LookUp_03_L
+408	LookUp_03_R
+409	LookUp_04_L
+410	LookUp_04_R
+411	LookUp_05_L
+412	LookUp_05_R
+413	LookUp_06_L
+414	LookUp_06_R
+415	LookUp_07_L
+416	LookUp_07_R
+417	LookUp_08_L
+418	LookUp_08_R
+419	LookUp_09_L
+420	LookUp_09_R
+421	LwrLidDn_L
+422	LwrLidDn_R
+423	LwrLidRaise_L
+424	LwrLidRaise_R
+425	LwrLipBack_L
+426	LwrLipBack_R
+427	LwrLipDepress_00_L
+428	LwrLipDepress_00_R
+429	LwrLipDepress_01_L
+430	LwrLipDepress_01_R
+431	LwrLipDepress_02_L
+432	LwrLipDepress_02_R
+433	LwrLipDepress_03_L
+434	LwrLipDepress_03_R
+435	LwrLipDepress_04_L
+436	LwrLipDepress_04_R
+437	LwrLipRoll_00_L
+438	LwrLipRoll_00_R
+439	LwrLip_Left
+440	LwrLip_Right
+441	MouthFrwrd_00_L
+442	MouthFrwrd_00_R
+443	MouthFrwrd_01_L
+444	MouthFrwrd_01_R
+445	MouthLeft_00_L
+446	MouthLeft_00_R
+447	MouthLeft_01_L
+448	MouthLeft_01_R
+449	MouthLeft_02_L
+450	MouthLeft_02_R
+451	MouthLeft_03_L
+452	MouthLeft_03_R
+453	MouthLeft_04_L
+454	MouthLeft_04_R
+455	MouthLeft_05_L
+456	MouthLeft_05_R
+457	MouthLeft_06_L
+458	MouthLeft_06_R
+459	MouthLeft_07_L
+460	MouthLeft_07_R
+461	MouthLeft_08_L
+462	MouthLeft_08_R
+463	MouthPress_00_L
+464	MouthPress_00_R
+465	MouthRight_00_L
+466	MouthRight_00_R
+467	MouthRight_01_L
+468	MouthRight_01_R
+469	MouthRight_02_L
+470	MouthRight_02_R
+471	MouthRight_03_L
+472	MouthRight_03_R
+473	MouthRight_04_L
+474	MouthRight_04_R
+475	MouthRight_05_L
+476	MouthRight_05_R
+477	MouthRight_06_L
+478	MouthRight_06_R
+479	MouthRight_07_L
+480	MouthRight_07_R
+481	MouthRight_08_L
+482	MouthRight_08_R
+483	MouthTight_00_L
+484	MouthTight_00_R
+485	MouthTight_01_L
+486	MouthTight_01_R
+487	MouthTight_02_L
+488	MouthTight_02_R
+489	MouthTight_03_L
+490	MouthTight_03_R
+491	MouthTight_04_L
+492	MouthTight_04_R
+493	MouthTight_05_L
+494	MouthTight_05_R
+495	MouthTight_06_L
+496	MouthTight_06_R
+497	MouthTight_07_L
+498	MouthTight_07_R
+499	MouthTight_08_L
+500	MouthTight_08_R
+501	NeckBlow_L
+502	NeckBlow_R
+503	NeckMuscle_L
+504	NeckMuscle_R
+505	NeckSlide_L
+506	NeckSlide_R
+507	NeckTenstion_JawOpen_L
+508	NeckTenstion_JawOpen_R
+509	NeckTenstion_L
+510	NeckTenstion_R
+511	NlDeep_00_L
+512	NlDeep_00_R
+513	NlDeep_01_L
+514	NlDeep_01_R
+515	NlDeep_02_L
+516	NlDeep_02_R
+517	NoseClose_L
+518	NoseClose_R
+519	NoseDn_00_L
+520	NoseDn_00_R
+521	NoseLeft_00_L
+522	NoseLeft_00_R
+523	NoseOpen_L
+524	NoseOpen_R
+525	NoseRight_00_L
+526	NoseRight_00_R
+527	NoseUp_00_L
+528	NoseUp_00_R
+529	NoseWrinkle_00_L
+530	NoseWrinkle_00_R
+531	NoseWrinkle_01_L
+532	NoseWrinkle_01_R
+533	NoseWrinkle_02_L
+534	NoseWrinkle_02_R
+535	NoseWrinkle_03_L
+536	NoseWrinkle_03_R
+537	NoseWrinkle_04_L
+538	NoseWrinkle_04_R
+539	NoseWrinkle_05_L
+540	NoseWrinkle_05_R
+541	NoseWrinkle_06_L
+542	NoseWrinkle_06_R
+543	Pucker_00_L
+544	Pucker_00_R
+545	Pucker_01_L
+546	Pucker_01_R
+547	Pucker_02_L
+548	Pucker_02_R
+549	Pucker_03_L
+550	Pucker_03_R
+551	Pucker_04_L
+552	Pucker_04_R
+553	Pucker_05_L
+554	Pucker_05_R
+555	Pucker_06_L
+556	Pucker_06_R
+557	Pucker_07_L
+558	Pucker_07_R
+559	Pucker_Funnel_BL
+560	Pucker_Funnel_BR
+561	Pucker_Funnel_TL
+562	Pucker_Funnel_TR
+563	Squint_00_L
+564	Squint_00_R
+565	Squint_01_L
+566	Squint_01_R
+567	Squint_02_L
+568	Squint_02_R
+569	Squint_03_L
+570	Squint_03_R
+571	Squint_04_L
+572	Squint_04_R
+573	Squint_05_L
+574	Squint_05_R
+575	Squint_06_L
+576	Squint_06_R
+577	Squint_07_L
+578	Squint_07_R
+579	StickyLips1_L
+580	StickyLips1_R
+581	StickyLips2_L
+582	StickyLips2_R
+583	StickyLips3_L
+584	StickyLips3_R
+585	StickyLips4_L
+586	StickyLips4_R
+587	StickyLips5_L
+588	StickyLips5_R
+589	Stretch_00_L
+590	Stretch_00_R
+591	Stretch_01_L
+592	Stretch_01_R
+593	Stretch_02_L
+594	Stretch_02_R
+595	Stretch_03_L
+596	Stretch_03_R
+597	Stretch_04_L
+598	Stretch_04_R
+599	Stretch_05_L
+600	Stretch_05_R
+601	Stretch_06_L
+602	Stretch_06_R
+603	Stretch_07_L
+604	Stretch_07_R
+605	Stretch_08_L
+606	Stretch_08_R
+607	Stretch_09_L
+608	Stretch_09_R
+609	Stretch_10_L
+610	Stretch_10_R
+611	Stretch_Close_L
+612	Stretch_Close_R
+613	Stretch_CornerPull_L
+614	Stretch_CornerPull_R
+615	Stretch_JawOpen_L
+616	Stretch_JawOpen_R
+617	Stretch_Left
+618	Stretch_Right
+619	Suck_L
+620	Suck_R
+621	Swallow1
+622	Swallow2
+623	Swallow3
+624	Swallow4
+625	Swallow5
+626	SwallowDn1
+627	SwallowDn2
+628	SwallowDn3
+629	Tight_L
+630	Tight_R
+631	UprLidDn_00_L
+632	UprLidDn_00_R
+633	UprLidDn_01_L
+634	UprLidDn_01_R
+635	UprLidDn_02_L
+636	UprLidDn_02_R
+637	UprLidDn_03_L
+638	UprLidDn_03_R
+639	UprLidDn_04_L
+640	UprLidDn_04_R
+641	UprLidDn_05_L
+642	UprLidDn_05_R
+643	UprLidDrop_L
+644	UprLidDrop_R
+645	UprLidRaise_00_L
+646	UprLidRaise_00_R
+647	UprLidRaise_01_L
+648	UprLidRaise_01_R
+649	UprLidRaise_02_L
+650	UprLidRaise_02_R
+651	UprLidRaise_03_L
+652	UprLidRaise_03_R
+653	UprLidRaise_04_L
+654	UprLidRaise_04_R
+655	UprLidRaise_05_L
+656	UprLidRaise_05_R
+657	UprLipDepress_00_L
+658	UprLipDepress_00_R
+659	UprLipDepress_01_L
+660	UprLipDepress_01_R
+661	UprLipRaise_00_L
+662	UprLipRaise_00_R
+663	UprLipRaise_01_L
+664	UprLipRaise_01_R
+665	UprLipRaise_02_L
+666	UprLipRaise_02_R
+667	UprLipRaise_03_L
+668	UprLipRaise_03_R
+669	UprLipRaise_04_L
+670	UprLipRaise_04_R
+671	UprLipRaise_05_L
+672	UprLipRaise_05_R
+673	UprLipRaise_06_L
+674	UprLipRaise_06_R
+675	UprLipRaise_ChinRaise_L
+676	UprLipRaise_ChinRaise_R
+677	UprLipRaise_Close_L
+678	UprLipRaise_Close_R
+679	UprLipRoll_L
+680	UprLipRoll_R
+681	UprLip_Left
+682	UprLip_Right
+683	UprLipback_L
+684	UprLipback_R
+685	Wide_L
+686	Wide_R
+687	blendmap_mask_1_4
+688	blendmap_mask_2_4
+689	blendmap_mask_3_4
+690	blendmap_mask_4_4
+691	blendmap_mask_5_4
+692	blendmap_mask_6_4
+693	blendmap_mask_7_4
+694	blendmap_mask_8_4
+695	blendmap_mask_9_4
+696	blendmap_mask_10_3
+697	blendmap_mask_11_3
+698	blendmap_mask_12_3
+699	blendmap_mask_13_3
+700	blendmap_mask_14_3
+701	blendmap_mask_15_3
+702	blendmap_mask_16_3
+703	blendmap_mask_17_3
+704	blendmap_mask_18_3
+705	blendmap_mask_19_2
+706	blendmap_mask_20_2
+707	blendmap_mask_21_2
+708	blendmap_mask_22_2
+709	blendmap_mask_23_2
+710	blendmap_mask_24_2
+711	blendmap_mask_25_2
+712	blendmap_mask_26_2
+713	blendmap_mask_27_2
+714	blendmap_mask_28_1
+715	blendmap_mask_29_1
+716	blendmap_mask_30_1
+717	blendmap_mask_31_1
+718	blendmap_mask_32_1
+719	blendmap_mask_33_1
+720	j_pullstrap

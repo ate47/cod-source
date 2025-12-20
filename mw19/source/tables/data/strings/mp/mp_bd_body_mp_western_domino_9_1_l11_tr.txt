@@ -1,0 +1,230 @@
+  0	j_gun
+  1	tag_origin
+  2	tag_stowed_back
+  3	tag_stowed_chest
+  4	j_sling_pivot
+  5	tag_eye
+  6	tag_stowed_back3
+  7	tag_stowed_thigh
+  8	tag_wrist_attach_le
+  9	j_spine4
+ 10	j_neck
+ 11	j_head
+ 12	j_helmet
+ 13	j_clavicle_le
+ 14	j_clavicle_ri
+ 15	tag_helmetlight
+ 16	j_proc_rot_clavicle_le
+ 17	j_proc_rot_clavicle_ri
+ 18	j_visor
+ 19	j_visor_inner
+ 20	j_proc_spine4
+ 21	j_knee_le
+ 22	j_knee_ri
+ 23	j_elbow_ri
+ 24	j_shoulder_ri
+ 25	j_elbow_le
+ 26	j_shoulder_le
+ 27	j_wrist_le
+ 28	j_hip_ri
+ 29	j_hip_le
+ 30	j_wrist_ri
+ 31	j_ankle_ri
+ 32	j_ankle_le
+ 33	j_hip_proc_ri
+ 34	j_mainroot
+ 35	j_hip_proc_le
+ 36	j_spineupper
+ 37	j_spinelower
+ 38	j_dummy_sling_clavicle
+ 39	j_dummy_sling_spine
+ 40	j_hiptwist_ri
+ 41	j_hiptwist_le
+ 42	j_proc_lift_clavicle_le
+ 43	j_proc_lift_clavicle_ri
+ 44	j_proc_target_clavicle_le
+ 45	j_proc_target_clavicle_ri
+ 46	j_proc_dummy_spinelift
+ 47	j_proc_spinelift
+ 48	j_proc_spineupper
+ 49	j_proc_spinelower
+ 50	j_proc_hip_lift_le
+ 51	j_proc_hip_lift_ri
+ 52	j_proc_hip_lift_aim_ri
+ 53	j_proc_hip_lift_aim_le
+ 54	j_dummy_knee_dist
+ 55	j_crotch
+ 56	j_elbowdq_ri
+ 57	j_elbowdq_le
+ 58	j_kneedq_ri
+ 59	j_kneedq_le
+ 60	j_shouldertwist_ri
+ 61	j_shouldertwist_le
+ 62	j_wristfronttwist1_le
+ 63	j_wristfronttwist1_ri
+ 64	j_teres_ri
+ 65	j_teres_le
+ 66	j_dummy_slingcenteraim
+ 67	j_hipholster_ri
+ 68	j_proc_shoulder_ri
+ 69	j_proc_shoulder_le
+ 70	j_proc_wristup_le
+ 71	j_proc_wrist_le
+ 72	j_proc_wristup_ri
+ 73	j_proc_wrist_ri
+ 74	j_proc_spineupperlift
+ 75	j_spinelower_lift
+ 76	j_sling_target
+ 77	j_sling_clavicle
+ 78	j_sling_spine
+ 79	j_proc_spinelower2
+ 80	j_proc_spinelower3
+ 81	j_proc_spinelower_lift
+ 82	j_proc_spinelower_swivel
+ 83	j_groinprotector
+ 84	j_proc_spinelower_swivel_lift
+ 85	j_cosmetic_radio
+ 86	j_cosmetic_lstrapa
+ 87	j_cosmetic_rstrapa
+ 88	j_cosmetic_lstrapb
+ 89	j_cosmetic_rstrapb
+ 90	j_cosmetic_lstrapc
+ 91	j_cosmetic_rstrapc
+ 92	j_cosmetic_4
+ 93	j_cosmetic_hair_1_le
+ 94	j_cosmetic_hair_1_ri
+ 95	j_cosmetic_hair_4_le
+ 96	j_cosmetic_hair_4_ri
+ 97	j_cosmetic_hair_2_le
+ 98	j_cosmetic_hair_2_ri
+ 99	j_cosmetic_hair_5_le
+100	j_cosmetic_hair_5_ri
+101	j_cosmetic_hair_3_le
+102	j_cosmetic_hair_3_ri
+103	j_cosmetic_hair_6_le
+104	j_cosmetic_hair_6_ri
+105	j_proc_stowed_chest
+106	tag_sync
+107	j_ball_le
+108	j_ball_ri
+109	tag_stowed_hip_rear
+110	tag_inhand
+111	tag_shield_back
+112	tag_weapon_chest
+113	j_gun_adjust
+114	tag_weapon_right
+115	j_shield_ri
+116	tag_reflector_arm_le
+117	tag_reflector_arm_ri
+118	tag_accessory_left
+119	tag_accessory_right
+120	tag_weapon_left
+121	tag_ik_wrist_loc_le
+122	tag_ik_wrist_loc_ri
+123	j_hipholster_le
+124	j_ik_foot_root
+125	tag_ik_foot_loc_le
+126	tag_ik_foot_loc_ri
+127	j_antislide_ik
+128	j_chest
+129	tag_stowed_chest2
+130	j_cosmetic_1
+131	j_cosmetic_2
+132	tag_carry_attach
+133	tag_stowed_back2
+134	j_metamid_le_1
+135	j_mid_le_1
+136	j_metamid_ri_1
+137	j_mid_ri_1
+138	j_shield_le
+139	j_thumb_le_1
+140	j_thumb_ri_1
+141	j_metaindex_le_1
+142	j_metaindex_ri_1
+143	j_metapinky_le_1
+144	j_metapinky_ri_1
+145	j_metaring_le_1
+146	j_metaring_ri_1
+147	j_index_le_1
+148	j_index_ri_1
+149	j_pinky_le_1
+150	j_pinky_ri_1
+151	j_ring_le_1
+152	j_ring_ri_1
+153	j_thumb_le_2
+154	j_thumb_ri_2
+155	j_index_le_2
+156	j_index_ri_2
+157	j_mid_le_2
+158	j_mid_ri_2
+159	j_pinky_le_2
+160	j_pinky_ri_2
+161	j_ring_le_2
+162	j_ring_ri_2
+163	j_thumb_le_3
+164	j_thumb_ri_3
+165	j_index_le_3
+166	j_index_ri_3
+167	j_mid_le_3
+168	j_mid_ri_3
+169	j_pinky_le_3
+170	j_pinky_ri_3
+171	j_ring_le_3
+172	j_ring_ri_3
+173	j_proc_spinelower_backside_le
+174	j_proc_spinelower_backside_ri
+175	j_proc_spinelower_back_le
+176	j_proc_spinelower_back_ri
+177	j_proc_spinelower_frnt_le
+178	j_proc_spinelower_frnt_ri
+179	j_proc_spinelower_backsidetip_le_new
+180	j_proc_spinelower_backsidetip_ri_new
+181	j_proc_spinelower_backtip_le_new
+182	j_proc_spinelower_backtip_ri_new
+183	j_cosmetic_spinelower_backside_le
+184	j_cosmetic_spinelower_backside_ri
+185	j_cosmetic_spinelower_back_le
+186	j_cosmetic_spinelower_back_ri
+187	j_cosmetic_carabiner
+188	j_proc_spinelower_frnttip_le_new
+189	j_proc_spinelower_frnttip_ri_new
+190	j_cosmetic_spinelower_frnt_le
+191	j_cosmetic_spinelower_frnt_ri
+192	j_cosmetic_spinelower_backsidetip_le_new
+193	j_cosmetic_spinelower_backsidetip_ri_new
+194	j_cosmetic_spinelower_backtip_le_new
+195	j_cosmetic_spinelower_backtip_ri_new
+196	j_cosmetic_spinelower_frnttip_le_new
+197	j_cosmetic_spinelower_frnttip_ri_new
+198	j_cosmetic_pistol_mag_pouch_a
+199	j_cosmetic_pouchf
+200	j_cosmetic_bandage
+201	j_cosmetic_canteen
+202	j_cosmetic_dumpbag
+203	j_cosmetic_hood_le_01
+204	j_cosmetic_hood_ri_01
+205	j_cosmetic_poucha
+206	j_cosmetic_pouchb
+207	j_cosmetic_pouchc
+208	j_cosmetic_pouchd
+209	j_cosmetic_pouche
+210	j_cosmetic_antennaa
+211	j_cosmetic_antennatop
+212	j_cosmetic_cuff
+213	j_cosmetic_radiodown
+214	j_cosmetic_bandagedown
+215	j_cosmetic_canteenend
+216	j_cosmetic_dumpbagend
+217	j_cosmetic_pouchaend
+218	j_cosmetic_pouchbend
+219	j_cosmetic_pouchcenda
+220	j_cosmetic_pouchcendb
+221	j_cosmetic_pouchdenda
+222	j_cosmetic_pouchdendb
+223	j_cosmetic_poucheend
+224	j_cosmetic_pouchfend
+225	j_cosmetic_antennaa1
+226	j_cosmetic_cuffend
+227	j_cosmetic_antennaa2
+228	j_cosmetic_antennaa3
+229	j_cosmetic_rstrapd

@@ -1,0 +1,16 @@
+%force_cs_anim_index_match
+
+reverse: blendspace1d( range="-180,180", blend_time="100",
+	coords="-180,-135,-90,-45,0,45,90,135,180",
+	value=[strafeyaw] ) nonloopsync
+{
+	sdr_cqb_strafe_trans_fast8_fast2@1
+	sdr_cqb_strafe_trans_fast7_fast3
+	sdr_cqb_strafe_trans_fast4_fast6
+	sdr_cqb_strafe_trans_fast1_fast9
+	sdr_cqb_strafe_trans_fast2_fast8
+	sdr_cqb_strafe_trans_fast3_fast7
+	sdr_cqb_strafe_trans_fast6_fast4
+	sdr_cqb_strafe_trans_fast9_fast1
+	sdr_cqb_strafe_trans_fast8_fast2
+}

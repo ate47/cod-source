@@ -1,0 +1,343 @@
+  0	disable_ragdoll_anim_root
+  1	end
+  2	exec_kill
+  3	exec_weapon_show
+  4	fingers_out_end_left_hand
+  5	fingers_out_end_right_hand
+  6	fingers_out_start_left_hand
+  7	fingers_out_start_right_hand
+  8	footstep_left_large
+  9	footstep_left_small
+ 10	footstep_right_large
+ 11	footstep_right_small
+ 12	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throatb.vfx, j_head
+ 13	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throatb.vfx, j_neck
+ 14	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_ankle_le
+ 15	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_elbow_ri
+ 16	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_knee_le
+ 17	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_shoulder_ri
+ 18	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp_light.vfx, j_elbow_ri
+ 19	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp_light.vfx, j_hip_ri
+ 20	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp_light.vfx, j_proc_spinelower_lift
+ 21	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp_light.vfx, j_spineupper
+ 22	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_hit_dust_imp.vfx, j_ankle_le
+ 23	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_hit_dust_imp.vfx, j_elbow_ri
+ 24	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_hit_dust_imp.vfx, j_knee_le
+ 25	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_hit_dust_imp.vfx, j_knee_ri
+ 26	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_048_contact_dust_light.vfx, j_ball_le
+ 27	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_048_contact_dust_light.vfx, j_elbow_le
+ 28	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_048_contact_dust_light.vfx, j_shoulder_le
+ 29	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_trailing_blood.vfx, j_elbow_le
+ 30	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_trailing_blood.vfx, j_neck
+ 31	fx_playfxontag, vfx/iw8_mp/executions/vfx_t9_trailing_blood.vfx, j_wrist_le
+ 32	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throatb.vfx, j_head
+ 33	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throatb.vfx, j_neck
+ 34	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_ankle_le
+ 35	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_elbow_ri
+ 36	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_knee_le
+ 37	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_shoulder_ri
+ 38	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp_light.vfx, j_elbow_ri
+ 39	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp_light.vfx, j_hip_ri
+ 40	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp_light.vfx, j_proc_spinelower_lift
+ 41	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp_light.vfx, j_spineupper
+ 42	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_hit_dust_imp.vfx, j_ankle_le
+ 43	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_hit_dust_imp.vfx, j_elbow_ri
+ 44	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_hit_dust_imp.vfx, j_knee_le
+ 45	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_hit_dust_imp.vfx, j_knee_ri
+ 46	fx_stopfxontag, vfx/iw8_mp/executions/vfx_t9_048_contact_dust_light.vfx, j_ball_le
+ 47	fx_stopfxontag, vfx/iw8_mp/executions/vfx_t9_048_contact_dust_light.vfx, j_elbow_le
+ 48	fx_stopfxontag, vfx/iw8_mp/executions/vfx_t9_048_contact_dust_light.vfx, j_shoulder_le
+ 49	fx_stopfxontag, vfx/iw8_mp/executions/vfx_t9_trailing_blood.vfx, j_elbow_le
+ 50	fx_stopfxontag, vfx/iw8_mp/executions/vfx_t9_trailing_blood.vfx, j_neck
+ 51	fx_stopfxontag, vfx/iw8_mp/executions/vfx_t9_trailing_blood.vfx, j_wrist_le
+ 52	ik_out_end_left_hand
+ 53	ik_out_end_right_hand
+ 54	ik_out_start_left_hand
+ 55	ik_out_start_right_hand
+ 56	j_ankle_le
+ 57	j_ankle_ri
+ 58	j_ball_le
+ 59	j_ball_ri
+ 60	j_brow_le_1
+ 61	j_brow_le_2
+ 62	j_brow_le_3
+ 63	j_brow_ri_1
+ 64	j_brow_ri_2
+ 65	j_brow_ri_3
+ 66	j_cheek_le_1
+ 67	j_cheek_le_2
+ 68	j_cheek_puff_le
+ 69	j_cheek_puff_ri
+ 70	j_cheek_ri_1
+ 71	j_cheek_ri_2
+ 72	j_chest
+ 73	j_chin
+ 74	j_clavicle_le
+ 75	j_clavicle_ri
+ 76	j_elbow_le
+ 77	j_elbow_ri
+ 78	j_eye_lid_bot_le
+ 79	j_eye_lid_bot_ri
+ 80	j_eye_lid_top_le
+ 81	j_eye_lid_top_le_1
+ 82	j_eye_lid_top_ri
+ 83	j_eye_lid_top_ri_1
+ 84	j_eyeball_le
+ 85	j_eyeball_ri
+ 86	j_eyelash_bot_le_1
+ 87	j_eyelash_bot_le_2
+ 88	j_eyelash_bot_ri_1
+ 89	j_eyelash_bot_ri_2
+ 90	j_eyelash_top_le_1
+ 91	j_eyelash_top_le_2
+ 92	j_eyelash_top_ri_1
+ 93	j_eyelash_top_ri_2
+ 94	j_forehead
+ 95	j_forehead_le_1
+ 96	j_forehead_ri_1
+ 97	j_furrow_le
+ 98	j_furrow_ri
+ 99	j_gun
+100	j_gun_adjust
+101	j_head
+102	j_helmet
+103	j_hip_le
+104	j_hip_ri
+105	j_index_le_1
+106	j_index_le_2
+107	j_index_le_3
+108	j_index_ri_1
+109	j_index_ri_2
+110	j_index_ri_3
+111	j_insidegum
+112	j_insidegum_le_1
+113	j_insidegum_ri_1
+114	j_jaw
+115	j_knee_le
+116	j_knee_ri
+117	j_levator_le_1
+118	j_levator_le_2
+119	j_levator_ri_1
+120	j_levator_ri_2
+121	j_lip_bot
+122	j_lip_bot_le_1
+123	j_lip_bot_le_2
+124	j_lip_bot_le_3
+125	j_lip_bot_le_4
+126	j_lip_bot_ri_1
+127	j_lip_bot_ri_2
+128	j_lip_bot_ri_3
+129	j_lip_bot_ri_4
+130	j_lip_inside_le_1
+131	j_lip_inside_ri_1
+132	j_lip_top
+133	j_lip_top_le_1
+134	j_lip_top_le_2
+135	j_lip_top_le_3
+136	j_lip_top_le_4
+137	j_lip_top_ri_1
+138	j_lip_top_ri_2
+139	j_lip_top_ri_3
+140	j_lip_top_ri_4
+141	j_lowergum
+142	j_mainroot
+143	j_metaindex_le_1
+144	j_metaindex_ri_1
+145	j_metamid_le_1
+146	j_metamid_ri_1
+147	j_metapinky_le_1
+148	j_metapinky_ri_1
+149	j_metaring_le_1
+150	j_metaring_ri_1
+151	j_mid_le_1
+152	j_mid_le_2
+153	j_mid_le_3
+154	j_mid_ri_1
+155	j_mid_ri_2
+156	j_mid_ri_3
+157	j_mouthcorner_le
+158	j_mouthcorner_ri
+159	j_nasolabial_le_1
+160	j_nasolabial_le_2
+161	j_nasolabial_le_3
+162	j_nasolabial_le_4
+163	j_nasolabial_ri_1
+164	j_nasolabial_ri_2
+165	j_nasolabial_ri_3
+166	j_nasolabial_ri_4
+167	j_neck
+168	j_nose_tip
+169	j_nvg
+170	j_periorbital_le_1
+171	j_periorbital_le_2
+172	j_periorbital_le_3
+173	j_periorbital_ri_1
+174	j_periorbital_ri_2
+175	j_periorbital_ri_3
+176	j_pinky_le_1
+177	j_pinky_le_2
+178	j_pinky_le_3
+179	j_pinky_ri_1
+180	j_pinky_ri_2
+181	j_pinky_ri_3
+182	j_ring_le_1
+183	j_ring_le_2
+184	j_ring_le_3
+185	j_ring_ri_1
+186	j_ring_ri_2
+187	j_ring_ri_3
+188	j_shield_le
+189	j_shield_ri
+190	j_shoulder_le
+191	j_shoulder_ri
+192	j_spine4
+193	j_spinelower
+194	j_spineupper
+195	j_temple_le
+196	j_temple_ri
+197	j_thumb_le_1
+198	j_thumb_le_2
+199	j_thumb_le_3
+200	j_thumb_ri_1
+201	j_thumb_ri_2
+202	j_thumb_ri_3
+203	j_tongue_1
+204	j_tongue_2
+205	j_tongue_3
+206	j_underchin
+207	j_underlip
+208	j_uppergum
+209	j_upperlip
+210	j_wrist_le
+211	j_wrist_ri
+212	ps_exec_201_laststand_t9dog_01
+213	ps_exec_201_laststand_t9dog_02
+214	ps_exec_201_laststand_t9dog_03
+215	ps_exec_201_laststand_t9dog_04
+216	ps_exec_201_laststand_t9dog_05
+217	ps_exec_201_prone_t9dog_01
+218	ps_exec_201_prone_t9dog_02
+219	ps_exec_201_prone_t9dog_03
+220	ps_exec_201_prone_t9dog_04
+221	ps_exec_201_stand_t9dog_01
+222	ps_exec_201_stand_t9dog_02
+223	ps_exec_201_stand_t9dog_03
+224	ps_exec_201_stand_t9dog_04
+225	ps_exec_baton_impact_back
+226	ps_exec_baton_impact_body
+227	ps_exec_gear_mvmt_brush
+228	ps_exec_gear_mvmt_complex_heavy
+229	ps_exec_gear_mvmt_long_heavy
+230	ps_exec_gear_mvmt_long_light
+231	ps_exec_gear_mvmt_midlength_heavy
+232	ps_exec_gear_mvmt_midlength_light
+233	ps_exec_gear_mvmt_quick_heavy
+234	ps_exec_gore_bone_break_loud
+235	ps_exec_gore_tear
+236	ps_exec_gun_drop,tag_weapon_right
+237	ps_exec_gun_rattle_heavy,tag_weapon_right
+238	ps_exec_hatchet_hack_loud
+239	ps_exec_slide
+240	ps_generic_death_execution
+241	ps_generic_pain_enemy
+242	ps_mp_execution_animal_000_dog_prone_whistle
+243	rottweiler_j_ankle_le
+244	rottweiler_j_ankle_ri
+245	rottweiler_j_ball_le
+246	rottweiler_j_ball_ri
+247	rottweiler_j_elbow_le
+248	rottweiler_j_elbow_ri
+249	rottweiler_j_eye_le
+250	rottweiler_j_eye_ri
+251	rottweiler_j_head
+252	rottweiler_j_helmet
+253	rottweiler_j_hip_base_le
+254	rottweiler_j_hip_base_ri
+255	rottweiler_j_hip_le
+256	rottweiler_j_hip_ri
+257	rottweiler_j_jaw
+258	rottweiler_j_jawend
+259	rottweiler_j_knee_le
+260	rottweiler_j_knee_ri
+261	rottweiler_j_le_ear0
+262	rottweiler_j_le_ear1
+263	rottweiler_j_le_earend
+264	rottweiler_j_le_eyebrow0
+265	rottweiler_j_le_eyebrow1
+266	rottweiler_j_le_eyelidbottom0
+267	rottweiler_j_le_eyelidupper0
+268	rottweiler_j_le_lipbottom0
+269	rottweiler_j_le_lipbottom2
+270	rottweiler_j_le_lipbottom3
+271	rottweiler_j_le_lipupper0
+272	rottweiler_j_le_lipupper1
+273	rottweiler_j_le_lipupper2
+274	rottweiler_j_lipbottom0
+275	rottweiler_j_lipupper0
+276	rottweiler_j_mainroot
+277	rottweiler_j_neck1
+278	rottweiler_j_neck2
+279	rottweiler_j_nose
+280	rottweiler_j_palm_end_le
+281	rottweiler_j_palm_end_ri
+282	rottweiler_j_palm_le
+283	rottweiler_j_palm_ri
+284	rottweiler_j_pelvis
+285	rottweiler_j_ri_ear0
+286	rottweiler_j_ri_ear1
+287	rottweiler_j_ri_earend
+288	rottweiler_j_ri_eyebrow0
+289	rottweiler_j_ri_eyebrow1
+290	rottweiler_j_ri_eyelidbottom0
+291	rottweiler_j_ri_eyelidupper0
+292	rottweiler_j_ri_lipbottom0
+293	rottweiler_j_ri_lipbottom2
+294	rottweiler_j_ri_lipbottom3
+295	rottweiler_j_ri_lipupper0
+296	rottweiler_j_ri_lipupper1
+297	rottweiler_j_ri_lipupper2
+298	rottweiler_j_shoulder_base_le
+299	rottweiler_j_shoulder_base_ri
+300	rottweiler_j_shoulder_le
+301	rottweiler_j_shoulder_ri
+302	rottweiler_j_spine1
+303	rottweiler_j_spine2
+304	rottweiler_j_spine3
+305	rottweiler_j_spine4
+306	rottweiler_j_tail0
+307	rottweiler_j_tail1
+308	rottweiler_j_tail2
+309	rottweiler_j_tail3
+310	rottweiler_j_tail_base
+311	rottweiler_j_toe_le
+312	rottweiler_j_toe_ri
+313	rottweiler_j_tongue1
+314	rottweiler_j_tongue2
+315	rottweiler_j_tongue3
+316	rottweiler_j_tongue4
+317	rottweiler_j_tongue_end
+318	rottweiler_j_wrist_le
+319	rottweiler_j_wrist_ri
+320	rottweiler_tag_char_vis_light_01
+321	rottweiler_tag_char_vis_light_02
+322	rottweiler_tag_char_vis_light_03
+323	rottweiler_tag_eye
+324	rottweiler_tag_jaw
+325	rottweiler_tag_shldr_str_drvr_le
+326	rottweiler_tag_shldr_str_drvr_ri
+327	rottweiler_tag_shoulder_stretch_le
+328	rottweiler_tag_shoulder_stretch_ri
+329	rottweiler_tag_thigh_str_drvr_le
+330	rottweiler_tag_thigh_str_drvr_ri
+331	rottweiler_tag_thigh_stretch_le
+332	rottweiler_tag_thigh_stretch_ri
+333	start_ragdoll
+334	stop_ragdoll_anim
+335	tag_accessory_left
+336	tag_accessory_right
+337	tag_ik_foot_loc_le
+338	tag_ik_foot_loc_ri
+339	tag_inhand
+340	tag_sync
+341	tag_weapon_left
+342	tag_weapon_right

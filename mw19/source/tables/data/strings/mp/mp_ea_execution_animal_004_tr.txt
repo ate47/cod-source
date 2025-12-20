@@ -1,0 +1,280 @@
+  0	bodyfall large
+  1	camerasuport0_jnt
+  2	disable_ragdoll_anim_root
+  3	end
+  4	exec_kill
+  5	exec_weapon_show
+  6	fingers_out_end_left_hand
+  7	fingers_out_end_right_hand
+  8	fingers_out_start_left_hand
+  9	fingers_out_start_right_hand
+ 10	footstep_left_large
+ 11	footstep_left_small
+ 12	footstep_right_small
+ 13	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_dog_bite_shldr.vfx, jaw_jnt
+ 14	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throat.vfx, jaw_jnt
+ 15	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throatb.vfx, jaw_jnt
+ 16	fx_playfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_knee_ri
+ 17	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_dog_bite_shldr.vfx, jaw_jnt
+ 18	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throat.vfx, jaw_jnt
+ 19	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_dog_throatb.vfx, jaw_jnt
+ 20	fx_stopfxontag, vfx/iw8_mp/executions/vfx_exec_fall_dust_imp.vfx, j_knee_ri
+ 21	ik_out_end_left_hand
+ 22	ik_out_end_right_hand
+ 23	ik_out_start_left_hand
+ 24	ik_out_start_right_hand
+ 25	j_ankle_le
+ 26	j_ankle_ri
+ 27	j_ball_le
+ 28	j_ball_ri
+ 29	j_brow_le_1
+ 30	j_brow_le_2
+ 31	j_brow_le_3
+ 32	j_brow_ri_1
+ 33	j_brow_ri_2
+ 34	j_brow_ri_3
+ 35	j_cheek_le_1
+ 36	j_cheek_le_2
+ 37	j_cheek_puff_le
+ 38	j_cheek_puff_ri
+ 39	j_cheek_ri_1
+ 40	j_cheek_ri_2
+ 41	j_chest
+ 42	j_chin
+ 43	j_clavicle_le
+ 44	j_clavicle_ri
+ 45	j_elbow_le
+ 46	j_elbow_ri
+ 47	j_eye_lid_bot_le
+ 48	j_eye_lid_bot_ri
+ 49	j_eye_lid_top_le
+ 50	j_eye_lid_top_le_1
+ 51	j_eye_lid_top_ri
+ 52	j_eye_lid_top_ri_1
+ 53	j_eyeball_le
+ 54	j_eyeball_ri
+ 55	j_eyelash_bot_le_1
+ 56	j_eyelash_bot_le_2
+ 57	j_eyelash_bot_ri_1
+ 58	j_eyelash_bot_ri_2
+ 59	j_eyelash_top_le_1
+ 60	j_eyelash_top_le_2
+ 61	j_eyelash_top_ri_1
+ 62	j_eyelash_top_ri_2
+ 63	j_forehead
+ 64	j_forehead_le_1
+ 65	j_forehead_ri_1
+ 66	j_furrow_le
+ 67	j_furrow_ri
+ 68	j_gun
+ 69	j_gun_adjust
+ 70	j_head
+ 71	j_head_dog
+ 72	j_helmet
+ 73	j_helmet_dog
+ 74	j_hip_le
+ 75	j_hip_ri
+ 76	j_index_le_1
+ 77	j_index_le_2
+ 78	j_index_le_3
+ 79	j_index_ri_1
+ 80	j_index_ri_2
+ 81	j_index_ri_3
+ 82	j_insidegum
+ 83	j_insidegum_le_1
+ 84	j_insidegum_ri_1
+ 85	j_jaw
+ 86	j_knee_le
+ 87	j_knee_ri
+ 88	j_levator_le_1
+ 89	j_levator_le_2
+ 90	j_levator_ri_1
+ 91	j_levator_ri_2
+ 92	j_lip_bot
+ 93	j_lip_bot_le_1
+ 94	j_lip_bot_le_2
+ 95	j_lip_bot_le_3
+ 96	j_lip_bot_le_4
+ 97	j_lip_bot_ri_1
+ 98	j_lip_bot_ri_2
+ 99	j_lip_bot_ri_3
+100	j_lip_bot_ri_4
+101	j_lip_inside_le_1
+102	j_lip_inside_ri_1
+103	j_lip_top
+104	j_lip_top_le_1
+105	j_lip_top_le_2
+106	j_lip_top_le_3
+107	j_lip_top_le_4
+108	j_lip_top_ri_1
+109	j_lip_top_ri_2
+110	j_lip_top_ri_3
+111	j_lip_top_ri_4
+112	j_lowergum
+113	j_mainroot
+114	j_mainroot_dog
+115	j_metaindex_le_1
+116	j_metaindex_ri_1
+117	j_metamid_le_1
+118	j_metamid_ri_1
+119	j_metapinky_le_1
+120	j_metapinky_ri_1
+121	j_metaring_le_1
+122	j_metaring_ri_1
+123	j_mid_le_1
+124	j_mid_le_2
+125	j_mid_le_3
+126	j_mid_ri_1
+127	j_mid_ri_2
+128	j_mid_ri_3
+129	j_mouthcorner_le
+130	j_mouthcorner_ri
+131	j_nasolabial_le_1
+132	j_nasolabial_le_2
+133	j_nasolabial_le_3
+134	j_nasolabial_le_4
+135	j_nasolabial_ri_1
+136	j_nasolabial_ri_2
+137	j_nasolabial_ri_3
+138	j_nasolabial_ri_4
+139	j_neck
+140	j_nose_tip
+141	j_nvg
+142	j_periorbital_le_1
+143	j_periorbital_le_2
+144	j_periorbital_le_3
+145	j_periorbital_ri_1
+146	j_periorbital_ri_2
+147	j_periorbital_ri_3
+148	j_pinky_le_1
+149	j_pinky_le_2
+150	j_pinky_le_3
+151	j_pinky_ri_1
+152	j_pinky_ri_2
+153	j_pinky_ri_3
+154	j_ring_le_1
+155	j_ring_le_2
+156	j_ring_le_3
+157	j_ring_ri_1
+158	j_ring_ri_2
+159	j_ring_ri_3
+160	j_shield_le
+161	j_shield_ri
+162	j_shoulder_le
+163	j_shoulder_ri
+164	j_spine4
+165	j_spine4_dog
+166	j_spinelower
+167	j_spineupper
+168	j_temple_le
+169	j_temple_ri
+170	j_thumb_le_1
+171	j_thumb_le_2
+172	j_thumb_le_3
+173	j_thumb_ri_1
+174	j_thumb_ri_2
+175	j_thumb_ri_3
+176	j_tongue_1
+177	j_tongue_2
+178	j_tongue_3
+179	j_underchin
+180	j_underlip
+181	j_uppergum
+182	j_upperlip
+183	j_wrist_le
+184	j_wrist_ri
+185	jaw_jnt
+186	jawend_jnt
+187	l_backleg0_jnt
+188	l_backleg1_jnt
+189	l_backleg2_jnt
+190	l_ear0_jnt
+191	l_ear1_jnt
+192	l_earend_jnt
+193	l_eye0_jnt
+194	l_eyebrow0_jnt
+195	l_eyelidbottom0_jnt
+196	l_eyelidupper0_jnt
+197	l_foot0_jnt
+198	l_footend_jnt
+199	l_frontleg0_jnt
+200	l_frontleg1_jnt
+201	l_frontleg2_jnt
+202	l_frontleg3_jnt
+203	l_frontleg4_jnt
+204	l_frontlegend_jnt
+205	l_lipbottom0_jnt
+206	l_lipbottom1_jnt
+207	l_lipmid0_jnt
+208	l_lipupper0_jnt
+209	l_lipupper2_jnt
+210	l_shoulderhelper0_jnt
+211	l_shoulderhelper1_jnt
+212	l_tail0_jnt
+213	l_tail1_jnt
+214	l_tail2_jnt
+215	l_tail3_jnt
+216	l_tailend_jnt
+217	lipbottom0_jnt
+218	lipupper0_jnt
+219	neck0_jnt
+220	neck1_jnt
+221	nose_jnt
+222	ps_exec_gear_mvmt_long_light
+223	ps_exec_gear_mvmt_midlength_light
+224	ps_exec_hyena_intro
+225	ps_generic_death_execution
+226	ps_mp_execution_animal_000_dog_prone_01
+227	ps_mp_execution_animal_000_dog_prone_03
+228	ps_mp_execution_animal_000_dog_prone_04
+229	ps_mp_execution_animal_000_dog_prone_05
+230	ps_mp_execution_animal_000_dog_prone_06
+231	ps_mp_execution_animal_dog_approach
+232	r_backleg0_jnt
+233	r_backleg1_jnt
+234	r_backleg2_jnt
+235	r_ear0_jnt
+236	r_ear1_jnt
+237	r_earend_jnt
+238	r_eye0_jnt
+239	r_eyebrow0_jnt
+240	r_eyelidbottom0_jnt
+241	r_eyelidupper0_jnt
+242	r_foot0_jnt
+243	r_footend_jnt
+244	r_frontleg0_jnt
+245	r_frontleg1_jnt
+246	r_frontleg2_jnt
+247	r_frontleg3_jnt
+248	r_frontleg4_jnt
+249	r_frontlegend_jnt
+250	r_ripbottom0_jnt
+251	r_ripbottom1_jnt
+252	r_ripmid0_jnt
+253	r_ripupper0_jnt
+254	r_ripupper2_jnt
+255	r_shoulderhelper0_jnt
+256	r_shoulderhelper1_jnt
+257	shoulderhelper0_jnt
+258	spine2_jnt
+259	spine3_jnt
+260	spine4_jnt
+261	start_ragdoll
+262	stop_ragdoll_anim
+263	tag_accessory_left
+264	tag_accessory_right
+265	tag_camera
+266	tag_eye
+267	tag_ik_foot_loc_le
+268	tag_ik_foot_loc_ri
+269	tag_inhand
+270	tag_mouth_fx
+271	tag_player
+272	tag_sync
+273	tag_weapon_left
+274	tag_weapon_right
+275	tongue0_jnt
+276	tongue1_jnt
+277	tongue2_jnt
+278	tongue3_jnt
+279	tongueend_jnt

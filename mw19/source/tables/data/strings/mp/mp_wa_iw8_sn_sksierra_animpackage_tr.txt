@@ -1,0 +1,242 @@
+  0	end
+  1	fingers_in_end_left_hand
+  2	fingers_in_end_right_hand
+  3	fingers_in_start_left_hand
+  4	fingers_in_start_right_hand
+  5	fingers_out_end_left_hand
+  6	fingers_out_end_right_hand
+  7	fingers_out_start_left_hand
+  8	fingers_out_start_right_hand
+  9	footstep_left_small
+ 10	footstep_right_small
+ 11	ik_in_end_left_hand
+ 12	ik_in_end_right_hand
+ 13	ik_in_start_left_hand
+ 14	ik_in_start_right_hand
+ 15	ik_out_end_left_hand
+ 16	ik_out_end_right_hand
+ 17	ik_out_start_left_hand
+ 18	ik_out_start_right_hand
+ 19	j_ankle_le
+ 20	j_ankle_ri
+ 21	j_ball_le
+ 22	j_ball_ri
+ 23	j_bolt
+ 24	j_bolt_release
+ 25	j_bullet01
+ 26	j_bullet02
+ 27	j_bullet03
+ 28	j_chamber
+ 29	j_charging_handle
+ 30	j_chest
+ 31	j_clavicle_le
+ 32	j_clavicle_ri
+ 33	j_crotch
+ 34	j_elbow_le
+ 35	j_elbow_ri
+ 36	j_elbowdq_le
+ 37	j_elbowdq_ri
+ 38	j_follower
+ 39	j_groinprotector
+ 40	j_gun
+ 41	j_head
+ 42	j_helmet
+ 43	j_hip_le
+ 44	j_hip_ri
+ 45	j_hiptwist_le
+ 46	j_hiptwist_ri
+ 47	j_hybrid_scope
+ 48	j_index_le_1
+ 49	j_index_le_2
+ 50	j_index_le_3
+ 51	j_index_le_4
+ 52	j_index_ri_1
+ 53	j_index_ri_2
+ 54	j_index_ri_3
+ 55	j_index_ri_4
+ 56	j_knee_le
+ 57	j_knee_ri
+ 58	j_kneedq_le
+ 59	j_kneedq_ri
+ 60	j_mag1
+ 61	j_mag2
+ 62	j_mag_release
+ 63	j_magnifier_lever
+ 64	j_magrelease
+ 65	j_mainroot
+ 66	j_metaindex_le_1
+ 67	j_metaindex_ri_1
+ 68	j_metamid_le_1
+ 69	j_metamid_ri_1
+ 70	j_metapinky_le_1
+ 71	j_metapinky_ri_1
+ 72	j_metaring_le_1
+ 73	j_metaring_ri_1
+ 74	j_mid_le_1
+ 75	j_mid_le_2
+ 76	j_mid_le_3
+ 77	j_mid_ri_1
+ 78	j_mid_ri_2
+ 79	j_mid_ri_3
+ 80	j_neck
+ 81	j_nvg
+ 82	j_pinky_le_1
+ 83	j_pinky_le_2
+ 84	j_pinky_le_3
+ 85	j_pinky_ri_1
+ 86	j_pinky_ri_2
+ 87	j_pinky_ri_3
+ 88	j_ring1
+ 89	j_ring2
+ 90	j_ring_le_1
+ 91	j_ring_le_2
+ 92	j_ring_le_3
+ 93	j_ring_ri_1
+ 94	j_ring_ri_2
+ 95	j_ring_ri_3
+ 96	j_safety
+ 97	j_shield_le
+ 98	j_shield_ri
+ 99	j_shoulder_le
+100	j_shoulder_ri
+101	j_shouldertwist_le
+102	j_shouldertwist_ri
+103	j_spine4
+104	j_spinelower
+105	j_spineupper
+106	j_thumb_le_1
+107	j_thumb_le_2
+108	j_thumb_le_3
+109	j_thumb_le_4
+110	j_thumb_ri_1
+111	j_thumb_ri_2
+112	j_thumb_ri_3
+113	j_thumb_ri_4
+114	j_trigger
+115	j_visor
+116	j_visor_inner
+117	j_webbing_le_1
+118	j_webbing_le_2
+119	j_webbing_ri_1
+120	j_webbing_ri_2
+121	j_wrist_le
+122	j_wrist_ri
+123	j_wristfronttwist1_le
+124	j_wristfronttwist1_ri
+125	mag_eject
+126	melee_attack_sfx
+127	mvmt_step_post
+128	mvmt_step_pre
+129	ps_weap_ar_idle_1_plr
+130	ps_weap_ar_idle_2_plr
+131	ps_weap_ar_idle_3_plr
+132	ps_weap_ar_idle_4_01_plr
+133	ps_weap_ar_idle_4_02_plr
+134	ps_weap_ar_idle_4_03_plr
+135	ps_wfoly_plr_sn_sksierra_drop_01
+136	ps_wfoly_plr_sn_sksierra_drop_quick_01
+137	ps_wfoly_plr_sn_sksierra_hybrid_scope_side_off
+138	ps_wfoly_plr_sn_sksierra_hybrid_scope_side_on
+139	ps_wfoly_plr_sn_sksierra_hybrid_scope_snap_closed
+140	ps_wfoly_plr_sn_sksierra_hybrid_scope_snap_open
+141	ps_wfoly_plr_sn_sksierra_hybrid_scope_top_in
+142	ps_wfoly_plr_sn_sksierra_hybrid_scope_top_out
+143	ps_wfoly_plr_sn_sksierra_inspect_01
+144	ps_wfoly_plr_sn_sksierra_inspect_02
+145	ps_wfoly_plr_sn_sksierra_inspect_03
+146	ps_wfoly_plr_sn_sksierra_inspect_04
+147	ps_wfoly_plr_sn_sksierra_raise_01
+148	ps_wfoly_plr_sn_sksierra_raise_quick_01
+149	ps_wfoly_plr_sn_sksierra_reload_01
+150	ps_wfoly_plr_sn_sksierra_reload_02
+151	ps_wfoly_plr_sn_sksierra_reload_03
+152	ps_wfoly_plr_sn_sksierra_reload_035
+153	ps_wfoly_plr_sn_sksierra_reload_04
+154	ps_wfoly_plr_sn_sksierra_reload_empty_01
+155	ps_wfoly_plr_sn_sksierra_reload_empty_02
+156	ps_wfoly_plr_sn_sksierra_reload_empty_03
+157	ps_wfoly_plr_sn_sksierra_reload_empty_035
+158	ps_wfoly_plr_sn_sksierra_reload_empty_04
+159	ps_wfoly_plr_sn_sksierra_reload_empty_05
+160	ps_wfoly_plr_sn_sksierra_reload_empty_06
+161	ps_wfoly_plr_sn_sksierra_reload_empty_fast_01
+162	ps_wfoly_plr_sn_sksierra_reload_empty_fast_02
+163	ps_wfoly_plr_sn_sksierra_reload_empty_fast_03
+164	ps_wfoly_plr_sn_sksierra_reload_empty_fast_035
+165	ps_wfoly_plr_sn_sksierra_reload_empty_fast_04
+166	ps_wfoly_plr_sn_sksierra_reload_empty_fast_05
+167	ps_wfoly_plr_sn_sksierra_reload_empty_fast_06
+168	ps_wfoly_plr_sn_sksierra_reload_empty_fast_smag_01
+169	ps_wfoly_plr_sn_sksierra_reload_empty_fast_smag_02
+170	ps_wfoly_plr_sn_sksierra_reload_empty_fast_smag_03
+171	ps_wfoly_plr_sn_sksierra_reload_empty_fast_smag_035
+172	ps_wfoly_plr_sn_sksierra_reload_empty_fast_smag_04
+173	ps_wfoly_plr_sn_sksierra_reload_empty_fast_smag_05
+174	ps_wfoly_plr_sn_sksierra_reload_empty_fast_xmag_01
+175	ps_wfoly_plr_sn_sksierra_reload_empty_fast_xmag_02
+176	ps_wfoly_plr_sn_sksierra_reload_empty_fast_xmag_03
+177	ps_wfoly_plr_sn_sksierra_reload_empty_fast_xmag_035
+178	ps_wfoly_plr_sn_sksierra_reload_empty_fast_xmag_04
+179	ps_wfoly_plr_sn_sksierra_reload_empty_fast_xmag_05
+180	ps_wfoly_plr_sn_sksierra_reload_empty_fast_xmag_06
+181	ps_wfoly_plr_sn_sksierra_reload_empty_smag_01
+182	ps_wfoly_plr_sn_sksierra_reload_empty_smag_02
+183	ps_wfoly_plr_sn_sksierra_reload_empty_smag_03
+184	ps_wfoly_plr_sn_sksierra_reload_empty_smag_035
+185	ps_wfoly_plr_sn_sksierra_reload_empty_smag_04
+186	ps_wfoly_plr_sn_sksierra_reload_empty_smag_05
+187	ps_wfoly_plr_sn_sksierra_reload_empty_smag_06
+188	ps_wfoly_plr_sn_sksierra_reload_empty_xmag_01
+189	ps_wfoly_plr_sn_sksierra_reload_empty_xmag_02
+190	ps_wfoly_plr_sn_sksierra_reload_empty_xmag_03
+191	ps_wfoly_plr_sn_sksierra_reload_empty_xmag_035
+192	ps_wfoly_plr_sn_sksierra_reload_empty_xmag_04
+193	ps_wfoly_plr_sn_sksierra_reload_empty_xmag_05
+194	ps_wfoly_plr_sn_sksierra_reload_empty_xmag_06
+195	ps_wfoly_plr_sn_sksierra_reload_fast_01
+196	ps_wfoly_plr_sn_sksierra_reload_fast_02
+197	ps_wfoly_plr_sn_sksierra_reload_fast_03
+198	ps_wfoly_plr_sn_sksierra_reload_fast_035
+199	ps_wfoly_plr_sn_sksierra_reload_fast_04
+200	ps_wfoly_plr_sn_sksierra_reload_fast_smag_01
+201	ps_wfoly_plr_sn_sksierra_reload_fast_smag_02
+202	ps_wfoly_plr_sn_sksierra_reload_fast_smag_03
+203	ps_wfoly_plr_sn_sksierra_reload_fast_smag_035
+204	ps_wfoly_plr_sn_sksierra_reload_fast_smag_04
+205	ps_wfoly_plr_sn_sksierra_reload_fast_xmag_01
+206	ps_wfoly_plr_sn_sksierra_reload_fast_xmag_02
+207	ps_wfoly_plr_sn_sksierra_reload_fast_xmag_03
+208	ps_wfoly_plr_sn_sksierra_reload_fast_xmag_035
+209	ps_wfoly_plr_sn_sksierra_reload_fast_xmag_04
+210	ps_wfoly_plr_sn_sksierra_reload_smag_01
+211	ps_wfoly_plr_sn_sksierra_reload_smag_02
+212	ps_wfoly_plr_sn_sksierra_reload_smag_03
+213	ps_wfoly_plr_sn_sksierra_reload_smag_035
+214	ps_wfoly_plr_sn_sksierra_reload_smag_04
+215	ps_wfoly_plr_sn_sksierra_reload_xmag_01
+216	ps_wfoly_plr_sn_sksierra_reload_xmag_02
+217	ps_wfoly_plr_sn_sksierra_reload_xmag_03
+218	ps_wfoly_plr_sn_sksierra_reload_xmag_035
+219	ps_wfoly_plr_sn_sksierra_reload_xmag_04
+220	tag_accessory_left
+221	tag_accessory_right
+222	tag_ads
+223	tag_cambone
+224	tag_camera
+225	tag_clip
+226	tag_hybrid
+227	tag_ik_loc_le_foregrip
+228	tag_knife_attach2
+229	tag_mag_attach
+230	tag_player
+231	tag_playerhelmet
+232	tag_sling
+233	tag_sync
+234	tag_torso
+235	tag_view
+236	tag_weapon
+237	tag_weapon_left
+238	tag_weapon_right
+239	viewmodel_large
+240	viewmodel_medium
+241	viewmodel_small

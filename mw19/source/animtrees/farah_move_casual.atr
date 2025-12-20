@@ -1,0 +1,24 @@
+%force_cs_anim_index_match
+
+move_loop: blendspace2d( rangex="-90,90", rangey="0,250", blend_time="100",
+coords="{0,56},{90,56},{-90,56},{0,105},{90,105},{-90,105},{0,170},{90,170},{-90,170},{0,220},{90,220},{-90,220},{0,250},{90,250},{-90,249}",
+edges="{0,3,4},{0,1,4},{0,3,5},{0,2,5},{3,6,7},{3,4,7},{3,6,8},{3,5,8},{6,9,10},{6,7,10},{6,9,11},{6,8,11},{9,12,13},{9,10,13},{9,12,14},{9,11,14}",
+valuex=[leanyaw], valuey=[desiredspeed] ) loopsync
+{
+	farah_casual_walk_forward01
+	farah_casual_walk_forward_r
+	farah_casual_walk_forward_l
+	farah_casual_fast_forward01
+	farah_casual_fast_forward_r
+	farah_casual_fast_forward_l
+	farah_casual_jog_forward01
+	farah_casual_jog_forward_r
+	farah_casual_jog_forward_l
+	farah_casual_run_forward01
+	farah_casual_run_forward_r
+	farah_casual_run_forward_l
+	farah_casual_sprint_forward01
+	farah_casual_sprint_forward_r
+	farah_casual_sprint_forward_l	
+}
+

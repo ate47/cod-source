@@ -1,0 +1,267 @@
+  0	end
+  1	fingers_in_end_left_hand
+  2	fingers_in_end_right_hand
+  3	fingers_in_start_left_hand
+  4	fingers_in_start_right_hand
+  5	fingers_out_end_left_hand
+  6	fingers_out_end_right_hand
+  7	fingers_out_start_left_hand
+  8	fingers_out_start_right_hand
+  9	footstep_left_small
+ 10	footstep_right_small
+ 11	ik_in_end_left_hand
+ 12	ik_in_end_right_hand
+ 13	ik_in_start_left_hand
+ 14	ik_in_start_right_hand
+ 15	ik_out_end_left_hand
+ 16	ik_out_end_right_hand
+ 17	ik_out_start_left_hand
+ 18	ik_out_start_right_hand
+ 19	interruptible
+ 20	j_ankle_le
+ 21	j_ankle_ri
+ 22	j_b_01
+ 23	j_b_010
+ 24	j_b_011
+ 25	j_b_012
+ 26	j_b_013
+ 27	j_b_014
+ 28	j_b_015
+ 29	j_b_016
+ 30	j_b_02
+ 31	j_b_03
+ 32	j_b_04
+ 33	j_b_05
+ 34	j_b_06
+ 35	j_b_07
+ 36	j_b_08
+ 37	j_b_09
+ 38	j_ball_le
+ 39	j_ball_ri
+ 40	j_bullet1
+ 41	j_bullet2
+ 42	j_chamber
+ 43	j_charginghandle
+ 44	j_chest
+ 45	j_clavicle_le
+ 46	j_clavicle_ri
+ 47	j_crotch
+ 48	j_ejectionport
+ 49	j_elbow_le
+ 50	j_elbow_ri
+ 51	j_elbowdq_le
+ 52	j_elbowdq_ri
+ 53	j_firesel
+ 54	j_grenade
+ 55	j_grenade_empty
+ 56	j_groinprotector
+ 57	j_gun
+ 58	j_head
+ 59	j_helmet
+ 60	j_hip_le
+ 61	j_hip_ri
+ 62	j_hiptwist_le
+ 63	j_hiptwist_ri
+ 64	j_hybrid_scope
+ 65	j_index_le_1
+ 66	j_index_le_2
+ 67	j_index_le_3
+ 68	j_index_le_4
+ 69	j_index_ri_1
+ 70	j_index_ri_2
+ 71	j_index_ri_3
+ 72	j_index_ri_4
+ 73	j_knee_le
+ 74	j_knee_ri
+ 75	j_kneedq_le
+ 76	j_kneedq_ri
+ 77	j_lever
+ 78	j_mag1
+ 79	j_mag2
+ 80	j_mag_follower
+ 81	j_magnifier_lever
+ 82	j_magrel
+ 83	j_magrel2
+ 84	j_mainroot
+ 85	j_metaindex_le_1
+ 86	j_metaindex_ri_1
+ 87	j_metamid_le_1
+ 88	j_metamid_ri_1
+ 89	j_metapinky_le_1
+ 90	j_metapinky_ri_1
+ 91	j_metaring_le_1
+ 92	j_metaring_ri_1
+ 93	j_mid_le_1
+ 94	j_mid_le_2
+ 95	j_mid_le_3
+ 96	j_mid_ri_1
+ 97	j_mid_ri_2
+ 98	j_mid_ri_3
+ 99	j_neck
+100	j_nvg
+101	j_pinky_le_1
+102	j_pinky_le_2
+103	j_pinky_le_3
+104	j_pinky_ri_1
+105	j_pinky_ri_2
+106	j_pinky_ri_3
+107	j_ring_le_1
+108	j_ring_le_2
+109	j_ring_le_3
+110	j_ring_ri_1
+111	j_ring_ri_2
+112	j_ring_ri_3
+113	j_shield_le
+114	j_shield_ri
+115	j_shoulder_le
+116	j_shoulder_ri
+117	j_shouldertwist_le
+118	j_shouldertwist_ri
+119	j_spine4
+120	j_spinelower
+121	j_spineupper
+122	j_thumb_le_1
+123	j_thumb_le_2
+124	j_thumb_le_3
+125	j_thumb_le_4
+126	j_thumb_ri_1
+127	j_thumb_ri_2
+128	j_thumb_ri_3
+129	j_thumb_ri_4
+130	j_trigger
+131	j_visor
+132	j_visor_inner
+133	j_webbing_le_1
+134	j_webbing_le_2
+135	j_webbing_ri_1
+136	j_webbing_ri_2
+137	j_wrist_le
+138	j_wrist_ri
+139	j_wristfronttwist1_le
+140	j_wristfronttwist1_ri
+141	mag_eject
+142	melee_attack_sfx
+143	mvmt_step_post
+144	mvmt_step_pre
+145	ps_weap_ar_idle_1_plr
+146	ps_weap_ar_idle_2_plr
+147	ps_weap_ar_idle_3_plr
+148	ps_weap_ar_idle_4_01_plr
+149	ps_weap_ar_idle_4_02_plr
+150	ps_weap_ar_idle_4_03_plr
+151	ps_wfoly_plr_ar_kilo433_gl_fromgrenade_01
+152	ps_wfoly_plr_ar_kilo433_gl_fromgrenade_02
+153	ps_wfoly_plr_ar_kilo433_gl_reload_fast_07
+154	ps_wfoly_plr_ar_kilo433_gl_togrenade_01
+155	ps_wfoly_plr_ar_kilo433_gl_togrenade_02
+156	ps_wfoly_plr_ar_kilo433_hybrid_scope_snap_closed
+157	ps_wfoly_plr_ar_kilo433_hybrid_scope_snap_open
+158	ps_wfoly_plr_ar_kilo433_reload_02
+159	ps_wfoly_plr_ar_tango21_drop_01
+160	ps_wfoly_plr_ar_tango21_drop_quick_01
+161	ps_wfoly_plr_ar_tango21_gl_reload_01
+162	ps_wfoly_plr_ar_tango21_gl_reload_02
+163	ps_wfoly_plr_ar_tango21_gl_reload_03
+164	ps_wfoly_plr_ar_tango21_gl_reload_04
+165	ps_wfoly_plr_ar_tango21_gl_reload_05
+166	ps_wfoly_plr_ar_tango21_gl_reload_06
+167	ps_wfoly_plr_ar_tango21_gl_reload_07
+168	ps_wfoly_plr_ar_tango21_gl_reload_08
+169	ps_wfoly_plr_ar_tango21_gl_reload_09
+170	ps_wfoly_plr_ar_tango21_gl_reload_fast_01
+171	ps_wfoly_plr_ar_tango21_gl_reload_fast_02
+172	ps_wfoly_plr_ar_tango21_gl_reload_fast_03
+173	ps_wfoly_plr_ar_tango21_gl_reload_fast_04
+174	ps_wfoly_plr_ar_tango21_gl_reload_fast_05
+175	ps_wfoly_plr_ar_tango21_gl_reload_fast_06
+176	ps_wfoly_plr_ar_tango21_gl_reload_fast_07
+177	ps_wfoly_plr_ar_tango21_inspect_01
+178	ps_wfoly_plr_ar_tango21_inspect_02
+179	ps_wfoly_plr_ar_tango21_inspect_03
+180	ps_wfoly_plr_ar_tango21_inspect_04
+181	ps_wfoly_plr_ar_tango21_inspect_05
+182	ps_wfoly_plr_ar_tango21_raise_01
+183	ps_wfoly_plr_ar_tango21_raise_quick_01
+184	ps_wfoly_plr_ar_tango21_reload_01
+185	ps_wfoly_plr_ar_tango21_reload_02
+186	ps_wfoly_plr_ar_tango21_reload_03
+187	ps_wfoly_plr_ar_tango21_reload_04
+188	ps_wfoly_plr_ar_tango21_reload_05
+189	ps_wfoly_plr_ar_tango21_reload_drum_01
+190	ps_wfoly_plr_ar_tango21_reload_drum_02
+191	ps_wfoly_plr_ar_tango21_reload_drum_03
+192	ps_wfoly_plr_ar_tango21_reload_drum_04
+193	ps_wfoly_plr_ar_tango21_reload_drum_05
+194	ps_wfoly_plr_ar_tango21_reload_drum_06
+195	ps_wfoly_plr_ar_tango21_reload_drum_empty_01
+196	ps_wfoly_plr_ar_tango21_reload_drum_empty_02
+197	ps_wfoly_plr_ar_tango21_reload_drum_empty_03
+198	ps_wfoly_plr_ar_tango21_reload_drum_empty_04
+199	ps_wfoly_plr_ar_tango21_reload_drum_empty_05
+200	ps_wfoly_plr_ar_tango21_reload_drum_empty_06
+201	ps_wfoly_plr_ar_tango21_reload_drum_empty_07
+202	ps_wfoly_plr_ar_tango21_reload_drum_empty_fast_01
+203	ps_wfoly_plr_ar_tango21_reload_drum_empty_fast_02
+204	ps_wfoly_plr_ar_tango21_reload_drum_empty_fast_03
+205	ps_wfoly_plr_ar_tango21_reload_drum_empty_fast_04
+206	ps_wfoly_plr_ar_tango21_reload_drum_empty_fast_05
+207	ps_wfoly_plr_ar_tango21_reload_drum_fast_01
+208	ps_wfoly_plr_ar_tango21_reload_drum_fast_02
+209	ps_wfoly_plr_ar_tango21_reload_drum_fast_03
+210	ps_wfoly_plr_ar_tango21_reload_drum_fast_04
+211	ps_wfoly_plr_ar_tango21_reload_empty_01
+212	ps_wfoly_plr_ar_tango21_reload_empty_02
+213	ps_wfoly_plr_ar_tango21_reload_empty_03
+214	ps_wfoly_plr_ar_tango21_reload_empty_04
+215	ps_wfoly_plr_ar_tango21_reload_empty_05
+216	ps_wfoly_plr_ar_tango21_reload_empty_06
+217	ps_wfoly_plr_ar_tango21_reload_empty_07
+218	ps_wfoly_plr_ar_tango21_reload_empty_08
+219	ps_wfoly_plr_ar_tango21_reload_empty_09
+220	ps_wfoly_plr_ar_tango21_reload_empty_fast_01
+221	ps_wfoly_plr_ar_tango21_reload_empty_fast_02
+222	ps_wfoly_plr_ar_tango21_reload_empty_fast_03
+223	ps_wfoly_plr_ar_tango21_reload_empty_fast_04
+224	ps_wfoly_plr_ar_tango21_reload_empty_fast_05
+225	ps_wfoly_plr_ar_tango21_reload_fast_01
+226	ps_wfoly_plr_ar_tango21_reload_fast_02
+227	ps_wfoly_plr_ar_tango21_reload_fast_03
+228	ps_wfoly_plr_ar_tango21_reload_fast_04
+229	ps_wfoly_plr_ar_tango21_reload_fast_05
+230	ps_wfoly_plr_ar_tango21_selectsemi_off_01
+231	ps_wfoly_plr_ar_tango21_selectsemi_on_01
+232	tag_accessory_left
+233	tag_accessory_right
+234	tag_acog_2
+235	tag_ads
+236	tag_barrel_attach
+237	tag_cambone
+238	tag_camera
+239	tag_clip
+240	tag_flash_alt
+241	tag_grenade_launcher
+242	tag_holo
+243	tag_hybrid
+244	tag_ik_loc_le
+245	tag_ik_loc_le_foregrip
+246	tag_ik_loc_le_launcher
+247	tag_ik_loc_le_shotgun
+248	tag_ik_loc_ri
+249	tag_knife_attach2
+250	tag_laser_attach
+251	tag_mag_attach
+252	tag_player
+253	tag_playerhelmet
+254	tag_reflex
+255	tag_sight_on
+256	tag_sling
+257	tag_sync
+258	tag_thermal
+259	tag_torso
+260	tag_view
+261	tag_weapon
+262	tag_weapon_left
+263	tag_weapon_right
+264	viewmodel_large
+265	viewmodel_medium
+266	viewmodel_small

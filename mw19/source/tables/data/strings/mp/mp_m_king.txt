@@ -1,0 +1,662 @@
+  1	
+  2	1
+  3	2
+  4	3
+  5	<rigidroot>
+  6	active
+  7	alarm
+  8	attitude_end_jnt
+  9	attitude_jnt
+ 10	average5
+ 11	back_axle_le
+ 12	back_axle_ri
+ 13	back_lowerstruts_le
+ 14	back_lowerstruts_ri
+ 15	back_lowerstrutsend_le
+ 16	back_lowerstrutsend_ri
+ 17	back_ring_lft_jnt
+ 18	back_ring_rgt_jnt
+ 19	back_shockabsorber_le
+ 20	back_shockabsorber_le_tgt
+ 21	back_shockabsorber_ri
+ 22	back_shockabsorber_ri_tgt
+ 23	back_shockabsorberend_le
+ 24	back_shockabsorberend_le_tgt
+ 25	back_shockabsorberend_ri
+ 26	back_shockabsorberend_ri_tgt
+ 27	back_shockbushing_le
+ 28	back_shockbushing_le_tgt
+ 29	back_shockbushing_ri
+ 30	back_shockbushing_ri_tgt
+ 31	back_shockbushingend_le
+ 32	back_shockbushingend_le_tgt
+ 33	back_shockbushingend_ri
+ 34	back_shockbushingend_ri_tgt
+ 35	back_upperstruts_le
+ 36	back_upperstruts_ri
+ 37	back_upperstrutsend_le
+ 38	back_upperstrutsend_ri
+ 39	backward
+ 40	barrier_wooden_slats_01_woodslats_kit_single_128_slat_01
+ 41	barrier_wooden_slats_01_woodslats_kit_single_post_03
+ 42	barrier_wooden_slats_01_woodslats_kit_single_post_04
+ 43	base
+ 44	binder_left
+ 45	body_animate_jnt
+ 46	bone_1
+ 47	bone_2
+ 48	bone_3
+ 49	bone_4
+ 50	box_wooden_grenade_01
+ 51	brakehandle_le
+ 52	brakehandle_ri
+ 53	building_hanging_tarps_01_white
+ 54	building_metal_sliding_door_01
+ 55	buildup_dirt_plaster_01_128
+ 56	chain_fence_base_01
+ 57	cinderblock_01_02_clip
+ 58	com_barrel_biohazard_rust
+ 59	com_junktire
+ 60	com_pallet_2
+ 61	compass_1_jnt
+ 62	compass_2_jnt
+ 63	compass_3_jnt
+ 64	compass_end_1_jnt
+ 65	compass_end_2_jnt
+ 66	compass_end_3_jnt
+ 67	conduit_metal_outlet_plug_box
+ 68	conduit_metal_outlet_plug_cover
+ 69	container_barrel_plastic_01_closed
+ 70	container_cardboard_chinese_02_dustable
+ 71	container_water_industrial_caged_01
+ 72	cosecho_barrier_01
+ 73	cp_disco_chainlink_fence_frame_02
+ 74	damageengine
+ 75	damageheavy
+ 76	damagelight
+ 77	damagemedium
+ 78	dash_jnt
+ 79	dash_ring_jnt
+ 80	dash_shaker_jnt
+ 81	dash_shaker_lft_jnt
+ 82	dash_shaker_rgt_jnt
+ 83	debris_junk_tire_01
+ 84	decor_boxes_02
+ 85	decor_misc_props_01_bottle
+ 86	door_frame_metal_panel_04_painted_rusty_mp_hero
+ 87	door_metal_roller_01_closed_large_01
+ 88	door_metal_roller_01_frames_large
+ 89	door_metal_roller_01_roller_large_01
+ 90	door_wood_01_frame
+ 91	door_wooden_hollow_mp_01
+ 92	door_wooden_hollow_no_hinge_mp_01
+ 93	dust
+ 94	ee_foliage_grass_garden_lawn_short_32_clovers_flowers_01
+ 95	ee_military_shooting_range_plate_02
+ 96	ee_pipe_01_clamps
+ 97	ee_pipe_01_joint_coupling_02
+ 98	ee_pipe_02_128
+ 99	ee_pipe_02_256
+100	ee_pipe_02_elbow_01
+101	ee_pipe_04_256
+102	ee_sign_train_car_02
+103	effects
+104	electrical_conduit_1_body_joint_c
+105	electrical_conduit_1_body_joint_t
+106	electrical_conduit_1_body_pull_elbow
+107	electrical_conduit_1_elbow90_long
+108	electrical_conduit_1_elbow90_short
+109	electrical_conduit_1_straight_128
+110	electrical_conduit_1_straight_16
+111	electrical_conduit_1_straight_32
+112	electrical_conduit_1_straight_4
+113	electrical_conduit_1_straight_64
+114	electrical_conduit_1_straight_8
+115	electrical_conduit_1_strap_med
+116	electrical_conduit_1_union
+117	electrical_conduit_2_brace_support
+118	electronics_fire_alarm_bell_01
+119	electronics_fire_alarm_bell_01_lod0
+120	end
+121	engine
+122	enginefailure
+123	equipment_mortar_shell_improvised_02_bare
+124	equipment_toolbox_02_orange_destr_s1_f1
+125	explode
+126	forward
+127	front_axle_le
+128	front_axle_ri
+129	front_lowerstruts_le
+130	front_lowerstruts_ri
+131	front_lowerstrutsend_le
+132	front_lowerstrutsend_ri
+133	front_shockabsorber_le
+134	front_shockabsorber_le_tgt
+135	front_shockabsorber_ri
+136	front_shockabsorber_ri_tgt
+137	front_shockabsorberend_le
+138	front_shockabsorberend_le_tgt
+139	front_shockabsorberend_ri
+140	front_shockabsorberend_ri_tgt
+141	front_shockbushing_le
+142	front_shockbushing_ri
+143	front_shockbushingend_le
+144	front_shockbushingend_ri
+145	front_upperstruts_le
+146	front_upperstruts_ri
+147	front_upperstrutsend_le
+148	front_upperstrutsend_ri
+149	fx_playfxontag, vfx/iw8/weap/_impact/snowball/vfx_snowball_pickup, j_thumb_ri_4
+150	fx_stopfxontag, vfx/iw8/weap/_impact/snowball/vfx_snowball_pickup, j_thumb_ri_4
+151	gib
+152	handle
+153	hardware_plywood_bare_01_48_dirty
+154	hardware_plywood_osb_bare_01_64
+155	hardware_plywood_painted_white_01
+156	hardware_plywood_painted_white_01_24
+157	headset_lft_jnt
+158	headset_rgt_jnt
+159	hide
+160	hide_rotor
+161	highspeed
+162	ik_out_end_right_hand
+163	ik_out_start_right_hand
+164	j_ankle_le
+165	j_ankle_ri
+166	j_ball_le
+167	j_ball_ri
+168	j_chest
+169	j_clavicle_le
+170	j_clavicle_ri
+171	j_crotch
+172	j_elbow_le
+173	j_elbow_ri
+174	j_elbowdq_le
+175	j_elbowdq_ri
+176	j_flamecloth1
+177	j_flamecloth2
+178	j_flamecloth3
+179	j_flamecloth4
+180	j_flamecloth5
+181	j_groinprotector
+182	j_gun
+183	j_head
+184	j_helmet
+185	j_hip_le
+186	j_hip_ri
+187	j_hiptwist_le
+188	j_hiptwist_ri
+189	j_index_le_1
+190	j_index_le_2
+191	j_index_le_3
+192	j_index_le_4
+193	j_index_ri_1
+194	j_index_ri_2
+195	j_index_ri_3
+196	j_index_ri_4
+197	j_knee_le
+198	j_knee_ri
+199	j_kneedq_le
+200	j_kneedq_ri
+201	j_mainroot
+202	j_metaindex_le_1
+203	j_metaindex_ri_1
+204	j_metamid_le_1
+205	j_metamid_ri_1
+206	j_metapinky_le_1
+207	j_metapinky_ri_1
+208	j_metaring_le_1
+209	j_metaring_ri_1
+210	j_mid_le_1
+211	j_mid_le_2
+212	j_mid_le_3
+213	j_mid_ri_1
+214	j_mid_ri_2
+215	j_mid_ri_3
+216	j_neck
+217	j_nvg
+218	j_page_1
+219	j_page_10
+220	j_page_11
+221	j_page_12
+222	j_page_2
+223	j_page_3
+224	j_page_4
+225	j_page_5
+226	j_page_6
+227	j_page_7
+228	j_page_8
+229	j_page_9
+230	j_pinky_le_1
+231	j_pinky_le_2
+232	j_pinky_le_3
+233	j_pinky_ri_1
+234	j_pinky_ri_2
+235	j_pinky_ri_3
+236	j_ring_le_1
+237	j_ring_le_2
+238	j_ring_le_3
+239	j_ring_ri_1
+240	j_ring_ri_2
+241	j_ring_ri_3
+242	j_shield_le
+243	j_shield_ri
+244	j_shoulder_le
+245	j_shoulder_ri
+246	j_shouldertwist_le
+247	j_shouldertwist_ri
+248	j_sign1
+249	j_sign2
+250	j_sign3
+251	j_sign4
+252	j_sign5
+253	j_spine4
+254	j_spinelower
+255	j_spineupper
+256	j_spoke_inner_le
+257	j_spoke_inner_ri
+258	j_spoke_le
+259	j_spoke_outer_le
+260	j_spoke_outer_ri
+261	j_spoke_ri
+262	j_tarp_1
+263	j_tarp_2
+264	j_tarp_3
+265	j_tarp_4
+266	j_tarp_5
+267	j_thumb_le_1
+268	j_thumb_le_2
+269	j_thumb_le_3
+270	j_thumb_le_4
+271	j_thumb_ri_1
+272	j_thumb_ri_2
+273	j_thumb_ri_3
+274	j_thumb_ri_4
+275	j_top_le
+276	j_top_ri
+277	j_visor
+278	j_visor_inner
+279	j_webbing_le_1
+280	j_webbing_le_2
+281	j_webbing_ri_1
+282	j_webbing_ri_2
+283	j_wrist_le
+284	j_wrist_ri
+285	j_wristfronttwist1_le
+286	j_wristfronttwist1_ri
+287	lever_jnt
+288	lighting_fixtures_security_lamp_holder_01
+289	lighting_fixtures_security_lamp_withcage_01
+290	lighting_fixtures_security_lamp_withcage_01_glass
+291	lights
+292	lowspeed
+293	main_rotor_jnt
+294	me_chainlink_fence_pole
+295	me_chainlink_fence_pole_lod0
+296	me_curb_trash_02
+297	me_door_metal_gate_01
+298	me_door_metal_gate_hinge
+299	me_garbage_pile_03
+300	me_light_ceiling_fluorescent_tube_cage_on_strong
+301	me_litter_pile_02
+302	me_litter_pile_06
+303	me_sign_shoothouse_01
+304	metal_drain_grate_01
+305	military_action_target_01
+306	military_shooting_targets_01
+307	military_shooting_targets_03
+308	military_shooting_targets_05
+309	military_target_firingrangebody_metal_01_a
+310	misc_bolt_01
+311	misc_tools_pliers_01
+312	misc_tools_wrench_01
+313	mout_catwalk_256
+314	mout_catwalk_railing_128
+315	mout_catwalk_railing_32
+316	mout_catwalk_railing_64
+317	mout_catwalk_railing_corner_out
+318	mout_catwalk_stairs_bottom
+319	mout_catwalk_stairs_connector
+320	mout_catwalk_stairs_middle
+321	mout_catwalk_stairs_top
+322	mout_catwalk_support_brace_x_128x128
+323	mout_catwalk_support_pillar_128
+324	mout_container_doorframe_01
+325	mout_container_doorframe_right_01
+326	mout_container_end_door_left
+327	mout_container_end_door_right
+328	mout_container_end_frame_closed
+329	mout_container_end_frame_hinged
+330	mout_container_floor_connector_128
+331	mout_container_floor_connector_64
+332	mout_container_wall_128
+333	mout_container_wall_32
+334	mout_container_wall_doorway_single
+335	mout_container_wall_interior_end
+336	mout_container_wall_interior_flat_64
+337	mout_cover_plywood_thick_01
+338	mout_cover_plywood_thin_01_painted_white
+339	mout_cover_plywood_thin_02
+340	mout_pipe_corrugated_96_standing
+341	mout_railing_wood_128_half_solid
+342	mout_railing_wood_32_half_solid
+343	mout_railing_wood_64_half_solid
+344	mout_stairs_wood_96
+345	mout_stairs_wood_middle
+346	mout_stairs_wood_support_01
+347	mout_stairs_wood_support_02
+348	mout_wall_stud_128
+349	mout_wall_stud_16
+350	mout_wall_stud_32
+351	mout_wall_stud_48
+352	mout_wall_stud_ceiling_128x128
+353	mout_wall_stud_ceiling_64x128
+354	mout_wall_stud_ceiling_64x24
+355	mout_wall_stud_corner_outside
+356	moving_crane_body_01
+357	moving_crane_hook_01
+358	moving_crane_rail_01
+359	mp_arena_spawn
+360	mp_arena_spawn_allies_start
+361	mp_arena_spawn_axis_start
+362	mp_ctf_spawn
+363	mp_ctf_spawn_allies_start
+364	mp_ctf_spawn_axis_start
+365	mp_cyber_spawn_allies
+366	mp_cyber_spawn_axis
+367	mp_dm_spawn
+368	mp_dm_spawn_start
+369	mp_dom_spawn
+370	mp_dom_spawn_allies_start
+371	mp_dom_spawn_axis_start
+372	mp_sd_spawn_attacker
+373	mp_sd_spawn_defender
+374	mp_tdm_spawn
+375	mp_tdm_spawn_allies_start
+376	mp_tdm_spawn_axis_start
+377	neutral
+378	off
+379	on
+380	origin_animate_jnt
+381	pedal_l_jnt
+382	pedal_r_jnt
+383	polysurface2
+384	polysurface3
+385	pplane151
+386	pplane152
+387	pplane153
+388	pplane154
+389	pplane155
+390	pplane156
+391	pplane186
+392	pplane187
+393	pplane188
+394	pplane189
+395	pplane190
+396	pplane191
+397	pplane192
+398	pplane193
+399	pplane194
+400	pplane195
+401	pplane196
+402	pplane197
+403	pplane198
+404	pplane199
+405	pplane200
+406	pplane201
+407	pplane202
+408	pplane203
+409	pplane204
+410	pplane205
+411	pplane206
+412	pplane207
+413	pplane208
+414	pplane209
+415	pplane210
+416	pplane211
+417	pplane212
+418	pplane213
+419	pplane214
+420	pplane215
+421	pplane216
+422	pplane217
+423	pplane218
+424	pplane219
+425	pplane220
+426	pplane221
+427	ps_weap_snowball_pin_plr
+428	rotor_neutral
+429	sandbag_01
+430	sandbag_02
+431	screen_arm_jnt
+432	screen_jnt
+433	script_ignite
+434	scriptable_decor_misc_props_01_bottle
+435	scriptable_decor_plastic_buckets_01_small_white
+436	scriptable_electronics_fire_alarm_bell_01
+437	scriptable_equipment_industrial_hand_clamp_01
+438	scriptable_equipment_mortar_shell_improvised_02_bare
+439	scriptable_equipment_propane_burner_stove_01_white
+440	scriptable_equipment_toolbox_02_orange
+441	scriptable_food_cans_bottles_and_jars_can_02
+442	scriptable_glass_beer_bottle_fn_01
+443	scriptable_lighting_fixtures_security_lamp_withcage_01
+444	scriptable_military_target_firingrangebody_metal_01_aim_01
+445	scriptable_military_target_firingrangebody_metal_01_aim_02
+446	scriptable_uk_electrical_box_medium_01
+447	scriptable_uk_gas_tank_thin_cylinder
+448	scriptable_uk_plastic_container_filled_01
+449	scriptable_uk_security_camera_redlight_head_01
+450	scriptable_uk_yellow_component_bin_filled_01
+451	scriptable_un_office_binder_open_02
+452	seat_ring_lft_jnt
+453	seat_ring_rgt_jnt
+454	shell_casings_ar_07
+455	show
+456	sign_emergency_exit_light_02
+457	sign_military_training_course_01
+458	sign_military_training_course_03
+459	sign_military_training_course_04
+460	sign_un_variation_b_01
+461	single
+462	skin11
+463	skin11_idle
+464	skin25
+465	skin25_idle
+466	skin28
+467	skin28_idle
+468	splash listener
+469	stick_l_jnt
+470	stick_r_jnt
+471	stick_r_jntbase
+472	stopped
+473	storage_shipping_container_20ft_closed_red
+474	tag_ac130_camera
+475	tag_body
+476	tag_body_animate
+477	tag_body_animate_loc
+478	tag_cambone
+479	tag_camera
+480	tag_detach
+481	tag_door_handle
+482	tag_driver
+483	tag_emp_fx
+484	tag_engine_fx_left
+485	tag_exhaust
+486	tag_exhaust_top_l
+487	tag_exhaust_top_r
+488	tag_fx
+489	tag_head
+490	tag_ik_foot_loc_le_seat_0
+491	tag_ik_foot_loc_ri_seat_0
+492	tag_ik_loc_le
+493	tag_ik_loc_le_orientconstraint1
+494	tag_ik_loc_le_pointconstraint1
+495	tag_ik_loc_le_seat_0
+496	tag_ik_loc_ri
+497	tag_ik_loc_ri_orientconstraint1
+498	tag_ik_loc_ri_pointconstraint1
+499	tag_ik_loc_ri_seat_0
+500	tag_lever_rot
+501	tag_light_1
+502	tag_light_2
+503	tag_light_3
+504	tag_light_4
+505	tag_light_5
+506	tag_light_back_right
+507	tag_light_front_left
+508	tag_light_front_right
+509	tag_light_front_right_2
+510	tag_light_tail
+511	tag_main_rotor_blade_01
+512	tag_main_rotor_blade_01_blur
+513	tag_main_rotor_blade_01_rot
+514	tag_main_rotor_blade_02
+515	tag_main_rotor_blade_02_blur
+516	tag_main_rotor_blade_02_rot
+517	tag_main_rotor_blade_03
+518	tag_main_rotor_blade_03_blur
+519	tag_main_rotor_blade_03_rot
+520	tag_main_rotor_blade_04
+521	tag_main_rotor_blade_04_blur
+522	tag_main_rotor_blade_04_rot
+523	tag_main_rotor_blade_05
+524	tag_main_rotor_blade_05_blur
+525	tag_main_rotor_blade_05_rot
+526	tag_main_rotor_motion
+527	tag_main_rotor_static
+528	tag_origin
+529	tag_origin_animate
+530	tag_origin_grp
+531	tag_passenger
+532	tag_passenger1
+533	tag_passenger2
+534	tag_passenger3
+535	tag_passenger4
+536	tag_passenger5
+537	tag_passenger6
+538	tag_pedal_l_rot
+539	tag_pedal_r_rot
+540	tag_personnel_platform
+541	tag_pilot1
+542	tag_pilot2
+543	tag_player
+544	tag_playerhelmet
+545	tag_seat_0
+546	tag_seat_1
+547	tag_seat_2
+548	tag_seat_3
+549	tag_seat_4
+550	tag_seat_5
+551	tag_seat_6
+552	tag_seat_7
+553	tag_seat_enter_0
+554	tag_seat_enter_2
+555	tag_seat_exit_0
+556	tag_seat_exit_2
+557	tag_skyhook_attach
+558	tag_skyhook_side_attach
+559	tag_snowball_fx
+560	tag_spout
+561	tag_steering_axis
+562	tag_steering_jnt
+563	tag_stick_l_rot
+564	tag_stick_r_rot
+565	tag_stowed_back
+566	tag_sync
+567	tag_tail_rotor_blade02_rot
+568	tag_tail_rotor_blade_01
+569	tag_tail_rotor_blade_01_blur
+570	tag_tail_rotor_blade_01_rot
+571	tag_tail_rotor_blade_02
+572	tag_tail_rotor_blade_02_blur
+573	tag_tail_rotor_motion
+574	tag_tail_rotor_rot
+575	tag_tail_rotor_static
+576	tag_torso
+577	tag_turret_left
+578	tag_turret_right
+579	tag_use
+580	tag_view
+581	tag_weapon
+582	tag_weapon_left
+583	tag_weapon_platform
+584	tag_weapon_right
+585	tag_wheel_back_left
+586	tag_wheel_back_right
+587	tag_wheel_center_back_left
+588	tag_wheel_center_back_right
+589	tag_wheel_center_front_left
+590	tag_wheel_center_front_right
+591	tag_wheel_front_left
+592	tag_wheel_front_right
+593	tail_rotor_jnt
+594	tail_rotor_shaft
+595	tool_metal_nail_01
+596	trail
+597	uk_electrical_box_medium_01
+598	uk_foliage_small_weeds_01
+599	uk_foliage_small_weeds_02
+600	uk_foliage_small_weeds_03
+601	uk_foliage_strip_weeds_01
+602	uk_foliage_wall_weeds_01
+603	uk_foliage_wall_weeds_02
+604	uk_garage_workbench_01
+605	uk_industrial_light_01
+606	uk_metal_beam_buffer_01
+607	uk_metal_frame_warehouse_05
+608	uk_misc_hand_towel_dirty_02
+609	uk_plastic_container_filled_01
+610	uk_security_camera_redlight_base_01
+611	uk_siding_metal_corrugated_01_128x24_unpainted_2sided
+612	uk_siding_metal_corrugated_01_128x40_olive
+613	uk_siding_metal_corrugated_01_128x88
+614	uk_siding_metal_corrugated_01_40_corner_02
+615	uk_siding_metal_corrugated_01_64x24_unpainted
+616	uk_siding_metal_corrugated_01_64x24_unpainted_2sided
+617	uk_siding_metal_corrugated_01_64x40_unpainted
+618	uk_siding_metal_corrugated_01_64x48
+619	uk_siding_metal_corrugated_01_64x88
+620	uk_siding_metal_corrugated_01_88_corner_02
+621	uk_siding_metal_corrugated_01_88_corner_teal
+622	uk_sign_warning_industrial_10
+623	uk_tire_stack_01
+624	uk_wall_wood_stud_frame_01_2x120
+625	uk_warehouse_window_frame_02
+626	uk_window_industrial_metal_single_04
+627	uk_yellow_component_bin_filled_01
+628	un_building_tarp_construction_128_03_gray
+629	un_building_tarp_construction_128_03a_green
+630	un_metal_steel_support_w_beam_16x8x256_brown
+631	veh8_ind_lnd_foscar_02_raised_static
+632	vehicle_unusable
+633	vehicle_use
+634	vfx/iw8_mp/gen_amb/vfx_dust_motes_med
+635	vfx/iw8_mp/gen_amb/vfx_gnat_swarm_1
+636	vfx/iw8_mp/gen_amb/vfx_mosquitos_over_water_1
+637	vfx/iw8_mp/gen_amb/vfx_moths_1
+638	vfx/iw8_mp/level/king/vfx_king_billow_mist_a
+639	vfx/iw8_mp/level/king/vfx_king_constant_motes
+640	vfx/iw8_mp/level/king/vfx_king_fluorescent_lf
+641	vfx/iw8_mp/level/king/vfx_king_gd_steam_a
+642	vfx/iw8_mp/level/king/vfx_king_mist_ground_01
+643	vfx/iw8_mp/level/king/vfx_king_sunflare
+644	vfx_dust_motes_med
+645	vfx_gnat_swarm_1
+646	vfx_king_billow_mist_a
+647	vfx_king_constant_motes
+648	vfx_king_fluorescent_lf
+649	vfx_king_gd_steam_a
+650	vfx_king_mist_ground_01
+651	vfx_king_sunflare
+652	vfx_mosquitos_over_water_1
+653	vfx_moths_1
+654	viewmodel_medium
+655	viewmodel_small
+656	visibility
+657	water_tank_industrial_caged
+658	wheel_tire_rim_01
+659	wire_1_end_jnt
+660	wire_1_jnt
+661	wires_electrical_set_hanging_01
+662	wires_electrical_set_hanging_03

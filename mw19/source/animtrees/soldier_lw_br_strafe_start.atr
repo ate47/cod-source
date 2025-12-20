@@ -1,0 +1,34 @@
+%force_cs_anim_index_match
+
+startblendtoggle : toggle( index=[strafe_forward_index], blendtime="0.1", restart=false ) nonloopsync
+{
+	startblend: blendspace1d( range="-180,180", blend_time="100",
+	coords="-180,-135,-90,-45,0,45,90,135,180",
+	value=[strafeyaw] )
+	{
+		sdr_cqb_strafe_fast_start_2
+		sdr_cqb_strafe_fast_start_3_alt
+		sdr_cqb_strafe_fast_start_6
+		sdr_cqb_strafe_fast_start_9
+		sdr_cqb_strafe_fast_start_8
+		sdr_cqb_strafe_fast_start_7
+		sdr_cqb_strafe_fast_start_4
+		sdr_cqb_strafe_fast_start_1
+		sdr_cqb_strafe_fast_start_2@1
+	}
+
+	startblendreverse:	blendspace1d( range="-180,180", blend_time="100",
+	coords="-180,-135,-90,-45,0,45,90,135,180",
+	value=[strafeyaw] )
+	{
+		sdr_cqb_strafe_fast_start_2@2
+		sdr_cqb_strafe_fast_start_3
+		sdr_cqb_strafe_fast_start_6@1
+		sdr_cqb_strafe_fast_start_9@1
+		sdr_cqb_strafe_fast_start_8@1
+		sdr_cqb_strafe_fast_start_7@1
+		sdr_cqb_strafe_fast_start_4@1
+		sdr_cqb_strafe_fast_start_1@1
+		sdr_cqb_strafe_fast_start_2@3
+	}
+}

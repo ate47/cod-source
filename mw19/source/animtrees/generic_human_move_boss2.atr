@@ -1,0 +1,15 @@
+%force_cs_anim_index_match
+
+move_loop: loopsync blendspace2d( rangex="-90,90", rangey="30,60", blend_time="250",
+coords="{0,30},{0,60},{-90,30},{-90,60},{90,30},{90,60}",
+edges="{1,2,3},{0,1,2},{0,1,4},{1,4,5}",
+	valuex=[leanyaw],valuey=[desiredspeed] )
+{
+	boss_injured_search_strafe_shuffle_8
+	boss_injured_search_strafe_walk_8
+	boss_injured_search_strafe_lean_l_shuffle
+	boss_injured_search_strafe_lean_l_walk
+	boss_injured_search_strafe_lean_r_shuffle
+	boss_injured_search_strafe_lean_r_walk
+}
+

@@ -1,0 +1,9 @@
+%force_cs_anim_index_match
+
+move_slopes: blendspace1d( range="-45,45", blend_time="150", coords="-45,0,45",value=[groundslope] )
+{
+	civ_movement_slopes_decline
+	civ_movement_slopes_level
+	civ_movement_slopes_incline
+	
+}

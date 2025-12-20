@@ -1,0 +1,9 @@
+%force_cs_anim_index_match
+
+casual_move_loop : blendspace1d( range="50,190", blend_time="200", coords="50,130,170,190", value=[desiredspeed] ) loopsync
+{
+	hadir_yth_walk_poppies01
+	hadir_yth_fast_poppies01
+	hadir_yth_jog_poppies01
+	hadir_yth_run_poppies01
+}

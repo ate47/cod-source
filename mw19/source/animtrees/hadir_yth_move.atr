@@ -1,0 +1,10 @@
+%force_cs_anim_index_match
+
+move_loop : blendspace1d( range="0,150", blend_time="200", coords="40,102,103,149", value=[desiredspeed] ) loopsync
+{
+	hadir_yth_walk_forward01
+	hadir_yth_fast_forward01
+	hadir_yth_jog_forward01
+	hadir_yth_run_forward01
+}
+

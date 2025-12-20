@@ -1,0 +1,9 @@
+%force_cs_anim_index_match
+
+move_slopes: additive blendspace1d( range="-45,45", blend_time="100", coords="-45,0,45",value=[groundslope] )
+{
+	hadir_yth_jog_slopes
+	hadir_yth_fast_slopes
+	hadir_yth_walk_slopes
+	
+}
